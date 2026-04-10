@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Zap, Database, Settings, Lightbulb, TrendingUp, Smartphone, Target, MessageSquare, BarChart3, MessageCircle } from "lucide-react";
+import { Zap, Database, Settings, Lightbulb, TrendingUp, Smartphone, Target, MessageSquare, BarChart3, MessageCircle, Brain } from "lucide-react";
 import { Link } from "wouter";
 
 /**
@@ -61,6 +61,12 @@ const services = [
     description: "Diseñamos y desarrollamos chatbots conversacionales que automatizan la atención al cliente, optimizan la comunicación y mejoran la interacción digital con los usuarios.",
     icon: MessageCircle,
     link: "/chatbots-conversacionales",
+  },
+  {
+    title: "Diseño y desarrollo de conversaciones con IA",
+    description: "Creamos experiencias conversacionales inteligentes, combinando automatización y entrenamiento de IA para lograr respuestas naturales, precisas y orientadas a resultados.",
+    icon: Brain,
+    link: "/conversaciones-ia",
   }
 ];
 
@@ -71,10 +77,10 @@ export default function ServicesSection() {
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-4">
-            Nuestros Servicios
+            Nuestros servicios
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Soluciones integrales para automatizar y optimizar tu comunicación en WhatsApp Business
+            Somos una agencia de automatización de WhatsApp Business API para la gestión de ventas, servicios, soporte, pedidos, citas, turnos de trabajo y consultas de saldos. Integraciones con HubSpot, Google Sheets, Zapier, etc. Consultoría especializada para escalar tu comunicación con clientes de forma inteligente.
           </p>
         </div>
 

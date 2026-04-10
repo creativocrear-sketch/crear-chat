@@ -10,14 +10,15 @@ export default function Footer() {
     <footer className="bg-gray-900 text-gray-300 py-8">
       <div className="container">
         <div className="flex flex-col md:flex-row justify-between items-center text-sm">
-          {/* Brand and Copyright */}
-          <div className="flex items-center gap-2 font-bold text-lg text-white">
-            crear.chat
+          <div className="flex items-center gap-2">
+            <img 
+              alt="Crear Chat Logo" 
+              className="h-16 md:h-20 w-auto" 
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663365918901/dSwJK3W4FW3am7RcRumTG2/Diseñosintítulo(19)_2a52744b.png"
+            />
           </div>
-
-          {/* Copyright */}
           <p className="text-gray-400 mt-4 md:mt-0">
-            &copy; 2026 crear.chat. Todos los derechos reservados.
+            © 2026 crear.chat. Todos los derechos reservados.
           </p>
         </div>
       </div>

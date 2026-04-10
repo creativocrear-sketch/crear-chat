@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
+import PlatformsSection from "@/components/PlatformsSection";
 import ClientsCarousel from "@/components/ClientsCarousel";
 import IntegrationsSection from "@/components/IntegrationsSection";
 import ContactFooter from "@/components/ContactFooter";
@@ -38,6 +39,7 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
         <ServicesSection />
+        <PlatformsSection />
         <IntegrationsSection />
         <ClientsCarousel />
         <ContactFooter />
