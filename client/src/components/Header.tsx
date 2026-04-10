@@ -23,8 +23,12 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-gray-100">
       <div className="container flex items-center justify-between py-4">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity font-bold text-xl text-gray-900">
-          CC
+        <a href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <img 
+            alt="Crear Chat Logo" 
+            className="h-8 w-auto" 
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663365918901/dSwJK3W4FW3am7RcRumTG2/Diseñosintítulo(19)_2a52744b.png"
+          />
         </a>
 
         {/* Desktop Navigation */}
