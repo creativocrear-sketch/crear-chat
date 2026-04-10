@@ -26,7 +26,7 @@ export default function Header() {
         <a href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
           <img 
             alt="Crear Chat Logo" 
-            className="h-8 w-auto" 
+            className="h-12 w-auto md:h-14" 
             src="https://d2xsxph8kpxj0f.cloudfront.net/310519663365918901/dSwJK3W4FW3am7RcRumTG2/Diseñosintítulo(19)_2a52744b.png"
           />
         </a>
