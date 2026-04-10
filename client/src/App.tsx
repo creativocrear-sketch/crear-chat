@@ -12,6 +12,11 @@ import BlogArticle3 from "./pages/BlogArticle3";
 import BlogArticle4 from "./pages/BlogArticle4";
 import BlogArticle5 from "./pages/BlogArticle5";
 import BlogArticle6 from "./pages/BlogArticle6";
+import BlogArticle7 from "./pages/BlogArticle7";
+import BlogArticle8 from "./pages/BlogArticle8";
+import BlogArticle9 from "./pages/BlogArticle9";
+import BlogArticle10 from "./pages/BlogArticle10";
+import BlogArticle11 from "./pages/BlogArticle11";
 import Planes from "./pages/Planes";
 import ConsultoriaWhatsApp from "./pages/ConsultoriaWhatsApp";
 import EstrategiasMarketing from "./pages/EstrategiasMarketing";
@@ -34,6 +39,11 @@ function Router() {
       <Route path={"/blog/articulo-4"} component={BlogArticle4} />
       <Route path={"/blog/articulo-5"} component={BlogArticle5} />
       <Route path={"/blog/articulo-6"} component={BlogArticle6} />
+      <Route path={"/blog/articulo-7"} component={BlogArticle7} />
+      <Route path={"/blog/articulo-8"} component={BlogArticle8} />
+      <Route path={"/blog/articulo-9"} component={BlogArticle9} />
+      <Route path={"/blog/articulo-10"} component={BlogArticle10} />
+      <Route path={"/blog/articulo-11"} component={BlogArticle11} />
       <Route path={"/planes"} component={Planes} />
       <Route path={"/consultoria-whatsapp"} component={ConsultoriaWhatsApp} />
       <Route path={"/estrategias-marketing"} component={EstrategiasMarketing} />
