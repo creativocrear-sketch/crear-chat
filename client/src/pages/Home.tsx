@@ -3,7 +3,6 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
 import PlatformsSection from "@/components/PlatformsSection";
-import ClientsCarousel from "@/components/ClientsCarousel";
 import IntegrationsSection from "@/components/IntegrationsSection";
 import ContactFooter from "@/components/ContactFooter";
 import Footer from "@/components/Footer";
@@ -41,7 +40,6 @@ export default function Home() {
         <ServicesSection />
         <PlatformsSection />
         <IntegrationsSection />
-        <ClientsCarousel />
         <ContactFooter />
       </main>
       <Footer />

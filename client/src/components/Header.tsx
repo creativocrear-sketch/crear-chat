@@ -36,12 +36,6 @@ export default function Header() {
             Integraciones
           </a>
           <a
-            href="/#nuestros-planes"
-            className="inline-flex items-center justify-center px-6 py-2 border border-gray-300 hover:bg-gray-50 text-gray-900 font-medium transition-all duration-300 rounded-md"
-          >
-            Planes
-          </a>
-          <a
             href="https://wa.me/+573105317126"
             target="_blank"
             rel="noopener noreferrer"
