@@ -24,6 +24,50 @@ const translations = {
         integrationDesc: 'Conecta con tus herramientas favoritas',
         analytics: 'Análisis y reportes',
         analyticsDesc: 'Métricas detalladas de tu comunicación'
+      },
+      services: {
+        consulting: 'Consultoría especializada',
+        consultingDesc: 'Asesoramos a empresas en la implementación y optimización de WhatsApp Business API para automatizar la comunicación, mejorar la atención al cliente y potenciar la gestión comercial.',
+        marketing: 'Estrategias de automatización y marketing digital',
+        marketingDesc: 'Diseñamos estrategias de automatización y marketing digital basadas en datos para atraer clientes, optimizar procesos y aumentar la conversión mediante comunicación inteligente y campañas automatizadas.',
+        customerService: 'Automatización de canales de atención al cliente',
+        customerServiceDesc: 'Automatizamos los canales de atención al cliente mediante soluciones tecnológicas que optimizan la comunicación, mejoran la experiencia del usuario y aumentan la eficiencia operativa.',
+        sales: 'Automatización de ventas y optimización de conversiones',
+        salesDesc: 'Automatizamos procesos de ventas y optimizamos la conversión de clientes mediante tecnología, datos y estrategias digitales que mejoran la eficiencia comercial y aumentan los resultados.',
+        platform: 'Plataforma integrada para administración de chats',
+        platformDesc: 'Centralizamos la gestión de conversaciones en WhatsApp e Instagram en una sola plataforma para optimizar la atención, automatizar respuestas y mejorar la comunicación con clientes.',
+        database: 'Gestión inteligente de bases de datos de contactos',
+        databaseDesc: 'Gestionamos y optimizamos bases de datos de contactos para garantizar información actualizada, segmentación precisa y mejor rendimiento en estrategias comerciales y de marketing digital.'
+      },
+      platforms: {
+        sales: 'Gestión de ventas',
+        salesDesc: 'Centraliza y gestiona tus oportunidades de venta desde WhatsApp en un solo lugar. Haz seguimiento a cada cliente, controla el proceso comercial y mejora el cierre de ventas con mayor orden y visibilidad.',
+        orders: 'Gestión de pedidos',
+        ordersDesc: 'Recibe y organiza todos tus pedidos directamente por WhatsApp en un solo lugar. Será un seguimiento para inventario, producción, entrega y facturación.',
+        shifts: 'Gestión de turnos de trabajo',
+        shiftsDesc: 'Organiza los turnos de tu equipo de manera automática y eficiente evitando confusiones. Olvídate de agendas dispersas y mantén a todos informados al instante a través de WhatsApp.',
+        appointments: 'Gestión de citas médicas',
+        appointmentsDesc: 'Permite que tus pacientes agenden, modifiquen o cancelen citas en segundos, mientras reciben recordatorios automáticos que reducen ausencias. Todo el control está en WhatsApp, de manera sencilla y confiable.',
+        balances: 'Consultas de saldos y deudas',
+        balancesDesc: 'Permite que tus clientes consulten sus saldos y deudas al instante, directamente desde WhatsApp. Mantén la información siempre accesible y actualizada, mejorando la comunicación y la transparencia.',
+        loyalty: 'Fidelización de clientes',
+        loyaltyDesc: 'Permite que tus clientes acumulen puntos dependiendo de las compras que hayan hecho. Gestiona premios, descuentos y bonificaciones para impulsar la recompra y nuevas ventas.'
+      },
+      integrations: {
+        whatsapp: 'WhatsApp Business API',
+        whatsappDesc: 'Integramos tu empresa con WhatsApp Business API para automatizar mensajes, gestionar conversaciones y escalar la atención a clientes desde un solo sistema.',
+        instagram: 'Instagram',
+        instagramDesc: 'Centraliza los mensajes directos de Instagram y gestiona las conversaciones desde una plataforma unificada.',
+        sheets: 'Google Sheets',
+        sheetsDesc: 'Sincroniza automáticamente la información de contactos, conversaciones o pedidos con Google Sheets para análisis y gestión de datos.',
+        crm: 'CRM (HubSpot y otros)',
+        crmDesc: 'Integramos tu sistema con CRM como HubSpot para organizar contactos, registrar interacciones y mejorar el seguimiento comercial.',
+        zapier: 'Automatizaciones (Zapier)',
+        zapierDesc: 'Conecta crear.chat con cientos de aplicaciones para automatizar procesos y flujos de trabajo entre diferentes plataformas.',
+        sms: 'SMS',
+        smsDesc: 'Envía mensajes SMS automatizados para notificaciones, recordatorios o comunicaciones importantes con tus clientes.',
+        email: 'Correo electrónico',
+        emailDesc: 'Integra el envío de correos electrónicos automatizados para comunicaciones programadas y seguimiento de clientes.'
       }
     },
     // Footer
@@ -185,6 +229,50 @@ const translations = {
         integrationDesc: 'Connect with your favorite tools',
         analytics: 'Analytics and reports',
         analyticsDesc: 'Detailed metrics of your communication'
+      },
+      services: {
+        consulting: 'Specialized Consulting',
+        consultingDesc: 'We advise companies on implementing and optimizing WhatsApp Business API to automate communication, improve customer service, and boost commercial management.',
+        marketing: 'Automation and Digital Marketing Strategies',
+        marketingDesc: 'We design data-driven automation and digital marketing strategies to attract customers, optimize processes, and increase conversion through intelligent communication and automated campaigns.',
+        customerService: 'Customer Service Channel Automation',
+        customerServiceDesc: 'We automate customer service channels through technological solutions that optimize communication, improve user experience, and increase operational efficiency.',
+        sales: 'Sales Automation and Conversion Optimization',
+        salesDesc: 'We automate sales processes and optimize customer conversion through technology, data, and digital strategies that improve commercial efficiency and increase results.',
+        platform: 'Integrated Chat Management Platform',
+        platformDesc: 'We centralize WhatsApp and Instagram conversation management in one platform to optimize service, automate responses, and improve customer communication.',
+        database: 'Intelligent Contact Database Management',
+        databaseDesc: 'We manage and optimize contact databases to ensure updated information, precise segmentation, and better performance in commercial and digital marketing strategies.'
+      },
+      platforms: {
+        sales: 'Sales Management',
+        salesDesc: 'Centralize and manage your sales opportunities from WhatsApp in one place. Follow up with each customer, control the commercial process and improve sales closure with better order and visibility.',
+        orders: 'Order Management',
+        ordersDesc: 'Receive and organize all your orders directly through WhatsApp in one place. Track inventory, production, delivery and invoicing.',
+        shifts: 'Work Shift Management',
+        shiftsDesc: 'Organize your team shifts automatically and efficiently avoiding confusion. Forget scattered schedules and keep everyone informed instantly through WhatsApp.',
+        appointments: 'Medical Appointment Management',
+        appointmentsDesc: 'Allow your patients to schedule, modify or cancel appointments in seconds, while receiving automatic reminders that reduce no-shows. All control is in WhatsApp, simple and reliable.',
+        balances: 'Balance and Debt Inquiries',
+        balancesDesc: 'Allow your customers to check their balances and debts instantly, directly from WhatsApp. Keep information always accessible and updated, improving communication and transparency.',
+        loyalty: 'Customer Loyalty',
+        loyaltyDesc: 'Allow your customers to accumulate points depending on their purchases. Manage rewards, discounts and bonuses to drive repurchases and new sales.'
+      },
+      integrations: {
+        whatsapp: 'WhatsApp Business API',
+        whatsappDesc: 'We integrate your business with WhatsApp Business API to automate messages, manage conversations and scale customer service from a single system.',
+        instagram: 'Instagram',
+        instagramDesc: 'Centralize Instagram direct messages and manage conversations from a unified platform.',
+        sheets: 'Google Sheets',
+        sheetsDesc: 'Automatically sync contact, conversation or order information with Google Sheets for analysis and data management.',
+        crm: 'CRM (HubSpot and others)',
+        crmDesc: 'We integrate your system with CRM like HubSpot to organize contacts, register interactions and improve commercial follow-up.',
+        zapier: 'Automations (Zapier)',
+        zapierDesc: 'Connect crear.chat with hundreds of applications to automate processes and workflows between different platforms.',
+        sms: 'SMS',
+        smsDesc: 'Send automated SMS messages for notifications, reminders or important communications with your customers.',
+        email: 'Email',
+        emailDesc: 'Integrate automated email sending for scheduled communications and customer follow-up.'
       }
     },
     // Footer

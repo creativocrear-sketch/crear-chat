@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Zap, Database, Settings, Lightbulb, TrendingUp, Smartphone, Target, MessageSquare, BarChart3, MessageCircle, Brain } from "lucide-react";
 import { Link } from "wouter";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 /**
  * Design Philosophy: Minimalismo Corporativo Moderno
@@ -13,74 +14,85 @@ import { Link } from "wouter";
  * - First service (Consultoría) links to internal page
  */
 
-const services = [
-  {
-    title: "Consultoría especializada",
-    description: "Asesoramos a empresas en la implementación y optimización de WhatsApp Business API para automatizar la comunicación, mejorar la atención al cliente y potenciar la gestión comercial.",
-    icon: Lightbulb,
-    link: "/consultoria-whatsapp",
-  },
-  {
-    title: "Estrategias de automatización y marketing digital",
-    description: "Diseñamos estrategias de automatización y marketing digital basadas en datos para atraer clientes, optimizar procesos y aumentar la conversión mediante comunicación inteligente y campañas automatizadas.",
-    icon: TrendingUp,
-    link: "/estrategias-marketing",
-  },
-  {
-    title: "Automatización de canales de atención al cliente",
-    description: "Automatizamos los canales de atención al cliente mediante soluciones tecnológicas que optimizan la comunicación, mejoran la experiencia del usuario y aumentan la eficiencia operativa.",
-    icon: Smartphone,
-    link: "/transformacion-digital",
-  },
-  {
-    title: "Automatización de ventas y optimización de conversiones",
-    description: "Automatizamos procesos de ventas y optimizamos la conversión de clientes mediante tecnología, datos y estrategias digitales que mejoran la eficiencia comercial y aumentan los resultados.",
-    icon: Target,
-    link: "/automatizacion-ventas",
-  },
-  {
-    title: "Plataforma integrada para administración de chats",
-    description: "Centralizamos la gestión de conversaciones en WhatsApp e Instagram en una sola plataforma para optimizar la atención, automatizar respuestas y mejorar la comunicación con clientes.",
-    icon: MessageSquare,
-    link: "/plataforma-integrada",
-  },
-  {
-    title: "Gestión inteligente de bases de datos de contactos",
-    description: "Gestionamos y optimizamos bases de datos de contactos para garantizar información actualizada, segmentación precisa y mejor rendimiento en estrategias comerciales y de marketing digital.",
-    icon: Database,
-    link: "/gestion-contactos",
-  },
-  {
-    title: "Dashboard web centralizado para monitoreo y control",
-    description: "Implementamos dashboards web centralizados que permiten monitorear, controlar y gestionar procesos empresariales en tiempo real desde un solo panel de administración.",
-    icon: BarChart3,
-    link: "/dashboard-web",
-  },
-  {
-    title: "Diseño y desarrollo de chatbots conversacionales",
-    description: "Diseñamos y desarrollamos chatbots conversacionales que automatizan la atención al cliente, optimizan la comunicación y mejoran la interacción digital con los usuarios.",
-    icon: MessageCircle,
-    link: "/chatbots-conversacionales",
-  },
-  {
-    title: "Diseño y desarrollo de conversaciones con IA",
-    description: "Creamos experiencias conversacionales inteligentes, combinando automatización y entrenamiento de IA para lograr respuestas naturales, precisas y orientadas a resultados.",
-    icon: Brain,
-    link: "/conversaciones-ia",
-  }
-];
-
 export default function ServicesSection() {
+  const { t, language } = useLanguage();
+  
+  const services = [
+    {
+      title: t('home.services.consulting'),
+      description: t('home.services.consultingDesc'),
+      icon: Lightbulb,
+      link: "/consultoria-whatsapp",
+    },
+    {
+      title: t('home.services.marketing'),
+      description: t('home.services.marketingDesc'),
+      icon: TrendingUp,
+      link: "/estrategias-marketing",
+    },
+    {
+      title: t('home.services.customerService'),
+      description: t('home.services.customerServiceDesc'),
+      icon: Smartphone,
+      link: "/transformacion-digital",
+    },
+    {
+      title: t('home.services.sales'),
+      description: t('home.services.salesDesc'),
+      icon: Target,
+      link: "/automatizacion-ventas",
+    },
+    {
+      title: t('home.services.platform'),
+      description: t('home.services.platformDesc'),
+      icon: MessageSquare,
+      link: "/plataforma-integrada",
+    },
+    {
+      title: t('home.services.database'),
+      description: t('home.services.databaseDesc'),
+      icon: Database,
+      link: "/gestion-contactos",
+    },
+    {
+      title: language === 'es' ? 'Dashboard web centralizado para monitoreo y control' : 'Centralized web dashboard for monitoring and control',
+      description: language === 'es' 
+        ? 'Implementamos dashboards web centralizados que permiten monitorear, controlar y gestionar procesos empresariales en tiempo real desde un solo panel de administración.'
+        : 'We implement centralized web dashboards that allow monitoring, controlling and managing business processes in real time from a single administration panel.',
+      icon: BarChart3,
+      link: "/dashboard-web",
+    },
+    {
+      title: language === 'es' ? 'Diseño y desarrollo de chatbots conversacionales' : 'Design and development of conversational chatbots',
+      description: language === 'es'
+        ? 'Diseñamos y desarrollamos chatbots conversacionales que automatizan la atención al cliente, optimizan la comunicación y mejoran la interacción digital con los usuarios.'
+        : 'We design and develop conversational chatbots that automate customer service, optimize communication and improve digital interaction with users.',
+      icon: MessageCircle,
+      link: "/chatbots-conversacionales",
+    },
+    {
+      title: language === 'es' ? 'Diseño y desarrollo de conversaciones con IA' : 'Design and development of AI conversations',
+      description: language === 'es'
+        ? 'Creamos experiencias conversacionales inteligentes, combinando automatización y entrenamiento de IA para lograr respuestas naturales, precisas y orientadas a resultados.'
+        : 'We create intelligent conversational experiences, combining automation and AI training to achieve natural, precise and results-oriented responses.',
+      icon: Brain,
+      link: "/conversaciones-ia",
+    }
+  ];
+
   return (
     <section id="nuestros-servicios" className="py-20 bg-white">
       <div className="container">
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-4">
-            Nuestros servicios
+            {language === 'es' ? 'Nuestros servicios' : 'Our Services'}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Somos una agencia de automatización de WhatsApp Business API para la gestión de ventas, servicios, soporte, pedidos, citas, turnos de trabajo y consultas de saldos. Integraciones con HubSpot, Google Sheets, Zapier, etc. Consultoría especializada para escalar tu comunicación con clientes de forma inteligente.
+            {language === 'es' 
+              ? 'Somos una agencia de automatización de WhatsApp Business API para la gestión de ventas, servicios, soporte, pedidos, citas, turnos de trabajo y consultas de saldos. Integraciones con HubSpot, Google Sheets, Zapier, etc. Consultoría especializada para escalar tu comunicación con clientes de forma inteligente.'
+              : 'We are a WhatsApp Business API automation agency for sales management, services, support, orders, appointments, work shifts and balance inquiries. Integrations with HubSpot, Google Sheets, Zapier, etc. Specialized consulting to scale your customer communication intelligently.'
+            }
           </p>
         </div>
 

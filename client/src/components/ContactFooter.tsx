@@ -1,4 +1,5 @@
 import { Mail, MapPin, Phone, Instagram, Facebook, MessageCircle } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 /**
  * Design Philosophy: Minimalismo Corporativo Moderno
@@ -8,6 +9,8 @@ import { Mail, MapPin, Phone, Instagram, Facebook, MessageCircle } from "lucide-
  */
 
 export default function ContactFooter() {
+  const { language } = useLanguage();
+  
   const socialLinks = [
     {
       name: "Facebook",
@@ -36,10 +39,13 @@ export default function ContactFooter() {
           {/* Social Media */}
           <div className="animate-fade-in-up">
             <h2 className="font-bold text-4xl text-gray-900 mb-2">
-              Síguenos en redes sociales
+              {language === 'es' ? 'Síguenos en redes sociales' : 'Follow us on social media'}
             </h2>
             <p className="text-gray-600 mb-8">
-              Mantente actualizado con nuestras últimas noticias, tips y casos de éxito.
+              {language === 'es' 
+                ? 'Mantente actualizado con nuestras últimas noticias, tips y casos de éxito.'
+                : 'Stay updated with our latest news, tips and success stories.'
+              }
             </p>
 
             <div className="grid grid-cols-2 gap-6">
@@ -66,7 +72,7 @@ export default function ContactFooter() {
           {/* Contact Information */}
           <div className="animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
             <h3 className="font-bold text-2xl text-gray-900 mb-8">
-              Nuestras oficinas
+              {language === 'es' ? 'Nuestras oficinas' : 'Our Offices'}
             </h3>
 
             <div className="space-y-8">
@@ -78,7 +84,7 @@ export default function ContactFooter() {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">
-                      Oficina Principal
+                      {language === 'es' ? 'Oficina Principal' : 'Main Office'}
                     </h4>
                     <p className="text-gray-600 text-sm">
                       Cra. 4 #9 - 73 oficina 306<br />
@@ -96,7 +102,7 @@ export default function ContactFooter() {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">
-                      Teléfono
+                      {language === 'es' ? 'Teléfono' : 'Phone'}
                     </h4>
                     <p className="text-gray-600 text-sm">
                       +57 310 5317126<br />
@@ -114,7 +120,7 @@ export default function ContactFooter() {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">
-                      Email
+                      {language === 'es' ? 'Email' : 'Email'}
                     </h4>
                     <p className="text-gray-600 text-sm">
                       contacto@crearcomunicaciones.net<br />

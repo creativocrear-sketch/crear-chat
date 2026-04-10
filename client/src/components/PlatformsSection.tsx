@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { TrendingUp, ShoppingCart, Clock, Calendar, DollarSign, Heart } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 /**
  * Platforms Section - Nuestras plataformas con WhatsApp Business API
@@ -8,49 +9,51 @@ import { TrendingUp, ShoppingCart, Clock, Calendar, DollarSign, Heart } from "lu
  * - Diseño consistente con el resto del sitio
  */
 
-const platforms = [
-  {
-    title: "Gestión de ventas",
-    description: "Centraliza y gestiona tus oportunidades de venta desde WhatsApp en un solo lugar. Haz seguimiento a cada cliente, controla el proceso comercial y mejora el cierre de ventas con mayor orden y visibilidad.",
-    icon: TrendingUp,
-  },
-  {
-    title: "Gestión de pedidos",
-    description: "Recibe y organiza todos tus pedidos directamente por WhatsApp en un solo lugar. Será un seguimiento para inventario, producción, entrega y facturación.",
-    icon: ShoppingCart,
-  },
-  {
-    title: "Gestión de turnos de trabajo",
-    description: "Organiza los turnos de tu equipo de manera automática y eficiente evitando confusiones. Olvídate de agendas dispersas y mantén a todos informados al instante a través de WhatsApp.",
-    icon: Clock,
-  },
-  {
-    title: "Gestión de citas médicas",
-    description: "Permite que tus pacientes agenden, modifiquen o cancelen citas en segundos, mientras reciben recordatorios automáticos que reducen ausencias. Todo el control está en WhatsApp, de manera sencilla y confiable.",
-    icon: Calendar,
-  },
-  {
-    title: "Consultas de saldos y deudas",
-    description: "Permite que tus clientes consulten sus saldos y deudas al instante, directamente desde WhatsApp. Mantén la información siempre accesible y actualizada, mejorando la comunicación y la transparencia.",
-    icon: DollarSign,
-  },
-  {
-    title: "Fidelización de clientes",
-    description: "Permite que tus clientes acumulen puntos dependiendo de las compras que hayan hecho. Gestiona premios, descuentos y bonificaciones para impulsar la recompra y nuevas ventas.",
-    icon: Heart,
-  }
-];
-
 export default function PlatformsSection() {
+  const { t, language } = useLanguage();
+  
+  const platforms = [
+    {
+      title: t('home.platforms.sales'),
+      description: t('home.platforms.salesDesc'),
+      icon: TrendingUp,
+    },
+    {
+      title: t('home.platforms.orders'),
+      description: t('home.platforms.ordersDesc'),
+      icon: ShoppingCart,
+    },
+    {
+      title: t('home.platforms.shifts'),
+      description: t('home.platforms.shiftsDesc'),
+      icon: Clock,
+    },
+    {
+      title: t('home.platforms.appointments'),
+      description: t('home.platforms.appointmentsDesc'),
+      icon: Calendar,
+    },
+    {
+      title: t('home.platforms.balances'),
+      description: t('home.platforms.balancesDesc'),
+      icon: DollarSign,
+    },
+    {
+      title: t('home.platforms.loyalty'),
+      description: t('home.platforms.loyaltyDesc'),
+      icon: Heart,
+    }
+  ];
+
   return (
     <section id="nuestras-plataformas" className="py-20 bg-white">
       <div className="container">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-4">
-            Nuestras plataformas con WhatsApp Business API
+            {language === 'es' ? 'Nuestras plataformas con WhatsApp Business API' : 'Our platforms with WhatsApp Business API'}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Soluciones especializadas para casos de uso específicos
+            {language === 'es' ? 'Soluciones especializadas para casos de uso específicos' : 'Specialized solutions for specific use cases'}
           </p>
         </div>
 
