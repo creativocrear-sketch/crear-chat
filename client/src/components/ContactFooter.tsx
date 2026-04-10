@@ -36,7 +36,7 @@ export default function ContactFooter() {
           {/* Social Media */}
           <div className="animate-fade-in-up">
             <h2 className="font-bold text-4xl text-gray-900 mb-2">
-              Síguenos en Redes Sociales
+              Síguenos en redes sociales
             </h2>
             <p className="text-gray-600 mb-8">
               Mantente actualizado con nuestras últimas noticias, tips y casos de éxito.
@@ -66,7 +66,7 @@ export default function ContactFooter() {
           {/* Contact Information */}
           <div className="animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
             <h3 className="font-bold text-2xl text-gray-900 mb-8">
-              Nuestras Oficinas
+              Nuestras oficinas
             </h3>
 
             <div className="space-y-8">
