@@ -8,6 +8,22 @@ export default function BlogArticle5() {
     window.scrollTo(0, 0);
   }, []);
 
+  const handleShare = (platform: 'facebook' | 'whatsapp') => {
+    const url = window.location.href;
+    const title = "¿Qué plataformas me ayudan a integrar WhatsApp Business API?";
+    const text = "Descubre las mejores plataformas para integrar WhatsApp Business API con tus sistemas existentes.";
+    
+    let shareUrl = '';
+    
+    if (platform === 'facebook') {
+      shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(text)}`;
+    } else if (platform === 'whatsapp') {
+      shareUrl = `https://wa.me/?text=${encodeURIComponent(`${text} ${url}`)}`;
+    }
+    
+    window.open(shareUrl, '_blank', 'width=600,height=400');
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <Header />
@@ -340,20 +356,20 @@ export default function BlogArticle5() {
               <div className="mt-12 pt-8 border-t border-gray-200">
                 <h4 className="text-lg font-semibold text-gray-900 mb-4">Compartir:</h4>
                 <div className="flex gap-4">
-                  <a
-                    href="#"
+                  <button
+                    onClick={() => handleShare('facebook')}
                     className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
                   >
                     <Facebook className="w-4 h-4" />
                     Facebook
-                  </a>
-                  <a
-                    href="#"
+                  </button>
+                  <button
+                    onClick={() => handleShare('whatsapp')}
                     className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
                   >
                     <MessageCircle className="w-4 h-4" />
                     WhatsApp
-                  </a>
+                  </button>
                 </div>
               </div>
 
