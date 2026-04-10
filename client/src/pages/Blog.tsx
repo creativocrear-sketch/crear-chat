@@ -161,7 +161,7 @@ export default function Blog() {
 
                       {/* Read More Link */}
                       <a
-                        href="#"
+                        href={`/blog/articulo-${index + 1}`}
                         className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium text-sm transition-colors group"
                       >
                         Leer artículo
