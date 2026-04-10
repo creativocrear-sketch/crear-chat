@@ -7,6 +7,11 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import BlogArticle1 from "./pages/BlogArticle1";
+import BlogArticle2 from "./pages/BlogArticle2";
+import BlogArticle3 from "./pages/BlogArticle3";
+import BlogArticle4 from "./pages/BlogArticle4";
+import BlogArticle5 from "./pages/BlogArticle5";
+import BlogArticle6 from "./pages/BlogArticle6";
 import Planes from "./pages/Planes";
 import ConsultoriaWhatsApp from "./pages/ConsultoriaWhatsApp";
 import EstrategiasMarketing from "./pages/EstrategiasMarketing";
@@ -24,6 +29,11 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path={"/blog"} component={Blog} />
       <Route path={"/blog/articulo-1"} component={BlogArticle1} />
+      <Route path={"/blog/articulo-2"} component={BlogArticle2} />
+      <Route path={"/blog/articulo-3"} component={BlogArticle3} />
+      <Route path={"/blog/articulo-4"} component={BlogArticle4} />
+      <Route path={"/blog/articulo-5"} component={BlogArticle5} />
+      <Route path={"/blog/articulo-6"} component={BlogArticle6} />
       <Route path={"/planes"} component={Planes} />
       <Route path={"/consultoria-whatsapp"} component={ConsultoriaWhatsApp} />
       <Route path={"/estrategias-marketing"} component={EstrategiasMarketing} />
