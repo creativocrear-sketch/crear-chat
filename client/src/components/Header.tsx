@@ -58,6 +58,12 @@ export default function Header() {
             Planes
           </a>
           <a
+            href="/blog"
+            className="inline-flex items-center justify-center px-6 py-2 border border-gray-300 hover:bg-gray-50 text-gray-900 font-medium transition-all duration-300 rounded-md"
+          >
+            Blog
+          </a>
+          <a
             href="https://wa.me/+573105317126"
             target="_blank"
             rel="noopener noreferrer"
@@ -112,6 +118,13 @@ export default function Header() {
               className="block px-4 py-3 text-gray-900 hover:bg-gray-50 rounded-lg transition-colors font-medium"
             >
               Planes
+            </a>
+            <a
+              href="/blog"
+              onClick={closeMenu}
+              className="block px-4 py-3 text-gray-900 hover:bg-gray-50 rounded-lg transition-colors font-medium"
+            >
+              Blog
             </a>
             <a
               href="https://wa.me/+573105317126"
