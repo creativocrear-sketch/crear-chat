@@ -1,3 +1,5 @@
+import { useLanguage } from "@/contexts/LanguageContext";
+
 /**
  * Design Philosophy: Minimalismo Corporativo Moderno
  * - Clean footer with minimal content
@@ -6,6 +8,8 @@
  */
 
 export default function Footer() {
+  const { t, language } = useLanguage();
+  
   return (
     <footer className="bg-gray-900 text-gray-300 py-8">
       <div className="container">
@@ -18,7 +22,7 @@ export default function Footer() {
             />
           </div>
           <p className="text-gray-400 mt-4 md:mt-0">
-            © 2026 crear.chat. Todos los derechos reservados.
+            © 2026 crear.chat. {t('footer.rights')}
           </p>
         </div>
       </div>

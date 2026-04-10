@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronRight } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const blogArticles = [
   {
@@ -84,6 +85,8 @@ const blogArticles = [
 ];
 
 export default function Blog() {
+  const { t, language } = useLanguage();
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -97,10 +100,13 @@ export default function Blog() {
           <div className="container">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl text-gray-900 mb-6 leading-tight">
-                Blog de WhatsApp Business API
+                {t('blog.title')}
               </h1>
               <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
-                Aprende todo sobre automatización, integraciones y mejores prácticas para transformar tu negocio con WhatsApp Business API
+                {language === 'es' 
+                  ? 'Aprende todo sobre automatización, integraciones y mejores prácticas para transformar tu negocio con WhatsApp Business API'
+                  : 'Learn everything about automation, integrations and best practices to transform your business with WhatsApp Business API'
+                }
               </p>
               
               {/* Blog Stats */}
@@ -155,7 +161,7 @@ export default function Blog() {
                         </div>
                         <div className="flex items-center gap-1">
                           <Clock className="w-4 h-4" />
-                          <span>{article.readTime}</span>
+                          <span>{article.readTime} {t('common.readTime')}</span>
                         </div>
                       </div>
 
@@ -164,7 +170,7 @@ export default function Blog() {
                         href={`/blog/articulo-${index + 1}`}
                         className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium text-sm transition-colors group"
                       >
-                        Leer artículo
+                        {t('blog.readMore')}
                         <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                       </a>
                     </div>

@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Globe } from "lucide-react";
+import { useLanguage } from "./contexts/LanguageContext";
 
 /**
  * Design Philosophy: Minimalismo Corporativo Moderno
@@ -10,6 +11,7 @@ import { Menu, X } from "lucide-react";
  */
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { language, setLanguage, t } = useLanguage();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -37,13 +39,13 @@ export default function Header() {
             href="/"
             className="inline-flex items-center justify-center px-6 py-2 border border-gray-300 hover:bg-gray-50 text-gray-900 font-medium transition-all duration-300 rounded-md"
           >
-            Inicio
+            {t('nav.home')}
           </a>
           <a
             href="/#nuestros-servicios"
             className="inline-flex items-center justify-center px-6 py-2 border border-gray-300 hover:bg-gray-50 text-gray-900 font-medium transition-all duration-300 rounded-md"
           >
-            Servicios
+            {t('nav.services')}
           </a>
           <a
             href="/#integraciones"
@@ -55,21 +57,29 @@ export default function Header() {
             href="/planes"
             className="inline-flex items-center justify-center px-6 py-2 border border-gray-300 hover:bg-gray-50 text-gray-900 font-medium transition-all duration-300 rounded-md"
           >
-            Planes
+            {t('nav.plans')}
           </a>
           <a
             href="/blog"
             className="inline-flex items-center justify-center px-6 py-2 border border-gray-300 hover:bg-gray-50 text-gray-900 font-medium transition-all duration-300 rounded-md"
           >
-            Blog
+            {t('nav.blog')}
           </a>
+          <button
+            onClick={() => setLanguage(language === 'es' ? 'en' : 'es')}
+            className="inline-flex items-center justify-center px-3 py-2 border border-gray-300 hover:bg-gray-50 text-gray-900 font-medium transition-all duration-300 rounded-md"
+            title={t('common.language')}
+          >
+            <Globe className="w-4 h-4 mr-1" />
+            {language === 'es' ? 'EN' : 'ES'}
+          </button>
           <a
             href="https://wa.me/+573105317126"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-6 py-2 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-medium transition-all duration-300 shadow-sm hover:shadow-md rounded-md"
           >
-            Escribenos
+            {language === 'es' ? 'Escríbenos' : 'Contact us'}
           </a>
         </div>
 
@@ -96,14 +106,14 @@ export default function Header() {
               onClick={closeMenu}
               className="block px-4 py-3 text-gray-900 hover:bg-gray-50 rounded-lg transition-colors font-medium"
             >
-              Inicio
+              {t('nav.home')}
             </a>
             <a
               href="/#nuestros-servicios"
               onClick={closeMenu}
               className="block px-4 py-3 text-gray-900 hover:bg-gray-50 rounded-lg transition-colors font-medium"
             >
-              Servicios
+              {t('nav.services')}
             </a>
             <a
               href="/#integraciones"
@@ -117,15 +127,25 @@ export default function Header() {
               onClick={closeMenu}
               className="block px-4 py-3 text-gray-900 hover:bg-gray-50 rounded-lg transition-colors font-medium"
             >
-              Planes
+              {t('nav.plans')}
             </a>
             <a
               href="/blog"
               onClick={closeMenu}
               className="block px-4 py-3 text-gray-900 hover:bg-gray-50 rounded-lg transition-colors font-medium"
             >
-              Blog
+              {t('nav.blog')}
             </a>
+            <button
+              onClick={() => {
+                setLanguage(language === 'es' ? 'en' : 'es');
+                closeMenu();
+              }}
+              className="block px-4 py-3 text-gray-900 hover:bg-gray-50 rounded-lg transition-colors font-medium text-left"
+            >
+              <Globe className="w-4 h-4 inline mr-2" />
+              {t('common.language')}: {language === 'es' ? 'EN' : 'ES'}
+            </button>
             <a
               href="https://wa.me/+573105317126"
               target="_blank"
@@ -133,7 +153,7 @@ export default function Header() {
               onClick={closeMenu}
               className="block px-4 py-3 bg-[#1B4F72] hover:bg-[#0F2F45] text-white rounded-lg transition-colors font-medium text-center"
             >
-              Escribenos
+              {language === 'es' ? 'Escríbenos' : 'Contact us'}
             </a>
           </div>
         </div>

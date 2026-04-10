@@ -1,4 +1,5 @@
 import { Check } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 /**
  * Design Philosophy: Minimalismo Corporativo Moderno
@@ -85,17 +86,25 @@ const plans = [
 ];
 
 export default function PricingSection() {
+  const { t, language } = useLanguage();
+  
   return (
     <section id="nuestros-planes" className="py-16 bg-white">
       <div className="container">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 animate-fade-in-up">
-          Nuestros Planes
+          {t('plans.title')}
         </h2>
         <p className="text-center text-gray-600 font-medium mb-4 animate-fade-in-up">
-          Soluciones de precios flexibles para empresas de todos los tamaños. Elige el plan que mejor se adapte a tus necesidades.
+          {language === 'es' 
+            ? 'Soluciones de precios flexibles para empresas de todos los tamaños. Elige el plan que mejor se adapte a tus necesidades.'
+            : 'Flexible pricing solutions for businesses of all sizes. Choose the plan that best fits your needs.'
+          }
         </p>
         <p className="text-center text-gray-500 text-sm mb-12 animate-fade-in-up">
-          Precios en dólares americanos pagando anualmente
+          {language === 'es' 
+            ? 'Precios en dólares americanos pagando anualmente'
+            : 'Prices in US dollars paying annually'
+          }
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
@@ -141,7 +150,7 @@ export default function PricingSection() {
                 rel="noopener noreferrer"
                 className="block w-full bg-[#1B4F72] text-white font-semibold py-3 px-6 rounded-lg hover:bg-[#0F2F45] transition-colors duration-300 text-center"
               >
-                Contáctanos
+                {t('plans.choosePlan')}
               </a>
             </div>
           ))}

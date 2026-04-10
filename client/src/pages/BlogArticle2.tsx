@@ -2,16 +2,19 @@ import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronLeft, Share2, Facebook, MessageCircle } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function BlogArticle2() {
+  const { t, language } = useLanguage();
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   const handleShare = (platform: 'facebook' | 'whatsapp') => {
     const url = window.location.href;
-    const title = "¿Para que me sirve WhatsApp Business API para mi negocio?";
-    const text = "Explora casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, abogados y oficinas de cobros.";
+    const title = t('articles.article2.title');
+    const text = t('articles.article2.shareText');
     
     let shareUrl = '';
     
@@ -37,30 +40,30 @@ export default function BlogArticle2() {
                 className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium mb-8 transition-colors"
               >
                 <ChevronLeft className="w-4 h-4" />
-                Volver al blog
+                {t('common.backToBlog')}
               </a>
               
               <div className="mb-6">
                 <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                  Casos de Uso
+                  {language === 'es' ? 'Casos de Uso' : 'Use Cases'}
                 </span>
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                ¿Para que me sirve WhatsApp Business API para mi negocio?
+                {t('articles.article2.title')}
               </h1>
               
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" />
-                  <span>21 de Marzo de 2026</span>
+                  <span>{language === 'es' ? '21 de Marzo de 2026' : 'March 21, 2026'}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4" />
-                  <span>8 min de lectura</span>
+                  <span>8 {t('common.readTime')}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span>Redacción: Alex Murillo + Equipo de Soporte</span>
+                  <span>{t('common.author')}: {language === 'es' ? 'Alex Murillo + Equipo de Soporte' : 'Alex Murillo + Support Team'}</span>
                 </div>
               </div>
             </div>
