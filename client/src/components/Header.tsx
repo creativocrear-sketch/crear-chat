@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X, Globe } from "lucide-react";
-import { useLanguage } from "./contexts/LanguageContext";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 /**
  * Design Philosophy: Minimalismo Corporativo Moderno
