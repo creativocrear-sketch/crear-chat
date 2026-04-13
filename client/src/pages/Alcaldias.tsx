@@ -132,7 +132,7 @@ function Alcaldias() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
                 >
-                  {language === 'es' ? 'Contáctame por WhatsApp' : 'Contact me on WhatsApp'}
+                  {t('alcaldias.cta.button')}
                 </a>
               </div>
             </div>

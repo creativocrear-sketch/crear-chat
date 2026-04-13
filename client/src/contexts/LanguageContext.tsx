@@ -515,9 +515,9 @@ const translations = {
         subtitle: 'Convierte WhatsApp en tu mejor herramienta de gestión ciudadana'
       },
       cta: {
-        title: '¿Listo para transformar tu alcaldía?',
-        subtitle: 'Implementa soluciones inteligentes y mejora la vida de tus ciudadanos',
-        button: 'Solicitar Demo'
+        title: '¿Te interesa saber más?',
+        subtitle: 'Hablanos',
+        button: 'Escríbenos por WhatsApp'
       },
       stats: {
         articles: 'Artículos especializados',
@@ -762,9 +762,9 @@ const translations = {
         subtitle: 'Turn WhatsApp into your best citizen management tool'
       },
       cta: {
-        title: 'Ready to transform your city?',
-        subtitle: 'Implement smart solutions and improve your citizens\' lives',
-        button: 'Request Demo'
+        title: 'Interested in learning more?',
+        subtitle: 'Talk to us',
+        button: 'Write to us on WhatsApp'
       },
       stats: {
         articles: 'Specialized articles',
