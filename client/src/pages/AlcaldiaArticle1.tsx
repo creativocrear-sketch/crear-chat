@@ -203,19 +203,19 @@ export default function AlcaldiaArticle1() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfdb\ufe0f'} {language === 'es' ? 'Oficinas de Turismo' : 'Tourist Offices'}</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfdb\ufe0f'} {language === 'es' ? 'Oficinas de turismo' : 'Tourist offices'}</h5>
                     <p className="text-sm text-gray-600">{language === 'es' ? 'Información general y direcciones' : 'General information and directions'}</p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfe8'} {language === 'es' ? 'Hoteles y Alojamientos' : 'Hotels and Accommodations'}</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfe8'} {language === 'es' ? 'Hoteles y alojamientos' : 'Hotels and accommodations'}</h5>
                     <p className="text-sm text-gray-600">{language === 'es' ? 'Disponibilidad y servicios' : 'Availability and services'}</p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udf7d\ufe0f'} {language === 'es' ? 'Restaurantes y Bares' : 'Restaurants and Bars'}</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udf7d\ufe0f'} {language === 'es' ? 'Restaurantes y bares' : 'Restaurants and bars'}</h5>
                     <p className="text-sm text-gray-600">{language === 'es' ? 'Menús y reservas' : 'Menus and reservations'}</p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfea'} {language === 'es' ? 'Atracciones Turísticas' : 'Tourist Attractions'}</h5>
+                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfea'} {language === 'es' ? 'Atracciones turísticas' : 'Tourist attractions'}</h5>
                     <p className="text-sm text-gray-600">{language === 'es' ? 'Horarios y precios' : 'Hours and prices'}</p>
                   </div>
                 </div>
