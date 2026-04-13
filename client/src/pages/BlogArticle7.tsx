@@ -262,7 +262,7 @@ export default function BlogArticle7() {
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Baja Escalabilidad:' : 'Low Scalability:'}</strong>
+                  <strong>{language === 'es' ? 'Baja escalabilidad:' : 'Low scalability:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -272,7 +272,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Media Escalabilidad:' : 'Medium Scalability:'}</strong>
+                  <strong>{language === 'es' ? 'Media escalabilidad:' : 'Medium scalability:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -282,7 +282,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Alta Escalabilidad:' : 'High Scalability:'}</strong>
+                  <strong>{language === 'es' ? 'Alta escalabilidad:' : 'High scalability:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -296,7 +296,7 @@ export default function BlogArticle7() {
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Soporte Básico:' : 'Basic Support:'}</strong>
+                  <strong>{language === 'es' ? 'Soporte básico:' : 'Basic support:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -306,7 +306,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Soporte Estándar:' : 'Standard Support:'}</strong>
+                  <strong>{language === 'es' ? 'Soporte estándar:' : 'Standard support:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -316,7 +316,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Soporte Premium:' : 'Premium Support:'}</strong>
+                  <strong>{language === 'es' ? 'Soporte premium:' : 'Premium support:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -326,7 +326,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '8. Características Avanzadas' : '8. Advanced Features'}
+                  {language === 'es' ? '8. Características avanzadas' : '8. Advanced features'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
@@ -340,7 +340,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Análisis Avanzados:' : 'Advanced Analytics:'}</strong>
+                  <strong>{language === 'es' ? 'Análisis avanzados:' : 'Advanced analytics:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -360,7 +360,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Tabla Comparativa Resumida' : 'Summary Comparison Table'}
+                  {language === 'es' ? 'Tabla comparativa resumida' : 'Summary comparison table'}
                 </h3>
                 
                 <div className="overflow-x-auto mb-8">
@@ -429,7 +429,7 @@ export default function BlogArticle7() {
                 </div>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Cómo Elegir' : 'How to Choose'}
+                  {language === 'es' ? 'Cómo elegir' : 'How to choose'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
