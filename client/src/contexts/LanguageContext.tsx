@@ -815,6 +815,8 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
     setLanguage(lang);
     if (typeof window !== 'undefined') {
       localStorage.setItem('language', lang);
+      // Recargar la página para aplicar el nuevo idioma
+      window.location.reload();
     }
   };
 
