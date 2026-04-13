@@ -236,7 +236,7 @@ export default function BlogArticle5() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Sistemas de Gestión de Recursos Humanos' : 'Human Resource Management Systems'}
+                  {language === 'es' ? 'Sistemas de gestión de recursos humanos' : 'Human resource management systems'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -255,7 +255,7 @@ export default function BlogArticle5() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Plataformas de Análisis' : 'Analytics Platforms'}
+                  {language === 'es' ? 'Plataformas de análisis' : 'Analytics platforms'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -274,7 +274,7 @@ export default function BlogArticle5() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Sistemas de Gestión de Inventario' : 'Inventory Management Systems'}
+                  {language === 'es' ? 'Sistemas de gestión de inventario' : 'Inventory management systems'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -293,7 +293,7 @@ export default function BlogArticle5() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Plataformas de Soporte al Cliente' : 'Customer Support Platforms'}
+                  {language === 'es' ? 'Plataformas de soporte al cliente' : 'Customer support platforms'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -312,7 +312,7 @@ export default function BlogArticle5() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Integraciones Personalizadas' : 'Custom Integrations'}
+                  {language === 'es' ? 'Integraciones personalizadas' : 'Custom integrations'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -327,7 +327,7 @@ export default function BlogArticle5() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Cómo Elegir tus Integraciones' : 'How to Choose Your Integrations'}
+                  {language === 'es' ? 'Cómo elegir tus integraciones' : 'How to choose your integrations'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
