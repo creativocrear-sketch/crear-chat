@@ -279,7 +279,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Beneficios Transversales' : 'Cross-Benefits'}
+                  {language === 'es' ? 'Beneficios transversales' : 'Cross-benefits'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
