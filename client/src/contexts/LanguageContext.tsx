@@ -9,7 +9,8 @@ const translations = {
       services: 'Servicios',
       plans: 'Planes',
       blog: 'Blog',
-      contact: 'Contacto'
+      contact: 'Contacto',
+      integrations: 'Integraciones'
     },
     // Home
     home: {
@@ -349,7 +350,8 @@ const translations = {
       services: 'Services',
       plans: 'Plans',
       blog: 'Blog',
-      contact: 'Contact'
+      contact: 'Contact',
+      integrations: 'Integrations'
     },
     // Home
     home: {

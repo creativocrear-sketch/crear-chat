@@ -113,13 +113,13 @@ export default function Blog() {
               {/* Blog Stats */}
               <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
-                  <span className="font-semibold text-[#1B4F72]">11 artículos</span>
+                  <span className="font-semibold text-[#1B4F72]">{language === 'es' ? '11 artículos' : '11 articles'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="font-semibold text-[#1B4F72]">Actualizado regularmente</span>
+                  <span className="font-semibold text-[#1B4F72]">{language === 'es' ? 'Actualizado regularmente' : 'Regularly updated'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="font-semibold text-[#1B4F72]">Redacción: Alex Murillo + Equipo de Soporte</span>
+                  <span className="font-semibold text-[#1B4F72]">{language === 'es' ? 'Redacción: Alex Murillo + Equipo de Soporte' : 'By: Alex Murillo + Support Team'}</span>
                 </div>
               </div>
             </div>
@@ -188,10 +188,10 @@ export default function Blog() {
             <div className="max-w-4xl mx-auto text-center">
               <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-blue-100">
                 <h2 className="font-bold text-3xl md:text-4xl text-gray-900 mb-4">
-                  ¿Listo para transformar tu negocio?
+                  {language === 'es' ? '¿Listo para transformar tu negocio?' : 'Ready to transform your business?'}
                 </h2>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                  Implementa WhatsApp Business API y comienza a automatizar tu comunicación con clientes
+                  {language === 'es' ? 'Implementa WhatsApp Business API y comienza a automatizar tu comunicación con clientes' : 'Implement WhatsApp Business API and start automating your customer communication'}
                 </p>
                 
                 <a
@@ -200,7 +200,7 @@ export default function Blog() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
                 >
-                  Contáctame por WhatsApp
+                  {language === 'es' ? 'Contáctame por WhatsApp' : 'Contact me on WhatsApp'}
                 </a>
               </div>
             </div>

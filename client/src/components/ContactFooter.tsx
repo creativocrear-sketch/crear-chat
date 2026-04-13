@@ -124,7 +124,7 @@ export default function ContactFooter() {
                     </h4>
                     <p className="text-gray-600 text-sm">
                       contacto@crearcomunicaciones.net<br />
-                      Respuesta en 24 horas
+                      {language === 'es' ? 'Respuesta en 24 horas' : 'Response within 24 hours'}
                     </p>
                   </div>
                 </div>
