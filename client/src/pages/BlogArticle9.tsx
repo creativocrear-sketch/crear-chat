@@ -261,7 +261,7 @@ export default function BlogArticle9() {
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Disponibilidad de Soporte' : 'Support Availability'}
+                  {language === 'es' ? 'Disponibilidad de soporte' : 'Support availability'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -271,7 +271,7 @@ export default function BlogArticle9() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Calidad del Soporte' : 'Support Quality'}
+                  {language === 'es' ? 'Calidad del soporte' : 'Support quality'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -299,7 +299,7 @@ export default function BlogArticle9() {
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Crecimiento Horizontal' : 'Horizontal Growth'}
+                  {language === 'es' ? 'Crecimiento horizontal' : 'Horizontal growth'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -309,7 +309,7 @@ export default function BlogArticle9() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Crecimiento Vertical' : 'Vertical Growth'}
+                  {language === 'es' ? 'Crecimiento vertical' : 'Vertical growth'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -353,7 +353,7 @@ export default function BlogArticle9() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Cumplimiento Normativo' : 'Regulatory Compliance'}
+                  {language === 'es' ? 'Cumplimiento normativo' : 'Regulatory compliance'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -421,7 +421,7 @@ export default function BlogArticle9() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Cambios de Precio' : 'Price Changes'}
+                  {language === 'es' ? 'Cambios de precio' : 'Price changes'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -435,7 +435,7 @@ export default function BlogArticle9() {
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Prueba Gratuita' : 'Free Trial'}
+                  {language === 'es' ? 'Prueba gratuita' : 'Free trial'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -465,7 +465,7 @@ export default function BlogArticle9() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Matriz de Decisión' : 'Decision Matrix'}
+                  {language === 'es' ? 'Matriz de decisión' : 'Decision matrix'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
