@@ -231,7 +231,7 @@ export default function BlogArticle6() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Tipos de Plataformas' : 'Types of Platforms'}
+                  {language === 'es' ? 'Tipos de plataformas' : 'Types of platforms'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -239,7 +239,7 @@ export default function BlogArticle6() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Plataformas Especializadas en WhatsApp' : 'WhatsApp-Specialized Platforms'}
+                  {language === 'es' ? 'Plataformas especializadas en WhatsApp' : 'WhatsApp-specialized platforms'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -249,7 +249,7 @@ export default function BlogArticle6() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Plataformas Omnicanal' : 'Omnichannel Platforms'}
+                  {language === 'es' ? 'Plataformas omnicanal' : 'Omnichannel platforms'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -258,7 +258,7 @@ export default function BlogArticle6() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Plataformas Empresariales' : 'Enterprise Platforms'}
+                  {language === 'es' ? 'Plataformas empresariales' : 'Enterprise platforms'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -267,7 +267,7 @@ export default function BlogArticle6() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Costos de No Usar una Plataforma' : 'Costs of Not Using a Platform'}
+                  {language === 'es' ? 'Costos de no usar una plataforma' : 'Costs of not using a platform'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -284,7 +284,7 @@ export default function BlogArticle6() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Costo de Usar una Plataforma' : 'Cost of Using a Platform'}
+                  {language === 'es' ? 'Costo de usar una plataforma' : 'Cost of using a platform'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
