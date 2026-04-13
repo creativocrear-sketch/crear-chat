@@ -333,21 +333,21 @@ export default function BlogArticle2() {
               <div className="mt-12 pt-8 border-t border-gray-200">
                 <div className="flex items-center justify-between">
                   <div className="text-left">
-                    <p className="text-sm text-gray-500 mb-1">Artículo anterior</p>
+                    <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Artículo anterior' : 'Previous article'}</p>
                     <a
                       href="/blog/articulo-1"
                       className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                     >
-                      ¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?
+                      {language === 'es' ? '¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?' : 'What is the difference between WhatsApp Business and WhatsApp Business API?'}
                     </a>
                   </div>
                   <div className="text-right">
-                    <p className="text-sm text-gray-500 mb-1">Siguiente artículo</p>
+                    <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Siguiente artículo' : 'Next article'}</p>
                     <a
                       href="/blog/articulo-3"
                       className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                     >
-                      ¿Cuáles son los primeros pasos para migrar WhatsApp Business API?
+                      {language === 'es' ? '¿Cuáles son los primeros pasos para migrar WhatsApp Business API?' : 'What are the first steps to migrate WhatsApp Business API?'}
                     </a>
                   </div>
                 </div>
