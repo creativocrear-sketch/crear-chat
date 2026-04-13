@@ -293,7 +293,7 @@ export default function BlogArticle1() {
                   <div className="text-left">
                     <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Siguiente artículo' : 'Next article'}</p>
                     <a
-                      href="/blog/articulo-2"
+                      href="/blog/casos-uso-whatsapp-business-api"
                       className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                     >
                       {language === 'es' ? '¿Para que me sirve WhatsApp Business API para mi negocio?' : 'What is WhatsApp Business API useful for in my business?'}
@@ -350,7 +350,7 @@ export default function BlogArticle1() {
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>8 min</span>
-                      <a href="/blog/articulo-2" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                      <a href="/blog/casos-uso-whatsapp-business-api" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
                         {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
@@ -370,7 +370,7 @@ export default function BlogArticle1() {
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>7 min</span>
-                      <a href="/blog/articulo-3" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                      <a href="/blog/primeros-pasos-migrar-whatsapp-api" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
                         {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
@@ -390,7 +390,7 @@ export default function BlogArticle1() {
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>6 min</span>
-                      <a href="/blog/articulo-4" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                      <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
                         {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
