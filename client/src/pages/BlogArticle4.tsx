@@ -226,7 +226,7 @@ export default function BlogArticle4() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Desafíos y Consideraciones' : 'Challenges and Considerations'}
+                  {language === 'es' ? 'Desafíos y consideraciones' : 'Challenges and considerations'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -241,7 +241,7 @@ export default function BlogArticle4() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Retorno de Inversión (ROI)' : 'Return on Investment (ROI)'}
+                  {language === 'es' ? 'Retorno de inversión (ROI)' : 'Return on investment (ROI)'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
