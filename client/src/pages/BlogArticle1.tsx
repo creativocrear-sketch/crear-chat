@@ -76,121 +76,151 @@ export default function BlogArticle1() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  ¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?
+                  {t('articles.article1.title')}
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  En el mundo empresarial actual, WhatsApp se ha convertido en una herramienta fundamental para la comunicación con clientes. Sin embargo, muchas empresas se confunden entre WhatsApp Business y WhatsApp Business API. Aunque ambas son soluciones de WhatsApp, tienen diferencias significativas que es importante entender.
+                  {t('articles.article1.content.intro')}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  WhatsApp Business: La Solución Básica
+                  {t('articles.article1.content.basicTitle')}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  WhatsApp Business es una aplicación móvil gratuita diseñada para pequeños negocios. Es la versión simplificada de WhatsApp que permite a los empresarios crear un perfil de negocio con información como horarios de atención, ubicación y descripción del negocio.
+                  {t('articles.article1.content.basicDesc')}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Características principales de WhatsApp Business:
+                  {t('articles.article1.content.basicFeatures')}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Perfil de negocio con información empresarial</li>
-                  <li>Etiquetas para organizar conversaciones</li>
-                  <li>Mensajes automáticos de bienvenida y ausencia</li>
-                  <li>Estadísticas básicas de mensajes</li>
-                  <li>Disponible solo en dispositivos móviles</li>
-                  <li>Gratuito</li>
-                  <li>Limitado a un solo dispositivo por número</li>
+                  {language === 'es' ? [
+                    'Perfil de negocio con información empresarial',
+                    'Etiquetas para organizar conversaciones',
+                    'Mensajes automáticos de bienvenida y ausencia',
+                    'Estadísticas básicas de mensajes',
+                    'Disponible solo en dispositivos móviles',
+                    'Gratuito',
+                    'Limitado a un solo dispositivo por número'
+                  ].map((feature, index) => (
+                    <li key={index}>{feature}</li>
+                  )) : [
+                    'Business profile with business information',
+                    'Labels to organize conversations',
+                    'Automatic welcome and away messages',
+                    'Basic message statistics',
+                    'Available only on mobile devices',
+                    'Free',
+                    'Limited to one device per number'
+                  ].map((feature, index) => (
+                    <li key={index}>{feature}</li>
+                  ))}
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Esta solución es ideal para pequeños negocios que necesitan una presencia básica en WhatsApp sin requerimientos complejos de automatización.
+                  {t('articles.article1.content.basicConclusion')}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  WhatsApp Business API: La Solución Empresarial
+                  {t('articles.article1.content.apiTitle')}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  WhatsApp Business API es una solución robusta y escalable diseñada para empresas medianas y grandes. A diferencia de WhatsApp Business, la API permite la integración con sistemas empresariales, automatización de procesos y gestión masiva de conversaciones.
+                  {t('articles.article1.content.apiDesc')}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Características principales de WhatsApp Business API:
+                  {t('articles.article1.content.apiFeatures')}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Integración con sistemas empresariales (CRM, ERP, etc.)</li>
-                  <li>Automatización de mensajes y flujos de conversación</li>
-                  <li>Gestión de múltiples agentes desde una plataforma centralizada</li>
-                  <li>Plantillas de mensajes preaprobadas</li>
-                  <li>Webhooks para integración con aplicaciones externas</li>
-                  <li>Acceso a través de API REST</li>
-                  <li>Soporte para números de negocio dedicados</li>
-                  <li>Análisis avanzados y reportes detallados</li>
-                  <li>Escalabilidad para miles de conversaciones simultáneas</li>
+                  {language === 'es' ? [
+                    'Integración con sistemas empresariales (CRM, ERP, etc.)',
+                    'Automatización de mensajes y flujos de conversación',
+                    'Gestión de múltiples agentes desde una plataforma centralizada',
+                    'Plantillas de mensajes preaprobadas',
+                    'Webhooks para integración con aplicaciones externas',
+                    'Acceso a través de API REST',
+                    'Soporte para números de negocio dedicados',
+                    'Análisis avanzados y reportes detallados',
+                    'Escalabilidad para miles de conversaciones simultáneas'
+                  ].map((feature, index) => (
+                    <li key={index}>{feature}</li>
+                  )) : [
+                    'Integration with business systems (CRM, ERP, etc.)',
+                    'Message automation and conversation flows',
+                    'Multiple agent management from centralized platform',
+                    'Pre-approved message templates',
+                    'Webhooks for integration with external applications',
+                    'Access through REST API',
+                    'Support for dedicated business numbers',
+                    'Advanced analytics and detailed reports',
+                    'Scalability for thousands of simultaneous conversations'
+                  ].map((feature, index) => (
+                    <li key={index}>{feature}</li>
+                  ))}
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Comparativa Directa
+                  {t('articles.article1.content.comparisonTitle')}
                 </h3>
                 
                 <div className="overflow-x-auto mb-8">
                   <table className="w-full border-collapse border border-gray-300">
                     <thead>
                       <tr className="bg-gray-50">
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Característica</th>
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">WhatsApp Business</th>
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">WhatsApp Business API</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">{t('articles.article1.content.comparisonTable.feature')}</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">{t('articles.article1.content.comparisonTable.basic')}</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">{t('articles.article1.content.comparisonTable.api')}</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td className="border border-gray-300 px-4 py-2">Costo</td>
-                        <td className="border border-gray-300 px-4 py-2">Gratuito</td>
-                        <td className="border border-gray-300 px-4 py-2">Pago por mensajes</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.cost')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.costBasic')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.costApi')}</td>
                       </tr>
                       <tr className="bg-gray-50">
-                        <td className="border border-gray-300 px-4 py-2">Dispositivos</td>
-                        <td className="border border-gray-300 px-4 py-2">Solo móvil</td>
-                        <td className="border border-gray-300 px-4 py-2">Basado en la nube</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.devices')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.devicesBasic')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.devicesApi')}</td>
                       </tr>
                       <tr>
-                        <td className="border border-gray-300 px-4 py-2">Automatización</td>
-                        <td className="border border-gray-300 px-4 py-2">Limitada</td>
-                        <td className="border border-gray-300 px-4 py-2">Completa</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.automation')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.automationBasic')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.automationApi')}</td>
                       </tr>
                       <tr className="bg-gray-50">
-                        <td className="border border-gray-300 px-4 py-2">Integración</td>
-                        <td className="border border-gray-300 px-4 py-2">No</td>
-                        <td className="border border-gray-300 px-4 py-2">Sí</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.integration')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.integrationBasic')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.integrationApi')}</td>
                       </tr>
                       <tr>
-                        <td className="border border-gray-300 px-4 py-2">Escalabilidad</td>
-                        <td className="border border-gray-300 px-4 py-2">Baja</td>
-                        <td className="border border-gray-300 px-4 py-2">Alta</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.scalability')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.scalabilityBasic')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.scalabilityApi')}</td>
                       </tr>
                       <tr className="bg-gray-50">
-                        <td className="border border-gray-300 px-4 py-2">Soporte empresarial</td>
-                        <td className="border border-gray-300 px-4 py-2">No</td>
-                        <td className="border border-gray-300 px-4 py-2">Sí</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.businessSupport')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.businessSupportBasic')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.businessSupportApi')}</td>
                       </tr>
                       <tr>
-                        <td className="border border-gray-300 px-4 py-2">Plantillas de mensajes</td>
-                        <td className="border border-gray-300 px-4 py-2">No</td>
-                        <td className="border border-gray-300 px-4 py-2">Sí</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.messageTemplates')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.messageTemplatesBasic')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.messageTemplatesApi')}</td>
                       </tr>
                       <tr className="bg-gray-50">
-                        <td className="border border-gray-300 px-4 py-2">Análisis</td>
-                        <td className="border border-gray-300 px-4 py-2">Básicos</td>
-                        <td className="border border-gray-300 px-4 py-2">Avanzados</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.analytics')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.analyticsBasic')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.analyticsApi')}</td>
                       </tr>
                       <tr>
-                        <td className="border border-gray-300 px-4 py-2">Número de usuarios</td>
-                        <td className="border border-gray-300 px-4 py-2">1</td>
-                        <td className="border border-gray-300 px-4 py-2">Múltiples</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.numberOfUsers')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.numberOfUsersBasic')}</td>
+                        <td className="border border-gray-300 px-4 py-2">{t('articles.article1.content.comparisonTable.numberOfUsersApi')}</td>
                       </tr>
                     </tbody>
                   </table>

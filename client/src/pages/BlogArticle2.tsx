@@ -76,229 +76,241 @@ export default function BlogArticle2() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  ¿Para que me sirve WhatsApp Business API para mi negocio?
+                  {t('articles.article2.title')}
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  WhatsApp Business API es una herramienta transformadora que puede revolucionar la forma en que tu negocio se comunica con los clientes. Veamos cómo diferentes industrias pueden beneficiarse de esta poderosa plataforma.
+                  {t('articles.article2.content.intro')}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Restaurantes: Optimiza tu Servicio al Cliente
+                  {t('articles.article2.content.restaurantTitle')}
                 </h3>
                 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Caso de uso: Reservas y confirmaciones automáticas
+                  {t('articles.article2.content.restaurantUseCase')}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Un restaurante puede usar WhatsApp Business API para:
+                  {t('articles.article2.content.restaurantDesc')}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Enviar confirmaciones automáticas de reservas</li>
-                  <li>Recordar a los clientes su reserva 24 horas antes</li>
-                  <li>Permitir que los clientes cambien o cancelen reservas directamente por WhatsApp</li>
-                  <li>Informar sobre cambios en el menú o promociones especiales</li>
-                  <li>Recibir pedidos para llevar y delivery</li>
+                  {language === 'es' ? [
+                    'Enviar confirmaciones automáticas de reservas',
+                    'Recordar a los clientes su reserva 24 horas antes',
+                    'Permitir que los clientes cambien o cancelen reservas directamente por WhatsApp',
+                    'Informar sobre cambios en el menú o promociones especiales',
+                    'Recibir pedidos para llevar y delivery'
+                  ].map((feature, index) => (
+                    <li key={index}>{feature}</li>
+                  )) : [
+                    'Send automatic reservation confirmations',
+                    'Remind customers of their reservation 24 hours in advance',
+                    'Allow customers to change or cancel reservations directly via WhatsApp',
+                    'Inform about menu changes or special promotions',
+                    'Receive takeout and delivery orders'
+                  ].map((feature, index) => (
+                    <li key={index}>{feature}</li>
+                  ))}
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Ejemplo práctico:
+                  {t('articles.article2.content.restaurantExample')}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  El restaurante "La Buena Mesa" implementó WhatsApp Business API y redujo el número de no-shows (clientes que no llegan) en un 40%. Ahora, cuando un cliente hace una reserva, recibe automáticamente un mensaje de confirmación y un recordatorio el día anterior. Si el cliente no confirma, el restaurante puede liberar la mesa para otros clientes.
+                  {t('articles.article2.content.restaurantExampleText')}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Con IA integrada:
+                  {t('articles.article2.content.restaurantWithAI')}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Un chatbot de IA puede responder preguntas sobre el menú, disponibilidad de mesas, horarios y restricciones dietéticas sin intervención humana, mejorando la experiencia del cliente y reduciendo carga de trabajo.
+                  {t('articles.article2.content.restaurantWithAIText')}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Hoteles: Mejora la Experiencia del Huésped
+                  {language === 'es' ? 'Hoteles: Mejora la Experiencia del Huésped' : 'Hotels: Enhance Guest Experience'}
                 </h3>
                 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Caso de uso: Comunicación pre-llegada y durante la estadía
+                  {language === 'es' ? 'Caso de uso: Comunicación pre-llegada y durante la estadía' : 'Use Case: Pre-arrival and during-stay communication'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Los hoteles pueden utilizar WhatsApp Business API para:
+                  {language === 'es' ? 'Los hoteles pueden utilizar WhatsApp Business API para:' : 'Hotels can use WhatsApp Business API to:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Enviar confirmaciones de reserva con detalles de check-in</li>
-                  <li>Proporcionar información sobre amenidades y servicios</li>
-                  <li>Facilitar el check-in remoto</li>
-                  <li>Responder consultas sobre servicios del hotel</li>
-                  <li>Enviar ofertas de servicios adicionales (spa, restaurante, tours)</li>
-                  <li>Recopilar feedback después del check-out</li>
+                  <li>{language === 'es' ? 'Enviar confirmaciones de reserva con detalles de check-in' : 'Send reservation confirmations with check-in details'}</li>
+                  <li>{language === 'es' ? 'Proporcionar información sobre amenidades y servicios' : 'Provide information about amenities and services'}</li>
+                  <li>{language === 'es' ? 'Facilitar el check-in remoto' : 'Facilitate remote check-in'}</li>
+                  <li>{language === 'es' ? 'Responder consultas sobre servicios del hotel' : 'Respond to hotel service inquiries'}</li>
+                  <li>{language === 'es' ? 'Enviar ofertas de servicios adicionales (spa, restaurante, tours)' : 'Send additional service offers (spa, restaurant, tours)'}</li>
+                  <li>{language === 'es' ? 'Recopilar feedback después del check-out' : 'Collect feedback after check-out'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Ejemplo práctico:
+                  {language === 'es' ? 'Ejemplo práctico:' : 'Practical Example:'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  El Hotel "Paraíso Tropical" implementó WhatsApp Business API y mejoró su satisfacción del cliente en un 35%. Los huéspedes reciben un mensaje de bienvenida con instrucciones de check-in, información sobre el WiFi, horarios de comidas y servicios disponibles. Durante la estadía, pueden solicitar servicios como toallas adicionales o información turística directamente por WhatsApp.
+                  {language === 'es' ? 'El Hotel "Paraíso Tropical" implementó WhatsApp Business API y mejoró su satisfacción del cliente en un 35%. Los huéspedes reciben un mensaje de bienvenida con instrucciones de check-in, información sobre el WiFi, horarios de comidas y servicios disponibles. Durante la estadía, pueden solicitar servicios como toallas adicionales o información turística directamente por WhatsApp.' : 'The "Tropical Paradise" Hotel implemented WhatsApp Business API and improved customer satisfaction by 35%. Guests receive a welcome message with check-in instructions, WiFi information, meal times, and available services. During their stay, they can request services like additional towels or tourist information directly via WhatsApp.'}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Con IA integrada:
+                  {language === 'es' ? 'Con IA integrada:' : 'With integrated AI:'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Un asistente de IA disponible 24/7 puede responder preguntas sobre servicios, hacer recomendaciones de restaurantes cercanos, y procesar solicitudes de servicio a la habitación automáticamente, mejorando significativamente la experiencia del huésped.
+                  {language === 'es' ? 'Un asistente de IA disponible 24/7 puede responder preguntas sobre servicios, hacer recomendaciones de restaurantes cercanos, y procesar solicitudes de servicio a la habitación automáticamente, mejorando significativamente la experiencia del huésped.' : 'An AI assistant available 24/7 can answer questions about services, make nearby restaurant recommendations, and automatically process room service requests, significantly improving the guest experience.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Cafés: Impulsa las Ventas y la Lealtad
+                  {language === 'es' ? 'Cafés: Impulsa las Ventas y la Lealtad' : 'Cafés: Boost Sales and Loyalty'}
                 </h3>
                 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Caso de uso: Programas de fidelización y promociones
+                  {language === 'es' ? 'Caso de uso: Programas de fidelización y promociones' : 'Use Case: Loyalty programs and promotions'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Los cafés pueden usar WhatsApp Business API para:
+                  {language === 'es' ? 'Los cafés pueden usar WhatsApp Business API para:' : 'Cafés can use WhatsApp Business API to:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Notificar sobre bebidas y pasteles nuevos</li>
-                  <li>Enviar promociones y descuentos personalizados</li>
-                  <li>Permitir pre-pedidos para recoger</li>
-                  <li>Crear programas de puntos y recompensas</li>
-                  <li>Informar sobre eventos especiales (catas de café, talleres)</li>
+                  <li>{language === 'es' ? 'Notificar sobre bebidas y pasteles nuevos' : 'Notify about new drinks and pastries'}</li>
+                  <li>{language === 'es' ? 'Enviar promociones y descuentos personalizados' : 'Send personalized promotions and discounts'}</li>
+                  <li>{language === 'es' ? 'Permitir pre-pedidos para recoger' : 'Allow pre-orders for pickup'}</li>
+                  <li>{language === 'es' ? 'Crear programas de puntos y recompensas' : 'Create points and rewards programs'}</li>
+                  <li>{language === 'es' ? 'Informar sobre eventos especiales (catas de café, talleres)' : 'Inform about special events (coffee tastings, workshops)'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Ejemplo práctico:
+                  {language === 'es' ? 'Ejemplo práctico:' : 'Practical Example:'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  El café "Aroma Perfecto" creó un programa de fidelización en WhatsApp donde cada compra suma puntos. Los clientes reciben automáticamente mensajes sobre promociones personalizadas basadas en sus compras anteriores. Las ventas aumentaron un 25% en los primeros tres meses.
+                  {language === 'es' ? 'El café "Aroma Perfecto" creó un programa de fidelización en WhatsApp donde cada compra suma puntos. Los clientes reciben automáticamente mensajes sobre promociones personalizadas basadas en sus compras anteriores. Las ventas aumentaron un 25% en los primeros tres meses.' : 'The "Perfect Aroma" café created a loyalty program on WhatsApp where each purchase adds points. Customers automatically receive messages about personalized promotions based on their previous purchases. Sales increased by 25% in the first three months.'}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Con IA integrada:
+                  {language === 'es' ? 'Con IA integrada:' : 'With integrated AI:'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Un sistema de IA puede analizar preferencias de compra y enviar recomendaciones personalizadas (por ejemplo, "Vimos que te encanta el café de origen único, tenemos uno nuevo de Colombia"). También puede procesar pre-pedidos automáticamente y confirmar horarios de recogida.
+                  {language === 'es' ? 'Un sistema de IA puede analizar preferencias de compra y enviar recomendaciones personalizadas (por ejemplo, "Vimos que te encanta el café de origen único, tenemos uno nuevo de Colombia"). También puede procesar pre-pedidos automáticamente y confirmar horarios de recogida.' : 'An AI system can analyze purchase preferences and send personalized recommendations (for example, "We saw you love single-origin coffee, we have a new one from Colombia"). It can also process pre-orders automatically and confirm pickup times.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Oficinas de Abogados: Mejora la Comunicación Legal
+                  {language === 'es' ? 'Oficinas de Abogados: Mejora la Comunicación Legal' : 'Law Offices: Improve Legal Communication'}
                 </h3>
                 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Caso de uso: Comunicación segura con clientes
+                  {language === 'es' ? 'Caso de uso: Comunicación segura con clientes' : 'Use Case: Secure communication with clients'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Las oficinas de abogados pueden utilizar WhatsApp Business API para:
+                  {language === 'es' ? 'Las oficinas de abogados pueden utilizar WhatsApp Business API para:' : 'Law offices can use WhatsApp Business API to:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Enviar actualizaciones sobre casos de forma segura</li>
-                  <li>Recordar fechas importantes de audiencias o plazos</li>
-                  <li>Facilitar la firma electrónica de documentos</li>
-                  <li>Responder consultas legales frecuentes</li>
-                  <li>Programar citas con abogados</li>
-                  <li>Enviar documentos y notificaciones legales</li>
+                  <li>{language === 'es' ? 'Enviar actualizaciones sobre casos de forma segura' : 'Send secure case updates'}</li>
+                  <li>{language === 'es' ? 'Recordar fechas importantes de audiencias o plazos' : 'Remind important hearing dates or deadlines'}</li>
+                  <li>{language === 'es' ? 'Facilitar la firma electrónica de documentos' : 'Facilitate electronic document signing'}</li>
+                  <li>{language === 'es' ? 'Responder consultas legales frecuentes' : 'Respond to frequent legal inquiries'}</li>
+                  <li>{language === 'es' ? 'Programar citas con abogados' : 'Schedule appointments with lawyers'}</li>
+                  <li>{language === 'es' ? 'Enviar documentos y notificaciones legales' : 'Send legal documents and notifications'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Ejemplo práctico:
+                  {language === 'es' ? 'Ejemplo práctico:' : 'Practical Example:'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  El despacho "Justicia Legal" implementó WhatsApp Business API para comunicarse con sus clientes. Ahora, cuando hay una actualización importante en un caso, el cliente recibe un mensaje automático. Los clientes también pueden programar citas directamente por WhatsApp, reduciendo llamadas telefónicas en un 60%.
+                  {language === 'es' ? 'El despacho "Justicia Legal" implementó WhatsApp Business API para comunicarse con sus clientes. Ahora, cuando hay una actualización importante en un caso, el cliente recibe un mensaje automático. Los clientes también pueden programar citas directamente por WhatsApp, reduciendo llamadas telefónicas en un 60%.' : 'The "Legal Justice" law firm implemented WhatsApp Business API to communicate with its clients. Now, when there is an important update in a case, the client receives an automatic message. Clients can also schedule appointments directly via WhatsApp, reducing phone calls by 60%.'}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Con IA integrada:
+                  {language === 'es' ? 'Con IA integrada:' : 'With integrated AI:'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Un chatbot legal puede responder preguntas frecuentes sobre procesos legales, plazos, y documentación requerida. También puede triagear consultas y dirigirlas al abogado apropiado, mejorando la eficiencia del despacho.
+                  {language === 'es' ? 'Un chatbot legal puede responder preguntas frecuentes sobre procesos legales, plazos, y documentación requerida. También puede triagear consultas y dirigirlas al abogado apropiado, mejorando la eficiencia del despacho.' : 'A legal chatbot can answer frequent questions about legal processes, deadlines, and required documentation. It can also triage inquiries and direct them to the appropriate lawyer, improving the firm\'s efficiency.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Oficinas de Cobros y Recaudo: Optimiza tu Gestión de Cobranza
+                  {language === 'es' ? 'Oficinas de Cobros y Recaudo: Optimiza tu Gestión de Cobranza' : 'Collection Offices: Optimize Your Collection Management'}
                 </h3>
                 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Caso de uso: Comunicación efectiva de cobros
+                  {language === 'es' ? 'Caso de uso: Comunicación efectiva de cobros' : 'Use Case: Effective collection communication'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Las oficinas de cobros pueden usar WhatsApp Business API para:
+                  {language === 'es' ? 'Las oficinas de cobros pueden usar WhatsApp Business API para:' : 'Collection offices can use WhatsApp Business API to:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Enviar recordatorios de pago automáticos</li>
-                  <li>Facilitar pagos directos a través de enlaces de pago</li>
-                  <li>Comunicar cambios en planes de pago</li>
-                  <li>Responder consultas sobre deudas</li>
-                  <li>Enviar comprobantes de pago automáticamente</li>
-                  <li>Realizar seguimiento de pagos programados</li>
+                  <li>{language === 'es' ? 'Enviar recordatorios de pago automáticos' : 'Send automatic payment reminders'}</li>
+                  <li>{language === 'es' ? 'Facilitar pagos directos a través de enlaces de pago' : 'Facilitate direct payments through payment links'}</li>
+                  <li>{language === 'es' ? 'Comunicar cambios en planes de pago' : 'Communicate changes in payment plans'}</li>
+                  <li>{language === 'es' ? 'Responder consultas sobre deudas' : 'Respond to debt inquiries'}</li>
+                  <li>{language === 'es' ? 'Enviar comprobantes de pago automáticamente' : 'Send automatic payment receipts'}</li>
+                  <li>{language === 'es' ? 'Realizar seguimiento de pagos programados' : 'Track scheduled payments'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Ejemplo práctico:
+                  {language === 'es' ? 'Ejemplo práctico:' : 'Practical Example:'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  La empresa de cobros "Recaudo Efectivo" implementó WhatsApp Business API y aumentó su tasa de recuperación de cartera en un 45%. Los deudores reciben recordatorios automáticos personalizados según el estado de su deuda. Cuando un cliente realiza un pago, recibe automáticamente un comprobante por WhatsApp, mejorando la confianza y transparencia.
+                  {language === 'es' ? 'La empresa de cobros "Recaudo Efectivo" implementó WhatsApp Business API y aumentó su tasa de recuperación de cartera en un 45%. Los deudores reciben recordatorios automáticos personalizados según el estado de su deuda. Cuando un cliente realiza un pago, recibe automáticamente un comprobante por WhatsApp, mejorando la confianza y transparencia.' : 'The "Effective Collection" collection agency implemented WhatsApp Business API and increased its portfolio recovery rate by 45%. Debtors receive automatic personalized reminders based on their debt status. When a client makes a payment, they automatically receive a receipt via WhatsApp, improving trust and transparency.'}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Con IA integrada:
+                  {language === 'es' ? 'Con IA integrada:' : 'With integrated AI:'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Un sistema de IA puede analizar patrones de pago y enviar recordatorios en el momento óptimo. También puede procesar planes de pago automáticamente, permitiendo que los clientes negocie términos sin intervención humana, mejorando significativamente la recuperación de cartera.
+                  {language === 'es' ? 'Un sistema de IA puede analizar patrones de pago y enviar recordatorios en el momento óptimo. También puede procesar planes de pago automáticamente, permitiendo que los clientes negocie términos sin intervención humana, mejorando significativamente la recuperación de cartera.' : 'An AI system can analyze payment patterns and send reminders at the optimal time. It can also process payment plans automatically, allowing customers to negotiate terms without human intervention, significantly improving portfolio recovery.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Beneficios Transversales
+                  {language === 'es' ? 'Beneficios Transversales' : 'Cross-Benefits'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Independientemente de tu industria, WhatsApp Business API ofrece:
+                  {language === 'es' ? 'Independientemente de tu industria, WhatsApp Business API ofrece:' : 'Regardless of your industry, WhatsApp Business API offers:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Reducción de costos: Menos llamadas telefónicas y correos electrónicos</li>
-                  <li>Mejora en la satisfacción del cliente: Respuestas rápidas y personalizadas</li>
-                  <li>Aumento en conversión: Comunicación oportuna y relevante</li>
-                  <li>Automatización: Procesos sin intervención humana</li>
-                  <li>Escalabilidad: Maneja miles de conversaciones simultáneamente</li>
-                  <li>Datos y análisis: Comprende mejor el comportamiento de tus clientes</li>
+                  <li>{language === 'es' ? 'Reducción de costos: Menos llamadas telefónicas y correos electrónicos' : 'Cost reduction: Fewer phone calls and emails'}</li>
+                  <li>{language === 'es' ? 'Mejora en la satisfacción del cliente: Respuestas rápidas y personalizadas' : 'Improved customer satisfaction: Fast and personalized responses'}</li>
+                  <li>{language === 'es' ? 'Aumento en conversión: Comunicación oportuna y relevante' : 'Increased conversion: Timely and relevant communication'}</li>
+                  <li>{language === 'es' ? 'Automatización: Procesos sin intervención humana' : 'Automation: Processes without human intervention'}</li>
+                  <li>{language === 'es' ? 'Escalabilidad: Maneja miles de conversaciones simultáneamente' : 'Scalability: Handle thousands of simultaneous conversations'}</li>
+                  <li>{language === 'es' ? 'Datos y análisis: Comprende mejor el comportamiento de tus clientes' : 'Data and analytics: Better understand your customer behavior'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Conclusión
+                  {language === 'es' ? 'Conclusión' : 'Conclusion'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  WhatsApp Business API no es solo una herramienta de comunicación, es un catalizador de transformación digital. Ya sea que dirijas un restaurante, hotel, café, despacho legal u oficina de cobros, esta plataforma puede mejorar significativamente tu eficiencia operativa y satisfacción del cliente.
+                  {language === 'es' ? 'WhatsApp Business API no es solo una herramienta de comunicación, es un catalizador de transformación digital. Ya sea que dirijas un restaurante, hotel, café, despacho legal u oficina de cobros, esta plataforma puede mejorar significativamente tu eficiencia operativa y satisfacción del cliente.' : 'WhatsApp Business API is not just a communication tool, it\'s a digital transformation catalyst. Whether you run a restaurant, hotel, café, law firm, or collection office, this platform can significantly improve your operational efficiency and customer satisfaction.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  La inversión en WhatsApp Business API se traduce en mejores resultados comerciales, clientes más satisfechos y operaciones más eficientes.
+                  {language === 'es' ? 'La inversión en WhatsApp Business API se traduce en mejores resultados comerciales, clientes más satisfechos y operaciones más eficientes.' : 'The investment in WhatsApp Business API translates into better business results, more satisfied customers, and more efficient operations.'}
                 </p>
               </article>
 
               {/* Share Section */}
               <div className="mt-12 pt-8 border-t border-gray-200">
-                <h4 className="text-lg font-semibold text-gray-900 mb-4">Compartir:</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-4">{language === 'es' ? 'Compartir:' : 'Share:'}</h4>
                 <div className="flex gap-4">
                   <button
                     onClick={() => handleShare('facebook')}

@@ -170,14 +170,94 @@ const translations = {
         subtitle: 'Descubre las diferencias clave y elige la mejor opción para tu negocio',
         intro: 'En el mundo empresarial actual, la comunicación efectiva con los clientes es fundamental. WhatsApp se ha convertido en una herramienta esencial, pero existe confusión sobre cuál versión usar: WhatsApp Business estándar o WhatsApp Business API.',
         conclusion: 'La elección entre WhatsApp Business y WhatsApp Business API depende del tamaño de tu negocio, volumen de mensajes y necesidades de automatización.',
-        shareText: 'Descubre las diferencias clave entre WhatsApp Business y WhatsApp Business API, y entiende cuál es la mejor opción para tu negocio.'
+        shareText: 'Descubre las diferencias clave entre WhatsApp Business y WhatsApp Business API, y entiende cuál es la mejor opción para tu negocio.',
+        content: {
+          intro: 'En el mundo empresarial actual, WhatsApp se ha convertido en una herramienta fundamental para la comunicación con clientes. Sin embargo, muchas empresas se confunden entre WhatsApp Business y WhatsApp Business API. Aunque ambas son soluciones de WhatsApp, tienen diferencias significativas que es importante entender.',
+          basicTitle: 'WhatsApp Business: La Solución Básica',
+          basicDesc: 'WhatsApp Business es una aplicación móvil gratuita diseñada para pequeños negocios. Es la versión simplificada de WhatsApp que permite a los empresarios crear un perfil de negocio con información como horarios de atención, ubicación y descripción del negocio.',
+          basicFeatures: 'Características principales de WhatsApp Business:',
+          basicFeaturesList: [
+            'Perfil de negocio con información empresarial',
+            'Etiquetas para organizar conversaciones',
+            'Mensajes automáticos de bienvenida y ausencia',
+            'Estadísticas básicas de mensajes',
+            'Disponible solo en dispositivos móviles',
+            'Gratuito',
+            'Limitado a un solo dispositivo por número'
+          ],
+          basicConclusion: 'Esta solución es ideal para pequeños negocios que necesitan una presencia básica en WhatsApp sin requerimientos complejos de automatización.',
+          apiTitle: 'WhatsApp Business API: La Solución Empresarial',
+          apiDesc: 'WhatsApp Business API es una solución robusta y escalable diseñada para empresas medianas y grandes. A diferencia de WhatsApp Business, la API permite la integración con sistemas empresariales, automatización de procesos y gestión masiva de conversaciones.',
+          apiFeatures: 'Características principales de WhatsApp Business API:',
+          apiFeaturesList: [
+            'Integración con sistemas empresariales (CRM, ERP, etc.)',
+            'Automatización de mensajes y flujos de conversación',
+            'Gestión de múltiples agentes desde una plataforma centralizada',
+            'Plantillas de mensajes preaprobadas',
+            'Webhooks para integración con aplicaciones externas',
+            'Acceso a través de API REST',
+            'Soporte para números de negocio dedicados',
+            'Análisis avanzados y reportes detallados',
+            'Escalabilidad para miles de conversaciones simultáneas'
+          ],
+          comparisonTitle: 'Comparativa Directa',
+          comparisonTable: {
+            feature: 'Característica',
+            basic: 'WhatsApp Business',
+            api: 'WhatsApp Business API',
+            cost: 'Costo',
+            costBasic: 'Gratuito',
+            costApi: 'Pago por mensajes',
+            devices: 'Dispositivos',
+            devicesBasic: 'Solo móvil',
+            devicesApi: 'Basado en la nube',
+            automation: 'Automatización',
+            automationBasic: 'Limitada',
+            automationApi: 'Completa',
+            integration: 'Integración',
+            integrationBasic: 'No',
+            integrationApi: 'Sí',
+            scalability: 'Escalabilidad',
+            scalabilityBasic: 'Baja',
+            scalabilityApi: 'Alta',
+            businessSupport: 'Soporte empresarial',
+            businessSupportBasic: 'No',
+            businessSupportApi: 'Sí',
+            messageTemplates: 'Plantillas de mensajes',
+            messageTemplatesBasic: 'No',
+            messageTemplatesApi: 'Sí',
+            analytics: 'Análisis',
+            analyticsBasic: 'Básicos',
+            analyticsApi: 'Avanzados',
+            numberOfUsers: 'Número de usuarios',
+            numberOfUsersBasic: '1',
+            numberOfUsersApi: 'Múltiples'
+          }
+        }
       },
       article2: {
         title: '¿Para qué me sirve WhatsApp Business API para mi negocio?',
         subtitle: 'Explora casos de uso reales en diferentes industrias',
         intro: 'WhatsApp Business API abre un mundo de posibilidades para businesses que buscan escalar su comunicación.',
         conclusion: 'WhatsApp Business API es versátil y se adapta a múltiples industrias y casos de uso.',
-        shareText: 'Explora casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, abogados y oficinas de cobros.'
+        shareText: 'Explora casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, abogados y oficinas de cobros.',
+        content: {
+          intro: 'WhatsApp Business API es una herramienta transformadora que puede revolucionar la forma en que tu negocio se comunica con los clientes. Veamos cómo diferentes industrias pueden beneficiarse de esta poderosa plataforma.',
+          restaurantTitle: 'Restaurantes: Optimiza tu Servicio al Cliente',
+          restaurantUseCase: 'Caso de uso: Reservas y confirmaciones automáticas',
+          restaurantDesc: 'Un restaurante puede usar WhatsApp Business API para:',
+          restaurantFeatures: [
+            'Enviar confirmaciones automáticas de reservas',
+            'Recordar a los clientes su reserva 24 horas antes',
+            'Permitir que los clientes cambien o cancelen reservas directamente por WhatsApp',
+            'Informar sobre cambios en el menú o promociones especiales',
+            'Recibir pedidos para llevar y delivery'
+          ],
+          restaurantExample: 'Ejemplo práctico:',
+          restaurantExampleText: 'El restaurante "La Buena Mesa" implementó WhatsApp Business API y redujo el número de no-shows (clientes que no llegan) en un 40%. Ahora, cuando un cliente hace una reserva, recibe automáticamente un mensaje de confirmación y un recordatorio el día anterior. Si el cliente no confirma, el restaurante puede liberar la mesa para otros clientes.',
+          restaurantWithAI: 'Con IA integrada:',
+          restaurantWithAIText: 'Un chatbot de IA puede responder preguntas sobre el menú, disponibilidad de mesas, horarios y restricciones dietéticas sin intervención humana, mejorando la experiencia del cliente y reduciendo carga de trabajo.'
+        }
       },
       article3: {
         title: '¿Cuáles son los primeros pasos para migrar WhatsApp Business API?',
@@ -430,14 +510,94 @@ const translations = {
         subtitle: 'Discover key differences and choose the best option for your business',
         intro: 'In today\'s business world, effective customer communication is essential. WhatsApp has become an essential tool, but there\'s confusion about which version to use: standard WhatsApp Business or WhatsApp Business API.',
         conclusion: 'The choice between WhatsApp Business and WhatsApp Business API depends on your business size, message volume, and automation needs.',
-        shareText: 'Discover the key differences between WhatsApp Business and WhatsApp Business API, and understand which is the best option for your business.'
+        shareText: 'Discover the key differences between WhatsApp Business and WhatsApp Business API, and understand which is the best option for your business.',
+        content: {
+          intro: 'In today\'s business world, WhatsApp has become a fundamental tool for customer communication. However, many businesses are confused between WhatsApp Business and WhatsApp Business API. Although both are WhatsApp solutions, they have significant differences that are important to understand.',
+          basicTitle: 'WhatsApp Business: The Basic Solution',
+          basicDesc: 'WhatsApp Business is a free mobile application designed for small businesses. It\'s the simplified version of WhatsApp that allows business owners to create a business profile with information such as business hours, location, and business description.',
+          basicFeatures: 'Main features of WhatsApp Business:',
+          basicFeaturesList: [
+            'Business profile with business information',
+            'Labels to organize conversations',
+            'Automatic welcome and away messages',
+            'Basic message statistics',
+            'Available only on mobile devices',
+            'Free',
+            'Limited to one device per number'
+          ],
+          basicConclusion: 'This solution is ideal for small businesses that need a basic presence on WhatsApp without complex automation requirements.',
+          apiTitle: 'WhatsApp Business API: The Enterprise Solution',
+          apiDesc: 'WhatsApp Business API is a robust and scalable solution designed for medium and large businesses. Unlike WhatsApp Business, the API allows integration with business systems, process automation, and massive conversation management.',
+          apiFeatures: 'Main features of WhatsApp Business API:',
+          apiFeaturesList: [
+            'Integration with business systems (CRM, ERP, etc.)',
+            'Message automation and conversation flows',
+            'Multiple agent management from centralized platform',
+            'Pre-approved message templates',
+            'Webhooks for integration with external applications',
+            'Access through REST API',
+            'Support for dedicated business numbers',
+            'Advanced analytics and detailed reports',
+            'Scalability for thousands of simultaneous conversations'
+          ],
+          comparisonTitle: 'Direct Comparison',
+          comparisonTable: {
+            feature: 'Feature',
+            basic: 'WhatsApp Business',
+            api: 'WhatsApp Business API',
+            cost: 'Cost',
+            costBasic: 'Free',
+            costApi: 'Pay per message',
+            devices: 'Devices',
+            devicesBasic: 'Mobile only',
+            devicesApi: 'Cloud-based',
+            automation: 'Automation',
+            automationBasic: 'Limited',
+            automationApi: 'Complete',
+            integration: 'Integration',
+            integrationBasic: 'No',
+            integrationApi: 'Yes',
+            scalability: 'Scalability',
+            scalabilityBasic: 'Low',
+            scalabilityApi: 'High',
+            businessSupport: 'Business Support',
+            businessSupportBasic: 'No',
+            businessSupportApi: 'Yes',
+            messageTemplates: 'Message Templates',
+            messageTemplatesBasic: 'No',
+            messageTemplatesApi: 'Yes',
+            analytics: 'Analytics',
+            analyticsBasic: 'Basic',
+            analyticsApi: 'Advanced',
+            numberOfUsers: 'Number of Users',
+            numberOfUsersBasic: '1',
+            numberOfUsersApi: 'Multiple'
+          }
+        }
       },
       article2: {
         title: 'What is WhatsApp Business API useful for in my business?',
         subtitle: 'Explore real use cases in different industries',
         intro: 'WhatsApp Business API opens a world of possibilities for businesses looking to scale their communication.',
         conclusion: 'WhatsApp Business API is versatile and adapts to multiple industries and use cases.',
-        shareText: 'Explore real use cases of WhatsApp Business API in restaurants, hotels, cafes, lawyers, and collection offices.'
+        shareText: 'Explore real use cases of WhatsApp Business API in restaurants, hotels, cafes, lawyers, and collection offices.',
+        content: {
+          intro: 'WhatsApp Business API is a transformative tool that can revolutionize how your business communicates with customers. Let\'s see how different industries can benefit from this powerful platform.',
+          restaurantTitle: 'Restaurants: Optimize Your Customer Service',
+          restaurantUseCase: 'Use Case: Automatic reservations and confirmations',
+          restaurantDesc: 'A restaurant can use WhatsApp Business API to:',
+          restaurantFeatures: [
+            'Send automatic reservation confirmations',
+            'Remind customers of their reservation 24 hours in advance',
+            'Allow customers to change or cancel reservations directly via WhatsApp',
+            'Inform about menu changes or special promotions',
+            'Receive takeout and delivery orders'
+          ],
+          restaurantExample: 'Practical Example:',
+          restaurantExampleText: 'The restaurant "La Buena Mesa" implemented WhatsApp Business API and reduced no-shows (customers who don\'t arrive) by 40%. Now, when a customer makes a reservation, they automatically receive a confirmation message and a reminder the day before. If the customer doesn\'t confirm, the restaurant can release the table for other customers.',
+          restaurantWithAI: 'With integrated AI:',
+          restaurantWithAIText: 'An AI chatbot can answer questions about the menu, table availability, hours, and dietary restrictions without human intervention, improving customer experience and reducing workload.'
+        }
       },
       article3: {
         title: 'What are the first steps to migrate to WhatsApp Business API?',
