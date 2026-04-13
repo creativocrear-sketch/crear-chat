@@ -10,7 +10,7 @@ const getAlcaldiasArticles = (language: string) => [
     title: language === 'es' ? "Convierte WhatsApp en tu Mejor Guía Turística 24/7" : "Turn WhatsApp into Your Best 24/7 Tourist Guide",
     excerpt: language === 'es' ? "Automatiza la atención, mejora la experiencia y aumenta el consumo turístico en tu ciudad o negocio" : "Automate attention, improve experience, and increase tourism consumption in your city or business",
     date: language === 'es' ? "13 de Abril de 2026" : "April 13, 2026",
-    readTime: language === 'es' ? "8 min de lectura" : "8 min read",
+    readTime: language === 'es' ? "5 min" : "5 min",
     author: language === 'es' ? "Autor: Alex Murillo + Equipo de Soporte" : "Author: Alex Murillo + Support Team",
     path: "/alcaldias/guia-turistica-whatsapp"
   },
@@ -19,7 +19,7 @@ const getAlcaldiasArticles = (language: string) => [
     title: language === 'es' ? "Consulta de Deudas por WhatsApp en Segundos" : "Debt Inquiry via WhatsApp in Seconds",
     excerpt: language === 'es' ? "Permite que tus usuarios accedan a su información financiera de forma rápida, clara y sin fricciones" : "Allow your users to access their financial information quickly, clearly, and without friction",
     date: language === 'es' ? "14 de Abril de 2026" : "April 14, 2026",
-    readTime: language === 'es' ? "6 min de lectura" : "6 min read",
+    readTime: language === 'es' ? "4 min" : "4 min",
     author: language === 'es' ? "Autor: Alex Murillo + Equipo de Soporte" : "Author: Alex Murillo + Support Team",
     path: "/alcaldias/consulta-deudas-whatsapp"
   },
@@ -28,7 +28,7 @@ const getAlcaldiasArticles = (language: string) => [
     title: language === 'es' ? "Convierte WhatsApp en una Plataforma Educativa Interactiva" : "Turn WhatsApp into an Interactive Educational Platform",
     excerpt: language === 'es' ? "Motiva, evalúa y premia a tus estudiantes con preguntas de selección múltiple desde el canal que ya usan todos los días" : "Motivate, evaluate and reward your students with multiple choice questions from the channel they already use every day",
     date: language === 'es' ? "15 de Abril de 2026" : "April 15, 2026",
-    readTime: language === 'es' ? "7 min de lectura" : "7 min read",
+    readTime: language === 'es' ? "6 min" : "6 min",
     author: language === 'es' ? "Autor: Alex Murillo + Equipo de Soporte" : "Author: Alex Murillo + Support Team",
     path: "/alcaldias/plataforma-educativa-whatsapp"
   },
@@ -37,7 +37,7 @@ const getAlcaldiasArticles = (language: string) => [
     title: language === 'es' ? "Consulta SISBÉN y Subsidios en Segundos por WhatsApp" : "SISBÉN and Subsidy Inquiry in Seconds via WhatsApp",
     excerpt: language === 'es' ? "Facilita el acceso a la información y moderniza la atención ciudadana" : "Facilitate access to information and modernize citizen service",
     date: language === 'es' ? "16 de Abril de 2026" : "April 16, 2026",
-    readTime: language === 'es' ? "6 min de lectura" : "6 min read",
+    readTime: language === 'es' ? "5 min" : "5 min",
     author: language === 'es' ? "Autor: Alex Murillo + Equipo de Soporte" : "Author: Alex Murillo + Support Team",
     path: "/alcaldias/consulta-sisben-subsidios"
   }
