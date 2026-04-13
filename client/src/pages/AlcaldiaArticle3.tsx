@@ -16,8 +16,8 @@ function AlcaldiaArticle3() {
   const handleShare = (platform: string) => {
     const url = window.location.href;
     const text = language === 'es' 
-      ? 'Convierte WhatsApp en una Plataforma Educativa Interactiva - Revoluciona la educación'
-      : 'Turn WhatsApp into an Interactive Educational Platform - Revolutionize education';
+      ? 'Convierte WhatsApp en una plataforma educativa interactiva - Revoluciona la educación'
+      : 'Turn WhatsApp into an interactive educational platform - Revolutionize education';
     
     if (platform === 'facebook') {
       window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
@@ -45,12 +45,12 @@ function AlcaldiaArticle3() {
               
               <div className="mb-6">
                 <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                  {language === 'es' ? 'Educación Interactiva' : 'Interactive Education'}
+                  {language === 'es' ? 'Educación interactiva' : 'Interactive education'}
                 </span>
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                {language === 'es' ? 'Convierte WhatsApp en una Plataforma Educativa Interactiva' : 'Turn WhatsApp into an Interactive Educational Platform'}
+                {language === 'es' ? 'Convierte WhatsApp en una plataforma educativa interactiva' : 'Turn WhatsApp into an interactive educational platform'}
               </h1>
               
               <p className="text-gray-600 mb-6 leading-relaxed">
@@ -60,14 +60,14 @@ function AlcaldiaArticle3() {
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" />
-                  <span>{language === 'es' ? '15 de Abril de 2026' : 'April 15, 2026'}</span>
+                  <span>{language === 'es' ? '15 de abril de 2026' : 'April 15, 2026'}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4" />
                   <span>7 {language === 'es' ? 'min de lectura' : 'min read'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span>{language === 'es' ? 'Autor: Alex Murillo + Equipo de Soporte' : 'Author: Alex Murillo + Support Team'}</span>
+                  <span>{language === 'es' ? 'Autor: Alex Murillo + equipo de soporte' : 'Author: Alex Murillo + support team'}</span>
                 </div>
               </div>
             </div>

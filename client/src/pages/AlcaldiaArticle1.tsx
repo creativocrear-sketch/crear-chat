@@ -45,25 +45,25 @@ export default function AlcaldiaArticle1() {
               
               <div className="mb-6">
                 <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                  {language === 'es' ? 'Turismo Inteligente' : 'Smart Tourism'}
+                  {language === 'es' ? 'Turismo inteligente' : 'Smart tourism'}
                 </span>
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                {language === 'es' ? 'Convierte WhatsApp en tu Mejor Guía Turístico 24/7' : 'Turn WhatsApp into Your Best 24/7 Tourist Guide'}
+                {language === 'es' ? 'Convierte WhatsApp en tu mejor guía turístico 24/7' : 'Turn WhatsApp into your best 24/7 tourist guide'}
               </h1>
               
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" />
-                  <span>{language === 'es' ? '13 de Abril de 2026' : 'April 13, 2026'}</span>
+                  <span>{language === 'es' ? '13 de abril de 2026' : 'April 13, 2026'}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4" />
                   <span>8 {language === 'es' ? 'min de lectura' : 'min read'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span>{language === 'es' ? 'Autor: Alex Murillo + Equipo de Soporte' : 'Author: Alex Murillo + Support Team'}</span>
+                  <span>{language === 'es' ? 'Autor: Alex Murillo + equipo de soporte' : 'Author: Alex Murillo + support team'}</span>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@ export default function AlcaldiaArticle1() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  {language === 'es' ? 'Convierte WhatsApp en tu Mejor Guía Turístico 24/7' : 'Turn WhatsApp into Your Best 24/7 Tourist Guide'}
+                  {language === 'es' ? 'Convierte WhatsApp en tu mejor guía turístico 24/7' : 'Turn WhatsApp into your best 24/7 tourist guide'}
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">

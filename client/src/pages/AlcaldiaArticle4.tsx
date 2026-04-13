@@ -16,8 +16,8 @@ function AlcaldiaArticle4() {
   const handleShare = (platform: string) => {
     const url = window.location.href;
     const text = language === 'es' 
-      ? 'Consulta SISBÉN y Subsidios en Segundos por WhatsApp - Moderniza la atención ciudadana'
-      : 'SISBÉN and Subsidy Inquiry in Seconds via WhatsApp - Modernize citizen service';
+      ? 'Consulta SISBÉN y subsidios en segundos por WhatsApp - Moderniza la atención ciudadana'
+      : 'SISBÉN and subsidy inquiry in seconds via WhatsApp - Modernize citizen service';
     
     if (platform === 'facebook') {
       window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
@@ -45,12 +45,12 @@ function AlcaldiaArticle4() {
               
               <div className="mb-6">
                 <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                  {language === 'es' ? 'Servicios Ciudadanos' : 'Citizen Services'}
+                  {language === 'es' ? 'Servicios ciudadanos' : 'Citizen services'}
                 </span>
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                {language === 'es' ? 'Consulta SISBÉN y Subsidios en Segundos por WhatsApp' : 'SISBÉN and Subsidy Inquiry in Seconds via WhatsApp'}
+                {language === 'es' ? 'Consulta SISBÉN y subsidios en segundos por WhatsApp' : 'SISBÉN and subsidy inquiry in seconds via WhatsApp'}
               </h1>
               
               <p className="text-gray-600 mb-6 leading-relaxed">
@@ -60,14 +60,14 @@ function AlcaldiaArticle4() {
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" />
-                  <span>{language === 'es' ? '16 de Abril de 2026' : 'April 16, 2026'}</span>
+                  <span>{language === 'es' ? '16 de abril de 2026' : 'April 16, 2026'}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4" />
                   <span>6 {language === 'es' ? 'min de lectura' : 'min read'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span>{language === 'es' ? 'Autor: Alex Murillo + Equipo de Soporte' : 'Author: Alex Murillo + Support Team'}</span>
+                  <span>{language === 'es' ? 'Autor: Alex Murillo + equipo de soporte' : 'Author: Alex Murillo + support team'}</span>
                 </div>
               </div>
             </div>

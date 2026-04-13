@@ -16,8 +16,8 @@ function AlcaldiaArticle2() {
   const handleShare = (platform: string) => {
     const url = window.location.href;
     const text = language === 'es' 
-      ? 'Consulta de Deudas por WhatsApp en Segundos - Moderniza tu atención financiera'
-      : 'Debt Inquiry via WhatsApp in Seconds - Modernize your financial service';
+      ? 'Consulta de deudas por WhatsApp en segundos - Moderniza tu atención financiera'
+      : 'Debt inquiry via WhatsApp in seconds - Modernize your financial service';
     
     if (platform === 'facebook') {
       window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
@@ -45,25 +45,25 @@ function AlcaldiaArticle2() {
               
               <div className="mb-6">
                 <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                  {language === 'es' ? 'Servicios Financieros' : 'Financial Services'}
+                  {language === 'es' ? 'Servicios financieros' : 'Financial services'}
                 </span>
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                {language === 'es' ? 'Consulta de Deudas por WhatsApp en Segundos' : 'Debt Inquiry via WhatsApp in Seconds'}
+                {language === 'es' ? 'Consulta de deudas por WhatsApp en segundos' : 'Debt inquiry via WhatsApp in seconds'}
               </h1>
               
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" />
-                  <span>{language === 'es' ? '14 de Abril de 2026' : 'April 14, 2026'}</span>
+                  <span>{language === 'es' ? '14 de abril de 2026' : 'April 14, 2026'}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4" />
                   <span>6 {language === 'es' ? 'min de lectura' : 'min read'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span>{language === 'es' ? 'Autor: Alex Murillo + Equipo de Soporte' : 'Author: Alex Murillo + Support Team'}</span>
+                  <span>{language === 'es' ? 'Autor: Alex Murillo + equipo de soporte' : 'Author: Alex Murillo + support team'}</span>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@ function AlcaldiaArticle2() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  {language === 'es' ? 'Consulta de Deudas por WhatsApp en Segundos' : 'Debt Inquiry via WhatsApp in Seconds'}
+                  {language === 'es' ? 'Consulta de deudas por WhatsApp en segundos' : 'Debt inquiry via WhatsApp in seconds'}
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
