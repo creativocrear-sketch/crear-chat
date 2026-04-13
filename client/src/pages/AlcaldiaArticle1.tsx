@@ -48,23 +48,22 @@ export default function AlcaldiaArticle1() {
                   {language === 'es' ? 'Turismo Inteligente' : 'Smart Tourism'}
                 </span>
               </div>
-
-              <h1 className="font-bold text-4xl md:text-5xl text-gray-900 mb-6 leading-tight">
+              
+              <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
                 {t('alcaldias.article1.title')}
               </h1>
               
-              <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-                {t('alcaldias.article1.subtitle')}
-              </p>
-
-              <div className="flex items-center gap-6 text-gray-500">
+              <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
-                  <Calendar className="w-5 h-5" />
+                  <Calendar className="w-4 h-4" />
                   <span>{language === 'es' ? '13 de Abril de 2026' : 'April 13, 2026'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Clock className="w-5 h-5" />
-                  <span>8 min {language === 'es' ? 'de lectura' : 'read'}</span>
+                  <Clock className="w-4 h-4" />
+                  <span>8 {language === 'es' ? 'min de lectura' : 'min read'}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span>{language === 'es' ? 'Autor: Alex Murillo + Equipo de Soporte' : 'Author: Alex Murillo + Support Team'}</span>
                 </div>
               </div>
             </div>
@@ -75,193 +74,239 @@ export default function AlcaldiaArticle1() {
         <section className="py-16">
           <div className="container">
             <div className="max-w-4xl mx-auto">
-              {/* Introduction */}
-              <div className="prose prose-lg max-w-none mb-12">
+              <article className="prose prose-lg max-w-none">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  {t('alcaldias.article1.intro')}
+                  {t('alcaldias.article1.title')}
                 </h2>
-              </div>
+                
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {t('alcaldias.article1.subtitle')}
+                </p>
 
-              {/* Problem Section */}
-              <div className="bg-red-50 border-l-4 border-red-500 p-6 mb-8 rounded-r-lg">
-                <h3 className="text-xl font-bold text-red-900 mb-4">
-                  {t('alcaldias.article1.problem.title')}
+                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
+                  {t('alcaldias.article1.intro')}
                 </h3>
-                <p className="text-red-800 mb-4">
+                
+                <p className="text-gray-600 mb-6 leading-relaxed">
                   {t('alcaldias.article1.problem.description')}
                 </p>
-                <p className="text-red-900 font-bold">
+
+                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                  {t('alcaldias.article1.problem.title')}
+                </h4>
+                
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  {language === 'es' ? [
+                    'Turistas perdidos sin información clara',
+                    'Oficinas de turismo saturadas con preguntas repetitivas',
+                    'Falta de atención fuera del horario laboral',
+                    'Información desactualizada o incompleta',
+                    'Barreras de idioma para turistas extranjeros',
+                    'Pérdida de oportunidades comerciales locales'
+                  ].map((issue, index) => (
+                    <li key={index}>{issue}</li>
+                  )) : [
+                    'Lost tourists without clear information',
+                    'Tourist offices overwhelmed with repetitive questions',
+                    'Lack of attention outside business hours',
+                    'Outdated or incomplete information',
+                    'Language barriers for foreign tourists',
+                    'Lost local business opportunities'
+                  ].map((issue, index) => (
+                    <li key={index}>{issue}</li>
+                  ))}
+                </ul>
+
+                <p className="text-gray-600 mb-6 leading-relaxed">
                   {t('alcaldias.article1.problem.conclusion')}
                 </p>
-              </div>
 
-              {/* Solution Section */}
-              <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8 rounded-r-lg">
-                <h3 className="text-xl font-bold text-green-900 mb-4">
+                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
                   {t('alcaldias.article1.solution.title')}
                 </h3>
-                <p className="text-green-800 mb-4">
+                
+                <p className="text-gray-600 mb-6 leading-relaxed">
                   {t('alcaldias.article1.solution.description')}
                 </p>
-                <p className="text-green-900 font-medium">
+
+                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                  {language === 'es' ? 'Tu asistente turístico puede responder en tiempo real:' : 'Your tourist assistant can respond in real time:'}
+                </h4>
+                
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  {language === 'es' ? [
+                    'Direcciones exactas y cómo llegar',
+                    'Horarios de apertura y precios',
+                    'Recomendaciones personalizadas según gustos',
+                    'Eventos locales y actividades disponibles',
+                    'Traducción instantánea de información',
+                    'Alertas sobre cierros o cambios temporales'
+                  ].map((feature, index) => (
+                    <li key={index}>{feature}</li>
+                  )) : [
+                    'Exact addresses and directions',
+                    'Opening hours and prices',
+                    'Personalized recommendations based on preferences',
+                    'Local events and available activities',
+                    'Instant translation of information',
+                    'Alerts about closures or temporary changes'
+                  ].map((feature, index) => (
+                    <li key={index}>{feature}</li>
+                  ))}
+                </ul>
+
+                <p className="text-gray-600 mb-6 leading-relaxed">
                   {t('alcaldias.article1.solution.adaptation')}
                 </p>
-              </div>
 
-              {/* Benefits */}
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8 rounded-r-lg">
-                <h3 className="text-xl font-bold text-blue-900 mb-4">
+                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
                   {t('alcaldias.article1.benefits.title')}
                 </h3>
-                <p className="text-blue-800 mb-4">
+                
+                <p className="text-gray-600 mb-6 leading-relaxed">
                   {t('alcaldias.article1.benefits.intro')}
                 </p>
-                <ul className="space-y-2 text-blue-800">
-                  <li className="flex items-center gap-2">
-                    <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                    {language === 'es' ? 'Más ingresos para comercios locales' : 'More income for local businesses'}
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                    {language === 'es' ? 'Turistas más felices y satisfechos' : 'Happier and more satisfied tourists'}
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                    {language === 'es' ? 'Reducción de carga de trabajo' : 'Reduced workload'}
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                    {language === 'es' ? 'Disponibilidad 24/7' : '24/7 availability'}
-                  </li>
-                </ul>
-              </div>
 
-              {/* Use Cases */}
-              <div className="bg-purple-50 border-l-4 border-purple-500 p-6 mb-8 rounded-r-lg">
-                <h3 className="text-xl font-bold text-purple-900 mb-4">
+                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                  {language === 'es' ? 'Beneficios clave:' : 'Key benefits:'}
+                </h4>
+                
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  {language === 'es' ? [
+                    'Aumento del 40% en tiempo de permanencia de turistas',
+                    'Reducción del 60% en consultas repetitivas a oficinas',
+                    'Mejora del 85% en satisfacción del visitante',
+                    'Incremento del 25% en consumo en comercios locales',
+                    'Disponibilidad 24/7 sin costos adicionales',
+                    'Atención en múltiples idiomas automáticamente'
+                  ].map((benefit, index) => (
+                    <li key={index}>{benefit}</li>
+                  )) : [
+                    '40% increase in tourist stay time',
+                    '60% reduction in repetitive office inquiries',
+                    '85% improvement in visitor satisfaction',
+                    '25% increase in local business consumption',
+                    '24/7 availability without additional costs',
+                    'Automatic multilingual assistance'
+                  ].map((benefit, index) => (
+                    <li key={index}>{benefit}</li>
+                  ))}
+                </ul>
+
+                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
                   {t('alcaldias.article1.useCases.title')}
                 </h3>
-                <p className="text-purple-800 mb-4">
+                
+                <p className="text-gray-600 mb-6 leading-relaxed">
                   {t('alcaldias.article1.useCases.intro')}
                 </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="bg-white p-4 rounded-lg border border-purple-200">
-                    <span className="text-purple-900 font-medium">{'\ud83c\udfdb\ufe0f'} {language === 'es' ? 'Oficinas de turismo' : 'Tourism offices'}</span>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfdb\ufe0f'} {language === 'es' ? 'Oficinas de Turismo' : 'Tourist Offices'}</h5>
+                    <p className="text-sm text-gray-600">{language === 'es' ? 'Información general y direcciones' : 'General information and directions'}</p>
                   </div>
-                  <div className="bg-white p-4 rounded-lg border border-purple-200">
-                    <span className="text-purple-900 font-medium">{'\ud83c\udfe8'} {language === 'es' ? 'Hoteles y hostales' : 'Hotels and hostels'}</span>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfe8'} {language === 'es' ? 'Hoteles y Alojamientos' : 'Hotels and Accommodations'}</h5>
+                    <p className="text-sm text-gray-600">{language === 'es' ? 'Disponibilidad y servicios' : 'Availability and services'}</p>
                   </div>
-                  <div className="bg-white p-4 rounded-lg border border-purple-200">
-                    <span className="text-purple-900 font-medium">{'\ud83c\udf7d\ufe0f'} {language === 'es' ? 'Restaurantes' : 'Restaurants'}</span>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udf7d\ufe0f'} {language === 'es' ? 'Restaurantes y Bares' : 'Restaurants and Bars'}</h5>
+                    <p className="text-sm text-gray-600">{language === 'es' ? 'Menús y reservas' : 'Menus and reservations'}</p>
                   </div>
-                  <div className="bg-white p-4 rounded-lg border border-purple-200">
-                    <span className="text-purple-900 font-medium">{'\ud83c\udfea'} {language === 'es' ? 'Atracciones turísticas' : 'Tourist attractions'}</span>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfea'} {language === 'es' ? 'Atracciones Turísticas' : 'Tourist Attractions'}</h5>
+                    <p className="text-sm text-gray-600">{language === 'es' ? 'Horarios y precios' : 'Hours and prices'}</p>
                   </div>
                 </div>
-              </div>
 
-              {/* Why WhatsApp */}
-              <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8 rounded-r-lg">
-                <h3 className="text-xl font-bold text-green-900 mb-4">
+                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
                   {t('alcaldias.article1.whyWhatsApp.title')}
                 </h3>
-                <p className="text-green-800 mb-4">
+                
+                <p className="text-gray-600 mb-6 leading-relaxed">
                   {t('alcaldias.article1.whyWhatsApp.intro')}
                 </p>
-                <ul className="space-y-2 text-green-800">
-                  <li className="flex items-center gap-2">
-                    <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                    {language === 'es' ? '2,000 millones de usuarios activos' : '2 billion active users'}
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                    {language === 'es' ? 'Comunicación instantánea' : 'Instant communication'}
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                    {language === 'es' ? 'Formato conversacional natural' : 'Natural conversational format'}
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                    {language === 'es' ? 'Sin necesidad de descargar apps' : 'No need to download apps'}
-                  </li>
-                </ul>
-              </div>
 
-              {/* Conclusion */}
-              <div className="bg-gradient-to-r from-blue-600 to-green-600 text-white rounded-2xl p-8 mb-8">
-                <h3 className="text-2xl font-bold mb-4">
-                  {language === 'es' ? 'Empieza hoy' : 'Start today'}
-                </h3>
-                <p className="text-lg text-blue-100 mb-6">
-                  {t('alcaldias.article1.conclusion')}
+                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                  {language === 'es' ? 'Ventajas de WhatsApp:' : 'WhatsApp advantages:'}
+                </h4>
+                
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  {language === 'es' ? [
+                    '2,000 millones de usuarios activos mensuales',
+                    '97% de los turistas ya lo tienen instalado',
+                    'Comunicación instantánea y familiar',
+                    'No requiere descarga ni registro adicional',
+                    'Soporte nativo para multimedia',
+                    'Funciona perfectamente en conexiones lentas'
+                  ].map((advantage, index) => (
+                    <li key={index}>{advantage}</li>
+                  )) : [
+                    '2 billion monthly active users',
+                    '97% of tourists already have it installed',
+                    'Instant and familiar communication',
+                    'No download or additional registration required',
+                    'Native multimedia support',
+                    'Works perfectly on slow connections'
+                  ].map((advantage, index) => (
+                    <li key={index}>{advantage}</li>
+                  ))}
+                </ul>
+
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {t('alcaldias.article1.whyWhatsApp.conclusion')}
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <a 
-                    href="/planes"
-                    className="inline-flex items-center gap-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
-                  >
-                    {language === 'es' ? 'Solicitar Demo' : 'Request Demo'}
-                  </a>
-                  <a 
-                    href="/contact"
-                    className="inline-flex items-center gap-2 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
-                  >
-                    {language === 'es' ? 'Contactar experto' : 'Contact expert'}
-                  </a>
-                </div>
-              </div>
+              </article>
 
               {/* Share Section */}
-              <div className="bg-gray-50 rounded-2xl p-6">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">
-                  {language === 'es' ? 'Compartir artículo' : 'Share article'}
-                </h3>
-                <div className="flex flex-wrap gap-3">
-                  <button
-                    onClick={() => handleShare('facebook')}
-                    className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-                  >
-                    <Facebook className="w-5 h-5" />
-                    Facebook
-                  </button>
-                  <button
-                    onClick={() => handleShare('whatsapp')}
-                    className="flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors"
-                  >
-                    <MessageCircle className="w-5 h-5" />
-                    WhatsApp
-                  </button>
+              <div className="mt-12 pt-8 border-t border-gray-200">
+                <div className="flex items-center justify-between mb-6">
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    {language === 'es' ? 'Compartir artículo' : 'Share article'}
+                  </h3>
+                  <div className="flex gap-3">
+                    <button
+                      onClick={() => handleShare('facebook')}
+                      className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+                    >
+                      <Facebook className="w-4 h-4" />
+                      Facebook
+                    </button>
+                    <button
+                      onClick={() => handleShare('whatsapp')}
+                      className="flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors"
+                    >
+                      <MessageCircle className="w-4 h-4" />
+                      WhatsApp
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
 
-        {/* Navigation */}
-        <section className="py-8 bg-gray-50">
-          <div className="container">
-            <div className="max-w-4xl mx-auto">
-              <div className="flex items-center justify-between">
-                <div className="text-left">
-                  <p className="text-sm text-gray-500 mb-1">
-                    {language === 'es' ? 'Volver a' : 'Back to'}
-                  </p>
-                  <a
-                    href="/alcaldias"
-                    className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors"
-                  >
-                    <ChevronLeft className="w-5 h-5" />
-                    {language === 'es' ? 'Soluciones para Alcaldías' : 'Solutions for Municipalities'}
-                  </a>
-                </div>
-                <div className="text-right">
-                  <p className="text-sm text-gray-500 mb-1">
-                    {language === 'es' ? 'Próximo artículo' : 'Next article'}
-                  </p>
-                  <span className="text-gray-400 font-medium">
-                    {language === 'es' ? 'Próximamente...' : 'Coming soon...'}
-                  </span>
+              {/* Navigation */}
+              <div className="mt-12 pt-8 border-t border-gray-200">
+                <div className="flex items-center justify-between">
+                  <div className="text-left">
+                    <p className="text-sm text-gray-500 mb-1">
+                      {language === 'es' ? 'Volver a' : 'Back to'}
+                    </p>
+                    <a
+                      href="/alcaldias"
+                      className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors"
+                    >
+                      <ChevronLeft className="w-4 h-4" />
+                      {language === 'es' ? 'Soluciones para Alcaldías' : 'Solutions for Municipalities'}
+                    </a>
+                  </div>
+                  <div className="text-right">
+                    <p className="text-sm text-gray-500 mb-1">
+                      {language === 'es' ? 'Próximo artículo' : 'Next article'}
+                    </p>
+                    <span className="text-gray-400 font-medium">
+                      {language === 'es' ? 'Próximamente...' : 'Coming soon...'}
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
