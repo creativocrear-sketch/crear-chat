@@ -269,7 +269,7 @@ export default function BlogArticle8() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '5. Modelo Freemium' : '5. Freemium Model'}
+                  {language === 'es' ? '5. Modelo freemium' : '5. Freemium model'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
@@ -289,7 +289,7 @@ export default function BlogArticle8() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Componentes de Precios' : 'Pricing Components'}
+                  {language === 'es' ? 'Componentes de precios' : 'Pricing components'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
