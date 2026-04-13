@@ -84,11 +84,11 @@ export default function BlogArticle10() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '1. Calidad de Mensajes' : '1. Message Quality'}
+                  {language === 'es' ? '1. Calidad de mensajes' : '1. Message quality'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Tasa de Rechazo' : 'Block Rate'}
+                  {language === 'es' ? 'Tasa de rechazo' : 'Block rate'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -98,7 +98,7 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Contenido Apropiado' : 'Appropriate Content'}
+                  {language === 'es' ? 'Contenido apropiado' : 'Appropriate content'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -123,7 +123,7 @@ export default function BlogArticle10() {
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Consentimiento Previo' : 'Prior Consent'}
+                  {language === 'es' ? 'Consentimiento previo' : 'Prior consent'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -133,7 +133,7 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Opt-Out' : 'Opt-Out'}
+                  {language === 'es' ? 'Opt-out' : 'Opt-out'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -143,11 +143,11 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '3. Privacidad y Datos' : '3. Privacy and Data'}
+                  {language === 'es' ? '3. Privacidad y datos' : '3. Privacy and data'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Protección de Datos' : 'Data Protection'}
+                  {language === 'es' ? 'Protección de datos' : 'Data protection'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -167,11 +167,11 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '4. Plantillas de Mensajes' : '4. Message Templates'}
+                  {language === 'es' ? '4. Plantillas de mensajes' : '4. Message templates'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Aprobación Requerida' : 'Approval Required'}
+                  {language === 'es' ? 'Aprobación requerida' : 'Approval required'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -181,7 +181,7 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Contenido de Plantillas' : 'Template Content'}
+                  {language === 'es' ? 'Contenido de plantillas' : 'Template content'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -191,7 +191,7 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Variables en Plantillas' : 'Template Variables'}
+                  {language === 'es' ? 'Variables en plantillas' : 'Template variables'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -201,7 +201,7 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '5. Números de Teléfono' : '5. Phone Numbers'}
+                  {language === 'es' ? '5. Números de teléfono' : '5. Phone numbers'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -215,7 +215,7 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Cambios de Número' : 'Number Changes'}
+                  {language === 'es' ? 'Cambios de número' : 'Number changes'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -225,7 +225,7 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Números Compartidos' : 'Shared Numbers'}
+                  {language === 'es' ? 'Números compartidos' : 'Shared numbers'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -235,11 +235,11 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '6. Automatización y Bots' : '6. Automation and Bots'}
+                  {language === 'es' ? '6. Automatización y bots' : '6. Automation and bots'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Transparencia de Bot' : 'Bot Transparency'}
+                  {language === 'es' ? 'Transparencia de bot' : 'Bot transparency'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -249,7 +249,7 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Respuestas Automáticas' : 'Automatic Responses'}
+                  {language === 'es' ? 'Respuestas automáticas' : 'Automatic responses'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -259,11 +259,11 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '7. Comercio y Transacciones' : '7. Commerce and Transactions'}
+                  {language === 'es' ? '7. Comercio y transacciones' : '7. Commerce and transactions'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Información Clara' : 'Clear Information'}
+                  {language === 'es' ? 'Información clara' : 'Clear information'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">

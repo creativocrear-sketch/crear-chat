@@ -137,7 +137,7 @@ export default function Blog() {
                   <span className="font-semibold text-[#1B4F72]">{language === 'es' ? 'Actualizado regularmente' : 'Regularly updated'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="font-semibold text-[#1B4F72]">{language === 'es' ? 'Redacción: Alex Murillo + Equipo de Soporte' : 'By: Alex Murillo + Support Team'}</span>
+                  <span className="font-semibold text-[#1B4F72]">{language === 'es' ? 'Redacción: Alex Murillo + equipo de soporte' : 'By: Alex Murillo + support team'}</span>
                 </div>
               </div>
             </div>

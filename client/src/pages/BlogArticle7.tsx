@@ -84,15 +84,15 @@ export default function BlogArticle7() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Criterios de Comparación' : 'Comparison Criteria'}
+                  {language === 'es' ? 'Criterios de comparación' : 'Comparison criteria'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '1. Enfoque Principal' : '1. Main Focus'}
+                  {language === 'es' ? '1. Enfoque principal' : '1. Main focus'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Plataformas Especializadas en WhatsApp:' : 'WhatsApp-Specialized Platforms:'}</strong>
+                  <strong>{language === 'es' ? 'Plataformas especializadas en WhatsApp:' : 'WhatsApp-specialized platforms:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -102,7 +102,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Plataformas Omnicanal:' : 'Omnichannel Platforms:'}</strong>
+                  <strong>{language === 'es' ? 'Plataformas omnicanal:' : 'Omnichannel platforms:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -112,7 +112,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Plataformas Empresariales:' : 'Enterprise Platforms:'}</strong>
+                  <strong>{language === 'es' ? 'Plataformas empresariales:' : 'Enterprise platforms:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -122,7 +122,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '2. Facilidad de Uso' : '2. Ease of Use'}
+                  {language === 'es' ? '2. Facilidad de uso' : '2. Ease of use'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
@@ -160,7 +160,7 @@ export default function BlogArticle7() {
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Automatización Visual (Drag & Drop):' : 'Visual Automation (Drag & Drop):'}</strong>
+                  <strong>{language === 'es' ? 'Automatización visual (Drag & Drop):' : 'Visual automation (Drag & Drop):'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -170,7 +170,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Automatización Basada en Código:' : 'Code-Based Automation:'}</strong>
+                  <strong>{language === 'es' ? 'Automatización basada en código:' : 'Code-based automation:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -180,7 +180,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Automatización Limitada:' : 'Limited Automation:'}</strong>
+                  <strong>{language === 'es' ? 'Automatización limitada:' : 'Limited automation:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -194,7 +194,7 @@ export default function BlogArticle7() {
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Muchas Integraciones (100+):' : 'Many Integrations (100+):'}</strong>
+                  <strong>{language === 'es' ? 'Muchas integraciones (100+):' : 'Many integrations (100+):'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -204,7 +204,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Integraciones Moderadas (20-50):' : 'Moderate Integrations (20-50):'}</strong>
+                  <strong>{language === 'es' ? 'Integraciones moderadas (20-50):' : 'Moderate integrations (20-50):'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -214,7 +214,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Pocas Integraciones (<20):' : 'Few Integrations (<20):'}</strong>
+                  <strong>{language === 'es' ? 'Pocas integraciones (<20):' : 'Few integrations (<20):'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">

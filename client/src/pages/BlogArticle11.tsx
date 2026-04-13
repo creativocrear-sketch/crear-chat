@@ -84,7 +84,7 @@ export default function BlogArticle11() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '1. Spam y Mensajes No Solicitados' : '1. Spam and Unsolicited Messages'}
+                  {language === 'es' ? '1. Spam y mensajes no solicitados' : '1. Spam and unsolicited messages'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -96,7 +96,7 @@ export default function BlogArticle11() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Indicadores de Spam' : 'Spam Indicators'}
+                  {language === 'es' ? 'Indicadores de spam' : 'Spam indicators'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -126,11 +126,11 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '2. Tasa Alta de Rechazo' : '2. High Block Rate'}
+                  {language === 'es' ? '2. Tasa alta de rechazo' : '2. High block rate'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Qué es Tasa de Rechazo' : 'What is Block Rate'}
+                  {language === 'es' ? 'Qué es tasa de rechazo' : 'What is block rate'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -138,7 +138,7 @@ export default function BlogArticle11() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Umbral Crítico' : 'Critical Threshold'}
+                  {language === 'es' ? 'Umbral crítico' : 'Critical threshold'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -148,7 +148,7 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Razones de Alto Rechazo' : 'Reasons for High Block Rate'}
+                  {language === 'es' ? 'Razones de alto rechazo' : 'Reasons for high block rate'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -159,7 +159,7 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Cómo Reducir Tasa de Rechazo' : 'How to Reduce Block Rate'}
+                  {language === 'es' ? 'Cómo reducir tasa de rechazo' : 'How to reduce block rate'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -170,11 +170,11 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '3. Violación de Políticas de Contenido' : '3. Content Policy Violations'}
+                  {language === 'es' ? '3. Violación de políticas de contenido' : '3. Content policy violations'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Contenido Prohibido' : 'Prohibited Content'}
+                  {language === 'es' ? 'Contenido prohibido' : 'Prohibited content'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -222,11 +222,11 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '4. Múltiples Cambios de Número' : '4. Multiple Number Changes'}
+                  {language === 'es' ? '4. Múltiples cambios de número' : '4. Multiple number changes'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Política de WhatsApp' : 'WhatsApp Policy'}
+                  {language === 'es' ? 'Política de WhatsApp' : 'WhatsApp policy'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -236,7 +236,7 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Límites Típicos' : 'Typical Limits'}
+                  {language === 'es' ? 'Límites típicos' : 'Typical limits'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">

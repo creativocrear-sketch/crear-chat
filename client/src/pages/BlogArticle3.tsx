@@ -84,7 +84,7 @@ export default function BlogArticle3() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Paso 1: Evalúa tu Situación Actual' : 'Step 1: Evaluate Your Current Situation'}
+                  {language === 'es' ? 'Paso 1: evalúa tu situación actual' : 'Step 1: evaluate your current situation'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -104,7 +104,7 @@ export default function BlogArticle3() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Paso 2: Elige una Plataforma de Gestión' : 'Step 2: Choose a Management Platform'}
+                  {language === 'es' ? 'Paso 2: elige una plataforma de gestión' : 'Step 2: choose a management platform'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -115,7 +115,7 @@ export default function BlogArticle3() {
                   <li>{language === 'es' ? 'Crear.chat: Plataforma especializada en automatización de WhatsApp' : 'Crear.chat: Platform specialized in WhatsApp automation'}</li>
                   <li>{language === 'es' ? 'Twilio: Solución empresarial completa' : 'Twilio: Complete enterprise solution'}</li>
                   <li>{language === 'es' ? 'MessageBird: Plataforma de comunicaciones omnicanal' : 'MessageBird: Omnichannel communications platform'}</li>
-                  <li>{language === 'es' ? 'Infobip: Proveedor global de comunicaciones' : 'Infobip: Global communications provider'}</li>
+                  <li>{language === 'es' ? 'Infobip: proveedor global de comunicaciones' : 'Infobip: global communications provider'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -123,7 +123,7 @@ export default function BlogArticle3() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Paso 3: Prepara tu Número de WhatsApp' : 'Step 3: Prepare Your WhatsApp Number'}
+                  {language === 'es' ? 'Paso 3: prepara tu número de WhatsApp' : 'Step 3: prepare your WhatsApp number'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -138,7 +138,7 @@ export default function BlogArticle3() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Paso 4: Solicita Acceso a WhatsApp Business API' : 'Step 4: Request Access to WhatsApp Business API'}
+                  {language === 'es' ? 'Paso 4: solicita acceso a WhatsApp Business API' : 'Step 4: request access to WhatsApp Business API'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -157,7 +157,7 @@ export default function BlogArticle3() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Paso 5: Configura tu Perfil de Negocio' : 'Step 5: Configure Your Business Profile'}
+                  {language === 'es' ? 'Paso 5: configura tu perfil de negocio' : 'Step 5: configure your business profile'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -173,7 +173,7 @@ export default function BlogArticle3() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Paso 6: Integra tus Sistemas' : 'Step 6: Integrate Your Systems'}
+                  {language === 'es' ? 'Paso 6: integra tus sistemas' : 'Step 6: integrate your systems'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -193,7 +193,7 @@ export default function BlogArticle3() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Paso 7: Crea tus Plantillas de Mensajes' : 'Step 7: Create Your Message Templates'}
+                  {language === 'es' ? 'Paso 7: crea tus plantillas de mensajes' : 'Step 7: create your message templates'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -212,7 +212,7 @@ export default function BlogArticle3() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Paso 8: Prueba Exhaustivamente' : 'Step 8: Test Thoroughly'}
+                  {language === 'es' ? 'Paso 8: prueba exhaustivamente' : 'Step 8: test thoroughly'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">

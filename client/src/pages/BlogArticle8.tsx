@@ -84,11 +84,11 @@ export default function BlogArticle8() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Modelos de Precios Principales' : 'Main Pricing Models'}
+                  {language === 'es' ? 'Modelos de precios principales' : 'Main pricing models'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '1. Suscripción Mensual Fija' : '1. Fixed Monthly Subscription'}
+                  {language === 'es' ? '1. Suscripción mensual fija' : '1. Fixed monthly subscription'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
@@ -133,7 +133,7 @@ export default function BlogArticle8() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '2. Pago por Mensajes' : '2. Pay Per Message'}
+                  {language === 'es' ? '2. Pago por mensajes' : '2. Pay per message'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
@@ -179,7 +179,7 @@ export default function BlogArticle8() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '3. Suscripción + Pago por Uso' : '3. Subscription + Pay Per Use'}
+                  {language === 'es' ? '3. Suscripción + pago por uso' : '3. Subscription + pay per use'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
@@ -225,7 +225,7 @@ export default function BlogArticle8() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '4. Pago por Agentes/Usuarios' : '4. Pay Per Agents/Users'}
+                  {language === 'es' ? '4. Pago por agentes/usuarios' : '4. Pay per agents/users'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">

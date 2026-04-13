@@ -84,11 +84,11 @@ export default function BlogArticle9() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '1. Necesidades Empresariales' : '1. Business Needs'}
+                  {language === 'es' ? '1. Necesidades empresariales' : '1. Business needs'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Volumen de Mensajes' : 'Message Volume'}
+                  {language === 'es' ? 'Volumen de mensajes' : 'Message volume'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -102,7 +102,7 @@ export default function BlogArticle9() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Número de Agentes' : 'Number of Agents'}
+                  {language === 'es' ? 'Número de agentes' : 'Number of agents'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -116,7 +116,7 @@ export default function BlogArticle9() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Automatización Requerida' : 'Required Automation'}
+                  {language === 'es' ? 'Automatización requerida' : 'Required automation'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -130,7 +130,7 @@ export default function BlogArticle9() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Integraciones Necesarias' : 'Required Integrations'}
+                  {language === 'es' ? 'Integraciones necesarias' : 'Required integrations'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -144,11 +144,11 @@ export default function BlogArticle9() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '2. Capacidades Técnicas' : '2. Technical Capabilities'}
+                  {language === 'es' ? '2. Capacidades técnicas' : '2. Technical capabilities'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Nivel de Experiencia Técnica' : 'Technical Experience Level'}
+                  {language === 'es' ? 'Nivel de experiencia técnica' : 'Technical experience level'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -167,7 +167,7 @@ export default function BlogArticle9() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Infraestructura Existente' : 'Existing Infrastructure'}
+                  {language === 'es' ? 'Infraestructura existente' : 'Existing infrastructure'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -185,7 +185,7 @@ export default function BlogArticle9() {
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Presupuesto Inicial' : 'Initial Budget'}
+                  {language === 'es' ? 'Presupuesto inicial' : 'Initial budget'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -195,7 +195,7 @@ export default function BlogArticle9() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Presupuesto Mensual' : 'Monthly Budget'}
+                  {language === 'es' ? 'Presupuesto mensual' : 'Monthly budget'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -205,7 +205,7 @@ export default function BlogArticle9() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'ROI Esperado' : 'Expected ROI'}
+                  {language === 'es' ? 'ROI esperado' : 'Expected ROI'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -219,11 +219,11 @@ export default function BlogArticle9() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '4. Reputación y Confiabilidad' : '4. Reputation and Reliability'}
+                  {language === 'es' ? '4. Reputación y confiabilidad' : '4. Reputation and reliability'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Historial de la Empresa' : 'Company History'}
+                  {language === 'es' ? 'Historial de la empresa' : 'Company history'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -233,13 +233,13 @@ export default function BlogArticle9() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Uptime y Confiabilidad' : 'Uptime and Reliability'}
+                  {language === 'es' ? 'Uptime y confiabilidad' : 'Uptime and reliability'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
                   <li>{language === 'es' ? '¿Qué uptime garantizan? (99.9%, 99.99%?)' : 'What uptime do they guarantee? (99.9%, 99.99%?)'}</li>
                   <li>{language === 'es' ? '¿Tienen SLA (Acuerdo de Nivel de Servicio)?' : 'Do they have SLA (Service Level Agreement)?'}</li>
-                  <li>{language === 'es' ? '¿Qué sucede si hay caída?' : 'What happens if there is an outage?'}</li>
+                  <li>{language === 'es' ? '¿Qué sucede si hay caída?' : 'What happens if there is an outage?'</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">

@@ -84,7 +84,7 @@ export default function BlogArticle6() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'WhatsApp Business API No es una Aplicación' : 'WhatsApp Business API is Not an Application'}
+                  {language === 'es' ? 'WhatsApp Business API no es una aplicación' : 'WhatsApp Business API is not an application'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -96,11 +96,11 @@ export default function BlogArticle6() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Razones por las que Necesitas una Plataforma' : 'Reasons Why You Need a Platform'}
+                  {language === 'es' ? 'Razones por las que necesitas una plataforma' : 'Reasons why you need a platform'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '1. Interfaz de Usuario' : '1. User Interface'}
+                  {language === 'es' ? '1. Interfaz de usuario' : '1. User interface'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -119,7 +119,7 @@ export default function BlogArticle6() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '2. Gestión de Múltiples Agentes' : '2. Multiple Agent Management'}
+                  {language === 'es' ? '2. Gestión de múltiples agentes' : '2. Multiple agent management'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -196,7 +196,7 @@ export default function BlogArticle6() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '6. Soporte Técnico' : '6. Technical Support'}
+                  {language === 'es' ? '6. Soporte técnico' : '6. Technical support'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -214,7 +214,7 @@ export default function BlogArticle6() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Analogía del Restaurante' : 'Restaurant Analogy'}
+                  {language === 'es' ? 'Analogía del restaurante' : 'Restaurant analogy'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -223,7 +223,7 @@ export default function BlogArticle6() {
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
                   <li>{language === 'es' ? 'WhatsApp Business API = Ingredientes y equipo de cocina' : 'WhatsApp Business API = Ingredients and kitchen equipment'}</li>
-                  <li>{language === 'es' ? 'Plataforma de Gestión = El restaurante completo (cocina, meseros, caja registradora, etc.)' : 'Management Platform = The complete restaurant (kitchen, waiters, cash register, etc.)'}</li>
+                  <li>{language === 'es' ? 'Plataforma de gestión = el restaurante completo (cocina, meseros, caja registradora, etc.)' : 'Management platform = the complete restaurant (kitchen, waiters, cash register, etc.)'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">

@@ -132,11 +132,11 @@ export default function BlogArticle2() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Hoteles: Mejora la Experiencia del Huésped' : 'Hotels: Enhance Guest Experience'}
+                  {language === 'es' ? 'Hoteles: mejora la experiencia del huésped' : 'Hotels: enhance guest experience'}
                 </h3>
                 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Caso de uso: Comunicación pre-llegada y durante la estadía' : 'Use Case: Pre-arrival and during-stay communication'}
+                  {language === 'es' ? 'Caso de uso: comunicación pre-llegada y durante la estadía' : 'Use case: pre-arrival and during-stay communication'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -153,7 +153,7 @@ export default function BlogArticle2() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Ejemplo práctico:' : 'Practical Example:'}
+                  {language === 'es' ? 'Ejemplo práctico:' : 'Practical example:'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -169,11 +169,11 @@ export default function BlogArticle2() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Cafés: Impulsa las Ventas y la Lealtad' : 'Cafés: Boost Sales and Loyalty'}
+                  {language === 'es' ? 'Cafés: impulsa las ventas y la lealtad' : 'Cafés: boost sales and loyalty'}
                 </h3>
                 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Caso de uso: Programas de fidelización y promociones' : 'Use Case: Loyalty programs and promotions'}
+                  {language === 'es' ? 'Caso de uso: programas de fidelización y promociones' : 'Use case: loyalty programs and promotions'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -189,7 +189,7 @@ export default function BlogArticle2() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Ejemplo práctico:' : 'Practical Example:'}
+                  {language === 'es' ? 'Ejemplo práctico:' : 'Practical example:'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -205,11 +205,11 @@ export default function BlogArticle2() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Oficinas de Abogados: Mejora la Comunicación Legal' : 'Law Offices: Improve Legal Communication'}
+                  {language === 'es' ? 'Oficinas de abogados: mejora la comunicación legal' : 'Law offices: improve legal communication'}
                 </h3>
                 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Caso de uso: Comunicación segura con clientes' : 'Use Case: Secure communication with clients'}
+                  {language === 'es' ? 'Caso de uso: comunicación segura con clientes' : 'Use case: secure communication with clients'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -226,7 +226,7 @@ export default function BlogArticle2() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Ejemplo práctico:' : 'Practical Example:'}
+                  {language === 'es' ? 'Ejemplo práctico:' : 'Practical example:'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -242,11 +242,11 @@ export default function BlogArticle2() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Oficinas de Cobros y Recaudo: Optimiza tu Gestión de Cobranza' : 'Collection Offices: Optimize Your Collection Management'}
+                  {language === 'es' ? 'Oficinas de cobros y recaudo: optimiza tu gestión de cobranza' : 'Collection offices: optimize your collection management'}
                 </h3>
                 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Caso de uso: Comunicación efectiva de cobros' : 'Use Case: Effective collection communication'}
+                  {language === 'es' ? 'Caso de uso: comunicación efectiva de cobros' : 'Use case: effective collection communication'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -263,7 +263,7 @@ export default function BlogArticle2() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Ejemplo práctico:' : 'Practical Example:'}
+                  {language === 'es' ? 'Ejemplo práctico:' : 'Practical example:'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">

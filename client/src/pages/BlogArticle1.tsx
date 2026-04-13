@@ -340,7 +340,7 @@ export default function BlogArticle1() {
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      {language === 'es' ? 'Casos de Uso' : 'Use Cases'}
+                      {language === 'es' ? 'Casos de uso' : 'Use cases'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
                       {language === 'es' ? '¿Para que me sirve WhatsApp Business API para mi negocio?' : 'What is WhatsApp Business API useful for in my business?'}

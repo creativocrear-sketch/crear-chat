@@ -80,11 +80,11 @@ export default function BlogArticle4() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'La combinación de WhatsApp Business API con Inteligencia Artificial (IA) es una de las transformaciones más poderosas que puede experimentar un negocio moderno. Veamos qué beneficios concretos obtienes.' : 'The combination of WhatsApp Business API with Artificial Intelligence (AI) is one of the most powerful transformations a modern business can experience. Let\'s see what concrete benefits you get.'}
+                  {language === 'es' ? 'La combinación de WhatsApp Business API con inteligencia artificial (IA) es una de las transformaciones más poderosas que puede experimentar un negocio moderno. Veamos qué beneficios concretos obtienes.' : 'The combination of WhatsApp Business API with artificial intelligence (AI) is one of the most powerful transformations a modern business can experience. Let\'s see what concrete benefits you get.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Automatización Inteligente 24/7' : 'Intelligent 24/7 Automation'}
+                  {language === 'es' ? 'Automatización inteligente 24/7' : 'Intelligent 24/7 automation'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -103,7 +103,7 @@ export default function BlogArticle4() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Personalización a Escala' : 'Scale Personalization'}
+                  {language === 'es' ? 'Personalización a escala' : 'Scale personalization'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -122,7 +122,7 @@ export default function BlogArticle4() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Reducción de Costos Operativos' : 'Reduction of Operating Costs'}
+                  {language === 'es' ? 'Reducción de costos operativos' : 'Reduction of operating costs'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -141,7 +141,7 @@ export default function BlogArticle4() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Análisis Predictivo' : 'Predictive Analysis'}
+                  {language === 'es' ? 'Análisis predictivo' : 'Predictive analysis'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -160,7 +160,7 @@ export default function BlogArticle4() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Mejora Continua' : 'Continuous Improvement'}
+                  {language === 'es' ? 'Mejora continua' : 'Continuous improvement'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -179,7 +179,7 @@ export default function BlogArticle4() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Escalabilidad Sin Límites' : 'Unlimited Scalability'}
+                  {language === 'es' ? 'Escalabilidad sin límites' : 'Unlimited scalability'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -198,7 +198,7 @@ export default function BlogArticle4() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Ejemplos Concretos de IA en WhatsApp' : 'Concrete AI Examples in WhatsApp'}
+                  {language === 'es' ? 'Ejemplos concretos de IA en WhatsApp' : 'Concrete AI examples in WhatsApp'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -218,7 +218,7 @@ export default function BlogArticle4() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Oficina de Cobros con IA:' : 'Collections Office with AI:'}
+                  {language === 'es' ? 'Oficina de cobros con IA:' : 'Collections office with AI:'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">

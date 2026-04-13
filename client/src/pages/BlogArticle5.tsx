@@ -84,7 +84,7 @@ export default function BlogArticle5() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Sistemas CRM' : 'CRM Systems'}
+                  {language === 'es' ? 'Sistemas CRM' : 'CRM systems'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -95,7 +95,7 @@ export default function BlogArticle5() {
                   <li>{language === 'es' ? 'Salesforce: Sincroniza conversaciones de WhatsApp con registros de clientes' : 'Salesforce: Sync WhatsApp conversations with customer records'}</li>
                   <li>{language === 'es' ? 'HubSpot: Integra chats de WhatsApp en tu pipeline de ventas' : 'HubSpot: Integrate WhatsApp chats into your sales pipeline'}</li>
                   <li>{language === 'es' ? 'Pipedrive: Conecta mensajes con oportunidades de venta' : 'Pipedrive: Connect messages with sales opportunities'}</li>
-                  <li>{language === 'es' ? 'Zoho CRM: Automatiza seguimiento de clientes' : 'Zoho CRM: Automate customer follow-up'}</li>
+                  <li>{language === 'es' ? 'Zoho CRM: automatiza seguimiento de clientes' : 'Zoho CRM: automate customer follow-up'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -103,7 +103,7 @@ export default function BlogArticle5() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Plataformas de E-commerce' : 'E-commerce Platforms'}
+                  {language === 'es' ? 'Plataformas de e-commerce' : 'E-commerce platforms'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -114,7 +114,7 @@ export default function BlogArticle5() {
                   <li>{language === 'es' ? 'Shopify: Notificaciones de pedidos y seguimiento' : 'Shopify: Order notifications and tracking'}</li>
                   <li>{language === 'es' ? 'WooCommerce: Integración directa con tienda WordPress' : 'WooCommerce: Direct integration with WordPress store'}</li>
                   <li>{language === 'es' ? 'Magento: Sincronización de órdenes y clientes' : 'Magento: Order and customer synchronization'}</li>
-                  <li>{language === 'es' ? 'PrestaShop: Actualizaciones de estado de envío' : 'PrestaShop: Shipping status updates'}</li>
+                  <li>{language === 'es' ? 'PrestaShop: actualizaciones de estado de envío' : 'PrestaShop: shipping status updates'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -122,7 +122,7 @@ export default function BlogArticle5() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Sistemas de Reservas' : 'Booking Systems'}
+                  {language === 'es' ? 'Sistemas de reservas' : 'Booking systems'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -133,7 +133,7 @@ export default function BlogArticle5() {
                   <li>{language === 'es' ? 'Booking.com: Sincronización de reservas' : 'Booking.com: Reservation synchronization'}</li>
                   <li>{language === 'es' ? 'Airbnb: Comunicación con huéspedes' : 'Airbnb: Guest communication'}</li>
                   <li>{language === 'es' ? 'Calendly: Programación de citas' : 'Calendly: Appointment scheduling'}</li>
-                  <li>{language === 'es' ? 'Acuity Scheduling: Gestión de horarios' : 'Acuity Scheduling: Schedule management'}</li>
+                  <li>{language === 'es' ? 'Acuity Scheduling: gestión de horarios' : 'Acuity Scheduling: schedule management'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -141,7 +141,7 @@ export default function BlogArticle5() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Plataformas de Pago' : 'Payment Platforms'}
+                  {language === 'es' ? 'Plataformas de pago' : 'Payment platforms'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -152,7 +152,7 @@ export default function BlogArticle5() {
                   <li>{language === 'es' ? 'Stripe: Procesar pagos directamente' : 'Stripe: Process payments directly'}</li>
                   <li>{language === 'es' ? 'PayPal: Integración de pagos' : 'PayPal: Payment integration'}</li>
                   <li>{language === 'es' ? 'Mercado Pago: Soluciones de pago latinoamericanas' : 'Mercado Pago: Latin American payment solutions'}</li>
-                  <li>{language === 'es' ? 'Wompi: Pagos en línea' : 'Wompi: Online payments'}</li>
+                  <li>{language === 'es' ? 'Wompi: pagos en línea' : 'Wompi: online payments'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -171,7 +171,7 @@ export default function BlogArticle5() {
                   <li>{language === 'es' ? 'Google Sheets: Sincronización de datos' : 'Google Sheets: Data synchronization'}</li>
                   <li>{language === 'es' ? 'Google Calendar: Integración de calendarios' : 'Google Calendar: Calendar integration'}</li>
                   <li>{language === 'es' ? 'Gmail: Notificaciones en correo' : 'Gmail: Email notifications'}</li>
-                  <li>{language === 'es' ? 'Google Forms: Recopilación de datos' : 'Google Forms: Data collection'}</li>
+                  <li>{language === 'es' ? 'Google Forms: recopilación de datos' : 'Google Forms: data collection'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -179,7 +179,7 @@ export default function BlogArticle5() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Plataformas de Email Marketing' : 'Email Marketing Platforms'}
+                  {language === 'es' ? 'Plataformas de email marketing' : 'Email marketing platforms'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -190,7 +190,7 @@ export default function BlogArticle5() {
                   <li>{language === 'es' ? 'Mailchimp: Sincronización de listas' : 'Mailchimp: List synchronization'}</li>
                   <li>{language === 'es' ? 'Brevo (Sendinblue): Integración omnicanal' : 'Brevo (Sendinblue): Omnichannel integration'}</li>
                   <li>{language === 'es' ? 'ActiveCampaign: Automatización de marketing' : 'ActiveCampaign: Marketing automation'}</li>
-                  <li>{language === 'es' ? 'Klaviyo: Segmentación de clientes' : 'Klaviyo: Customer segmentation'}</li>
+                  <li>{language === 'es' ? 'Klaviyo: segmentación de clientes' : 'Klaviyo: customer segmentation'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -198,7 +198,7 @@ export default function BlogArticle5() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Sistemas de Facturación' : 'Billing Systems'}
+                  {language === 'es' ? 'Sistemas de facturación' : 'Billing systems'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -209,7 +209,7 @@ export default function BlogArticle5() {
                   <li>{language === 'es' ? 'Facturación Electrónica: Envío de facturas por WhatsApp' : 'Electronic Invoicing: Send invoices via WhatsApp'}</li>
                   <li>{language === 'es' ? 'Contabilidad en Línea: Sincronización de datos' : 'Online Accounting: Data synchronization'}</li>
                   <li>{language === 'es' ? 'SAP: Integración empresarial' : 'SAP: Enterprise integration'}</li>
-                  <li>{language === 'es' ? 'Oracle: Sistemas grandes' : 'Oracle: Large systems'}</li>
+                  <li>{language === 'es' ? 'Oracle: sistemas grandes' : 'Oracle: large systems'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -217,7 +217,7 @@ export default function BlogArticle5() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Plataformas de Automatización' : 'Automation Platforms'}
+                  {language === 'es' ? 'Plataformas de automatización' : 'Automation platforms'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -228,7 +228,7 @@ export default function BlogArticle5() {
                   <li>{language === 'es' ? 'Zapier: Conecta WhatsApp con cientos de apps' : 'Zapier: Connect WhatsApp with hundreds of apps'}</li>
                   <li>{language === 'es' ? 'Make (Integromat): Automatización visual' : 'Make (Integromat): Visual automation'}</li>
                   <li>{language === 'es' ? 'n8n: Automatización de código abierto' : 'n8n: Open source automation'}</li>
-                  <li>{language === 'es' ? 'IFTTT: Automatización simple' : 'IFTTT: Simple automation'}</li>
+                  <li>{language === 'es' ? 'IFTTT: automatización simple' : 'IFTTT: simple automation'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
