@@ -51,7 +51,7 @@ export default function Header() {
             href="/#integraciones"
             className="inline-flex items-center justify-center px-6 py-2 border border-gray-300 hover:bg-gray-50 text-gray-900 font-medium transition-all duration-300 rounded-md"
           >
-            Integraciones
+            {t('nav.integrations')}
           </a>
           <a
             href="/planes"
@@ -120,7 +120,7 @@ export default function Header() {
               onClick={closeMenu}
               className="block px-4 py-3 text-gray-900 hover:bg-gray-50 rounded-lg transition-colors font-medium"
             >
-              Integraciones
+              {t('nav.integrations')}
             </a>
             <a
               href="/planes"

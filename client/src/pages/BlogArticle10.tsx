@@ -40,30 +40,30 @@ export default function BlogArticle10() {
                 className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium mb-8 transition-colors"
               >
                 <ChevronLeft className="w-4 h-4" />
-                Volver al blog
+                {language === 'es' ? 'Volver al blog' : 'Back to blog'}
               </a>
               
               <div className="mb-6">
                 <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                  Regulaciones
+                  {language === 'es' ? 'Regulaciones' : 'Regulations'}
                 </span>
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                ¿Cuáles son las principales políticas de WhatsApp Business API?
+                {t('articles.article10.title')}
               </h1>
               
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" />
-                  <span>21 de Marzo de 2026</span>
+                  <span>{language === 'es' ? '21 de Marzo de 2026' : 'March 21, 2026'}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4" />
-                  <span>6 min de lectura</span>
+                  <span>6 {language === 'es' ? 'min de lectura' : 'min read'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span>Redacción: Alex Murillo + Equipo de Soporte</span>
+                  <span>{language === 'es' ? 'Redacción:' : 'By:'} Alex Murillo + {language === 'es' ? 'Equipo de Soporte' : 'Support Team'}</span>
                 </div>
               </div>
             </div>
@@ -76,437 +76,437 @@ export default function BlogArticle10() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  ¿Cuáles son las principales políticas de WhatsApp Business API?
+                  {t('articles.article10.title')}
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  WhatsApp tiene políticas estrictas para mantener la integridad de su plataforma. Es crucial entenderlas para evitar problemas.
+                  {language === 'es' ? 'WhatsApp tiene políticas estrictas para mantener la integridad de su plataforma. Es crucial entenderlas para evitar problemas.' : 'WhatsApp has strict policies to maintain the integrity of its platform. It is crucial to understand them to avoid problems.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  1. Calidad de Mensajes
+                  {language === 'es' ? '1. Calidad de Mensajes' : '1. Message Quality'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Tasa de Rechazo
+                  {language === 'es' ? 'Tasa de Rechazo' : 'Block Rate'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>WhatsApp monitorea si tus mensajes son bloqueados/reportados</li>
-                  <li>Si tu tasa de rechazo es muy alta, tu cuenta puede ser suspendida</li>
-                  <li>Mantén una tasa de rechazo &lt; 5%</li>
+                  <li>{language === 'es' ? 'WhatsApp monitorea si tus mensajes son bloqueados/reportados' : 'WhatsApp monitors if your messages are blocked/reported'}</li>
+                  <li>{language === 'es' ? 'Si tu tasa de rechazo es muy alta, tu cuenta puede ser suspendida' : 'If your block rate is very high, your account may be suspended'}</li>
+                  <li>{language === 'es' ? 'Mantén una tasa de rechazo < 5%' : 'Keep a block rate < 5%'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Contenido Apropiado
+                  {language === 'es' ? 'Contenido Apropiado' : 'Appropriate Content'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>No envíes spam</li>
-                  <li>No envíes contenido ilegal</li>
-                  <li>No envíes phishing o estafas</li>
-                  <li>No envíes malware</li>
+                  <li>{language === 'es' ? 'No envíes spam' : 'Do not send spam'}</li>
+                  <li>{language === 'es' ? 'No envíes contenido ilegal' : 'Do not send illegal content'}</li>
+                  <li>{language === 'es' ? 'No envíes phishing o estafas' : 'Do not send phishing or scams'}</li>
+                  <li>{language === 'es' ? 'No envíes malware' : 'Do not send malware'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Frecuencia
+                  {language === 'es' ? 'Frecuencia' : 'Frequency'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>No envíes demasiados mensajes a un mismo contacto</li>
-                  <li>Respeta los horarios de los usuarios</li>
-                  <li>No envíes mensajes no solicitados masivamente</li>
+                  <li>{language === 'es' ? 'No envíes demasiados mensajes a un mismo contacto' : 'Do not send too many messages to the same contact'}</li>
+                  <li>{language === 'es' ? 'Respeta los horarios de los usuarios' : 'Respect users\' hours'}</li>
+                  <li>{language === 'es' ? 'No envíes mensajes no solicitados masivamente' : 'Do not send mass unsolicited messages'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  2. Consentimiento
+                  {language === 'es' ? '2. Consentimiento' : '2. Consent'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Consentimiento Previo
+                  {language === 'es' ? 'Consentimiento Previo' : 'Prior Consent'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Debes tener consentimiento explícito antes de enviar mensajes</li>
-                  <li>El usuario debe haber optado por recibir mensajes</li>
-                  <li>Documentar el consentimiento es importante</li>
+                  <li>{language === 'es' ? 'Debes tener consentimiento explícito antes de enviar mensajes' : 'You must have explicit consent before sending messages'}</li>
+                  <li>{language === 'es' ? 'El usuario debe haber optado por recibir mensajes' : 'The user must have opted to receive messages'}</li>
+                  <li>{language === 'es' ? 'Documentar el consentimiento es importante' : 'Documenting consent is important'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Opt-Out
+                  {language === 'es' ? 'Opt-Out' : 'Opt-Out'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Debes permitir que los usuarios se den de baja</li>
-                  <li>Respeta las solicitudes de "STOP" o "DEJAR DE ENVIAR"</li>
-                  <li>Procesa opt-outs inmediatamente</li>
+                  <li>{language === 'es' ? 'Debes permitir que los usuarios se den de baja' : 'You must allow users to unsubscribe'}</li>
+                  <li>{language === 'es' ? 'Respeta las solicitudes de "STOP" o "DEJAR DE ENVIAR"' : 'Respect "STOP" or "DEJAR DE ENVIAR" requests'}</li>
+                  <li>{language === 'es' ? 'Procesa opt-outs inmediatamente' : 'Process opt-outs immediately'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  3. Privacidad y Datos
+                  {language === 'es' ? '3. Privacidad y Datos' : '3. Privacy and Data'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Protección de Datos
+                  {language === 'es' ? 'Protección de Datos' : 'Data Protection'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Cumple con GDPR, CCPA y regulaciones locales</li>
-                  <li>Protege información personal de usuarios</li>
-                  <li>No compartas datos con terceros sin consentimiento</li>
+                  <li>{language === 'es' ? 'Cumple con GDPR, CCPA y regulaciones locales' : 'Comply with GDPR, CCPA and local regulations'}</li>
+                  <li>{language === 'es' ? 'Protege información personal de usuarios' : 'Protect users\' personal information'}</li>
+                  <li>{language === 'es' ? 'No compartas datos con terceros sin consentimiento' : 'Do not share data with third parties without consent'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Transparencia
+                  {language === 'es' ? 'Transparencia' : 'Transparency'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Informa a usuarios cómo usarás sus datos</li>
-                  <li>Sé claro sobre quién está enviando mensajes</li>
-                  <li>Proporciona política de privacidad clara</li>
+                  <li>{language === 'es' ? 'Informa a usuarios cómo usarás sus datos' : 'Inform users how you will use their data'}</li>
+                  <li>{language === 'es' ? 'Sé claro sobre quién está enviando mensajes' : 'Be clear about who is sending messages'}</li>
+                  <li>{language === 'es' ? 'Proporciona política de privacidad clara' : 'Provide clear privacy policy'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  4. Plantillas de Mensajes
+                  {language === 'es' ? '4. Plantillas de Mensajes' : '4. Message Templates'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Aprobación Requerida
+                  {language === 'es' ? 'Aprobación Requerida' : 'Approval Required'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Todas las plantillas deben ser aprobadas por WhatsApp</li>
-                  <li>No puedes enviar mensajes que no sean de plantillas aprobadas</li>
-                  <li>La aprobación puede tomar 24-48 horas</li>
+                  <li>{language === 'es' ? 'Todas las plantillas deben ser aprobadas por WhatsApp' : 'All templates must be approved by WhatsApp'}</li>
+                  <li>{language === 'es' ? 'No puedes enviar mensajes que no sean de plantillas aprobadas' : 'You cannot send messages that are not from approved templates'}</li>
+                  <li>{language === 'es' ? 'La aprobación puede tomar 24-48 horas' : 'Approval may take 24-48 hours'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Contenido de Plantillas
+                  {language === 'es' ? 'Contenido de Plantillas' : 'Template Content'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>No pueden contener contenido engañoso</li>
-                  <li>Deben ser claras y profesionales</li>
-                  <li>No pueden contener spam o phishing</li>
+                  <li>{language === 'es' ? 'No pueden contener contenido engañoso' : 'They cannot contain misleading content'}</li>
+                  <li>{language === 'es' ? 'Deben ser claras y profesionales' : 'They must be clear and professional'}</li>
+                  <li>{language === 'es' ? 'No pueden contener spam o phishing' : 'They cannot contain spam or phishing'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Variables en Plantillas
+                  {language === 'es' ? 'Variables en Plantillas' : 'Template Variables'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Puedes usar variables para personalizar</li>
-                  <li>Las variables deben ser claras</li>
-                  <li>No puedes usar variables para ocultar contenido</li>
+                  <li>{language === 'es' ? 'Puedes usar variables para personalizar' : 'You can use variables to personalize'}</li>
+                  <li>{language === 'es' ? 'Las variables deben ser claras' : 'Variables must be clear'}</li>
+                  <li>{language === 'es' ? 'No puedes usar variables para ocultar contenido' : 'You cannot use variables to hide content'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  5. Números de Teléfono
+                  {language === 'es' ? '5. Números de Teléfono' : '5. Phone Numbers'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Verificación
+                  {language === 'es' ? 'Verificación' : 'Verification'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Tu número debe ser verificado</li>
-                  <li>Debes proporcionar documentación de negocio</li>
-                  <li>WhatsApp puede solicitar verificación adicional</li>
+                  <li>{language === 'es' ? 'Tu número debe ser verificado' : 'Your number must be verified'}</li>
+                  <li>{language === 'es' ? 'Debes proporcionar documentación de negocio' : 'You must provide business documentation'}</li>
+                  <li>{language === 'es' ? 'WhatsApp puede solicitar verificación adicional' : 'WhatsApp may request additional verification'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Cambios de Número
+                  {language === 'es' ? 'Cambios de Número' : 'Number Changes'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Si cambias de número, debes verificar el nuevo</li>
-                  <li>Hay período de espera entre cambios</li>
-                  <li>Múltiples cambios pueden resultar en restricciones</li>
+                  <li>{language === 'es' ? 'Si cambias de número, debes verificar el nuevo' : 'If you change numbers, you must verify the new one'}</li>
+                  <li>{language === 'es' ? 'Hay período de espera entre cambios' : 'There is a waiting period between changes'}</li>
+                  <li>{language === 'es' ? 'Múltiples cambios pueden resultar en restricciones' : 'Multiple changes may result in restrictions'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Números Compartidos
+                  {language === 'es' ? 'Números Compartidos' : 'Shared Numbers'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>No puedes compartir un número entre múltiples negocios</li>
-                  <li>Cada negocio necesita su propio número</li>
-                  <li>Violaciones pueden resultar en suspensión</li>
+                  <li>{language === 'es' ? 'No puedes compartir un número entre múltiples negocios' : 'You cannot share a number between multiple businesses'}</li>
+                  <li>{language === 'es' ? 'Cada negocio necesita su propio número' : 'Each business needs its own number'}</li>
+                  <li>{language === 'es' ? 'Violaciones pueden resultar en suspensión' : 'Violations may result in suspension'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  6. Automatización y Bots
+                  {language === 'es' ? '6. Automatización y Bots' : '6. Automation and Bots'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Transparencia de Bot
+                  {language === 'es' ? 'Transparencia de Bot' : 'Bot Transparency'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Debes informar si un bot está respondiendo</li>
-                  <li>No puedes engañar a usuarios haciéndoles creer que es humano</li>
-                  <li>Debes permitir escalación a agente humano</li>
+                  <li>{language === 'es' ? 'Debes informar si un bot está respondiendo' : 'You must inform if a bot is responding'}</li>
+                  <li>{language === 'es' ? 'No puedes engañar a usuarios haciéndoles creer que es humano' : 'You cannot deceive users by making them believe it is human'}</li>
+                  <li>{language === 'es' ? 'Debes permitir escalación a agente humano' : 'You must allow escalation to human agent'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Respuestas Automáticas
+                  {language === 'es' ? 'Respuestas Automáticas' : 'Automatic Responses'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Las respuestas automáticas deben ser relevantes</li>
-                  <li>No pueden ser spam</li>
-                  <li>Deben respetar preferencias del usuario</li>
+                  <li>{language === 'es' ? 'Las respuestas automáticas deben ser relevantes' : 'Automatic responses must be relevant'}</li>
+                  <li>{language === 'es' ? 'No pueden ser spam' : 'They cannot be spam'}</li>
+                  <li>{language === 'es' ? 'Deben respetar preferencias del usuario' : 'They must respect user preferences'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  7. Comercio y Transacciones
+                  {language === 'es' ? '7. Comercio y Transacciones' : '7. Commerce and Transactions'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Información Clara
+                  {language === 'es' ? 'Información Clara' : 'Clear Information'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Precios y términos deben ser claros</li>
-                  <li>No puede haber sorpresas</li>
-                  <li>Debes cumplir con leyes de protección al consumidor</li>
+                  <li>{language === 'es' ? 'Precios y términos deben ser claros' : 'Prices and terms must be clear'}</li>
+                  <li>{language === 'es' ? 'No puede haber sorpresas' : 'There cannot be surprises'}</li>
+                  <li>{language === 'es' ? 'Debes cumplir con leyes de protección al consumidor' : 'You must comply with consumer protection laws'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Reembolsos y Garantías
+                  {language === 'es' ? 'Reembolsos y Garantías' : 'Refunds and Guarantees'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Debes tener política clara de reembolsos</li>
-                  <li>Debes cumplir con leyes de retorno</li>
-                  <li>Debes ser justo en disputas</li>
+                  <li>{language === 'es' ? 'Debes tener política clara de reembolsos' : 'You must have clear refund policy'}</li>
+                  <li>{language === 'es' ? 'Debes cumplir con leyes de retorno' : 'You must comply with return laws'}</li>
+                  <li>{language === 'es' ? 'Debes ser justo en disputas' : 'You must be fair in disputes'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  8. Seguridad
+                  {language === 'es' ? '8. Seguridad' : '8. Security'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Protección de Cuenta
+                  {language === 'es' ? 'Protección de Cuenta' : 'Account Protection'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Usa autenticación fuerte</li>
-                  <li>Protege credenciales de acceso</li>
-                  <li>Monitorea actividad sospechosa</li>
+                  <li>{language === 'es' ? 'Usa autenticación fuerte' : 'Use strong authentication'}</li>
+                  <li>{language === 'es' ? 'Protege credenciales de acceso' : 'Protect access credentials'}</li>
+                  <li>{language === 'es' ? 'Monitorea actividad sospechosa' : 'Monitor suspicious activity'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Cumplimiento de Leyes
+                  {language === 'es' ? 'Cumplimiento de Leyes' : 'Legal Compliance'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Cumple con leyes de ciberseguridad</li>
-                  <li>Reporta brechas de seguridad</li>
-                  <li>Protege contra fraude</li>
+                  <li>{language === 'es' ? 'Cumple con leyes de ciberseguridad' : 'Comply with cybersecurity laws'}</li>
+                  <li>{language === 'es' ? 'Reporta brechas de seguridad' : 'Report security breaches'}</li>
+                  <li>{language === 'es' ? 'Protege contra fraude' : 'Protect against fraud'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  9. Prohibiciones Explícitas
+                  {language === 'es' ? '9. Prohibiciones Explícitas' : '9. Explicit Prohibitions'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Contenido Prohibido
+                  {language === 'es' ? 'Contenido Prohibido' : 'Prohibited Content'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Violencia, amenazas, acoso</li>
-                  <li>Contenido sexual o explotación</li>
-                  <li>Discriminación o hate speech</li>
-                  <li>Drogas ilegales</li>
-                  <li>Armas</li>
-                  <li>Falsificación</li>
+                  <li>{language === 'es' ? 'Violencia, amenazas, acoso' : 'Violence, threats, harassment'}</li>
+                  <li>{language === 'es' ? 'Contenido sexual o explotación' : 'Sexual content or exploitation'}</li>
+                  <li>{language === 'es' ? 'Discriminación o hate speech' : 'Discrimination or hate speech'}</li>
+                  <li>{language === 'es' ? 'Drogas ilegales' : 'Illegal drugs'}</li>
+                  <li>{language === 'es' ? 'Armas' : 'Weapons'}</li>
+                  <li>{language === 'es' ? 'Falsificación' : 'Counterfeiting'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Actividades Prohibidas
+                  {language === 'es' ? 'Actividades Prohibidas' : 'Prohibited Activities'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Spam</li>
-                  <li>Phishing</li>
-                  <li>Estafas</li>
-                  <li>Fraude</li>
-                  <li>Lavado de dinero</li>
-                  <li>Terrorismo</li>
+                  <li>{language === 'es' ? 'Spam' : 'Spam'}</li>
+                  <li>{language === 'es' ? 'Phishing' : 'Phishing'}</li>
+                  <li>{language === 'es' ? 'Estafas' : 'Scams'}</li>
+                  <li>{language === 'es' ? 'Fraude' : 'Fraud'}</li>
+                  <li>{language === 'es' ? 'Lavado de dinero' : 'Money laundering'}</li>
+                  <li>{language === 'es' ? 'Terrorismo' : 'Terrorism'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Violaciones de Derechos
+                  {language === 'es' ? 'Violaciones de Derechos' : 'Rights Violations'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Violación de derechos de autor</li>
-                  <li>Violación de marcas registradas</li>
-                  <li>Suplantación de identidad</li>
-                  <li>Difamación</li>
+                  <li>{language === 'es' ? 'Violación de derechos de autor' : 'Copyright infringement'}</li>
+                  <li>{language === 'es' ? 'Violación de marcas registradas' : 'Trademark infringement'}</li>
+                  <li>{language === 'es' ? 'Suplantación de identidad' : 'Identity theft'}</li>
+                  <li>{language === 'es' ? 'Difamación' : 'Defamation'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  10. Monitoreo y Cumplimiento
+                  {language === 'es' ? '10. Monitoreo y Cumplimiento' : '10. Monitoring and Compliance'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Monitoreo de WhatsApp
+                  {language === 'es' ? 'Monitoreo de WhatsApp' : 'WhatsApp Monitoring'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>WhatsApp monitorea patrones de mensajes</li>
-                  <li>Analiza contenido de mensajes</li>
-                  <li>Detecta spam y abuso</li>
+                  <li>{language === 'es' ? 'WhatsApp monitorea patrones de mensajes' : 'WhatsApp monitors message patterns'}</li>
+                  <li>{language === 'es' ? 'Analiza contenido de mensajes' : 'Analyzes message content'}</li>
+                  <li>{language === 'es' ? 'Detecta spam y abuso' : 'Detects spam and abuse'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Acciones por Incumplimiento
+                  {language === 'es' ? 'Acciones por Incumplimiento' : 'Non-compliance Actions'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Advertencia:</strong>
+                  <strong>{language === 'es' ? 'Advertencia:' : 'Warning:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Primer incumplimiento</li>
-                  <li>Oportunidad de corregir</li>
+                  <li>{language === 'es' ? 'Primer incumplimiento' : 'First non-compliance'}</li>
+                  <li>{language === 'es' ? 'Oportunidad de corregir' : 'Opportunity to correct'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Restricción Temporal:</strong>
+                  <strong>{language === 'es' ? 'Restricción Temporal:' : 'Temporary Restriction:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Limitación de envío de mensajes</li>
-                  <li>Período de 24-72 horas típicamente</li>
+                  <li>{language === 'es' ? 'Limitación de envío de mensajes' : 'Message sending limitation'}</li>
+                  <li>{language === 'es' ? 'Período de 24-72 horas típicamente' : 'Typically 24-72 hour period'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Suspensión:</strong>
+                  <strong>{language === 'es' ? 'Suspensión:' : 'Suspension:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Incapacidad de enviar mensajes</li>
-                  <li>Puede ser permanente</li>
-                  <li>Difícil de revertir</li>
+                  <li>{language === 'es' ? 'Incapacidad de enviar mensajes' : 'Inability to send messages'}</li>
+                  <li>{language === 'es' ? 'Puede ser permanente' : 'Can be permanent'}</li>
+                  <li>{language === 'es' ? 'Difícil de revertir' : 'Difficult to reverse'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Terminación:</strong>
+                  <strong>{language === 'es' ? 'Terminación:' : 'Termination:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Cierre permanente de cuenta</li>
-                  <li>Pérdida de número</li>
-                  <li>Prohibición de crear nueva cuenta</li>
+                  <li>{language === 'es' ? 'Cierre permanente de cuenta' : 'Permanent account closure'}</li>
+                  <li>{language === 'es' ? 'Pérdida de número' : 'Loss of number'}</li>
+                  <li>{language === 'es' ? 'Prohibición de crear nueva cuenta' : 'Prohibition from creating new account'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  11. Regulaciones por País
+                  {language === 'es' ? '11. Regulaciones por País' : '11. Country-Specific Regulations'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Diferentes Regulaciones
+                  {language === 'es' ? 'Diferentes Regulaciones' : 'Different Regulations'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Algunos países tienen regulaciones específicas</li>
-                  <li>GDPR en Europa</li>
-                  <li>CCPA en California</li>
-                  <li>Leyes locales en otros países</li>
+                  <li>{language === 'es' ? 'Algunos países tienen regulaciones específicas' : 'Some countries have specific regulations'}</li>
+                  <li>{language === 'es' ? 'GDPR en Europa' : 'GDPR in Europe'}</li>
+                  <li>{language === 'es' ? 'CCPA en California' : 'CCPA in California'}</li>
+                  <li>{language === 'es' ? 'Leyes locales en otros países' : 'Local laws in other countries'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Cumplimiento Local
+                  {language === 'es' ? 'Cumplimiento Local' : 'Local Compliance'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Debes cumplir con leyes locales</li>
-                  <li>Algunos países restringen ciertos tipos de mensajes</li>
-                  <li>Algunos requieren consentimiento explícito por escrito</li>
+                  <li>{language === 'es' ? 'Debes cumplir con leyes locales' : 'You must comply with local laws'}</li>
+                  <li>{language === 'es' ? 'Algunos países restringen ciertos tipos de mensajes' : 'Some countries restrict certain types of messages'}</li>
+                  <li>{language === 'es' ? 'Algunos requieren consentimiento explícito por escrito' : 'Some require explicit written consent'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  12. Mejores Prácticas
+                  {language === 'es' ? '12. Mejores Prácticas' : '12. Best Practices'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Para Evitar Problemas
+                  {language === 'es' ? 'Para Evitar Problemas' : 'To Avoid Problems'}
                 </h4>
                 
                 <ol className="list-decimal pl-6 space-y-2 text-gray-600 mb-6">
-                  <li><strong>Obtén Consentimiento Claro</strong>
+                  <li><strong>{language === 'es' ? 'Obtén Consentimiento Claro' : 'Get Clear Consent'}</strong>
                     <ul className="list-disc pl-6 space-y-1 mt-2">
-                      <li>Documenta cómo obtuviste el número</li>
-                      <li>Mantén registro de consentimiento</li>
+                      <li>{language === 'es' ? 'Documenta cómo obtuviste el número' : 'Document how you got the number'}</li>
+                      <li>{language === 'es' ? 'Mantén registro de consentimiento' : 'Keep consent records'}</li>
                     </ul>
                   </li>
-                  <li><strong>Sé Transparente</strong>
+                  <li><strong>{language === 'es' ? 'Sé Transparente' : 'Be Transparent'}</strong>
                     <ul className="list-disc pl-6 space-y-1 mt-2">
-                      <li>Identifícate claramente</li>
-                      <li>Explica por qué envías mensajes</li>
-                      <li>Proporciona opción de darse de baja</li>
+                      <li>{language === 'es' ? 'Identifícate claramente' : 'Identify yourself clearly'}</li>
+                      <li>{language === 'es' ? 'Explica por qué envías mensajes' : 'Explain why you send messages'}</li>
+                      <li>{language === 'es' ? 'Proporciona opción de darse de baja' : 'Provide opt-out option'}</li>
                     </ul>
                   </li>
-                  <li><strong>Mantén Calidad Alta</strong>
+                  <li><strong>{language === 'es' ? 'Mantén Calidad Alta' : 'Maintain High Quality'}</strong>
                     <ul className="list-disc pl-6 space-y-1 mt-2">
-                      <li>Responde rápidamente</li>
-                      <li>Sé profesional</li>
-                      <li>Resuelve problemas rápidamente</li>
+                      <li>{language === 'es' ? 'Responde rápidamente' : 'Respond quickly'}</li>
+                      <li>{language === 'es' ? 'Sé profesional' : 'Be professional'}</li>
+                      <li>{language === 'es' ? 'Resuelve problemas rápidamente' : 'Solve problems quickly'}</li>
                     </ul>
                   </li>
-                  <li><strong>Monitorea tu Desempeño</strong>
+                  <li><strong>{language === 'es' ? 'Monitorea tu Desempeño' : 'Monitor Your Performance'}</strong>
                     <ul className="list-disc pl-6 space-y-1 mt-2">
-                      <li>Revisa tasa de rechazo</li>
-                      <li>Monitorea quejas</li>
-                      <li>Ajusta según sea necesario</li>
+                      <li>{language === 'es' ? 'Revisa tasa de rechazo' : 'Review block rate'}</li>
+                      <li>{language === 'es' ? 'Monitorea quejas' : 'Monitor complaints'}</li>
+                      <li>{language === 'es' ? 'Ajusta según sea necesario' : 'Adjust as needed'}</li>
                     </ul>
                   </li>
-                  <li><strong>Mantente Actualizado</strong>
+                  <li><strong>{language === 'es' ? 'Mantente Actualizado' : 'Stay Updated'}</strong>
                     <ul className="list-disc pl-6 space-y-1 mt-2">
-                      <li>Las políticas cambian</li>
-                      <li>Suscríbete a actualizaciones de WhatsApp</li>
-                      <li>Revisa regularmente</li>
+                      <li>{language === 'es' ? 'Las políticas cambian' : 'Policies change'}</li>
+                      <li>{language === 'es' ? 'Suscríbete a actualizaciones de WhatsApp' : 'Subscribe to WhatsApp updates'}</li>
+                      <li>{language === 'es' ? 'Revisa regularmente' : 'Review regularly'}</li>
                     </ul>
                   </li>
                 </ol>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Conclusión
+                  {language === 'es' ? 'Conclusión' : 'Conclusion'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Las políticas de WhatsApp Business API existen para proteger a los usuarios y mantener la integridad de la plataforma. Si las cumples, no tendrás problemas.
+                  {language === 'es' ? 'Las políticas de WhatsApp Business API existen para proteger a los usuarios y mantener la integridad de la plataforma. Si las cumples, no tendrás problemas.' : 'WhatsApp Business API policies exist to protect users and maintain platform integrity. If you comply, you will have no problems.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong>Regla de oro:</strong> Trata a los usuarios como te gustaría ser tratado. Si tu comunicación es respetuosa, relevante y transparente, estarás en el lado correcto de las políticas de WhatsApp.
+                  <strong>{language === 'es' ? 'Regla de oro:' : 'Golden rule:'}</strong> {language === 'es' ? 'Trata a los usuarios como te gustaría ser tratado. Si tu comunicación es respetuosa, relevante y transparente, estarás en el lado correcto de las políticas de WhatsApp.' : 'Treat users as you would like to be treated. If your communication is respectful, relevant and transparent, you will be on the right side of WhatsApp policies.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Recuerda: es mucho más fácil cumplir las políticas desde el inicio que intentar recuperarse de una suspensión de cuenta.
+                  {language === 'es' ? 'Recuerda: es mucho más fácil cumplir las políticas desde el inicio que intentar recuperarse de una suspensión de cuenta.' : 'Remember: it is much easier to comply with policies from the beginning than to try to recover from an account suspension.'}
                 </p>
               </article>
 
               {/* Share Section */}
               <div className="mt-12 pt-8 border-t border-gray-200">
-                <h4 className="text-lg font-semibold text-gray-900 mb-4">Compartir:</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-4">{language === 'es' ? 'Compartir:' : 'Share:'}</h4>
                 <div className="flex gap-4">
                   <button
                     onClick={() => handleShare('facebook')}
                     className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
                   >
                     <Facebook className="w-4 h-4" />
-                    Facebook
+                    {language === 'es' ? 'Facebook' : 'Facebook'}
                   </button>
                   <button
                     onClick={() => handleShare('whatsapp')}
                     className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
                   >
                     <MessageCircle className="w-4 h-4" />
-                    WhatsApp
+                    {language === 'es' ? 'WhatsApp' : 'WhatsApp'}
                   </button>
                 </div>
               </div>
@@ -515,21 +515,21 @@ export default function BlogArticle10() {
               <div className="mt-12 pt-8 border-t border-gray-200">
                 <div className="flex items-center justify-between">
                   <div className="text-left">
-                    <p className="text-sm text-gray-500 mb-1">Artículo anterior</p>
+                    <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Artículo anterior' : 'Previous article'}</p>
                     <a
                       href="/blog/articulo-9"
                       className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                     >
-                      ¿Qué debo tener en cuenta para seleccionar un proveedor de WhatsApp y la plataforma?
+                      {language === 'es' ? '¿Qué debo tener en cuenta para seleccionar un proveedor de WhatsApp y la plataforma?' : 'What should I consider when selecting a WhatsApp provider and platform?'}
                     </a>
                   </div>
                   <div className="text-right">
-                    <p className="text-sm text-gray-500 mb-1">Siguiente artículo</p>
+                    <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Siguiente artículo' : 'Next article'}</p>
                     <a
                       href="/blog/articulo-11"
                       className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                     >
-                      ¿Por que me pueden restringir el número de WhatsApp?
+                      {language === 'es' ? '¿Por que me pueden restringir el número de WhatsApp?' : 'Why can they restrict my WhatsApp number?'}
                     </a>
                   </div>
                 </div>
@@ -544,10 +544,10 @@ export default function BlogArticle10() {
             <div className="max-w-4xl mx-auto text-center">
               <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-blue-100">
                 <h2 className="font-bold text-3xl md:text-4xl text-gray-900 mb-4">
-                  ¿Listo para implementar WhatsApp Business API?
+                  {language === 'es' ? '¿Listo para implementar WhatsApp Business API?' : 'Ready to implement WhatsApp Business API?'}
                 </h2>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                  Contáctame para una consulta personalizada sobre cómo automatizar tu negocio con WhatsApp Business API.
+                  {language === 'es' ? 'Contáctame para una consulta personalizada sobre cómo automatizar tu negocio con WhatsApp Business API.' : 'Contact me for a personalized consultation on how to automate your business with WhatsApp Business API.'}
                 </p>
                 
                 <a
@@ -556,7 +556,7 @@ export default function BlogArticle10() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
                 >
-                  Escribeme por WhatsApp
+                  {language === 'es' ? 'Escríbeme por WhatsApp' : 'Write me on WhatsApp'}
                 </a>
               </div>
             </div>
@@ -567,24 +567,24 @@ export default function BlogArticle10() {
         <section className="py-16">
           <div className="container">
             <div className="max-w-6xl mx-auto">
-              <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-8">Otros artículos</h2>
+              <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-8">{language === 'es' ? 'Otros artículos' : 'Other articles'}</h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      Conceptos Básicos
+                      {language === 'es' ? 'Conceptos Básicos' : 'Basic Concepts'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
-                      ¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?
+                      {language === 'es' ? '¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?' : 'What is the difference between WhatsApp Business and WhatsApp Business API?'}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">
-                      Descubre las diferencias clave entre WhatsApp Business y WhatsApp Business API, y entiende cuál es la mejor opción para tu negocio.
+                      {language === 'es' ? 'Descubre las diferencias clave entre WhatsApp Business y WhatsApp Business API, y entiende cuál es la mejor opción para tu negocio.' : 'Discover the key differences between WhatsApp Business and WhatsApp Business API, and understand which is the best option for your business.'}
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>5 min</span>
                       <a href="/blog/articulo-1" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
-                        Leer más
+                        {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
                   </div>
@@ -593,18 +593,18 @@ export default function BlogArticle10() {
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      Casos de Uso
+                      {language === 'es' ? 'Casos de Uso' : 'Use Cases'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
-                      ¿Para que me sirve WhatsApp Business API para mi negocio?
+                      {language === 'es' ? '¿Para que me sirve WhatsApp Business API para mi negocio?' : 'What is WhatsApp Business API useful for in my business?'}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">
-                      Explora casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, abogados y oficinas de cobros.
+                      {language === 'es' ? 'Explora casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, abogados y oficinas de cobros.' : 'Explore real use cases of WhatsApp Business API in restaurants, hotels, cafes, lawyers and collection offices.'}
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>8 min</span>
                       <a href="/blog/articulo-2" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
-                        Leer más
+                        {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
                   </div>
@@ -613,18 +613,18 @@ export default function BlogArticle10() {
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      Implementación
+                      {language === 'es' ? 'Implementación' : 'Implementation'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
-                      ¿Cuáles son los primeros pasos para migrar WhatsApp Business API?
+                      {language === 'es' ? '¿Cuáles son los primeros pasos para migrar WhatsApp Business API?' : 'What are the first steps to migrate WhatsApp Business API?'}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">
-                      Guía paso a paso para migrar tu negocio a WhatsApp Business API sin complicaciones.
+                      {language === 'es' ? 'Guía paso a paso para migrar tu negocio a WhatsApp Business API sin complicaciones.' : 'Step-by-step guide to migrate your business to WhatsApp Business API without complications.'}
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>7 min</span>
                       <a href="/blog/articulo-3" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
-                        Leer más
+                        {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
                   </div>

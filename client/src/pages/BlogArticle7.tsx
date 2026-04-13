@@ -40,30 +40,30 @@ export default function BlogArticle7() {
                 className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium mb-8 transition-colors"
               >
                 <ChevronLeft className="w-4 h-4" />
-                Volver al blog
+                {language === 'es' ? 'Volver al blog' : 'Back to blog'}
               </a>
               
               <div className="mb-6">
                 <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                  Comparativas
+                  {language === 'es' ? 'Comparativas' : 'Comparisons'}
                 </span>
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                ¿En que se diferencian las plataformas que administran los chat de WhatsApp?
+                {t('articles.article7.title')}
               </h1>
               
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" />
-                  <span>21 de Marzo de 2026</span>
+                  <span>{language === 'es' ? '21 de Marzo de 2026' : 'March 21, 2026'}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4" />
-                  <span>7 min de lectura</span>
+                  <span>7 {language === 'es' ? 'min de lectura' : 'min read'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span>Redacción: Alex Murillo + Equipo de Soporte</span>
+                  <span>{language === 'es' ? 'Redacción:' : 'By:'} Alex Murillo + {language === 'es' ? 'Equipo de Soporte' : 'Support Team'}</span>
                 </div>
               </div>
             </div>
@@ -76,298 +76,298 @@ export default function BlogArticle7() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  ¿En que se diferencian las plataformas que administran los chat de WhatsApp?
+                  {t('articles.article7.title')}
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  No todas las plataformas de gestión de WhatsApp son iguales. Cada una tiene fortalezas y debilidades. Veamos las diferencias clave.
+                  {language === 'es' ? 'No todas las plataformas de gestión de WhatsApp son iguales. Cada una tiene fortalezas y debilidades. Veamos las diferencias clave.' : 'Not all WhatsApp management platforms are the same. Each has strengths and weaknesses. Let\'s look at the key differences.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Criterios de Comparación
+                  {language === 'es' ? 'Criterios de Comparación' : 'Comparison Criteria'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  1. Enfoque Principal
+                  {language === 'es' ? '1. Enfoque Principal' : '1. Main Focus'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Plataformas Especializadas en WhatsApp:</strong>
+                  <strong>{language === 'es' ? 'Plataformas Especializadas en WhatsApp:' : 'WhatsApp-Specialized Platforms:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Wati, Chatwoot (versión WhatsApp)</li>
-                  <li><strong>Ventaja:</strong> Características muy profundas de WhatsApp</li>
-                  <li><strong>Desventaja:</strong> Limitadas a WhatsApp</li>
+                  <li>{language === 'es' ? 'Wati, Chatwoot (versión WhatsApp)' : 'Wati, Chatwoot (WhatsApp version)'}</li>
+                  <li><strong>{language === 'es' ? 'Ventaja:' : 'Advantage:'}</strong> {language === 'es' ? 'Características muy profundas de WhatsApp' : 'Very deep WhatsApp features'}</li>
+                  <li><strong>{language === 'es' ? 'Desventaja:' : 'Disadvantage:'}</strong> {language === 'es' ? 'Limitadas a WhatsApp' : 'Limited to WhatsApp'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Plataformas Omnicanal:</strong>
+                  <strong>{language === 'es' ? 'Plataformas Omnicanal:' : 'Omnichannel Platforms:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Intercom, Zendesk, Freshdesk</li>
-                  <li><strong>Ventaja:</strong> Múltiples canales integrados</li>
-                  <li><strong>Desventaja:</strong> Menos profundidad en WhatsApp específicamente</li>
+                  <li>{language === 'es' ? 'Intercom, Zendesk, Freshdesk' : 'Intercom, Zendesk, Freshdesk'}</li>
+                  <li><strong>{language === 'es' ? 'Ventaja:' : 'Advantage:'}</strong> {language === 'es' ? 'Múltiples canales integrados' : 'Multiple integrated channels'}</li>
+                  <li><strong>{language === 'es' ? 'Desventaja:' : 'Disadvantage:'}</strong> {language === 'es' ? 'Menos profundidad en WhatsApp específicamente' : 'Less depth in WhatsApp specifically'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Plataformas Empresariales:</strong>
+                  <strong>{language === 'es' ? 'Plataformas Empresariales:' : 'Enterprise Platforms:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Twilio, MessageBird</li>
-                  <li><strong>Ventaja:</strong> Escalabilidad y confiabilidad</li>
-                  <li><strong>Desventaja:</strong> Más complejas y caras</li>
+                  <li>{language === 'es' ? 'Twilio, MessageBird' : 'Twilio, MessageBird'}</li>
+                  <li><strong>{language === 'es' ? 'Ventaja:' : 'Advantage:'}</strong> {language === 'es' ? 'Escalabilidad y confiabilidad' : 'Scalability and reliability'}</li>
+                  <li><strong>{language === 'es' ? 'Desventaja:' : 'Disadvantage:'}</strong> {language === 'es' ? 'Más complejas y caras' : 'More complex and expensive'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  2. Facilidad de Uso
+                  {language === 'es' ? '2. Facilidad de Uso' : '2. Ease of Use'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Fácil (No técnico):</strong>
+                  <strong>{language === 'es' ? 'Fácil (No técnico):' : 'Easy (Non-technical):'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Wati, Intercom</li>
-                  <li>Interfaz intuitiva</li>
-                  <li>Configuración sin código</li>
+                  <li>{language === 'es' ? 'Wati, Intercom' : 'Wati, Intercom'}</li>
+                  <li>{language === 'es' ? 'Interfaz intuitiva' : 'Intuitive interface'}</li>
+                  <li>{language === 'es' ? 'Configuración sin código' : 'No-code setup'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Moderada (Algo técnico):</strong>
+                  <strong>{language === 'es' ? 'Moderada (Algo técnico):' : 'Moderate (Somewhat technical):'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Zendesk, Freshdesk</li>
-                  <li>Requiere algo de configuración</li>
-                  <li>Documentación disponible</li>
+                  <li>{language === 'es' ? 'Zendesk, Freshdesk' : 'Zendesk, Freshdesk'}</li>
+                  <li>{language === 'es' ? 'Requiere algo de configuración' : 'Requires some configuration'}</li>
+                  <li>{language === 'es' ? 'Documentación disponible' : 'Documentation available'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Compleja (Muy técnico):</strong>
+                  <strong>{language === 'es' ? 'Compleja (Muy técnico):' : 'Complex (Very technical):'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Twilio, MessageBird</li>
-                  <li>Requiere programación</li>
-                  <li>Mejor para desarrolladores</li>
+                  <li>{language === 'es' ? 'Twilio, MessageBird' : 'Twilio, MessageBird'}</li>
+                  <li>{language === 'es' ? 'Requiere programación' : 'Requires programming'}</li>
+                  <li>{language === 'es' ? 'Mejor para desarrolladores' : 'Better for developers'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  3. Automatización
+                  {language === 'es' ? '3. Automatización' : '3. Automation'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Automatización Visual (Drag & Drop):</strong>
+                  <strong>{language === 'es' ? 'Automatización Visual (Drag & Drop):' : 'Visual Automation (Drag & Drop):'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Wati, Chatbot Builder</li>
-                  <li>Creas flujos sin escribir código</li>
-                  <li>Mejor para no técnicos</li>
+                  <li>{language === 'es' ? 'Wati, Chatbot Builder' : 'Wati, Chatbot Builder'}</li>
+                  <li>{language === 'es' ? 'Creas flujos sin escribir código' : 'Create flows without writing code'}</li>
+                  <li>{language === 'es' ? 'Mejor para no técnicos' : 'Better for non-technical users'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Automatización Basada en Código:</strong>
+                  <strong>{language === 'es' ? 'Automatización Basada en Código:' : 'Code-Based Automation:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Twilio, MessageBird</li>
-                  <li>Más flexible pero requiere programación</li>
-                  <li>Mejor para desarrolladores</li>
+                  <li>{language === 'es' ? 'Twilio, MessageBird' : 'Twilio, MessageBird'}</li>
+                  <li>{language === 'es' ? 'Más flexible pero requiere programación' : 'More flexible but requires programming'}</li>
+                  <li>{language === 'es' ? 'Mejor para desarrolladores' : 'Better for developers'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Automatización Limitada:</strong>
+                  <strong>{language === 'es' ? 'Automatización Limitada:' : 'Limited Automation:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Algunas plataformas básicas</li>
-                  <li>Solo automatización simple</li>
-                  <li>No apta para procesos complejos</li>
+                  <li>{language === 'es' ? 'Algunas plataformas básicas' : 'Some basic platforms'}</li>
+                  <li>{language === 'es' ? 'Solo automatización simple' : 'Only simple automation'}</li>
+                  <li>{language === 'es' ? 'No apta para procesos complejos' : 'Not suitable for complex processes'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  4. Integraciones
+                  {language === 'es' ? '4. Integraciones' : '4. Integrations'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Muchas Integraciones (100+):</strong>
+                  <strong>{language === 'es' ? 'Muchas Integraciones (100+):' : 'Many Integrations (100+):'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Zapier, Make, Intercom</li>
-                  <li>Conecta con casi cualquier sistema</li>
-                  <li>Mejor para ecosistemas complejos</li>
+                  <li>{language === 'es' ? 'Zapier, Make, Intercom' : 'Zapier, Make, Intercom'}</li>
+                  <li>{language === 'es' ? 'Conecta con casi cualquier sistema' : 'Connects with almost any system'}</li>
+                  <li>{language === 'es' ? 'Mejor para ecosistemas complejos' : 'Better for complex ecosystems'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Integraciones Moderadas (20-50):</strong>
+                  <strong>{language === 'es' ? 'Integraciones Moderadas (20-50):' : 'Moderate Integrations (20-50):'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Wati, Zendesk</li>
-                  <li>Cubre la mayoría de casos de uso</li>
-                  <li>Suficiente para la mayoría de negocios</li>
+                  <li>{language === 'es' ? 'Wati, Zendesk' : 'Wati, Zendesk'}</li>
+                  <li>{language === 'es' ? 'Cubre la mayoría de casos de uso' : 'Covers most use cases'}</li>
+                  <li>{language === 'es' ? 'Suficiente para la mayoría de negocios' : 'Sufficient for most businesses'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Pocas Integraciones (&lt;20):</strong>
+                  <strong>{language === 'es' ? 'Pocas Integraciones (<20):' : 'Few Integrations (<20):'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Algunas plataformas básicas</li>
-                  <li>Limitadas a funciones core</li>
-                  <li>No apta si necesitas integraciones específicas</li>
+                  <li>{language === 'es' ? 'Algunas plataformas básicas' : 'Some basic platforms'}</li>
+                  <li>{language === 'es' ? 'Limitadas a funciones core' : 'Limited to core functions'}</li>
+                  <li>{language === 'es' ? 'No apta si necesitas integraciones específicas' : 'Not suitable if you need specific integrations'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  5. Precio
+                  {language === 'es' ? '5. Precio' : '5. Price'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Económico ($0-500/mes):</strong>
+                  <strong>{language === 'es' ? 'Económico ($0-500/mes):' : 'Economical ($0-500/month):'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Wati (planes básicos)</li>
-                  <li>Ideal para pequeños negocios</li>
-                  <li>Funcionalidad limitada en planes bajos</li>
+                  <li>{language === 'es' ? 'Wati (planes básicos)' : 'Wati (basic plans)'}</li>
+                  <li>{language === 'es' ? 'Ideal para pequeños negocios' : 'Ideal for small businesses'}</li>
+                  <li>{language === 'es' ? 'Funcionalidad limitada en planes bajos' : 'Limited functionality on low plans'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Moderado ($500-2,000/mes):</strong>
+                  <strong>{language === 'es' ? 'Moderado ($500-2,000/mes):' : 'Moderate ($500-2,000/month):'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Intercom, Zendesk (planes medianos)</li>
-                  <li>Buena relación precio-valor</li>
-                  <li>Funcionalidad completa</li>
+                  <li>{language === 'es' ? 'Intercom, Zendesk (planes medianos)' : 'Intercom, Zendesk (mid-level plans)'}</li>
+                  <li>{language === 'es' ? 'Buena relación precio-valor' : 'Good price-value relationship'}</li>
+                  <li>{language === 'es' ? 'Funcionalidad completa' : 'Complete functionality'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Premium ($2,000+/mes):</strong>
+                  <strong>{language === 'es' ? 'Premium ($2,000+/mes):' : 'Premium ($2,000+/month):'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Twilio, MessageBird, soluciones enterprise</li>
-                  <li>Máxima escalabilidad</li>
-                  <li>Mejor para grandes empresas</li>
+                  <li>{language === 'es' ? 'Twilio, MessageBird, soluciones enterprise' : 'Twilio, MessageBird, enterprise solutions'}</li>
+                  <li>{language === 'es' ? 'Máxima escalabilidad' : 'Maximum scalability'}</li>
+                  <li>{language === 'es' ? 'Mejor para grandes empresas' : 'Best for large companies'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  6. Escalabilidad
+                  {language === 'es' ? '6. Escalabilidad' : '6. Scalability'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Baja Escalabilidad:</strong>
+                  <strong>{language === 'es' ? 'Baja Escalabilidad:' : 'Low Scalability:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Plataformas básicas</li>
-                  <li>Limitadas a pequeños volúmenes</li>
-                  <li>Problemas de rendimiento con crecimiento</li>
+                  <li>{language === 'es' ? 'Plataformas básicas' : 'Basic platforms'}</li>
+                  <li>{language === 'es' ? 'Limitadas a pequeños volúmenes' : 'Limited to small volumes'}</li>
+                  <li>{language === 'es' ? 'Problemas de rendimiento con crecimiento' : 'Performance issues with growth'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Media Escalabilidad:</strong>
+                  <strong>{language === 'es' ? 'Media Escalabilidad:' : 'Medium Scalability:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Wati, Intercom</li>
-                  <li>Pueden manejar miles de conversaciones</li>
-                  <li>Buena para empresas medianas</li>
+                  <li>{language === 'es' ? 'Wati, Intercom' : 'Wati, Intercom'}</li>
+                  <li>{language === 'es' ? 'Pueden manejar miles de conversaciones' : 'Can handle thousands of conversations'}</li>
+                  <li>{language === 'es' ? 'Buena para empresas medianas' : 'Good for medium-sized companies'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Alta Escalabilidad:</strong>
+                  <strong>{language === 'es' ? 'Alta Escalabilidad:' : 'High Scalability:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Twilio, MessageBird</li>
-                  <li>Millones de mensajes simultáneos</li>
-                  <li>Infraestructura empresarial</li>
+                  <li>{language === 'es' ? 'Twilio, MessageBird' : 'Twilio, MessageBird'}</li>
+                  <li>{language === 'es' ? 'Millones de mensajes simultáneos' : 'Millions of simultaneous messages'}</li>
+                  <li>{language === 'es' ? 'Infraestructura empresarial' : 'Enterprise infrastructure'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  7. Soporte
+                  {language === 'es' ? '7. Soporte' : '7. Support'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Soporte Básico:</strong>
+                  <strong>{language === 'es' ? 'Soporte Básico:' : 'Basic Support:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Email, documentación</li>
-                  <li>Respuesta en 24-48 horas</li>
-                  <li>Mejor para empresas pequeñas</li>
+                  <li>{language === 'es' ? 'Email, documentación' : 'Email, documentation'}</li>
+                  <li>{language === 'es' ? 'Respuesta en 24-48 horas' : 'Response in 24-48 hours'}</li>
+                  <li>{language === 'es' ? 'Mejor para empresas pequeñas' : 'Best for small companies'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Soporte Estándar:</strong>
+                  <strong>{language === 'es' ? 'Soporte Estándar:' : 'Standard Support:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Email, chat, documentación</li>
-                  <li>Respuesta en 2-4 horas</li>
-                  <li>Mejor para empresas medianas</li>
+                  <li>{language === 'es' ? 'Email, chat, documentación' : 'Email, chat, documentation'}</li>
+                  <li>{language === 'es' ? 'Respuesta en 2-4 horas' : 'Response in 2-4 hours'}</li>
+                  <li>{language === 'es' ? 'Mejor para empresas medianas' : 'Best for medium-sized companies'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Soporte Premium:</strong>
+                  <strong>{language === 'es' ? 'Soporte Premium:' : 'Premium Support:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Teléfono, chat 24/7, gestor dedicado</li>
-                  <li>Respuesta inmediata</li>
-                  <li>Mejor para empresas grandes</li>
+                  <li>{language === 'es' ? 'Teléfono, chat 24/7, gestor dedicado' : 'Phone, 24/7 chat, dedicated manager'}</li>
+                  <li>{language === 'es' ? 'Respuesta inmediata' : 'Immediate response'}</li>
+                  <li>{language === 'es' ? 'Mejor para empresas grandes' : 'Best for large companies'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  8. Características Avanzadas
+                  {language === 'es' ? '8. Características Avanzadas' : '8. Advanced Features'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>IA y Machine Learning:</strong>
+                  <strong>{language === 'es' ? 'IA y Machine Learning:' : 'AI and Machine Learning:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Intercom, Zendesk</li>
-                  <li>Chatbots inteligentes</li>
-                  <li>Análisis predictivo</li>
+                  <li>{language === 'es' ? 'Intercom, Zendesk' : 'Intercom, Zendesk'}</li>
+                  <li>{language === 'es' ? 'Chatbots inteligentes' : 'Smart chatbots'}</li>
+                  <li>{language === 'es' ? 'Análisis predictivo' : 'Predictive analytics'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Análisis Avanzados:</strong>
+                  <strong>{language === 'es' ? 'Análisis Avanzados:' : 'Advanced Analytics:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Twilio, MessageBird</li>
-                  <li>Reportes detallados</li>
-                  <li>Insights profundos</li>
+                  <li>{language === 'es' ? 'Twilio, MessageBird' : 'Twilio, MessageBird'}</li>
+                  <li>{language === 'es' ? 'Reportes detallados' : 'Detailed reports'}</li>
+                  <li>{language === 'es' ? 'Insights profundos' : 'Deep insights'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Seguridad Empresarial:</strong>
+                  <strong>{language === 'es' ? 'Seguridad Empresarial:' : 'Enterprise Security:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Twilio, MessageBird</li>
-                  <li>Cumplimiento GDPR, HIPAA, etc.</li>
-                  <li>Encriptación avanzada</li>
+                  <li>{language === 'es' ? 'Twilio, MessageBird' : 'Twilio, MessageBird'}</li>
+                  <li>{language === 'es' ? 'Cumplimiento GDPR, HIPAA, etc.' : 'GDPR, HIPAA, etc. compliance'}</li>
+                  <li>{language === 'es' ? 'Encriptación avanzada' : 'Advanced encryption'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Tabla Comparativa Resumida
+                  {language === 'es' ? 'Tabla Comparativa Resumida' : 'Summary Comparison Table'}
                 </h3>
                 
                 <div className="overflow-x-auto mb-8">
                   <table className="min-w-full border-collapse border border-gray-300">
                     <thead>
                       <tr className="bg-gray-50">
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Característica</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">{language === 'es' ? 'Característica' : 'Feature'}</th>
                         <th className="border border-gray-300 px-4 py-2 text-center font-semibold">Wati</th>
                         <th className="border border-gray-300 px-4 py-2 text-center font-semibold">Intercom</th>
                         <th className="border border-gray-300 px-4 py-2 text-center font-semibold">Zendesk</th>
@@ -376,157 +376,157 @@ export default function BlogArticle7() {
                     </thead>
                     <tbody>
                       <tr>
-                        <td className="border border-gray-300 px-4 py-2">Facilidad</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Facilidad' : 'Ease'}</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">4/5</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">3/5</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">3/5</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">2/5</td>
                       </tr>
                       <tr>
-                        <td className="border border-gray-300 px-4 py-2">Automatización</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Automatización' : 'Automation'}</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">4/5</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">4/5</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">4/5</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">5/5</td>
                       </tr>
                       <tr>
-                        <td className="border border-gray-300 px-4 py-2">Integraciones</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Integraciones' : 'Integrations'}</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">5/5</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">5/5</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">5/5</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">5/5</td>
                       </tr>
                       <tr>
-                        <td className="border border-gray-300 px-4 py-2">Precio</td>
-                        <td className="border border-gray-300 px-4 py-2 text-center">Económico</td>
-                        <td className="border border-gray-300 px-4 py-2 text-center">Moderado</td>
-                        <td className="border border-gray-300 px-4 py-2 text-center">Moderado</td>
-                        <td className="border border-gray-300 px-4 py-2 text-center">Premium</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Precio' : 'Price'}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">{language === 'es' ? 'Económico' : 'Economical'}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">{language === 'es' ? 'Moderado' : 'Moderate'}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">{language === 'es' ? 'Moderado' : 'Moderate'}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">{language === 'es' ? 'Premium' : 'Premium'}</td>
                       </tr>
                       <tr>
-                        <td className="border border-gray-300 px-4 py-2">Escalabilidad</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Escalabilidad' : 'Scalability'}</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">4/5</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">5/5</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">5/5</td>
                         <td className="border border-gray-300 px-4 py-2 text-center">5/5</td>
                       </tr>
                       <tr>
-                        <td className="border border-gray-300 px-4 py-2">IA</td>
-                        <td className="border border-gray-300 px-4 py-2 text-center">Sí</td>
-                        <td className="border border-gray-300 px-4 py-2 text-center">Sí</td>
-                        <td className="border border-gray-300 px-4 py-2 text-center">Sí</td>
-                        <td className="border border-gray-300 px-4 py-2 text-center">Limitada</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'IA' : 'AI'}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">{language === 'es' ? 'Sí' : 'Yes'}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">{language === 'es' ? 'Sí' : 'Yes'}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">{language === 'es' ? 'Sí' : 'Yes'}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">{language === 'es' ? 'Limitada' : 'Limited'}</td>
                       </tr>
                       <tr>
-                        <td className="border border-gray-300 px-4 py-2">Soporte</td>
-                        <td className="border border-gray-300 px-4 py-2 text-center">Bueno</td>
-                        <td className="border border-gray-300 px-4 py-2 text-center">Muy Bueno</td>
-                        <td className="border border-gray-300 px-4 py-2 text-center">Muy Bueno</td>
-                        <td className="border border-gray-300 px-4 py-2 text-center">Excelente</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Soporte' : 'Support'}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">{language === 'es' ? 'Bueno' : 'Good'}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">{language === 'es' ? 'Muy Bueno' : 'Very Good'}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">{language === 'es' ? 'Muy Bueno' : 'Very Good'}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">{language === 'es' ? 'Excelente' : 'Excellent'}</td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Cómo Elegir
+                  {language === 'es' ? 'Cómo Elegir' : 'How to Choose'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Para Pequeños Negocios (1-5 agentes)
+                  {language === 'es' ? 'Para Pequeños Negocios (1-5 agentes)' : 'For Small Businesses (1-5 agents)'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li><strong>Recomendación:</strong> Wati</li>
-                  <li><strong>Razón:</strong> Fácil de usar, económico, suficientemente potente</li>
+                  <li><strong>{language === 'es' ? 'Recomendación:' : 'Recommendation:'}</strong> Wati</li>
+                  <li><strong>{language === 'es' ? 'Razón:' : 'Reason:'}</strong> {language === 'es' ? 'Fácil de usar, económico, suficientemente potente' : 'Easy to use, economical, sufficiently powerful'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Para Empresas Medianas (5-50 agentes)
+                  {language === 'es' ? 'Para Empresas Medianas (5-50 agentes)' : 'For Medium Companies (5-50 agents)'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li><strong>Recomendación:</strong> Intercom o Zendesk</li>
-                  <li><strong>Razón:</strong> Escalabilidad, características avanzadas, soporte</li>
+                  <li><strong>{language === 'es' ? 'Recomendación:' : 'Recommendation:'}</strong> Intercom o Zendesk</li>
+                  <li><strong>{language === 'es' ? 'Razón:' : 'Reason:'}</strong> {language === 'es' ? 'Escalabilidad, características avanzadas, soporte' : 'Scalability, advanced features, support'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Para Grandes Empresas (50+ agentes)
+                  {language === 'es' ? 'Para Grandes Empresas (50+ agentes)' : 'For Large Companies (50+ agents)'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li><strong>Recomendación:</strong> Twilio o MessageBird</li>
-                  <li><strong>Razón:</strong> Máxima escalabilidad, seguridad empresarial</li>
+                  <li><strong>{language === 'es' ? 'Recomendación:' : 'Recommendation:'}</strong> Twilio o MessageBird</li>
+                  <li><strong>{language === 'es' ? 'Razón:' : 'Reason:'}</strong> {language === 'es' ? 'Máxima escalabilidad, seguridad empresarial' : 'Maximum scalability, enterprise security'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Si Necesitas Múltiples Canales
+                  {language === 'es' ? 'Si Necesitas Múltiples Canales' : 'If You Need Multiple Channels'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li><strong>Recomendación:</strong> Intercom o Zendesk</li>
-                  <li><strong>Razón:</strong> Integración omnicanal</li>
+                  <li><strong>{language === 'es' ? 'Recomendación:' : 'Recommendation:'}</strong> Intercom o Zendesk</li>
+                  <li><strong>{language === 'es' ? 'Razón:' : 'Reason:'}</strong> {language === 'es' ? 'Integración omnicanal' : 'Omnichannel integration'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Si Necesitas Máxima Automatización
+                  {language === 'es' ? 'Si Necesitas Máxima Automatización' : 'If You Need Maximum Automation'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li><strong>Recomendación:</strong> Wati o Twilio</li>
-                  <li><strong>Razón:</strong> Automatización visual o basada en código</li>
+                  <li><strong>{language === 'es' ? 'Recomendación:' : 'Recommendation:'}</strong> Wati o Twilio</li>
+                  <li><strong>{language === 'es' ? 'Razón:' : 'Reason:'}</strong> {language === 'es' ? 'Automatización visual o basada en código' : 'Visual or code-based automation'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Conclusión
+                  {language === 'es' ? 'Conclusión' : 'Conclusion'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  No existe una plataforma "mejor" universalmente. La mejor plataforma es aquella que se ajusta a:
+                  {language === 'es' ? 'No existe una plataforma "mejor" universalmente. La mejor plataforma es aquella que se ajusta a:' : 'There is no universally "best" platform. The best platform is one that fits:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Tu tamaño de negocio</li>
-                  <li>Tu presupuesto</li>
-                  <li>Tus necesidades técnicas</li>
-                  <li>Tu volumen de mensajes</li>
-                  <li>Tus integraciones requeridas</li>
-                  <li>Tu nivel de soporte necesario</li>
+                  <li>{language === 'es' ? 'Tu tamaño de negocio' : 'Your business size'}</li>
+                  <li>{language === 'es' ? 'Tu presupuesto' : 'Your budget'}</li>
+                  <li>{language === 'es' ? 'Tus necesidades técnicas' : 'Your technical needs'}</li>
+                  <li>{language === 'es' ? 'Tu volumen de mensajes' : 'Your message volume'}</li>
+                  <li>{language === 'es' ? 'Tus integraciones requeridas' : 'Your required integrations'}</li>
+                  <li>{language === 'es' ? 'Tu nivel de soporte necesario' : 'Your required support level'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Te recomendamos:
+                  {language === 'es' ? 'Te recomendamos:' : 'We recommend:'}
                 </p>
                 
                 <ol className="list-decimal pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Identifica tus 3 necesidades más críticas</li>
-                  <li>Prueba 2-3 plataformas (muchas ofrecen pruebas gratuitas)</li>
-                  <li>Compara precio vs. funcionalidad</li>
-                  <li>Elige la que mejor se ajuste</li>
+                  <li>{language === 'es' ? 'Identifica tus 3 necesidades más críticas' : 'Identify your 3 most critical needs'}</li>
+                  <li>{language === 'es' ? 'Prueba 2-3 plataformas (muchas ofrecen pruebas gratuitas)' : 'Test 2-3 platforms (many offer free trials)'}</li>
+                  <li>{language === 'es' ? 'Compara precio vs. funcionalidad' : 'Compare price vs. functionality'}</li>
+                  <li>{language === 'es' ? 'Elige la que mejor se ajuste' : 'Choose the one that best fits'}</li>
                 </ol>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  La mayoría de empresas comienzan con una plataforma básica y evolucionan conforme crecen. No necesitas la solución más cara desde el inicio.
+                  {language === 'es' ? 'La mayoría de empresas comienzan con una plataforma básica y evolucionan conforme crecen. No necesitas la solución más cara desde el inicio.' : 'Most companies start with a basic platform and evolve as they grow. You don\'t need the most expensive solution from the start.'}
                 </p>
               </article>
 
               {/* Share Section */}
               <div className="mt-12 pt-8 border-t border-gray-200">
-                <h4 className="text-lg font-semibold text-gray-900 mb-4">Compartir:</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-4">{language === 'es' ? 'Compartir:' : 'Share:'}</h4>
                 <div className="flex gap-4">
                   <button
                     onClick={() => handleShare('facebook')}
                     className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
                   >
                     <Facebook className="w-4 h-4" />
-                    Facebook
+                    {language === 'es' ? 'Facebook' : 'Facebook'}
                   </button>
                   <button
                     onClick={() => handleShare('whatsapp')}
                     className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
                   >
                     <MessageCircle className="w-4 h-4" />
-                    WhatsApp
+                    {language === 'es' ? 'WhatsApp' : 'WhatsApp'}
                   </button>
                 </div>
               </div>
@@ -535,21 +535,21 @@ export default function BlogArticle7() {
               <div className="mt-12 pt-8 border-t border-gray-200">
                 <div className="flex items-center justify-between">
                   <div className="text-left">
-                    <p className="text-sm text-gray-500 mb-1">Artículo anterior</p>
+                    <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Artículo anterior' : 'Previous article'}</p>
                     <a
                       href="/blog/articulo-6"
                       className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                     >
-                      ¿Por que necesito una plataforma para administrar los chats de WhatsApp?
+                      {language === 'es' ? '¿Por que necesito una plataforma para administrar los chats de WhatsApp?' : 'Why do I need a platform to manage WhatsApp chats?'}
                     </a>
                   </div>
                   <div className="text-right">
-                    <p className="text-sm text-gray-500 mb-1">Siguiente artículo</p>
+                    <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Siguiente artículo' : 'Next article'}</p>
                     <a
                       href="/blog/articulo-8"
                       className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                     >
-                      ¿Cómo es el cobro que hacen las plataformas de chats de WhatsApp?
+                      {language === 'es' ? '¿Cómo es el cobro que hacen las plataformas de chats de WhatsApp?' : 'How do WhatsApp chat platforms charge?'}
                     </a>
                   </div>
                 </div>
@@ -564,10 +564,10 @@ export default function BlogArticle7() {
             <div className="max-w-4xl mx-auto text-center">
               <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-blue-100">
                 <h2 className="font-bold text-3xl md:text-4xl text-gray-900 mb-4">
-                  ¿Listo para implementar WhatsApp Business API?
+                  {language === 'es' ? '¿Listo para implementar WhatsApp Business API?' : 'Ready to implement WhatsApp Business API?'}
                 </h2>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                  Contáctame para una consulta personalizada sobre cómo automatizar tu negocio con WhatsApp Business API.
+                  {language === 'es' ? 'Contáctame para una consulta personalizada sobre cómo automatizar tu negocio con WhatsApp Business API.' : 'Contact me for a personalized consultation on how to automate your business with WhatsApp Business API.'}
                 </p>
                 
                 <a
@@ -576,7 +576,7 @@ export default function BlogArticle7() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
                 >
-                  Escribeme por WhatsApp
+                  {language === 'es' ? 'Escríbeme por WhatsApp' : 'Write me on WhatsApp'}
                 </a>
               </div>
             </div>
@@ -587,24 +587,24 @@ export default function BlogArticle7() {
         <section className="py-16">
           <div className="container">
             <div className="max-w-6xl mx-auto">
-              <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-8">Otros artículos</h2>
+              <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-8">{language === 'es' ? 'Otros artículos' : 'Other articles'}</h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      Conceptos Básicos
+                      {language === 'es' ? 'Conceptos Básicos' : 'Basic Concepts'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
-                      ¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?
+                      {language === 'es' ? '¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?' : 'What is the difference between WhatsApp Business and WhatsApp Business API?'}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">
-                      Descubre las diferencias clave entre WhatsApp Business y WhatsApp Business API, y entiende cuál es la mejor opción para tu negocio.
+                      {language === 'es' ? 'Descubre las diferencias clave entre WhatsApp Business y WhatsApp Business API, y entiende cuál es la mejor opción para tu negocio.' : 'Discover the key differences between WhatsApp Business and WhatsApp Business API, and understand which is the best option for your business.'}
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>5 min</span>
                       <a href="/blog/articulo-1" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
-                        Leer más
+                        {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
                   </div>
@@ -613,18 +613,18 @@ export default function BlogArticle7() {
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      Casos de Uso
+                      {language === 'es' ? 'Casos de Uso' : 'Use Cases'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
-                      ¿Para que me sirve WhatsApp Business API para mi negocio?
+                      {language === 'es' ? '¿Para que me sirve WhatsApp Business API para mi negocio?' : 'What is WhatsApp Business API useful for in my business?'}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">
-                      Explora casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, abogados y oficinas de cobros.
+                      {language === 'es' ? 'Explora casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, abogados y oficinas de cobros.' : 'Explore real use cases of WhatsApp Business API in restaurants, hotels, cafes, lawyers and collection offices.'}
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>8 min</span>
                       <a href="/blog/articulo-2" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
-                        Leer más
+                        {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
                   </div>
@@ -633,18 +633,18 @@ export default function BlogArticle7() {
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      Implementación
+                      {language === 'es' ? 'Implementación' : 'Implementation'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
-                      ¿Cuáles son los primeros pasos para migrar WhatsApp Business API?
+                      {language === 'es' ? '¿Cuáles son los primeros pasos para migrar WhatsApp Business API?' : 'What are the first steps to migrate WhatsApp Business API?'}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">
-                      Guía paso a paso para migrar tu negocio a WhatsApp Business API sin complicaciones.
+                      {language === 'es' ? 'Guía paso a paso para migrar tu negocio a WhatsApp Business API sin complicaciones.' : 'Step-by-step guide to migrate your business to WhatsApp Business API without complications.'}
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>7 min</span>
                       <a href="/blog/articulo-3" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
-                        Leer más
+                        {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
                   </div>

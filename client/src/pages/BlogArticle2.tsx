@@ -317,14 +317,14 @@ export default function BlogArticle2() {
                     className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
                   >
                     <Facebook className="w-4 h-4" />
-                    Facebook
+                    {language === 'es' ? 'Facebook' : 'Facebook'}
                   </button>
                   <button
                     onClick={() => handleShare('whatsapp')}
                     className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
                   >
                     <MessageCircle className="w-4 h-4" />
-                    WhatsApp
+                    {language === 'es' ? 'WhatsApp' : 'WhatsApp'}
                   </button>
                 </div>
               </div>
@@ -362,19 +362,20 @@ export default function BlogArticle2() {
             <div className="max-w-4xl mx-auto text-center">
               <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-blue-100">
                 <h2 className="font-bold text-3xl md:text-4xl text-gray-900 mb-4">
-                  ¿Listo para implementar WhatsApp Business API?
+                  {language === 'es' ? '¿Listo para implementar WhatsApp Business API?' : 'Ready to implement WhatsApp Business API?'}
                 </h2>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                  Contáctame para una consulta personalizada sobre cómo automatizar tu negocio con WhatsApp Business API.
+                  {language === 'es' ? 'Contáctame para una consulta personalizada sobre cómo automatizar tu negocio con WhatsApp Business API.' : 'Contact me for a personalized consultation on how to automate your business with WhatsApp Business API.'}
                 </p>
                 
                 <a
                   href="https://wa.me/+573105317126"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
                 >
-                  Escribeme por WhatsApp
+                  <MessageCircle className="w-5 h-5" />
+                  {language === 'es' ? 'Escríbeme por WhatsApp' : 'Write me on WhatsApp'}
                 </a>
               </div>
             </div>
@@ -385,24 +386,24 @@ export default function BlogArticle2() {
         <section className="py-16">
           <div className="container">
             <div className="max-w-6xl mx-auto">
-              <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-8">Otros artículos</h2>
+              <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-8">{language === 'es' ? 'Otros artículos' : 'Other articles'}</h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      Conceptos Básicos
+                      {language === 'es' ? 'Conceptos Básicos' : 'Basic Concepts'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
-                      ¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?
+                      {language === 'es' ? '¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?' : 'What is the difference between WhatsApp Business and WhatsApp Business API?'}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">
-                      Descubre las diferencias clave entre WhatsApp Business y WhatsApp Business API, y entiende cuál es la mejor opción para tu negocio.
+                      {language === 'es' ? 'Descubre las diferencias clave entre WhatsApp Business y WhatsApp Business API, y entiende cuál es la mejor opción para tu negocio.' : 'Discover the key differences between WhatsApp Business and WhatsApp Business API, and understand which is the best option for your business.'}
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>5 min</span>
                       <a href="/blog/articulo-1" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
-                        Leer más
+                        {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
                   </div>
@@ -411,18 +412,18 @@ export default function BlogArticle2() {
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      Implementación
+                      {language === 'es' ? 'Implementación' : 'Implementation'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
-                      ¿Cuáles son los primeros pasos para migrar WhatsApp Business API?
+                      {language === 'es' ? '¿Cuáles son los primeros pasos para migrar WhatsApp Business API?' : 'What are the first steps to migrate WhatsApp Business API?'}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">
-                      Guía paso a paso para migrar tu negocio a WhatsApp Business API sin complicaciones.
+                      {language === 'es' ? 'Guía paso a paso para migrar tu negocio a WhatsApp Business API sin complicaciones.' : 'Step-by-step guide to migrate your business to WhatsApp Business API without complications.'}
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>7 min</span>
                       <a href="/blog/articulo-3" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
-                        Leer más
+                        {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
                   </div>
@@ -431,18 +432,18 @@ export default function BlogArticle2() {
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      Tendencias
+                      {language === 'es' ? 'Tendencias' : 'Trends'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
-                      ¿Qué beneficios tengo usando WhatsApp Business API + IA?
+                      {language === 'es' ? '¿Qué beneficios tengo usando WhatsApp Business API + IA?' : 'What benefits do I get using WhatsApp Business API + AI?'}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">
-                      Descubre cómo la combinación de WhatsApp Business API e IA revoluciona la atención al cliente.
+                      {language === 'es' ? 'Descubre cómo la combinación de WhatsApp Business API e IA revoluciona la atención al cliente.' : 'Discover how the combination of WhatsApp Business API and AI revolutionizes customer service.'}
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>6 min</span>
                       <a href="/blog/articulo-4" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
-                        Leer más
+                        {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
                   </div>

@@ -166,59 +166,59 @@ export default function BlogArticle3() {
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
                   <li>{language === 'es' ? 'Nombre de negocio' : 'Business name'}</li>
-                  <li>{language === 'es' ? 'Descripción' : 'Description'}</li>
-                  <li>Categoría de negocio</li>
-                  <li>Sitio web (si aplica)</li>
-                  <li>Horarios de atención</li>
-                  <li>Información de contacto</li>
+                  <li>{language === 'es' ? 'Categoría de negocio' : 'Business category'}</li>
+                  <li>{language === 'es' ? 'Sitio web (si aplica)' : 'Website (if applicable)'}</li>
+                  <li>{language === 'es' ? 'Horarios de atención' : 'Business hours'}</li>
+                  <li>{language === 'es' ? 'Información de contacto' : 'Contact information'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Paso 6: Integra tus Sistemas
+                  {language === 'es' ? 'Paso 6: Integra tus Sistemas' : 'Step 6: Integrate Your Systems'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Conecta WhatsApp Business API con tus sistemas existentes:
+                  {language === 'es' ? 'Conecta WhatsApp Business API con tus sistemas existentes:' : 'Connect WhatsApp Business API with your existing systems:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>CRM</li>
-                  <li>Sistema de reservas</li>
-                  <li>Sistema de facturación</li>
-                  <li>Base de datos de clientes</li>
-                  <li>Otras aplicaciones relevantes</li>
+                  <li>{language === 'es' ? 'CRM' : 'CRM'}</li>
+                  <li>{language === 'es' ? 'Sistema de reservas' : 'Booking system'}</li>
+                  <li>{language === 'es' ? 'Sistema de facturación' : 'Billing system'}</li>
+                  <li>{language === 'es' ? 'Base de datos de clientes' : 'Customer database'}</li>
+                  <li>{language === 'es' ? 'Otras aplicaciones relevantes' : 'Other relevant applications'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Esto puede requerir soporte técnico, pero es crucial para aprovechar el potencial de la API.
+                  {language === 'es' ? 'Esto puede requerir soporte técnico, pero es crucial para aprovechar el potencial de la API.' : 'This may require technical support, but it\'s crucial to take advantage of the API\'s potential.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Paso 7: Crea tus Plantillas de Mensajes
+                  {language === 'es' ? 'Paso 7: Crea tus Plantillas de Mensajes' : 'Step 7: Create Your Message Templates'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  WhatsApp requiere que apruebes plantillas de mensajes antes de usarlas:
+                  {language === 'es' ? 'WhatsApp requiere que apruebes plantillas de mensajes antes de usarlas:' : 'WhatsApp requires you to approve message templates before using them:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Crea plantillas para confirmaciones de reserva</li>
-                  <li>Plantillas para recordatorios</li>
-                  <li>Plantillas para promociones</li>
-                  <li>Plantillas para actualizaciones de estado</li>
+                  <li>{language === 'es' ? 'Crea plantillas para confirmaciones de reserva' : 'Create templates for booking confirmations'}</li>
+                  <li>{language === 'es' ? 'Plantillas para recordatorios' : 'Templates for reminders'}</li>
+                  <li>{language === 'es' ? 'Plantillas para promociones' : 'Templates for promotions'}</li>
+                  <li>{language === 'es' ? 'Plantillas para actualizaciones de estado' : 'Templates for status updates'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Cada plantilla debe ser clara y no invasiva.
+                  {language === 'es' ? 'Cada plantilla debe ser clara y no invasiva.' : 'Each template should be clear and non-intrusive.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Paso 8: Prueba Exhaustivamente
+                  {language === 'es' ? 'Paso 8: Prueba Exhaustivamente' : 'Step 8: Test Thoroughly'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? 'Antes de lanzar a producción:' : 'Before launching to production:'}
                 </p>
+                
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
                   <li>{language === 'es' ? 'Empieza con un volumen bajo de mensajes' : 'Start with a low message volume'}</li>
                   <li>{language === 'es' ? 'Monitorea tus métricas constantemente' : 'Monitor your metrics constantly'}</li>
@@ -242,21 +242,21 @@ export default function BlogArticle3() {
 
               {/* Share Section */}
               <div className="mt-12 pt-8 border-t border-gray-200">
-                <h4 className="text-lg font-semibold text-gray-900 mb-4">Compartir:</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-4">{language === 'es' ? 'Compartir:' : 'Share:'}</h4>
                 <div className="flex gap-4">
                   <button
                     onClick={() => handleShare('facebook')}
                     className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
                   >
                     <Facebook className="w-4 h-4" />
-                    Facebook
+                    {language === 'es' ? 'Facebook' : 'Facebook'}
                   </button>
                   <button
                     onClick={() => handleShare('whatsapp')}
                     className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
                   >
                     <MessageCircle className="w-4 h-4" />
-                    WhatsApp
+                    {language === 'es' ? 'WhatsApp' : 'WhatsApp'}
                   </button>
                 </div>
               </div>
@@ -265,21 +265,21 @@ export default function BlogArticle3() {
               <div className="mt-12 pt-8 border-t border-gray-200">
                 <div className="flex items-center justify-between">
                   <div className="text-left">
-                    <p className="text-sm text-gray-500 mb-1">Artículo anterior</p>
+                    <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Artículo anterior' : 'Previous article'}</p>
                     <a
                       href="/blog/articulo-2"
                       className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                     >
-                      ¿Para que me sirve WhatsApp Business API para mi negocio?
+                      {language === 'es' ? '¿Para que me sirve WhatsApp Business API para mi negocio?' : 'What is WhatsApp Business API useful for in my business?'}
                     </a>
                   </div>
                   <div className="text-right">
-                    <p className="text-sm text-gray-500 mb-1">Siguiente artículo</p>
+                    <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Siguiente artículo' : 'Next article'}</p>
                     <a
                       href="/blog/articulo-4"
                       className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                     >
-                      ¿Qué beneficios tengo usando WhatsApp Business API + IA?
+                      {language === 'es' ? '¿Qué beneficios tengo usando WhatsApp Business API + IA?' : 'What benefits do I get using WhatsApp Business API + AI?'}
                     </a>
                   </div>
                 </div>
@@ -294,19 +294,20 @@ export default function BlogArticle3() {
             <div className="max-w-4xl mx-auto text-center">
               <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-blue-100">
                 <h2 className="font-bold text-3xl md:text-4xl text-gray-900 mb-4">
-                  ¿Listo para implementar WhatsApp Business API?
+                  {language === 'es' ? '¿Listo para implementar WhatsApp Business API?' : 'Ready to implement WhatsApp Business API?'}
                 </h2>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                  Contáctame para una consulta personalizada sobre cómo automatizar tu negocio con WhatsApp Business API.
+                  {language === 'es' ? 'Contáctame para una consulta personalizada sobre cómo automatizar tu negocio con WhatsApp Business API.' : 'Contact me for a personalized consultation on how to automate your business with WhatsApp Business API.'}
                 </p>
                 
                 <a
                   href="https://wa.me/+573105317126"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
                 >
-                  Escribeme por WhatsApp
+                  <MessageCircle className="w-5 h-5" />
+                  {language === 'es' ? 'Escríbeme por WhatsApp' : 'Write me on WhatsApp'}
                 </a>
               </div>
             </div>
@@ -317,24 +318,24 @@ export default function BlogArticle3() {
         <section className="py-16">
           <div className="container">
             <div className="max-w-6xl mx-auto">
-              <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-8">Otros artículos</h2>
+              <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-8">{language === 'es' ? 'Otros artículos' : 'Other articles'}</h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      Conceptos Básicos
+                      {language === 'es' ? 'Conceptos Básicos' : 'Basic Concepts'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
-                      ¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?
+                      {language === 'es' ? '¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?' : 'What is the difference between WhatsApp Business and WhatsApp Business API?'}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">
-                      Descubre las diferencias clave entre WhatsApp Business y WhatsApp Business API, y entiende cuál es la mejor opción para tu negocio.
+                      {language === 'es' ? 'Descubre las diferencias clave entre WhatsApp Business y WhatsApp Business API, y entiende cuál es la mejor opción para tu negocio.' : 'Discover the key differences between WhatsApp Business and WhatsApp Business API, and understand which is the best option for your business.'}
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>5 min</span>
                       <a href="/blog/articulo-1" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
-                        Leer más
+                        {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
                   </div>
@@ -343,18 +344,18 @@ export default function BlogArticle3() {
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      Casos de Uso
+                      {language === 'es' ? 'Casos de Uso' : 'Use Cases'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
-                      ¿Para que me sirve WhatsApp Business API para mi negocio?
+                      {language === 'es' ? '¿Para que me sirve WhatsApp Business API para mi negocio?' : 'What is WhatsApp Business API useful for in my business?'}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">
-                      Explora casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, abogados y oficinas de cobros.
+                      {language === 'es' ? 'Explora casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, abogados y oficinas de cobros.' : 'Explore real use cases of WhatsApp Business API in restaurants, hotels, cafes, lawyers and collection offices.'}
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>8 min</span>
                       <a href="/blog/articulo-2" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
-                        Leer más
+                        {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
                   </div>
@@ -363,18 +364,18 @@ export default function BlogArticle3() {
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      Tendencias
+                      {language === 'es' ? 'Tendencias' : 'Trends'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
-                      ¿Qué beneficios tengo usando WhatsApp Business API + IA?
+                      {language === 'es' ? '¿Qué beneficios tengo usando WhatsApp Business API + IA?' : 'What benefits do I get using WhatsApp Business API + AI?'}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">
-                      Descubre cómo la combinación de WhatsApp Business API e IA revoluciona la atención al cliente.
+                      {language === 'es' ? 'Descubre cómo la combinación de WhatsApp Business API e IA revoluciona la atención al cliente.' : 'Discover how the combination of WhatsApp Business API and AI revolutionizes customer service.'}
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>6 min</span>
                       <a href="/blog/articulo-4" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
-                        Leer más
+                        {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
                   </div>

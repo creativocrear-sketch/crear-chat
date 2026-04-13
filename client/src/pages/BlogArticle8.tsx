@@ -40,30 +40,30 @@ export default function BlogArticle8() {
                 className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium mb-8 transition-colors"
               >
                 <ChevronLeft className="w-4 h-4" />
-                Volver al blog
+                {language === 'es' ? 'Volver al blog' : 'Back to blog'}
               </a>
               
               <div className="mb-6">
                 <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                  Precios
+                  {language === 'es' ? 'Precios' : 'Pricing'}
                 </span>
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                ¿Cómo es el cobro que hacen las plataformas de chats de WhatsApp?
+                {t('articles.article8.title')}
               </h1>
               
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" />
-                  <span>21 de Marzo de 2026</span>
+                  <span>{language === 'es' ? '21 de Marzo de 2026' : 'March 21, 2026'}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4" />
-                  <span>6 min de lectura</span>
+                  <span>6 {language === 'es' ? 'min de lectura' : 'min read'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span>Redacción: Alex Murillo + Equipo de Soporte</span>
+                  <span>{language === 'es' ? 'Redacción:' : 'By:'} Alex Murillo + {language === 'es' ? 'Equipo de Soporte' : 'Support Team'}</span>
                 </div>
               </div>
             </div>
@@ -76,445 +76,422 @@ export default function BlogArticle8() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  ¿Cómo es el cobro que hacen las plataformas de chats de WhatsApp?
+                  {t('articles.article8.title')}
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Entender los modelos de precios es crucial para elegir la plataforma correcta. Veamos cómo cobran las diferentes plataformas.
+                  {language === 'es' ? 'Entender los modelos de precios es crucial para elegir la plataforma correcta. Veamos cómo cobran las diferentes plataformas.' : 'Understanding pricing models is crucial to choosing the right platform. Let\'s see how different platforms charge.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Modelos de Precios Principales
+                  {language === 'es' ? 'Modelos de Precios Principales' : 'Main Pricing Models'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  1. Suscripción Mensual Fija
+                  {language === 'es' ? '1. Suscripción Mensual Fija' : '1. Fixed Monthly Subscription'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Cómo funciona:</strong>
+                  <strong>{language === 'es' ? 'Cómo funciona:' : 'How it works:'}</strong>
                 </p>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Pagas una cantidad fija cada mes, independientemente del uso.
+                  {language === 'es' ? 'Pagas una cantidad fija cada mes, independientemente del uso.' : 'You pay a fixed amount each month, regardless of usage.'}
                 </p>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Ejemplos:</strong>
+                  <strong>{language === 'es' ? 'Ejemplos:' : 'Examples:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Crear.chat: $99-$499/mes</li>
-                  <li>Wati: $25-$299/mes</li>
-                  <li>Intercom: $99-$999/mes</li>
+                  <li>{language === 'es' ? 'Crear.chat: $99-$499/mes' : 'Crear.chat: $99-$499/month'}</li>
+                  <li>{language === 'es' ? 'Wati: $25-$299/mes' : 'Wati: $25-$299/month'}</li>
+                  <li>{language === 'es' ? 'Intercom: $99-$999/mes' : 'Intercom: $99-$999/month'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Ventajas:</strong>
+                  <strong>{language === 'es' ? 'Ventajas:' : 'Advantages:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Presupuesto predecible</li>
-                  <li>Acceso a todas las características</li>
-                  <li>Escalabilidad sin costos adicionales</li>
+                  <li>{language === 'es' ? 'Presupuesto predecible' : 'Predictable budget'}</li>
+                  <li>{language === 'es' ? 'Acceso a todas las características' : 'Access to all features'}</li>
+                  <li>{language === 'es' ? 'Escalabilidad sin costos adicionales' : 'Scalability without additional costs'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Desventajas:</strong>
+                  <strong>{language === 'es' ? 'Desventajas:' : 'Disadvantages:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Pagas igual aunque uses poco</li>
-                  <li>Puede ser caro para grandes volúmenes</li>
+                  <li>{language === 'es' ? 'Pagas igual aunque uses poco' : 'You pay the same even if you use little'}</li>
+                  <li>{language === 'es' ? 'Puede ser caro para grandes volúmenes' : 'Can be expensive for large volumes'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong>Mejor para:</strong> Empresas con uso consistente
+                  <strong>{language === 'es' ? 'Mejor para:' : 'Best for:'}</strong> {language === 'es' ? 'Empresas con uso consistente' : 'Companies with consistent usage'}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  2. Pago por Mensajes
+                  {language === 'es' ? '2. Pago por Mensajes' : '2. Pay Per Message'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Cómo funciona:</strong>
+                  <strong>{language === 'es' ? 'Cómo funciona:' : 'How it works:'}</strong>
                 </p>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Pagas según la cantidad de mensajes enviados o recibidos.
+                  {language === 'es' ? 'Pagas según la cantidad de mensajes enviados o recibidos.' : 'You pay based on the number of messages sent or received.'}
                 </p>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Ejemplos:</strong>
+                  <strong>{language === 'es' ? 'Ejemplos:' : 'Examples:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Twilio: $0.0075 por mensaje</li>
-                  <li>MessageBird: $0.01-$0.05 por mensaje</li>
-                  <li>Algunos planes de Zendesk</li>
+                  <li>{language === 'es' ? 'Twilio: $0.0075 por mensaje' : 'Twilio: $0.0075 per message'}</li>
+                  <li>{language === 'es' ? 'MessageBird: $0.01-$0.05 por mensaje' : 'MessageBird: $0.01-$0.05 per message'}</li>
+                  <li>{language === 'es' ? 'Algunos planes de Zendesk' : 'Some Zendesk plans'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Ventajas:</strong>
+                  <strong>{language === 'es' ? 'Ventajas:' : 'Advantages:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Pagas solo por lo que usas</li>
-                  <li>Ideal para bajo volumen</li>
-                  <li>Escalable</li>
+                  <li>{language === 'es' ? 'Pagas solo por lo que usas' : 'You only pay for what you use'}</li>
+                  <li>{language === 'es' ? 'Económico para bajo volumen' : 'Economical for low volume'}</li>
+                  <li>{language === 'es' ? 'Escalabilidad natural' : 'Natural scalability'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Desventajas:</strong>
+                  <strong>{language === 'es' ? 'Desventajas:' : 'Disadvantages:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Costos impredecibles</li>
-                  <li>Puede ser caro con alto volumen</li>
-                  <li>Incentiva a no automatizar</li>
+                  <li>{language === 'es' ? 'Costos impredecibles' : 'Unpredictable costs'}</li>
+                  <li>{language === 'es' ? 'Caro para alto volumen' : 'Expensive for high volume'}</li>
+                  <li>{language === 'es' ? 'Difícil de presupuestar' : 'Difficult to budget'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong>Mejor para:</strong> Empresas con bajo volumen o uso variable
+                  <strong>{language === 'es' ? 'Mejor para:' : 'Best for:'}</strong> {language === 'es' ? 'Empresas con uso variable' : 'Companies with variable usage'}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  3. Suscripción + Pago por Uso
+                  {language === 'es' ? '3. Suscripción + Pago por Uso' : '3. Subscription + Pay Per Use'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Cómo funciona:</strong>
+                  <strong>{language === 'es' ? 'Cómo funciona:' : 'How it works:'}</strong>
                 </p>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Pagas una suscripción base + costo adicional por mensajes o características premium.
+                  {language === 'es' ? 'Pagas una suscripción base + costo adicional por mensajes o características premium.' : 'You pay a base subscription + additional cost for messages or premium features.'}
                 </p>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Ejemplos:</strong>
+                  <strong>{language === 'es' ? 'Ejemplos:' : 'Examples:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Algunos planes de Intercom</li>
-                  <li>Algunos planes de Zendesk</li>
-                  <li>Algunos planes de Crear.chat</li>
+                  <li>{language === 'es' ? 'Algunos planes de Intercom' : 'Some Intercom plans'}</li>
+                  <li>{language === 'es' ? 'Algunos planes de Zendesk' : 'Some Zendesk plans'}</li>
+                  <li>{language === 'es' ? 'Algunos planes de Crear.chat' : 'Some Crear.chat plans'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Ventajas:</strong>
+                  <strong>{language === 'es' ? 'Ventajas:' : 'Advantages:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Flexibilidad</li>
-                  <li>Presupuesto base predecible</li>
-                  <li>Escalabilidad</li>
+                  <li>{language === 'es' ? 'Flexibilidad de costo' : 'Cost flexibility'}</li>
+                  <li>{language === 'es' ? 'Acceso a características básicas' : 'Access to basic features'}</li>
+                  <li>{language === 'es' ? 'Escalabilidad controlada' : 'Controlled scalability'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Desventajas:</strong>
+                  <strong>{language === 'es' ? 'Desventajas:' : 'Disadvantages:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Más complejo de entender</li>
-                  <li>Posibles sorpresas en la factura</li>
+                  <li>{language === 'es' ? 'Complejidad en la facturación' : 'Billing complexity'}</li>
+                  <li>{language === 'es' ? 'Puede ser caro si excedes límites' : 'Can be expensive if you exceed limits'}</li>
+                  <li>{language === 'es' ? 'Requiere monitoreo constante' : 'Requires constant monitoring'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong>Mejor para:</strong> Empresas con uso moderado y variable
+                  <strong>{language === 'es' ? 'Mejor para:' : 'Best for:'}</strong> {language === 'es' ? 'Empresas en crecimiento' : 'Growing companies'}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  4. Pago por Agentes/Usuarios
+                  {language === 'es' ? '4. Pago por Agentes/Usuarios' : '4. Pay Per Agents/Users'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Cómo funciona:</strong>
+                  <strong>{language === 'es' ? 'Cómo funciona:' : 'How it works:'}</strong>
                 </p>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Pagas según la cantidad de agentes que pueden usar la plataforma.
+                  {language === 'es' ? 'Pagas según la cantidad de agentes que pueden usar la plataforma.' : 'You pay based on the number of agents who can use the platform.'}
                 </p>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Ejemplos:</strong>
+                  <strong>{language === 'es' ? 'Ejemplos:' : 'Examples:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Zendesk: $49-$149 por agente/mes</li>
-                  <li>Intercom: Incluido en suscripción</li>
-                  <li>Algunos planes de Freshdesk</li>
+                  <li>{language === 'es' ? 'Zendesk: $49-$149 por agente/mes' : 'Zendesk: $49-$149 per agent/month'}</li>
+                  <li>{language === 'es' ? 'Intercom: Incluido en suscripción' : 'Intercom: Included in subscription'}</li>
+                  <li>{language === 'es' ? 'Algunos planes de Freshdesk' : 'Some Freshdesk plans'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Ventajas:</strong>
+                  <strong>{language === 'es' ? 'Ventajas:' : 'Advantages:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Fácil de predecir costos</li>
-                  <li>Escalable con el equipo</li>
+                  <li>{language === 'es' ? 'Fácil de predecir costos' : 'Easy to predict costs'}</li>
+                  <li>{language === 'es' ? 'Escalable con el equipo' : 'Scalable with the team'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Desventajas:</strong>
+                  <strong>{language === 'es' ? 'Desventajas:' : 'Disadvantages:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Caro cuando creces</li>
-                  <li>Incentiva a no contratar</li>
+                  <li>{language === 'es' ? 'Caro cuando creces' : 'Expensive when you grow'}</li>
+                  <li>{language === 'es' ? 'Incentiva a no contratar' : 'Incentivizes not hiring'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong>Mejor para:</strong> Empresas con equipo estable
+                  <strong>{language === 'es' ? 'Mejor para:' : 'Best for:'}</strong> {language === 'es' ? 'Empresas con equipo estable' : 'Companies with stable team'}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  5. Modelo Freemium
+                  {language === 'es' ? '5. Modelo Freemium' : '5. Freemium Model'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Cómo funciona:</strong>
+                  <strong>{language === 'es' ? 'Cómo funciona:' : 'How it works:'}</strong>
                 </p>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Versión gratuita limitada + planes pagos para más funciones.
+                  {language === 'es' ? 'Versión gratuita limitada + planes pagos para más funciones.' : 'Limited free version + paid plans for more features.'}
                 </p>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Ejemplos:</strong>
+                  <strong>{language === 'es' ? 'Ejemplos:' : 'Examples:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Chatwoot (versión community)</li>
-                  <li>Algunos planes de Crear.chat</li>
-                  <li>Algunas plataformas básicas</li>
+                  <li>{language === 'es' ? 'Chatwoot (versión community)' : 'Chatwoot (community version)'}</li>
                 </ul>
-
-                <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Ventajas:</strong>
-                </p>
-                
-                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Prueba sin riesgo</li>
-                  <li>Bajo costo inicial</li>
-                  <li>Ideal para empezar</li>
-                </ul>
-
-                <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Desventajas:</strong>
-                </p>
-                
-                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Funcionalidad limitada en versión gratuita</li>
-                  <li>Limitaciones de usuarios/mensajes</li>
-                </ul>
-
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong>Mejor para:</strong> Startups y pequeños negocios
-                </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Componentes de Precios
+                  {language === 'es' ? 'Componentes de Precios' : 'Pricing Components'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Además del modelo principal, considera estos componentes:
+                  {language === 'es' ? 'Además del modelo principal, considera estos componentes:' : 'Besides the main model, consider these components:'}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Costo de Mensajes de WhatsApp
+                  {language === 'es' ? 'Costo de Mensajes de WhatsApp' : 'WhatsApp Message Cost'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  WhatsApp cobra a las plataformas por cada mensaje enviado:
+                  {language === 'es' ? 'WhatsApp cobra a las plataformas por cada mensaje enviado:' : 'WhatsApp charges platforms for each message sent:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Mensajes entrantes: Generalmente gratuitos</li>
-                  <li>Mensajes salientes: $0.0075 - $0.10 por mensaje (varía por país)</li>
-                  <li>Plantillas: Más baratas que mensajes normales</li>
+                  <li>{language === 'es' ? 'Mensajes entrantes: Generalmente gratuitos' : 'Incoming messages: Generally free'}</li>
+                  <li>{language === 'es' ? 'Mensajes salientes: $0.0075 - $0.10 por mensaje (varía por país)' : 'Outgoing messages: $0.0075 - $0.10 per message (varies by country)'}</li>
+                  <li>{language === 'es' ? 'Plantillas: Más baratas que mensajes normales' : 'Templates: Cheaper than normal messages'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Algunas plataformas incluyen esto en su suscripción, otras lo cobran por separado.
+                  {language === 'es' ? 'Algunas plataformas incluyen esto en su suscripción, otras lo cobran por separado.' : 'Some platforms include this in their subscription, others charge separately.'}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Costo de Integración
+                  {language === 'es' ? 'Costo de Integración' : 'Integration Cost'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Algunas plataformas cobran por:
+                  {language === 'es' ? 'Algunas plataformas cobran por:' : 'Some platforms charge for:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Integración con CRM: $50-$200/mes</li>
-                  <li>Integración con e-commerce: $50-$150/mes</li>
-                  <li>Integraciones personalizadas: $500+</li>
+                  <li>{language === 'es' ? 'Integración con CRM: $50-$200/mes' : 'CRM integration: $50-$200/month'}</li>
+                  <li>{language === 'es' ? 'Integración con e-commerce: $50-$150/mes' : 'E-commerce integration: $50-$150/month'}</li>
+                  <li>{language === 'es' ? 'Integraciones personalizadas: $500+' : 'Custom integrations: $500+'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Costo de Automatización
+                  {language === 'es' ? 'Costo de Automatización' : 'Automation Cost'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Chatbots básicos: Incluido</li>
-                  <li>Chatbots con IA: $100-$500/mes adicional</li>
-                  <li>Automatización avanzada: Personalizado</li>
+                  <li>{language === 'es' ? 'Chatbots básicos: Incluido' : 'Basic chatbots: Included'}</li>
+                  <li>{language === 'es' ? 'Chatbots con IA: $100-$500/mes adicional' : 'AI chatbots: $100-$500/month additional'}</li>
+                  <li>{language === 'es' ? 'Automatización avanzada: Personalizado' : 'Advanced automation: Custom'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Costo de Soporte
+                  {language === 'es' ? 'Costo de Soporte' : 'Support Cost'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Soporte por email: Incluido</li>
-                  <li>Soporte por chat: Incluido o $50-$100/mes</li>
-                  <li>Soporte por teléfono: $200-$500/mes</li>
-                  <li>Gestor dedicado: $1,000+/mes</li>
+                  <li>{language === 'es' ? 'Soporte por email: Incluido' : 'Email support: Included'}</li>
+                  <li>{language === 'es' ? 'Soporte por chat: Incluido o $50-$100/mes' : 'Chat support: Included or $50-$100/month'}</li>
+                  <li>{language === 'es' ? 'Soporte por teléfono: $200-$500/mes' : 'Phone support: $200-$500/month'}</li>
+                  <li>{language === 'es' ? 'Gestor dedicado: $1,000+/mes' : 'Dedicated manager: $1,000+/month'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Ejemplos de Costos Mensuales Reales
+                  {language === 'es' ? 'Ejemplos de Costos Mensuales Reales' : 'Real Monthly Cost Examples'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Pequeño Negocio (100 conversaciones/mes)
+                  {language === 'es' ? 'Pequeño Negocio (100 conversaciones/mes)' : 'Small Business (100 conversations/month)'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Con Crear.chat:</strong>
+                  <strong>{language === 'es' ? 'Con Crear.chat:' : 'With Crear.chat:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Suscripción: $99/mes</li>
-                  <li>Mensajes WhatsApp: ~$0.75/mes</li>
-                  <li><strong>Total: ~$100/mes</strong></li>
+                  <li>{language === 'es' ? 'Suscripción: $99/mes' : 'Subscription: $99/month'}</li>
+                  <li>{language === 'es' ? 'Mensajes WhatsApp: ~$0.75/mes' : 'WhatsApp messages: ~$0.75/month'}</li>
+                  <li><strong>{language === 'es' ? 'Total: ~$100/mes' : 'Total: ~$100/month'}</strong></li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Con Twilio:</strong>
+                  <strong>{language === 'es' ? 'Con Twilio:' : 'With Twilio:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Suscripción: $0</li>
-                  <li>Mensajes: 100 × $0.0075 = $0.75/mes</li>
-                  <li><strong>Total: ~$1/mes</strong> (pero sin interfaz de usuario)</li>
+                  <li>{language === 'es' ? 'Suscripción: $0' : 'Subscription: $0'}</li>
+                  <li>{language === 'es' ? 'Mensajes: 100 × $0.0075 = $0.75/mes' : 'Messages: 100 × $0.0075 = $0.75/month'}</li>
+                  <li><strong>{language === 'es' ? 'Total: ~$1/mes' : 'Total: ~$1/month'}</strong> {language === 'es' ? '(pero sin interfaz de usuario)' : '(but without user interface)'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Negocio Mediano (10,000 conversaciones/mes)
+                  {language === 'es' ? 'Negocio Mediano (10,000 conversaciones/mes)' : 'Medium Business (10,000 conversations/month)'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Con Crear.chat:</strong>
+                  <strong>{language === 'es' ? 'Con Crear.chat:' : 'With Crear.chat:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Suscripción: $299/mes</li>
-                  <li>Mensajes WhatsApp: ~$75/mes</li>
-                  <li><strong>Total: ~$375/mes</strong></li>
+                  <li>{language === 'es' ? 'Suscripción: $299/mes' : 'Subscription: $299/month'}</li>
+                  <li>{language === 'es' ? 'Mensajes WhatsApp: ~$75/mes' : 'WhatsApp messages: ~$75/month'}</li>
+                  <li><strong>{language === 'es' ? 'Total: ~$375/mes' : 'Total: ~$375/month'}</strong></li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Con Intercom:</strong>
+                  <strong>{language === 'es' ? 'Con Intercom:' : 'With Intercom:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Suscripción: $500/mes</li>
-                  <li>Agentes (3): $147 × 3 = $441/mes</li>
-                  <li><strong>Total: ~$941/mes</strong></li>
+                  <li>{language === 'es' ? 'Suscripción: $500/mes' : 'Subscription: $500/month'}</li>
+                  <li>{language === 'es' ? 'Agentes (3): $147 × 3 = $441/mes' : 'Agents (3): $147 × 3 = $441/month'}</li>
+                  <li><strong>{language === 'es' ? 'Total: ~$941/mes' : 'Total: ~$941/month'}</strong></li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  Negocio Grande (100,000 conversaciones/mes)
+                  {language === 'es' ? 'Negocio Grande (100,000 conversaciones/mes)' : 'Large Business (100,000 conversations/month)'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Con Twilio:</strong>
+                  <strong>{language === 'es' ? 'Con Twilio:' : 'With Twilio:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Suscripción: $0</li>
-                  <li>Mensajes: 100,000 × $0.0075 = $750/mes</li>
-                  <li>Soporte: $500/mes</li>
-                  <li><strong>Total: ~$1,250/mes</strong></li>
+                  <li>{language === 'es' ? 'Suscripción: $0' : 'Subscription: $0'}</li>
+                  <li>{language === 'es' ? 'Mensajes: 100,000 × $0.0075 = $750/mes' : 'Messages: 100,000 × $0.0075 = $750/month'}</li>
+                  <li>{language === 'es' ? 'Soporte: $500/mes' : 'Support: $500/month'}</li>
+                  <li><strong>{language === 'es' ? 'Total: ~$1,250/mes' : 'Total: ~$1,250/month'}</strong></li>
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>Con Zendesk:</strong>
+                  <strong>{language === 'es' ? 'Con Zendesk:' : 'With Zendesk:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Suscripción: $1,000/mes</li>
-                  <li>Agentes (10): $99 × 10 = $990/mes</li>
-                  <li><strong>Total: ~$1,990/mes</strong></li>
+                  <li>{language === 'es' ? 'Suscripción: $1,000/mes' : 'Subscription: $1,000/month'}</li>
+                  <li>{language === 'es' ? 'Agentes (10): $99 × 10 = $990/mes' : 'Agents (10): $99 × 10 = $990/month'}</li>
+                  <li><strong>{language === 'es' ? 'Total: ~$1,990/mes' : 'Total: ~$1,990/month'}</strong></li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Cómo Calcular tu Costo
+                  {language === 'es' ? 'Cómo Calcular tu Costo' : 'How to Calculate Your Cost'}
                 </h3>
                 
                 <ol className="list-decimal pl-6 space-y-2 text-gray-600 mb-6">
-                  <li><strong>Estima tu volumen mensual:</strong> ¿Cuántos mensajes enviarás/recibirás?</li>
-                  <li><strong>Elige el modelo:</strong> ¿Suscripción fija o pago por uso?</li>
-                  <li><strong>Suma componentes:</strong> Integraciones, soporte, automatización</li>
-                  <li><strong>Compara opciones:</strong> Usa calculadoras de precios</li>
-                  <li><strong>Solicita presupuesto:</strong> Las plataformas pueden negociar</li>
+                  <li><strong>{language === 'es' ? 'Estima tu volumen mensual:' : 'Estimate your monthly volume:'}</strong> {language === 'es' ? '¿Cuántos mensajes enviarás/recibirás?' : 'How many messages will you send/receive?'}</li>
+                  <li><strong>{language === 'es' ? 'Elige el modelo:' : 'Choose the model:'}</strong> {language === 'es' ? '¿Suscripción fija o pago por uso?' : 'Fixed subscription or pay per use?'}</li>
+                  <li><strong>{language === 'es' ? 'Suma componentes:' : 'Add components:'}</strong> {language === 'es' ? 'Integraciones, soporte, automatización' : 'Integrations, support, automation'}</li>
+                  <li><strong>{language === 'es' ? 'Compara opciones:' : 'Compare options:'}</strong> {language === 'es' ? 'Usa calculadoras de precios' : 'Use pricing calculators'}</li>
+                  <li><strong>{language === 'es' ? 'Solicita presupuesto:' : 'Request quote:'}</strong> {language === 'es' ? 'Las plataformas pueden negociar' : 'Platforms can negotiate'}</li>
                 </ol>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Consejos para Ahorrar
+                  {language === 'es' ? 'Consejos para Ahorrar' : 'Tips to Save'}
                 </h3>
                 
                 <ol className="list-decimal pl-6 space-y-2 text-gray-600 mb-6">
-                  <li><strong>Comienza con plan básico:</strong> Puedes escalar después</li>
-                  <li><strong>Automatiza procesos:</strong> Reduce necesidad de agentes</li>
-                  <li><strong>Usa plantillas:</strong> Son más baratas que mensajes normales</li>
-                  <li><strong>Negocia volumen:</strong> Plataformas ofrecen descuentos por volumen</li>
-                  <li><strong>Revisa regularmente:</strong> Ajusta según tu uso real</li>
+                  <li><strong>{language === 'es' ? 'Comienza con plan básico:' : 'Start with basic plan:'}</strong> {language === 'es' ? 'Puedes escalar después' : 'You can scale later'}</li>
+                  <li><strong>{language === 'es' ? 'Automatiza procesos:' : 'Automate processes:'}</strong> {language === 'es' ? 'Reduce necesidad de agentes' : 'Reduces need for agents'}</li>
+                  <li><strong>{language === 'es' ? 'Usa plantillas:' : 'Use templates:'}</strong> {language === 'es' ? 'Son más baratas que mensajes normales' : 'They are cheaper than normal messages'}</li>
+                  <li><strong>{language === 'es' ? 'Negocia volumen:' : 'Negotiate volume:'}</strong> {language === 'es' ? 'Plataformas ofrecen descuentos por volumen' : 'Platforms offer volume discounts'}</li>
+                  <li><strong>{language === 'es' ? 'Revisa regularmente:' : 'Review regularly:'}</strong> {language === 'es' ? 'Ajusta según tu uso real' : 'Adjust according to your actual usage'}</li>
                 </ol>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Conclusión
+                  {language === 'es' ? 'Conclusión' : 'Conclusion'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  No existe un "precio correcto" universal. El mejor precio es el que:
+                  {language === 'es' ? 'No existe un "precio correcto" universal. El mejor precio es el que:' : 'There is no universal "right price". The best price is one that:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Se ajusta a tu presupuesto</li>
-                  <li>Cubre tus necesidades</li>
-                  <li>Escala con tu crecimiento</li>
-                  <li>Ofrece buen ROI</li>
+                  <li>{language === 'es' ? 'Se ajusta a tu presupuesto' : 'Fits your budget'}</li>
+                  <li>{language === 'es' ? 'Cubre tus necesidades' : 'Covers your needs'}</li>
+                  <li>{language === 'es' ? 'Escala con tu crecimiento' : 'Scales with your growth'}</li>
+                  <li>{language === 'es' ? 'Ofrece buen soporte' : 'Offers good support'}</li>
+                  <li>{language === 'es' ? 'No tiene costos ocultos' : 'Has no hidden costs'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  La mayoría de plataformas ofrecen pruebas gratuitas. Úsalas para entender mejor cómo cobran y qué esperar en tu caso específico.
+                  {language === 'es' ? 'La mayoría de plataformas ofrecen pruebas gratuitas. Úsalas para entender mejor cómo cobran y qué esperar en tu caso específico.' : 'Most platforms offer free trials. Use them to better understand how they charge and what to expect in your specific case.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Recuerda: el precio más bajo no siempre es la mejor opción. A veces, pagar más por mejor soporte y características puede ahorrar dinero a largo plazo.
+                  {language === 'es' ? 'Recuerda: el precio más bajo no siempre es la mejor opción. A veces, pagar más por mejor soporte y características puede ahorrar dinero a largo plazo.' : 'Remember: the lowest price is not always the best option. Sometimes, paying more for better support and features can save you money in the long run.'}
                 </p>
               </article>
 
               {/* Share Section */}
               <div className="mt-12 pt-8 border-t border-gray-200">
-                <h4 className="text-lg font-semibold text-gray-900 mb-4">Compartir:</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-4">{language === 'es' ? 'Compartir:' : 'Share:'}</h4>
                 <div className="flex gap-4">
                   <button
                     onClick={() => handleShare('facebook')}
                     className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
                   >
                     <Facebook className="w-4 h-4" />
-                    Facebook
+                    {language === 'es' ? 'Facebook' : 'Facebook'}
                   </button>
                   <button
                     onClick={() => handleShare('whatsapp')}
                     className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
                   >
                     <MessageCircle className="w-4 h-4" />
-                    WhatsApp
+                    {language === 'es' ? 'WhatsApp' : 'WhatsApp'}
                   </button>
                 </div>
               </div>
@@ -523,21 +500,21 @@ export default function BlogArticle8() {
               <div className="mt-12 pt-8 border-t border-gray-200">
                 <div className="flex items-center justify-between">
                   <div className="text-left">
-                    <p className="text-sm text-gray-500 mb-1">Artículo anterior</p>
+                    <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Artículo anterior' : 'Previous article'}</p>
                     <a
                       href="/blog/articulo-7"
                       className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                     >
-                      ¿En que se diferencian las plataformas que administran los chat de WhatsApp?
+                      {language === 'es' ? '¿En que se diferencian las plataformas que administran los chat de WhatsApp?' : 'What are the differences between platforms that manage WhatsApp chats?'}
                     </a>
                   </div>
                   <div className="text-right">
-                    <p className="text-sm text-gray-500 mb-1">Siguiente artículo</p>
+                    <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Siguiente artículo' : 'Next article'}</p>
                     <a
                       href="/blog/articulo-9"
                       className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                     >
-                      ¿Qué debo tener en cuenta para seleccionar un proveedor de WhatsApp y la plataforma?
+                      {language === 'es' ? '¿Qué debo tener en cuenta para seleccionar un proveedor de WhatsApp y la plataforma?' : 'What should I consider when selecting a WhatsApp provider and platform?'}
                     </a>
                   </div>
                 </div>
@@ -552,10 +529,10 @@ export default function BlogArticle8() {
             <div className="max-w-4xl mx-auto text-center">
               <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-blue-100">
                 <h2 className="font-bold text-3xl md:text-4xl text-gray-900 mb-4">
-                  ¿Listo para implementar WhatsApp Business API?
+                  {language === 'es' ? '¿Listo para implementar WhatsApp Business API?' : 'Ready to implement WhatsApp Business API?'}
                 </h2>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                  Contáctame para una consulta personalizada sobre cómo automatizar tu negocio con WhatsApp Business API.
+                  {language === 'es' ? 'Contáctame para una consulta personalizada sobre cómo automatizar tu negocio con WhatsApp Business API.' : 'Contact me for a personalized consultation on how to automate your business with WhatsApp Business API.'}
                 </p>
                 
                 <a
@@ -564,7 +541,7 @@ export default function BlogArticle8() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
                 >
-                  Escribeme por WhatsApp
+                  {language === 'es' ? 'Escríbeme por WhatsApp' : 'Write me on WhatsApp'}
                 </a>
               </div>
             </div>
@@ -575,24 +552,24 @@ export default function BlogArticle8() {
         <section className="py-16">
           <div className="container">
             <div className="max-w-6xl mx-auto">
-              <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-8">Otros artículos</h2>
+              <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-8">{language === 'es' ? 'Otros artículos' : 'Other articles'}</h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      Conceptos Básicos
+                      {language === 'es' ? 'Conceptos Básicos' : 'Basic Concepts'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
-                      ¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?
+                      {language === 'es' ? '¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?' : 'What is the difference between WhatsApp Business and WhatsApp Business API?'}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">
-                      Descubre las diferencias clave entre WhatsApp Business y WhatsApp Business API, y entiende cuál es la mejor opción para tu negocio.
+                      {language === 'es' ? 'Descubre las diferencias clave entre WhatsApp Business y WhatsApp Business API, y entiende cuál es la mejor opción para tu negocio.' : 'Discover the key differences between WhatsApp Business and WhatsApp Business API, and understand which is the best option for your business.'}
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>5 min</span>
                       <a href="/blog/articulo-1" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
-                        Leer más
+                        {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
                   </div>
@@ -601,18 +578,18 @@ export default function BlogArticle8() {
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      Casos de Uso
+                      {language === 'es' ? 'Casos de Uso' : 'Use Cases'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
-                      ¿Para que me sirve WhatsApp Business API para mi negocio?
+                      {language === 'es' ? '¿Para que me sirve WhatsApp Business API para mi negocio?' : 'What is WhatsApp Business API useful for in my business?'}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">
-                      Explora casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, abogados y oficinas de cobros.
+                      {language === 'es' ? 'Explora casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, abogados y oficinas de cobros.' : 'Explore real use cases of WhatsApp Business API in restaurants, hotels, cafes, lawyers and collection offices.'}
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>8 min</span>
                       <a href="/blog/articulo-2" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
-                        Leer más
+                        {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
                   </div>
@@ -621,18 +598,18 @@ export default function BlogArticle8() {
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      Implementación
+                      {language === 'es' ? 'Implementación' : 'Implementation'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
-                      ¿Cuáles son los primeros pasos para migrar WhatsApp Business API?
+                      {language === 'es' ? '¿Cuáles son los primeros pasos para migrar WhatsApp Business API?' : 'What are the first steps to migrate WhatsApp Business API?'}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">
-                      Guía paso a paso para migrar tu negocio a WhatsApp Business API sin complicaciones.
+                      {language === 'es' ? 'Guía paso a paso para migrar tu negocio a WhatsApp Business API sin complicaciones.' : 'Step-by-step guide to migrate your business to WhatsApp Business API without complications.'}
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>7 min</span>
                       <a href="/blog/articulo-3" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
-                        Leer más
+                        {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
                   </div>
