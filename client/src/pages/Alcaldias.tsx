@@ -123,7 +123,7 @@ function Alcaldias() {
                         </div>
                         <div className="flex items-center gap-1">
                           <Clock className="w-4 h-4" />
-                          <span>{article.readTime} {language === 'es' ? 'min' : 'min'}</span>
+                          <span>{article.readTime}</span>
                         </div>
                       </div>
 
