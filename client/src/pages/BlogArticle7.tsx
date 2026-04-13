@@ -433,7 +433,7 @@ export default function BlogArticle7() {
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Para Pequeños Negocios (1-5 agentes)' : 'For Small Businesses (1-5 agents)'}
+                  {language === 'es' ? 'Para pequeños negocios (1-5 agentes)' : 'For small businesses (1-5 agents)'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -442,7 +442,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Para Empresas Medianas (5-50 agentes)' : 'For Medium Companies (5-50 agents)'}
+                  {language === 'es' ? 'Para empresas medianas (5-50 agentes)' : 'For medium companies (5-50 agents)'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -451,7 +451,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Para Grandes Empresas (50+ agentes)' : 'For Large Companies (50+ agents)'}
+                  {language === 'es' ? 'Para grandes empresas (50+ agentes)' : 'For large companies (50+ agents)'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -460,7 +460,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Si Necesitas Múltiples Canales' : 'If You Need Multiple Channels'}
+                  {language === 'es' ? 'Si necesitas múltiples canales' : 'If you need multiple channels'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -469,7 +469,7 @@ export default function BlogArticle7() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Si Necesitas Máxima Automatización' : 'If You Need Maximum Automation'}
+                  {language === 'es' ? 'Si necesitas máxima automatización' : 'If you need maximum automation'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
