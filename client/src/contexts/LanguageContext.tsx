@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext, ReactNode } from 'react';
+﻿import React, { createContext, useState, useContext, ReactNode } from 'react';
 
 // Traducciones
 const translations = {
@@ -509,19 +509,19 @@ const translations = {
     alcaldias: {
       title: 'Soluciones para Alcaldías',
       subtitle: 'Transforma tu ciudad con tecnología',
-      description: 'Soluciones inteligentes de WhatsApp para modernizar los servicios ciudadanos y potenciar el turismo local.',
+      description: 'Implemente WhatsApp Business API para mejorar la atención ciudadana, fortalecer el turismo y responder con más eficiencia.',
       hero: {
         title: 'Innovación para Gobiernos Locales',
         subtitle: 'Convierte WhatsApp en tu mejor herramienta de gestión ciudadana'
       },
       cta: {
         title: '¿Te interesa saber más?',
-        subtitle: 'Hablanos',
+        subtitle: 'Háblanos',
         button: 'Escríbenos por WhatsApp'
       },
       stats: {
         articles: 'Artículos especializados',
-        updated: 'Actualizado regularmente',
+        updated: 'Actualización constante',
         focus: 'Enfoque gubernamental'
       },
       article1: {
@@ -964,3 +964,4 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
     </LanguageContext.Provider>
   );
 };
+

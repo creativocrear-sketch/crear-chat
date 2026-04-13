@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+﻿import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronRight } from "lucide-react";
@@ -33,19 +33,19 @@ function Alcaldias() {
           <div className="container">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="font-bold text-4xl md:text-5xl text-gray-900 mb-6 leading-tight">
-                {t('alcaldias.title')}
+                {t('alcaldias.title') || 'Soluciones para Alcaldías'}
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
-                {t('alcaldias.subtitle')}
+                {t('alcaldias.subtitle') || 'Transforma tu ciudad con tecnología'}
               </p>
               <p className="text-lg text-gray-500 mb-12 leading-relaxed max-w-2xl mx-auto">
-                {t('alcaldias.description')}
+                {t('alcaldias.description') || 'Soluciones inteligentes de WhatsApp para modernizar los servicios ciudadanos y potenciar el turismo local.'}
               </p>
               
               {/* Blog Stats */}
               <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
-                  <span className="font-semibold text-[#1B4F72]">{t('alcaldias.stats.articles')}</span>
+                  <span className="font-semibold text-[#1B4F72]">{t('alcaldias.stats.articles') || 'Artículos especializados'}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="font-semibold text-[#1B4F72]">{language === 'es' ? 'Atención 24/7' : '24/7 Service'}</span>
@@ -120,7 +120,7 @@ function Alcaldias() {
             <div className="max-w-4xl mx-auto text-center">
               <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-blue-100">
                 <h2 className="font-bold text-3xl md:text-4xl text-gray-900 mb-4">
-                  {language === 'es' ? '¿Listo para transformar tu alcaldía?' : 'Ready to transform your municipality?'}
+                  {t('alcaldias.cta.title') || (language === 'es' ? '¿Te interesa saber más?' : 'Interested in learning more?')}
                 </h2>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                   {language === 'es' ? 'Implementa WhatsApp Business API y comienza a automatizar la atención turística' : 'Implement WhatsApp Business API and start automating tourist assistance'}
@@ -145,3 +145,4 @@ function Alcaldias() {
 }
 
 export default Alcaldias;
+
