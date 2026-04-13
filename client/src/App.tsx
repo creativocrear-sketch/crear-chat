@@ -18,6 +18,8 @@ import BlogArticle8 from "./pages/BlogArticle8";
 import BlogArticle9 from "./pages/BlogArticle9";
 import BlogArticle10 from "./pages/BlogArticle10";
 import BlogArticle11 from "./pages/BlogArticle11";
+import Alcaldias from "./pages/Alcaldias";
+import AlcaldiaArticle1 from "./pages/AlcaldiaArticle1";
 import Planes from "./pages/Planes";
 import ConsultoriaWhatsApp from "./pages/ConsultoriaWhatsApp";
 import EstrategiasMarketing from "./pages/EstrategiasMarketing";
@@ -57,6 +59,8 @@ function Router() {
       <Route path={"/blog/articulo-9"} component={BlogArticle9} />
       <Route path={"/blog/articulo-10"} component={BlogArticle10} />
       <Route path={"/blog/articulo-11"} component={BlogArticle11} />
+      <Route path={"/alcaldias"} component={Alcaldias} />
+      <Route path={"/alcaldias/guia-turistica-whatsapp"} component={AlcaldiaArticle1} />
       <Route path={"/planes"} component={Planes} />
       <Route path={"/consultoria-whatsapp"} component={ConsultoriaWhatsApp} />
       <Route path={"/estrategias-marketing"} component={EstrategiasMarketing} />
