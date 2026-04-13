@@ -244,7 +244,7 @@ const translations = {
         shareText: 'Explora casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, abogados y oficinas de cobros.',
         content: {
           intro: 'WhatsApp Business API es una herramienta transformadora que puede revolucionar la forma en que tu negocio se comunica con los clientes. Veamos cómo diferentes industrias pueden beneficiarse de esta poderosa plataforma.',
-          restaurantTitle: 'Restaurantes: Optimiza tu Servicio al Cliente',
+          restaurantTitle: 'Restaurantes: optimiza tu servicio al cliente',
           restaurantUseCase: 'Caso de uso: Reservas y confirmaciones automáticas',
           restaurantDesc: 'Un restaurante puede usar WhatsApp Business API para:',
           restaurantFeatures: [
