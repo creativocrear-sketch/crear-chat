@@ -6,39 +6,39 @@ import { useLanguage } from "@/contexts/LanguageContext";
 
 const getAlcaldiasArticles = (language: string) => [
   {
-    category: language === 'es' ? "Turismo Inteligente" : "Smart Tourism",
-    title: language === 'es' ? "Convierte WhatsApp en tu Mejor Guía Turística 24/7" : "Turn WhatsApp into Your Best 24/7 Tourist Guide",
+    category: language === 'es' ? "Turismo inteligente" : "Smart tourism",
+    title: language === 'es' ? "Convierte WhatsApp en tu mejor guía turística 24/7" : "Turn WhatsApp into your best 24/7 tourist guide",
     excerpt: language === 'es' ? "Automatiza la atención, mejora la experiencia y aumenta el consumo turístico en tu ciudad o negocio" : "Automate attention, improve experience, and increase tourism consumption in your city or business",
-    date: language === 'es' ? "13 de Abril de 2026" : "April 13, 2026",
+    date: language === 'es' ? "13 de abril de 2026" : "April 13, 2026",
     readTime: language === 'es' ? "5 min" : "5 min",
-    author: language === 'es' ? "Autor: Alex Murillo + Equipo de Soporte" : "Author: Alex Murillo + Support Team",
+    author: language === 'es' ? "Autor: Alex Murillo + equipo de soporte" : "Author: Alex Murillo + support team",
     path: "/alcaldias/guia-turistica-whatsapp"
   },
   {
-    category: language === 'es' ? "Servicios Financieros" : "Financial Services",
-    title: language === 'es' ? "Consulta de Deudas por WhatsApp en Segundos" : "Debt Inquiry via WhatsApp in Seconds",
+    category: language === 'es' ? "Servicios financieros" : "Financial services",
+    title: language === 'es' ? "Consulta de deudas por WhatsApp en segundos" : "Debt inquiry via WhatsApp in seconds",
     excerpt: language === 'es' ? "Permite que tus usuarios accedan a su información financiera de forma rápida, clara y sin fricciones" : "Allow your users to access their financial information quickly, clearly, and without friction",
-    date: language === 'es' ? "13 de Abril de 2026" : "April 13, 2026",
+    date: language === 'es' ? "13 de abril de 2026" : "April 13, 2026",
     readTime: language === 'es' ? "4 min" : "4 min",
-    author: language === 'es' ? "Autor: Alex Murillo + Equipo de Soporte" : "Author: Alex Murillo + Support Team",
+    author: language === 'es' ? "Autor: Alex Murillo + equipo de soporte" : "Author: Alex Murillo + support team",
     path: "/alcaldias/consulta-deudas-whatsapp"
   },
   {
-    category: language === 'es' ? "Educación Interactiva" : "Interactive Education",
-    title: language === 'es' ? "Convierte WhatsApp en una Plataforma Educativa Interactiva" : "Turn WhatsApp into an Interactive Educational Platform",
+    category: language === 'es' ? "Educación interactiva" : "Interactive education",
+    title: language === 'es' ? "Convierte WhatsApp en una plataforma educativa interactiva" : "Turn WhatsApp into an interactive educational platform",
     excerpt: language === 'es' ? "Motiva, evalúa y premia a tus estudiantes con preguntas de selección múltiple desde el canal que ya usan todos los días" : "Motivate, evaluate and reward your students with multiple choice questions from the channel they already use every day",
-    date: language === 'es' ? "13 de Abril de 2026" : "April 13, 2026",
+    date: language === 'es' ? "13 de abril de 2026" : "April 13, 2026",
     readTime: language === 'es' ? "6 min" : "6 min",
-    author: language === 'es' ? "Autor: Alex Murillo + Equipo de Soporte" : "Author: Alex Murillo + Support Team",
+    author: language === 'es' ? "Autor: Alex Murillo + equipo de soporte" : "Author: Alex Murillo + support team",
     path: "/alcaldias/plataforma-educativa-whatsapp"
   },
   {
-    category: language === 'es' ? "Servicios Ciudadanos" : "Citizen Services",
-    title: language === 'es' ? "Consulta SISBÉN y Subsidios en Segundos por WhatsApp" : "SISBÉN and Subsidy Inquiry in Seconds via WhatsApp",
+    category: language === 'es' ? "Servicios ciudadanos" : "Citizen services",
+    title: language === 'es' ? "Consulta SISBÉN y subsidios en segundos por WhatsApp" : "SISBÉN and subsidy inquiry in seconds via WhatsApp",
     excerpt: language === 'es' ? "Facilita el acceso a la información y moderniza la atención ciudadana" : "Facilitate access to information and modernize citizen service",
-    date: language === 'es' ? "13 de Abril de 2026" : "April 13, 2026",
+    date: language === 'es' ? "13 de abril de 2026" : "April 13, 2026",
     readTime: language === 'es' ? "5 min" : "5 min",
-    author: language === 'es' ? "Autor: Alex Murillo + Equipo de Soporte" : "Author: Alex Murillo + Support Team",
+    author: language === 'es' ? "Autor: Alex Murillo + equipo de soporte" : "Author: Alex Murillo + support team",
     path: "/alcaldias/consulta-sisben-subsidios"
   }
 ];
