@@ -115,7 +115,7 @@ export default function BlogArticle11() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Cómo Evitarlo' : 'How to Avoid It'}
+                  {language === 'es' ? 'Cómo evitarlo' : 'How to avoid it'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -211,7 +211,7 @@ export default function BlogArticle11() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Cómo Evitarlo' : 'How to Avoid It'}
+                  {language === 'es' ? 'Cómo evitarlo' : 'How to avoid it'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -254,7 +254,7 @@ export default function BlogArticle11() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Cómo Evitarlo' : 'How to Avoid It'}
+                  {language === 'es' ? 'Cómo evitarlo' : 'How to avoid it'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -265,11 +265,11 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '5. Comportamiento Sospechoso' : '5. Suspicious Behavior'}
+                  {language === 'es' ? '5. Comportamiento sospechoso' : '5. Suspicious behavior'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Patrones Sospechosos' : 'Suspicious Patterns'}
+                  {language === 'es' ? 'Patrones sospechosos' : 'Suspicious patterns'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -303,7 +303,7 @@ export default function BlogArticle11() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Cómo Evitarlo' : 'How to Avoid It'}
+                  {language === 'es' ? 'Cómo evitarlo' : 'How to avoid it'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -314,11 +314,11 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '6. Información de Negocio Falsa' : '6. False Business Information'}
+                  {language === 'es' ? '6. Información de negocio falsa' : '6. False business information'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Requisitos de Verificación' : 'Verification Requirements'}
+                  {language === 'es' ? 'Requisitos de verificación' : 'Verification requirements'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -351,7 +351,7 @@ export default function BlogArticle11() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Cómo Evitarlo' : 'How to Avoid It'}
+                  {language === 'es' ? 'Cómo evitarlo' : 'How to avoid it'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -362,11 +362,11 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '7. Violación de Derechos de Terceros' : '7. Third Party Rights Violations'}
+                  {language === 'es' ? '7. Violación de derechos de terceros' : '7. Third party rights violation'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Tipos de Violaciones' : 'Types of Violations'}
+                  {language === 'es' ? 'Tipos de violaciones' : 'Types of violations'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -377,7 +377,7 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Acciones Legales' : 'Legal Actions'}
+                  {language === 'es' ? 'Acciones legales' : 'Legal actions'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -396,7 +396,7 @@ export default function BlogArticle11() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Cómo Evitarlo' : 'How to Avoid It'}
+                  {language === 'es' ? 'Cómo evitarlo' : 'How to avoid it'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -407,11 +407,11 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '8. Actividad de Fraude' : '8. Fraud Activity'}
+                  {language === 'es' ? '8. Actividad de fraude' : '8. Fraud activity'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Tipos de Fraude' : 'Types of Fraud'}
+                  {language === 'es' ? 'Tipos de fraude' : 'Types of fraud'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -441,7 +441,7 @@ export default function BlogArticle11() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Cómo Evitarlo' : 'How to Avoid It'}
+                  {language === 'es' ? 'Cómo evitarlo' : 'How to avoid it'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -452,11 +452,11 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '9. Incumplimiento de Regulaciones' : '9. Regulatory Non-compliance'}
+                  {language === 'es' ? '9. Incumplimiento de regulaciones' : '9. Regulatory non-compliance'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Regulaciones Aplicables' : 'Applicable Regulations'}
+                  {language === 'es' ? 'Regulaciones aplicables' : 'Applicable regulations'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -486,7 +486,7 @@ export default function BlogArticle11() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Cómo Evitarlo' : 'How to Avoid It'}
+                  {language === 'es' ? 'Cómo evitarlo' : 'How to avoid it'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -497,11 +497,11 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '10. Reporte de Usuarios' : '10. User Reporting'}
+                  {language === 'es' ? '10. Reporte de usuarios' : '10. User reporting'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Poder de Usuarios' : 'Power of Users'}
+                  {language === 'es' ? 'Poder de usuarios' : 'Power of users'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -511,7 +511,7 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Tipos de Reportes' : 'Types of Reports'}
+                  {language === 'es' ? 'Tipos de reportes' : 'Types of reports'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -532,7 +532,7 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Cómo Evitarlo' : 'How to Avoid It'}
+                  {language === 'es' ? 'Cómo evitarlo' : 'How to avoid it'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -543,7 +543,7 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Señales de Alerta' : 'Warning Signs'}
+                  {language === 'es' ? 'Señales de alerta' : 'Warning signs'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -559,7 +559,7 @@ export default function BlogArticle11() {
                 </ol>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Qué Hacer si Te Restringen' : 'What to Do if You Are Restricted'}
+                  {language === 'es' ? 'Qué hacer si te restringen' : 'What to do if restricted'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -574,7 +574,7 @@ export default function BlogArticle11() {
                 </ol>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Contactar a WhatsApp' : 'Contact WhatsApp'}
+                  {language === 'es' ? 'Contactar a WhatsApp' : 'Contacting WhatsApp'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -585,7 +585,7 @@ export default function BlogArticle11() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Prevención Futura' : 'Future Prevention'}
+                  {language === 'es' ? 'Prevención futura' : 'Future prevention'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
