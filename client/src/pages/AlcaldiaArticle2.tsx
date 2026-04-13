@@ -134,7 +134,7 @@ function AlcaldiaArticle2() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'La solución: IA de Consulta de Deudas en WhatsApp' : 'The solution: AI Debt Inquiry on WhatsApp'}
+                  {language === 'es' ? 'La solución: IA de consulta de deudas en WhatsApp' : 'The solution: AI debt inquiry on WhatsApp'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">

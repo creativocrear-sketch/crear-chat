@@ -112,7 +112,7 @@ function AlcaldiaArticle4() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'La solución: IA de Consulta de Subsidios por WhatsApp' : 'The solution: Subsidy Inquiry AI via WhatsApp'}
+                  {language === 'es' ? 'La solución: IA de consulta de subsidios por WhatsApp' : 'The solution: subsidy inquiry AI via WhatsApp'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">

@@ -122,7 +122,7 @@ export default function AlcaldiaArticle1() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'La solución: Turismo IA en WhatsApp' : 'The solution: Tourism AI on WhatsApp'}
+                  {language === 'es' ? 'La solución: turismo IA en WhatsApp' : 'The solution: tourism AI on WhatsApp'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -156,7 +156,7 @@ export default function AlcaldiaArticle1() {
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Incluso puede adaptarse a lo que busca el usuario: Turismo económico, Planes familiares, Experiencias premium' : 'It can even adapt to what the user is looking for: Budget tourism, Family plans, Premium experiences'}
+                  {language === 'es' ? 'Incluso puede adaptarse a lo que busca el usuario: turismo económico, planes familiares, experiencias premium' : 'It can even adapt to what the user is looking for: budget tourism, family plans, premium experiences'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">

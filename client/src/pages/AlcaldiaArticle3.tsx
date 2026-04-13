@@ -114,7 +114,7 @@ function AlcaldiaArticle3() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'La solución: IA Educativa en WhatsApp con preguntas y respuestas correctas' : 'The solution: Educational AI on WhatsApp with questions and correct answers'}
+                  {language === 'es' ? 'La solución: IA educativa en WhatsApp con preguntas y respuestas correctas' : 'The Solution: Educational AI on WhatsApp with Questions and Correct Answers'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -126,7 +126,7 @@ function AlcaldiaArticle3() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '¿Cómo funciona?' : 'How does it work?'}
+                  {language === 'es' ? '¿Cómo funciona?' : 'How Does It Work?'}
                 </h3>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -160,7 +160,7 @@ function AlcaldiaArticle3() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '¿Qué puede hacer esta IA?' : 'What can this AI do?'}
+                  {language === 'es' ? '¿Qué puede hacer esta IA?' : 'What Can This AI Do?'}
                 </h3>
 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
