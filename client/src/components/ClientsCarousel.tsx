@@ -8,85 +8,102 @@ import { useLanguage } from "@/contexts/LanguageContext";
  * - Consistent with brand colors and typography
  */
 
-const plans = [
-  {
-    name: "Plan 1",
-    price: "$96",
-    period: "Año",
-    description: "Herramientas profesionales para que las pequeñas empresas comercialicen, vendan y den soporte en múltiples canales",
-    features: [
-      "2 usuarios incluidos (asientos).",
-      "500 contactos activos mensuales.",
-      "Todas las funciones básicas.",
-    ],
-  },
-  {
-    name: "Plan 2",
-    price: "$216",
-    period: "Año",
-    description: "Herramientas profesionales para que las pequeñas empresas comercialicen, vendan y den soporte en múltiples canales",
-    features: [
-      "5 usuarios incluidos (asientos).",
-      "2,000 contactos activos mensuales.",
-      "Todas las funciones básicas.",
-    ],
-  },
-  {
-    name: "Plan 3",
-    price: "$460,80",
-    period: "Año",
-    description: "Herramientas profesionales para que las pequeñas empresas comercialicen, vendan y den soporte en múltiples canales",
-    features: [
-      "Usuarios ilimitados",
-      "5,000 contactos activos mensuales.",
-      "Todas las funciones básicas.",
-    ],
-  },
-  {
-    name: "Plan 4",
-    price: "$710,40",
-    period: "Año",
-    description: "Herramientas profesionales para que las pequeñas empresas comercialicen, vendan y den soporte en múltiples canales",
-    features: [
-      "7 usuarios incluidos (asientos).",
-      "10,000 contactos activos mensuales.",
-      "Todas las funciones básicas.",
-    ],
-  },
-  {
-    name: "Plan 5",
-    price: "$950,40",
-    period: "Año",
-    description: "Flujos de trabajo multiequipo, informes avanzados e integraciones flexibles para medianas empresas.",
-    features: [
-      "10 usuarios incluidos (asientos).",
-      "15,000 contactos activos mensuales.",
-      "Informes avanzados.",
-      "Paso de Google Sheets.",
-      "Paso de solicitud HTTP.",
-      "Canal personalizado.",
-    ],
-  },
-  {
-    name: "Plan 6",
-    price: "Personalizado",
-    period: "Año",
-    description: "Diseño de soluciones a medida y apoyo a la implantación para medianas y grandes empresas.",
-    features: [
-      "Todo en los negocios, además:",
-      "Límites personalizados.",
-      "Programa de incorporación de 30 días.",
-      "Exportación de datos.",
-      "Informes avanzados.",
-      "Paso de Google Sheets.",
-      "Paso de solicitud HTTP.",
-      "Canal personalizado.",
-    ],
-  },
-];
 
 export default function PricingSection() {
   const { t, language } = useLanguage();
+  
+  const plans = [
+    {
+      name: t('plans.plans.plan1.name'),
+      price: "$60",
+      period: t('plans.plans.plan1.period'),
+      description: t('plans.plans.plan1.description'),
+      features: language === 'es' ? [
+        "2 usuarios incluidos (asientos).",
+        "500 contactos activos mensuales.",
+        "Todas las funciones básicas."
+      ] : [
+        "2 users included (seats).",
+        "500 active monthly contacts.",
+        "All basic features."
+      ]
+    },
+    {
+      name: t('plans.plans.plan2.name'),
+      price: "$216",
+      period: t('plans.plans.plan2.period'),
+      description: t('plans.plans.plan2.description'),
+      features: language === 'es' ? [
+        "5 usuarios incluidos (asientos).",
+        "2,000 contactos activos mensuales.",
+        "Todas las funciones básicas."
+      ] : [
+        "5 users included (seats).",
+        "2,000 active monthly contacts.",
+        "All basic features."
+      ]
+    },
+    {
+      name: t('plans.plans.plan3.name'),
+      price: "$460,80",
+      period: t('plans.plans.plan3.period'),
+      description: t('plans.plans.plan3.description'),
+      features: language === 'es' ? [
+        "Usuarios ilimitados",
+        "5,000 contactos activos mensuales.",
+        "Todas las funciones básicas."
+      ] : [
+        "Unlimited users",
+        "5,000 active monthly contacts.",
+        "All basic features."
+      ]
+    },
+    {
+      name: t('plans.plans.plan4.name'),
+      price: "$710,40",
+      period: t('plans.plans.plan4.period'),
+      description: t('plans.plans.plan4.description'),
+      features: language === 'es' ? [
+        "7 usuarios incluidos (asientos).",
+        "10,000 contactos activos mensuales.",
+        "Todas las funciones básicas."
+      ] : [
+        "7 users included (seats).",
+        "10,000 active monthly contacts.",
+        "All basic features."
+      ]
+    },
+    {
+      name: t('plans.plans.plan5.name'),
+      price: "$950,40",
+      period: t('plans.plans.plan5.period'),
+      description: t('plans.plans.plan5.description'),
+      features: language === 'es' ? [
+        "10 usuarios incluidos (asientos).",
+        "15,000 contactos activos mensuales.",
+        "Informes avanzados."
+      ] : [
+        "10 users included (seats).",
+        "15,000 active monthly contacts.",
+        "Advanced reports."
+      ]
+    },
+    {
+      name: t('plans.plans.plan6.name'),
+      price: "$1.190,40",
+      period: t('plans.plans.plan6.period'),
+      description: t('plans.plans.plan6.description'),
+      features: language === 'es' ? [
+        "15 usuarios incluidos (asientos).",
+        "20,000 contactos activos mensuales.",
+        "Todas las funciones básicas."
+      ] : [
+        "15 users included (seats).",
+        "20,000 active monthly contacts.",
+        "All basic features."
+      ]
+    },
+  ];
   
   return (
     <section id="nuestros-planes" className="py-16 bg-white">
@@ -160,10 +177,10 @@ export default function PricingSection() {
         <div className="mt-16 text-center animate-fade-in-up">
           <div className="max-w-3xl mx-auto bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              ¿Necesitas un plan personalizado?
+              {t('plans.customPlan')}
             </h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Si tus necesidades son específicas o requieres características adicionales, contáctanos para crear un plan personalizado que se adapte perfectamente a tu negocio.
+              {t('plans.customPlanDesc')}
             </p>
             <a
               href="https://wa.me/+573105317126"
@@ -171,7 +188,7 @@ export default function PricingSection() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-3 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg"
             >
-              Contactar Ahora
+              {t('plans.contactUs')}
             </a>
           </div>
         </div>

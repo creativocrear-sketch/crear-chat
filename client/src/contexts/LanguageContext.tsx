@@ -97,15 +97,70 @@ const translations = {
       yearly: 'Anual',
       save: 'Ahorra 20%',
       choosePlan: 'Elegir plan',
-      mostPopular: 'Más popular',
-      features: {
-        basic: 'Hasta 500 contactos',
-        pro: 'Hasta 2,000 contactos',
-        enterprise: 'Contactos ilimitados',
-        support: 'Soporte 24/7',
-        api: 'API completa',
-        analytics: 'Análisis avanzados',
-        custom: 'Soluciones personalizadas'
+      customPlan: 'Plan personalizado',
+      customPlanDesc: '¿Necesitas una solución a medida? Contáctanos y crearemos un plan personalizado para ti.',
+      contactUs: 'Contáctanos',
+      plans: {
+        plan1: {
+          name: 'Plan 1',
+          period: 'Año',
+          description: 'Herramientas profesionales para que las pequeñas empresas comercialicen, vendan y den soporte en múltiples canales',
+          features: [
+            '2 usuarios incluidos (asientos).',
+            '500 contactos activos mensuales.',
+            'Todas las funciones básicas.'
+          ]
+        },
+        plan2: {
+          name: 'Plan 2',
+          period: 'Año',
+          description: 'Herramientas profesionales para que las pequeñas empresas comercialicen, vendan y den soporte en múltiples canales',
+          features: [
+            '5 usuarios incluidos (asientos).',
+            '2,000 contactos activos mensuales.',
+            'Todas las funciones básicas.'
+          ]
+        },
+        plan3: {
+          name: 'Plan 3',
+          period: 'Año',
+          description: 'Herramientas profesionales para que las pequeñas empresas comercialicen, vendan y den soporte en múltiples canales',
+          features: [
+            'Usuarios ilimitados',
+            '5,000 contactos activos mensuales.',
+            'Todas las funciones básicas.'
+          ]
+        },
+        plan4: {
+          name: 'Plan 4',
+          period: 'Año',
+          description: 'Herramientas profesionales para que las pequeñas empresas comercialicen, vendan y den soporte en múltiples canales',
+          features: [
+            '7 usuarios incluidos (asientos).',
+            '10,000 contactos activos mensuales.',
+            'Todas las funciones básicas.'
+          ]
+        },
+        plan5: {
+          name: 'Plan 5',
+          period: 'Año',
+          description: 'Flujos de trabajo multiequipo, informes avanzados e integraciones flexibles para medianas empresas.',
+          features: [
+            '10 usuarios incluidos (asientos).',
+            '15,000 contactos activos mensuales.',
+            'Informes avanzados.'
+          ]
+        },
+        plan6: {
+          name: 'Plan 6',
+          period: 'Año',
+          description: 'Flujos de trabajo multiequipo, informes avanzados e integraciones flexibles para medianas empresas.',
+          features: [
+            '15 usuarios incluidos (asientos).',
+            '20,000 contactos activos mensuales.',
+            'Todas las funciones básicas.'
+          ]
+        }
       }
     },
     // Blog Articles
@@ -302,15 +357,70 @@ const translations = {
       yearly: 'Yearly',
       save: 'Save 20%',
       choosePlan: 'Choose plan',
-      mostPopular: 'Most popular',
-      features: {
-        basic: 'Up to 500 contacts',
-        pro: 'Up to 2,000 contacts',
-        enterprise: 'Unlimited contacts',
-        support: '24/7 support',
-        api: 'Full API',
-        analytics: 'Advanced analytics',
-        custom: 'Custom solutions'
+      customPlan: 'Custom plan',
+      customPlanDesc: 'Need a custom solution? Contact us and we will create a personalized plan for you.',
+      contactUs: 'Contact us',
+      plans: {
+        plan1: {
+          name: 'Plan 1',
+          period: 'Year',
+          description: 'Professional tools for small businesses to market, sell and support across multiple channels',
+          features: [
+            '2 users included (seats).',
+            '500 active monthly contacts.',
+            'All basic features.'
+          ]
+        },
+        plan2: {
+          name: 'Plan 2',
+          period: 'Year',
+          description: 'Professional tools for small businesses to market, sell and support across multiple channels',
+          features: [
+            '5 users included (seats).',
+            '2,000 active monthly contacts.',
+            'All basic features.'
+          ]
+        },
+        plan3: {
+          name: 'Plan 3',
+          period: 'Year',
+          description: 'Professional tools for small businesses to market, sell and support across multiple channels',
+          features: [
+            'Unlimited users',
+            '5,000 active monthly contacts.',
+            'All basic features.'
+          ]
+        },
+        plan4: {
+          name: 'Plan 4',
+          period: 'Year',
+          description: 'Professional tools for small businesses to market, sell and support across multiple channels',
+          features: [
+            '7 users included (seats).',
+            '10,000 active monthly contacts.',
+            'All basic features.'
+          ]
+        },
+        plan5: {
+          name: 'Plan 5',
+          period: 'Year',
+          description: 'Multi-team workflows, advanced reports and flexible integrations for medium businesses.',
+          features: [
+            '10 users included (seats).',
+            '15,000 active monthly contacts.',
+            'Advanced reports.'
+          ]
+        },
+        plan6: {
+          name: 'Plan 6',
+          period: 'Year',
+          description: 'Multi-team workflows, advanced reports and flexible integrations for medium businesses.',
+          features: [
+            '15 users included (seats).',
+            '20,000 active monthly contacts.',
+            'All basic features.'
+          ]
+        }
       }
     },
     // Blog Articles
