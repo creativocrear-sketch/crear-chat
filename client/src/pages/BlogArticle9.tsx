@@ -239,7 +239,7 @@ export default function BlogArticle9() {
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
                   <li>{language === 'es' ? '¿Qué uptime garantizan? (99.9%, 99.99%?)' : 'What uptime do they guarantee? (99.9%, 99.99%?)'}</li>
                   <li>{language === 'es' ? '¿Tienen SLA (Acuerdo de Nivel de Servicio)?' : 'Do they have SLA (Service Level Agreement)?'}</li>
-                  <li>{language === 'es' ? '¿Qué sucede si hay caída?' : 'What happens if there is an outage?'</li>
+                  <li>{language === 'es' ? '¿Qué sucede si hay caída?' : 'What happens if there is an outage?'}</li>
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
