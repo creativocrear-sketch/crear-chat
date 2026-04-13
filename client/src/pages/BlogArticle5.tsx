@@ -2,16 +2,19 @@ import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronLeft, Share2, Facebook, MessageCircle } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function BlogArticle5() {
+  const { t, language } = useLanguage();
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   const handleShare = (platform: 'facebook' | 'whatsapp') => {
     const url = window.location.href;
-    const title = "¿Qué plataformas me ayudan a integrar WhatsApp Business API?";
-    const text = "Descubre las mejores plataformas para integrar WhatsApp Business API con tus sistemas existentes.";
+    const title = t('articles.article5.title');
+    const text = t('articles.article5.shareText');
     
     let shareUrl = '';
     

@@ -2,16 +2,19 @@ import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronLeft, Share2, Facebook, MessageCircle } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function BlogArticle9() {
+  const { t, language } = useLanguage();
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   const handleShare = (platform: 'facebook' | 'whatsapp') => {
     const url = window.location.href;
-    const title = "¿Qué tener en cuenta para seleccionar un proveedor de WhatsApp y la plataforma?";
-    const text = "Guía completa para elegir el mejor proveedor de WhatsApp Business API y plataforma para tu negocio.";
+    const title = t('articles.article9.title');
+    const text = t('articles.article9.shareText');
     
     let shareUrl = '';
     

@@ -2,16 +2,19 @@ import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronLeft, Share2, Facebook, MessageCircle } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function BlogArticle6() {
+  const { t, language } = useLanguage();
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   const handleShare = (platform: 'facebook' | 'whatsapp') => {
     const url = window.location.href;
-    const title = "¿Por qué necesito una plataforma para administrar chats de WhatsApp?";
-    const text = "Descubre por qué necesitas una plataforma profesional para gestionar WhatsApp Business API eficientemente.";
+    const title = t('articles.article6.title');
+    const text = t('articles.article6.shareText');
     
     let shareUrl = '';
     

@@ -2,16 +2,19 @@ import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronLeft, Share2, Facebook, MessageCircle } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function BlogArticle11() {
+  const { t, language } = useLanguage();
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   const handleShare = (platform: 'facebook' | 'whatsapp') => {
     const url = window.location.href;
-    const title = "¿Por qué pueden restringir el número de WhatsApp?";
-    const text = "Conoce las razones por las que WhatsApp puede restringir tu número y cómo evitarlo.";
+    const title = t('articles.article11.title');
+    const text = t('articles.article11.shareText');
     
     let shareUrl = '';
     

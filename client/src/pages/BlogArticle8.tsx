@@ -2,16 +2,19 @@ import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronLeft, Share2, Facebook, MessageCircle } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function BlogArticle8() {
+  const { t, language } = useLanguage();
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   const handleShare = (platform: 'facebook' | 'whatsapp') => {
     const url = window.location.href;
-    const title = "¿Cómo es el cobro que hacen las plataformas de chats de WhatsApp?";
-    const text = "Guía completa sobre cómo funcionan los modelos de precios en las plataformas de WhatsApp Business API.";
+    const title = t('articles.article8.title');
+    const text = t('articles.article8.shareText');
     
     let shareUrl = '';
     

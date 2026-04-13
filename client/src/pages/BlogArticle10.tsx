@@ -2,16 +2,19 @@ import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronLeft, Share2, Facebook, MessageCircle } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function BlogArticle10() {
+  const { t, language } = useLanguage();
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   const handleShare = (platform: 'facebook' | 'whatsapp') => {
     const url = window.location.href;
-    const title = "¿Cuáles son las principales políticas de WhatsApp Business API?";
-    const text = "Conoce las políticas y normativas clave que debes cumplir al usar WhatsApp Business API.";
+    const title = t('articles.article10.title');
+    const text = t('articles.article10.shareText');
     
     let shareUrl = '';
     
