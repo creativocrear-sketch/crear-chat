@@ -174,7 +174,7 @@ const translations = {
         shareText: 'Descubre las diferencias clave entre WhatsApp Business y WhatsApp Business API, y entiende cuál es la mejor opción para tu negocio.',
         content: {
           intro: 'En el mundo empresarial actual, WhatsApp se ha convertido en una herramienta fundamental para la comunicación con clientes. Sin embargo, muchas empresas se confunden entre WhatsApp Business y WhatsApp Business API. Aunque ambas son soluciones de WhatsApp, tienen diferencias significativas que es importante entender.',
-          basicTitle: 'WhatsApp Business: La Solución Básica',
+          basicTitle: 'WhatsApp Business: la solución básica',
           basicDesc: 'WhatsApp Business es una aplicación móvil gratuita diseñada para pequeños negocios. Es la versión simplificada de WhatsApp que permite a los empresarios crear un perfil de negocio con información como horarios de atención, ubicación y descripción del negocio.',
           basicFeatures: 'Características principales de WhatsApp Business:',
           basicFeaturesList: [
@@ -187,7 +187,7 @@ const translations = {
             'Limitado a un solo dispositivo por número'
           ],
           basicConclusion: 'Esta solución es ideal para pequeños negocios que necesitan una presencia básica en WhatsApp sin requerimientos complejos de automatización.',
-          apiTitle: 'WhatsApp Business API: La Solución Empresarial',
+          apiTitle: 'WhatsApp Business API: la solución empresarial',
           apiDesc: 'WhatsApp Business API es una solución robusta y escalable diseñada para empresas medianas y grandes. A diferencia de WhatsApp Business, la API permite la integración con sistemas empresariales, automatización de procesos y gestión masiva de conversaciones.',
           apiFeatures: 'Características principales de WhatsApp Business API:',
           apiFeaturesList: [
@@ -201,7 +201,7 @@ const translations = {
             'Análisis avanzados y reportes detallados',
             'Escalabilidad para miles de conversaciones simultáneas'
           ],
-          comparisonTitle: 'Comparativa Directa',
+          comparisonTitle: 'Comparativa directa',
           comparisonTable: {
             feature: 'Característica',
             basic: 'WhatsApp Business',
