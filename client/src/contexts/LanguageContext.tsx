@@ -548,7 +548,26 @@ interface LanguageProviderProps {
 }
 
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>('es');
+  // Obtener idioma guardado en localStorage o usar español como defecto
+  const getSavedLanguage = (): Language => {
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('language');
+      if (saved === 'es' || saved === 'en') {
+        return saved;
+      }
+    }
+    return 'es';
+  };
+
+  const [language, setLanguage] = useState<Language>(getSavedLanguage);
+
+  // Función para cambiar idioma y guardarlo en localStorage
+  const changeLanguage = (lang: Language) => {
+    setLanguage(lang);
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('language', lang);
+    }
+  };
 
   const t = (key: string): string => {
     const keys = key.split('.');
@@ -562,7 +581,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
   };
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t }}>
+    <LanguageContext.Provider value={{ language, setLanguage: changeLanguage, t }}>
       {children}
     </LanguageContext.Provider>
   );
