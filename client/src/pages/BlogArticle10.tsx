@@ -273,7 +273,7 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Reembolsos y Garantías' : 'Refunds and Guarantees'}
+                  {language === 'es' ? 'Reembolsos y garantías' : 'Refunds and guarantees'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -287,7 +287,7 @@ export default function BlogArticle10() {
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Protección de Cuenta' : 'Account Protection'}
+                  {language === 'es' ? 'Protección de cuenta' : 'Account protection'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -297,7 +297,7 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Cumplimiento de Leyes' : 'Legal Compliance'}
+                  {language === 'es' ? 'Cumplimiento de leyes' : 'Legal compliance'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -307,11 +307,11 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '9. Prohibiciones Explícitas' : '9. Explicit Prohibitions'}
+                  {language === 'es' ? '9. Prohibiciones explícitas' : '9. Explicit prohibitions'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Contenido Prohibido' : 'Prohibited Content'}
+                  {language === 'es' ? 'Contenido prohibido' : 'Prohibited content'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -324,7 +324,7 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Actividades Prohibidas' : 'Prohibited Activities'}
+                  {language === 'es' ? 'Actividades prohibidas' : 'Prohibited activities'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -337,7 +337,7 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Violaciones de Derechos' : 'Rights Violations'}
+                  {language === 'es' ? 'Violaciones de derechos' : 'Rights violations'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -348,11 +348,11 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '10. Monitoreo y Cumplimiento' : '10. Monitoring and Compliance'}
+                  {language === 'es' ? '10. Monitoreo y cumplimiento' : '10. Monitoring and compliance'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Monitoreo de WhatsApp' : 'WhatsApp Monitoring'}
+                  {language === 'es' ? 'Monitoreo de WhatsApp' : 'WhatsApp monitoring'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -362,7 +362,7 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Acciones por Incumplimiento' : 'Non-compliance Actions'}
+                  {language === 'es' ? 'Acciones por incumplimiento' : 'Non-compliance actions'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
@@ -375,7 +375,7 @@ export default function BlogArticle10() {
                 </ul>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  <strong>{language === 'es' ? 'Restricción Temporal:' : 'Temporary Restriction:'}</strong>
+                  <strong>{language === 'es' ? 'Restricción temporal:' : 'Temporary restriction:'}</strong>
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -404,11 +404,11 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '11. Regulaciones por País' : '11. Country-Specific Regulations'}
+                  {language === 'es' ? '11. Regulaciones por país' : '11. Country-specific regulations'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Diferentes Regulaciones' : 'Different Regulations'}
+                  {language === 'es' ? 'Diferentes regulaciones' : 'Different regulations'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -419,7 +419,7 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Cumplimiento Local' : 'Local Compliance'}
+                  {language === 'es' ? 'Cumplimiento local' : 'Local compliance'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -429,42 +429,42 @@ export default function BlogArticle10() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '12. Mejores Prácticas' : '12. Best Practices'}
+                  {language === 'es' ? '12. Mejores prácticas' : '12. Best practices'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Para Evitar Problemas' : 'To Avoid Problems'}
+                  {language === 'es' ? 'Para evitar problemas' : 'To avoid problems'}
                 </h4>
                 
                 <ol className="list-decimal pl-6 space-y-2 text-gray-600 mb-6">
-                  <li><strong>{language === 'es' ? 'Obtén Consentimiento Claro' : 'Get Clear Consent'}</strong>
+                  <li><strong>{language === 'es' ? 'Obtén consentimiento claro' : 'Get clear consent'}</strong>
                     <ul className="list-disc pl-6 space-y-1 mt-2">
                       <li>{language === 'es' ? 'Documenta cómo obtuviste el número' : 'Document how you got the number'}</li>
                       <li>{language === 'es' ? 'Mantén registro de consentimiento' : 'Keep consent records'}</li>
                     </ul>
                   </li>
-                  <li><strong>{language === 'es' ? 'Sé Transparente' : 'Be Transparent'}</strong>
+                  <li><strong>{language === 'es' ? 'Sé transparente' : 'Be transparent'}</strong>
                     <ul className="list-disc pl-6 space-y-1 mt-2">
                       <li>{language === 'es' ? 'Identifícate claramente' : 'Identify yourself clearly'}</li>
                       <li>{language === 'es' ? 'Explica por qué envías mensajes' : 'Explain why you send messages'}</li>
                       <li>{language === 'es' ? 'Proporciona opción de darse de baja' : 'Provide opt-out option'}</li>
                     </ul>
                   </li>
-                  <li><strong>{language === 'es' ? 'Mantén Calidad Alta' : 'Maintain High Quality'}</strong>
+                  <li><strong>{language === 'es' ? 'Mantén calidad alta' : 'Maintain high quality'}</strong>
                     <ul className="list-disc pl-6 space-y-1 mt-2">
                       <li>{language === 'es' ? 'Responde rápidamente' : 'Respond quickly'}</li>
                       <li>{language === 'es' ? 'Sé profesional' : 'Be professional'}</li>
                       <li>{language === 'es' ? 'Resuelve problemas rápidamente' : 'Solve problems quickly'}</li>
                     </ul>
                   </li>
-                  <li><strong>{language === 'es' ? 'Monitorea tu Desempeño' : 'Monitor Your Performance'}</strong>
+                  <li><strong>{language === 'es' ? 'Monitorea tu desempeño' : 'Monitor your performance'}</strong>
                     <ul className="list-disc pl-6 space-y-1 mt-2">
                       <li>{language === 'es' ? 'Revisa tasa de rechazo' : 'Review block rate'}</li>
                       <li>{language === 'es' ? 'Monitorea quejas' : 'Monitor complaints'}</li>
                       <li>{language === 'es' ? 'Ajusta según sea necesario' : 'Adjust as needed'}</li>
                     </ul>
                   </li>
-                  <li><strong>{language === 'es' ? 'Mantente Actualizado' : 'Stay Updated'}</strong>
+                  <li><strong>{language === 'es' ? 'Mantente actualizado' : 'Stay updated'}</strong>
                     <ul className="list-disc pl-6 space-y-1 mt-2">
                       <li>{language === 'es' ? 'Las políticas cambian' : 'Policies change'}</li>
                       <li>{language === 'es' ? 'Suscríbete a actualizaciones de WhatsApp' : 'Subscribe to WhatsApp updates'}</li>
