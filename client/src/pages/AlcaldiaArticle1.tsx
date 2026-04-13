@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { 
   ArrowLeft, 
   ArrowRight, 
@@ -53,42 +55,44 @@ const AlcaldiaArticle1: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50">
-      {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-blue-700 to-green-600 text-white">
-        <div className="absolute inset-0 bg-black/10"></div>
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="text-center">
-            <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
-              <MapPin className="w-5 h-5" />
-              <span className="text-sm font-medium">Turismo Inteligente</span>
-            </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              {t('alcaldias.article1.title')}
-            </h1>
-            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              {t('alcaldias.article1.subtitle')}
-            </p>
-            <div className="flex items-center justify-center gap-6 text-blue-200">
-              <div className="flex items-center gap-2">
-                <Clock className="w-5 h-5" />
-                <span>8 min</span>
+    <div className="min-h-screen flex flex-col bg-white">
+      <Header />
+      <main className="flex-1">
+        {/* Hero Section */}
+        <section className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-blue-700 to-green-600 text-white">
+          <div className="absolute inset-0 bg-black/10"></div>
+          <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div className="text-center">
+              <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
+                <MapPin className="w-5 h-5" />
+                <span className="text-sm font-medium">Turismo Inteligente</span>
               </div>
-              <div className="flex items-center gap-2">
-                <Calendar className="w-5 h-5" />
-                <span>{language === 'es' ? '13 de abril, 2026' : 'April 13, 2026'}</span>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                {t('alcaldias.article1.title')}
+              </h1>
+              <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+                {t('alcaldias.article1.subtitle')}
+              </p>
+              <div className="flex items-center justify-center gap-6 text-blue-200">
+                <div className="flex items-center gap-2">
+                  <Clock className="w-5 h-5" />
+                  <span>8 min</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Calendar className="w-5 h-5" />
+                  <span>{language === 'es' ? '13 de abril, 2026' : 'April 13, 2026'}</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        
-        {/* Decorative Elements */}
-        <div className="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-full blur-xl"></div>
-        <div className="absolute bottom-20 right-10 w-32 h-32 bg-green-400/20 rounded-full blur-2xl"></div>
-      </section>
+          
+          {/* Decorative Elements */}
+          <div className="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-full blur-xl"></div>
+          <div className="absolute bottom-20 right-10 w-32 h-32 bg-green-400/20 rounded-full blur-2xl"></div>
+        </section>
 
-      {/* Article Content */}
-      <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        {/* Article Content */}
+        <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Introduction */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">
@@ -431,6 +435,8 @@ const AlcaldiaArticle1: React.FC = () => {
           </div>
         </div>
       </div>
+      </main>
+      <Footer />
     </div>
   );
 };
