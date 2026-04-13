@@ -76,97 +76,97 @@ export default function BlogArticle3() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  ¿Cuáles son los primeros pasos para migrar WhatsApp Business API?
+                  {t('articles.article3.title')}
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Migrar a WhatsApp Business API puede parecer complejo, pero si sigues estos pasos ordenadamente, el proceso será fluido y sin complicaciones.
+                  {language === 'es' ? 'Migrar a WhatsApp Business API puede parecer complejo, pero si sigues estos pasos ordenadamente, el proceso será fluido y sin complicaciones.' : 'Migrating to WhatsApp Business API may seem complex, but if you follow these steps in order, the process will be smooth and without complications.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Paso 1: Evalúa tu Situación Actual
+                  {language === 'es' ? 'Paso 1: Evalúa tu Situación Actual' : 'Step 1: Evaluate Your Current Situation'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Antes de migrar, es importante que entiendas dónde estás ahora:
+                  {language === 'es' ? 'Antes de migrar, es importante que entiendas dónde estás ahora:' : 'Before migrating, it\'s important to understand where you are now:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>¿Estás usando WhatsApp Business o WhatsApp personal?</li>
-                  <li>¿Cuántos números de WhatsApp tienes?</li>
-                  <li>¿Cuál es tu volumen de mensajes mensuales?</li>
-                  <li>¿Qué procesos necesitas automatizar?</li>
-                  <li>¿Qué sistemas actuales necesitan integrarse?</li>
+                  <li>{language === 'es' ? '¿Estás usando WhatsApp Business o WhatsApp personal?' : 'Are you using WhatsApp Business or personal WhatsApp?'}</li>
+                  <li>{language === 'es' ? '¿Cuántos números de WhatsApp tienes?' : 'How many WhatsApp numbers do you have?'}</li>
+                  <li>{language === 'es' ? '¿Cuál es tu volumen de mensajes mensuales?' : 'What is your monthly message volume?'}</li>
+                  <li>{language === 'es' ? '¿Qué procesos necesitas automatizar?' : 'What processes do you need to automate?'}</li>
+                  <li>{language === 'es' ? '¿Qué sistemas actuales necesitan integrarse?' : 'What current systems need integration?'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Esta evaluación te ayudará a determinar qué tipo de solución necesitas y qué plataforma es la más adecuada.
+                  {language === 'es' ? 'Esta evaluación te ayudará a determinar qué tipo de solución necesitas y qué plataforma es la más adecuada.' : 'This evaluation will help you determine what type of solution you need and which platform is most suitable.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Paso 2: Elige una Plataforma de Gestión
+                  {language === 'es' ? 'Paso 2: Elige una Plataforma de Gestión' : 'Step 2: Choose a Management Platform'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  No puedes usar WhatsApp Business API directamente. Necesitas una plataforma que actúe como intermediaria. Algunas opciones populares incluyen:
+                  {language === 'es' ? 'No puedes usar WhatsApp Business API directamente. Necesitas una plataforma que actúe como intermediaria. Algunas opciones populares incluyen:' : 'You cannot use WhatsApp Business API directly. You need a platform that acts as an intermediary. Some popular options include:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Crear.chat: Plataforma especializada en automatización de WhatsApp</li>
-                  <li>Twilio: Solución empresarial completa</li>
-                  <li>MessageBird: Plataforma de comunicaciones omnicanal</li>
-                  <li>Infobip: Proveedor global de comunicaciones</li>
+                  <li>{language === 'es' ? 'Crear.chat: Plataforma especializada en automatización de WhatsApp' : 'Crear.chat: Platform specialized in WhatsApp automation'}</li>
+                  <li>{language === 'es' ? 'Twilio: Solución empresarial completa' : 'Twilio: Complete enterprise solution'}</li>
+                  <li>{language === 'es' ? 'MessageBird: Plataforma de comunicaciones omnicanal' : 'MessageBird: Omnichannel communications platform'}</li>
+                  <li>{language === 'es' ? 'Infobip: Proveedor global de comunicaciones' : 'Infobip: Global communications provider'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Elige una plataforma que se alinee con tus necesidades y presupuesto.
+                  {language === 'es' ? 'Elige una plataforma que se alinee con tus necesidades y presupuesto.' : 'Choose a platform that aligns with your needs and budget.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Paso 3: Prepara tu Número de WhatsApp
+                  {language === 'es' ? 'Paso 3: Prepara tu Número de WhatsApp' : 'Step 3: Prepare Your WhatsApp Number'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Para usar WhatsApp Business API, necesitas un número de teléfono dedicado:
+                  {language === 'es' ? 'Para usar WhatsApp Business API, necesitas un número de teléfono dedicado:' : 'To use WhatsApp Business API, you need a dedicated phone number:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Obtén un número de teléfono nuevo (preferiblemente una línea comercial)</li>
-                  <li>Verifica que el número sea válido y esté activo</li>
-                  <li>Asegúrate de que el número no tenga restricciones de WhatsApp</li>
-                  <li>Ten a mano documentación de tu negocio (RUT, certificado de constitución, etc.)</li>
+                  <li>{language === 'es' ? 'Obtén un número de teléfono nuevo (preferiblemente una línea comercial)' : 'Get a new phone number (preferably a business line)'}</li>
+                  <li>{language === 'es' ? 'Verifica que el número sea válido y esté activo' : 'Verify that the number is valid and active'}</li>
+                  <li>{language === 'es' ? 'Asegúrate de que el número no tenga restricciones de WhatsApp' : 'Ensure the number has no WhatsApp restrictions'}</li>
+                  <li>{language === 'es' ? 'Ten a mano documentación de tu negocio (RUT, certificado de constitución, etc.)' : 'Have your business documentation ready (tax ID, incorporation certificate, etc.)'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Paso 4: Solicita Acceso a WhatsApp Business API
+                  {language === 'es' ? 'Paso 4: Solicita Acceso a WhatsApp Business API' : 'Step 4: Request Access to WhatsApp Business API'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  A través de tu plataforma elegida, solicita acceso a WhatsApp Business API:
+                  {language === 'es' ? 'A través de tu plataforma elegida, solicita acceso a WhatsApp Business API:' : 'Through your chosen platform, request access to WhatsApp Business API:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Completa el formulario de solicitud</li>
-                  <li>Proporciona información de tu negocio</li>
-                  <li>Verifica tu identidad</li>
-                  <li>Espera la aprobación de WhatsApp (generalmente 1-3 días)</li>
+                  <li>{language === 'es' ? 'Completa el formulario de solicitud' : 'Complete the application form'}</li>
+                  <li>{language === 'es' ? 'Proporciona información de tu negocio' : 'Provide your business information'}</li>
+                  <li>{language === 'es' ? 'Verifica tu identidad' : 'Verify your identity'}</li>
+                  <li>{language === 'es' ? 'Espera la aprobación de WhatsApp (generalmente 1-3 días)' : 'Wait for WhatsApp approval (usually 1-3 days)'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Durante este proceso, WhatsApp verificará que tu negocio sea legítimo y que cumplas con sus políticas.
+                  {language === 'es' ? 'Durante este proceso, WhatsApp verificará que tu negocio sea legítimo y que cumplas con sus políticas.' : 'During this process, WhatsApp will verify that your business is legitimate and that you comply with their policies.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Paso 5: Configura tu Perfil de Negocio
+                  {language === 'es' ? 'Paso 5: Configura tu Perfil de Negocio' : 'Step 5: Configure Your Business Profile'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Una vez aprobado, configura tu perfil:
+                  {language === 'es' ? 'Una vez aprobado, configura tu perfil:' : 'Once approved, configure your profile:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Nombre de negocio</li>
-                  <li>Descripción</li>
+                  <li>{language === 'es' ? 'Nombre de negocio' : 'Business name'}</li>
+                  <li>{language === 'es' ? 'Descripción' : 'Description'}</li>
                   <li>Categoría de negocio</li>
                   <li>Sitio web (si aplica)</li>
                   <li>Horarios de atención</li>
@@ -217,68 +217,26 @@ export default function BlogArticle3() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Antes de lanzar a producción:
+                  {language === 'es' ? 'Antes de lanzar a producción:' : 'Before launching to production:'}
                 </p>
-                
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Prueba todas tus integraciones</li>
-                  <li>Verifica que los mensajes se envíen correctamente</li>
-                  <li>Prueba diferentes escenarios de automatización</li>
-                  <li>Asegúrate de que los datos se sincronicen correctamente</li>
+                  <li>{language === 'es' ? 'Empieza con un volumen bajo de mensajes' : 'Start with a low message volume'}</li>
+                  <li>{language === 'es' ? 'Monitorea tus métricas constantemente' : 'Monitor your metrics constantly'}</li>
+                  <li>{language === 'es' ? 'Mantén tu perfil de negocio actualizado' : 'Keep your business profile updated'}</li>
+                  <li>{language === 'es' ? 'Responde rápidamente a los mensajes' : 'Respond to messages quickly'}</li>
+                  <li>{language === 'es' ? 'Sigue las políticas de WhatsApp estrictamente' : 'Follow WhatsApp policies strictly'}</li>
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Paso 9: Capacita a tu Equipo
+                  {language === 'es' ? 'Conclusión' : 'Conclusion'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Asegúrate de que tu equipo entienda cómo usar la nueva plataforma:
-                </p>
-                
-                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Capacitación en el uso de la plataforma</li>
-                  <li>Procedimientos para responder mensajes</li>
-                  <li>Escalamiento de consultas</li>
-                  <li>Manejo de problemas comunes</li>
-                </ul>
-
-                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Paso 10: Lanza y Monitorea
-                </h3>
-                
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  Una vez todo esté listo:
-                </p>
-                
-                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Comunica a tus clientes que ahora puedes contactarlos por WhatsApp</li>
-                  <li>Monitorea las primeras semanas de operación</li>
-                  <li>Recopila feedback de tu equipo y clientes</li>
-                  <li>Realiza ajustes según sea necesario</li>
-                </ul>
-
-                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Consejos Importantes
-                </h3>
-                
-                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>No migres todos tus números a la vez: Comienza con uno o dos números para aprender</li>
-                  <li>Mantén el número anterior activo: Mientras tus clientes se adaptan</li>
-                  <li>Documenta todo: Crea manuales de procedimientos</li>
-                  <li>Busca soporte: No dudes en contactar a tu proveedor si tienes dudas</li>
-                  <li>Planifica para el crecimiento: Elige una solución que pueda escalar con tu negocio</li>
-                </ul>
-
-                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Conclusión
-                </h3>
-                
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  La migración a WhatsApp Business API es un proceso manejable si lo haces paso a paso. Aunque requiere inversión inicial en tiempo y recursos, los beneficios a largo plazo en eficiencia y satisfacción del cliente lo hacen completamente justificable.
+                  {language === 'es' ? 'Migrar a WhatsApp Business API requiere planificación y paciencia, pero los beneficios a largo plazo valen el esfuerzo. Con la guía correcta y la plataforma adecuada, tu negocio puede transformar su comunicación con los clientes.' : 'Migrating to WhatsApp Business API requires planning and patience, but the long-term benefits are worth the effort. With the right guidance and platform, your business can transform its customer communication.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Recuerda que no estás solo en este proceso. Tu proveedor de plataforma y el equipo de soporte de WhatsApp están ahí para ayudarte en cada paso del camino.
+                  {language === 'es' ? 'Recuerda que la migración es un proceso continuo. A medida que tu negocio crece, necesitarás ajustar tus estrategias y optimizar tus flujos de comunicación.' : 'Remember that migration is an ongoing process. As your business grows, you will need to adjust your strategies and optimize your communication flows.'}
                 </p>
               </article>
 

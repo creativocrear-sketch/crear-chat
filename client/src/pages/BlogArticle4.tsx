@@ -76,125 +76,125 @@ export default function BlogArticle4() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  ¿Qué beneficios tengo usando WhatsApp Business API + IA?
+                  {t('articles.article4.title')}
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  La combinación de WhatsApp Business API con Inteligencia Artificial (IA) es una de las transformaciones más poderosas que puede experimentar un negocio moderno. Veamos qué beneficios concretos obtienes.
+                  {language === 'es' ? 'La combinación de WhatsApp Business API con Inteligencia Artificial (IA) es una de las transformaciones más poderosas que puede experimentar un negocio moderno. Veamos qué beneficios concretos obtienes.' : 'The combination of WhatsApp Business API with Artificial Intelligence (AI) is one of the most powerful transformations a modern business can experience. Let\'s see what concrete benefits you get.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Automatización Inteligente 24/7
+                  {language === 'es' ? 'Automatización Inteligente 24/7' : 'Intelligent 24/7 Automation'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Con IA integrada en WhatsApp Business API, tu negocio puede:
+                  {language === 'es' ? 'Con IA integrada en WhatsApp Business API, tu negocio puede:' : 'With AI integrated into WhatsApp Business API, your business can:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Responder consultas de clientes automáticamente, incluso fuera del horario laboral</li>
-                  <li>Procesar pedidos sin intervención humana</li>
-                  <li>Programar citas y reservas automáticamente</li>
-                  <li>Resolver problemas comunes sin escalar a un agente humano</li>
+                  <li>{language === 'es' ? 'Responder consultas de clientes automáticamente, incluso fuera del horario laboral' : 'Automatically respond to customer inquiries, even outside business hours'}</li>
+                  <li>{language === 'es' ? 'Procesar pedidos sin intervención humana' : 'Process orders without human intervention'}</li>
+                  <li>{language === 'es' ? 'Programar citas y reservas automáticamente' : 'Schedule appointments and reservations automatically'}</li>
+                  <li>{language === 'es' ? 'Resolver problemas comunes sin escalar a un agente humano' : 'Resolve common issues without escalating to a human agent'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong>Impacto:</strong> Tus clientes obtienen respuestas inmediatas, mejorando significativamente su satisfacción.
+                  <strong>{language === 'es' ? 'Impacto:' : 'Impact:'}</strong> {language === 'es' ? 'Tus clientes obtienen respuestas inmediatas, mejorando significativamente su satisfacción.' : 'Your customers get immediate responses, significantly improving their satisfaction.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Personalización a Escala
+                  {language === 'es' ? 'Personalización a Escala' : 'Scale Personalization'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  La IA puede analizar el historial de cada cliente y personalizar comunicaciones:
+                  {language === 'es' ? 'La IA puede analizar el historial de cada cliente y personalizar comunicaciones:' : 'AI can analyze each customer\'s history and personalize communications:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Recomendaciones de productos basadas en compras anteriores</li>
-                  <li>Ofertas personalizadas según preferencias</li>
-                  <li>Mensajes adaptados al tono y preferencias del cliente</li>
-                  <li>Contenido relevante para cada segmento</li>
+                  <li>{language === 'es' ? 'Recomendaciones de productos basadas en compras anteriores' : 'Product recommendations based on previous purchases'}</li>
+                  <li>{language === 'es' ? 'Ofertas personalizadas según preferencias' : 'Personalized offers based on preferences'}</li>
+                  <li>{language === 'es' ? 'Mensajes adaptados al tono y preferencias del cliente' : 'Messages adapted to customer tone and preferences'}</li>
+                  <li>{language === 'es' ? 'Contenido relevante para cada segmento' : 'Relevant content for each segment'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong>Impacto:</strong> Mayor tasa de conversión y clientes más leales.
+                  <strong>{language === 'es' ? 'Impacto:' : 'Impact:'}</strong> {language === 'es' ? 'Mayor tasa de conversión y clientes más leales.' : 'Higher conversion rate and more loyal customers.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Reducción de Costos Operativos
+                  {language === 'es' ? 'Reducción de Costos Operativos' : 'Reduction of Operating Costs'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Con IA manejando tareas repetitivas:
+                  {language === 'es' ? 'Con IA manejando tareas repetitivas:' : 'With AI handling repetitive tasks:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Menos personal necesario para atención al cliente</li>
-                  <li>Reducción de errores humanos</li>
-                  <li>Menor tiempo de respuesta</li>
-                  <li>Optimización de recursos</li>
+                  <li>{language === 'es' ? 'Menos personal necesario para atención al cliente' : 'Less staff needed for customer service'}</li>
+                  <li>{language === 'es' ? 'Reducción de errores humanos' : 'Reduction of human errors'}</li>
+                  <li>{language === 'es' ? 'Menor tiempo de respuesta' : 'Shorter response time'}</li>
+                  <li>{language === 'es' ? 'Optimización de recursos' : 'Resource optimization'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong>Impacto:</strong> Ahorros significativos en costos de operación.
+                  <strong>{language === 'es' ? 'Impacto:' : 'Impact:'}</strong> {language === 'es' ? 'Ahorros significativos en costos de operación.' : 'Significant savings in operating costs.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Análisis Predictivo
+                  {language === 'es' ? 'Análisis Predictivo' : 'Predictive Analysis'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  La IA puede predecir:
+                  {language === 'es' ? 'La IA puede predecir:' : 'AI can predict:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Comportamiento de compra de clientes</li>
-                  <li>Clientes en riesgo de abandonar</li>
-                  <li>Mejor momento para enviar mensajes</li>
-                  <li>Productos que probablemente interesen a cada cliente</li>
+                  <li>{language === 'es' ? 'Comportamiento de compra de clientes' : 'Customer purchasing behavior'}</li>
+                  <li>{language === 'es' ? 'Clientes en riesgo de abandonar' : 'Customers at risk of leaving'}</li>
+                  <li>{language === 'es' ? 'Mejor momento para enviar mensajes' : 'Best time to send messages'}</li>
+                  <li>{language === 'es' ? 'Productos que probablemente interesen a cada cliente' : 'Products likely to interest each customer'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong>Impacto:</strong> Toma de decisiones más informada y estratégica.
+                  <strong>{language === 'es' ? 'Impacto:' : 'Impact:'}</strong> {language === 'es' ? 'Toma de decisiones más informada y estratégica.' : 'More informed and strategic decision-making.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Mejora Continua
+                  {language === 'es' ? 'Mejora Continua' : 'Continuous Improvement'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Los sistemas de IA aprenden con cada interacción:
+                  {language === 'es' ? 'Los sistemas de IA aprenden con cada interacción:' : 'AI systems learn with each interaction:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>Mejoran las respuestas con el tiempo</li>
-                  <li>Identifican patrones de problemas comunes</li>
-                  <li>Sugieren mejoras en procesos</li>
-                  <li>Se adaptan a cambios en el comportamiento del cliente</li>
+                  <li>{language === 'es' ? 'Mejoran las respuestas con el tiempo' : 'They improve responses over time'}</li>
+                  <li>{language === 'es' ? 'Identifican patrones de problemas comunes' : 'They identify common problem patterns'}</li>
+                  <li>{language === 'es' ? 'Sugieren mejoras en procesos' : 'They suggest process improvements'}</li>
+                  <li>{language === 'es' ? 'Se adaptan a cambios en el comportamiento del cliente' : 'They adapt to changes in customer behavior'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong>Impacto:</strong> Tu sistema se vuelve más eficiente cada día.
+                  <strong>{language === 'es' ? 'Impacto:' : 'Impact:'}</strong> {language === 'es' ? 'Tu sistema se vuelve más eficiente cada día.' : 'Your system becomes more efficient every day.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  Escalabilidad Sin Límites
+                  {language === 'es' ? 'Escalabilidad Sin Límites' : 'Unlimited Scalability'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Mientras que los agentes humanos tienen límites:
+                  {language === 'es' ? 'Mientras que los agentes humanos tienen límites:' : 'While human agents have limits:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>La IA puede manejar miles de conversaciones simultáneamente</li>
-                  <li>No se fatiga ni comete errores por cansancio</li>
-                  <li>Puede crecer con tu negocio sin aumentar costos proporcionalmente</li>
-                  <li>Mantiene calidad consistente</li>
+                  <li>{language === 'es' ? 'La IA puede manejar miles de conversaciones simultáneamente' : 'AI can handle thousands of simultaneous conversations'}</li>
+                  <li>{language === 'es' ? 'No se fatiga ni comete errores por cansancio' : 'It doesn\'t get tired or make mistakes due to fatigue'}</li>
+                  <li>{language === 'es' ? 'Puede crecer con tu negocio sin aumentar costos proporcionalmente' : 'It can grow with your business without proportionally increasing costs'}</li>
+                  <li>{language === 'es' ? 'Mantiene calidad consistente' : 'Maintains consistent quality'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong>Impacto:</strong> Puedes crecer sin limitaciones de recursos humanos.
+                  <strong>{language === 'es' ? 'Impacto:' : 'Impact:'}</strong> {language === 'es' ? 'Puedes crecer sin limitaciones de recursos humanos.' : 'You can grow without human resource limitations.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
