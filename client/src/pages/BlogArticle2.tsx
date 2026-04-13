@@ -402,7 +402,7 @@ export default function BlogArticle2() {
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>5 min</span>
-                      <a href="/blog/articulo-1" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                      <a href="/blog/diferencia-whatsapp-business-api" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
                         {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
@@ -422,7 +422,7 @@ export default function BlogArticle2() {
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>7 min</span>
-                      <a href="/blog/articulo-3" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                      <a href="/blog/primeros-pasos-migrar-whatsapp-api" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
                         {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
@@ -442,7 +442,7 @@ export default function BlogArticle2() {
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>6 min</span>
-                      <a href="/blog/articulo-4" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                      <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
                         {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
