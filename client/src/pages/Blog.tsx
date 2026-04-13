@@ -4,6 +4,24 @@ import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronRight } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
+// Función para generar rutas SEO amigables
+const getSEOPath = (articleNumber: number): string => {
+  const seoPaths: { [key: number]: string } = {
+    1: '/blog/diferencia-whatsapp-business-api',
+    2: '/blog/casos-uso-whatsapp-business-api',
+    3: '/blog/primeros-pasos-migrar-whatsapp-api',
+    4: '/blog/beneficios-whatsapp-business-api-ia',
+    5: '/blog/plataformas-integracion-whatsapp-api',
+    6: '/blog/por-que-necesito-plataforma-whatsapp',
+    7: '/blog/diferencias-plataformas-whatsapp',
+    8: '/blog/cobro-plataformas-whatsapp',
+    9: '/blog/como-seleccionar-proveedor-whatsapp',
+    10: '/blog/politicas-whatsapp-business-api',
+    11: '/blog/por-que-restringen-whatsapp'
+  };
+  return seoPaths[articleNumber] || `/blog/articulo-${articleNumber}`;
+};
+
 const getBlogArticles = (language: string) => [
   {
     category: language === 'es' ? "Conceptos Básicos" : "Basic Concepts",
@@ -168,7 +186,7 @@ export default function Blog() {
 
                       {/* Read More Link */}
                       <a
-                        href={`/blog/articulo-${index + 1}`}
+                        href={getSEOPath(index + 1)}
                         className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium text-sm transition-colors group"
                       >
                         {t('blog.readMore')}

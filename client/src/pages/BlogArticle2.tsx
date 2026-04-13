@@ -335,7 +335,7 @@ export default function BlogArticle2() {
                   <div className="text-left">
                     <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Artículo anterior' : 'Previous article'}</p>
                     <a
-                      href="/blog/articulo-1"
+                      href="/blog/diferencia-whatsapp-business-api"
                       className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                     >
                       {language === 'es' ? '¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?' : 'What is the difference between WhatsApp Business and WhatsApp Business API?'}
@@ -344,7 +344,7 @@ export default function BlogArticle2() {
                   <div className="text-right">
                     <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Siguiente artículo' : 'Next article'}</p>
                     <a
-                      href="/blog/articulo-3"
+                      href="/blog/primeros-pasos-migrar-whatsapp-api"
                       className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                     >
                       {language === 'es' ? '¿Cuáles son los primeros pasos para migrar WhatsApp Business API?' : 'What are the first steps to migrate WhatsApp Business API?'}

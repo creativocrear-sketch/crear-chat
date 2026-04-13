@@ -34,6 +34,18 @@ function Router() {
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/blog"} component={Blog} />
+      <Route path={"/blog/diferencia-whatsapp-business-api"} component={BlogArticle1} />
+      <Route path={"/blog/casos-uso-whatsapp-business-api"} component={BlogArticle2} />
+      <Route path={"/blog/primeros-pasos-migrar-whatsapp-api"} component={BlogArticle3} />
+      <Route path={"/blog/beneficios-whatsapp-business-api-ia"} component={BlogArticle4} />
+      <Route path={"/blog/plataformas-integracion-whatsapp-api"} component={BlogArticle5} />
+      <Route path={"/blog/por-que-necesito-plataforma-whatsapp"} component={BlogArticle6} />
+      <Route path={"/blog/diferencias-plataformas-whatsapp"} component={BlogArticle7} />
+      <Route path={"/blog/cobro-plataformas-whatsapp"} component={BlogArticle8} />
+      <Route path={"/blog/como-seleccionar-proveedor-whatsapp"} component={BlogArticle9} />
+      <Route path={"/blog/politicas-whatsapp-business-api"} component={BlogArticle10} />
+      <Route path={"/blog/por-que-restringen-whatsapp"} component={BlogArticle11} />
+      {/* Rutas antiguas para compatibilidad - redirección */}
       <Route path={"/blog/articulo-1"} component={BlogArticle1} />
       <Route path={"/blog/articulo-2"} component={BlogArticle2} />
       <Route path={"/blog/articulo-3"} component={BlogArticle3} />
