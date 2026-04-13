@@ -257,7 +257,7 @@ export default function BlogArticle9() {
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '5. Soporte y Servicio' : '5. Support and Service'}
+                  {language === 'es' ? '5. Soporte y servicio' : '5. Support and service'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -281,7 +281,7 @@ export default function BlogArticle9() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Documentación y Recursos' : 'Documentation and Resources'}
+                  {language === 'es' ? 'Documentación y recursos' : 'Documentation and resources'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -329,7 +329,7 @@ export default function BlogArticle9() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '7. Características Específicas' : '7. Specific Features'}
+                  {language === 'es' ? '7. Características específicas' : '7. Specific features'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -363,7 +363,7 @@ export default function BlogArticle9() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '8. Experiencia del Usuario' : '8. User Experience'}
+                  {language === 'es' ? '8. Experiencia del usuario' : '8. User experience'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -397,7 +397,7 @@ export default function BlogArticle9() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '9. Términos y Condiciones' : '9. Terms and Conditions'}
+                  {language === 'es' ? '9. Términos y condiciones' : '9. Terms and conditions'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -431,7 +431,7 @@ export default function BlogArticle9() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '10. Pruebas Antes de Comprometerse' : '10. Testing Before Committing'}
+                  {language === 'es' ? '10. Pruebas antes de comprometerse' : '10. Testing before committing'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
