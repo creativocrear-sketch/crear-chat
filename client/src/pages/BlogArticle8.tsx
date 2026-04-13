@@ -297,7 +297,7 @@ export default function BlogArticle8() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Costo de Mensajes de WhatsApp' : 'WhatsApp Message Cost'}
+                  {language === 'es' ? 'Costo de mensajes de WhatsApp' : 'WhatsApp message cost'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -315,7 +315,7 @@ export default function BlogArticle8() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Costo de Integración' : 'Integration Cost'}
+                  {language === 'es' ? 'Costo de integración' : 'Integration cost'}
                 </h4>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -329,7 +329,7 @@ export default function BlogArticle8() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Costo de Automatización' : 'Automation Cost'}
+                  {language === 'es' ? 'Costo de automatización' : 'Automation cost'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -339,7 +339,7 @@ export default function BlogArticle8() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Costo de Soporte' : 'Support Cost'}
+                  {language === 'es' ? 'Costo de soporte' : 'Support cost'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -350,11 +350,11 @@ export default function BlogArticle8() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Ejemplos de Costos Mensuales Reales' : 'Real Monthly Cost Examples'}
+                  {language === 'es' ? 'Ejemplos de costos mensuales reales' : 'Real monthly cost examples'}
                 </h3>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Pequeño Negocio (100 conversaciones/mes)' : 'Small Business (100 conversations/month)'}
+                  {language === 'es' ? 'Pequeño negocio (100 conversaciones/mes)' : 'Small business (100 conversations/month)'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
@@ -378,7 +378,7 @@ export default function BlogArticle8() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Negocio Mediano (10,000 conversaciones/mes)' : 'Medium Business (10,000 conversations/month)'}
+                  {language === 'es' ? 'Negocio mediano (10,000 conversaciones/mes)' : 'Medium business (10,000 conversations/month)'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
@@ -402,7 +402,7 @@ export default function BlogArticle8() {
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Negocio Grande (100,000 conversaciones/mes)' : 'Large Business (100,000 conversations/month)'}
+                  {language === 'es' ? 'Negocio grande (100,000 conversaciones/mes)' : 'Large business (100,000 conversations/month)'}
                 </h4>
                 
                 <p className="text-gray-600 mb-4 leading-relaxed">
@@ -427,7 +427,7 @@ export default function BlogArticle8() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Cómo Calcular tu Costo' : 'How to Calculate Your Cost'}
+                  {language === 'es' ? 'Cómo calcular tu costo' : 'How to calculate your cost'}
                 </h3>
                 
                 <ol className="list-decimal pl-6 space-y-2 text-gray-600 mb-6">
@@ -439,7 +439,7 @@ export default function BlogArticle8() {
                 </ol>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Consejos para Ahorrar' : 'Tips to Save'}
+                  {language === 'es' ? 'Consejos para ahorrar' : 'Tips to save'}
                 </h3>
                 
                 <ol className="list-decimal pl-6 space-y-2 text-gray-600 mb-6">
