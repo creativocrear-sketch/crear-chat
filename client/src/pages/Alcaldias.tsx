@@ -101,13 +101,13 @@ function Alcaldias() {
                       {/* Category */}
                       <div className="mb-4">
                         <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full">
-                          {article.category}
+                          {article.category.charAt(0).toUpperCase() + article.category.slice(1)}
                         </span>
                       </div>
 
                       {/* Title */}
                       <h3 className="font-bold text-lg md:text-xl text-gray-900 mb-3 line-clamp-2 group-hover:text-[#1B4F72] transition-colors">
-                        {article.title}
+                        {article.title.charAt(0).toUpperCase() + article.title.slice(1)}
                       </h3>
 
                       {/* Excerpt */}
