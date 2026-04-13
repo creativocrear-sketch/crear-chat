@@ -505,6 +505,93 @@ const translations = {
         }
       }
     },
+    // Alcaldías
+    alcaldias: {
+      title: 'Soluciones para Alcaldías',
+      subtitle: 'Transforma tu ciudad con tecnología',
+      description: 'Soluciones inteligentes de WhatsApp para modernizar los servicios ciudadanos y potenciar el turismo local.',
+      hero: {
+        title: 'Innovación para Gobiernos Locales',
+        subtitle: 'Convierte WhatsApp en tu mejor herramienta de gestión ciudadana'
+      },
+      cta: {
+        title: '¿Listo para transformar tu alcaldía?',
+        subtitle: 'Implementa soluciones inteligentes y mejora la vida de tus ciudadanos',
+        button: 'Solicitar Demo'
+      },
+      stats: {
+        articles: 'Artículos especializados',
+        updated: 'Actualizado regularmente',
+        focus: 'Enfoque gubernamental'
+      },
+      article1: {
+        title: 'Convierte WhatsApp en tu Mejor Guía Turística 24/7',
+        subtitle: 'Automatiza la atención, mejora la experiencia y aumenta el consumo turístico en tu ciudad o negocio',
+        intro: 'El problema que tienes (incluso si no te das cuenta)',
+        problem: {
+          title: 'El turista de hoy es inmediato. No espera.',
+          description: 'Si alguien pregunta: "¿Qué hacer hoy?", "¿Dónde está este lugar?", "¿Qué hay cerca?" y no recibe respuesta en segundos... simplemente va a otra opción.',
+          issues: [
+            'Consultas sin respuesta',
+            'Información dispersa',
+            'Personal abrumado',
+            'Oportunidades de venta perdidas'
+          ],
+          conclusion: 'Cada mensaje sin respuesta es dinero que estás dejando en la mesa.'
+        },
+        solution: {
+          title: 'La solución: Turismo IA en WhatsApp',
+          description: 'Ahora puedes tener un asistente inteligente que responde automáticamente a cada turista, a cualquier hora del día. Sin apps. Sin descargas. Sin fricción. Directamente desde WhatsApp.',
+          features: [
+            'Recomendaciones de lugares turísticos',
+            'Restaurantes por presupuesto',
+            'Actividades y planes diarios',
+            'Eventos cercanos',
+            'Hoteles disponibles',
+            'Direcciones con mapas',
+            'Rutas personalizadas'
+          ],
+          adaptation: 'Incluso puede adaptarse a lo que busca el usuario: Turismo económico, Planes familiares, Experiencias premium'
+        },
+        benefits: {
+          title: 'Beneficios para tu ciudad',
+          intro: 'Más que solo responder preguntas, estás transformando la experiencia turística completa.',
+          keyBenefits: [
+            'Aumento del 40% en tiempo de permanencia',
+            'Reducción del 60% en consultas repetitivas',
+            'Mejora del 85% en satisfacción del visitante',
+            'Incremento del 25% en consumo local'
+          ]
+        },
+        useCases: {
+          title: 'Casos de uso perfectos',
+          intro: 'Ideal para cualquier negocio que atienda turistas',
+          applications: [
+            'Oficinas de turismo',
+            'Hoteles y alojamientos',
+            'Restaurantes y bares',
+            'Atracciones turísticas',
+            'Tiendas locales',
+            'Servicios de transporte'
+          ]
+        },
+        whyWhatsApp: {
+          title: '¿Por qué WhatsApp?',
+          intro: 'La plataforma perfecta para atención turística',
+          advantages: [
+            '2,000 millones de usuarios activos',
+            '97% de los turistas ya lo usan',
+            'Comunicación instantánea',
+            'Sin necesidad de instalar apps',
+            'Soporte multimedia nativo',
+            'Funciona con conexiones lentas'
+          ],
+          conclusion: 'Donde ya están tus clientes, ahí debe estar tu servicio.'
+        },
+        conclusion: 'Comienza hoy mismo a transformar la atención turística de tu ciudad. No dejes que otro mensaje sin respuesta se convierta en otra oportunidad perdida.',
+        shareText: 'Descubre cómo convertir WhatsApp en el mejor guía turístico 24/7 para tu ciudad o negocio.'
+      }
+    },
     // Blog Articles
     articles: {
       article1: {
