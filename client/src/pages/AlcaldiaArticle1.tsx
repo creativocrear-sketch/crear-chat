@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Calendar, Clock, ChevronLeft, Share2, Facebook, MessageCircle } from "lucide-react";
+import { Calendar, Clock, ChevronLeft, ChevronRight, Share2, MessageCircle, Facebook } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function AlcaldiaArticle1() {
@@ -50,7 +50,7 @@ export default function AlcaldiaArticle1() {
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                {t('alcaldias.article1.title')}
+                {language === 'es' ? 'Convierte WhatsApp en tu Mejor Guía Turístico 24/7' : 'Turn WhatsApp into Your Best 24/7 Tourist Guide'}
               </h1>
               
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
@@ -76,23 +76,23 @@ export default function AlcaldiaArticle1() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  {t('alcaldias.article1.title')}
+                  {language === 'es' ? 'Convierte WhatsApp en tu Mejor Guía Turístico 24/7' : 'Turn WhatsApp into Your Best 24/7 Tourist Guide'}
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {t('alcaldias.article1.subtitle')}
+                  {language === 'es' ? 'Automatiza la atención, mejora la experiencia y aumenta el consumo turístico en tu ciudad o negocio' : 'Automate attention, improve experience, and increase tourism consumption in your city or business'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {t('alcaldias.article1.intro')}
+                  {language === 'es' ? 'El problema que tienes (incluso si no te das cuenta)' : 'The problem you\'re having (even if you don\'t notice it)'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {t('alcaldias.article1.problem.description')}
+                  {language === 'es' ? 'Si alguien pregunta: "¿Qué hacer hoy?", "¿Dónde está este lugar?", "¿Qué hay cerca?" y no recibe respuesta en segundos... simplemente va a otra opción.' : 'If someone asks: "What to do today?", "Where is this place?", "What\'s nearby?" and doesn\'t receive a response in seconds... they simply go to another option.'}
                 </p>
 
-                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {t('alcaldias.article1.problem.title')}
+                <h4 className="text-lg font-bold text-gray-900 mb-3">
+                  {language === 'es' ? 'El turista de hoy es inmediato. No espera.' : 'Today\'s tourist is immediate. They don\'t wait.'}
                 </h4>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -118,15 +118,15 @@ export default function AlcaldiaArticle1() {
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {t('alcaldias.article1.problem.conclusion')}
+                  {language === 'es' ? 'Cada mensaje sin respuesta es dinero que estás dejando en la mesa.' : 'Every unanswered message is money you\'re leaving behind.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {t('alcaldias.article1.solution.title')}
+                  {language === 'es' ? 'La solución: Turismo IA en WhatsApp' : 'The solution: Tourism AI on WhatsApp'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {t('alcaldias.article1.solution.description')}
+                  {language === 'es' ? 'Ahora puedes tener un asistente inteligente que responde automáticamente a cada turista, a cualquier hora del día. Sin apps. Sin descargas. Sin fricción. Directamente desde WhatsApp.' : 'Now you can have an intelligent assistant that automatically responds to every tourist, at any time of day. No apps. No downloads. No friction. Directly from WhatsApp.'}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -156,15 +156,15 @@ export default function AlcaldiaArticle1() {
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {t('alcaldias.article1.solution.adaptation')}
+                  {language === 'es' ? 'Incluso puede adaptarse a lo que busca el usuario: Turismo económico, Planes familiares, Experiencias premium' : 'It can even adapt to what the user is looking for: Budget tourism, Family plans, Premium experiences'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {t('alcaldias.article1.benefits.title')}
+                  {language === 'es' ? 'Beneficios que directamente impactan tus resultados' : 'Benefits that directly impact your results'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {t('alcaldias.article1.benefits.intro')}
+                  {language === 'es' ? 'Implementar esta IA no es solo innovación... es crecimiento:' : 'Implementing this AI is not just innovation... it\'s growth:'}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -194,11 +194,11 @@ export default function AlcaldiaArticle1() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {t('alcaldias.article1.useCases.title')}
+                  {language === 'es' ? 'Casos de uso perfectos' : 'Real use cases'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {t('alcaldias.article1.useCases.intro')}
+                  {language === 'es' ? 'Esta solución es ideal para:' : 'This solution is ideal for:'}
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
@@ -221,11 +221,11 @@ export default function AlcaldiaArticle1() {
                 </div>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {t('alcaldias.article1.whyWhatsApp.title')}
+                  {language === 'es' ? '¿Por qué WhatsApp?' : 'Why WhatsApp?'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {t('alcaldias.article1.whyWhatsApp.intro')}
+                  {language === 'es' ? 'La plataforma perfecta para atención turística' : 'The perfect platform for tourist attention'}
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -255,9 +255,31 @@ export default function AlcaldiaArticle1() {
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {t('alcaldias.article1.whyWhatsApp.conclusion')}
+                  {language === 'es' ? 'Donde ya están tus clientes, ahí debe estar tu servicio.' : 'Where your customers already are, that\'s where your service should be.'}
                 </p>
               </article>
+
+              {/* CTA Section */}
+              <div className="mt-12 pt-8 border-t border-gray-200">
+                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-12 text-center">
+                  <h3 className="font-bold text-2xl md:text-3xl text-gray-900 mb-4">
+                    {language === 'es' ? '¿Te interesa saber más?' : 'Interested in learning more?'}
+                  </h3>
+                  <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto">
+                    {language === 'es' ? 'Implementa WhatsApp Business API y comienza a automatizar la atención al cliente' : 'Implement WhatsApp Business API and start automating customer service'}
+                  </p>
+                  
+                  <a
+                    href="https://wa.me/+573105317126"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
+                  >
+                    <MessageCircle className="w-5 h-5 mr-2" />
+                    {language === 'es' ? 'Escríbenos por WhatsApp' : 'Write to us on WhatsApp'}
+                  </a>
+                </div>
+              </div>
 
               {/* Share Section */}
               <div className="mt-12 pt-8 border-t border-gray-200">
@@ -303,9 +325,13 @@ export default function AlcaldiaArticle1() {
                     <p className="text-sm text-gray-500 mb-1">
                       {language === 'es' ? 'Próximo artículo' : 'Next article'}
                     </p>
-                    <span className="text-gray-400 font-medium">
-                      {language === 'es' ? 'Próximamente...' : 'Coming soon...'}
-                    </span>
+                    <a
+                      href="/alcaldias/consulta-deudas-whatsapp"
+                      className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors"
+                    >
+                      {language === 'es' ? 'Consulta de Deudas por WhatsApp en Segundos' : 'Debt Inquiry via WhatsApp in Seconds'}
+                      <ChevronRight className="w-4 h-4" />
+                    </a>
                   </div>
                 </div>
               </div>

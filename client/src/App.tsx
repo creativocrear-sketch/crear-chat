@@ -20,6 +20,9 @@ import BlogArticle10 from "./pages/BlogArticle10";
 import BlogArticle11 from "./pages/BlogArticle11";
 import Alcaldias from "./pages/Alcaldias";
 import AlcaldiaArticle1 from "./pages/AlcaldiaArticle1";
+import AlcaldiaArticle2 from "./pages/AlcaldiaArticle2";
+import AlcaldiaArticle3 from "./pages/AlcaldiaArticle3";
+import AlcaldiaArticle4 from "./pages/AlcaldiaArticle4";
 import Planes from "./pages/Planes";
 import ConsultoriaWhatsApp from "./pages/ConsultoriaWhatsApp";
 import EstrategiasMarketing from "./pages/EstrategiasMarketing";
@@ -61,6 +64,9 @@ function Router() {
       <Route path={"/blog/articulo-11"} component={BlogArticle11} />
       <Route path={"/alcaldias"} component={Alcaldias} />
       <Route path={"/alcaldias/guia-turistica-whatsapp"} component={AlcaldiaArticle1} />
+      <Route path={"/alcaldias/consulta-deudas-whatsapp"} component={AlcaldiaArticle2} />
+      <Route path={"/alcaldias/plataforma-educativa-whatsapp"} component={AlcaldiaArticle3} />
+      <Route path={"/alcaldias/consulta-sisben-subsidios"} component={AlcaldiaArticle4} />
       <Route path={"/planes"} component={Planes} />
       <Route path={"/consultoria-whatsapp"} component={ConsultoriaWhatsApp} />
       <Route path={"/estrategias-marketing"} component={EstrategiasMarketing} />
