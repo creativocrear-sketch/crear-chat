@@ -539,15 +539,7 @@ function AlcaldiaArticle3() {
                   </ul>
                 </div>
 
-                <div className="bg-orange-50 border-l-4 border-orange-500 p-6 mb-6">
-                  <p className="text-orange-800 font-semibold mb-2">
-                    {language === 'es' ? '\ud83d\udd25 Esto ya está nivel venta + técnico' : '\ud83d\udd25 This is already sales + technical level'}
-                  </p>
-                  <p className="text-orange-700 text-sm">
-                    {language === 'es' ? 'Con esto puedes: venderlo a colegios o empresas, explicar cómo funciona (sin sonar humo), diferenciarte de "chatbots básicos"' : 'With this you can: sell it to schools or companies, explain how it works (without sounding like smoke), differentiate from "basic chatbots"'}
-                  </p>
-                </div>
-              </article>
+                              </article>
 
               {/* CTA Section */}
               <div className="mt-12 pt-8 border-t border-gray-200">
