@@ -237,28 +237,7 @@ function AlcaldiaArticle3() {
                   {language === 'es' ? '\ud83d\udc49 Cada respuesta cambia la historia. Esto crea una experiencia tipo simulador.' : '\ud83d\udc49 Each answer changes the story. This creates a simulator-type experience.'}
                 </p>
 
-                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '5. Juegos de memoria' : '5. Memory games'}
-                </h4>
-
-                <p className="text-gray-600 mb-4 leading-relaxed">
-                  {language === 'es' ? 'Primero muestras información:' : 'First you show information:'}
-                </p>
-
-                <div className="bg-gray-50 p-4 rounded-lg mb-4">
-                  <p className="text-gray-700">1. {language === 'es' ? 'Producto A' : 'Product A'}</p>
-                  <p className="text-gray-700">2. {language === 'es' ? 'Producto B' : 'Product B'}</p>
-                  <p className="text-gray-700">3. {language === 'es' ? 'Producto C' : 'Product C'}</p>
-                </div>
-
-                <p className="text-gray-600 mb-4 leading-relaxed">
-                  {language === 'es' ? 'Luego preguntas:' : 'Then you ask:'}
-                </p>
-
-                <div className="bg-gray-50 p-4 rounded-lg mb-4">
-                  <p className="text-gray-700">{language === 'es' ? '\ud83d\udc49 "¿Cuál era el segundo producto?"' : '\ud83d\udc49 "What was the second product?"'}</p>
-                </div>
-
+                
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '6. Adivinanzas' : '6. Riddles'}
                 </h4>
