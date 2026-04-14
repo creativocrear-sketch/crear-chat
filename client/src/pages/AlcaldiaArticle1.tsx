@@ -446,11 +446,11 @@ export default function AlcaldiaArticle1() {
 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
                   {language === 'es' ? [
-                    <li key="1">👉 Solicita una demo gratuita</li>,
+                    <li key="1">👉 Solicita una demo</li>,
                     <li key="2">👉 Descubre cómo implementar tu IA turística</li>,
                     <li key="3">👉 Lleva tu destino al siguiente nivel 🚀</li>
                   ] : [
-                    <li key="1">👉 Request a free demo</li>,
+                    <li key="1">👉 Request a demo</li>,
                     <li key="2">👉 Discover how to implement your tourism AI</li>,
                     <li key="3">👉 Take your destination to the next level 🚀</li>
                   ]}
