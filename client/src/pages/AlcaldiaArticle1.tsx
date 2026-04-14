@@ -75,12 +75,8 @@ export default function AlcaldiaArticle1() {
           <div className="container">
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
-                <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                  {language === 'es' ? 'Permite que los turistas encuentren fácilmente la información comercial de las empresas y profesionales que tiene tu municipio' : 'Allows tourists to easily find commercial information from companies and professionals in your municipality'}
-                </h1>
-              
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Imagina en una sola consulta el turista tenga opciones de alojamiento, comida, lavado del vehículo, cines y hasta un chequeo médico para su mascota' : 'Imagine that with a single query, tourists have options for accommodation, food, car washing, cinemas and even a medical check-up for their pet'}
+                  {language === 'es' ? 'Permite que los turistas encuentren fácilmente la información comercial de las empresas y profesionales que tiene tu municipio. Imagina en una sola consulta el turista tenga opciones de alojamiento, comida, lavado del vehículo, cines y hasta un chequeo médico para su mascota' : 'Allows tourists to easily find commercial information from companies and professionals in your municipality. Imagine that with a single query, tourists have options for accommodation, food, car washing, cinemas and even a medical check-up for their pet'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
