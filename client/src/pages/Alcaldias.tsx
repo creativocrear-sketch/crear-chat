@@ -40,6 +40,15 @@ const getAlcaldiasArticles = (language: string) => [
     readTime: language === 'es' ? "5 min" : "5 min",
     author: language === 'es' ? "Autor: Alex Murillo + equipo de soporte" : "Author: Alex Murillo + support team",
     path: "/alcaldias/consulta-sisben-subsidios"
+  },
+  {
+    category: language === 'es' ? "Gestión operativa" : "Operational management",
+    title: language === 'es' ? "Consulta de turnos de agentes de tránsito por WhatsApp" : "Traffic agent shift inquiry via WhatsApp",
+    excerpt: language === 'es' ? "Acceso inmediato a la programación, menos carga operativa y mejor coordinación en campo" : "Immediate access to scheduling, less operational load and better field coordination",
+    date: language === 'es' ? "13 de abril de 2026" : "April 13, 2026",
+    readTime: language === 'es' ? "7 min" : "7 min",
+    author: language === 'es' ? "Autor: Alex Murillo + equipo de soporte" : "Author: Alex Murillo + support team",
+    path: "/alcaldias/consulta-turnos-agentes-transito"
   }
 ];
 
