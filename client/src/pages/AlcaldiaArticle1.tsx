@@ -194,36 +194,35 @@ export default function AlcaldiaArticle1() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Casos de uso perfectos' : 'Real use cases'}
+                  {language === 'es' ? 'Casos de uso perfectos' : 'Perfect use cases'}
                 </h3>
                 
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Esta solución es ideal para:' : 'This solution is ideal for:'}
-                </p>
-
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfdb\ufe0f'} {language === 'es' ? 'Oficinas de turismo' : 'Tourist offices'}</h5>
-                    <p className="text-sm text-gray-600">{language === 'es' ? 'Información general y direcciones' : 'General information and directions'}</p>
+                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfe0'} {language === 'es' ? 'Hoteles y restaurantes' : 'Hotels and restaurants'}</h5>
+                    <p className="text-sm text-gray-600">{language === 'es' ? 'Reservas, menú, promociones, atención 24/7' : 'Reservations, menu, promotions, 24/7 attention'}</p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfe8'} {language === 'es' ? 'Hoteles y alojamientos' : 'Hotels and accommodations'}</h5>
-                    <p className="text-sm text-gray-600">{language === 'es' ? 'Disponibilidad y servicios' : 'Availability and services'}</p>
+                    <h5 className="font-semibold text-gray-900 mb-2">{'\u26ea'} {language === 'es' ? 'Iglesias' : 'Churches'}</h5>
+                    <p className="text-sm text-gray-600">{language === 'es' ? 'Horarios de apertura, misas, eventos' : 'Opening hours, masses, events'}</p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udf7d\ufe0f'} {language === 'es' ? 'Restaurantes y bares' : 'Restaurants and bars'}</h5>
-                    <p className="text-sm text-gray-600">{language === 'es' ? 'Menús y reservas' : 'Menus and reservations'}</p>
+                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfea'} {language === 'es' ? 'Atractivos turísticos' : 'Tourist attractions'}</h5>
+                    <p className="text-sm text-gray-600">{language === 'es' ? 'Información, horarios, precios, ubicación' : 'Information, schedules, prices, location'}</p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfea'} {language === 'es' ? 'Atracciones turísticas' : 'Tourist attractions'}</h5>
-                    <p className="text-sm text-gray-600">{language === 'es' ? 'Horarios y precios' : 'Hours and prices'}</p>
+                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udf93'} {language === 'es' ? 'Transporte' : 'Transportation'}</h5>
+                    <p className="text-sm text-gray-600">{language === 'es' ? 'Taxis, buses, rutas, transporte público' : 'Taxis, buses, routes, public transport'}</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfcb'} {language === 'es' ? 'Servicios públicos' : 'Public services'}</h5>
+                    <p className="text-sm text-gray-600">{language === 'es' ? 'Oficinas, trámites, información oficial' : 'Offices, procedures, official information'}</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h5 className="font-semibold text-gray-900 mb-2">{'\ud83c\udfe2'} {language === 'es' ? 'Comercios locales' : 'Local businesses'}</h5>
+                    <p className="text-sm text-gray-600">{language === 'es' ? 'Tiendas, mercados, productos artesanales' : 'Shops, markets, artisanal products'}</p>
                   </div>
                 </div>
-
-                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '¿Por qué WhatsApp?' : 'Why WhatsApp?'}
-                </h3>
-                
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? 'La plataforma perfecta para atención turística' : 'The perfect platform for tourist attention'}
                 </p>
