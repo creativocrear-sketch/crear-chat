@@ -516,5 +516,9 @@ export default function AlcaldiaArticle1() {
             </div>
           </div>
         </section>
+      </main>
+      
+      <Footer />
+    </div>
   );
 }
