@@ -50,11 +50,11 @@ function AlcaldiaArticle3() {
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                {language === 'es' ? 'Permite que los turistas encuentren fácilmente la información comercial de tu municipio' : 'Allows tourists to easily find commercial information from your municipality'}
+                {language === 'es' ? 'Convierte WhatsApp en una plataforma educativa interactiva' : 'Turn WhatsApp into an interactive educational platform'}
               </h1>
               
               <p className="text-gray-600 mb-6 leading-relaxed">
-                {language === 'es' ? 'Imagina en una sola consulta el turista tenga opciones de alojamiento, comida, lavado del vehículo, cines y hasta un chequeo médico para su mascota' : 'Imagine that with a single query, tourists have options for accommodation, food, car washing, cinemas and even a medical check-up for their pet'}
+                {language === 'es' ? 'Motiva, evalúa y premia a tus estudiantes con preguntas de selección múltiple desde el canal que ya usan todos los días' : 'Motivate, evaluate and reward your students with multiple choice questions from the channel they already use every day'}
               </p>
 
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
