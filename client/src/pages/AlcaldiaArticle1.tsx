@@ -219,6 +219,86 @@ export default function AlcaldiaArticle1() {
                     <p className="text-sm text-gray-600">{language === 'es' ? 'Tiendas, mercados, productos artesanales' : 'Shops, markets, artisanal products'}</p>
                   </div>
                 </div>
+
+                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
+                  {language === 'es' ? '🔒 Escalable y sin límites' : '🔒 Scalable and without limits'}
+                </h3>
+
+                <p className="text-gray-600 mb-4 leading-relaxed">
+                  {language === 'es' ? 'Atiende 10 o 10,000 usuarios al mismo tiempo' : 'Attends 10 or 10,000 users at the same time'}
+                </p>
+
+                <p className="text-gray-600 mb-4 leading-relaxed">
+                  {language === 'es' ? 'Funciona 24/7 sin descanso' : 'Works 24/7 without rest'}
+                </p>
+
+                <p className="text-gray-600 mb-4 leading-relaxed">
+                  {language === 'es' ? 'Se adapta a nuevas rutas y lugares' : 'Adapts to new routes and places'}
+                </p>
+
+                <p className="text-gray-600 mb-4 leading-relaxed">
+                  {language === 'es' ? 'Crece contigo sin aumentar personal' : 'Grows with you without increasing staff'}
+                </p>
+
+                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                  {language === 'es' ? '📊 ¿Por qué WhatsApp?' : '📊 Why WhatsApp?'}
+                </h4>
+
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'Porque es donde están tus usuarios:' : 'Because that\'s where your users are:'}
+                </p>
+
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  {language === 'es' ? [
+                    'Más del 90% de las personas lo usan diariamente',
+                    'No requiere aprendizaje',
+                    'Tiene alta tasa de respuesta',
+                    'Es el canal más directo y efectivo'
+                  ].map((reason, index) => (
+                    <li key={index}>{reason}</li>
+                  )) : [
+                    'More than 90% of people use it daily',
+                    'No learning required',
+                    'Has high response rate',
+                    'It\'s the most direct and effective channel'
+                  ].map((reason, index) => (
+                    <li key={index}>{reason}</li>
+                  ))}
+                </ul>
+
+                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                  {language === 'es' ? '👉 Estás llevando el turismo al lugar correcto.' : '👉 You\'re taking tourism to the right place.'}
+                </h4>
+
+                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                  {language === 'es' ? '🎯 Diferencial clave' : '🎯 Key differential'}
+                </h4>
+
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'No es un chatbot básico.' : 'It\'s not a basic chatbot.'}
+                </p>
+
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'Es una IA que:' : 'It\'s an AI that:'}
+                </p>
+
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  {language === 'es' ? [
+                    'Entiende lenguaje natural',
+                    'Responde de forma contextual',
+                    'Aprende y mejora',
+                    'Ofrece respuestas útiles, no genéricas'
+                  ].map((capability, index) => (
+                    <li key={index}>{capability}</li>
+                  )) : [
+                    'Understands natural language',
+                    'Responds contextually',
+                    'Learns and improves',
+                    'Receives useful, not generic responses'
+                  ].map((capability, index) => (
+                    <li key={index}>{capability}</li>
+                  ))}
+                </ul>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? 'La plataforma perfecta para atención turística' : 'The perfect platform for tourist attention'}
                 </p>
