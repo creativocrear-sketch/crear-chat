@@ -239,7 +239,7 @@ function AlcaldiaArticle3() {
 
                 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '6. Adivinanzas' : '6. Riddles'}
+                  {language === 'es' ? '5. Adivinanzas' : '5. Riddles'}
                 </h4>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -247,7 +247,7 @@ function AlcaldiaArticle3() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '7. Ordenar pasos (simulado)' : '7. Order steps (simulated)'}
+                  {language === 'es' ? '6. Ordenar pasos (simulado)' : '6. Order steps (simulated)'}
                 </h4>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
@@ -263,7 +263,7 @@ function AlcaldiaArticle3() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '8. Encuentra el error' : '8. Find the error'}
+                  {language === 'es' ? '7. Encuentra el error' : '7. Find the error'}
                 </h4>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
@@ -279,7 +279,7 @@ function AlcaldiaArticle3() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '9. Elige tu reto' : '9. Choose your challenge'}
+                  {language === 'es' ? '8. Elige tu reto' : '8. Choose your challenge'}
                 </h4>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -291,7 +291,7 @@ function AlcaldiaArticle3() {
                 </p>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '10. Sistema de puntos y niveles (clave del éxito)' : '10. Points and levels system (key to success)'}
+                  {language === 'es' ? '9. Sistema de puntos y niveles (clave del éxito)' : '9. Points and levels system (key to success)'}
                 </h4>
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
