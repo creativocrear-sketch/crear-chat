@@ -75,12 +75,12 @@ export default function AlcaldiaArticle1() {
           <div className="container">
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  {language === 'es' ? 'Convierte WhatsApp en tu mejor guía turístico 24/7' : 'Turn WhatsApp into your best 24/7 tourist guide'}
-                </h2>
-                
+                <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
+                  {language === 'es' ? 'Permite que los turistas encuentren fácilmente la información comercial de las empresas y profesionales que tiene tu municipio' : 'Allows tourists to easily find commercial information from companies and professionals in your municipality'}
+                </h1>
+              
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Automatiza la atención, mejora la experiencia y aumenta el consumo turístico en tu ciudad o negocio' : 'Automate attention, improve experience, and increase tourism consumption in your city or business'}
+                  {language === 'es' ? 'Imagina en una sola consulta el turista tenga opciones de alojamiento, comida, lavado del vehículo, cines y hasta un chequeo médico para su mascota' : 'Imagine that with a single query, tourists have options for accommodation, food, car washing, cinemas and even a medical check-up for their pet'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
@@ -173,19 +173,19 @@ export default function AlcaldiaArticle1() {
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
                   {language === 'es' ? [
-                    'Aumento del 40% en tiempo de permanencia de turistas',
-                    'Reducción del 60% en consultas repetitivas a oficinas',
-                    'Mejora del 85% en satisfacción del visitante',
-                    'Incremento del 25% en consumo en comercios locales',
+                    'Aumento en tiempo de permanencia de turistas',
+                    'Reducción en consultas repetitivas a oficinas',
+                    'Mejora en satisfacción del visitante',
+                    'Incremento en consumo en comercios locales',
                     'Disponibilidad 24/7 sin costos adicionales',
                     'Atención en múltiples idiomas automáticamente'
                   ].map((benefit, index) => (
                     <li key={index}>{benefit}</li>
                   )) : [
-                    '40% increase in tourist stay time',
-                    '60% reduction in repetitive office inquiries',
-                    '85% improvement in visitor satisfaction',
-                    '25% increase in local business consumption',
+                    'Increase in tourist stay time',
+                    'Reduction in repetitive office inquiries',
+                    'Improvement in visitor satisfaction',
+                    'Increase in local business consumption',
                     '24/7 availability without additional costs',
                     'Automatic multilingual assistance'
                   ].map((benefit, index) => (
@@ -234,21 +234,21 @@ export default function AlcaldiaArticle1() {
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
                   {language === 'es' ? [
-                    '2,000 millones de usuarios activos mensuales',
-                    '97% de los turistas ya lo tienen instalado',
+                    'Millones de usuarios activos mensuales',
+                    'La mayoría de turistas ya lo tienen instalado',
                     'Comunicación instantánea y familiar',
                     'No requiere descarga ni registro adicional',
                     'Soporte nativo para multimedia',
-                    'Funciona perfectamente en conexiones lentas'
+                    'Integración con sistemas de reservación'
                   ].map((advantage, index) => (
                     <li key={index}>{advantage}</li>
                   )) : [
-                    '2 billion monthly active users',
-                    '97% of tourists already have it installed',
+                    'Billions of monthly active users',
+                    'Most tourists already have it installed',
                     'Instant and familiar communication',
                     'No download or additional registration required',
                     'Native multimedia support',
-                    'Works perfectly on slow connections'
+                    'Integration with reservation systems'
                   ].map((advantage, index) => (
                     <li key={index}>{advantage}</li>
                   ))}
