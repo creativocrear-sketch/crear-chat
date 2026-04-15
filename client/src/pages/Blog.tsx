@@ -32,7 +32,7 @@ const getBlogArticles = (language: string) => [
   },
   {
     category: language === 'es' ? "Casos de Uso" : "Use Cases",
-    title: language === 'es' ? "¿Para que me sirve WhatsApp Business API para mi negocio?" : "What is WhatsApp Business API useful for in my business?",
+    title: language === 'es' ? "¿Para qué me sirve WhatsApp Business API para mi negocio?" : "What is WhatsApp Business API useful for in my business?",
     excerpt: language === 'es' ? "Explora casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, abogados y oficinas de cobros." : "Explore real use cases of WhatsApp Business API in restaurants, hotels, cafes, lawyers, and collection offices.",
     date: language === 'es' ? "21 de Marzo de 2026" : "March 21, 2026",
     readTime: language === 'es' ? "8 min" : "8 min",
@@ -53,21 +53,21 @@ const getBlogArticles = (language: string) => [
   },
   {
     category: language === 'es' ? "Integraciones" : "Integrations",
-    title: language === 'es' ? "¿Con que plataformas puedo integrar el WhatsApp Business API?" : "What platforms can I integrate WhatsApp Business API with?",
+    title: language === 'es' ? "¿Con qué plataformas puedo integrar el WhatsApp Business API?" : "What platforms can I integrate WhatsApp Business API with?",
     excerpt: language === 'es' ? "Descubre todas las plataformas y sistemas que puedes integrar con WhatsApp Business API." : "Discover all platforms and systems you can integrate with WhatsApp Business API.",
     date: language === 'es' ? "21 de Marzo de 2026" : "March 21, 2026",
     readTime: language === 'es' ? "6 min" : "6 min",
   },
   {
     category: language === 'es' ? "Conceptos Básicos" : "Basic Concepts",
-    title: language === 'es' ? "¿Por que necesito una plataforma para administrar los chats de WhatsApp?" : "Why do I need a platform to manage WhatsApp chats?",
+    title: language === 'es' ? "¿Por qué necesito una plataforma para administrar los chats de WhatsApp?" : "Why do I need a platform to manage WhatsApp chats?",
     excerpt: language === 'es' ? "Entiende por qué una plataforma de gestión es esencial para WhatsApp Business API." : "Understand why a management platform is essential for WhatsApp Business API.",
     date: language === 'es' ? "21 de Marzo de 2026" : "March 21, 2026",
     readTime: language === 'es' ? "5 min" : "5 min",
   },
   {
     category: language === 'es' ? "Comparativas" : "Comparisons",
-    title: language === 'es' ? "¿En que se diferencian las plataformas que administran los chat de WhatsApp?" : "How do platforms that manage WhatsApp chats differ?",
+    title: language === 'es' ? "¿En qué se diferencian las plataformas que administran los chat de WhatsApp?" : "How do platforms that manage WhatsApp chats differ?",
     excerpt: language === 'es' ? "Comparativa detallada de las principales plataformas de gestión de WhatsApp." : "Detailed comparison of the main WhatsApp management platforms.",
     date: language === 'es' ? "21 de Marzo de 2026" : "March 21, 2026",
     readTime: language === 'es' ? "7 min" : "7 min",
@@ -95,7 +95,7 @@ const getBlogArticles = (language: string) => [
   },
   {
     category: language === 'es' ? "Regulaciones" : "Regulations",
-    title: language === 'es' ? "¿Por que me pueden restringir el número de WhatsApp?" : "Why might my WhatsApp number be restricted?",
+    title: language === 'es' ? "¿Por qué me pueden restringir el número de WhatsApp?" : "Why might my WhatsApp number be restricted?",
     excerpt: language === 'es' ? "Entiende las razones por las que WhatsApp restringe o suspende números." : "Understand the reasons why WhatsApp restricts or suspends numbers.",
     date: language === 'es' ? "21 de Marzo de 2026" : "March 21, 2026",
     readTime: language === 'es' ? "5 min" : "5 min",
