@@ -142,7 +142,10 @@ export default function EstrategiasMarketing() {
               <span className="text-[#1B4F72]">marketing digital</span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed animate-fade-in-up max-w-2xl">
-              Diseñamos estrategias de automatización que permiten atraer clientes, convertir más oportunidades de venta y fidelizar usuarios utilizando datos, segmentación y comunicación automatizada.
+              Diseñamos estrategias de automatización que permiten atraer
+              clientes, convertir más oportunidades de venta y fidelizar
+              usuarios utilizando datos, segmentación y comunicación
+              automatizada.
             </p>
             <div className="flex gap-4 animate-fade-in-up">
               <a
@@ -153,7 +156,6 @@ export default function EstrategiasMarketing() {
               >
                 Escribenos
               </a>
-
             </div>
           </div>
         </div>
@@ -168,39 +170,55 @@ export default function EstrategiasMarketing() {
                 ¿Por qué elegir nuestras estrategias?
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Implementamos campañas inteligentes y comunicación multicanal que reducen tiempos operativos y aumentan la eficiencia comercial. Integramos tecnología, datos y estrategia para lograr acciones de marketing medibles, escalables y sostenibles.
+                Implementamos campañas inteligentes y comunicación multicanal
+                que reducen tiempos operativos y aumentan la eficiencia
+                comercial. Integramos tecnología, datos y estrategia para lograr
+                acciones de marketing medibles, escalables y sostenibles.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Diseñamos sistemas que captan clientes automáticamente</h3>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Diseñamos sistemas que captan clientes automáticamente
+                    </h3>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Automatizamos seguimiento comercial para no perder oportunidades</h3>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Automatizamos seguimiento comercial para no perder
+                      oportunidades
+                    </h3>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Segmentamos audiencias para mensajes personalizados</h3>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Segmentamos audiencias para mensajes personalizados
+                    </h3>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Integramos WhatsApp, email y CRM en un solo flujo</h3>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Integramos WhatsApp, email y CRM en un solo flujo
+                    </h3>
                   </div>
                 </div>
               </div>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-12 flex items-center justify-center min-h-96">
               <div className="text-center">
-                <div className="text-6xl font-bold text-[#1B4F72] mb-2">+300%</div>
-                <p className="text-gray-600 text-lg">Aumento promedio en eficiencia de marketing</p>
+                <div className="text-6xl font-bold text-[#1B4F72] mb-2">
+                  +300%
+                </div>
+                <p className="text-gray-600 text-lg">
+                  Aumento promedio en eficiencia de marketing
+                </p>
               </div>
             </div>
           </div>
@@ -215,7 +233,8 @@ export default function EstrategiasMarketing() {
               Beneficios de Nuestras Estrategias
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Transformamos tu marketing con soluciones automatizadas que generan resultados reales
+              Transformamos tu marketing con soluciones automatizadas que
+              generan resultados reales
             </p>
           </div>
 
@@ -252,7 +271,8 @@ export default function EstrategiasMarketing() {
               Servicios Incluidos
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Nuestro paquete integral de estrategias de marketing y automatización
+              Nuestro paquete integral de estrategias de marketing y
+              automatización
             </p>
           </div>
 
@@ -317,7 +337,9 @@ export default function EstrategiasMarketing() {
             ¿Listo para transformar tu marketing?
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Contacta con nuestro equipo de especialistas para una consulta gratuita y descubre cómo podemos ayudarte a automatizar y escalar tu estrategia de marketing.
+            Contacta con nuestro equipo de especialistas para una consulta
+            gratuita y descubre cómo podemos ayudarte a automatizar y escalar tu
+            estrategia de marketing.
           </p>
           <div className="flex gap-4 justify-center">
             <a

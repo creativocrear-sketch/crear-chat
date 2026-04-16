@@ -1,6 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { useEffect } from "react";
-import { ArrowRight, CheckCircle2, Zap, Users, BarChart3, Shield } from "lucide-react";
+import {
+  ArrowRight,
+  CheckCircle2,
+  Zap,
+  Users,
+  BarChart3,
+  Shield,
+} from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -18,23 +25,27 @@ export default function ConsultoriaWhatsApp() {
     {
       icon: Zap,
       titulo: "Automatización Inteligente",
-      descripcion: "Flujos conversacionales optimizados que responden automáticamente a consultas frecuentes, reduciendo carga operativa."
+      descripcion:
+        "Flujos conversacionales optimizados que responden automáticamente a consultas frecuentes, reduciendo carga operativa.",
     },
     {
       icon: Users,
       titulo: "Experiencia del Cliente",
-      descripcion: "Comunicación personalizada y respuestas instantáneas que mejoran satisfacción y fidelización de clientes."
+      descripcion:
+        "Comunicación personalizada y respuestas instantáneas que mejoran satisfacción y fidelización de clientes.",
     },
     {
       icon: BarChart3,
       titulo: "Resultados Medibles",
-      descripcion: "Análisis detallado de conversaciones, métricas de engagement y ROI de tus estrategias de comunicación."
+      descripcion:
+        "Análisis detallado de conversaciones, métricas de engagement y ROI de tus estrategias de comunicación.",
     },
     {
       icon: Shield,
       titulo: "Integración Segura",
-      descripcion: "Conexión segura con CRM, bases de datos externas y sistemas empresariales existentes sin comprometer datos."
-    }
+      descripcion:
+        "Conexión segura con CRM, bases de datos externas y sistemas empresariales existentes sin comprometer datos.",
+    },
   ];
 
   const servicios = [
@@ -45,7 +56,7 @@ export default function ConsultoriaWhatsApp() {
     "Automatización de atención al cliente",
     "Automatización de marketing por WhatsApp",
     "Flujos para ventas y seguimiento de pedidos",
-    "Capacitación para tu equipo"
+    "Capacitación para tu equipo",
   ];
 
   return (
@@ -60,9 +71,9 @@ export default function ConsultoriaWhatsApp() {
             </div>
             <span className="font-bold text-gray-900">crear.chat</span>
           </div>
-          <Button 
+          <Button
             className="bg-[#1B4F72] hover:bg-[#0F2F45] text-white rounded-lg"
-            onClick={() => window.location.href = '/'}
+            onClick={() => (window.location.href = "/")}
           >
             Volver al Inicio
           </Button>
@@ -74,15 +85,21 @@ export default function ConsultoriaWhatsApp() {
         <div className="container max-w-4xl">
           <div className="space-y-6">
             <div className="inline-block px-4 py-2 bg-blue-100 rounded-full">
-              <span className="text-[#1B4F72] font-semibold text-sm">Servicio Especializado</span>
+              <span className="text-[#1B4F72] font-semibold text-sm">
+                Servicio Especializado
+              </span>
             </div>
-            
+
             <h1 className="font-bold text-5xl md:text-6xl text-gray-900 leading-tight">
-              Consultoría especializada en <span className="text-[#1B4F72]">WhatsApp Business API</span>
+              Consultoría especializada en{" "}
+              <span className="text-[#1B4F72]">WhatsApp Business API</span>
             </h1>
-            
+
             <p className="text-xl text-gray-600 leading-relaxed max-w-3xl">
-              Ayudamos a empresas a organizar su atención por WhatsApp, automatizar respuestas y centralizar conversaciones en un solo sistema utilizando WhatsApp Business API e inteligencia artificial.
+              Ayudamos a empresas a organizar su atención por WhatsApp,
+              automatizar respuestas y centralizar conversaciones en un solo
+              sistema utilizando WhatsApp Business API e inteligencia
+              artificial.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -94,7 +111,6 @@ export default function ConsultoriaWhatsApp() {
               >
                 Escribenos <ArrowRight className="w-5 h-5" />
               </a>
-
             </div>
           </div>
         </div>
@@ -105,10 +121,15 @@ export default function ConsultoriaWhatsApp() {
         <div className="container max-w-4xl">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h2 className="font-bold text-4xl text-gray-900">¿Por qué elegir nuestra consultoría?</h2>
-              
+              <h2 className="font-bold text-4xl text-gray-900">
+                ¿Por qué elegir nuestra consultoría?
+              </h2>
+
               <p className="text-lg text-gray-600 leading-relaxed">
-                Mejoramos la atención al cliente, el marketing digital y la gestión comercial mediante implementación estratégica. Somos especialistas en implementación, optimización y escalabilidad de WhatsApp Business API orientada a resultados.
+                Mejoramos la atención al cliente, el marketing digital y la
+                gestión comercial mediante implementación estratégica. Somos
+                especialistas en implementación, optimización y escalabilidad de
+                WhatsApp Business API orientada a resultados.
               </p>
 
               <ul className="space-y-4">
@@ -116,7 +137,7 @@ export default function ConsultoriaWhatsApp() {
                   "Implementamos WhatsApp API sin que tengas que cambiar tu operación actual",
                   "Automatizamos hasta el 70% de las preguntas repetitivas",
                   "Centralizamos todos los chats en un solo panel para tu equipo",
-                  "Diseñamos flujos para ventas, soporte y seguimiento"
+                  "Diseñamos flujos para ventas, soporte y seguimiento",
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3">
                     <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
@@ -128,8 +149,12 @@ export default function ConsultoriaWhatsApp() {
 
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 h-96 flex items-center justify-center">
               <div className="text-center">
-                <div className="text-6xl font-bold text-[#1B4F72] mb-2">+500</div>
-                <p className="text-gray-600">Empresas automatizadas con éxito</p>
+                <div className="text-6xl font-bold text-[#1B4F72] mb-2">
+                  +500
+                </div>
+                <p className="text-gray-600">
+                  Empresas automatizadas con éxito
+                </p>
               </div>
             </div>
           </div>
@@ -140,9 +165,12 @@ export default function ConsultoriaWhatsApp() {
       <section className="py-16 md:py-20 bg-gray-50">
         <div className="container max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-4">Beneficios de Nuestra Consultoría</h2>
+            <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-4">
+              Beneficios de Nuestra Consultoría
+            </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Transformamos tu comunicación empresarial con soluciones automatizadas que generan impacto real
+              Transformamos tu comunicación empresarial con soluciones
+              automatizadas que generan impacto real
             </p>
           </div>
 
@@ -150,7 +178,7 @@ export default function ConsultoriaWhatsApp() {
             {beneficios.map((beneficio, idx) => {
               const Icon = beneficio.icon;
               return (
-                <div 
+                <div
                   key={idx}
                   className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100"
                 >
@@ -159,8 +187,12 @@ export default function ConsultoriaWhatsApp() {
                       <Icon className="w-6 h-6 text-[#1B4F72]" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-xl text-gray-900 mb-2">{beneficio.titulo}</h3>
-                      <p className="text-gray-600 leading-relaxed">{beneficio.descripcion}</p>
+                      <h3 className="font-bold text-xl text-gray-900 mb-2">
+                        {beneficio.titulo}
+                      </h3>
+                      <p className="text-gray-600 leading-relaxed">
+                        {beneficio.descripcion}
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -173,14 +205,17 @@ export default function ConsultoriaWhatsApp() {
       {/* Servicios Incluidos */}
       <section className="py-16 md:py-20 bg-white">
         <div className="container max-w-4xl">
-          <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-4">Servicios Incluidos</h2>
+          <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-4">
+            Servicios Incluidos
+          </h2>
           <p className="text-xl text-gray-600 mb-12">
-            Nuestro paquete de consultoría incluye todo lo necesario para automatizar tu comunicación empresarial
+            Nuestro paquete de consultoría incluye todo lo necesario para
+            automatizar tu comunicación empresarial
           </p>
 
           <div className="grid md:grid-cols-2 gap-6">
             {servicios.map((servicio, idx) => (
-              <div 
+              <div
                 key={idx}
                 className="flex items-start gap-4 p-6 rounded-lg bg-gray-50 border border-gray-200 hover:border-[#1B4F72] transition-colors"
               >
@@ -197,39 +232,49 @@ export default function ConsultoriaWhatsApp() {
       {/* Proceso */}
       <section className="py-16 md:py-20 bg-blue-50">
         <div className="container max-w-4xl">
-          <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-12 text-center">Nuestro Proceso</h2>
+          <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-12 text-center">
+            Nuestro Proceso
+          </h2>
 
           <div className="space-y-8">
             {[
               {
                 numero: "01",
                 titulo: "Diagnóstico",
-                descripcion: "Analizamos tu situación actual, canales de comunicación y oportunidades de automatización."
+                descripcion:
+                  "Analizamos tu situación actual, canales de comunicación y oportunidades de automatización.",
               },
               {
                 numero: "02",
                 titulo: "Estrategia",
-                descripcion: "Diseñamos una estrategia personalizada de comunicación automatizada alineada con tus objetivos."
+                descripcion:
+                  "Diseñamos una estrategia personalizada de comunicación automatizada alineada con tus objetivos.",
               },
               {
                 numero: "03",
                 titulo: "Implementación",
-                descripcion: "Configuramos WhatsApp Business API, integraciones y flujos conversacionales según la estrategia."
+                descripcion:
+                  "Configuramos WhatsApp Business API, integraciones y flujos conversacionales según la estrategia.",
               },
               {
                 numero: "04",
                 titulo: "Optimización",
-                descripcion: "Monitoreamos resultados, ajustamos flujos y escalamos la solución para máximo impacto."
-              }
+                descripcion:
+                  "Monitoreamos resultados, ajustamos flujos y escalamos la solución para máximo impacto.",
+              },
             ].map((paso, idx) => (
               <div key={idx} className="flex gap-8 items-start">
                 <div className="flex-shrink-0">
                   <div className="w-16 h-16 rounded-full bg-[#1B4F72] flex items-center justify-center">
-                    <span className="text-white font-bold text-2xl">{paso.numero}</span>
+                    <span className="text-white font-bold text-2xl">
+                      {paso.numero}
+                    </span>
                   </div>
                 </div>
                 <div className="flex-1 pt-2">
-                  <h3 className="font-bold text-2xl text-gray-900 mb-2">{paso.titulo}</h3>
+                  <h3 className="font-bold text-2xl text-gray-900 mb-2">
+                    {paso.titulo}
+                  </h3>
                   <p className="text-lg text-gray-600">{paso.descripcion}</p>
                 </div>
               </div>
@@ -245,9 +290,10 @@ export default function ConsultoriaWhatsApp() {
             ¿Listo para transformar tu comunicación?
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Contacta con nuestro equipo de especialistas para una consulta gratuita y descubre cómo podemos ayudarte a automatizar tu negocio.
+            Contacta con nuestro equipo de especialistas para una consulta
+            gratuita y descubre cómo podemos ayudarte a automatizar tu negocio.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://wa.me/+573105317126"

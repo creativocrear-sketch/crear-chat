@@ -1,4 +1,11 @@
-import { Mail, MapPin, Phone, Instagram, Facebook, MessageCircle } from "lucide-react";
+import {
+  Mail,
+  MapPin,
+  Phone,
+  Instagram,
+  Facebook,
+  MessageCircle,
+} from "lucide-react";
 
 /**
  * Design Philosophy: Minimalismo Corporativo Moderno
@@ -13,24 +20,27 @@ export default function ContactFooter() {
       name: "Facebook",
       icon: Facebook,
       url: "https://facebook.com/crearcomunicaciones",
-      color: "text-blue-600 hover:text-blue-700"
+      color: "text-blue-600 hover:text-blue-700",
     },
     {
       name: "Instagram",
       icon: Instagram,
       url: "https://instagram.com/crear.chat",
-      color: "text-pink-600 hover:text-pink-700"
+      color: "text-pink-600 hover:text-pink-700",
     },
     {
       name: "WhatsApp",
       icon: MessageCircle,
       url: "https://wa.me/+573105317126",
-      color: "text-green-600 hover:text-green-700"
-    }
+      color: "text-green-600 hover:text-green-700",
+    },
   ];
 
   return (
-    <section id="contact-section" className="py-20 bg-gradient-to-br from-gray-50 to-white">
+    <section
+      id="contact-section"
+      className="py-20 bg-gradient-to-br from-gray-50 to-white"
+    >
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Social Media */}
@@ -39,11 +49,12 @@ export default function ContactFooter() {
               Síguenos en Redes Sociales
             </h2>
             <p className="text-gray-600 mb-8">
-              Mantente actualizado con nuestras últimas noticias, tips y casos de éxito.
+              Mantente actualizado con nuestras últimas noticias, tips y casos
+              de éxito.
             </p>
 
             <div className="grid grid-cols-2 gap-6">
-              {socialLinks.map((social) => {
+              {socialLinks.map(social => {
                 const Icon = social.icon;
                 return (
                   <a
@@ -53,7 +64,9 @@ export default function ContactFooter() {
                     rel="noopener noreferrer"
                     className="p-8 bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col items-center justify-center group"
                   >
-                    <Icon className={`w-12 h-12 mb-4 transition-colors duration-300 ${social.color}`} />
+                    <Icon
+                      className={`w-12 h-12 mb-4 transition-colors duration-300 ${social.color}`}
+                    />
                     <span className="font-semibold text-gray-900 text-center group-hover:text-[#1B4F72] transition-colors">
                       {social.name}
                     </span>
@@ -64,7 +77,10 @@ export default function ContactFooter() {
           </div>
 
           {/* Contact Information */}
-          <div className="animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
+          <div
+            className="animate-fade-in-up"
+            style={{ animationDelay: "0.1s" }}
+          >
             <h3 className="font-bold text-2xl text-gray-900 mb-8">
               Nuestras Oficinas
             </h3>
@@ -81,7 +97,8 @@ export default function ContactFooter() {
                       Oficina Principal
                     </h4>
                     <p className="text-gray-600 text-sm">
-                      Cra. 4 #9 - 73 oficina 306<br />
+                      Cra. 4 #9 - 73 oficina 306
+                      <br />
                       Cartago, Valle del Cauca
                     </p>
                   </div>
@@ -95,11 +112,10 @@ export default function ContactFooter() {
                     <Phone className="w-6 h-6 text-[#1B4F72]" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 mb-1">
-                      Teléfono
-                    </h4>
+                    <h4 className="font-bold text-gray-900 mb-1">Teléfono</h4>
                     <p className="text-gray-600 text-sm">
-                      +57 310 5317126<br />
+                      +57 310 5317126
+                      <br />
                       Lunes - Viernes, 9am - 6pm
                     </p>
                   </div>
@@ -113,11 +129,10 @@ export default function ContactFooter() {
                     <Mail className="w-6 h-6 text-[#1B4F72]" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 mb-1">
-                      Email
-                    </h4>
+                    <h4 className="font-bold text-gray-900 mb-1">Email</h4>
                     <p className="text-gray-600 text-sm">
-                      contacto@crearcomunicaciones.net<br />
+                      contacto@crearcomunicaciones.net
+                      <br />
                       Respuesta en 24 horas
                     </p>
                   </div>

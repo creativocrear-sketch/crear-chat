@@ -1,5 +1,12 @@
 import { Card } from "@/components/ui/card";
-import { TrendingUp, ShoppingCart, Clock, Calendar, DollarSign, Heart } from "lucide-react";
+import {
+  TrendingUp,
+  ShoppingCart,
+  Clock,
+  Calendar,
+  DollarSign,
+  Heart,
+} from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 /**
@@ -11,38 +18,38 @@ import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function PlatformsSection() {
   const { t, language } = useLanguage();
-  
+
   const platforms = [
     {
-      title: t('home.platforms.sales'),
-      description: t('home.platforms.salesDesc'),
+      title: t("home.platforms.sales"),
+      description: t("home.platforms.salesDesc"),
       icon: TrendingUp,
     },
     {
-      title: t('home.platforms.orders'),
-      description: t('home.platforms.ordersDesc'),
+      title: t("home.platforms.orders"),
+      description: t("home.platforms.ordersDesc"),
       icon: ShoppingCart,
     },
     {
-      title: t('home.platforms.shifts'),
-      description: t('home.platforms.shiftsDesc'),
+      title: t("home.platforms.shifts"),
+      description: t("home.platforms.shiftsDesc"),
       icon: Clock,
     },
     {
-      title: t('home.platforms.appointments'),
-      description: t('home.platforms.appointmentsDesc'),
+      title: t("home.platforms.appointments"),
+      description: t("home.platforms.appointmentsDesc"),
       icon: Calendar,
     },
     {
-      title: t('home.platforms.balances'),
-      description: t('home.platforms.balancesDesc'),
+      title: t("home.platforms.balances"),
+      description: t("home.platforms.balancesDesc"),
       icon: DollarSign,
     },
     {
-      title: t('home.platforms.loyalty'),
-      description: t('home.platforms.loyaltyDesc'),
+      title: t("home.platforms.loyalty"),
+      description: t("home.platforms.loyaltyDesc"),
       icon: Heart,
-    }
+    },
   ];
 
   return (
@@ -50,10 +57,14 @@ export default function PlatformsSection() {
       <div className="container">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-4">
-            {language === 'es' ? 'Nuestras plataformas con WhatsApp Business API' : 'Our platforms with WhatsApp Business API'}
+            {language === "es"
+              ? "Nuestras plataformas con WhatsApp Business API"
+              : "Our platforms with WhatsApp Business API"}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            {language === 'es' ? 'Soluciones especializadas para casos de uso específicos' : 'Specialized solutions for specific use cases'}
+            {language === "es"
+              ? "Soluciones especializadas para casos de uso específicos"
+              : "Specialized solutions for specific use cases"}
           </p>
         </div>
 
@@ -71,11 +82,11 @@ export default function PlatformsSection() {
                       <Icon className="w-10 h-10 md:w-12 md:h-12 text-[#1B4F72]" />
                     </div>
                   </div>
-                  
+
                   <h3 className="font-bold text-base md:text-lg text-gray-900 text-center mb-4">
                     {platform.title}
                   </h3>
-                  
+
                   <p className="text-gray-600 leading-relaxed text-center flex-grow text-sm md:text-base">
                     {platform.description}
                   </p>

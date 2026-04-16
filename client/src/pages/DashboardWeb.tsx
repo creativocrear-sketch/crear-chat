@@ -132,10 +132,14 @@ export default function DashboardWeb() {
               Servicio Especializado
             </div>
             <h1 className="font-bold text-5xl md:text-6xl text-gray-900 mb-6 animate-fade-in-up leading-tight">
-              Dashboard web centralizado para <span className="text-[#1B4F72]">monitoreo y control</span>
+              Dashboard web centralizado para{" "}
+              <span className="text-[#1B4F72]">monitoreo y control</span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed animate-fade-in-up max-w-2xl">
-              Desarrollamos dashboards web que integran y visualizan en tiempo real la información operativa, comercial y de gestión de tu empresa, permitiendo monitorear indicadores clave y tomar decisiones más rápidas y estratégicas.
+              Desarrollamos dashboards web que integran y visualizan en tiempo
+              real la información operativa, comercial y de gestión de tu
+              empresa, permitiendo monitorear indicadores clave y tomar
+              decisiones más rápidas y estratégicas.
             </p>
             <div className="flex gap-4 animate-fade-in-up">
               <a
@@ -146,7 +150,6 @@ export default function DashboardWeb() {
               >
                 Escribenos
               </a>
-
             </div>
           </div>
         </div>
@@ -161,36 +164,60 @@ export default function DashboardWeb() {
                 ¿Por qué usar un dashboard centralizado?
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Un dashboard centralizado reúne la información de diferentes sistemas en un solo lugar, permitiendo visualizar datos clave en tiempo real. Esto facilita el seguimiento de operaciones, mejora la toma de decisiones y reduce el trabajo manual en la gestión de información.
+                Un dashboard centralizado reúne la información de diferentes
+                sistemas en un solo lugar, permitiendo visualizar datos clave en
+                tiempo real. Esto facilita el seguimiento de operaciones, mejora
+                la toma de decisiones y reduce el trabajo manual en la gestión
+                de información.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Decisiones más rápidas</h3>
-                    <p className="text-gray-600">Accede a información actualizada en tiempo real para reaccionar rápidamente y tomar decisiones basadas en datos.</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Decisiones más rápidas
+                    </h3>
+                    <p className="text-gray-600">
+                      Accede a información actualizada en tiempo real para
+                      reaccionar rápidamente y tomar decisiones basadas en
+                      datos.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Visión integral del negocio</h3>
-                    <p className="text-gray-600">Visualiza métricas e indicadores clave de diferentes áreas de tu empresa desde un solo panel.</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Visión integral del negocio
+                    </h3>
+                    <p className="text-gray-600">
+                      Visualiza métricas e indicadores clave de diferentes áreas
+                      de tu empresa desde un solo panel.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Mayor eficiencia operativa</h3>
-                    <p className="text-gray-600">Automatiza la actualización de datos y reduce tareas manuales en la recopilación y análisis de información.</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Mayor eficiencia operativa
+                    </h3>
+                    <p className="text-gray-600">
+                      Automatiza la actualización de datos y reduce tareas
+                      manuales en la recopilación y análisis de información.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-12 flex items-center justify-center min-h-96">
               <div className="text-center">
-                <div className="text-6xl font-bold text-[#1B4F72] mb-2">+75%</div>
-                <p className="text-gray-600 text-lg">Mejora en eficiencia operativa</p>
+                <div className="text-6xl font-bold text-[#1B4F72] mb-2">
+                  +75%
+                </div>
+                <p className="text-gray-600 text-lg">
+                  Mejora en eficiencia operativa
+                </p>
               </div>
             </div>
           </div>
@@ -205,7 +232,8 @@ export default function DashboardWeb() {
               Beneficios del dashboard centralizado
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Optimiza la gestión de tu empresa con información organizada y actualizada en tiempo real.
+              Optimiza la gestión de tu empresa con información organizada y
+              actualizada en tiempo real.
             </p>
           </div>
 
@@ -242,7 +270,8 @@ export default function DashboardWeb() {
               Características del dashboard
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Herramientas diseñadas para visualizar, analizar y controlar la información clave de tu negocio.
+              Herramientas diseñadas para visualizar, analizar y controlar la
+              información clave de tu negocio.
             </p>
           </div>
 
@@ -307,7 +336,8 @@ export default function DashboardWeb() {
             ¿Listo para centralizar tu información?
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Contacta con nuestro equipo para implementar un dashboard que transforme tu gestión operativa.
+            Contacta con nuestro equipo para implementar un dashboard que
+            transforme tu gestión operativa.
           </p>
           <div className="flex gap-4 justify-center">
             <a

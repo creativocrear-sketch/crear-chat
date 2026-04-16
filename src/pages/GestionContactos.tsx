@@ -132,10 +132,16 @@ export default function GestionContactos() {
               Servicio Especializado
             </div>
             <h1 className="font-bold text-5xl md:text-6xl text-gray-900 mb-6 animate-fade-in-up leading-tight">
-              Gestión inteligente de <span className="text-[#1B4F72]">bases de datos de contactos</span>
+              Gestión inteligente de{" "}
+              <span className="text-[#1B4F72]">
+                bases de datos de contactos
+              </span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed animate-fade-in-up max-w-2xl">
-              Organizamos, limpiamos y actualizamos tus bases de datos de clientes para mantener la información ordenada, confiable y lista para ser utilizada en estrategias de marketing, ventas y atención al cliente.
+              Organizamos, limpiamos y actualizamos tus bases de datos de
+              clientes para mantener la información ordenada, confiable y lista
+              para ser utilizada en estrategias de marketing, ventas y atención
+              al cliente.
             </p>
             <div className="flex gap-4 animate-fade-in-up">
               <a
@@ -146,7 +152,6 @@ export default function GestionContactos() {
               >
                 Escribenos
               </a>
-
             </div>
           </div>
         </div>
@@ -161,36 +166,61 @@ export default function GestionContactos() {
                 ¿Por qué optimizar tu base de datos de contactos?
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Una base de datos organizada y actualizada permite conocer mejor a tus clientes, segmentar de forma más precisa y mejorar la efectividad de tus campañas y acciones comerciales. Eliminamos registros duplicados, depuramos la información y estructuramos los datos para que puedas tomar decisiones basadas en información confiable.
+                Una base de datos organizada y actualizada permite conocer mejor
+                a tus clientes, segmentar de forma más precisa y mejorar la
+                efectividad de tus campañas y acciones comerciales. Eliminamos
+                registros duplicados, depuramos la información y estructuramos
+                los datos para que puedas tomar decisiones basadas en
+                información confiable.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Datos más precisos</h3>
-                    <p className="text-gray-600">Mantén la información de tus clientes actualizada, organizada y lista para ser utilizada en marketing, ventas y atención.</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Datos más precisos
+                    </h3>
+                    <p className="text-gray-600">
+                      Mantén la información de tus clientes actualizada,
+                      organizada y lista para ser utilizada en marketing, ventas
+                      y atención.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Segmentación efectiva</h3>
-                    <p className="text-gray-600">Clasifica tus contactos por comportamiento, intereses o historial para enviar mensajes más relevantes.</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Segmentación efectiva
+                    </h3>
+                    <p className="text-gray-600">
+                      Clasifica tus contactos por comportamiento, intereses o
+                      historial para enviar mensajes más relevantes.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Mayor retorno de inversión</h3>
-                    <p className="text-gray-600">Mejora el rendimiento de tus campañas y aumenta conversiones al dirigirte al público correcto.</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Mayor retorno de inversión
+                    </h3>
+                    <p className="text-gray-600">
+                      Mejora el rendimiento de tus campañas y aumenta
+                      conversiones al dirigirte al público correcto.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-12 flex items-center justify-center min-h-96">
               <div className="text-center">
-                <div className="text-6xl font-bold text-[#1B4F72] mb-2">+60%</div>
-                <p className="text-gray-600 text-lg">Mejora en efectividad de campañas</p>
+                <div className="text-6xl font-bold text-[#1B4F72] mb-2">
+                  +60%
+                </div>
+                <p className="text-gray-600 text-lg">
+                  Mejora en efectividad de campañas
+                </p>
               </div>
             </div>
           </div>
@@ -205,7 +235,8 @@ export default function GestionContactos() {
               Beneficios de optimizar tu base de datos
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Organiza y aprovecha mejor la información de tus contactos para mejorar campañas, ventas y seguimiento de clientes.
+              Organiza y aprovecha mejor la información de tus contactos para
+              mejorar campañas, ventas y seguimiento de clientes.
             </p>
           </div>
 
@@ -242,7 +273,8 @@ export default function GestionContactos() {
               Servicios de la gestión de contactos
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Soluciones diseñadas para organizar, depurar y aprovechar al máximo tu base de datos de clientes.
+              Soluciones diseñadas para organizar, depurar y aprovechar al
+              máximo tu base de datos de clientes.
             </p>
           </div>
 
@@ -307,7 +339,8 @@ export default function GestionContactos() {
             ¿Listo para optimizar tu base de datos?
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Contacta con nuestro equipo para implementar una gestión inteligente de contactos y aumentar la efectividad de tus campañas.
+            Contacta con nuestro equipo para implementar una gestión inteligente
+            de contactos y aumentar la efectividad de tus campañas.
           </p>
           <div className="flex gap-4 justify-center">
             <a

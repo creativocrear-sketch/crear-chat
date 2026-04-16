@@ -131,10 +131,13 @@ export default function ChatbotsConversacionales() {
               Servicio Especializado
             </div>
             <h1 className="font-bold text-5xl md:text-6xl text-gray-900 mb-6 animate-fade-in-up leading-tight">
-              Diseño y desarrollo de <span className="text-[#1B4F72]">chatbots conversacionales</span>
+              Diseño y desarrollo de{" "}
+              <span className="text-[#1B4F72]">chatbots conversacionales</span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed animate-fade-in-up max-w-2xl">
-              Creamos chatbots conversacionales que automatizan la interacción con clientes, gestionan consultas y optimizan procesos de atención y ventas.
+              Creamos chatbots conversacionales que automatizan la interacción
+              con clientes, gestionan consultas y optimizan procesos de atención
+              y ventas.
             </p>
             <div className="flex gap-4 animate-fade-in-up">
               <a
@@ -159,36 +162,55 @@ export default function ChatbotsConversacionales() {
                 ¿Por qué un chatbot conversacional?
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Implementamos soluciones escalables que mejoran la experiencia del cliente, reducen tiempos de respuesta y aumentan la eficiencia operativa, transformando la comunicación digital en procesos automatizados y orientados a resultados.
+                Implementamos soluciones escalables que mejoran la experiencia
+                del cliente, reducen tiempos de respuesta y aumentan la
+                eficiencia operativa, transformando la comunicación digital en
+                procesos automatizados y orientados a resultados.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Respuestas instantáneas</h3>
-                    <p className="text-gray-600">Atención inmediata sin esperas</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Respuestas instantáneas
+                    </h3>
+                    <p className="text-gray-600">
+                      Atención inmediata sin esperas
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Automatización completa</h3>
-                    <p className="text-gray-600">Procesos sin intervención manual</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Automatización completa
+                    </h3>
+                    <p className="text-gray-600">
+                      Procesos sin intervención manual
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Escalabilidad infinita</h3>
-                    <p className="text-gray-600">Atiende miles de usuarios simultáneamente</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Escalabilidad infinita
+                    </h3>
+                    <p className="text-gray-600">
+                      Atiende miles de usuarios simultáneamente
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-12 flex items-center justify-center min-h-96">
               <div className="text-center">
-                <div className="text-6xl font-bold text-[#1B4F72] mb-2">+80%</div>
-                <p className="text-gray-600 text-lg">Reducción de tiempo de respuesta</p>
+                <div className="text-6xl font-bold text-[#1B4F72] mb-2">
+                  +80%
+                </div>
+                <p className="text-gray-600 text-lg">
+                  Reducción de tiempo de respuesta
+                </p>
               </div>
             </div>
           </div>
@@ -203,7 +225,8 @@ export default function ChatbotsConversacionales() {
               Beneficios del Chatbot Conversacional
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Mejora integral de tu atención al cliente con automatización inteligente
+              Mejora integral de tu atención al cliente con automatización
+              inteligente
             </p>
           </div>
 
@@ -305,7 +328,8 @@ export default function ChatbotsConversacionales() {
             ¿Listo para automatizar tu atención al cliente?
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Contacta con nuestro equipo para desarrollar un chatbot que transforme tu comunicación digital.
+            Contacta con nuestro equipo para desarrollar un chatbot que
+            transforme tu comunicación digital.
           </p>
           <div className="flex gap-4 justify-center">
             <a

@@ -23,14 +23,23 @@ export default function HeroSection() {
       <div className="container relative z-10">
         <div className="max-w-2xl">
           <h1 className="font-bold text-5xl md:text-6xl text-gray-900 mb-6 leading-tight animate-fade-in-up">
-            Automatiza tu presencia en <span className="text-[#1B4F72]">WhatsApp Business</span>
+            Automatiza tu presencia en{" "}
+            <span className="text-[#1B4F72]">WhatsApp Business</span>
           </h1>
 
-          <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-xl animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-            Consultoría especializada en automatización de WhatsApp Business API. Crea, gestiona y escala tu comunicación con clientes de forma inteligente.
+          <p
+            className="text-lg text-gray-600 mb-8 leading-relaxed max-w-xl animate-fade-in-up"
+            style={{ animationDelay: "0.1s" }}
+          >
+            Consultoría especializada en automatización de WhatsApp Business
+            API. Crea, gestiona y escala tu comunicación con clientes de forma
+            inteligente.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+          <div
+            className="flex flex-col sm:flex-row gap-4 animate-fade-in-up"
+            style={{ animationDelay: "0.2s" }}
+          >
             <a
               href="https://wa.me/+573105317126"
               target="_blank"

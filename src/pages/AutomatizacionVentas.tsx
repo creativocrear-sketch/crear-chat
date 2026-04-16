@@ -133,10 +133,16 @@ export default function AutomatizacionVentas() {
             </div>
             <h1 className="font-bold text-5xl md:text-6xl text-gray-900 mb-6 animate-fade-in-up leading-tight">
               Automatización de ventas y{" "}
-              <span className="text-[#1B4F72]">optimización de conversiones</span>
+              <span className="text-[#1B4F72]">
+                optimización de conversiones
+              </span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed animate-fade-in-up max-w-2xl">
-              Implementamos soluciones que automatizan y optimizan tu proceso comercial mediante seguimiento inteligente de clientes, flujos automatizados y análisis de datos, permitiendo convertir más oportunidades en ventas y mejorar el rendimiento de tu equipo comercial.
+              Implementamos soluciones que automatizan y optimizan tu proceso
+              comercial mediante seguimiento inteligente de clientes, flujos
+              automatizados y análisis de datos, permitiendo convertir más
+              oportunidades en ventas y mejorar el rendimiento de tu equipo
+              comercial.
             </p>
             <div className="flex gap-4 animate-fade-in-up">
               <a
@@ -147,7 +153,6 @@ export default function AutomatizacionVentas() {
               >
                 Escribenos
               </a>
-
             </div>
           </div>
         </div>
@@ -162,36 +167,62 @@ export default function AutomatizacionVentas() {
                 ¿Por qué automatizar tus ventas?
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Automatizamos procesos comerciales para reducir tareas manuales, acelerar el seguimiento de clientes y facilitar decisiones de compra más rápidas. Esto permite mejorar la eficiencia del equipo, aumentar las conversiones y tener mayor control sobre el rendimiento de las ventas.
+                Automatizamos procesos comerciales para reducir tareas manuales,
+                acelerar el seguimiento de clientes y facilitar decisiones de
+                compra más rápidas. Esto permite mejorar la eficiencia del
+                equipo, aumentar las conversiones y tener mayor control sobre el
+                rendimiento de las ventas.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Ventas más rápidas</h3>
-                    <p className="text-gray-600">Reduce tiempos de respuesta y acelera el proceso comercial con seguimiento automático y respuestas oportunas a los clientes.</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Ventas más rápidas
+                    </h3>
+                    <p className="text-gray-600">
+                      Reduce tiempos de respuesta y acelera el proceso comercial
+                      con seguimiento automático y respuestas oportunas a los
+                      clientes.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Conversiones medibles</h3>
-                    <p className="text-gray-600">Accede a datos y métricas claras para analizar cada etapa del embudo de ventas y optimizar lo que realmente genera resultados.</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Conversiones medibles
+                    </h3>
+                    <p className="text-gray-600">
+                      Accede a datos y métricas claras para analizar cada etapa
+                      del embudo de ventas y optimizar lo que realmente genera
+                      resultados.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Crecimiento escalable</h3>
-                    <p className="text-gray-600">Implementa procesos de ventas que pueden crecer con tu negocio sin aumentar significativamente la carga operativa.</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Crecimiento escalable
+                    </h3>
+                    <p className="text-gray-600">
+                      Implementa procesos de ventas que pueden crecer con tu
+                      negocio sin aumentar significativamente la carga
+                      operativa.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-12 flex items-center justify-center min-h-96">
               <div className="text-center">
-                <div className="text-6xl font-bold text-[#1B4F72] mb-2">+35%</div>
-                <p className="text-gray-600 text-lg">Aumento en conversiones promedio</p>
+                <div className="text-6xl font-bold text-[#1B4F72] mb-2">
+                  +35%
+                </div>
+                <p className="text-gray-600 text-lg">
+                  Aumento en conversiones promedio
+                </p>
               </div>
             </div>
           </div>
@@ -206,7 +237,9 @@ export default function AutomatizacionVentas() {
               Beneficios de la Automatización
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Optimiza tu proceso de ventas con sistemas que organizan el seguimiento de clientes y mejoran la conversión de oportunidades en ventas.
+              Optimiza tu proceso de ventas con sistemas que organizan el
+              seguimiento de clientes y mejoran la conversión de oportunidades
+              en ventas.
             </p>
           </div>
 
@@ -243,7 +276,8 @@ export default function AutomatizacionVentas() {
               Servicios Incluidos
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Soluciones diseñadas para automatizar y optimizar tu proceso de ventas.
+              Soluciones diseñadas para automatizar y optimizar tu proceso de
+              ventas.
             </p>
           </div>
 
@@ -308,7 +342,8 @@ export default function AutomatizacionVentas() {
             ¿Listo para automatizar tus ventas?
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Contacta con nuestro equipo de especialistas para una consulta gratuita y descubre cómo podemos optimizar tu proceso comercial.
+            Contacta con nuestro equipo de especialistas para una consulta
+            gratuita y descubre cómo podemos optimizar tu proceso comercial.
           </p>
           <div className="flex gap-4 justify-center">
             <a

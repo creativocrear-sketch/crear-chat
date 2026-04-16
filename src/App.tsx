@@ -2,6 +2,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
+import { Analytics } from "@vercel/analytics/react";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
@@ -14,19 +15,24 @@ import GestionContactos from "./pages/GestionContactos";
 import DashboardWeb from "./pages/DashboardWeb";
 import ChatbotsConversacionales from "./pages/ChatbotsConversacionales";
 
-
 function Router() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/consultoria-whatsapp"} component={ConsultoriaWhatsApp} />
       <Route path={"/estrategias-marketing"} component={EstrategiasMarketing} />
-      <Route path={"/transformacion-digital"} component={TransformacionDigital} />
+      <Route
+        path={"/transformacion-digital"}
+        component={TransformacionDigital}
+      />
       <Route path={"/automatizacion-ventas"} component={AutomatizacionVentas} />
       <Route path={"/plataforma-integrada"} component={PlataformaIntegrada} />
       <Route path={"/gestion-contactos"} component={GestionContactos} />
       <Route path={"/dashboard-web"} component={DashboardWeb} />
-      <Route path={"/chatbots-conversacionales"} component={ChatbotsConversacionales} />
+      <Route
+        path={"/chatbots-conversacionales"}
+        component={ChatbotsConversacionales}
+      />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
@@ -49,6 +55,7 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
+          <Analytics />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
