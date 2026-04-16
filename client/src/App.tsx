@@ -34,23 +34,55 @@ import GestionContactos from "./pages/GestionContactos";
 import DashboardWeb from "./pages/DashboardWeb";
 import ChatbotsConversacionales from "./pages/ChatbotsConversacionales";
 
-
 function Router() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/blog"} component={Blog} />
-      <Route path={"/blog/diferencia-whatsapp-business-api"} component={BlogArticle1} />
-      <Route path={"/blog/casos-uso-whatsapp-business-api"} component={BlogArticle2} />
-      <Route path={"/blog/primeros-pasos-migrar-whatsapp-api"} component={BlogArticle3} />
-      <Route path={"/blog/beneficios-whatsapp-business-api-ia"} component={BlogArticle4} />
-      <Route path={"/blog/plataformas-integracion-whatsapp-api"} component={BlogArticle5} />
-      <Route path={"/blog/por-que-necesito-plataforma-whatsapp"} component={BlogArticle6} />
-      <Route path={"/blog/diferencias-plataformas-whatsapp"} component={BlogArticle7} />
-      <Route path={"/blog/cobro-plataformas-whatsapp"} component={BlogArticle8} />
-      <Route path={"/blog/como-seleccionar-proveedor-whatsapp"} component={BlogArticle9} />
-      <Route path={"/blog/politicas-whatsapp-business-api"} component={BlogArticle10} />
-      <Route path={"/blog/por-que-restringen-whatsapp"} component={BlogArticle11} />
+      <Route
+        path={"/blog/diferencia-whatsapp-business-api"}
+        component={BlogArticle1}
+      />
+      <Route
+        path={"/blog/casos-uso-whatsapp-business-api"}
+        component={BlogArticle2}
+      />
+      <Route
+        path={"/blog/primeros-pasos-migrar-whatsapp-api"}
+        component={BlogArticle3}
+      />
+      <Route
+        path={"/blog/beneficios-whatsapp-business-api-ia"}
+        component={BlogArticle4}
+      />
+      <Route
+        path={"/blog/plataformas-integracion-whatsapp-api"}
+        component={BlogArticle5}
+      />
+      <Route
+        path={"/blog/por-que-necesito-plataforma-whatsapp"}
+        component={BlogArticle6}
+      />
+      <Route
+        path={"/blog/diferencias-plataformas-whatsapp"}
+        component={BlogArticle7}
+      />
+      <Route
+        path={"/blog/cobro-plataformas-whatsapp"}
+        component={BlogArticle8}
+      />
+      <Route
+        path={"/blog/como-seleccionar-proveedor-whatsapp"}
+        component={BlogArticle9}
+      />
+      <Route
+        path={"/blog/politicas-whatsapp-business-api"}
+        component={BlogArticle10}
+      />
+      <Route
+        path={"/blog/por-que-restringen-whatsapp"}
+        component={BlogArticle11}
+      />
       {/* Rutas antiguas para compatibilidad - redirección */}
       <Route path={"/blog/articulo-1"} component={BlogArticle1} />
       <Route path={"/blog/articulo-2"} component={BlogArticle2} />
@@ -64,20 +96,41 @@ function Router() {
       <Route path={"/blog/articulo-10"} component={BlogArticle10} />
       <Route path={"/blog/articulo-11"} component={BlogArticle11} />
       <Route path={"/alcaldias"} component={Alcaldias} />
-      <Route path={"/alcaldias/guia-turistica-whatsapp"} component={AlcaldiaArticle1} />
-      <Route path={"/alcaldias/consulta-deudas-whatsapp"} component={AlcaldiaArticle2} />
-      <Route path={"/alcaldias/plataforma-educativa-whatsapp"} component={AlcaldiaArticle3} />
-      <Route path={"/alcaldias/consulta-sisben-subsidios"} component={AlcaldiaArticle4} />
-      <Route path={"/alcaldias/consulta-turnos-agentes-transito"} component={AlcaldiaArticle5} />
+      <Route
+        path={"/alcaldias/guia-turistica-whatsapp"}
+        component={AlcaldiaArticle1}
+      />
+      <Route
+        path={"/alcaldias/consulta-deudas-whatsapp"}
+        component={AlcaldiaArticle2}
+      />
+      <Route
+        path={"/alcaldias/plataforma-educativa-whatsapp"}
+        component={AlcaldiaArticle3}
+      />
+      <Route
+        path={"/alcaldias/consulta-sisben-subsidios"}
+        component={AlcaldiaArticle4}
+      />
+      <Route
+        path={"/alcaldias/consulta-turnos-agentes-transito"}
+        component={AlcaldiaArticle5}
+      />
       <Route path={"/planes"} component={Planes} />
       <Route path={"/consultoria-whatsapp"} component={ConsultoriaWhatsApp} />
       <Route path={"/estrategias-marketing"} component={EstrategiasMarketing} />
-      <Route path={"/transformacion-digital"} component={TransformacionDigital} />
+      <Route
+        path={"/transformacion-digital"}
+        component={TransformacionDigital}
+      />
       <Route path={"/automatizacion-ventas"} component={AutomatizacionVentas} />
       <Route path={"/plataforma-integrada"} component={PlataformaIntegrada} />
       <Route path={"/gestion-contactos"} component={GestionContactos} />
       <Route path={"/dashboard-web"} component={DashboardWeb} />
-      <Route path={"/chatbots-conversacionales"} component={ChatbotsConversacionales} />
+      <Route
+        path={"/chatbots-conversacionales"}
+        component={ChatbotsConversacionales}
+      />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

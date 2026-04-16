@@ -4,7 +4,6 @@ import fs from "node:fs";
 import path from "node:path";
 import { defineConfig, type Plugin, type ViteDevServer } from "vite";
 
-
 const plugins = [react(), tailwindcss()];
 
 export default defineConfig({

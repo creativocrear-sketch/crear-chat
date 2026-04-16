@@ -133,10 +133,15 @@ export default function PlataformaIntegrada() {
             </div>
             <h1 className="font-bold text-5xl md:text-6xl text-gray-900 mb-6 animate-fade-in-up leading-tight">
               Plataforma integrada para administración de{" "}
-              <span className="text-[#1B4F72]">chats en WhatsApp e Instagram</span>
+              <span className="text-[#1B4F72]">
+                chats en WhatsApp e Instagram
+              </span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed animate-fade-in-up max-w-2xl">
-              Implementamos una plataforma que centraliza la gestión de conversaciones de WhatsApp e Instagram en un solo sistema, permitiendo organizar la atención al cliente, mejorar los tiempos de respuesta y facilitar el trabajo del equipo.
+              Implementamos una plataforma que centraliza la gestión de
+              conversaciones de WhatsApp e Instagram en un solo sistema,
+              permitiendo organizar la atención al cliente, mejorar los tiempos
+              de respuesta y facilitar el trabajo del equipo.
             </p>
             <div className="flex gap-4 animate-fade-in-up">
               <a
@@ -147,7 +152,6 @@ export default function PlataformaIntegrada() {
               >
                 Escribenos
               </a>
-
             </div>
           </div>
         </div>
@@ -162,36 +166,60 @@ export default function PlataformaIntegrada() {
                 ¿Por qué centralizar tu comunicación?
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Centralizar tus canales de comunicación permite organizar todas las conversaciones en un solo lugar, facilitar el trabajo del equipo y mejorar el seguimiento de clientes. Esto se traduce en respuestas más rápidas, mejor experiencia para el usuario y una gestión comercial más eficiente.
+                Centralizar tus canales de comunicación permite organizar todas
+                las conversaciones en un solo lugar, facilitar el trabajo del
+                equipo y mejorar el seguimiento de clientes. Esto se traduce en
+                respuestas más rápidas, mejor experiencia para el usuario y una
+                gestión comercial más eficiente.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Gestión unificada</h3>
-                    <p className="text-gray-600">Administra todas las conversaciones de WhatsApp e Instagram desde una sola plataforma, evitando desorden y pérdida de mensajes.</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Gestión unificada
+                    </h3>
+                    <p className="text-gray-600">
+                      Administra todas las conversaciones de WhatsApp e
+                      Instagram desde una sola plataforma, evitando desorden y
+                      pérdida de mensajes.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Atención más rápida</h3>
-                    <p className="text-gray-600">Responde consultas en menos tiempo y gestiona múltiples conversaciones de forma organizada desde un mismo sistema.</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Atención más rápida
+                    </h3>
+                    <p className="text-gray-600">
+                      Responde consultas en menos tiempo y gestiona múltiples
+                      conversaciones de forma organizada desde un mismo sistema.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Mejor organización</h3>
-                    <p className="text-gray-600">Mantén el control de contactos, historial de conversaciones y seguimiento de clientes en un solo lugar.</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Mejor organización
+                    </h3>
+                    <p className="text-gray-600">
+                      Mantén el control de contactos, historial de
+                      conversaciones y seguimiento de clientes en un solo lugar.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-12 flex items-center justify-center min-h-96">
               <div className="text-center">
-                <div className="text-6xl font-bold text-[#1B4F72] mb-2">-70%</div>
-                <p className="text-gray-600 text-lg">Reducción en tiempo de gestión</p>
+                <div className="text-6xl font-bold text-[#1B4F72] mb-2">
+                  -70%
+                </div>
+                <p className="text-gray-600 text-lg">
+                  Reducción en tiempo de gestión
+                </p>
               </div>
             </div>
           </div>
@@ -206,7 +234,9 @@ export default function PlataformaIntegrada() {
               Beneficios de la plataforma
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Optimiza la gestión de tus conversaciones con una plataforma que centraliza canales, organiza la atención y mejora la eficiencia de tu equipo.
+              Optimiza la gestión de tus conversaciones con una plataforma que
+              centraliza canales, organiza la atención y mejora la eficiencia de
+              tu equipo.
             </p>
           </div>
 
@@ -243,7 +273,8 @@ export default function PlataformaIntegrada() {
               Características de la plataforma
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Herramientas diseñadas para organizar, automatizar y optimizar la comunicación con tus clientes.
+              Herramientas diseñadas para organizar, automatizar y optimizar la
+              comunicación con tus clientes.
             </p>
           </div>
 
@@ -308,7 +339,8 @@ export default function PlataformaIntegrada() {
             ¿Listo para centralizar tu comunicación?
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Contacta con nuestro equipo para implementar la plataforma integrada y optimizar tu gestión de clientes.
+            Contacta con nuestro equipo para implementar la plataforma integrada
+            y optimizar tu gestión de clientes.
           </p>
           <div className="flex gap-4 justify-center">
             <a

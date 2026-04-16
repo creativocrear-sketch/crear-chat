@@ -1,5 +1,15 @@
 import { useState } from "react";
-import { MessageCircle, Instagram, Sheet, Zap, Mail, Phone, Database, ChevronLeft, ChevronRight } from "lucide-react";
+import {
+  MessageCircle,
+  Instagram,
+  Sheet,
+  Zap,
+  Mail,
+  Phone,
+  Database,
+  ChevronLeft,
+  ChevronRight,
+} from "lucide-react";
 
 /**
  * Design Philosophy: Minimalismo Corporativo Moderno
@@ -62,11 +72,11 @@ export default function IntegrationsSection() {
   const maxIndex = Math.max(0, totalItems - itemsPerView);
 
   const handlePrev = () => {
-    setCurrentIndex((prev) => (prev === 0 ? maxIndex : prev - 1));
+    setCurrentIndex(prev => (prev === 0 ? maxIndex : prev - 1));
   };
 
   const handleNext = () => {
-    setCurrentIndex((prev) => (prev === maxIndex ? 0 : prev + 1));
+    setCurrentIndex(prev => (prev === maxIndex ? 0 : prev + 1));
   };
 
   const visibleIntegrations = integrations.slice(
@@ -90,7 +100,9 @@ export default function IntegrationsSection() {
           </h2>
 
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            En crear.chat integramos tu sistema de comunicación con las plataformas que ya utiliza tu empresa, para automatizar procesos, centralizar conversaciones y mejorar la gestión de clientes.
+            En crear.chat integramos tu sistema de comunicación con las
+            plataformas que ya utiliza tu empresa, para automatizar procesos,
+            centralizar conversaciones y mejorar la gestión de clientes.
           </p>
         </div>
 

@@ -1,4 +1,12 @@
-import { BookOpen, Lightbulb, Zap, Users, MessageSquare, Upload, Code } from "lucide-react";
+import {
+  BookOpen,
+  Lightbulb,
+  Zap,
+  Users,
+  MessageSquare,
+  Upload,
+  Code,
+} from "lucide-react";
 
 /**
  * Design Philosophy: Minimalismo Corporativo Moderno

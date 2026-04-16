@@ -1,5 +1,15 @@
 import { useState } from "react";
-import { MessageCircle, Instagram, Sheet, Zap, Mail, Phone, Database, ChevronLeft, ChevronRight } from "lucide-react";
+import {
+  MessageCircle,
+  Instagram,
+  Sheet,
+  Zap,
+  Mail,
+  Phone,
+  Database,
+  ChevronLeft,
+  ChevronRight,
+} from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 /**
@@ -13,41 +23,41 @@ import { useLanguage } from "@/contexts/LanguageContext";
 export default function IntegrationsSection() {
   const { t, language } = useLanguage();
   const [currentIndex, setCurrentIndex] = useState(0);
-  
+
   const integrations = [
     {
-      title: t('home.integrations.whatsapp'),
-      description: t('home.integrations.whatsappDesc'),
+      title: t("home.integrations.whatsapp"),
+      description: t("home.integrations.whatsappDesc"),
       icon: MessageCircle,
     },
     {
-      title: t('home.integrations.instagram'),
-      description: t('home.integrations.instagramDesc'),
+      title: t("home.integrations.instagram"),
+      description: t("home.integrations.instagramDesc"),
       icon: Instagram,
     },
     {
-      title: t('home.integrations.sheets'),
-      description: t('home.integrations.sheetsDesc'),
+      title: t("home.integrations.sheets"),
+      description: t("home.integrations.sheetsDesc"),
       icon: Sheet,
     },
     {
-      title: t('home.integrations.crm'),
-      description: t('home.integrations.crmDesc'),
+      title: t("home.integrations.crm"),
+      description: t("home.integrations.crmDesc"),
       icon: Database,
     },
     {
-      title: t('home.integrations.zapier'),
-      description: t('home.integrations.zapierDesc'),
+      title: t("home.integrations.zapier"),
+      description: t("home.integrations.zapierDesc"),
       icon: Zap,
     },
     {
-      title: t('home.integrations.sms'),
-      description: t('home.integrations.smsDesc'),
+      title: t("home.integrations.sms"),
+      description: t("home.integrations.smsDesc"),
       icon: Phone,
     },
     {
-      title: t('home.integrations.email'),
-      description: t('home.integrations.emailDesc'),
+      title: t("home.integrations.email"),
+      description: t("home.integrations.emailDesc"),
       icon: Mail,
     },
   ];
@@ -57,11 +67,11 @@ export default function IntegrationsSection() {
   const maxIndex = Math.max(0, totalItems - itemsPerView);
 
   const handlePrev = () => {
-    setCurrentIndex((prev) => (prev === 0 ? maxIndex : prev - 1));
+    setCurrentIndex(prev => (prev === 0 ? maxIndex : prev - 1));
   };
 
   const handleNext = () => {
-    setCurrentIndex((prev) => (prev === maxIndex ? 0 : prev + 1));
+    setCurrentIndex(prev => (prev === maxIndex ? 0 : prev + 1));
   };
 
   const visibleIntegrations = integrations.slice(
@@ -76,19 +86,20 @@ export default function IntegrationsSection() {
         <div className="text-center mb-16 animate-fade-in-up">
           <div className="inline-block px-4 py-2 bg-blue-50 rounded-full mb-4">
             <span className="text-sm font-semibold text-[#1B4F72]">
-              {language === 'es' ? 'Integraciones' : 'Integrations'}
+              {language === "es" ? "Integraciones" : "Integrations"}
             </span>
           </div>
 
           <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-6 leading-tight">
-            {language === 'es' ? 'Conecta con tus herramientas favoritas' : 'Connect with your favorite tools'}
+            {language === "es"
+              ? "Conecta con tus herramientas favoritas"
+              : "Connect with your favorite tools"}
           </h2>
 
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            {language === 'es' 
-              ? 'En crear.chat integramos tu sistema de comunicación con las plataformas que ya utiliza tu empresa, para automatizar procesos, centralizar conversaciones y mejorar la gestión de clientes.'
-              : 'At crear.chat we integrate your communication system with the platforms your company already uses, to automate processes, centralize conversations and improve customer management.'
-            }
+            {language === "es"
+              ? "En crear.chat integramos tu sistema de comunicación con las plataformas que ya utiliza tu empresa, para automatizar procesos, centralizar conversaciones y mejorar la gestión de clientes."
+              : "At crear.chat we integrate your communication system with the platforms your company already uses, to automate processes, centralize conversations and improve customer management."}
           </p>
         </div>
 

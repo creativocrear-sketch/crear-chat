@@ -133,10 +133,15 @@ export default function TransformacionDigital() {
             </div>
             <h1 className="font-bold text-5xl md:text-6xl text-gray-900 mb-6 animate-fade-in-up leading-tight">
               Automatización de{" "}
-              <span className="text-[#1B4F72]">canales de atención al cliente</span>
+              <span className="text-[#1B4F72]">
+                canales de atención al cliente
+              </span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed animate-fade-in-up max-w-2xl">
-              Transformamos tus canales de atención en sistemas automatizados que responden a los clientes de forma rápida, organizada y eficiente, mejorando la experiencia del usuario y reduciendo la carga operativa de tu equipo.
+              Transformamos tus canales de atención en sistemas automatizados
+              que responden a los clientes de forma rápida, organizada y
+              eficiente, mejorando la experiencia del usuario y reduciendo la
+              carga operativa de tu equipo.
             </p>
             <div className="flex gap-4 animate-fade-in-up">
               <a
@@ -147,7 +152,6 @@ export default function TransformacionDigital() {
               >
                 Escribenos
               </a>
-
             </div>
           </div>
         </div>
@@ -162,36 +166,61 @@ export default function TransformacionDigital() {
                 ¿Por qué automatizar tu atención al cliente?
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Convertimos procesos manuales en sistemas digitales organizados que permiten atender más clientes, responder más rápido y mantener un control completo de las conversaciones. Centralizamos los canales de comunicación, mejoramos la experiencia del usuario y optimizamos la operación de tu equipo.
+                Convertimos procesos manuales en sistemas digitales organizados
+                que permiten atender más clientes, responder más rápido y
+                mantener un control completo de las conversaciones.
+                Centralizamos los canales de comunicación, mejoramos la
+                experiencia del usuario y optimizamos la operación de tu equipo.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Atención moderna y ágil</h3>
-                    <p className="text-gray-600">Responde a tus clientes de forma rápida y organizada con sistemas diseñados para las exigencias del entorno digital actual.</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Atención moderna y ágil
+                    </h3>
+                    <p className="text-gray-600">
+                      Responde a tus clientes de forma rápida y organizada con
+                      sistemas diseñados para las exigencias del entorno digital
+                      actual.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Escalabilidad real</h3>
-                    <p className="text-gray-600">Atiende más conversaciones y clientes sin necesidad de aumentar proporcionalmente tu equipo de trabajo.</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Escalabilidad real
+                    </h3>
+                    <p className="text-gray-600">
+                      Atiende más conversaciones y clientes sin necesidad de
+                      aumentar proporcionalmente tu equipo de trabajo.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Resultados medibles</h3>
-                    <p className="text-gray-600">Reduce costos operativos, mejora la experiencia del cliente y mide el impacto real de la automatización en tu negocio.</p>
+                    <h3 className="font-bold text-gray-900 mb-1">
+                      Resultados medibles
+                    </h3>
+                    <p className="text-gray-600">
+                      Reduce costos operativos, mejora la experiencia del
+                      cliente y mide el impacto real de la automatización en tu
+                      negocio.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-12 flex items-center justify-center min-h-96">
               <div className="text-center">
-                <div className="text-6xl font-bold text-[#1B4F72] mb-2">-60%</div>
-                <p className="text-gray-600 text-lg">Reducción de tiempo de respuesta</p>
+                <div className="text-6xl font-bold text-[#1B4F72] mb-2">
+                  -60%
+                </div>
+                <p className="text-gray-600 text-lg">
+                  Reducción de tiempo de respuesta
+                </p>
               </div>
             </div>
           </div>
@@ -206,7 +235,8 @@ export default function TransformacionDigital() {
               Beneficios de la automatización
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Optimiza tu atención al cliente con sistemas que trabajan de forma continua, organizada y eficiente.
+              Optimiza tu atención al cliente con sistemas que trabajan de forma
+              continua, organizada y eficiente.
             </p>
           </div>
 
@@ -243,7 +273,8 @@ export default function TransformacionDigital() {
               Servicios Incluidos
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Soluciones integrales para modernizar y optimizar tu atención al cliente.
+              Soluciones integrales para modernizar y optimizar tu atención al
+              cliente.
             </p>
           </div>
 
@@ -308,7 +339,8 @@ export default function TransformacionDigital() {
             ¿Listo para transformar tu atención al cliente?
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Contacta con nuestro equipo de especialistas para una consulta gratuita y descubre cómo podemos modernizar tus canales de atención.
+            Contacta con nuestro equipo de especialistas para una consulta
+            gratuita y descubre cómo podemos modernizar tus canales de atención.
           </p>
           <div className="flex gap-4 justify-center">
             <a

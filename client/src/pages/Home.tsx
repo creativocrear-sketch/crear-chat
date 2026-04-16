@@ -23,7 +23,7 @@ export default function Home() {
       const element = document.querySelector(hash);
       if (element) {
         setTimeout(() => {
-          element.scrollIntoView({ behavior: 'smooth' });
+          element.scrollIntoView({ behavior: "smooth" });
         }, 100);
       }
     } else {

@@ -11,7 +11,10 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-gray-100">
       <div className="container flex items-center justify-between py-4">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity font-bold text-xl text-gray-900">
+        <a
+          href="/"
+          className="flex items-center gap-2 hover:opacity-80 transition-opacity font-bold text-xl text-gray-900"
+        >
           CC
         </a>
 

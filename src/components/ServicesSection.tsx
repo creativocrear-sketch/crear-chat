@@ -1,5 +1,16 @@
 import { Card } from "@/components/ui/card";
-import { Zap, Database, Settings, Lightbulb, TrendingUp, Smartphone, Target, MessageSquare, BarChart3, MessageCircle } from "lucide-react";
+import {
+  Zap,
+  Database,
+  Settings,
+  Lightbulb,
+  TrendingUp,
+  Smartphone,
+  Target,
+  MessageSquare,
+  BarChart3,
+  MessageCircle,
+} from "lucide-react";
 import { Link } from "wouter";
 
 /**
@@ -16,52 +27,60 @@ import { Link } from "wouter";
 const services = [
   {
     title: "Consultoría especializada",
-    description: "Asesoramos a empresas en la implementación y optimización de WhatsApp Business API para automatizar la comunicación, mejorar la atención al cliente y potenciar la gestión comercial.",
+    description:
+      "Asesoramos a empresas en la implementación y optimización de WhatsApp Business API para automatizar la comunicación, mejorar la atención al cliente y potenciar la gestión comercial.",
     icon: Lightbulb,
     link: "/consultoria-whatsapp",
   },
   {
     title: "Estrategias de automatización y marketing digital",
-    description: "Diseñamos estrategias de automatización y marketing digital basadas en datos para atraer clientes, optimizar procesos y aumentar la conversión mediante comunicación inteligente y campañas automatizadas.",
+    description:
+      "Diseñamos estrategias de automatización y marketing digital basadas en datos para atraer clientes, optimizar procesos y aumentar la conversión mediante comunicación inteligente y campañas automatizadas.",
     icon: TrendingUp,
     link: "/estrategias-marketing",
   },
   {
     title: "Automatización de canales de atención al cliente",
-    description: "Automatizamos los canales de atención al cliente mediante soluciones tecnológicas que optimizan la comunicación, mejoran la experiencia del usuario y aumentan la eficiencia operativa.",
+    description:
+      "Automatizamos los canales de atención al cliente mediante soluciones tecnológicas que optimizan la comunicación, mejoran la experiencia del usuario y aumentan la eficiencia operativa.",
     icon: Smartphone,
     link: "/transformacion-digital",
   },
   {
     title: "Automatización de ventas y optimización de conversiones",
-    description: "Automatizamos procesos de ventas y optimizamos la conversión de clientes mediante tecnología, datos y estrategias digitales que mejoran la eficiencia comercial y aumentan los resultados.",
+    description:
+      "Automatizamos procesos de ventas y optimizamos la conversión de clientes mediante tecnología, datos y estrategias digitales que mejoran la eficiencia comercial y aumentan los resultados.",
     icon: Target,
     link: "/automatizacion-ventas",
   },
   {
     title: "Plataforma integrada para administración de chats",
-    description: "Centralizamos la gestión de conversaciones en WhatsApp e Instagram en una sola plataforma para optimizar la atención, automatizar respuestas y mejorar la comunicación con clientes.",
+    description:
+      "Centralizamos la gestión de conversaciones en WhatsApp e Instagram en una sola plataforma para optimizar la atención, automatizar respuestas y mejorar la comunicación con clientes.",
     icon: MessageSquare,
     link: "/plataforma-integrada",
   },
   {
     title: "Gestión inteligente de bases de datos de contactos",
-    description: "Gestionamos y optimizamos bases de datos de contactos para garantizar información actualizada, segmentación precisa y mejor rendimiento en estrategias comerciales y de marketing digital.",
+    description:
+      "Gestionamos y optimizamos bases de datos de contactos para garantizar información actualizada, segmentación precisa y mejor rendimiento en estrategias comerciales y de marketing digital.",
     icon: Database,
     link: "/gestion-contactos",
   },
   {
     title: "Dashboard web centralizado para monitoreo y control",
-    description: "Implementamos dashboards web centralizados que permiten monitorear, controlar y gestionar procesos empresariales en tiempo real desde un solo panel de administración.",
+    description:
+      "Implementamos dashboards web centralizados que permiten monitorear, controlar y gestionar procesos empresariales en tiempo real desde un solo panel de administración.",
     icon: BarChart3,
     link: "/dashboard-web",
   },
   {
     title: "Diseño y desarrollo de chatbots conversacionales",
-    description: "Diseñamos y desarrollamos chatbots conversacionales que automatizan la atención al cliente, optimizan la comunicación y mejoran la interacción digital con los usuarios.",
+    description:
+      "Diseñamos y desarrollamos chatbots conversacionales que automatizan la atención al cliente, optimizan la comunicación y mejoran la interacción digital con los usuarios.",
     icon: MessageCircle,
     link: "/chatbots-conversacionales",
-  }
+  },
 ];
 
 export default function ServicesSection() {
@@ -74,7 +93,8 @@ export default function ServicesSection() {
             Nuestros Servicios
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Soluciones integrales para automatizar y optimizar tu comunicación en WhatsApp Business
+            Soluciones integrales para automatizar y optimizar tu comunicación
+            en WhatsApp Business
           </p>
         </div>
 
@@ -83,9 +103,7 @@ export default function ServicesSection() {
           {services.map((service, index) => {
             const Icon = service.icon;
             const CardContent = (
-              <Card
-                className="overflow-hidden hover-elevate transition-all duration-300 border border-gray-100 bg-white h-full cursor-pointer animate-fade-in-up"
-              >
+              <Card className="overflow-hidden hover-elevate transition-all duration-300 border border-gray-100 bg-white h-full cursor-pointer animate-fade-in-up">
                 {/* Service Content */}
                 <div className="p-8 flex flex-col h-full">
                   {/* Centered Icon */}
@@ -94,12 +112,12 @@ export default function ServicesSection() {
                       <Icon className="w-10 h-10 md:w-12 md:h-12 text-[#1B4F72]" />
                     </div>
                   </div>
-                  
+
                   {/* Title */}
                   <h3 className="font-bold text-lg md:text-xl text-gray-900 text-center mb-4">
                     {service.title}
                   </h3>
-                  
+
                   {/* Description */}
                   <p className="text-gray-600 leading-relaxed text-center flex-grow">
                     {service.description}
@@ -113,9 +131,7 @@ export default function ServicesSection() {
                 {CardContent}
               </Link>
             ) : (
-              <div key={index}>
-                {CardContent}
-              </div>
+              <div key={index}>{CardContent}</div>
             );
           })}
         </div>
