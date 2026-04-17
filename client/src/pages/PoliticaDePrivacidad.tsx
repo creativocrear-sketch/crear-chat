@@ -113,30 +113,17 @@ export default function PoliticaDePrivacidad() {
                 </h2>
 
                 <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '3.1. Proveedores de servicios' : '3.1. Service providers'}
+                  {language === 'es' ? '3.1. Uso y tratamiento de la información' : '3.1. Use and processing of information'}
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
                   {language === 'es'
-                    ? 'Podemos compartir su información con terceros proveedores de servicios que nos ayudan a operar y mejorar la aplicación.'
-                    : 'We may share your information with third-party service providers who help us operate and improve the application.'}
+                    ? 'La información proporcionada por los usuarios es tratada únicamente a través de las herramientas propias de Crear Comunicaciones y mediante plataformas de mensajería de Meta Platforms, Inc. (incluyendo WhatsApp, Messenger e Instagram), utilizadas para la gestión de las comunicaciones.'
+                    : 'The information provided by users is processed exclusively through Crear Comunicaciones\' own tools and via Meta Platforms, Inc. messaging platforms (including WhatsApp, Messenger, and Instagram), used for communication management.'}
                 </p>
-
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '3.2. Requisitos legales' : '3.2. Legal requirements'}
-                </h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
                   {language === 'es'
-                    ? 'Podemos divulgar su información si así lo exige la ley o si creemos de buena fe que dicha acción es necesaria para cumplir con las leyes aplicables, responder a órdenes judiciales o proteger nuestros derechos y propiedad.'
-                    : 'We may disclose your information if required by law or if we believe in good faith that such action is necessary to comply with applicable laws, respond to court orders, or protect our rights and property.'}
-                </p>
-
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '3.3. Transferencias de negocios' : '3.3. Business transfers'}
-                </h3>
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  {language === 'es'
-                    ? 'En el caso de una fusión, adquisición, o venta de la totalidad o una parte de nuestros activos, su información puede ser transferida como parte de la transacción.'
-                    : 'In the event of a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred as part of the transaction.'}
+                    ? 'Crear comunicaciones gestiona la información en calidad de negocio de ser un negocio aprobado como proveedor tecnológico de Meta, mientras que las plataformas de Meta procesan los datos conforme a sus propias políticas de privacidad y condiciones de uso.'
+                    : 'Crear Comunications manages information as a business approved as a Meta technology provider, while Meta platforms process data according to their own privacy policies and terms of use.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
