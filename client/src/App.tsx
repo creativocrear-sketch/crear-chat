@@ -33,6 +33,7 @@ import PlataformaIntegrada from "./pages/PlataformaIntegrada";
 import GestionContactos from "./pages/GestionContactos";
 import DashboardWeb from "./pages/DashboardWeb";
 import ChatbotsConversacionales from "./pages/ChatbotsConversacionales";
+import PoliticaDePrivacidad from "./pages/PoliticaDePrivacidad";
 
 
 function Router() {
@@ -78,6 +79,7 @@ function Router() {
       <Route path={"/gestion-contactos"} component={GestionContactos} />
       <Route path={"/dashboard-web"} component={DashboardWeb} />
       <Route path={"/chatbots-conversacionales"} component={ChatbotsConversacionales} />
+      <Route path={"/Politica-De-Privacidad"} component={PoliticaDePrivacidad} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

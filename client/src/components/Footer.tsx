@@ -22,7 +22,7 @@ export default function Footer() {
             />
           </div>
           <p className="text-gray-400 mt-4 md:mt-0">
-            © 2026 crear.chat. {t('footer.rights')}
+            © 2026 crear.chat. {t('footer.rights')} | <a href="/Politica-De-Privacidad" className="text-gray-400 hover:text-white transition-colors">{language === 'es' ? 'Política de privacidad' : 'Privacy Policy'}</a>
           </p>
         </div>
       </div>
