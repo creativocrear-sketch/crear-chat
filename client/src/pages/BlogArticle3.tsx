@@ -119,17 +119,38 @@ export default function BlogArticle3() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp Business API es la solución de Meta para empresas que necesitan automatización, integración y escalabilidad real en la comunicación.' : 'WhatsApp Business API is Meta\'s solution for companies that need automation, integration and real scalability in communication.'}
+                  {language === 'es' ? 'Migrar a WhatsApp Business API es el proceso de pasar de la app de WhatsApp Business a una infraestructura oficial de Meta diseñada para empresas que necesitan automatización, múltiples agentes e integración con CRM o sistemas de ventas.' : 'Migrating to WhatsApp Business API is the process of moving from the WhatsApp Business app to an official Meta infrastructure designed for companies that need automation, multiple agents and integration with CRM or sales systems.'}
                 </p>
 
                 <div className="bg-gray-50 p-6 rounded-lg mb-6">
-                  <p className="font-semibold text-gray-900 mb-4">{language === 'es' ? 'Diferencias clave:' : 'Key differences:'}</p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>{language === 'es' ? '• No es una app, es una infraestructura' : '• Not an app, it\'s infrastructure'}</li>
-                    <li>{language === 'es' ? '• Permite múltiples agentes' : '• Allows multiple agents'}</li>
-                    <li>{language === 'es' ? '• Se integra con CRM, ERP y sistemas de ventas' : '• Integrates with CRM, ERP and sales systems'}</li>
-                    <li>{language === 'es' ? '• Permite automatización avanzada y flujos' : '• Allows advanced automation and flows'}</li>
-                  </ul>
+                  <p className="font-semibold text-gray-900 mb-4">{language === 'es' ? 'WhatsApp Business App vs WhatsApp Business API:' : 'WhatsApp Business App vs WhatsApp Business API:'}</p>
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="bg-white p-4 rounded border border-gray-200">
+                      <p className="font-semibold text-gray-900 mb-2">{language === 'es' ? 'WhatsApp Business App' : 'WhatsApp Business App'}</p>
+                      <ul className="space-y-1 text-sm text-gray-600">
+                        <li>{language === 'es' ? '• App móvil manual' : '• Manual mobile app'}</li>
+                        <li>{language === 'es' ? '• 1 dispositivo' : '• 1 device'}</li>
+                        <li>{language === 'es' ? '• Sin automatización' : '• No automation'}</li>
+                        <li>{language === 'es' ? '• Límite de mensajes' : '• Message limit'}</li>
+                      </ul>
+                    </div>
+                    <div className="bg-white p-4 rounded border border-gray-200">
+                      <p className="font-semibold text-gray-900 mb-2">{language === 'es' ? 'WhatsApp Business API' : 'WhatsApp Business API'}</p>
+                      <ul className="space-y-1 text-sm text-gray-600">
+                        <li>{language === 'es' ? '• Infraestructura en la nube (Cloud API)' : '• Cloud infrastructure (Cloud API)'}</li>
+                        <li>{language === 'es' ? '• Múltiples agentes' : '• Multiple agents'}</li>
+                        <li>{language === 'es' ? '• Automatización + Escalabilidad' : '• Automation + Scalability'}</li>
+                        <li>{language === 'es' ? '• Integración CRM' : '• CRM integration'}</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-blue-50 p-6 rounded-lg mb-6">
+                  <p className="font-semibold text-gray-900 mb-2">{language === 'es' ? '📌 Importante:' : '📌 Important:'}</p>
+                  <p className="text-gray-600 text-sm">
+                    {language === 'es' ? 'Si no configuras correctamente la API, Meta puede reducir tu quality rating, limitar envíos o bloquear el número.' : 'If you do not configure the API correctly, Meta can reduce your quality rating, limit sending or block the number.'}
+                  </p>
                 </div>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -270,6 +291,81 @@ export default function BlogArticle3() {
                 </ul>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
+                  {language === 'es' ? 'Errores que hacen que Meta rechace tu WhatsApp API' : 'Errors that make Meta reject your WhatsApp API'}
+                </h2>
+                
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  <li>{language === 'es' ? 'Documentos legales incompletos o inconsistentes con Business Manager' : 'Incomplete legal documents or inconsistent with Business Manager'}</li>
+                  <li>{language === 'es' ? 'Nombre del negocio no coincide con RUT o cámara de comercio' : 'Business name does not match tax ID or chamber of commerce'}</li>
+                  <li>{language === 'es' ? 'Caso de uso no definido o demasiado genérico (ej: "ventas" sin detalle)' : 'Use case not defined or too generic (eg: "sales" without detail)'}</li>
+                  <li>{language === 'es' ? 'Dominio de sitio web no verificado o sin relación con el negocio' : 'Website domain not verified or unrelated to business'}</li>
+                  <li>{language === 'es' ? 'Historial de spam en número anterior (si migras número existente)' : 'Spam history on previous number (if migrating existing number)'}</li>
+                </ul>
+
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
+                  {language === 'es' ? '¿Qué pasa si migras mal WhatsApp Business API?' : 'What happens if you migrate WhatsApp Business API incorrectly?'}
+                </h2>
+                
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  <li>{language === 'es' ? 'Pérdida de historial de conversaciones (si usas número personal)' : 'Loss of conversation history (if using personal number)'}</li>
+                  <li>{language === 'es' ? 'Reducción de quality rating por mala configuración de plantillas' : 'Quality rating reduction due to poor template configuration'}</li>
+                  <li>{language === 'es' ? 'Limitación de envíos por disparadores de bloqueo de Meta' : 'Sending limitation due to Meta blocking triggers'}</li>
+                  <li>{language === 'es' ? 'Bloqueo temporal o permanente del número por violación de políticas' : 'Temporary or permanent number blocking due to policy violation'}</li>
+                  <li>{language === 'es' ? 'Rechazo de plantillas por contenido no permitido o formato incorrecto' : 'Template rejection due to disallowed content or incorrect format'}</li>
+                </ul>
+
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
+                  {language === 'es' ? '¿WhatsApp Business API es gratis o tiene costo en Colombia?' : 'Is WhatsApp Business API free or does it have cost in Colombia?'}
+                </h2>
+                
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'WhatsApp Business API no es gratis. El costo se divide en: (1) Tarifa de Meta por conversación iniciada (aprox $0.05-$0.10 USD dependiendo del país), (2) Tarifa del BSP proveedor (varía por proveedor y volumen), (3) Costos de integración técnica si requieres desarrollo personalizado. En Colombia, el costo total promedio mensual varía entre $50-$500 USD dependiendo del volumen de mensajes y proveedor elegido.' : 'WhatsApp Business API is not free. The cost is divided into: (1) Meta fee per conversation initiated (approx $0.05-$0.10 USD depending on country), (2) BSP provider fee (varies by provider and volume), (3) Technical integration costs if you require custom development. In Colombia, the average total monthly cost varies between $50-$500 USD depending on message volume and chosen provider.'}
+                </p>
+
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
+                  {language === 'es' ? 'Comparación de proveedores BSP' : 'BSP provider comparison'}
+                </h2>
+                
+                <div className="overflow-x-auto mb-6">
+                  <table className="min-w-full bg-white border border-gray-200 rounded-lg">
+                    <thead className="bg-gray-50">
+                      <tr>
+                        <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900">{language === 'es' ? 'Proveedor' : 'Provider'}</th>
+                        <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900">{language === 'es' ? 'Costo' : 'Cost'}</th>
+                        <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900">{language === 'es' ? 'Soporte' : 'Support'}</th>
+                        <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900">{language === 'es' ? 'Implementación' : 'Implementation'}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-t border-gray-200">
+                        <td className="px-4 py-3 text-sm text-gray-600">Twilio</td>
+                        <td className="px-4 py-3 text-sm text-gray-600">{language === 'es' ? 'Medio-alto' : 'Medium-high'}</td>
+                        <td className="px-4 py-3 text-sm text-gray-600">{language === 'es' ? '24/7 global' : '24/7 global'}</td>
+                        <td className="px-4 py-3 text-sm text-gray-600">{language === 'es' ? 'Compleja' : 'Complex'}</td>
+                      </tr>
+                      <tr className="border-t border-gray-200">
+                        <td className="px-4 py-3 text-sm text-gray-600">MessageBird</td>
+                        <td className="px-4 py-3 text-sm text-gray-600">{language === 'es' ? 'Medio' : 'Medium'}</td>
+                        <td className="px-4 py-3 text-sm text-gray-600">{language === 'es' ? 'Horario laboral' : 'Business hours'}</td>
+                        <td className="px-4 py-3 text-sm text-gray-600">{language === 'es' ? 'Media' : 'Medium'}</td>
+                      </tr>
+                      <tr className="border-t border-gray-200">
+                        <td className="px-4 py-3 text-sm text-gray-600">Infobip</td>
+                        <td className="px-4 py-3 text-sm text-gray-600">{language === 'es' ? 'Variable' : 'Variable'}</td>
+                        <td className="px-4 py-3 text-sm text-gray-600">{language === 'es' ? 'Forte LATAM' : 'Strong LATAM'}</td>
+                        <td className="px-4 py-3 text-sm text-gray-600">{language === 'es' ? 'Media' : 'Medium'}</td>
+                      </tr>
+                      <tr className="border-t border-gray-200 bg-blue-50">
+                        <td className="px-4 py-3 text-sm font-semibold text-gray-900">Crear.chat</td>
+                        <td className="px-4 py-3 text-sm text-gray-600">{language === 'es' ? 'Transparente' : 'Transparent'}</td>
+                        <td className="px-4 py-3 text-sm text-gray-600">{language === 'es' ? 'Local español' : 'Local Spanish'}</td>
+                        <td className="px-4 py-3 text-sm text-gray-600">{language === 'es' ? 'Rápida (3-7 días)' : 'Fast (3-7 days)'}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
                   {language === 'es' ? 'Tiempo real de implementación' : 'Real implementation time'}
                 </h2>
                 
@@ -296,35 +392,49 @@ export default function BlogArticle3() {
                   {language === 'es' ? '¿Cuánto cuesta WhatsApp Business API?' : 'How much does WhatsApp Business API cost?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Depende del BSP. Promedio $0.05–$0.10 USD por conversación + proveedor.' : 'Depends on BSP. Average $0.05–$0.10 USD per conversation + provider.'}
+                  {language === 'es' ? 'El costo de WhatsApp Business API se divide en tarifa de Meta por conversación iniciada ($0.05-$0.10 USD) más tarifa del BSP proveedor. En Colombia, el costo mensual promedio varía entre $50-$500 USD dependiendo del volumen de mensajes y proveedor elegido.' : 'The cost of WhatsApp Business API is divided into Meta fee per conversation initiated ($0.05-$0.10 USD) plus BSP provider fee. In Colombia, the average monthly cost varies between $50-$500 USD depending on message volume and chosen provider.'}
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Puedo usar mi número actual?' : 'Can I use my current number?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'No recomendado. Puede generar pérdida de historial o bloqueo.' : 'Not recommended. Can cause history loss or block.'}
+                  {language === 'es' ? 'No recomendado usar tu número personal actual. WhatsApp Business API requiere número dedicado. Migrar tu número personal puede causar pérdida de historial de conversaciones, problemas de verificación o bloqueo por historial previo mal gestionado.' : 'Not recommended to use your current personal number. WhatsApp Business API requires a dedicated number. Migrating your personal number can cause conversation history loss, verification issues or blocking due to poorly managed previous history.'}
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Cuánto tarda la aprobación?' : 'How long does approval take?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '1 a 3 días en Meta + 24–48h en plantillas.' : '1 to 3 days in Meta + 24–48h in templates.'}
+                  {language === 'es' ? 'La aprobación de Meta Business Manager toma 1 a 3 días hábiles. La aprobación de plantillas de mensajes toma 24-48 horas adicionales. El tiempo total de implementación varía entre 3-14 días dependiendo de la complejidad de integración técnica.' : 'Meta Business Manager approval takes 1 to 3 business days. Message template approval takes additional 24-48 hours. Total implementation time varies between 3-14 days depending on technical integration complexity.'}
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Necesito empresa registrada?' : 'Do I need a registered company?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Sí, es obligatorio en Colombia.' : 'Yes, it is mandatory in Colombia.'}
+                  {language === 'es' ? 'Sí, es obligatorio tener empresa legalmente registrada en Colombia. WhatsApp Business API requiere documentos legales válidos: RUT, certificado de constitución y cámara de comercio. Meta verifica la identidad legal del negocio antes de aprobar el acceso a la API.' : 'Yes, it is mandatory to have a legally registered company in Colombia. WhatsApp Business API requires valid legal documents: tax ID, incorporation certificate and chamber of commerce. Meta verifies the legal identity of the business before approving API access.'}
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Qué es un BSP?' : 'What is a BSP?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Proveedor autorizado por Meta para usar la API.' : 'Provider authorized by Meta to use the API.'}
+                  {language === 'es' ? 'BSP (Business Solution Provider) es un proveedor autorizado por Meta que permite a empresas acceder a WhatsApp Business API. Ejemplos de BSPs incluyen Twilio, MessageBird, Infobip y Crear.chat. El BSP maneja la infraestructura técnica, soporte y facturación de la API.' : 'BSP (Business Solution Provider) is a provider authorized by Meta that allows companies to access WhatsApp Business API. Examples of BSPs include Twilio, MessageBird, Infobip and Crear.chat. The BSP handles technical infrastructure, support and API billing.'}
+                </p>
+
+                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                  {language === 'es' ? '¿Qué es quality rating?' : 'What is quality rating?'}
+                </h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'Quality rating es una métrica de Meta que evalúa la calidad de tus mensajes. Se basa en respuestas recibidas, reportes de spam y bloqueos. Un quality rating bajo puede limitar tu capacidad de enviar mensajes. Mantener un rating alto es crucial para evitar bloqueos.' : 'Quality rating is a Meta metric that evaluates the quality of your messages. It is based on responses received, spam reports and blocks. A low quality rating can limit your ability to send messages. Maintaining a high rating is crucial to avoid blocks.'}
+                </p>
+
+                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                  {language === 'es' ? '¿Qué es WhatsApp Cloud API?' : 'What is WhatsApp Cloud API?'}
+                </h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'WhatsApp Cloud API es la versión moderna de WhatsApp Business API alojada en la nube de Meta. Ofrece las mismas funcionalidades que la API tradicional pero con menor latencia, actualizaciones automáticas y sin necesidad de servidor propio. Es la opción recomendada para nuevas implementaciones.' : 'WhatsApp Cloud API is the modern version of WhatsApp Business API hosted on Meta cloud. It offers the same functionalities as traditional API but with lower latency, automatic updates and no need for own server. It is the recommended option for new implementations.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
