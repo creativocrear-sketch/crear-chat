@@ -91,10 +91,14 @@ export default function BlogArticle1() {
                   {language === 'es' ? [
                     'WhatsApp Business: App gratuita, 1 dispositivo, automatización básica',
                     'WhatsApp Business API: API programable, múltiples dispositivos, automatización avanzada e integración con sistemas empresariales'
-                  ] : [
+                  ].map((item, index) => (
+                    <li key={index}>{item}</li>
+                  )) : [
                     'WhatsApp Business: Free app, 1 device, basic automation',
                     'WhatsApp Business API: Programmable API, multiple devices, advanced automation and integration with business systems'
-                  ]}
+                  ].map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
