@@ -115,7 +115,7 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Esta solución para restaurantes automatiza confirmaciones, recordatorios y modificaciones. La integración con CRM registra historial de clientes, preferencias alimentarias y frecuencia de visita.' : 'This solution for restaurants automates confirmations, reminders, and modifications. CRM integration records customer history, dietary preferences, and visit frequency.'}
+                  {language === 'es' ? 'Esta herramienta para restaurantes automatiza confirmaciones, recordatorios y modificaciones. La integración con CRM registra historial de clientes, preferencias alimentarias y frecuencia de visita.' : 'This tool for restaurants automates confirmations, reminders, and modifications. CRM integration records customer history, dietary preferences, and visit frequency.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -147,7 +147,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Tiempo de respuesta bajó de 4 horas a 2 minutos. Satisfacción del cliente aumentó 28%.' : 'Response time dropped from 4 hours to 2 minutes. Customer satisfaction increased 28%.'}
+                  {language === 'es' ? 'Tiempo de respuesta bajó de 4 horas a 2 minutos. Satisfacción del cliente aumentó 28%. Esto impactó directamente en la operación diaria del restaurante.' : 'Response time dropped from 4 hours to 2 minutes. Customer satisfaction increased 28%. This directly impacted the restaurant\'s daily operation.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -167,7 +167,7 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp para empresas hoteleras conecta con PMS (Property Management System). El huésped recibe mensaje pre-arrival con check-in remoto, código WiFi y mapa del hotel. La plataforma sincroniza solicitudes en tiempo real.' : 'WhatsApp for hotel companies connects with PMS (Property Management System). Guest receives pre-arrival message with remote check-in, WiFi code, and hotel map. The platform synchronizes requests in real time.'}
+                  {language === 'es' ? 'WhatsApp para empresas hoteleras conecta con PMS (Property Management System). El huésped recibe mensaje pre-arrival con check-in remoto, código WiFi y mapa del hotel. Este enfoque sincroniza solicitudes en tiempo real.' : 'WhatsApp for hotel companies connects with PMS (Property Management System). Guest receives pre-arrival message with remote check-in, WiFi code, and hotel map. This approach synchronizes requests in real time.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -188,7 +188,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Upselling de spa aumentó 22%. Tasa de respuesta a encuestas post-estadía subió de 12% a 48%.' : 'Spa upselling increased 22%. Post-stay survey response rate rose from 12% to 48%.'}
+                  {language === 'es' ? 'Upselling de spa aumentó 22%. Tasa de respuesta a encuestas post-estadía subió de 12% a 48%. El equipo ahora tiene más tiempo para atención personalizada.' : 'Spa upselling increased 22%. Post-stay survey response rate rose from 12% to 48%. The team now has more time for personalized attention.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -208,7 +208,7 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Los beneficios de esta plataforma para cafés incluyen programas de lealtad digitales. Cada compra suma puntos automáticamente. El sistema envía promociones personalizadas basadas en historial. La solución conecta con POS para tracking en tiempo real.' : 'The benefits of this platform for cafés include digital loyalty programs. Each purchase automatically adds points. System sends personalized promotions based on history. The solution connects with POS for real-time tracking.'}
+                  {language === 'es' ? 'Los beneficios de este sistema para cafés incluyen programas de lealtad digitales. Cada compra suma puntos automáticamente. El sistema envía promociones personalizadas basadas en historial. La automatización conecta con POS para tracking en tiempo real.' : 'The benefits of this system for cafés include digital loyalty programs. Each purchase automatically adds points. System sends personalized promotions based on history. Automation connects with POS for real-time tracking.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -228,7 +228,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Frecuencia de visita aumentó de 2.1 a 3.4 veces/mes. Ticket promedio subió 12%.' : 'Visit frequency increased from 2.1 to 3.4 times/month. Average ticket rose 12%.'}
+                  {language === 'es' ? 'Frecuencia de visita aumentó de 2.1 a 3.4 veces/mes. Ticket promedio subió 12%. Los clientes ahora sienten que el café los conoce.' : 'Visit frequency increased from 2.1 to 3.4 times/month. Average ticket rose 12%. Customers now feel the café knows them.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -248,7 +248,7 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Los beneficios para despachos incluyen comunicación encriptada end-to-end, recordatorios automáticos de fechas críticas y gestión documental. La plataforma integra con software legal para tracking de casos.' : 'Benefits for law firms include end-to-end encrypted communication, automatic critical date reminders, and document management. The platform integrates with legal software for case tracking.'}
+                  {language === 'es' ? 'Los beneficios para despachos incluyen comunicación encriptada end-to-end, recordatorios automáticos de fechas críticas y gestión documental. La API integra con software legal para tracking de casos.' : 'Benefits for law firms include end-to-end encrypted communication, automatic critical date reminders, and document management. The API integrates with legal software for case tracking.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -269,7 +269,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Tiempo de respuesta inicial bajó de 24h a 5 minutos. Cero fechas de audiencia olvidadas en 6 meses.' : 'Initial response time dropped from 24h to 5 minutes. Zero forgotten hearing dates in 6 months.'}
+                  {language === 'es' ? 'Tiempo de respuesta inicial bajó de 24h a 5 minutos. Cero fechas de audiencia olvidadas en 6 meses. Los abogados pueden enfocarse en casos complejos.' : 'Initial response time dropped from 24h to 5 minutes. Zero forgotten hearing dates in 6 months. Lawyers can focus on complex cases.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -289,7 +289,7 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Para qué sirve esta solución en cobranzas: comunicación menos intrusiva con tono empático. Recordatorios automáticos personalizados. Enlaces de pago integrados en la conversación. El sistema conecta con pasarelas para pagos instantáneos.' : 'What this solution is for in collections: less intrusive communication with empathetic tone. Automatic personalized reminders. Payment links integrated in conversation. The system connects with gateways for instant payments.'}
+                  {language === 'es' ? 'Para qué sirve esta herramienta en cobranzas: comunicación menos intrusiva con tono empático. Recordatorios automáticos personalizados. Enlaces de pago integrados en la conversación. La automatización conecta con pasarelas para pagos instantáneos.' : 'What this tool is for in collections: less intrusive communication with empathetic tone. Automatic personalized reminders. Payment links integrated in conversation. Automation connects with gateways for instant payments.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -310,7 +310,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Tasa de respuesta a recordatorios subió de 15% a 62%. Tiempo promedio de pago redujo de 14 días a 4 días.' : 'Reminder response rate rose from 15% to 62%. Average payment time reduced from 14 days to 4 days.'}
+                  {language === 'es' ? 'Tasa de respuesta a recordatorios subió de 15% a 62%. Tiempo promedio de pago redujo de 14 días a 4 días. Los deudores sienten que son tratados con respeto.' : 'Reminder response rate rose from 15% to 62%. Average payment time reduced from 14 days to 4 days. Debtors feel they are treated with respect.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -318,7 +318,7 @@ export default function BlogArticle2() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Independientemente de tu industria, los beneficios son consistentes:' : 'Regardless of your industry, benefits are consistent:'}
+                  {language === 'es' ? 'Lo que todas estas empresas tienen en común es esto:' : 'What all these companies have in common is this:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -412,7 +412,7 @@ export default function BlogArticle2() {
                   className="inline-flex items-center gap-2 px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
                 >
                   <MessageCircle className="w-5 h-5" />
-                  {language === 'es' ? 'Habla con un especialista' : 'Talk to a specialist'}
+                  {language === 'es' ? 'Agenda una demo en WhatsApp' : 'Schedule a demo on WhatsApp'}
                 </a>
               </div>
             </div>
