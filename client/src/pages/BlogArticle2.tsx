@@ -103,7 +103,7 @@ export default function BlogArticle2() {
                 </h2>
                 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'El problema' : 'The problem'}
+                  {language === 'es' ? 'Problema' : 'Problem'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -111,11 +111,11 @@ export default function BlogArticle2() {
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'La solución' : 'The solution'}
+                  {language === 'es' ? 'Solución' : 'Solution'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'La API de WhatsApp para restaurantes automatiza confirmaciones, recordatorios y modificaciones. La integración con CRM registra historial de clientes, preferencias alimentarias y frecuencia de visita.' : 'The WhatsApp API for restaurants automates confirmations, reminders, and modifications. CRM integration records customer history, dietary preferences, and visit frequency.'}
+                  {language === 'es' ? 'Esta solución para restaurantes automatiza confirmaciones, recordatorios y modificaciones. La integración con CRM registra historial de clientes, preferencias alimentarias y frecuencia de visita.' : 'This solution for restaurants automates confirmations, reminders, and modifications. CRM integration records customer history, dietary preferences, and visit frequency.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -139,27 +139,15 @@ export default function BlogArticle2() {
                 </ul>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'El resultado' : 'The result'}
+                  {language === 'es' ? 'Resultados' : 'Results'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Implementación: 3 semanas. Resultado: no-show reducido en 40%. Los clientes reciben confirmación automática al reservar, recordatorio 24h antes y pueden cancelar con un clic. El sistema de mensajería empresarial procesa pedidos delivery con integración POS.' : 'Implementation: 3 weeks. Result: no-show reduced by 40%. Customers receive automatic confirmation upon booking, 24h reminder, and can cancel with one click. The enterprise messaging system processes delivery orders with POS integration.'}
+                  {language === 'es' ? 'Implementación: 3 semanas. Resultado: no-show reducido en 40%. Los clientes reciben confirmación automática al reservar, recordatorio 24h antes y pueden cancelar con un clic. El sistema procesa pedidos delivery con integración POS.' : 'Implementation: 3 weeks. Result: no-show reduced by 40%. Customers receive automatic confirmation upon booking, 24h reminder, and can cancel with one click. The system processes delivery orders with POS integration.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'KPIs adicionales: tiempo de respuesta bajó de 4 horas a 2 minutos. Satisfacción del cliente aumentó 28%. El ROI se recuperó en 45 días.' : 'Additional KPIs: response time dropped from 4 hours to 2 minutes. Customer satisfaction increased 28%. ROI recovered in 45 days.'}
-                </p>
-
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Con IA' : 'With AI'}
-                </h3>
-                
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Un asistente con NLP responde: "¿Tienen opciones sin gluten?" con sugerencias precisas. Procesa pedidos complejos: "Quiero una ensalada para 2 personas, sin cebolla, delivery a las 8pm". La IA maneja 500 conversaciones simultáneas.' : 'An NLP assistant responds to "Do you have gluten-free options?" with precise suggestions. Processes complex orders: "I want a salad for 2 people, no onion, delivery at 8pm". AI handles 500 simultaneous conversations.'}
-                </p>
-
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Impacto: 85% de consultas resueltas sin intervención humana. El equipo de atención al cliente se enfoca en casos complejos.' : 'Impact: 85% of inquiries resolved without human intervention. Customer service team focuses on complex cases.'}
+                  {language === 'es' ? 'Tiempo de respuesta bajó de 4 horas a 2 minutos. Satisfacción del cliente aumentó 28%.' : 'Response time dropped from 4 hours to 2 minutes. Customer satisfaction increased 28%.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -167,7 +155,7 @@ export default function BlogArticle2() {
                 </h2>
                 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'El problema' : 'The problem'}
+                  {language === 'es' ? 'Problema' : 'Problem'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -175,11 +163,11 @@ export default function BlogArticle2() {
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'La solución' : 'The solution'}
+                  {language === 'es' ? 'Solución' : 'Solution'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp para empresas hoteleras conecta con PMS (Property Management System). El huésped recibe mensaje pre-arrival con check-in remoto, código WiFi y mapa del hotel. La automatización sincroniza solicitudes en tiempo real.' : 'WhatsApp for hotel companies connects with PMS (Property Management System). Guest receives pre-arrival message with remote check-in, WiFi code, and hotel map. Automation synchronizes requests in real time.'}
+                  {language === 'es' ? 'WhatsApp para empresas hoteleras conecta con PMS (Property Management System). El huésped recibe mensaje pre-arrival con check-in remoto, código WiFi y mapa del hotel. La plataforma sincroniza solicitudes en tiempo real.' : 'WhatsApp for hotel companies connects with PMS (Property Management System). Guest receives pre-arrival message with remote check-in, WiFi code, and hotel map. The platform synchronizes requests in real time.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -192,7 +180,7 @@ export default function BlogArticle2() {
                 </ul>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'El resultado' : 'The result'}
+                  {language === 'es' ? 'Resultados' : 'Results'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -200,19 +188,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'KPIs adicionales: upselling de spa aumentó 22%. Tasa de respuesta a encuestas post-estadía subió de 12% a 48%. El personal de recepción ahorró 3 horas diarias en tareas administrativas.' : 'Additional KPIs: spa upselling increased 22%. Post-stay survey response rate rose from 12% to 48%. Reception staff saved 3 hours daily on administrative tasks.'}
-                </p>
-
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Con IA' : 'With AI'}
-                </h3>
-                
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'El asistente de IA 24/7 recomienda restaurantes basándose en historial del huésped: "Vi que te gusta la comida peruana, a 5 minutos hay un restaurante altamente recomendado". Procesa room service y coordina con housekeeping. La automatización reduce tiempos de respuesta en 70%.' : 'The 24/7 AI assistant recommends restaurants based on guest history: "I saw you like Peruvian food, 5 minutes away there\'s a highly recommended restaurant". Processes room service and coordinates with housekeeping. Automation reduces response times by 70%.'}
-                </p>
-
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Impacto: 90% de consultas resueltas automáticamente. Upselling de tours y servicios aumentó 18%. Los huéspedes valoran la disponibilidad instantánea.' : 'Impact: 90% of inquiries resolved automatically. Upselling of tours and services increased 18%. Guests value instant availability.'}
+                  {language === 'es' ? 'Upselling de spa aumentó 22%. Tasa de respuesta a encuestas post-estadía subió de 12% a 48%.' : 'Spa upselling increased 22%. Post-stay survey response rate rose from 12% to 48%.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -220,7 +196,7 @@ export default function BlogArticle2() {
                 </h2>
                 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'El problema' : 'The problem'}
+                  {language === 'es' ? 'Problema' : 'Problem'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -228,11 +204,11 @@ export default function BlogArticle2() {
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'La solución' : 'The solution'}
+                  {language === 'es' ? 'Solución' : 'Solution'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Los beneficios de la API para cafés incluyen programas de lealtad digitales. Cada compra suma puntos automáticamente. El sistema envía promociones personalizadas basadas en historial. La automatización conecta con POS para tracking en tiempo real.' : 'The API benefits for cafés include digital loyalty programs. Each purchase automatically adds points. System sends personalized promotions based on history. Automation connects with POS for real-time tracking.'}
+                  {language === 'es' ? 'Los beneficios de esta plataforma para cafés incluyen programas de lealtad digitales. Cada compra suma puntos automáticamente. El sistema envía promociones personalizadas basadas en historial. La solución conecta con POS para tracking en tiempo real.' : 'The benefits of this platform for cafés include digital loyalty programs. Each purchase automatically adds points. System sends personalized promotions based on history. The solution connects with POS for real-time tracking.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -244,7 +220,7 @@ export default function BlogArticle2() {
                 </ul>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'El resultado' : 'The result'}
+                  {language === 'es' ? 'Resultados' : 'Results'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -252,19 +228,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'KPIs adicionales: frecuencia de visita aumentó de 2.1 a 3.4 veces/mes. Ticket promedio subió 12%. Tasa de redención de puntos: 78%. El programa se pagó en 60 días.' : 'Additional KPIs: visit frequency increased from 2.1 to 3.4 times/month. Average ticket rose 12%. Point redemption rate: 78%. Program paid for itself in 60 days.'}
-                </p>
-
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Con IA' : 'With AI'}
-                </h3>
-                
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'El sistema de IA analiza patrones: "Viste que te encanta el café de Etiopía, tenemos uno nuevo de Colombia similar". Procesa pre-pedidos y predice demanda para optimizar inventario. El machine learning aumenta ticket promedio en 15%.' : 'The AI system analyzes patterns: "You love Ethiopian coffee, we have a similar new one from Colombia". Processes pre-orders and predicts demand to optimize inventory. Machine learning increases average ticket by 15%.'}
-                </p>
-
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Impacto: 65% de clientes aceptan recomendaciones. Desperdicio de inventario reducido 18%. Pre-pedidos representan 22% de ventas totales.' : 'Impact: 65% of customers accept recommendations. Inventory waste reduced 18%. Pre-orders represent 22% of total sales.'}
+                  {language === 'es' ? 'Frecuencia de visita aumentó de 2.1 a 3.4 veces/mes. Ticket promedio subió 12%.' : 'Visit frequency increased from 2.1 to 3.4 times/month. Average ticket rose 12%.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -272,7 +236,7 @@ export default function BlogArticle2() {
                 </h2>
                 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'El problema' : 'The problem'}
+                  {language === 'es' ? 'Problema' : 'Problem'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -280,11 +244,11 @@ export default function BlogArticle2() {
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'La solución' : 'The solution'}
+                  {language === 'es' ? 'Solución' : 'Solution'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Los beneficios para despachos incluyen comunicación encriptada end-to-end, recordatorios automáticos de fechas críticas y gestión documental. La automatización integra con software legal para tracking de casos.' : 'Benefits for law firms include end-to-end encrypted communication, automatic critical date reminders, and document management. Automation integrates with legal software for case tracking.'}
+                  {language === 'es' ? 'Los beneficios para despachos incluyen comunicación encriptada end-to-end, recordatorios automáticos de fechas críticas y gestión documental. La plataforma integra con software legal para tracking de casos.' : 'Benefits for law firms include end-to-end encrypted communication, automatic critical date reminders, and document management. The platform integrates with legal software for case tracking.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -297,7 +261,7 @@ export default function BlogArticle2() {
                 </ul>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'El resultado' : 'The result'}
+                  {language === 'es' ? 'Resultados' : 'Results'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -305,19 +269,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'KPIs adicionales: tiempo de respuesta inicial bajó de 24h a 5 minutos. Cero fechas de audiencia olvidadas en 6 meses. Satisfacción de clientes: 4.8/5. Los abogados ahorraron 8 horas semanales en consultas repetitivas.' : 'Additional KPIs: initial response time dropped from 24h to 5 minutes. Zero forgotten hearing dates in 6 months. Client satisfaction: 4.8/5. Lawyers saved 8 hours weekly on repetitive inquiries.'}
-                </p>
-
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Con IA' : 'With AI'}
-                </h3>
-                
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Chatbot legal con NLP responde: "¿Cuánto tiempo toma un divorcio?" con precisión del 92%. Clasifica consultas por urgencia y área legal, dirigiendo al abogado correcto. La automatización reduce tiempo de respuesta de 24h a 5 minutos.' : 'Legal chatbot with NLP responds to "How long does a divorce take?" with 92% accuracy. Classifies inquiries by urgency and legal area, directing to correct lawyer. Automation reduces response time from 24h to 5 minutes.'}
-                </p>
-
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Impacto: 78% de consultas frecuentes resueltas automáticamente. Los abogados solo reciben casos relevantes. Tasa de conversión de consultas a clientes aumentó 35%.' : 'Impact: 78% of frequent inquiries resolved automatically. Lawyers only receive relevant cases. Inquiry-to-client conversion rate increased 35%.'}
+                  {language === 'es' ? 'Tiempo de respuesta inicial bajó de 24h a 5 minutos. Cero fechas de audiencia olvidadas en 6 meses.' : 'Initial response time dropped from 24h to 5 minutes. Zero forgotten hearing dates in 6 months.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -325,7 +277,7 @@ export default function BlogArticle2() {
                 </h2>
                 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'El problema' : 'The problem'}
+                  {language === 'es' ? 'Problema' : 'Problem'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -333,11 +285,11 @@ export default function BlogArticle2() {
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'La solución' : 'The solution'}
+                  {language === 'es' ? 'Solución' : 'Solution'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Para qué sirve la API en cobranzas: comunicación menos intrusiva con tono empático. Recordatorios automáticos personalizados. Enlaces de pago integrados en la conversación. La automatización conecta con pasarelas para pagos instantáneos.' : 'What the API is for in collections: less intrusive communication with empathetic tone. Automatic personalized reminders. Payment links integrated in conversation. Automation connects with gateways for instant payments.'}
+                  {language === 'es' ? 'Para qué sirve esta solución en cobranzas: comunicación menos intrusiva con tono empático. Recordatorios automáticos personalizados. Enlaces de pago integrados en la conversación. El sistema conecta con pasarelas para pagos instantáneos.' : 'What this solution is for in collections: less intrusive communication with empathetic tone. Automatic personalized reminders. Payment links integrated in conversation. The system connects with gateways for instant payments.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -350,7 +302,7 @@ export default function BlogArticle2() {
                 </ul>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'El resultado' : 'The result'}
+                  {language === 'es' ? 'Resultados' : 'Results'}
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -358,19 +310,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'KPIs adicionales: tasa de respuesta a recordatorios subió de 15% a 62%. Tiempo promedio de pago redujo de 14 días a 4 días. Costos operativos bajaron 35%. Quejas de deudores reducidas 70%.' : 'Additional KPIs: reminder response rate rose from 15% to 62%. Average payment time reduced from 14 days to 4 days. Operational costs dropped 35%. Debtor complaints reduced 70%.'}
-                </p>
-
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Con IA' : 'With AI'}
-                </h3>
-                
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Sistema de IA con machine learning analiza patrones y envía recordatorios en momento óptimo. Procesa planes de pago automáticamente. Clientes negocian términos sin intervención humana. Predice probabilidad de incumplimiento. La automatización reduce costos 35% y mejora recuperación 20% adicional.' : 'AI system with machine learning analyzes patterns and sends reminders at optimal time. Automatically processes payment plans. Clients negotiate terms without human intervention. Predicts default probability. Automation reduces costs 35% and improves recovery by additional 20%.'}
-                </p>
-
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Impacto: precisión de predicción de incumplimiento: 87%. Planes de pago negociados automáticamente: 55%. Recuperación de cartera de alto riesgo mejoró 32%.' : 'Impact: default prediction accuracy: 87%. Payment plans negotiated automatically: 55%. High-risk portfolio recovery improved 32%.'}
+                  {language === 'es' ? 'Tasa de respuesta a recordatorios subió de 15% a 62%. Tiempo promedio de pago redujo de 14 días a 4 días.' : 'Reminder response rate rose from 15% to 62%. Average payment time reduced from 14 days to 4 days.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
