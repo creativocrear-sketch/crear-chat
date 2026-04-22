@@ -31,12 +31,25 @@ export default function BlogArticle1() {
   return (
     <>
       <Helmet>
-        <title>{language === 'es' ? 'WhatsApp Business vs API: diferencias, ventajas y cuál elegir (2026)' : 'WhatsApp Business vs API: differences, advantages and which one to choose (2026)'}</title>
+        <title>{language === 'es' ? 'WhatsApp Business vs API: Diferencias y ventajas (2026)' : 'WhatsApp Business vs API: Differences and advantages (2026)'}</title>
         <meta 
           name="description" 
           content={language === 'es' 
-            ? 'Descubre la diferencia entre WhatsApp Business y WhatsApp Business API, sus ventajas, cuándo usar cada uno y cómo automatizar tu atención al cliente.' 
-            : 'Discover the difference between WhatsApp Business and WhatsApp Business API, their advantages, when to use each one and how to automate your customer service.'} 
+            ? 'Diferencia entre WhatsApp Business y API. Ventajas, cuándo elegir y cómo automatizar atención al cliente.' 
+            : 'Difference between WhatsApp Business and API. Advantages, when to choose and how to automate customer service.'} 
+        />
+        <meta 
+          name="keywords" 
+          content={language === 'es' 
+            ? 'WhatsApp Business, WhatsApp Business API, automatización WhatsApp, atención al cliente, CRM, ventas por WhatsApp' 
+            : 'WhatsApp Business, WhatsApp Business API, WhatsApp automation, customer service, CRM, WhatsApp sales'} 
+        />
+        <link rel="canonical" href="https://crear.chat/blog/diferencia-whatsapp-business-api" />
+        <meta property="og:url" content="https://crear.chat/blog/diferencia-whatsapp-business-api" />
+        <meta property="og:title" content={language === 'es' ? 'WhatsApp Business vs API: Diferencias y ventajas (2026)' : 'WhatsApp Business vs API: Differences and advantages (2026)'} />
+        <meta property="og:description" content={language === 'es' 
+            ? 'Diferencia entre WhatsApp Business y API. Ventajas, cuándo elegir y cómo automatizar atención al cliente.' 
+            : 'Difference between WhatsApp Business and API. Advantages, when to choose and how to automate customer service.'} 
         />
       </Helmet>
       <div className="min-h-screen flex flex-col bg-white">
