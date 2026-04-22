@@ -35,6 +35,7 @@ export default function BlogArticle2() {
         <title>{language === 'es' ? 'WhatsApp Business API en Colombia: 5 casos de uso reales con resultados (2026)' : 'WhatsApp Business API in Colombia: 5 real use cases with results (2026)'}</title>
         <link rel="canonical" href="https://tudominio.com/blog/whatsapp-business-api-colombia" />
         <meta name="author" content="Alex Murillo" />
+        <meta name="keywords" content="WhatsApp Business API, automatización WhatsApp, casos de uso WhatsApp, WhatsApp Colombia, API WhatsApp, chatbots WhatsApp, WhatsApp para empresas" />
         <meta 
           name="description" 
           content={language === 'es' 
