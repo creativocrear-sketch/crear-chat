@@ -157,10 +157,18 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'Analiza tu volumen mensual de mensajes, tiempos de respuesta actuales y puntos de dolor en la gestión de WhatsApp. Documenta qué procesos son manuales y cuánto tiempo consumen.' : 'Analyze your monthly message volume, current response times and pain points in WhatsApp management. Document which processes are manual and how much time they consume.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Error común:</strong> No tener datos claros de tu situación actual antes de migrar.' : '<strong>Common error:</strong> Not having clear data of your current situation before migrating.'}
+                  {language === 'es' ? (
+                    <><strong>Error común:</strong> No tener datos claros de tu situación actual antes de migrar.</>
+                  ) : (
+                    <><strong>Common error:</strong> Not having clear data of your current situation before migrating.</>
+                  )}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Tip profesional:</strong> Usa herramientas de analytics para medir métricas clave antes de la migración.' : '<strong>Professional tip:</strong> Use analytics tools to measure key metrics before migration.'}
+                  {language === 'es' ? (
+                    <><strong>Tip profesional:</strong> Usa herramientas de analytics para medir métricas clave antes de la migración.</>
+                  ) : (
+                    <><strong>Professional tip:</strong> Use analytics tools to measure key metrics before migration.</>
+                  )}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -180,10 +188,18 @@ export default function BlogArticle3() {
                   <li>{language === 'es' ? 'Crear.chat: Especializado en Colombia, implementación rápida, soporte local español, costos transparentes' : 'Crear.chat: Specialized in Colombia, fast implementation, local Spanish support, transparent costs'}</li>
                 </ul>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Error común:</strong> Elegir BSP solo por precio sin evaluar soporte técnico.' : '<strong>Common error:</strong> Choosing BSP only by price without evaluating technical support.'}
+                  {language === 'es' ? (
+                    <><strong>Error común:</strong> Elegir BSP solo por precio sin evaluar soporte técnico.</>
+                  ) : (
+                    <><strong>Common error:</strong> Choosing BSP only by price without evaluating technical support.</>
+                  )}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Tip profesional:</strong> Pide demostración técnica antes de comprometerte.' : '<strong>Professional tip:</strong> Request technical demonstration before committing.'}
+                  {language === 'es' ? (
+                    <><strong>Tip profesional:</strong> Pide demostración técnica antes de comprometerte.</>
+                  ) : (
+                    <><strong>Professional tip:</strong> Request technical demonstration before committing.</>
+                  )}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -194,10 +210,18 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'Adquiere un número dedicado para WhatsApp Business API. No uses tu número personal. Configura el número en tu BSP y verifica que esté activo.' : 'Acquire a dedicated number for WhatsApp Business API. Do not use your personal number. Configure the number in your BSP and verify it is active.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Error común:</strong> Usar número personal existente con historial de mensajes.' : '<strong>Common error:</strong> Using existing personal number with message history.'}
+                  {language === 'es' ? (
+                    <><strong>Error común:</strong> Usar número personal existente con historial de mensajes.</>
+                  ) : (
+                    <><strong>Common error:</strong> Using existing personal number with message history.</>
+                  )}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Tip profesional:</strong> Usa número con código de área local para mayor confianza.' : '<strong>Professional tip:</strong> Use number with local area code for greater trust.'}
+                  {language === 'es' ? (
+                    <><strong>Tip profesional:</strong> Usa número con código de área local para mayor confianza.</>
+                  ) : (
+                    <><strong>Professional tip:</strong> Use number with local area code for greater trust.</>
+                  )}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -208,10 +232,18 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'Crea o verifica tu cuenta en Meta Business Manager. Sube documentos legales de tu empresa en Colombia. Espera aprobación de Meta (1-3 días hábiles).' : 'Create or verify your account in Meta Business Manager. Upload legal documents of your company in Colombia. Wait for Meta approval (1-3 business days).'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Error común:</strong> Documentos incompletos o información incorrecta en Business Manager.' : '<strong>Common error:</strong> Incomplete documents or incorrect information in Business Manager.'}
+                  {language === 'es' ? (
+                    <><strong>Error común:</strong> Documentos incompletos o información incorrecta en Business Manager.</>
+                  ) : (
+                    <><strong>Common error:</strong> Incomplete documents or incorrect information in Business Manager.</>
+                  )}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Tip profesional:</strong> Verifica que el nombre del negocio coincida con documentos legales.' : '<strong>Professional tip:</strong> Verify business name matches legal documents.'}
+                  {language === 'es' ? (
+                    <><strong>Tip profesional:</strong> Verifica que el nombre del negocio coincida con documentos legales.</>
+                  ) : (
+                    <><strong>Professional tip:</strong> Verify business name matches legal documents.</>
+                  )}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -222,10 +254,18 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'Configura tu WhatsApp Business Account (WABA) a través del BSP. Define permisos, webhooks y configuraciones de seguridad. Activa el número en la plataforma.' : 'Configure your WhatsApp Business Account (WABA) through the BSP. Define permissions, webhooks and security settings. Activate the number on the platform.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Error común:</strong> No configurar webhooks correctamente para recibir mensajes.' : '<strong>Common error:</strong> Not configuring webhooks correctly to receive messages.'}
+                  {language === 'es' ? (
+                    <><strong>Error común:</strong> No configurar webhooks correctamente para recibir mensajes.</>
+                  ) : (
+                    <><strong>Common error:</strong> Not configuring webhooks correctly to receive messages.</>
+                  )}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Tip profesional:</strong> Prueba webhooks con ambiente sandbox antes de producción.' : '<strong>Professional tip:</strong> Test webhooks with sandbox environment before production.'}
+                  {language === 'es' ? (
+                    <><strong>Tip profesional:</strong> Prueba webhooks con ambiente sandbox antes de producción.</>
+                  ) : (
+                    <><strong>Professional tip:</strong> Test webhooks with sandbox environment before production.</>
+                  )}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -236,10 +276,18 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'Conecta WhatsApp Business API con tu CRM, ERP o sistema de gestión. Configura sincronización de contactos, historial de conversaciones y automatización de flujos.' : 'Connect WhatsApp Business API with your CRM, ERP or management system. Configure contact synchronization, conversation history and flow automation.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Error común:</strong> Integrar sin mapear correctamente campos de datos.' : '<strong>Common error:</strong> Integrating without correctly mapping data fields.'}
+                  {language === 'es' ? (
+                    <><strong>Error común:</strong> Integrar sin mapear correctamente campos de datos.</>
+                  ) : (
+                    <><strong>Common error:</strong> Integrating without correctly mapping data fields.</>
+                  )}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Tip profesional:</strong> Empieza con integración básica y escala gradualmente.' : '<strong>Professional tip:</strong> Start with basic integration and scale gradually.'}
+                  {language === 'es' ? (
+                    <><strong>Tip profesional:</strong> Empieza con integración básica y escala gradualmente.</>
+                  ) : (
+                    <><strong>Professional tip:</strong> Start with basic integration and scale gradually.</>
+                  )}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -250,10 +298,18 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'Diseña plantillas de mensajes para envíos proactivos. Somete a aprobación de Meta. Espera revisión (generalmente 24-48 horas). No envíes mensajes sin plantilla aprobada.' : 'Design message templates for proactive sending. Submit for Meta approval. Wait for review (usually 24-48 hours). Do not send messages without approved template.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Error común:</strong> Enviar mensajes sin plantilla aprobada (riesgo de ban).' : '<strong>Common error:</strong> Sending messages without approved template (ban risk).'}
+                  {language === 'es' ? (
+                    <><strong>Error común:</strong> Enviar mensajes sin plantilla aprobada (riesgo de ban).</>
+                  ) : (
+                    <><strong>Common error:</strong> Sending messages without approved template (ban risk).</>
+                  )}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Tip profesional:</strong> Crea plantillas versátiles que sirvan para múltiples casos.' : '<strong>Professional tip:</strong> Create versatile templates that serve multiple cases.'}
+                  {language === 'es' ? (
+                    <><strong>Tip profesional:</strong> Crea plantillas versátiles que sirvan para múltiples casos.</>
+                  ) : (
+                    <><strong>Professional tip:</strong> Create versatile templates that serve multiple cases.</>
+                  )}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -264,10 +320,18 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'Realiza pruebas con volumen limitado. Monitorea métricas de entrega, apertura y respuesta. Ajusta configuraciones según resultados. Lanza oficialmente cuando todo esté validado.' : 'Perform tests with limited volume. Monitor delivery, open and response metrics. Adjust settings based on results. Official launch when everything is validated.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Error común:</strong> Lanzar sin pruebas suficientes.' : '<strong>Common error:</strong> Launching without sufficient testing.'}
+                  {language === 'es' ? (
+                    <><strong>Error común:</strong> Lanzar sin pruebas suficientes.</>
+                  ) : (
+                    <><strong>Common error:</strong> Launching without sufficient testing.</>
+                  )}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Tip profesional:</strong> Monitorea calidad de calificación (quality rating) desde el primer día.' : '<strong>Professional tip:</strong> Monitor quality rating from day one.'}
+                  {language === 'es' ? (
+                    <><strong>Tip profesional:</strong> Monitorea calidad de calificación (quality rating) desde el primer día.</>
+                  ) : (
+                    <><strong>Professional tip:</strong> Monitor quality rating from day one.</>
+                  )}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
