@@ -9,7 +9,27 @@ export default function BlogArticle1() {
   
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+    
+    // Set meta title
+    document.title = language === 'es' 
+      ? 'WhatsApp Business vs API: diferencias, ventajas y cuál elegir (2026)' 
+      : 'WhatsApp Business vs API: differences, advantages and which one to choose (2026)';
+    
+    // Set meta description
+    const metaDescription = document.querySelector('meta[name="description"]');
+    const descriptionContent = language === 'es'
+      ? 'Descubre la diferencia entre WhatsApp Business y WhatsApp Business API, sus ventajas, cuándo usar cada uno y cómo automatizar tu atención al cliente.'
+      : 'Discover the difference between WhatsApp Business and WhatsApp Business API, their advantages, when to use each one and how to automate your customer service.';
+    
+    if (metaDescription) {
+      metaDescription.setAttribute("content", descriptionContent);
+    } else {
+      const meta = document.createElement('meta');
+      meta.name = "description";
+      meta.content = descriptionContent;
+      document.head.appendChild(meta);
+    }
+  }, [language]);
 
   const handleShare = (platform: 'facebook' | 'whatsapp') => {
     const url = window.location.href;
