@@ -91,7 +91,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp Business API fue creada por Meta para empresas que necesitan escalar su comunicación. No es la app estándar: es una plataforma de automatización que integra CRM, procesa miles de mensajes simultáneos y conecta con sistemas de pago.' : 'WhatsApp Business API was created by Meta for companies that need to scale their communication. It\'s not the standard app: it\'s an automation platform that integrates CRM, processes thousands of simultaneous messages, and connects with payment systems.'}
+                  {language === 'es' ? 'WhatsApp Business API es una solución de Meta diseñada para empresas que necesitan escalar su comunicación. No es la app estándar: es una plataforma de automatización que integra CRM, procesa miles de mensajes simultáneos y conecta con sistemas de pago.' : 'WhatsApp Business API is a solution from Meta designed for companies that need to scale their communication. It\'s not the standard app: it\'s an automation platform that integrates CRM, processes thousands of simultaneous messages, and connects with payment systems.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -115,7 +115,7 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Esta plataforma para restaurantes automatiza confirmaciones, recordatorios y modificaciones. La integración con CRM registra historial de clientes, preferencias alimentarias y frecuencia de visita.' : 'This platform for restaurants automates confirmations, reminders, and modifications. CRM integration records customer history, dietary preferences, and visit frequency.'}
+                  {language === 'es' ? 'Esta solución para restaurantes automatiza confirmaciones, recordatorios y modificaciones. La integración con CRM registra historial de clientes, preferencias alimentarias y frecuencia de visita.' : 'This solution for restaurants automates confirmations, reminders, and modifications. CRM integration records customer history, dietary preferences, and visit frequency.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -167,7 +167,7 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp para empresas hoteleras conecta con PMS (Property Management System). El huésped recibe mensaje pre-arrival con check-in remoto, código WiFi y mapa del hotel. La plataforma sincroniza solicitudes en tiempo real.' : 'WhatsApp for hotel companies connects with PMS (Property Management System). Guest receives pre-arrival message with remote check-in, WiFi code, and hotel map. The platform synchronizes requests in real time.'}
+                  {language === 'es' ? 'WhatsApp para empresas hoteleras conecta con PMS (Property Management System). El huésped recibe mensaje pre-arrival con check-in remoto, código WiFi y mapa del hotel. El sistema sincroniza solicitudes en tiempo real.' : 'WhatsApp for hotel companies connects with PMS (Property Management System). Guest receives pre-arrival message with remote check-in, WiFi code, and hotel map. The system synchronizes requests in real time.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -208,7 +208,7 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Los beneficios de esta plataforma para cafés incluyen programas de lealtad digitales. Cada compra suma puntos automáticamente. El sistema envía promociones personalizadas basadas en historial. La plataforma conecta con POS para tracking en tiempo real.' : 'The benefits of this platform for cafés include digital loyalty programs. Each purchase automatically adds points. System sends personalized promotions based on history. The platform connects with POS for real-time tracking.'}
+                  {language === 'es' ? 'Los beneficios de esta solución para cafés incluyen programas de lealtad digitales. Cada compra suma puntos automáticamente. El sistema envía promociones personalizadas basadas en historial. La plataforma conecta con POS para tracking en tiempo real.' : 'The benefits of this solution for cafés include digital loyalty programs. Each purchase automatically adds points. System sends personalized promotions based on history. The platform connects with POS for real-time tracking.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -248,7 +248,7 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Los beneficios para despachos incluyen comunicación encriptada end-to-end, recordatorios automáticos de fechas críticas y gestión documental. La plataforma integra con software legal para tracking de casos.' : 'Benefits for law firms include end-to-end encrypted communication, automatic critical date reminders, and document management. The platform integrates with legal software for case tracking.'}
+                  {language === 'es' ? 'Los beneficios para despachos incluyen comunicación encriptada end-to-end, recordatorios automáticos de fechas críticas y gestión documental. El sistema integra con software legal para tracking de casos.' : 'Benefits for law firms include end-to-end encrypted communication, automatic critical date reminders, and document management. The system integrates with legal software for case tracking.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -289,7 +289,7 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Para qué sirve esta plataforma en cobranzas: comunicación menos intrusiva con tono empático. Recordatorios automáticos personalizados. Enlaces de pago integrados en la conversación. El sistema conecta con pasarelas para pagos instantáneos.' : 'What this platform is for in collections: less intrusive communication with empathetic tone. Automatic personalized reminders. Payment links integrated in conversation. The system connects with gateways for instant payments.'}
+                  {language === 'es' ? 'Para qué sirve esta solución en cobranzas: comunicación menos intrusiva con tono empático. Recordatorios automáticos personalizados. Enlaces de pago integrados en la conversación. La plataforma conecta con pasarelas para pagos instantáneos.' : 'What this solution is for in collections: less intrusive communication with empathetic tone. Automatic personalized reminders. Payment links integrated in conversation. The platform connects with gateways for instant payments.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -339,11 +339,11 @@ export default function BlogArticle2() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp Business API transforma operaciones reales. Los casos que exploramos demuestran resultados consistentes: reducción de no-show en 40%, satisfacción +35%, ventas +25% y recuperación +45%.' : 'WhatsApp Business API transforms real operations. The cases we explored demonstrate consistent results: 40% no-show reduction, +35% satisfaction, +25% sales, and +45% recovery.'}
+                  {language === 'es' ? 'WhatsApp Business API ya está transformando operaciones reales en empresas de múltiples sectores. Los resultados son consistentes: más eficiencia, más ventas y mejor experiencia del cliente.' : 'WhatsApp Business API is already transforming real operations in companies across multiple sectors. The results are consistent: more efficiency, more sales, and better customer experience.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'La inversión genera ROI promedio de 300% en el primer año. Agenda una demo en WhatsApp para ver cómo funciona en tu negocio.' : 'Investment generates average 300% ROI in the first year. Schedule a demo on WhatsApp to see how it works for your business.'}
+                  {language === 'es' ? 'Agenda una demo en WhatsApp y descubre cómo aplicarlo en tu negocio.' : 'Schedule a demo on WhatsApp and discover how to apply it to your business.'}
                 </p>
               </article>
 
