@@ -33,7 +33,7 @@ export default function BlogArticle3() {
       <Helmet>
         <meta charSet="UTF-8" />
         <title>{language === 'es' ? 'Primeros pasos para migrar WhatsApp Business API en Colombia (Guía completa 2026)' : 'First steps to migrate WhatsApp Business API in Colombia (Complete guide 2026)'}</title>
-        <link rel="canonical" href="https://tudominio.com/blog/primeros-pasos-migrar-whatsapp-business-api" />
+        <link rel="canonical" href="https://crear.chat/blog/primeros-pasos-migrar-whatsapp-business-api" />
         <meta name="author" content="Alex Murillo" />
         <meta name="keywords" content="primeros pasos para migrar WhatsApp Business API, WhatsApp Business API Colombia, migrar WhatsApp API, WhatsApp automatización empresas, WhatsApp Business API proveedor" />
         <meta 
@@ -44,7 +44,7 @@ export default function BlogArticle3() {
         />
         <meta property="og:title" content={language === 'es' ? 'Primeros pasos para migrar a WhatsApp Business API (Guía completa 2026)' : 'First steps to migrate to WhatsApp Business API (Complete guide 2026)'} />
         <meta property="og:description" content={language === 'es' ? 'Guía completa de primeros pasos para migrar a WhatsApp Business API. Aprende requisitos, proceso paso a paso, errores comunes y cómo elegir proveedor en Colombia.' : 'Complete guide to first steps to migrate to WhatsApp Business API. Learn requirements, step-by-step process, common errors and how to choose a provider in Colombia.'} />
-        <meta property="og:image" content="https://tudominio.com/logo-black.svg" />
+        <meta property="og:image" content="https://crear.chat/logo-black.svg" />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content="2026-03-21" />
         <script type="application/ld+json">
@@ -141,10 +141,10 @@ export default function BlogArticle3() {
                 </p>
 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>{language === 'es' ? 'Empresa legal registrada en Colombia (RUT + Cámara de Comercio)' : 'Legally registered company in Colombia (tax ID + Chamber of Commerce)'}
+                  <li>{language === 'es' ? 'Empresa legal registrada en Colombia (RUT + Cámara de Comercio)' : 'Legally registered company in Colombia (tax ID + Chamber of Commerce)'}</li>
                   <li>{language === 'es' ? 'Cuenta en Meta Business Manager verificada' : 'Verified account in Meta Business Manager'}</li>
-                  <li>{language === 'es' ? 'Número telefónico dedicado (no personal)' : 'Dedicated phone number (not personal)'}
-                  <li>{language === 'es' ? 'Caso de uso definido (ventas, soporte, cobranzas)' : 'Defined use case (sales, support, collections)'}
+                  <li>{language === 'es' ? 'Número telefónico dedicado (no personal)' : 'Dedicated phone number (not personal)'}</li>
+                  <li>{language === 'es' ? 'Caso de uso definido (ventas, soporte, cobranzas)' : 'Defined use case (sales, support, collections)'}</li>
                   <li>{language === 'es' ? 'Documentación empresarial lista para verificación' : 'Business documentation ready for verification'}</li>
                 </ul>
 
@@ -160,11 +160,7 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'Analiza: tiempo de respuesta promedio, volumen de mensajes mensuales, procesos manuales repetitivos, pérdida de leads por falta de respuesta.' : 'Analyze: average response time, monthly message volume, repetitive manual processes, lead loss due to lack of response.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? (
-                    <><strong>📌 Este paso define si realmente necesitas API o solo optimización de WhatsApp Business.</>
-                  ) : (
-                    <><strong>📌 This step defines if you really need API or just WhatsApp Business optimization.</>
-                  )}
+                  {language === 'es' ? '📌 Este paso define si realmente necesitas API o solo optimización de WhatsApp Business.' : '📌 This step defines if you really need API or just WhatsApp Business optimization.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? (
@@ -195,11 +191,7 @@ export default function BlogArticle3() {
                   <li>{language === 'es' ? 'Crear.chat → implementación rápida en Colombia + soporte local' : 'Crear.chat → fast implementation in Colombia + local support'}</li>
                 </ul>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? (
-                    <><strong>📌 Error crítico:</strong> elegir solo por precio sin soporte técnico.</>
-                  ) : (
-                    <><strong>📌 Critical error:</strong> choosing only by price without technical support.</>
-                  )}
+                  {language === 'es' ? '📌 Error crítico: elegir solo por precio sin soporte técnico.' : '📌 Critical error: choosing only by price without technical support.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -210,11 +202,7 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'No usar número personal. Ideal: número nuevo empresarial. Mejor reputación si es local.' : 'Do not use personal number. Ideal: new business number. Better reputation if local.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? (
-                    <><strong>📌 WhatsApp penaliza historial previo mal gestionado.</>
-                  ) : (
-                    <><strong>📌 WhatsApp penalizes poorly managed previous history.</>
-                  )}
+                  {language === 'es' ? '📌 WhatsApp penaliza historial previo mal gestionado.' : '📌 WhatsApp penalizes poorly managed previous history.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -225,11 +213,7 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'Proceso de aprobación: envío de documentos, validación de empresa, revisión de dominio y negocio.' : 'Approval process: document submission, company validation, domain and business review.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? (
-                    <><strong>⏱ Tiempo promedio:</strong> 1–3 días hábiles</>
-                  ) : (
-                    <><strong>⏱ Average time:</strong> 1–3 business days</>
-                  )}
+                  {language === 'es' ? '⏱ Tiempo promedio: 1–3 días hábiles' : '⏱ Average time: 1–3 business days'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -240,11 +224,7 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'Aquí se configura: webhooks, permisos, seguridad, activación del número.' : 'Here you configure: webhooks, permissions, security, number activation.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? (
-                    <><strong>📌 Error común:</strong> mala configuración de webhooks = pérdida de mensajes.</>
-                  ) : (
-                    <><strong>📌 Common error:</strong> poor webhook configuration = message loss.</>
-                  )}
+                  {language === 'es' ? '📌 Error común: mala configuración de webhooks = pérdida de mensajes.' : '📌 Common error: poor webhook configuration = message loss.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -255,11 +235,7 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'Integrar con: CRM (HubSpot, Salesforce), ERP o facturación, base de datos clientes.' : 'Integrate with: CRM (HubSpot, Salesforce), ERP or billing, customer database.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? (
-                    <><strong>📌 Esto define el ROI de la implementación.</>
-                  ) : (
-                    <><strong>📌 This defines the implementation ROI.</>
-                  )}
+                  {language === 'es' ? '📌 Esto define el ROI de la implementación.' : '📌 This defines the implementation ROI.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -270,11 +246,7 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'Solo puedes enviar mensajes proactivos con plantillas aprobadas: confirmaciones, recordatorios, soporte, promociones.' : 'You can only send proactive messages with approved templates: confirmations, reminders, support, promotions.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? (
-                    <><strong>📌 Sin aprobación = bloqueo de envíos.</>
-                  ) : (
-                    <><strong>📌 Without approval = sending block.</>
-                  )}
+                  {language === 'es' ? '📌 Sin aprobación = bloqueo de envíos.' : '📌 Without approval = sending block.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
