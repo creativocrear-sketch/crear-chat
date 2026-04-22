@@ -31,7 +31,7 @@ export default function BlogArticle2() {
   return (
     <>
       <Helmet>
-        <title>{language === 'es' ? 'WhatsApp Business API: 5 casos de uso reales con resultados (2026)' : 'WhatsApp Business API: 5 real use cases with results (2026)'}</title>
+        <title>{language === 'es' ? 'WhatsApp Business API en Colombia: 5 casos de uso reales con resultados (2026)' : 'WhatsApp Business API in Colombia: 5 real use cases with results (2026)'}</title>
         <meta 
           name="description" 
           content={language === 'es' 
@@ -42,7 +42,7 @@ export default function BlogArticle2() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "BlogPosting",
-            "headline": language === 'es' ? 'WhatsApp Business API: 5 casos de uso reales con resultados (2026)' : 'WhatsApp Business API: 5 real use cases with results (2026)',
+            "headline": language === 'es' ? 'WhatsApp Business API en Colombia: 5 casos de uso reales con resultados (2026)' : 'WhatsApp Business API in Colombia: 5 real use cases with results (2026)',
             "datePublished": "2026-03-21",
             "author": {
               "@type": "Person",
@@ -76,7 +76,7 @@ export default function BlogArticle2() {
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                {language === 'es' ? 'WhatsApp Business API: 5 casos de uso reales con resultados (2026)' : 'WhatsApp Business API: 5 real use cases with results (2026)'}
+                {language === 'es' ? 'WhatsApp Business API en Colombia: 5 casos de uso reales con resultados (2026)' : 'WhatsApp Business API in Colombia: 5 real use cases with results (2026)'}
               </h1>
               
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
@@ -102,7 +102,7 @@ export default function BlogArticle2() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '¿Tu empresa pierde clientes por respuestas lentas? La API de WhatsApp puede transformar tu operación. Restaurantes reducen ausencias en 40%, hoteles mejoran satisfacción en 35% y cafés aumentan ventas en 25%. <a href="/" className="text-[#1B4F72] hover:underline">Descubre más sobre WhatsApp Business API</a>.' : 'Does your business lose customers due to slow responses? The WhatsApp API can transform your operation. Restaurants reduce no-shows by 40%, hotels improve satisfaction by 35%, and cafés increase sales by 25%. <a href="/" className="text-[#1B4F72] hover:underline">Learn more about WhatsApp Business API</a>.'}
+                  {language === 'es' ? '¿Tu empresa pierde clientes por respuestas lentas? La API de WhatsApp puede transformar tu operación. Restaurantes reducen ausencias en 40%, hoteles mejoran satisfacción en 35% y cafés aumentan ventas en 25%. <a href="/" className="text-[#1B4F72] hover:underline">Descubre más sobre automatización con WhatsApp Business API</a>.' : 'Does your business lose customers due to slow responses? The WhatsApp API can transform your operation. Restaurants reduce no-shows by 40%, hotels improve satisfaction by 35%, and cafés increase sales by 25%. <a href="/" className="text-[#1B4F72] hover:underline">Learn more about WhatsApp Business API automation</a>.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -346,7 +346,7 @@ export default function BlogArticle2() {
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Insight estratégico: las empresas que implementan esta plataforma ven ROI promedio de 300% en el primer año (según implementación en clientes). La clave es la integración con sistemas existentes (CRM, POS, PMS) y la automatización inteligente, no solo el envío de mensajes. <a href="/" className="text-[#1B4F72] hover:underline">Ver casos de éxito</a>.' : 'Strategic insight: companies implementing this platform see average 300% ROI in the first year (based on client implementations). The key is integration with existing systems (CRM, POS, PMS) and intelligent automation, not just message sending. <a href="/" className="text-[#1B4F72] hover:underline">View success cases</a>.'}
+                  {language === 'es' ? 'Insight estratégico: las empresas que implementan esta plataforma ven ROI promedio de 300% en el primer año (según implementación en clientes). La clave es la integración con sistemas existentes (CRM, POS, PMS) y la automatización inteligente, no solo el envío de mensajes. <a href="/" className="text-[#1B4F72] hover:underline">Ver casos de éxito de WhatsApp Business API</a>.' : 'Strategic insight: companies implementing this platform see average 300% ROI in the first year (based on client implementations). The key is integration with existing systems (CRM, POS, PMS) and intelligent automation, not just message sending. <a href="/" className="text-[#1B4F72] hover:underline">View WhatsApp Business API success cases</a>.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -354,11 +354,11 @@ export default function BlogArticle2() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp Business API ya está generando resultados medibles en múltiples industrias con mejoras en eficiencia, ventas y atención al cliente. <a href="/" className="text-[#1B4F72] hover:underline">Agenda una demo</a> para ver cómo funciona en tu negocio.' : 'WhatsApp Business API is already generating measurable results in multiple industries with improvements in efficiency, sales, and customer service. <a href="/" className="text-[#1B4F72] hover:underline">Schedule a demo</a> to see how it works for your business.'}
+                  {language === 'es' ? 'WhatsApp Business API ya está generando resultados medibles en múltiples industrias con mejoras en eficiencia, ventas y atención al cliente. <a href="/" className="text-[#1B4F72] hover:underline">Agenda una demo de WhatsApp Business API</a> para ver cómo funciona en tu negocio.' : 'WhatsApp Business API is already generating measurable results in multiple industries with improvements in efficiency, sales, and customer service. <a href="/" className="text-[#1B4F72] hover:underline">Schedule a WhatsApp Business API demo</a> to see how it works for your business.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Agenda una demo en WhatsApp y descubre cómo aplicarlo en tu negocio. <a href="/" className="text-[#1B4F72] hover:underline">Ver precios</a>.' : 'Schedule a demo on WhatsApp and discover how to apply it to your business. <a href="/" className="text-[#1B4F72] hover:underline">View pricing</a>.'}
+                  {language === 'es' ? 'Agenda una demo en WhatsApp y descubre cómo aplicarlo en tu negocio. <a href="/" className="text-[#1B4F72] hover:underline">Ver precios de WhatsApp Business API</a>.' : 'Schedule a demo on WhatsApp and discover how to apply it to your business. <a href="/" className="text-[#1B4F72] hover:underline">View WhatsApp Business API pricing</a>.'}
                 </p>
               </article>
 
