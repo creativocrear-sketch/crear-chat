@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://crear.chat/sitemap.xml
