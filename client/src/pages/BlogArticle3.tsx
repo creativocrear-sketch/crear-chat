@@ -115,45 +115,6 @@ export default function BlogArticle3() {
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '¿Qué es WhatsApp Business API y por qué migrar?' : 'What is WhatsApp Business API and why migrate?'}
-                </h2>
-                
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Migrar a WhatsApp Business API es el proceso de pasar de la app de WhatsApp Business a una infraestructura oficial de Meta diseñada para empresas que necesitan automatización, múltiples agentes e integración con CRM o sistemas de ventas.' : 'Migrating to WhatsApp Business API is the process of moving from the WhatsApp Business app to an official Meta infrastructure designed for companies that need automation, multiple agents and integration with CRM or sales systems.'}
-                </p>
-
-                <div className="bg-gray-50 p-6 rounded-lg mb-6">
-                  <p className="font-semibold text-gray-900 mb-4">{language === 'es' ? 'WhatsApp Business App vs WhatsApp Business API:' : 'WhatsApp Business App vs WhatsApp Business API:'}</p>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="bg-white p-4 rounded border border-gray-200">
-                      <p className="font-semibold text-gray-900 mb-2">{language === 'es' ? 'WhatsApp Business App' : 'WhatsApp Business App'}</p>
-                      <ul className="space-y-1 text-sm text-gray-600">
-                        <li>{language === 'es' ? '• App móvil manual' : '• Manual mobile app'}</li>
-                        <li>{language === 'es' ? '• 1 dispositivo' : '• 1 device'}</li>
-                        <li>{language === 'es' ? '• Sin automatización' : '• No automation'}</li>
-                        <li>{language === 'es' ? '• Límite de mensajes' : '• Message limit'}</li>
-                      </ul>
-                    </div>
-                    <div className="bg-white p-4 rounded border border-gray-200">
-                      <p className="font-semibold text-gray-900 mb-2">{language === 'es' ? 'WhatsApp Business API' : 'WhatsApp Business API'}</p>
-                      <ul className="space-y-1 text-sm text-gray-600">
-                        <li>{language === 'es' ? '• Infraestructura en la nube (Cloud API)' : '• Cloud infrastructure (Cloud API)'}</li>
-                        <li>{language === 'es' ? '• Múltiples agentes' : '• Multiple agents'}</li>
-                        <li>{language === 'es' ? '• Automatización + Escalabilidad' : '• Automation + Scalability'}</li>
-                        <li>{language === 'es' ? '• Integración CRM' : '• CRM integration'}</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-blue-50 p-6 rounded-lg mb-6">
-                  <p className="font-semibold text-gray-900 mb-2">{language === 'es' ? '📌 Importante:' : '📌 Important:'}</p>
-                  <p className="text-gray-600 text-sm">
-                    {language === 'es' ? 'Si no configuras correctamente la API, Meta puede reducir tu quality rating, limitar envíos o bloquear el número.' : 'If you do not configure the API correctly, Meta can reduce your quality rating, limit sending or block the number.'}
-                  </p>
-                </div>
-
-                <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
                   {language === 'es' ? 'Requisitos antes de migrar a WhatsApp Business API' : 'Requirements before migrating to WhatsApp Business API'}
                 </h2>
                 
