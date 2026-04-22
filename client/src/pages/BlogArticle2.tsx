@@ -32,12 +32,17 @@ export default function BlogArticle2() {
     <>
       <Helmet>
         <title>{language === 'es' ? 'WhatsApp Business API en Colombia: 5 casos de uso reales con resultados (2026)' : 'WhatsApp Business API in Colombia: 5 real use cases with results (2026)'}</title>
+        <link rel="canonical" href="https://tudominio.com/blog/whatsapp-business-api-colombia" />
         <meta 
           name="description" 
           content={language === 'es' 
             ? 'Descubre 5 casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, despachos legales y cobranzas con resultados verificables.' 
             : 'Discover 5 real use cases of WhatsApp Business API in restaurants, hotels, cafés, law firms and collections with verifiable results.'} 
         />
+        <meta property="og:title" content={language === 'es' ? 'WhatsApp Business API en Colombia: 5 casos de uso reales con resultados (2026)' : 'WhatsApp Business API in Colombia: 5 real use cases with results (2026)'} />
+        <meta property="og:description" content={language === 'es' ? 'Descubre 5 casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, despachos legales y cobranzas con resultados verificables.' : 'Discover 5 real use cases of WhatsApp Business API in restaurants, hotels, cafés, law firms and collections with verifiable results.'} />
+        <meta property="og:image" content="/logo-black.svg" />
+        <meta property="og:type" content="article" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
