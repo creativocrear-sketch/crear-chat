@@ -114,6 +114,13 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'Cada día más empresas en Colombia pierden clientes por una mala gestión de WhatsApp: respuestas tardías, mensajes no atendidos y falta de automatización. Esta guía explica los primeros pasos para migrar a WhatsApp Business API de forma correcta, evitando errores comunes que bloquean cuentas, retrasan aprobaciones o generan pérdidas de historial. Aquí aprenderás cómo migrar en menos de 10 días, con integración correcta, aprobación de Meta sin rechazos y configuración lista para escalar ventas.' : 'Every day more companies in Colombia lose customers due to poor WhatsApp management: slow responses, unanswered messages and lack of automation. This guide explains the first steps to migrate to WhatsApp Business API correctly, avoiding common errors that block accounts, delay approvals or cause history loss. Here you will learn how to migrate in less than 10 days, with correct integration, Meta approval without rejections and configuration ready to scale sales.'}
                 </p>
 
+                <div className="bg-blue-50 p-6 rounded-lg mb-6">
+                  <p className="font-semibold text-gray-900 mb-2">{language === 'es' ? '¿Qué es migrar a WhatsApp Business API?' : 'What is migrating to WhatsApp Business API?'}</p>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {language === 'es' ? 'Migrar a WhatsApp Business API en Colombia es el proceso de pasar de la app de WhatsApp Business a una infraestructura oficial de Meta que permite automatización, múltiples agentes e integración con CRM, mejorando la atención al cliente y escalabilidad del negocio.' : 'Migrating to WhatsApp Business API in Colombia is the process of moving from the WhatsApp Business app to an official Meta infrastructure that allows automation, multiple agents and CRM integration, improving customer service and business scalability.'}
+                  </p>
+                </div>
+
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
                   {language === 'es' ? 'Requisitos antes de migrar a WhatsApp Business API' : 'Requirements before migrating to WhatsApp Business API'}
                 </h2>
@@ -131,7 +138,7 @@ export default function BlogArticle3() {
                 </ul>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Primeros pasos para migrar WhatsApp Business API' : 'First steps to migrate WhatsApp Business API'}
+                  {language === 'es' ? 'Cómo migrar WhatsApp Business API paso a paso' : 'How to migrate WhatsApp Business API step by step'}
                 </h2>
                 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -240,7 +247,7 @@ export default function BlogArticle3() {
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Errores comunes al migrar' : 'Common errors when migrating'}
+                  {language === 'es' ? 'Errores al migrar WhatsApp API' : 'Errors when migrating WhatsApp API'}
                 </h2>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -326,6 +333,13 @@ export default function BlogArticle3() {
                   </table>
                 </div>
 
+                <div className="bg-red-50 p-6 rounded-lg mb-6">
+                  <p className="font-semibold text-gray-900 mb-2">{language === 'es' ? '⚠️ Advertencia de Meta:' : '⚠️ Meta Warning:'}</p>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {language === 'es' ? 'Empresas en Colombia han perdido sus números de WhatsApp por migrar incorrectamente. Casos reales: restaurantes que migraron su número personal y perdieron todo el historial de pedidos, e-commerce que fue bloqueado por enviar spam sin plantillas aprobadas. Meta no hace excepciones con políticas de uso.' : 'Companies in Colombia have lost their WhatsApp numbers by migrating incorrectly. Real cases: restaurants that migrated their personal number and lost all order history, e-commerce that was blocked for sending spam without approved templates. Meta makes no exceptions with usage policies.'}
+                  </p>
+                </div>
+
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
                   {language === 'es' ? 'Tiempo real de implementación' : 'Real implementation time'}
                 </h2>
@@ -349,6 +363,34 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'FAQ - Preguntas frecuentes' : 'FAQ - Frequently asked questions'}
                 </h2>
                 
+                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                  {language === 'es' ? '¿Se pierden los chats al migrar WhatsApp API?' : 'Do chats get lost when migrating WhatsApp API?'}
+                </h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'Si migras tu número personal actual, sí puedes perder el historial de conversaciones. Por eso se recomienda usar un número nuevo dedicado para WhatsApp Business API. Los chats de la app no se transfieren automáticamente a la API.' : 'If you migrate your current personal number, yes you can lose conversation history. That is why using a new dedicated number for WhatsApp Business API is recommended. App chats do not automatically transfer to the API.'}
+                </p>
+
+                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                  {language === 'es' ? '¿Me pueden banear por migrar mal?' : 'Can I get banned for migrating incorrectly?'}
+                </h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'Sí, Meta puede bloquear temporal o permanentemente tu número si violas políticas de uso. Errores comunes que causan baneo incluyen enviar spam, usar plantillas no aprobadas, no respetar horarios de envío o tener quality rating bajo por quejas de usuarios.' : 'Yes, Meta can temporarily or permanently block your number if you violate usage policies. Common errors that cause banning include sending spam, using unapproved templates, not respecting sending schedules or having low quality rating due to user complaints.'}
+                </p>
+
+                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                  {language === 'es' ? '¿Cuántos mensajes se pueden enviar?' : 'How many messages can be sent?'}
+                </h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'No hay límite fijo de mensajes en WhatsApp Business API. El límite se basa en tu quality rating. Con rating alto puedes enviar miles de mensajes diarios. Con rating bajo, Meta limita tus envíos. Es importante mantener buenas prácticas para no reducir tu rating.' : 'There is no fixed message limit in WhatsApp Business API. The limit is based on your quality rating. With high rating you can send thousands of daily messages. With low rating, Meta limits your sending. It is important to maintain good practices to not reduce your rating.'}
+                </p>
+
+                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                  {language === 'es' ? '¿Se necesita servidor o hosting?' : 'Do I need server or hosting?'}
+                </h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'Con WhatsApp Cloud API no necesitas servidor propio. Meta aloja la infraestructura en la nube. Solo necesitas un BSP que maneje la conexión y configuración. Si usas la API tradicional sí requerirías servidor propio, pero Cloud API es la opción recomendada hoy.' : 'With WhatsApp Cloud API you do not need your own server. Meta hosts the infrastructure in the cloud. You only need a BSP that handles the connection and configuration. If you use traditional API you would require your own server, but Cloud API is the recommended option today.'}
+                </p>
+
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Cuánto cuesta WhatsApp Business API?' : 'How much does WhatsApp Business API cost?'}
                 </h3>
