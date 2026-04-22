@@ -363,7 +363,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Beneficios transversales: por qué funciona' : 'Cross-benefits: why it works'}
+                  {language === 'es' ? 'Beneficios transversales: ¿Por qué funciona?' : 'Cross-benefits: why it works'}
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
