@@ -45,12 +45,12 @@ export default function BlogArticle2() {
               
               <div className="mb-6">
                 <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                  {language === 'es' ? 'Casos de Uso' : 'Use Cases'}
+                  {language === 'es' ? 'Casos de uso' : 'Use cases'}
                 </span>
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                {language === 'es' ? 'WhatsApp Business API: 5 Casos de Uso Reales con Resultados (2026)' : 'WhatsApp Business API: 5 Real Use Cases with Results (2026)'}
+                {language === 'es' ? 'WhatsApp Business API: 5 casos de uso reales con resultados (2026)' : 'WhatsApp Business API: 5 real use cases with results (2026)'}
               </h1>
               
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
@@ -63,7 +63,7 @@ export default function BlogArticle2() {
                   <span>8 {t('common.readTime')}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span>{t('common.author')}: {language === 'es' ? 'Alex Murillo + Equipo de Soporte' : 'Alex Murillo + Support Team'}</span>
+                  <span>{t('common.author')}: {language === 'es' ? 'Alex Murillo + equipo de soporte' : 'Alex Murillo + support team'}</span>
                 </div>
               </div>
             </div>
@@ -88,7 +88,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '1. Restaurantes: Automatización que Reduce Ausencias en 40%' : '1. Restaurants: Automation that Reduces No-Show by 40%'}
+                  {language === 'es' ? '1. Restaurantes: automatización que reduce ausencias en 40%' : '1. Restaurants: automation that reduces no-show by 40%'}
                 </h2>
                 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -152,7 +152,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '2. Hoteles: Satisfacción del Huésped +35% con Check-in Remoto' : '2. Hotels: Guest Satisfaction +35% with Remote Check-in'}
+                  {language === 'es' ? '2. Hoteles: satisfacción del huésped +35% con check-in remoto' : '2. Hotels: guest satisfaction +35% with remote check-in'}
                 </h2>
                 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -205,7 +205,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '3. Cafés: Ventas +25% con Programas de Fidelización' : '3. Cafés: Sales +25% with Loyalty Programs'}
+                  {language === 'es' ? '3. Cafés: ventas +25% con programas de fidelización' : '3. Cafés: sales +25% with loyalty programs'}
                 </h2>
                 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -257,7 +257,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '4. Despachos Legales: Respuesta en 5 Minutos vs 24 Horas' : '4. Law Firms: 5-Minute Response vs 24 Hours'}
+                  {language === 'es' ? '4. Despachos legales: respuesta en 5 minutos vs 24 horas' : '4. Law firms: 5-minute response vs 24 hours'}
                 </h2>
                 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -310,7 +310,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '5. Cobranzas: Recuperación +45% con Comunicación Empática' : '5. Collections: Recovery +45% with Empathetic Communication'}
+                  {language === 'es' ? '5. Cobranzas: recuperación +45% con comunicación empática' : '5. Collections: recovery +45% with empathetic communication'}
                 </h2>
                 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -363,7 +363,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Beneficios Transversales: Por Qué Funciona' : 'Cross-Benefits: Why It Works'}
+                  {language === 'es' ? 'Beneficios transversales: por qué funciona' : 'Cross-benefits: why it works'}
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -416,12 +416,10 @@ export default function BlogArticle2() {
                   </button>
                 </div>
               </div>
-
-              {/* Navigation */}
               <div className="mt-12 pt-8 border-t border-gray-200">
                 <div className="flex items-center justify-between">
                   <div className="text-left">
-                    <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Artículo anterior' : 'Previous article'}</p>
+                    <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Artículo anterior' : 'Previous Article'}</p>
                     <a
                       href="/blog/diferencia-whatsapp-business-api"
                       className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
@@ -450,7 +448,7 @@ export default function BlogArticle2() {
             <div className="max-w-4xl mx-auto text-center">
               <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-blue-100">
                 <h2 className="font-bold text-3xl md:text-4xl text-gray-900 mb-4">
-                  {language === 'es' ? 'Agenda una Demo de WhatsApp Business API' : 'Schedule a WhatsApp Business API Demo'}
+                  {language === 'es' ? 'Agenda una demo de WhatsApp Business API' : 'Schedule a WhatsApp Business API demo'}
                 </h2>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                   {language === 'es' ? 'Implementa automatización en 7 días. Habla con un especialista y descubre cómo transformar tu operación.' : 'Implement automation in 7 days. Talk to a specialist and discover how to transform your operation.'}
@@ -463,7 +461,7 @@ export default function BlogArticle2() {
                   className="inline-flex items-center gap-2 px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
                 >
                   <MessageCircle className="w-5 h-5" />
-                  {language === 'es' ? 'Habla con un Especialista' : 'Talk to a Specialist'}
+                  {language === 'es' ? 'Habla con un especialista' : 'Talk to a specialist'}
                 </a>
               </div>
             </div>
@@ -474,13 +472,15 @@ export default function BlogArticle2() {
         <section className="py-16">
           <div className="container">
             <div className="max-w-6xl mx-auto">
-              <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-8">{language === 'es' ? 'Otros artículos' : 'Other articles'}</h2>
+              <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-4">
+                  {language === 'es' ? 'Otros artículos' : 'Other articles'}
+                </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
                     <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
-                      {language === 'es' ? 'Conceptos Básicos' : 'Basic Concepts'}
+                      {language === 'es' ? 'Conceptos básicos' : 'Basic concepts'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
                       {language === 'es' ? '¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?' : 'What is the difference between WhatsApp Business and WhatsApp Business API?'}
