@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronLeft, Share2, Facebook, MessageCircle } from "lucide-react";
@@ -28,8 +29,18 @@ export default function BlogArticle2() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-white">
-      <Header />
+    <>
+      <Helmet>
+        <title>{language === 'es' ? 'WhatsApp Business API: 5 casos de uso reales con resultados (2026)' : 'WhatsApp Business API: 5 real use cases with results (2026)'}</title>
+        <meta 
+          name="description" 
+          content={language === 'es' 
+            ? 'Descubre 5 casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, despachos legales y cobranzas con resultados verificables.' 
+            : 'Discover 5 real use cases of WhatsApp Business API in restaurants, hotels, cafés, law firms and collections with verifiable results.'} 
+        />
+      </Helmet>
+      <div className="min-h-screen flex flex-col bg-white">
+        <Header />
       <main className="flex-1">
         {/* Article Header */}
         <section className="bg-gradient-to-br from-gray-50 to-blue-50 py-12">
@@ -371,16 +382,16 @@ export default function BlogArticle2() {
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>{language === 'es' ? '<strong>Reducción de costos 30-40%:</strong> menos llamadas telefónicas y correos electrónicos' : '<strong>Cost reduction 30-40%:</strong> fewer phone calls and emails'}</li>
-                  <li>{language === 'es' ? '<strong>Satisfacción del cliente +25-35%:</strong> respuestas rápidas y personalizadas' : '<strong>Customer satisfaction +25-35%:</strong> fast and personalized responses'}</li>
-                  <li>{language === 'es' ? '<strong>Conversión +15-25%:</strong> comunicación oportuna y relevante' : '<strong>Conversion +15-25%:</strong> timely and relevant communication'}</li>
-                  <li>{language === 'es' ? '<strong>Automatización 80-90%:</strong> procesos sin intervención humana' : '<strong>Automation 80-90%:</strong> processes without human intervention'}</li>
-                  <li>{language === 'es' ? '<strong>Escalabilidad ilimitada:</strong> maneja miles de conversaciones simultáneas' : '<strong>Unlimited scalability:</strong> handle thousands of simultaneous conversations'}</li>
-                  <li>{language === 'es' ? '<strong>Datos accionables:</strong> comprende mejor el comportamiento de tus clientes' : '<strong>Actionable data:</strong> better understand your customer behavior'}</li>
+                  <li>{language === 'es' ? 'Reducción de costos 30-40%: menos llamadas telefónicas y correos electrónicos' : 'Cost reduction 30-40%: fewer phone calls and emails'}</li>
+                  <li>{language === 'es' ? 'Satisfacción del cliente +25-35%: respuestas rápidas y personalizadas' : 'Customer satisfaction +25-35%: fast and personalized responses'}</li>
+                  <li>{language === 'es' ? 'Conversión +15-25%: comunicación oportuna y relevante' : 'Conversion +15-25%: timely and relevant communication'}</li>
+                  <li>{language === 'es' ? 'Automatización 80-90%: procesos sin intervención humana' : 'Automation 80-90%: processes without human intervention'}</li>
+                  <li>{language === 'es' ? 'Escalabilidad ilimitada: maneja miles de conversaciones simultáneas' : 'Unlimited scalability: handle thousands of simultaneous conversations'}</li>
+                  <li>{language === 'es' ? 'Datos accionables: comprende mejor el comportamiento de tus clientes' : 'Actionable data: better understand your customer behavior'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Insight estratégico:</strong> las empresas que implementan esta solución ven ROI promedio de 300% en el primer año. La clave es la integración con sistemas existentes (CRM, POS, PMS) y la automatización inteligente, no solo el envío de mensajes.' : '<strong>Strategic insight:</strong> companies implementing this solution see average 300% ROI in the first year. The key is integration with existing systems (CRM, POS, PMS) and intelligent automation, not just message sending.'}
+                  {language === 'es' ? 'Insight estratégico: las empresas que implementan esta solución ven ROI promedio de 300% en el primer año. La clave es la integración con sistemas existentes (CRM, POS, PMS) y la automatización inteligente, no solo el envío de mensajes.' : 'Strategic insight: companies implementing this solution see average 300% ROI in the first year. The key is integration with existing systems (CRM, POS, PMS) and intelligent automation, not just message sending.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -541,7 +552,9 @@ export default function BlogArticle2() {
           </div>
         </section>
       </main>
+      
       <Footer />
     </div>
+    </>
   );
 }
