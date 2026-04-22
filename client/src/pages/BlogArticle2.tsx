@@ -75,15 +75,6 @@ export default function BlogArticle2() {
           <div className="container">
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
-                <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
-                  <p className="text-gray-800 font-semibold mb-2">
-                    {language === 'es' ? 'Resumen rápido:' : 'Quick summary:'}
-                  </p>
-                  <p className="text-gray-700 text-sm">
-                    {language === 'es' ? 'WhatsApp Business API帮助企业实现: no-show -40%, satisfacción +35%, ventas +25%, recuperación +45%. ROI promedio: 300% en primer año.' : 'WhatsApp Business API helps businesses achieve: no-show -40%, satisfaction +35%, sales +25%, recovery +45%. Average ROI: 300% in first year.'}
-                  </p>
-                </div>
-
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? '¿Tu empresa pierde clientes por respuestas lentas? La API de WhatsApp puede transformar tu operación. Restaurantes reducen ausencias en 40%, hoteles mejoran satisfacción en 35% y cafés aumentan ventas en 25%.' : 'Does your business lose customers due to slow responses? The WhatsApp API can transform your operation. Restaurants reduce no-shows by 40%, hotels improve satisfaction by 35%, and cafés increase sales by 25%.'}
                 </p>
@@ -380,16 +371,16 @@ export default function BlogArticle2() {
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>{language === 'es' ? '<strong>Reducción de costos 30-40%:</strong> Menos llamadas telefónicas y correos electrónicos' : '<strong>Cost reduction 30-40%:</strong> Fewer phone calls and emails'}</li>
-                  <li>{language === 'es' ? '<strong>Satisfacción del cliente +25-35%:</strong> Respuestas rápidas y personalizadas' : '<strong>Customer satisfaction +25-35%:</strong> Fast and personalized responses'}</li>
-                  <li>{language === 'es' ? '<strong>Conversión +15-25%:</strong> Comunicación oportuna y relevante' : '<strong>Conversion +15-25%:</strong> Timely and relevant communication'}</li>
-                  <li>{language === 'es' ? '<strong>Automatización 80-90%:</strong> Procesos sin intervención humana' : '<strong>Automation 80-90%:</strong> Processes without human intervention'}</li>
-                  <li>{language === 'es' ? '<strong>Escalabilidad ilimitada:</strong> Maneja miles de conversaciones simultáneas' : '<strong>Unlimited scalability:</strong> Handle thousands of simultaneous conversations'}</li>
-                  <li>{language === 'es' ? '<strong>Datos accionables:</strong> Comprende mejor el comportamiento de tus clientes' : '<strong>Actionable data:</strong> Better understand your customer behavior'}</li>
+                  <li>{language === 'es' ? '<strong>Reducción de costos 30-40%:</strong> menos llamadas telefónicas y correos electrónicos' : '<strong>Cost reduction 30-40%:</strong> fewer phone calls and emails'}</li>
+                  <li>{language === 'es' ? '<strong>Satisfacción del cliente +25-35%:</strong> respuestas rápidas y personalizadas' : '<strong>Customer satisfaction +25-35%:</strong> fast and personalized responses'}</li>
+                  <li>{language === 'es' ? '<strong>Conversión +15-25%:</strong> comunicación oportuna y relevante' : '<strong>Conversion +15-25%:</strong> timely and relevant communication'}</li>
+                  <li>{language === 'es' ? '<strong>Automatización 80-90%:</strong> procesos sin intervención humana' : '<strong>Automation 80-90%:</strong> processes without human intervention'}</li>
+                  <li>{language === 'es' ? '<strong>Escalabilidad ilimitada:</strong> maneja miles de conversaciones simultáneas' : '<strong>Unlimited scalability:</strong> handle thousands of simultaneous conversations'}</li>
+                  <li>{language === 'es' ? '<strong>Datos accionables:</strong> comprende mejor el comportamiento de tus clientes' : '<strong>Actionable data:</strong> better understand your customer behavior'}</li>
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>Insight estratégico:</strong> Las empresas que implementan esta solución ven ROI promedio de 300% en el primer año. La clave es la integración con sistemas existentes (CRM, POS, PMS) y la automatización inteligente, no solo el envío de mensajes.' : '<strong>Strategic insight:</strong> Companies implementing this solution see average 300% ROI in the first year. The key is integration with existing systems (CRM, POS, PMS) and intelligent automation, not just message sending.'}
+                  {language === 'es' ? '<strong>Insight estratégico:</strong> las empresas que implementan esta solución ven ROI promedio de 300% en el primer año. La clave es la integración con sistemas existentes (CRM, POS, PMS) y la automatización inteligente, no solo el envío de mensajes.' : '<strong>Strategic insight:</strong> companies implementing this solution see average 300% ROI in the first year. The key is integration with existing systems (CRM, POS, PMS) and intelligent automation, not just message sending.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
