@@ -115,7 +115,7 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Esta solución para restaurantes automatiza confirmaciones, recordatorios y modificaciones. La integración con CRM registra historial de clientes, preferencias alimentarias y frecuencia de visita.' : 'This solution for restaurants automates confirmations, reminders, and modifications. CRM integration records customer history, dietary preferences, and visit frequency.'}
+                  {language === 'es' ? 'Esta plataforma para restaurantes automatiza confirmaciones, recordatorios y modificaciones. La integración con CRM registra historial de clientes, preferencias alimentarias y frecuencia de visita.' : 'This platform for restaurants automates confirmations, reminders, and modifications. CRM integration records customer history, dietary preferences, and visit frequency.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -143,11 +143,11 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Implementación: 3 semanas. Resultado: no-show reducido en 40%. Los clientes reciben confirmación automática al reservar, recordatorio 24h antes y pueden cancelar con un clic. El sistema procesa pedidos delivery con integración POS.' : 'Implementation: 3 weeks. Result: no-show reduced by 40%. Customers receive automatic confirmation upon booking, 24h reminder, and can cancel with one click. The system processes delivery orders with POS integration.'}
+                  {language === 'es' ? 'Implementación: 3 semanas. Resultado: no-show reducido en 40%. Los clientes reciben confirmación automática al reservar, recordatorio 24h antes y pueden cancelar con un clic. La plataforma procesa pedidos delivery con integración POS.' : 'Implementation: 3 weeks. Result: no-show reduced by 40%. Customers receive automatic confirmation upon booking, 24h reminder, and can cancel with one click. The platform processes delivery orders with POS integration.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Tiempo de respuesta bajó de 4 horas a 2 minutos. Satisfacción del cliente aumentó 28%. Esto impactó directamente en la operación diaria del restaurante.' : 'Response time dropped from 4 hours to 2 minutes. Customer satisfaction increased 28%. This directly impacted the restaurant\'s daily operation.'}
+                  {language === 'es' ? 'Tiempo de respuesta bajó de 4 horas a 2 minutos. Satisfacción del cliente aumentó 28%.' : 'Response time dropped from 4 hours to 2 minutes. Customer satisfaction increased 28%.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -167,7 +167,7 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp para empresas hoteleras conecta con PMS (Property Management System). El huésped recibe mensaje pre-arrival con check-in remoto, código WiFi y mapa del hotel. El sistema sincroniza solicitudes en tiempo real.' : 'WhatsApp for hotel companies connects with PMS (Property Management System). Guest receives pre-arrival message with remote check-in, WiFi code, and hotel map. The system synchronizes requests in real time.'}
+                  {language === 'es' ? 'WhatsApp para empresas hoteleras conecta con PMS (Property Management System). El huésped recibe mensaje pre-arrival con check-in remoto, código WiFi y mapa del hotel. La plataforma sincroniza solicitudes en tiempo real.' : 'WhatsApp for hotel companies connects with PMS (Property Management System). Guest receives pre-arrival message with remote check-in, WiFi code, and hotel map. The platform synchronizes requests in real time.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -188,7 +188,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Upselling de spa aumentó 22%. Tasa de respuesta a encuestas post-estadía subió de 12% a 48%. El equipo ahora tiene más tiempo para atención personalizada.' : 'Spa upselling increased 22%. Post-stay survey response rate rose from 12% to 48%. The team now has more time for personalized attention.'}
+                  {language === 'es' ? 'Upselling de spa aumentó 22%. Tasa de respuesta a encuestas post-estadía subió de 12% a 48%.' : 'Spa upselling increased 22%. Post-stay survey response rate rose from 12% to 48%.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -208,7 +208,7 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Los beneficios de esta solución para cafés incluyen programas de lealtad digitales. Cada compra suma puntos automáticamente. El sistema envía promociones personalizadas basadas en historial. La plataforma conecta con POS para tracking en tiempo real.' : 'The benefits of this solution for cafés include digital loyalty programs. Each purchase automatically adds points. System sends personalized promotions based on history. The platform connects with POS for real-time tracking.'}
+                  {language === 'es' ? 'Los beneficios de esta plataforma para cafés incluyen programas de lealtad digitales. Cada compra suma puntos automáticamente. La plataforma envía promociones personalizadas basadas en historial. La plataforma conecta con POS para tracking en tiempo real.' : 'The benefits of this platform for cafés include digital loyalty programs. Each purchase automatically adds points. The platform sends personalized promotions based on history. The platform connects with POS for real-time tracking.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -228,7 +228,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Frecuencia de visita aumentó de 2.1 a 3.4 veces/mes. Ticket promedio subió 12%. Los clientes ahora sienten que el café los conoce.' : 'Visit frequency increased from 2.1 to 3.4 times/month. Average ticket rose 12%. Customers now feel the café knows them.'}
+                  {language === 'es' ? 'Frecuencia de visita aumentó de 2.1 a 3.4 veces/mes. Ticket promedio subió 12%.' : 'Visit frequency increased from 2.1 to 3.4 times/month. Average ticket rose 12%.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -248,7 +248,7 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Los beneficios para despachos incluyen comunicación encriptada end-to-end, recordatorios automáticos de fechas críticas y gestión documental. El sistema integra con software legal para tracking de casos.' : 'Benefits for law firms include end-to-end encrypted communication, automatic critical date reminders, and document management. The system integrates with legal software for case tracking.'}
+                  {language === 'es' ? 'Los beneficios para despachos incluyen comunicación encriptada end-to-end, recordatorios automáticos de fechas críticas y gestión documental. La plataforma integra con software legal para tracking de casos.' : 'Benefits for law firms include end-to-end encrypted communication, automatic critical date reminders, and document management. The platform integrates with legal software for case tracking.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -269,7 +269,7 @@ export default function BlogArticle2() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Tiempo de respuesta inicial bajó de 24h a 5 minutos. Cero fechas de audiencia olvidadas en 6 meses. Los abogados pueden enfocarse en casos complejos.' : 'Initial response time dropped from 24h to 5 minutes. Zero forgotten hearing dates in 6 months. Lawyers can focus on complex cases.'}
+                  {language === 'es' ? 'Tiempo de respuesta inicial bajó de 24h a 5 minutos. Cero fechas de audiencia olvidadas en 6 meses.' : 'Initial response time dropped from 24h to 5 minutes. Zero forgotten hearing dates in 6 months.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -289,7 +289,7 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Para qué sirve esta solución en cobranzas: comunicación menos intrusiva con tono empático. Recordatorios automáticos personalizados. Enlaces de pago integrados en la conversación. La plataforma conecta con pasarelas para pagos instantáneos.' : 'What this solution is for in collections: less intrusive communication with empathetic tone. Automatic personalized reminders. Payment links integrated in conversation. The platform connects with gateways for instant payments.'}
+                  {language === 'es' ? 'Para qué sirve esta plataforma en cobranzas: comunicación menos intrusiva con tono empático. Recordatorios automáticos personalizados. Enlaces de pago integrados en la conversación. La plataforma conecta con pasarelas para pagos instantáneos.' : 'What this platform is for in collections: less intrusive communication with empathetic tone. Automatic personalized reminders. Payment links integrated in conversation. The platform connects with gateways for instant payments.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
@@ -331,7 +331,7 @@ export default function BlogArticle2() {
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Insight estratégico: las empresas que implementan esta solución ven ROI promedio de 300% en el primer año. La clave es la integración con sistemas existentes (CRM, POS, PMS) y la automatización inteligente, no solo el envío de mensajes.' : 'Strategic insight: companies implementing this solution see average 300% ROI in the first year. The key is integration with existing systems (CRM, POS, PMS) and intelligent automation, not just message sending.'}
+                  {language === 'es' ? 'Insight estratégico: las empresas que implementan esta plataforma ven ROI promedio de 300% en el primer año. La clave es la integración con sistemas existentes (CRM, POS, PMS) y la automatización inteligente, no solo el envío de mensajes.' : 'Strategic insight: companies implementing this platform see average 300% ROI in the first year. The key is integration with existing systems (CRM, POS, PMS) and intelligent automation, not just message sending.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -339,7 +339,7 @@ export default function BlogArticle2() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp Business API ya está transformando operaciones reales en empresas de múltiples sectores. Los resultados son consistentes: más eficiencia, más ventas y mejor experiencia del cliente.' : 'WhatsApp Business API is already transforming real operations in companies across multiple sectors. The results are consistent: more efficiency, more sales, and better customer experience.'}
+                  {language === 'es' ? 'WhatsApp Business API ya está generando resultados medibles en múltiples industrias con mejoras en eficiencia, ventas y atención al cliente.' : 'WhatsApp Business API is already generating measurable results in multiple industries with improvements in efficiency, sales, and customer service.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
