@@ -208,13 +208,17 @@ export default function BlogArticle1() {
                     'Integración con CRM y otros sistemas empresariales',
                     'Crecimiento del equipo de atención al cliente',
                     'Necesidad de ventas por WhatsApp automatizadas'
-                  ] : [
+                  ].map((item, index) => (
+                    <li key={index}>{item}</li>
+                  )) : [
                     'High message volume (more than 100 per day)',
                     'Need for WhatsApp automation',
                     'Integration with CRM and other business systems',
                     'Customer service team growth',
                     'Need for automated WhatsApp sales'
-                  ]}
+                  ].map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
@@ -299,12 +303,16 @@ export default function BlogArticle1() {
                     'Presupuesto limitado',
                     'Conversaciones principalmente manuales',
                     'No necesitas integración con CRM'
-                  ] : [
+                  ].map((item, index) => (
+                    <li key={index}>{item}</li>
+                  )) : [
                     'Low message volume (less than 100 per day)',
                     'Limited budget',
                     'Mainly manual conversations',
                     'No CRM integration needed'
-                  ]}
+                  ].map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -317,12 +325,16 @@ export default function BlogArticle1() {
                     'Necesitas automatización de procesos',
                     'Requieres integración básica con CRM',
                     'Quieres mejorar la atención al cliente'
-                  ] : [
+                  ].map((item, index) => (
+                    <li key={index}>{item}</li>
+                  )) : [
                     'Medium message volume (100-1000 per day)',
                     'Need process automation',
                     'Require basic CRM integration',
                     'Want to improve customer service'
-                  ]}
+                  ].map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
 
                 <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
@@ -336,13 +348,17 @@ export default function BlogArticle1() {
                     'Requieres integración completa con CRM y ERP',
                     'Manejas múltiples agentes y departamentos',
                     'Necesitas ventas por WhatsApp automatizadas'
-                  ] : [
+                  ].map((item, index) => (
+                    <li key={index}>{item}</li>
+                  )) : [
                     'High message volume (more than 1000 per day)',
                     'Need advanced automation with AI',
                     'Require full integration with CRM and ERP',
                     'Handle multiple agents and departments',
                     'Need automated WhatsApp sales'
-                  ]}
+                  ].map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
