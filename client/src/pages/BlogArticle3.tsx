@@ -14,8 +14,8 @@ export default function BlogArticle3() {
 
   const handleShare = (platform: 'facebook' | 'whatsapp') => {
     const url = window.location.href;
-    const title = language === 'es' ? 'Primeros pasos para migrar a WhatsApp Business API (Guía completa 2026)' : 'First steps to migrate to WhatsApp Business API (Complete guide 2026)';
-    const text = language === 'es' ? 'Guía completa de primeros pasos para migrar a WhatsApp Business API. Aprende requisitos, proceso paso a paso, errores comunes y cómo elegir proveedor en Colombia.' : 'Complete guide to first steps to migrate to WhatsApp Business API. Learn requirements, step-by-step process, common errors and how to choose a provider in Colombia.';
+    const title = language === 'es' ? 'Primeros pasos para migrar WhatsApp Business API en Colombia (Guía completa 2026)' : 'First steps to migrate WhatsApp Business API in Colombia (Complete guide 2026)';
+    const text = language === 'es' ? 'Guía completa de primeros pasos para migrar WhatsApp Business API en Colombia. Evita errores comunes, aprende requisitos y migra en menos de 10 días.' : 'Complete guide to first steps to migrate WhatsApp Business API in Colombia. Avoid common errors, learn requirements and migrate in less than 10 days.';
     
     let shareUrl = '';
     
@@ -32,7 +32,7 @@ export default function BlogArticle3() {
     <>
       <Helmet>
         <meta charSet="UTF-8" />
-        <title>{language === 'es' ? 'Primeros pasos para migrar a WhatsApp Business API (Guía completa 2026)' : 'First steps to migrate to WhatsApp Business API (Complete guide 2026)'}</title>
+        <title>{language === 'es' ? 'Primeros pasos para migrar WhatsApp Business API en Colombia (Guía completa 2026)' : 'First steps to migrate WhatsApp Business API in Colombia (Complete guide 2026)'}</title>
         <link rel="canonical" href="https://tudominio.com/blog/primeros-pasos-migrar-whatsapp-business-api" />
         <meta name="author" content="Alex Murillo" />
         <meta name="keywords" content="primeros pasos para migrar WhatsApp Business API, WhatsApp Business API Colombia, migrar WhatsApp API, WhatsApp automatización empresas, WhatsApp Business API proveedor" />
@@ -51,7 +51,7 @@ export default function BlogArticle3() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "BlogPosting",
-            "headline": language === 'es' ? 'Primeros pasos para migrar a WhatsApp Business API (Guía completa 2026)' : 'First steps to migrate to WhatsApp Business API (Complete guide 2026)',
+            "headline": language === 'es' ? 'Primeros pasos para migrar WhatsApp Business API en Colombia (Guía completa 2026)' : 'First steps to migrate WhatsApp Business API in Colombia (Complete guide 2026)',
             "datePublished": "2026-03-21",
             "author": {
               "@type": "Person",
@@ -85,7 +85,7 @@ export default function BlogArticle3() {
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                {language === 'es' ? 'Primeros pasos para migrar a WhatsApp Business API (Guía completa 2026)' : 'First steps to migrate to WhatsApp Business API (Complete guide 2026)'}
+                {language === 'es' ? 'Primeros pasos para migrar WhatsApp Business API en Colombia (Guía completa 2026)' : 'First steps to migrate WhatsApp Business API in Colombia (Complete guide 2026)'}
               </h1>
               
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
@@ -111,7 +111,7 @@ export default function BlogArticle3() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Cada día más empresas en Colombia pierden clientes por no gestionar WhatsApp eficientemente. Respuestas lentas, mensajes perdidos y falta de automatización están costando ventas. Esta guía de primeros pasos para migrar a WhatsApp Business API te muestra exactamente cómo transformar tu comunicación en menos de 2 semanas, sin errores técnicos y con resultados medibles desde el primer día.' : 'Every day more companies in Colombia lose customers by not managing WhatsApp efficiently. Slow responses, lost messages and lack of automation are costing sales. This guide to first steps to migrate to WhatsApp Business API shows you exactly how to transform your communication in less than 2 weeks, without technical errors and with measurable results from day one.'}
+                  {language === 'es' ? 'Cada día más empresas en Colombia pierden clientes por una mala gestión de WhatsApp: respuestas tardías, mensajes no atendidos y falta de automatización. Esta guía explica los primeros pasos para migrar a WhatsApp Business API de forma correcta, evitando errores comunes que bloquean cuentas, retrasan aprobaciones o generan pérdidas de historial. Aquí aprenderás cómo migrar en menos de 10 días, con integración correcta, aprobación de Meta sin rechazos y configuración lista para escalar ventas.' : 'Every day more companies in Colombia lose customers due to poor WhatsApp management: slow responses, unanswered messages and lack of automation. This guide explains the first steps to migrate to WhatsApp Business API correctly, avoiding common errors that block accounts, delay approvals or cause history loss. Here you will learn how to migrate in less than 10 days, with correct integration, Meta approval without rejections and configuration ready to scale sales.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -119,30 +119,33 @@ export default function BlogArticle3() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp Business API es la solución de Meta para empresas que necesitan escalar su comunicación por WhatsApp. A diferencia de WhatsApp Business normal (la app), la API permite automatización masiva, integración con CRM y gestión multiagente.' : 'WhatsApp Business API is Meta\'s solution for companies that need to scale their WhatsApp communication. Unlike normal WhatsApp Business (the app), the API allows mass automation, CRM integration and multi-agent management.'}
+                  {language === 'es' ? 'WhatsApp Business API es la solución de Meta para empresas que necesitan automatización, integración y escalabilidad real en la comunicación.' : 'WhatsApp Business API is Meta\'s solution for companies that need automation, integration and real scalability in communication.'}
                 </p>
 
-                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>{language === 'es' ? 'Automatización: envía miles de mensajes simultáneamente sin intervención manual' : 'Automation: send thousands of simultaneous messages without manual intervention'}</li>
-                  <li>{language === 'es' ? 'Escalabilidad: maneja crecimiento ilimitado de conversaciones' : 'Scalability: handle unlimited conversation growth'}</li>
-                  <li>{language === 'es' ? 'Integración CRM: conecta con Salesforce, HubSpot, Pipedrive y más' : 'CRM integration: connect with Salesforce, HubSpot, Pipedrive and more'}</li>
-                  <li>{language === 'es' ? 'Multiagente: varios agentes atienden desde el mismo número de WhatsApp' : 'Multi-agent: multiple agents attend from the same WhatsApp number'}</li>
-                </ul>
+                <div className="bg-gray-50 p-6 rounded-lg mb-6">
+                  <p className="font-semibold text-gray-900 mb-4">{language === 'es' ? 'Diferencias clave:' : 'Key differences:'}</p>
+                  <ul className="space-y-2 text-gray-600">
+                    <li>{language === 'es' ? '• No es una app, es una infraestructura' : '• Not an app, it\'s infrastructure'}</li>
+                    <li>{language === 'es' ? '• Permite múltiples agentes' : '• Allows multiple agents'}</li>
+                    <li>{language === 'es' ? '• Se integra con CRM, ERP y sistemas de ventas' : '• Integrates with CRM, ERP and sales systems'}</li>
+                    <li>{language === 'es' ? '• Permite automatización avanzada y flujos' : '• Allows advanced automation and flows'}</li>
+                  </ul>
+                </div>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Requisitos antes de migrar' : 'Requirements before migrating'}
+                  {language === 'es' ? 'Requisitos antes de migrar a WhatsApp Business API' : 'Requirements before migrating to WhatsApp Business API'}
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Antes de iniciar los primeros pasos para migrar a WhatsApp Business API, asegúrate de cumplir con estos requisitos:' : 'Before starting the first steps to migrate to WhatsApp Business API, make sure you meet these requirements:'}
+                  {language === 'es' ? 'Antes de iniciar el proceso, debes cumplir con:' : 'Before starting the process, you must meet:'}
                 </p>
 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>{language === 'es' ? 'Número de teléfono nuevo o dedicado (no usar número personal)' : 'New or dedicated phone number (do not use personal number)'}</li>
-                  <li>{language === 'es' ? 'Empresa registrada con RUT en Colombia' : 'Registered company with tax ID in Colombia'}</li>
-                  <li>{language === 'es' ? 'Cuenta verificada en Meta Business Manager' : 'Verified account in Meta Business Manager'}</li>
-                  <li>{language === 'es' ? 'Documentos legales: certificado de constitución, RUT, cámara de comercio' : 'Legal documents: incorporation certificate, tax ID, chamber of commerce'}</li>
-                  <li>{language === 'es' ? 'Casos de uso definidos: confirmaciones, recordatorios, soporte' : 'Defined use cases: confirmations, reminders, support'}</li>
+                  <li>{language === 'es' ? 'Empresa legal registrada en Colombia (RUT + Cámara de Comercio)' : 'Legally registered company in Colombia (tax ID + Chamber of Commerce)'}
+                  <li>{language === 'es' ? 'Cuenta en Meta Business Manager verificada' : 'Verified account in Meta Business Manager'}</li>
+                  <li>{language === 'es' ? 'Número telefónico dedicado (no personal)' : 'Dedicated phone number (not personal)'}
+                  <li>{language === 'es' ? 'Caso de uso definido (ventas, soporte, cobranzas)' : 'Defined use case (sales, support, collections)'}
+                  <li>{language === 'es' ? 'Documentación empresarial lista para verificación' : 'Business documentation ready for verification'}</li>
                 </ul>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -154,7 +157,14 @@ export default function BlogArticle3() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Analiza tu volumen mensual de mensajes, tiempos de respuesta actuales y puntos de dolor en la gestión de WhatsApp. Documenta qué procesos son manuales y cuánto tiempo consumen.' : 'Analyze your monthly message volume, current response times and pain points in WhatsApp management. Document which processes are manual and how much time they consume.'}
+                  {language === 'es' ? 'Analiza: tiempo de respuesta promedio, volumen de mensajes mensuales, procesos manuales repetitivos, pérdida de leads por falta de respuesta.' : 'Analyze: average response time, monthly message volume, repetitive manual processes, lead loss due to lack of response.'}
+                </p>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? (
+                    <><strong>📌 Este paso define si realmente necesitas API o solo optimización de WhatsApp Business.</>
+                  ) : (
+                    <><strong>📌 This step defines if you really need API or just WhatsApp Business optimization.</>
+                  )}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? (
@@ -176,29 +186,19 @@ export default function BlogArticle3() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Elige un Business Solution Provider (BSP) que se adapte a tu tamaño, industria y presupuesto. Evalúa soporte técnico, facilidad de integración y costos por mensaje.' : 'Choose a Business Solution Provider (BSP) that fits your size, industry and budget. Evaluate technical support, integration ease and per-message costs.'}
-                </p>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Opciones principales:' : 'Main options:'}
+                  {language === 'es' ? 'El BSP es obligatorio para usar la API. Comparación real:' : 'The BSP is mandatory to use the API. Real comparison:'}
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>{language === 'es' ? 'Twilio: Enterprise global, soporte 24/7, costos medios-altos' : 'Twilio: Global enterprise, 24/7 support, medium-high costs'}</li>
-                  <li>{language === 'es' ? 'MessageBird: Omnicanal, buena para startups, costos competitivos' : 'MessageBird: Omnichannel, good for startups, competitive costs'}</li>
-                  <li>{language === 'es' ? 'Infobip: Proveedor global, fuerte en LATAM, costos variables' : 'Infobip: Global provider, strong in LATAM, variable costs'}</li>
-                  <li>{language === 'es' ? 'Crear.chat: Especializado en Colombia, implementación rápida, soporte local español, costos transparentes' : 'Crear.chat: Specialized in Colombia, fast implementation, local Spanish support, transparent costs'}</li>
+                  <li>{language === 'es' ? 'Twilio → robusto, caro, enterprise' : 'Twilio → robust, expensive, enterprise'}</li>
+                  <li>{language === 'es' ? 'MessageBird → omnicanal, flexible' : 'MessageBird → omnichannel, flexible'}</li>
+                  <li>{language === 'es' ? 'Infobip → fuerte en LATAM, escalable' : 'Infobip → strong in LATAM, scalable'}</li>
+                  <li>{language === 'es' ? 'Crear.chat → implementación rápida en Colombia + soporte local' : 'Crear.chat → fast implementation in Colombia + local support'}</li>
                 </ul>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? (
-                    <><strong>Error común:</strong> Elegir BSP solo por precio sin evaluar soporte técnico.</>
+                    <><strong>📌 Error crítico:</strong> elegir solo por precio sin soporte técnico.</>
                   ) : (
-                    <><strong>Common error:</strong> Choosing BSP only by price without evaluating technical support.</>
-                  )}
-                </p>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? (
-                    <><strong>Tip profesional:</strong> Pide demostración técnica antes de comprometerte.</>
-                  ) : (
-                    <><strong>Professional tip:</strong> Request technical demonstration before committing.</>
+                    <><strong>📌 Critical error:</strong> choosing only by price without technical support.</>
                   )}
                 </p>
 
@@ -207,20 +207,13 @@ export default function BlogArticle3() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Adquiere un número dedicado para WhatsApp Business API. No uses tu número personal. Configura el número en tu BSP y verifica que esté activo.' : 'Acquire a dedicated number for WhatsApp Business API. Do not use your personal number. Configure the number in your BSP and verify it is active.'}
+                  {language === 'es' ? 'No usar número personal. Ideal: número nuevo empresarial. Mejor reputación si es local.' : 'Do not use personal number. Ideal: new business number. Better reputation if local.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? (
-                    <><strong>Error común:</strong> Usar número personal existente con historial de mensajes.</>
+                    <><strong>📌 WhatsApp penaliza historial previo mal gestionado.</>
                   ) : (
-                    <><strong>Common error:</strong> Using existing personal number with message history.</>
-                  )}
-                </p>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? (
-                    <><strong>Tip profesional:</strong> Usa número con código de área local para mayor confianza.</>
-                  ) : (
-                    <><strong>Professional tip:</strong> Use number with local area code for greater trust.</>
+                    <><strong>📌 WhatsApp penalizes poorly managed previous history.</>
                   )}
                 </p>
 
@@ -229,20 +222,13 @@ export default function BlogArticle3() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Crea o verifica tu cuenta en Meta Business Manager. Sube documentos legales de tu empresa en Colombia. Espera aprobación de Meta (1-3 días hábiles).' : 'Create or verify your account in Meta Business Manager. Upload legal documents of your company in Colombia. Wait for Meta approval (1-3 business days).'}
+                  {language === 'es' ? 'Proceso de aprobación: envío de documentos, validación de empresa, revisión de dominio y negocio.' : 'Approval process: document submission, company validation, domain and business review.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? (
-                    <><strong>Error común:</strong> Documentos incompletos o información incorrecta en Business Manager.</>
+                    <><strong>⏱ Tiempo promedio:</strong> 1–3 días hábiles</>
                   ) : (
-                    <><strong>Common error:</strong> Incomplete documents or incorrect information in Business Manager.</>
-                  )}
-                </p>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? (
-                    <><strong>Tip profesional:</strong> Verifica que el nombre del negocio coincida con documentos legales.</>
-                  ) : (
-                    <><strong>Professional tip:</strong> Verify business name matches legal documents.</>
+                    <><strong>⏱ Average time:</strong> 1–3 business days</>
                   )}
                 </p>
 
@@ -251,20 +237,13 @@ export default function BlogArticle3() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Configura tu WhatsApp Business Account (WABA) a través del BSP. Define permisos, webhooks y configuraciones de seguridad. Activa el número en la plataforma.' : 'Configure your WhatsApp Business Account (WABA) through the BSP. Define permissions, webhooks and security settings. Activate the number on the platform.'}
+                  {language === 'es' ? 'Aquí se configura: webhooks, permisos, seguridad, activación del número.' : 'Here you configure: webhooks, permissions, security, number activation.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? (
-                    <><strong>Error común:</strong> No configurar webhooks correctamente para recibir mensajes.</>
+                    <><strong>📌 Error común:</strong> mala configuración de webhooks = pérdida de mensajes.</>
                   ) : (
-                    <><strong>Common error:</strong> Not configuring webhooks correctly to receive messages.</>
-                  )}
-                </p>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? (
-                    <><strong>Tip profesional:</strong> Prueba webhooks con ambiente sandbox antes de producción.</>
-                  ) : (
-                    <><strong>Professional tip:</strong> Test webhooks with sandbox environment before production.</>
+                    <><strong>📌 Common error:</strong> poor webhook configuration = message loss.</>
                   )}
                 </p>
 
@@ -273,20 +252,13 @@ export default function BlogArticle3() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Conecta WhatsApp Business API con tu CRM, ERP o sistema de gestión. Configura sincronización de contactos, historial de conversaciones y automatización de flujos.' : 'Connect WhatsApp Business API with your CRM, ERP or management system. Configure contact synchronization, conversation history and flow automation.'}
+                  {language === 'es' ? 'Integrar con: CRM (HubSpot, Salesforce), ERP o facturación, base de datos clientes.' : 'Integrate with: CRM (HubSpot, Salesforce), ERP or billing, customer database.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? (
-                    <><strong>Error común:</strong> Integrar sin mapear correctamente campos de datos.</>
+                    <><strong>📌 Esto define el ROI de la implementación.</>
                   ) : (
-                    <><strong>Common error:</strong> Integrating without correctly mapping data fields.</>
-                  )}
-                </p>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? (
-                    <><strong>Tip profesional:</strong> Empieza con integración básica y escala gradualmente.</>
-                  ) : (
-                    <><strong>Professional tip:</strong> Start with basic integration and scale gradually.</>
+                    <><strong>📌 This defines the implementation ROI.</>
                   )}
                 </p>
 
@@ -295,20 +267,13 @@ export default function BlogArticle3() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Diseña plantillas de mensajes para envíos proactivos. Somete a aprobación de Meta. Espera revisión (generalmente 24-48 horas). No envíes mensajes sin plantilla aprobada.' : 'Design message templates for proactive sending. Submit for Meta approval. Wait for review (usually 24-48 hours). Do not send messages without approved template.'}
+                  {language === 'es' ? 'Solo puedes enviar mensajes proactivos con plantillas aprobadas: confirmaciones, recordatorios, soporte, promociones.' : 'You can only send proactive messages with approved templates: confirmations, reminders, support, promotions.'}
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? (
-                    <><strong>Error común:</strong> Enviar mensajes sin plantilla aprobada (riesgo de ban).</>
+                    <><strong>📌 Sin aprobación = bloqueo de envíos.</>
                   ) : (
-                    <><strong>Common error:</strong> Sending messages without approved template (ban risk).</>
-                  )}
-                </p>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? (
-                    <><strong>Tip profesional:</strong> Crea plantillas versátiles que sirvan para múltiples casos.</>
-                  ) : (
-                    <><strong>Professional tip:</strong> Create versatile templates that serve multiple cases.</>
+                    <><strong>📌 Without approval = sending block.</>
                   )}
                 </p>
 
@@ -317,21 +282,7 @@ export default function BlogArticle3() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Realiza pruebas con volumen limitado. Monitorea métricas de entrega, apertura y respuesta. Ajusta configuraciones según resultados. Lanza oficialmente cuando todo esté validado.' : 'Perform tests with limited volume. Monitor delivery, open and response metrics. Adjust settings based on results. Official launch when everything is validated.'}
-                </p>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? (
-                    <><strong>Error común:</strong> Lanzar sin pruebas suficientes.</>
-                  ) : (
-                    <><strong>Common error:</strong> Launching without sufficient testing.</>
-                  )}
-                </p>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? (
-                    <><strong>Tip profesional:</strong> Monitorea calidad de calificación (quality rating) desde el primer día.</>
-                  ) : (
-                    <><strong>Professional tip:</strong> Monitor quality rating from day one.</>
-                  )}
+                  {language === 'es' ? 'Test con bajo volumen, monitoreo de calidad (quality rating), ajuste de flujos.' : 'Test with low volume, quality monitoring (quality rating), flow adjustment.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -351,7 +302,7 @@ export default function BlogArticle3() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'El tiempo real de implementación varía según complejidad: 3 a 10 días para casos simples, hasta 2 semanas para integraciones complejas. Factores que afectan el tiempo: nivel de integración con sistemas existentes, cantidad de plantillas a aprobar, velocidad de aprobación de Meta y disponibilidad de equipo técnico.' : 'Real implementation time varies by complexity: 3 to 10 days for simple cases, up to 2 weeks for complex integrations. Factors affecting time: level of integration with existing systems, number of templates to approve, Meta approval speed and technical team availability.'}
+                  {language === 'es' ? 'Básico: 3–5 días. Medio: 7–10 días. Complejo: hasta 14 días. Factores: velocidad de Meta, calidad de documentos, integración técnica.' : 'Basic: 3–5 days. Medium: 7–10 days. Complex: up to 14 days. Factors: Meta speed, document quality, technical integration.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -359,11 +310,10 @@ export default function BlogArticle3() {
                 </h2>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>{language === 'es' ? '+40% eficiencia operativa en gestión de mensajes' : '+40% operational efficiency in message management'}</li>
-                  <li>{language === 'es' ? '+30% conversión en respuestas automáticas' : '+30% conversion in automatic responses'}</li>
-                  <li>{language === 'es' ? 'Reducción de tiempos de respuesta de horas a minutos' : 'Reduction of response times from hours to minutes'}</li>
-                  <li>{language === 'es' ? 'Automatización 80-90% de procesos repetitivos' : '80-90% automation of repetitive processes'}</li>
-                  <li>{language === 'es' ? 'Mejor experiencia del cliente con respuestas 24/7' : 'Better customer experience with 24/7 responses'}</li>
+                  <li>{language === 'es' ? '+40% eficiencia en atención' : '+40% efficiency in customer service'}</li>
+                  <li>{language === 'es' ? '-60% tiempos de respuesta' : '-60% response times'}</li>
+                  <li>{language === 'es' ? '+30% conversión en leads' : '+30% lead conversion'}</li>
+                  <li>{language === 'es' ? '80% automatización de procesos' : '80% process automation'}</li>
                 </ul>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -374,42 +324,35 @@ export default function BlogArticle3() {
                   {language === 'es' ? '¿Cuánto cuesta WhatsApp Business API?' : 'How much does WhatsApp Business API cost?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'El costo varía según el BSP. Generalmente se paga por conversación iniciada (aprox $0.05-$0.10 USD) más tarifa del proveedor. Crear.chat ofrece planes transparentes sin costos ocultos.' : 'Cost varies by BSP. Generally paid per conversation initiated (approx $0.05-$0.10 USD) plus provider fee. Crear.chat offers transparent plans with no hidden costs.'}
+                  {language === 'es' ? 'Depende del BSP. Promedio $0.05–$0.10 USD por conversación + proveedor.' : 'Depends on BSP. Average $0.05–$0.10 USD per conversation + provider.'}
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '¿Necesito empresa registrada?' : 'Do I need a registered company?'}
+                  {language === 'es' ? '¿Puedo usar mi número actual?' : 'Can I use my current number?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Sí, WhatsApp Business API requiere empresa registrada con documentos legales válidos. En Colombia necesitas RUT, certificado de constitución y cámara de comercio.' : 'Yes, WhatsApp Business API requires a registered company with valid legal documents. In Colombia you need tax ID, incorporation certificate and chamber of commerce.'}
-                </p>
-
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '¿Puedo usar mi mismo número?' : 'Can I use my same number?'}
-                </h3>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'No recomendado. WhatsApp Business API requiere número dedicado. Usar tu número personal puede causar pérdida de historial y problemas de verificación.' : 'Not recommended. WhatsApp Business API requires dedicated number. Using your personal number can cause history loss and verification issues.'}
+                  {language === 'es' ? 'No recomendado. Puede generar pérdida de historial o bloqueo.' : 'Not recommended. Can cause history loss or block.'}
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Cuánto tarda la aprobación?' : 'How long does approval take?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'La aprobación de Meta toma 1-3 días hábiles. La aprobación de plantillas de mensajes toma 24-48 horas adicionales. Proveedores como Crear.chat aceleran el proceso.' : 'Meta approval takes 1-3 business days. Message template approval takes additional 24-48 hours. Providers like Crear.chat accelerate the process.'}
+                  {language === 'es' ? '1 a 3 días en Meta + 24–48h en plantillas.' : '1 to 3 days in Meta + 24–48h in templates.'}
+                </p>
+
+                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                  {language === 'es' ? '¿Necesito empresa registrada?' : 'Do I need a registered company?'}
+                </h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'Sí, es obligatorio en Colombia.' : 'Yes, it is mandatory in Colombia.'}
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Qué es un BSP?' : 'What is a BSP?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'BSP (Business Solution Provider) es un intermediario autorizado por Meta que te permite acceder a WhatsApp Business API. Ejemplos: Twilio, MessageBird, Infobip, Crear.chat.' : 'BSP (Business Solution Provider) is an intermediary authorized by Meta that allows you to access WhatsApp Business API. Examples: Twilio, MessageBird, Infobip, Crear.chat.'}
-                </p>
-
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? '¿Es difícil de implementar?' : 'Is it difficult to implement?'}
-                </h3>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Con el BSP correcto es sencillo. Crear.chat ofrece implementación guiada en 3-10 días con soporte técnico en español. No necesitas ser desarrollador experto.' : 'With the right BSP it is simple. Crear.chat offers guided implementation in 3-10 days with Spanish technical support. You do not need to be an expert developer.'}
+                  {language === 'es' ? 'Proveedor autorizado por Meta para usar la API.' : 'Provider authorized by Meta to use the API.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -417,7 +360,7 @@ export default function BlogArticle3() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Los primeros pasos para migrar a WhatsApp Business API son claros cuando tienes la guía correcta. No necesitas ser experto técnico, solo elegir el BSP adecuado y seguir el proceso paso a paso. Empresas en Colombia ya están transformando su comunicación y obteniendo resultados medibles en semanas.' : 'The first steps to migrate to WhatsApp Business API are clear when you have the right guide. You do not need to be a technical expert, just choose the right BSP and follow the step-by-step process. Companies in Colombia are already transforming their communication and getting measurable results in weeks.'}
+                  {language === 'es' ? 'Los primeros pasos para migrar WhatsApp Business API no son complejos, pero sí requieren orden técnico y elección correcta del proveedor. Las empresas que implementan correctamente este proceso logran automatizar su atención, reducir costos y aumentar ventas en menos de 2 semanas.' : 'The first steps to migrate WhatsApp Business API are not complex, but they do require technical order and correct provider choice. Companies that implement this process correctly manage to automate their service, reduce costs and increase sales in less than 2 weeks.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
