@@ -158,11 +158,11 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Implementación: 3 semanas. Resultado: no-show reducido en 40% (casos promedio). Los clientes reciben confirmación automática al reservar, recordatorio 24h antes y pueden cancelar con un clic. La plataforma procesa pedidos delivery con integración POS.' : 'Implementation: 3 weeks. Result: no-show reduced by 40% (average cases). Customers receive automatic confirmation upon booking, 24h reminder, and can cancel with one click. The platform processes delivery orders with POS integration.'}
+                  {language === 'es' ? 'Implementación: 3 semanas. Resultado: no-show reducido en 40%. Los clientes reciben confirmación automática al reservar, recordatorio 24h antes y pueden cancelar con un clic. La plataforma procesa pedidos delivery con integración POS.' : 'Implementation: 3 weeks. Result: no-show reduced by 40%. Customers receive automatic confirmation upon booking, 24h reminder, and can cancel with one click. The platform processes delivery orders with POS integration.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Tiempo de respuesta bajó de 4 horas a 2 minutos. Satisfacción del cliente aumentó 28% (según implementación en clientes).' : 'Response time dropped from 4 hours to 2 minutes. Customer satisfaction increased 28% (based on client implementations).'}
+                  {language === 'es' ? 'Tiempo de respuesta bajó de 4 horas a 2 minutos. Satisfacción del cliente aumentó 28%.' : 'Response time dropped from 4 hours to 2 minutes. Customer satisfaction increased 28%.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -199,11 +199,11 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Implementación: 4 semanas. Resultado: satisfacción +35% (casos promedio). Check-in remoto redujo filas en 70%. Los huéspedes solicitan toallas, reservan spa y piden información turística por WhatsApp. Integración PMS sincroniza todo en tiempo real.' : 'Implementation: 4 weeks. Result: satisfaction +35% (average cases). Remote check-in reduced queues by 70%. Guests request towels, book spa, and ask for tourist info via WhatsApp. PMS integration syncs everything in real time.'}
+                  {language === 'es' ? 'Implementación: 4 semanas. Resultado: satisfacción +35%. Check-in remoto redujo filas en 70%. Los huéspedes solicitan toallas, reservan spa y piden información turística por WhatsApp. Integración PMS sincroniza todo en tiempo real.' : 'Implementation: 4 weeks. Result: satisfaction +35%. Remote check-in reduced queues by 70%. Guests request towels, book spa, and ask for tourist info via WhatsApp. PMS integration syncs everything in real time.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Upselling de spa aumentó 22%. Tasa de respuesta a encuestas post-estadía subió de 12% a 48% (según implementación en clientes).' : 'Spa upselling increased 22%. Post-stay survey response rate rose from 12% to 48% (based on client implementations).'}
+                  {language === 'es' ? 'Upselling de spa aumentó 22%. Tasa de respuesta a encuestas post-estadía subió de 12% a 48%.' : 'Spa upselling increased 22%. Post-stay survey response rate rose from 12% to 48%.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -239,11 +239,11 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Implementación: 2 semanas. Resultado: ventas +25%, retención +40% (casos promedio). Programa de fidelización en WhatsApp: cada compra suma puntos. Mensaje automático: "Tu café favorito está en oferta hoy". Integración POS tracking en tiempo real.' : 'Implementation: 2 weeks. Result: sales +25%, retention +40% (average cases). WhatsApp loyalty program: each purchase adds points. Auto message: "Your favorite coffee is on sale today". POS integration real-time tracking.'}
+                  {language === 'es' ? 'Implementación: 2 semanas. Resultado: ventas +25%, retención +40%. Programa de fidelización en WhatsApp: cada compra suma puntos. Mensaje automático: "Tu café favorito está en oferta hoy". Integración POS tracking en tiempo real.' : 'Implementation: 2 weeks. Result: sales +25%, retention +40%. WhatsApp loyalty program: each purchase adds points. Auto message: "Your favorite coffee is on sale today". POS integration real-time tracking.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Frecuencia de visita aumentó de 2.1 a 3.4 veces/mes. Ticket promedio subió 12% (según implementación en clientes).' : 'Visit frequency increased from 2.1 to 3.4 times/month. Average ticket rose 12% (based on client implementations).'}
+                  {language === 'es' ? 'Frecuencia de visita aumentó de 2.1 a 3.4 veces/mes. Ticket promedio subió 12%.' : 'Visit frequency increased from 2.1 to 3.4 times/month. Average ticket rose 12%.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -280,11 +280,11 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Implementación: 3 semanas. Resultado: llamadas -60%, respuesta +80% (casos promedio). Actualizaciones de caso con encriptación end-to-end. Clientes programan citas por WhatsApp. Integración con software legal para tracking.' : 'Implementation: 3 weeks. Result: calls -60%, response +80% (average cases). Case updates with end-to-end encryption. Clients schedule appointments via WhatsApp. Integration with legal software for tracking.'}
+                  {language === 'es' ? 'Implementación: 3 semanas. Resultado: llamadas -60%, respuesta +80%. Actualizaciones de caso con encriptación end-to-end. Clientes programan citas por WhatsApp. Integración con software legal para tracking.' : 'Implementation: 3 weeks. Result: calls -60%, response +80%. Case updates with end-to-end encryption. Clients schedule appointments via WhatsApp. Integration with legal software for tracking.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Tiempo de respuesta inicial bajó de 24h a 5 minutos. Cero fechas de audiencia olvidadas en 6 meses (según implementación en clientes).' : 'Initial response time dropped from 24h to 5 minutes. Zero forgotten hearing dates in 6 months (based on client implementations).'}
+                  {language === 'es' ? 'Tiempo de respuesta inicial bajó de 24h a 5 minutos. Cero fechas de audiencia olvidadas en 6 meses.' : 'Initial response time dropped from 24h to 5 minutes. Zero forgotten hearing dates in 6 months.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -321,11 +321,11 @@ export default function BlogArticle2() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Implementación: 5 semanas. Resultado: recuperación +45% (casos promedio). Recordatorios personalizados con tono empático. Opciones de pago flexibles. Comprobante automático por WhatsApp. Integración con pasarelas para pagos sin salir de la conversación.' : 'Implementation: 5 weeks. Result: recovery +45% (average cases). Personalized reminders with empathetic tone. Flexible payment options. Automatic receipt via WhatsApp. Gateway integration for payments without leaving conversation.'}
+                  {language === 'es' ? 'Implementación: 5 semanas. Resultado: recuperación +45%. Recordatorios personalizados con tono empático. Opciones de pago flexibles. Comprobante automático por WhatsApp. Integración con pasarelas para pagos sin salir de la conversación.' : 'Implementation: 5 weeks. Result: recovery +45%. Personalized reminders with empathetic tone. Flexible payment options. Automatic receipt via WhatsApp. Gateway integration for payments without leaving conversation.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Tasa de respuesta a recordatorios subió de 15% a 62%. Tiempo promedio de pago redujo de 14 días a 4 días (según implementación en clientes).' : 'Reminder response rate rose from 15% to 62%. Average payment time reduced from 14 days to 4 days (based on client implementations).'}
+                  {language === 'es' ? 'Tasa de respuesta a recordatorios subió de 15% a 62%. Tiempo promedio de pago redujo de 14 días a 4 días.' : 'Reminder response rate rose from 15% to 62%. Average payment time reduced from 14 days to 4 days.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -346,7 +346,7 @@ export default function BlogArticle2() {
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Insight estratégico: las empresas que implementan esta plataforma ven ROI promedio de 300% en el primer año (según implementación en clientes). La clave es la integración con sistemas existentes (CRM, POS, PMS) y la automatización inteligente, no solo el envío de mensajes. <a href="/" className="text-[#1B4F72] hover:underline">Ver casos de éxito de WhatsApp Business API</a>.' : 'Strategic insight: companies implementing this platform see average 300% ROI in the first year (based on client implementations). The key is integration with existing systems (CRM, POS, PMS) and intelligent automation, not just message sending. <a href="/" className="text-[#1B4F72] hover:underline">View WhatsApp Business API success cases</a>.'}
+                  {language === 'es' ? 'Insight estratégico: las empresas que implementan esta plataforma ven ROI promedio de 300% en el primer año. La clave es la integración con sistemas existentes (CRM, POS, PMS) y la automatización inteligente, no solo el envío de mensajes. <a href="/" className="text-[#1B4F72] hover:underline">Ver casos de éxito de WhatsApp Business API</a>.' : 'Strategic insight: companies implementing this platform see average 300% ROI in the first year. The key is integration with existing systems (CRM, POS, PMS) and intelligent automation, not just message sending. <a href="/" className="text-[#1B4F72] hover:underline">View WhatsApp Business API success cases</a>.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
