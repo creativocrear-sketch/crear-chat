@@ -41,7 +41,7 @@ export default function BlogArticle2() {
         />
         <meta property="og:title" content={language === 'es' ? 'WhatsApp Business API en Colombia: 5 casos de uso reales con resultados (2026)' : 'WhatsApp Business API in Colombia: 5 real use cases with results (2026)'} />
         <meta property="og:description" content={language === 'es' ? 'Descubre 5 casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, despachos legales y cobranzas con resultados verificables.' : 'Discover 5 real use cases of WhatsApp Business API in restaurants, hotels, cafés, law firms and collections with verifiable results.'} />
-        <meta property="og:image" content="/logo-black.svg" />
+        <meta property="og:image" content="https://tudominio.com/logo-black.svg" />
         <meta property="og:type" content="article" />
         <script type="application/ld+json">
           {JSON.stringify({
