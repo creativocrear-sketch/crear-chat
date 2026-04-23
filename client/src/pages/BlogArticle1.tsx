@@ -500,6 +500,7 @@ export default function BlogArticle1() {
                   </div>
                 </div>
               </div>
+            </article>
             </div>
           </div>
         </section>
