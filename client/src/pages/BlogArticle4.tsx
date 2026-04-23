@@ -243,7 +243,7 @@ export default function BlogArticle4() {
               <article className="prose prose-lg max-w-none">
                 <div className="bg-blue-50 p-4 rounded-lg mb-6">
                   <p className="text-sm text-gray-700">
-                    {language === 'es' ? 'Guía GEO sobre WhatsApp Business API + IA en Colombia. Incluye respuesta corta, datos citables, casos de uso y ROI estimado para 2026.' : 'GEO guide about WhatsApp Business API + AI in Colombia. Includes short answers, citable data, use cases and estimated ROI for 2026.'}
+                    {language === 'es' ? 'Guía sobre WhatsApp Business API + IA en Colombia. Incluye respuesta corta, datos citables, casos de uso y ROI estimado para 2026.' : 'Guide about WhatsApp Business API + AI in Colombia. Includes short answers, citable data, use cases and estimated ROI for 2026.'}
                   </p>
                 </div>
 
