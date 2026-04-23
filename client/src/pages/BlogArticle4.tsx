@@ -173,8 +173,7 @@ export default function BlogArticle4() {
             "@context": "https://schema.org",
             "@type": "DefinedTerm",
             "name": language === 'es' ? 'WhatsApp Business API con IA' : 'WhatsApp Business API with AI',
-            "description": language === 'es' ? 'Tecnología que combina la API oficial de WhatsApp con inteligencia artificial para automatizar la atención al cliente y ventas.' : 'Technology that combines the official WhatsApp API with artificial intelligence to automate customer service and sales.',
-            "inDefinedTermSet": "https://crear.chat/glosario"
+            "description": language === 'es' ? 'Tecnología que combina la API oficial de WhatsApp con inteligencia artificial para automatizar la atención al cliente y ventas.' : 'Technology that combines the official WhatsApp API with artificial intelligence to automate customer service and sales.'
           })}
         </script>
       </Helmet>
