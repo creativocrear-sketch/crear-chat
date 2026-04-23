@@ -281,7 +281,58 @@ export default function BlogArticle3() {
               "@type": "Audience",
               "audienceType": language === 'es' ? 'Empresas en Colombia' : 'Companies in Colombia'
             },
-            "proficiencyLevel": "Beginner"
+            "proficiencyLevel": "Beginner",
+            "sameAs": [
+              "https://www.facebook.com/Meta",
+              "https://www.twilio.com/",
+              "https://www.infobip.com/"
+            ]
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": language === 'es' ? 'Comparativa de proveedores BSP para WhatsApp Business API en Colombia' : 'Comparison of BSP providers for WhatsApp Business API in Colombia',
+            "description": language === 'es' ? 'Tabla comparativa de precios, soporte y facilidad de implementación de proveedores BSP autorizados por Meta' : 'Comparison table of prices, support and implementation ease of Meta-authorized BSP providers',
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@type": "Organization",
+                  "name": "Twilio",
+                  "description": language === 'es' ? 'Precio medio-alto, soporte 24/7 global, implementación compleja' : 'Medium-high price, 24/7 global support, complex implementation'
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@type": "Organization",
+                  "name": "MessageBird",
+                  "description": language === 'es' ? 'Precio medio, soporte horario laboral, implementación media' : 'Medium price, business hours support, medium implementation'
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@type": "Organization",
+                  "name": "Infobip",
+                  "description": language === 'es' ? 'Precio variable, soporte fuerte en LATAM, implementación media' : 'Variable price, strong LATAM support, medium implementation'
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "@type": "Organization",
+                  "name": "Crear.chat",
+                  "description": language === 'es' ? 'Precio transparente, soporte local en español, implementación rápida (3-7 días)' : 'Transparent price, local Spanish support, fast implementation (3-7 days)'
+                }
+              }
+            ]
           })}
         </script>
       </Helmet>
