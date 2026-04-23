@@ -114,7 +114,7 @@ export default function BlogArticle4() {
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                {language === 'es' ? 'WhatsApp Business API + IA: 7 Beneficios Reales para tu Negocio (2026)' : 'WhatsApp Business API + AI: 7 Real Benefits for Your Business (2026)'}
+                {language === 'es' ? 'WhatsApp Business API + IA en Colombia: Cómo Aumentar Ventas 40% y Reducir Costos 50%' : 'WhatsApp Business API + AI in Colombia: How to Increase Sales 40% and Reduce Costs 50%'}
               </h1>
               
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
@@ -127,7 +127,7 @@ export default function BlogArticle4() {
                   <span>6 {t('common.readTime')}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span>{t('common.author')}: {language === 'es' ? 'Alex Murillo + Equipo de Soporte' : 'Alex Murillo + Support Team'}</span>
+                  <span>{t('common.author')}: {language === 'es' ? 'Alex Murillo - Especialista en Automatización WhatsApp LATAM' : 'Alex Murillo - WhatsApp Automation Specialist LATAM'}</span>
                 </div>
               </div>
             </div>
@@ -146,7 +146,7 @@ export default function BlogArticle4() {
                 </div>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '¿Tu negocio pierde ventas por respuestas lentas? La combinación de' : 'Does your business lose sales due to slow responses? The combination of'} <strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business API + IA' : 'WhatsApp Business API + AI'}</strong> {language === 'es' ? 'transforma tu atención al cliente en 24/7. Empresas en Colombia aumentan ventas 40% y reducen costos 50% con automatización inteligente. Descubre cómo la inteligencia artificial revoluciona tu operación.' : 'transforms your customer service into 24/7. Companies in Colombia increase sales 40% and reduce costs 50% with intelligent automation. Discover how artificial intelligence revolutionizes your operation.'}
+                  {language === 'es' ? '¿Tu negocio pierde ventas por respuestas lentas? La combinación de' : 'Does your business lose sales due to slow responses? The combination of'} <strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business API + IA' : 'WhatsApp Business API + AI'}</strong> {language === 'es' ? 'transforma tu atención al cliente en 24/7. Empresas en Colombia aumentan ventas 40% y reducen costos 50% con' : 'transforms your customer service into 24/7. Companies in Colombia increase sales 40% and reduce costs 50% with'} <strong className="text-gray-900">{language === 'es' ? 'automatización de atención al cliente WhatsApp' : 'WhatsApp customer service automation'}</strong>. {language === 'es' ? 'Descubre cómo el' : 'Discover how'} <strong className="text-gray-900">{language === 'es' ? 'chatbot IA WhatsApp empresas' : 'AI chatbot for WhatsApp companies'}</strong> {language === 'es' ? 'y el' : 'and'} <strong className="text-gray-900">{language === 'es' ? 'CRM con WhatsApp API' : 'CRM with WhatsApp API'}</strong> {language === 'es' ? 'revolucionan tu operación.' : 'revolutionize your operation.'}
                 </p>
 
                 <div className="bg-green-50 p-4 rounded-lg mb-6">
@@ -416,6 +416,59 @@ export default function BlogArticle4() {
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
+                  {language === 'es' ? 'Resultados por industria con WhatsApp Business API + IA' : 'Results by industry with WhatsApp Business API + AI'}
+                </h2>
+                
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'Diferentes industrias en Colombia han implementado' : 'Different industries in Colombia have implemented'} <strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business API + IA' : 'WhatsApp Business API + AI'}</strong> {language === 'es' ? 'con resultados medibles. Esta tabla muestra el impacto real por sector.' : 'with measurable results. This table shows the real impact by sector.'}
+                </p>
+
+                <div className="overflow-x-auto mb-6">
+                  <table className="min-w-full bg-white border border-gray-200 rounded-lg">
+                    <thead className="bg-gray-50">
+                      <tr>
+                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">{language === 'es' ? 'Industria' : 'Industry'}</th>
+                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">{language === 'es' ? 'Uso principal' : 'Main use'}</th>
+                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">{language === 'es' ? 'Aumento ventas' : 'Sales increase'}</th>
+                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">{language === 'es' ? 'Reducción costos' : 'Cost reduction'}</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-gray-200">
+                      <tr>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'Restaurantes' : 'Restaurants'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? 'Pedidos automáticos' : 'Automatic orders'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">+35%</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">-25%</td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'Hoteles' : 'Hotels'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? 'Reservas y concierge' : 'Bookings and concierge'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">+50%</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">-30%</td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'Cobranzas' : 'Collections'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? 'Recordatorios inteligentes' : 'Smart reminders'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">+60%</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">-40%</td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'E-commerce' : 'E-commerce'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? 'Soporte y ventas' : 'Support and sales'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">+45%</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">-35%</td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'Salud' : 'Healthcare'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? 'Citas y triaje' : 'Appointments and triage'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">+30%</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">-40%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
                   {language === 'es' ? 'Mitos comunes sobre WhatsApp Business API + IA' : 'Common myths about WhatsApp Business API + AI'}
                 </h2>
                 
@@ -477,33 +530,32 @@ export default function BlogArticle4() {
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
                   {language === 'es' ? 'FAQ - Preguntas frecuentes' : 'FAQ - Frequently asked questions'}
                 </h2>
-                
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Cuáles son los beneficios de WhatsApp Business API con inteligencia artificial?' : 'What are the benefits of WhatsApp Business API with artificial intelligence?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Los principales beneficios son: automatización 24/7, personalización a escala, reducción de costos 30-50%, análisis predictivo, mejora continua, escalabilidad sin límites e integración con CRM. Empresas en Colombia reportan aumento de ventas 40% y reducción de costos 50%.' : 'The main benefits are: 24/7 automation, scale personalization, 30-50% cost reduction, predictive analysis, continuous improvement, unlimited scalability and CRM integration. Companies in Colombia report 40% sales increase and 50% cost reduction.'}
+                  <strong className="text-gray-900">{language === 'es' ? 'Los 7 beneficios principales son:' : 'The 7 main benefits are:'}</strong> {language === 'es' ? 'automatización 24/7, personalización a escala, reducción de costos operativos 30-50%, análisis predictivo de comportamiento, mejora continua automática, escalabilidad sin límites e integración con CRM. Empresas en Colombia reportan aumento de ventas 40%.' : '24/7 automation, scale personalization, 30-50% operating cost reduction, predictive behavior analysis, automatic continuous improvement, unlimited scalability and CRM integration. Companies in Colombia report 40% sales increase.'}
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Cómo funciona la automatización de WhatsApp con IA?' : 'How does WhatsApp automation with AI work?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'La IA se integra con WhatsApp Business API para analizar mensajes, entender intención, responder automáticamente y aprender de cada interacción. Puede procesar pedidos, programar citas, resolver problemas y escalar a humanos cuando es necesario.' : 'AI integrates with WhatsApp Business API to analyze messages, understand intent, respond automatically and learn from each interaction. It can process orders, schedule appointments, resolve problems and escalate to humans when necessary.'}
+                  <strong className="text-gray-900">{language === 'es' ? 'Funciona en 3 pasos:' : 'Works in 3 steps:'}</strong> {language === 'es' ? '1) La IA analiza mensajes entrantes usando NLP para entender intención. 2) Responde automáticamente según reglas configuradas. 3) Aprende de cada interacción para mejorar respuestas futuras. Se integra con CRM para personalización real.' : '1) AI analyzes incoming messages using NLP to understand intent. 2) Responds automatically according to configured rules. 3) Learns from each interaction to improve future responses. Integrates with CRM for real personalization.'}
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Qué es un chatbot con IA en WhatsApp?' : 'What is an AI chatbot in WhatsApp?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Un chatbot con IA en WhatsApp es un sistema automatizado que usa inteligencia artificial para conversar naturalmente con clientes. A diferencia de bots tradicionales, entiende contexto, aprende de interacciones y personaliza respuestas según el historial del cliente.' : 'An AI chatbot in WhatsApp is an automated system that uses artificial intelligence to converse naturally with customers. Unlike traditional bots, it understands context, learns from interactions and personalizes responses based on customer history.'}
+                  <strong className="text-gray-900">{language === 'es' ? 'Es un sistema automatizado que usa IA para conversar naturalmente.' : 'It is an automated system that uses AI to converse naturally.'}</strong> {language === 'es' ? 'A diferencia de bots tradicionales, entiende contexto, aprende de interacciones y personaliza respuestas según historial del cliente. Puede procesar pedidos, resolver problemas y escalar a humanos.' : 'Unlike traditional bots, it understands context, learns from interactions and personalizes responses based on customer history. It can process orders, resolve problems and escalate to humans.'}
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Cuánto cuesta implementar WhatsApp Business API + IA?' : 'How much does it cost to implement WhatsApp Business API + AI?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'El costo varía según proveedor y volumen. Incluye: tarifa de Meta por conversación ($0.05-$0.10 USD), tarifa del BSP proveedor y costos de integración. En Colombia, el costo promedio mensual es $50-$500 USD. El ROI típico es 3-6 meses.' : 'Cost varies by provider and volume. Includes: Meta fee per conversation ($0.05-$0.10 USD), BSP provider fee and integration costs. In Colombia, average monthly cost is $50-$500 USD. Typical ROI is 3-6 months.'}
+                  <strong className="text-gray-900">{language === 'es' ? 'El costo promedio mensual en Colombia es $50-$500 USD.' : 'The average monthly cost in Colombia is $50-$500 USD.'}</strong> {language === 'es' ? 'Incluye: tarifa Meta ($0.05-$0.10 por conversación), tarifa BSP y costos de integración. El ROI típico es 3-6 meses con reducción de costos 30-50%.' : 'Includes: Meta fee ($0.05-$0.10 per conversation), BSP fee and integration costs. Typical ROI is 3-6 months with 30-50% cost reduction.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -514,7 +566,7 @@ export default function BlogArticle4() {
                   {language === 'es' ? '¿Es difícil integrar IA con WhatsApp Business API?' : 'Is it difficult to integrate AI with WhatsApp Business API?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Con el proveedor correcto, la implementación es simple. Tiempo promedio: 3-7 días. El proceso incluye: selección de BSP, configuración de número, verificación en Meta, integración con CRM, creación de plantillas y pruebas. Empresas en Colombia han implementado exitosamente en menos de 10 días.' : 'With the correct provider, implementation is simple. Average time: 3-7 days. Process includes: BSP selection, number configuration, Meta verification, CRM integration, template creation and testing. Companies in Colombia have successfully implemented in less than 10 days.'}
+                  <strong className="text-gray-900">{language === 'es' ? 'No, con el proveedor correcto es simple. Tiempo promedio: 3-7 días.' : 'No, with the correct provider it is simple. Average time: 3-7 days.'}</strong> {language === 'es' ? 'El proceso incluye: selección BSP, configuración número, verificación Meta, integración CRM, creación plantillas y pruebas. Empresas en Colombia han implementado en menos de 10 días.' : 'Process includes: BSP selection, number configuration, Meta verification, CRM integration, template creation and testing. Companies in Colombia have implemented in less than 10 days.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
