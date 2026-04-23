@@ -62,6 +62,68 @@ export default function BlogArticle2() {
               : 'Discover 5 real use cases of WhatsApp Business API in restaurants, hotels, cafés, law firms and collections with verifiable results.'
           })}
         </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CaseStudy",
+            "name": language === 'es' ? 'WhatsApp Business API en Colombia: 5 casos de uso reales con resultados' : 'WhatsApp Business API in Colombia: 5 real use cases with results',
+            "description": language === 'es' 
+              ? 'Descubre 5 casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, despachos legales y cobranzas con resultados verificables.' 
+              : 'Discover 5 real use cases of WhatsApp Business API in restaurants, hotels, cafés, law firms and collections with verifiable results.',
+            "about": {
+              "@type": "Thing",
+              "name": "WhatsApp Business API"
+            },
+            "industry": [
+              { "@type": "Industry", "name": language === 'es' ? "Restaurantes" : "Restaurants" },
+              { "@type": "Industry", "name": language === 'es' ? "Hoteles" : "Hotels" },
+              { "@type": "Industry", "name": language === 'es' ? "Cafés" : "Cafés" },
+              { "@type": "Industry", "name": language === 'es' ? "Despachos legales" : "Law firms" },
+              { "@type": "Industry", "name": language === 'es' ? "Cobranzas" : "Collections" }
+            ],
+            "outcome": [
+              {
+                "@type": "QuantitativeValue",
+                "name": language === 'es' ? "Reducción de no-show en restaurantes" : "Restaurant no-show reduction",
+                "value": "40",
+                "unitText": "%"
+              },
+              {
+                "@type": "QuantitativeValue",
+                "name": language === 'es' ? "Satisfacción de huéspedes en hoteles" : "Hotel guest satisfaction",
+                "value": "35",
+                "unitText": "%"
+              },
+              {
+                "@type": "QuantitativeValue",
+                "name": language === 'es' ? "Aumento de ventas en cafés" : "Café sales increase",
+                "value": "25",
+                "unitText": "%"
+              },
+              {
+                "@type": "QuantitativeValue",
+                "name": language === 'es' ? "Reducción de llamadas en despachos legales" : "Law firm call reduction",
+                "value": "60",
+                "unitText": "%"
+              },
+              {
+                "@type": "QuantitativeValue",
+                "name": language === 'es' ? "Recuperación en cobranzas" : "Collections recovery",
+                "value": "45",
+                "unitText": "%"
+              }
+            ],
+            "location": {
+              "@type": "Country",
+              "name": "Colombia"
+            },
+            "datePublished": "2026-03-21",
+            "author": {
+              "@type": "Person",
+              "name": "Alex Murillo"
+            }
+          })}
+        </script>
       </Helmet>
       <div className="min-h-screen flex flex-col bg-white">
         <Header />
