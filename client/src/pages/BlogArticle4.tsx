@@ -149,12 +149,6 @@ export default function BlogArticle4() {
                   {language === 'es' ? '¿Tu negocio pierde ventas por respuestas lentas? La combinación de' : 'Does your business lose sales due to slow responses? The combination of'} <strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business API + IA' : 'WhatsApp Business API + AI'}</strong> {language === 'es' ? 'transforma tu atención al cliente en 24/7. Empresas en Colombia aumentan ventas 40% y reducen costos 50% con' : 'transforms your customer service into 24/7. Companies in Colombia increase sales 40% and reduce costs 50% with'} <strong className="text-gray-900">{language === 'es' ? 'automatización de atención al cliente WhatsApp' : 'WhatsApp customer service automation'}</strong>. {language === 'es' ? 'Descubre cómo el' : 'Discover how'} <strong className="text-gray-900">{language === 'es' ? 'chatbot IA WhatsApp empresas' : 'AI chatbot for WhatsApp companies'}</strong> {language === 'es' ? 'y el' : 'and'} <strong className="text-gray-900">{language === 'es' ? 'CRM con WhatsApp API' : 'CRM with WhatsApp API'}</strong> {language === 'es' ? 'revolucionan tu operación.' : 'revolutionize your operation.'}
                 </p>
 
-                <div className="bg-green-50 p-4 rounded-lg mb-6">
-                  <p className="text-sm text-gray-700">
-                    {language === 'es' ? '✅ Guía basada en implementaciones reales con empresas en Colombia' : '✅ Guide based on real implementations with companies in Colombia'}
-                  </p>
-                </div>
-
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
                   {language === 'es' ? '¿Qué es WhatsApp Business API + IA?' : 'What is WhatsApp Business API + AI?'}
                 </h2>
@@ -347,29 +341,9 @@ export default function BlogArticle4() {
                   {language === 'es' ? 'Implementar' : 'Implementing'} <strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business API + IA' : 'WhatsApp Business API + AI'}</strong> {language === 'es' ? 'no es complicado si sigues el proceso correcto. Con el proveedor adecuado, puedes tener tu sistema operativo en 3-7 días.' : 'is not complicated if you follow the right process. With the right provider, you can have your system operational in 3-7 days.'}
                 </p>
 
-                <ol className="list-decimal pl-6 space-y-4 text-gray-600 mb-6">
-                  <li>
-                    <strong className="text-gray-900">{language === 'es' ? 'Selecciona un proveedor BSP certificado:' : 'Select a certified BSP provider:'}</strong> {language === 'es' ? 'Elige un Business Solution Provider con experiencia en IA y Colombia. Verifica reputación, soporte y casos de éxito.' : 'Choose a Business Solution Provider with AI experience and Colombia presence. Verify reputation, support and success cases.'}
-                  </li>
-                  <li>
-                    <strong className="text-gray-900">{language === 'es' ? 'Configura tu número de WhatsApp Business:' : 'Configure your WhatsApp Business number:'}</strong> {language === 'es' ? 'Registra tu número en Meta y completa la verificación. El BSP te guiará en el proceso de configuración técnica.' : 'Register your number with Meta and complete verification. The BSP will guide you through the technical configuration process.'}
-                  </li>
-                  <li>
-                    <strong className="text-gray-900">{language === 'es' ? 'Integra con tu CRM y sistemas:' : 'Integrate with your CRM and systems:'}</strong> {language === 'es' ? 'Conecta la API con tu CRM, base de datos y herramientas existentes. Esto permite personalización y sincronización de datos.' : 'Connect the API with your CRM, database and existing tools. This enables personalization and data synchronization.'}
-                  </li>
-                  <li>
-                    <strong className="text-gray-900">{language === 'es' ? 'Configura el chatbot con IA:' : 'Configure the AI chatbot:'}</strong> {language === 'es' ? 'Define flujos de conversación, respuestas automáticas y reglas de negocio. La IA aprenderá de cada interacción para mejorar.' : 'Define conversation flows, automatic responses and business rules. The AI will learn from each interaction to improve.'}
-                  </li>
-                  <li>
-                    <strong className="text-gray-900">{language === 'es' ? 'Prueba y lanza:' : 'Test and launch:'}</strong> {language === 'es' ? 'Realiza pruebas exhaustivas con casos reales. Ajusta parámetros según resultados y lanza gradualmente a producción.' : 'Perform extensive testing with real cases. Adjust parameters based on results and launch gradually to production.'}
-                  </li>
-                </ol>
-
-                <div className="bg-yellow-50 p-4 rounded-lg mb-6">
-                  <p className="text-sm text-gray-700">
-                    <strong className="text-gray-900">{language === 'es' ? '💡 Consejo:' : '💡 Tip:'}</strong> {language === 'es' ? 'Empresas en Colombia que implementan con proveedores experimentados reducen el tiempo de implementación en 50% y aumentan el éxito del proyecto.' : 'Companies in Colombia that implement with experienced providers reduce implementation time by 50% and increase project success.'}
-                  </p>
-                </div>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'Para el paso a paso completo de implementación, consulta nuestra guía detallada sobre' : 'For the complete implementation step-by-step, check our detailed guide on'} <a href="/blog/primeros-pasos-migrar-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'primeros pasos para migrar WhatsApp Business API' : 'first steps to migrate WhatsApp Business API'}</a>.
+                </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
                   {language === 'es' ? 'Casos de uso reales de WhatsApp Business API + IA en Colombia' : 'Real use cases of WhatsApp Business API + AI in Colombia'}
@@ -534,15 +508,32 @@ export default function BlogArticle4() {
                   {language === 'es' ? '¿Cuáles son los beneficios de WhatsApp Business API con inteligencia artificial?' : 'What are the benefits of WhatsApp Business API with artificial intelligence?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong className="text-gray-900">{language === 'es' ? 'Los 7 beneficios principales son:' : 'The 7 main benefits are:'}</strong> {language === 'es' ? 'automatización 24/7, personalización a escala, reducción de costos operativos 30-50%, análisis predictivo de comportamiento, mejora continua automática, escalabilidad sin límites e integración con CRM. Empresas en Colombia reportan aumento de ventas 40%.' : '24/7 automation, scale personalization, 30-50% operating cost reduction, predictive behavior analysis, automatic continuous improvement, unlimited scalability and CRM integration. Companies in Colombia report 40% sales increase.'}
+                  <strong className="text-gray-900">{language === 'es' ? 'Los 7 beneficios principales son:' : 'The 7 main benefits are:'}</strong>
+                </p>
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  <li>{language === 'es' ? 'Automatización 24/7' : '24/7 automation'}</li>
+                  <li>{language === 'es' ? 'Personalización a escala' : 'Scale personalization'}</li>
+                  <li>{language === 'es' ? 'Reducción de costos operativos 30-50%' : '30-50% operating cost reduction'}</li>
+                  <li>{language === 'es' ? 'Análisis predictivo de comportamiento' : 'Predictive behavior analysis'}</li>
+                  <li>{language === 'es' ? 'Mejora continua automática' : 'Automatic continuous improvement'}</li>
+                  <li>{language === 'es' ? 'Escalabilidad sin límites' : 'Unlimited scalability'}</li>
+                  <li>{language === 'es' ? 'Integración con CRM' : 'CRM integration'}</li>
+                </ul>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'Empresas en Colombia reportan aumento de ventas 40%.' : 'Companies in Colombia report 40% sales increase.'}
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Cómo funciona la automatización de WhatsApp con IA?' : 'How does WhatsApp automation with AI work?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong className="text-gray-900">{language === 'es' ? 'Funciona en 3 pasos:' : 'Works in 3 steps:'}</strong> {language === 'es' ? '1) La IA analiza mensajes entrantes usando NLP para entender intención. 2) Responde automáticamente según reglas configuradas. 3) Aprende de cada interacción para mejorar respuestas futuras. Se integra con CRM para personalización real.' : '1) AI analyzes incoming messages using NLP to understand intent. 2) Responds automatically according to configured rules. 3) Learns from each interaction to improve future responses. Integrates with CRM for real personalization.'}
+                  <strong className="text-gray-900">{language === 'es' ? 'Funciona en 3 pasos:' : 'Works in 3 steps:'}</strong>
                 </p>
+                <ol className="list-decimal pl-6 space-y-2 text-gray-600 mb-6">
+                  <li>{language === 'es' ? 'La IA analiza mensajes entrantes usando NLP para entender intención.' : 'AI analyzes incoming messages using NLP to understand intent.'}</li>
+                  <li>{language === 'es' ? 'Responde automáticamente según reglas configuradas.' : 'Responds automatically according to configured rules.'}</li>
+                  <li>{language === 'es' ? 'Aprende de cada interacción para mejorar respuestas futuras. Se integra con CRM para personalización real.' : 'Learns from each interaction to improve future responses. Integrates with CRM for real personalization.'}</li>
+                </ol>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Qué es un chatbot con IA en WhatsApp?' : 'What is an AI chatbot in WhatsApp?'}
@@ -555,7 +546,15 @@ export default function BlogArticle4() {
                   {language === 'es' ? '¿Cuánto cuesta implementar WhatsApp Business API + IA?' : 'How much does it cost to implement WhatsApp Business API + AI?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong className="text-gray-900">{language === 'es' ? 'El costo promedio mensual en Colombia es $50-$500 USD.' : 'The average monthly cost in Colombia is $50-$500 USD.'}</strong> {language === 'es' ? 'Incluye: tarifa Meta ($0.05-$0.10 por conversación), tarifa BSP y costos de integración. El ROI típico es 3-6 meses con reducción de costos 30-50%.' : 'Includes: Meta fee ($0.05-$0.10 per conversation), BSP fee and integration costs. Typical ROI is 3-6 months with 30-50% cost reduction.'}
+                  <strong className="text-gray-900">{language === 'es' ? 'El costo promedio mensual en Colombia es $50-$500 USD.' : 'The average monthly cost in Colombia is $50-$500 USD.'}</strong>
+                </p>
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  <li>{language === 'es' ? 'Tarifa Meta ($0.05-$0.10 por conversación)' : 'Meta fee ($0.05-$0.10 per conversation)'}</li>
+                  <li>{language === 'es' ? 'Tarifa BSP' : 'BSP fee'}</li>
+                  <li>{language === 'es' ? 'Costos de integración' : 'Integration costs'}</li>
+                </ul>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'El ROI típico es 3-6 meses con reducción de costos 30-50%.' : 'Typical ROI is 3-6 months with 30-50% cost reduction.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -566,7 +565,21 @@ export default function BlogArticle4() {
                   {language === 'es' ? '¿Es difícil integrar IA con WhatsApp Business API?' : 'Is it difficult to integrate AI with WhatsApp Business API?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <strong className="text-gray-900">{language === 'es' ? 'No, con el proveedor correcto es simple. Tiempo promedio: 3-7 días.' : 'No, with the correct provider it is simple. Average time: 3-7 days.'}</strong> {language === 'es' ? 'El proceso incluye: selección BSP, configuración número, verificación Meta, integración CRM, creación plantillas y pruebas. Empresas en Colombia han implementado en menos de 10 días.' : 'Process includes: BSP selection, number configuration, Meta verification, CRM integration, template creation and testing. Companies in Colombia have implemented in less than 10 days.'}
+                  <strong className="text-gray-900">{language === 'es' ? 'No, con el proveedor correcto es simple. Tiempo promedio: 3-7 días.' : 'No, with the correct provider it is simple. Average time: 3-7 days.'}</strong>
+                </p>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  <strong className="text-gray-900">{language === 'es' ? 'El proceso incluye:' : 'Process includes:'}</strong>
+                </p>
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  <li>{language === 'es' ? 'Selección BSP' : 'BSP selection'}</li>
+                  <li>{language === 'es' ? 'Configuración número' : 'Number configuration'}</li>
+                  <li>{language === 'es' ? 'Verificación Meta' : 'Meta verification'}</li>
+                  <li>{language === 'es' ? 'Integración CRM' : 'CRM integration'}</li>
+                  <li>{language === 'es' ? 'Creación plantillas' : 'Template creation'}</li>
+                  <li>{language === 'es' ? 'Pruebas' : 'Testing'}</li>
+                </ul>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'Empresas en Colombia han implementado en menos de 10 días.' : 'Companies in Colombia have implemented in less than 10 days.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
