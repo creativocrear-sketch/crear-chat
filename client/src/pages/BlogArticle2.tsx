@@ -65,63 +65,59 @@ export default function BlogArticle2() {
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "CaseStudy",
-            "name": language === 'es' ? 'WhatsApp Business API en Colombia: 5 casos de uso reales con resultados' : 'WhatsApp Business API in Colombia: 5 real use cases with results',
-            "description": language === 'es' 
-              ? 'Descubre 5 casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, despachos legales y cobranzas con resultados verificables.' 
-              : 'Discover 5 real use cases of WhatsApp Business API in restaurants, hotels, cafés, law firms and collections with verifiable results.',
-            "about": {
-              "@type": "Thing",
-              "name": "WhatsApp Business API"
-            },
-            "industry": [
-              { "@type": "Industry", "name": language === 'es' ? "Restaurantes" : "Restaurants" },
-              { "@type": "Industry", "name": language === 'es' ? "Hoteles" : "Hotels" },
-              { "@type": "Industry", "name": language === 'es' ? "Cafés" : "Cafés" },
-              { "@type": "Industry", "name": language === 'es' ? "Despachos legales" : "Law firms" },
-              { "@type": "Industry", "name": language === 'es' ? "Cobranzas" : "Collections" }
-            ],
-            "outcome": [
+            "@type": "FAQPage",
+            "mainEntity": [
               {
-                "@type": "QuantitativeValue",
-                "name": language === 'es' ? "Reducción de no-show en restaurantes" : "Restaurant no-show reduction",
-                "value": "40",
-                "unitText": "%"
+                "@type": "Question",
+                "name": language === 'es' ? '¿Cómo reduce ausencias un restaurante con WhatsApp Business API?' : 'How does a restaurant reduce no-shows with WhatsApp Business API?',
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": language === 'es' 
+                    ? 'Un restaurante puede reducir no-show en 40% automatizando confirmaciones y recordatorios. El sistema envía confirmación automática al reservar, recordatorio 24 horas antes, y permite cancelar con un clic. Tiempo de respuesta baja de 4 horas a 2 minutos.' 
+                    : 'A restaurant can reduce no-show by 40% by automating confirmations and reminders. The system sends automatic confirmation upon booking, 24-hour reminder, and allows cancellation with one click. Response time drops from 4 hours to 2 minutes.'
+                }
               },
               {
-                "@type": "QuantitativeValue",
-                "name": language === 'es' ? "Satisfacción de huéspedes en hoteles" : "Hotel guest satisfaction",
-                "value": "35",
-                "unitText": "%"
+                "@type": "Question",
+                "name": language === 'es' ? '¿Cómo mejora la satisfacción de huéspedes un hotel con WhatsApp Business API?' : 'How does a hotel improve guest satisfaction with WhatsApp Business API?',
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": language === 'es' 
+                    ? 'Un hotel mejora satisfacción en 35% con check-in remoto. El huésped recibe mensaje pre-arrival con check-in remoto, código WiFi y mapa del hotel. Check-in remoto reduce filas en 70%. Upselling de spa aumenta 22%.' 
+                    : 'A hotel improves satisfaction by 35% with remote check-in. The guest receives pre-arrival message with remote check-in, WiFi code, and hotel map. Remote check-in reduces queues by 70%. Spa upselling increases 22%.'
+                }
               },
               {
-                "@type": "QuantitativeValue",
-                "name": language === 'es' ? "Aumento de ventas en cafés" : "Café sales increase",
-                "value": "25",
-                "unitText": "%"
+                "@type": "Question",
+                "name": language === 'es' ? '¿Cómo aumentan ventas los cafés con WhatsApp Business API?' : 'How do cafés increase sales with WhatsApp Business API?',
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": language === 'es' 
+                    ? 'Un café aumenta ventas en 25% con programas de fidelización digitales. Cada compra suma puntos automáticamente. Mensajes automáticos promocionan bebidas favoritas. Frecuencia de visita aumenta de 2.1 a 3.4 veces/mes. Ticket promedio sube 12%.' 
+                    : 'A café increases sales by 25% with digital loyalty programs. Each purchase automatically adds points. Auto messages promote favorite drinks. Visit frequency increases from 2.1 to 3.4 times/month. Average ticket rises 12%.'
+                }
               },
               {
-                "@type": "QuantitativeValue",
-                "name": language === 'es' ? "Reducción de llamadas en despachos legales" : "Law firm call reduction",
-                "value": "60",
-                "unitText": "%"
+                "@type": "Question",
+                "name": language === 'es' ? '¿Cómo mejoran la eficiencia los despachos legales con WhatsApp Business API?' : 'How do law firms improve efficiency with WhatsApp Business API?',
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": language === 'es' 
+                    ? 'Un despacho legal reduce llamadas en 60% y mejora respuesta en 80%. Actualizaciones de caso con encriptación end-to-end. Tiempo de respuesta inicial baja de 24h a 5 minutos. Cero fechas de audiencia olvidadas en 6 meses.' 
+                    : 'A law firm reduces calls by 60% and improves response by 80%. Case updates with end-to-end encryption. Initial response time drops from 24h to 5 minutes. Zero forgotten hearing dates in 6 months.'
+                }
               },
               {
-                "@type": "QuantitativeValue",
-                "name": language === 'es' ? "Recuperación en cobranzas" : "Collections recovery",
-                "value": "45",
-                "unitText": "%"
+                "@type": "Question",
+                "name": language === 'es' ? '¿Cómo mejora la recuperación en cobranzas con WhatsApp Business API?' : 'How does collections recovery improve with WhatsApp Business API?',
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": language === 'es' 
+                    ? 'Una oficina de cobranzas mejora recuperación en 45% con comunicación empática. Recordatorios personalizados con tono empático. Tasa de respuesta sube de 15% a 62%. Tiempo promedio de pago reduce de 14 días a 4 días.' 
+                    : 'A collections office improves recovery by 45% with empathetic communication. Personalized reminders with empathetic tone. Response rate rises from 15% to 62%. Average payment time reduces from 14 days to 4 days.'
+                }
               }
-            ],
-            "location": {
-              "@type": "Country",
-              "name": "Colombia"
-            },
-            "datePublished": "2026-03-21",
-            "author": {
-              "@type": "Person",
-              "name": "Alex Murillo"
-            }
+            ]
           })}
         </script>
       </Helmet>
