@@ -42,6 +42,21 @@ export default function BlogArticle3() {
             ? 'Guía completa de primeros pasos para migrar a WhatsApp Business API. Aprende requisitos, proceso paso a paso, errores comunes y cómo elegir proveedor en Colombia.' 
             : 'Complete guide to first steps to migrate to WhatsApp Business API. Learn requirements, step-by-step process, common errors and how to choose a provider in Colombia.'} 
         />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="geo.region" content="CO-RIS" />
+        <meta name="geo.placename" content="Pereira, Risaralda, Colombia" />
+        <meta name="geo.position" content="4.8133;-75.6961" />
+        <meta name="ICBM" content="4.8133, -75.6961" />
+        <meta name="language" content="Spanish" />
+        <meta name="country" content="Colombia" />
+        <meta name="ai-summary" content="Guía paso a paso para migrar WhatsApp Business API en Colombia: requisitos, selección de BSP, verificación Meta, configuración WABA e integración CRM. Implementación en 7 días." />
+        <meta name="ai-entities" content="WhatsApp Business API, Meta, BSP, WABA, Colombia, CRM, Cloud API, Quality Rating, Twilio, Infobip" />
+        <meta property="article:author" content="Alex Murillo" />
+        <meta property="article:section" content="Implementación" />
+        <meta property="article:tag" content="WhatsApp API, Colombia, migración, BSP, Meta" />
+        <link rel="alternate" hrefLang="es-co" href="https://crear.chat/blog/primeros-pasos-migrar-whatsapp-business-api" />
+        <link rel="alternate" hrefLang="es" href="https://crear.chat/blog/primeros-pasos-migrar-whatsapp-business-api" />
+        <link rel="alternate" hrefLang="x-default" href="https://crear.chat/blog/primeros-pasos-migrar-whatsapp-business-api" />
         <meta property="og:title" content={language === 'es' ? 'Primeros pasos para migrar a WhatsApp Business API (Guía completa 2026)' : 'First steps to migrate to WhatsApp Business API (Complete guide 2026)'} />
         <meta property="og:description" content={language === 'es' ? 'Guía completa de primeros pasos para migrar a WhatsApp Business API. Aprende requisitos, proceso paso a paso, errores comunes y cómo elegir proveedor en Colombia.' : 'Complete guide to first steps to migrate to WhatsApp Business API. Learn requirements, step-by-step process, common errors and how to choose a provider in Colombia.'} />
         <meta property="og:image" content="https://crear.chat/logo-black.svg" />
@@ -53,10 +68,12 @@ export default function BlogArticle3() {
             "@type": "BlogPosting",
             "headline": language === 'es' ? 'Primeros pasos para migrar WhatsApp Business API en Colombia (Guía completa 2026)' : 'First steps to migrate WhatsApp Business API in Colombia (Complete guide 2026)',
             "datePublished": "2026-03-21",
+            "dateModified": "2026-04-23",
             "author": {
               "@type": "Person",
               "name": "Alex Murillo",
-              "url": "https://crear.chat"
+              "url": "https://co.linkedin.com/in/alexandermurillo",
+              "sameAs": ["https://co.linkedin.com/in/alexandermurillo"]
             },
             "image": "https://crear.chat/logo-black.svg",
             "publisher": {
@@ -72,6 +89,8 @@ export default function BlogArticle3() {
               "@type": "WebPage",
               "@id": "https://crear.chat/blog/primeros-pasos-migrar-whatsapp-business-api"
             },
+            "about": {"@type": "Place", "name": "Colombia"},
+            "contentLocation": {"@type": "Place", "name": "Colombia"},
             "breadcrumb": {
               "@type": "BreadcrumbList",
               "itemListElement": [
@@ -177,6 +196,92 @@ export default function BlogArticle3() {
                 }
               }
             ]
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            "name": language === 'es' ? 'Cómo migrar WhatsApp Business API en Colombia paso a paso' : 'How to migrate WhatsApp Business API in Colombia step by step',
+            "description": language === 'es' ? 'Guía completa para implementar WhatsApp Business API en Colombia en menos de 10 días' : 'Complete guide to implement WhatsApp Business API in Colombia in less than 10 days',
+            "totalTime": "P10D",
+            "estimatedCost": {
+              "@type": "MonetaryAmount",
+              "currency": "USD",
+              "value": "50-500"
+            },
+            "step": [
+              {
+                "@type": "HowToStep",
+                "position": "1",
+                "name": language === 'es' ? 'Auditoría de comunicación actual' : 'Current communication audit',
+                "text": language === 'es' ? 'Analiza tiempo de respuesta promedio, volumen de mensajes mensuales y procesos manuales repetitivos para definir si necesitas API o solo optimización de WhatsApp Business.' : 'Analyze average response time, monthly message volume and repetitive manual processes to define if you need API or just WhatsApp Business optimization.'
+              },
+              {
+                "@type": "HowToStep",
+                "position": "2",
+                "name": language === 'es' ? 'Selección de proveedor BSP' : 'BSP provider selection',
+                "text": language === 'es' ? 'Elige un Business Solution Provider autorizado por Meta con soporte local en Colombia. Opciones: Twilio, MessageBird, Infobip o Crear.chat. No elegir solo por precio.' : 'Choose a Meta-authorized Business Solution Provider with local support in Colombia. Options: Twilio, MessageBird, Infobip or Crear.chat. Do not choose only by price.'
+              },
+              {
+                "@type": "HowToStep",
+                "position": "3",
+                "name": language === 'es' ? 'Configuración de número dedicado' : 'Dedicated number configuration',
+                "text": language === 'es' ? 'Usa un número nuevo empresarial, no personal. WhatsApp penaliza historial previo mal gestionado. Un número local colombiano tiene mejor reputación inicial.' : 'Use a new business number, not personal. WhatsApp penalizes poorly managed previous history. A local Colombian number has better initial reputation.'
+              },
+              {
+                "@type": "HowToStep",
+                "position": "4",
+                "name": language === 'es' ? 'Verificación de negocio en Meta Business Manager' : 'Business verification in Meta Business Manager',
+                "text": language === 'es' ? 'Envía documentos legales (RUT, Cámara de Comercio), valida dominio y espera aprobación. Tiempo promedio: 1 a 3 días hábiles.' : 'Send legal documents (RUT, Chamber of Commerce), validate domain and wait for approval. Average time: 1 to 3 business days.'
+              },
+              {
+                "@type": "HowToStep",
+                "position": "5",
+                "name": language === 'es' ? 'Configuración de cuenta WABA' : 'WABA account configuration',
+                "text": language === 'es' ? 'Configura webhooks, permisos y seguridad. Una mala configuración de webhooks resulta en pérdida de mensajes de clientes.' : 'Configure webhooks, permissions and security. Poor webhook configuration results in loss of customer messages.'
+              },
+              {
+                "@type": "HowToStep",
+                "position": "6",
+                "name": language === 'es' ? 'Integración con CRM o sistema interno' : 'Integration with CRM or internal system',
+                "text": language === 'es' ? 'Conecta con HubSpot, Salesforce u otro CRM para sincronizar datos de clientes. Este paso define el ROI de la implementación.' : 'Connect with HubSpot, Salesforce or other CRM to sync customer data. This step defines the implementation ROI.'
+              },
+              {
+                "@type": "HowToStep",
+                "position": "7",
+                "name": language === 'es' ? 'Creación y aprobación de plantillas' : 'Template creation and approval',
+                "text": language === 'es' ? 'Crea plantillas para confirmaciones, recordatorios y promociones. Sin aprobación previa de Meta no puedes enviar mensajes proactivos.' : 'Create templates for confirmations, reminders and promotions. Without prior Meta approval you cannot send proactive messages.'
+              },
+              {
+                "@type": "HowToStep",
+                "position": "8",
+                "name": language === 'es' ? 'Pruebas y lanzamiento' : 'Testing and launch',
+                "text": language === 'es' ? 'Lanza con bajo volumen, monitorea el quality rating y ajusta flujos antes de escalar envíos masivos.' : 'Launch with low volume, monitor quality rating and adjust flows before scaling mass sending.'
+              }
+            ]
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": language === 'es' ? 'Guía de migración WhatsApp Business API Colombia 2026' : 'WhatsApp Business API migration guide Colombia 2026',
+            "about": [
+              {"@type": "SoftwareApplication", "name": "WhatsApp Business API"},
+              {"@type": "Thing", "name": language === 'es' ? 'Migración de sistemas' : 'System migration'}
+            ],
+            "mentions": [
+              {"@type": "Organization", "name": "Meta"},
+              {"@type": "Organization", "name": "Twilio"},
+              {"@type": "Organization", "name": "Infobip"},
+              {"@type": "Place", "name": "Colombia"}
+            ],
+            "audience": {
+              "@type": "Audience",
+              "audienceType": language === 'es' ? 'Empresas en Colombia' : 'Companies in Colombia'
+            },
+            "proficiencyLevel": "Beginner"
           })}
         </script>
       </Helmet>
