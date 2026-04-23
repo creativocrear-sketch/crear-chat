@@ -140,7 +140,7 @@ export default function BlogArticle4() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '¿Tu negocio pierde ventas por respuestas lentas? La combinación de <strong>WhatsApp Business API + IA</strong> transforma tu atención al cliente en 24/7. Empresas en Colombia aumentan ventas 40% y reducen costos 50% con automatización inteligente. Descubre cómo la inteligencia artificial revoluciona tu operación.' : 'Does your business lose sales due to slow responses? The combination of <strong>WhatsApp Business API + AI</strong> transforms your customer service into 24/7. Companies in Colombia increase sales 40% and reduce costs 50% with intelligent automation. Discover how artificial intelligence revolutionizes your operation.'}
+                  {language === 'es' ? '¿Tu negocio pierde ventas por respuestas lentas? La combinación de' : 'Does your business lose sales due to slow responses? The combination of'} <strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business API + IA' : 'WhatsApp Business API + AI'}</strong> {language === 'es' ? 'transforma tu atención al cliente en 24/7. Empresas en Colombia aumentan ventas 40% y reducen costos 50% con automatización inteligente. Descubre cómo la inteligencia artificial revoluciona tu operación.' : 'transforms your customer service into 24/7. Companies in Colombia increase sales 40% and reduce costs 50% with intelligent automation. Discover how artificial intelligence revolutionizes your operation.'}
                 </p>
 
                 <div className="bg-green-50 p-4 rounded-lg mb-6">
@@ -154,7 +154,7 @@ export default function BlogArticle4() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>WhatsApp Business API + IA</strong> combina la infraestructura oficial de Meta con inteligencia artificial para automatizar conversaciones. A diferencia de la app estándar, esta integración permite <strong>chatbot con IA en WhatsApp</strong>, <strong>automatización de atención al cliente</strong> y <strong>customer experience automation</strong> a escala. Es la solución ideal para empresas que necesitan escalar ventas sin aumentar personal.' : '<strong>WhatsApp Business API + AI</strong> combines Meta official infrastructure with artificial intelligence to automate conversations. Unlike the standard app, this integration allows <strong>AI chatbot in WhatsApp</strong>, <strong>customer service automation</strong> and <strong>customer experience automation</strong> at scale. It is the ideal solution for companies that need to scale sales without increasing staff.'}
+                  <strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business API + IA' : 'WhatsApp Business API + AI'}</strong> {language === 'es' ? 'combina la infraestructura oficial de Meta con inteligencia artificial para automatizar conversaciones. A diferencia de la app estándar, esta integración permite' : 'combines Meta official infrastructure with artificial intelligence to automate conversations. Unlike the standard app, this integration allows'} <strong className="text-gray-900">{language === 'es' ? 'chatbot con IA en WhatsApp' : 'AI chatbot in WhatsApp'}</strong>, <strong className="text-gray-900">{language === 'es' ? 'automatización de atención al cliente' : 'customer service automation'}</strong> {language === 'es' ? 'y' : 'and'} <strong className="text-gray-900">{language === 'es' ? 'customer experience automation' : 'customer experience automation'}</strong> {language === 'es' ? 'a escala. Es la solución ideal para empresas que necesitan escalar ventas sin aumentar personal.' : 'at scale. It is the ideal solution for companies that need to scale sales without increasing staff.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -166,19 +166,19 @@ export default function BlogArticle4() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Con <strong>automatización WhatsApp con IA</strong>, tu negocio nunca duerme. El sistema responde automáticamente consultas, procesa pedidos y programa citas, incluso fuera del horario laboral.' : 'With <strong>WhatsApp automation with AI</strong>, your business never sleeps. The system automatically responds to inquiries, processes orders and schedules appointments, even outside business hours.'}
+                  {language === 'es' ? 'Con' : 'With'} <strong className="text-gray-900">{language === 'es' ? 'automatización WhatsApp con IA' : 'WhatsApp automation with AI'}</strong>, {language === 'es' ? 'tu negocio nunca duerme. El sistema responde automáticamente consultas, procesa pedidos y programa citas, incluso fuera del horario laboral.' : 'your business never sleeps. The system automatically responds to inquiries, processes orders and schedules appointments, even outside business hours.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>{language === 'es' ? '<strong>Respuestas inmediatas:</strong> Clientes reciben atención en segundos, no horas.' : '<strong>Immediate responses:</strong> Customers receive attention in seconds, not hours.'}</li>
-                  <li>{language === 'es' ? '<strong>Pedidos automáticos:</strong> Sin intervención humana, 24/7.' : '<strong>Automatic orders:</strong> Without human intervention, 24/7.'}</li>
-                  <li>{language === 'es' ? '<strong>Citas programadas:</strong> Calendario integrado con WhatsApp.' : '<strong>Scheduled appointments:</strong> Integrated calendar with WhatsApp.'}</li>
-                  <li>{language === 'es' ? '<strong>Resolución autónoma:</strong> Problemas comunes sin escalar.' : '<strong>Autonomous resolution:</strong> Common issues without escalation.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Respuestas inmediatas:' : 'Immediate responses:'}</strong> {language === 'es' ? 'Clientes reciben atención en segundos, no horas.' : 'Customers receive attention in seconds, not hours.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Pedidos automáticos:' : 'Automatic orders:'}</strong> {language === 'es' ? 'Sin intervención humana, 24/7.' : 'Without human intervention, 24/7.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Citas programadas:' : 'Scheduled appointments:'}</strong> {language === 'es' ? 'Calendario integrado con WhatsApp.' : 'Integrated calendar with WhatsApp.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Resolución autónoma:' : 'Autonomous resolution:'}</strong> {language === 'es' ? 'Problemas comunes sin escalar.' : 'Common issues without escalation.'}</li>
                 </ul>
 
                 <div className="bg-blue-50 p-4 rounded-lg mb-6">
                   <p className="text-sm text-gray-700">
-                    {language === 'es' ? '<strong>📊 Caso real Colombia:</strong> Restaurante en Bogotá aumentó ventas nocturnas 35% con chatbot IA que toma pedidos después de medianoche.' : '<strong>📊 Real case Colombia:</strong> Restaurant in Bogotá increased night sales 35% with AI chatbot that takes orders after midnight.'}
+                    <strong className="text-gray-900">{language === 'es' ? '📊 Caso real Colombia:' : '📊 Real case Colombia:'}</strong> {language === 'es' ? 'Restaurante en Bogotá aumentó ventas nocturnas 35% con chatbot IA que toma pedidos después de medianoche.' : 'Restaurant in Bogotá increased night sales 35% with AI chatbot that takes orders after midnight.'}
                   </p>
                 </div>
 
@@ -187,19 +187,19 @@ export default function BlogArticle4() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'La IA analiza el historial de cada cliente y personaliza comunicaciones. Integrado con <strong>CRM WhatsApp</strong>, el sistema conoce preferencias, compras anteriores y comportamiento.' : 'AI analyzes each customer\'s history and personalizes communications. Integrated with <strong>CRM WhatsApp</strong>, the system knows preferences, previous purchases and behavior.'}
+                  {language === 'es' ? 'La IA analiza el historial de cada cliente y personaliza comunicaciones. Integrado con' : 'AI analyzes each customer\'s history and personalizes communications. Integrated with'} <strong className="text-gray-900">CRM WhatsApp</strong>, {language === 'es' ? 'el sistema conoce preferencias, compras anteriores y comportamiento.' : 'the system knows preferences, previous purchases and behavior.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>{language === 'es' ? '<strong>Recomendaciones inteligentes:</strong> Productos basados en historial.' : '<strong>Smart recommendations:</strong> Products based on history.'}</li>
-                  <li>{language === 'es' ? '<strong>Ofertas personalizadas:</strong> Según preferencias del cliente.' : '<strong>Personalized offers:</strong> According to customer preferences.'}</li>
-                  <li>{language === 'es' ? '<strong>Tono adaptado:</strong> Mensajes con estilo del cliente.' : '<strong>Adapted tone:</strong> Messages with customer style.'}</li>
-                  <li>{language === 'es' ? '<strong>Segmentación dinámica:</strong> Contenido relevante por grupo.' : '<strong>Dynamic segmentation:</strong> Relevant content by group.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Recomendaciones inteligentes:' : 'Smart recommendations:'}</strong> {language === 'es' ? 'Productos basados en historial.' : 'Products based on history.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Ofertas personalizadas:' : 'Personalized offers:'}</strong> {language === 'es' ? 'Según preferencias del cliente.' : 'According to customer preferences.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Tono adaptado:' : 'Adapted tone:'}</strong> {language === 'es' ? 'Mensajes con estilo del cliente.' : 'Messages with customer style.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Segmentación dinámica:' : 'Dynamic segmentation:'}</strong> {language === 'es' ? 'Contenido relevante por grupo.' : 'Relevant content by group.'}</li>
                 </ul>
 
                 <div className="bg-blue-50 p-4 rounded-lg mb-6">
                   <p className="text-sm text-gray-700">
-                    {language === 'es' ? '<strong>📊 Caso real Colombia:</strong> E-commerce en Medellín aumentó conversión 45% con recomendaciones personalizadas por IA.' : '<strong>📊 Real case Colombia:</strong> E-commerce in Medellín increased conversion 45% with AI personalized recommendations.'}
+                    <strong className="text-gray-900">{language === 'es' ? '📊 Caso real Colombia:' : '📊 Real case Colombia:'}</strong> {language === 'es' ? 'E-commerce en Medellín aumentó conversión 45% con recomendaciones personalizadas por IA.' : 'E-commerce in Medellín increased conversion 45% with AI personalized recommendations.'}
                   </p>
                 </div>
 
@@ -208,19 +208,19 @@ export default function BlogArticle4() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'La IA maneja tareas repetitivas, liberando a tu equipo para actividades de mayor valor. <strong>Escalabilidad de ventas</strong> sin aumentar proporcionalmente el personal.' : 'AI handles repetitive tasks, freeing your team for higher-value activities. <strong>Sales scalability</strong> without proportionally increasing staff.'}
+                  {language === 'es' ? 'La IA maneja tareas repetitivas, liberando a tu equipo para actividades de mayor valor.' : 'AI handles repetitive tasks, freeing your team for higher-value activities.'} <strong className="text-gray-900">{language === 'es' ? 'Escalabilidad de ventas' : 'Sales scalability'}</strong> {language === 'es' ? 'sin aumentar proporcionalmente el personal.' : 'without proportionally increasing staff.'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>{language === 'es' ? '<strong>Menos personal:</strong> Reducción 30-50% en atención.' : '<strong>Less staff:</strong> Reduction 30-50% in service.'}</li>
-                  <li>{language === 'es' ? '<strong>Cero errores humanos:</strong> Procesos automatizados exactos.' : '<strong>Zero human errors:</strong> Exact automated processes.'}</li>
-                  <li>{language === 'es' ? '<strong>Tiempo récord:</strong> Respuestas en segundos.' : '<strong>Record time:</strong> Responses in seconds.'}</li>
-                  <li>{language === 'es' ? '<strong>Recursos optimizados:</strong> Equipo enfocado en ventas.' : '<strong>Optimized resources:</strong> Team focused on sales.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Menos personal:' : 'Less staff:'}</strong> {language === 'es' ? 'Reducción 30-50% en atención.' : 'Reduction 30-50% in service.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Cero errores humanos:' : 'Zero human errors:'}</strong> {language === 'es' ? 'Procesos automatizados exactos.' : 'Exact automated processes.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Tiempo récord:' : 'Record time:'}</strong> {language === 'es' ? 'Respuestas en segundos.' : 'Responses in seconds.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Recursos optimizados:' : 'Optimized resources:'}</strong> {language === 'es' ? 'Equipo enfocado en ventas.' : 'Team focused on sales.'}</li>
                 </ul>
 
                 <div className="bg-blue-50 p-4 rounded-lg mb-6">
                   <p className="text-sm text-gray-700">
-                    {language === 'es' ? '<strong>📊 Caso real Colombia:</strong> Clínica en Cali redujo costos de atención 40% con IA triaje que clasifica urgencias.' : '<strong>📊 Real case Colombia:</strong> Clinic in Cali reduced service costs 40% with AI triage that classifies urgencies.'}
+                    <strong className="text-gray-900">{language === 'es' ? '📊 Caso real Colombia:' : '📊 Real case Colombia:'}</strong> {language === 'es' ? 'Clínica en Cali redujo costos de atención 40% con IA triaje que clasifica urgencias.' : 'Clinic in Cali reduced service costs 40% with AI triage that classifies urgencies.'}
                   </p>
                 </div>
 
@@ -233,10 +233,10 @@ export default function BlogArticle4() {
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>{language === 'es' ? '<strong>Comportamiento futuro:</strong> Predice próximas compras.' : '<strong>Future behavior:</strong> Predicts next purchases.'}</li>
-                  <li>{language === 'es' ? '<strong>Churn prevention:</strong> Detecta clientes en riesgo.' : '<strong>Churn prevention:</strong> Detects at-risk customers.'}</li>
-                  <li>{language === 'es' ? '<strong>Timing perfecto:</strong> Mejor momento para contactar.' : '<strong>Perfect timing:</strong> Best time to contact.'}</li>
-                  <li>{language === 'es' ? '<strong>Productos sugeridos:</strong> Basados en probabilidad.' : '<strong>Suggested products:</strong> Based on probability.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Comportamiento futuro:' : 'Future behavior:'}</strong> {language === 'es' ? 'Predice próximas compras.' : 'Predicts next purchases.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Churn prevention:' : 'Churn prevention:'}</strong> {language === 'es' ? 'Detecta clientes en riesgo.' : 'Detects at-risk customers.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Timing perfecto:' : 'Perfect timing:'}</strong> {language === 'es' ? 'Mejor momento para contactar.' : 'Best time to contact.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Productos sugeridos:' : 'Suggested products:'}</strong> {language === 'es' ? 'Basados en probabilidad.' : 'Based on probability.'}</li>
                 </ul>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -248,10 +248,10 @@ export default function BlogArticle4() {
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>{language === 'es' ? '<strong>Aprendizaje continuo:</strong> Mejora respuestas con el tiempo.' : '<strong>Continuous learning:</strong> Improves responses over time.'}</li>
-                  <li>{language === 'es' ? '<strong>Patrones detectados:</strong> Problemas comunes identificados.' : '<strong>Patterns detected:</strong> Common problems identified.'}</li>
-                  <li>{language === 'es' ? '<strong>Mejoras sugeridas:</strong> Optimización automática.' : '<strong>Suggested improvements:</strong> Automatic optimization.'}</li>
-                  <li>{language === 'es' ? '<strong>Adaptación dinámica:</strong> Cambios en comportamiento.' : '<strong>Dynamic adaptation:</strong> Changes in behavior.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Aprendizaje continuo:' : 'Continuous learning:'}</strong> {language === 'es' ? 'Mejora respuestas con el tiempo.' : 'Improves responses over time.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Patrones detectados:' : 'Patterns detected:'}</strong> {language === 'es' ? 'Problemas comunes identificados.' : 'Common problems identified.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Mejoras sugeridas:' : 'Suggested improvements:'}</strong> {language === 'es' ? 'Optimización automática.' : 'Automatic optimization.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Adaptación dinámica:' : 'Dynamic adaptation:'}</strong> {language === 'es' ? 'Cambios en comportamiento.' : 'Changes in behavior.'}</li>
                 </ul>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -263,10 +263,10 @@ export default function BlogArticle4() {
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>{language === 'es' ? '<strong>Simultaneidad infinita:</strong> Miles de chats a la vez.' : '<strong>Infinite simultaneity:</strong> Thousands of chats at once.'}</li>
-                  <li>{language === 'es' ? '<strong>Sin fatiga:</strong> Calidad consistente 24/7.' : '<strong>No fatigue:</strong> Consistent quality 24/7.'}</li>
-                  <li>{language === 'es' ? '<strong>Crecimiento lineal:</strong> Escala sin costos humanos.' : '<strong>Linear growth:</strong> Scales without human costs.'}</li>
-                  <li>{language === 'es' ? '<strong>Calidad uniforme:</strong> Misma experiencia siempre.' : '<strong>Uniform quality:</strong> Same experience always.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Simultaneidad infinita:' : 'Infinite simultaneity:'}</strong> {language === 'es' ? 'Miles de chats a la vez.' : 'Thousands of chats at once.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Sin fatiga:' : 'No fatigue:'}</strong> {language === 'es' ? 'Calidad consistente 24/7.' : 'Consistent quality 24/7.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Crecimiento lineal:' : 'Linear growth:'}</strong> {language === 'es' ? 'Escala sin costos humanos.' : 'Scales without human costs.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Calidad uniforme:' : 'Uniform quality:'}</strong> {language === 'es' ? 'Misma experiencia siempre.' : 'Same experience always.'}</li>
                 </ul>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -274,7 +274,7 @@ export default function BlogArticle4() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>WhatsApp Cloud API</strong> es la versión moderna alojada en la nube de Meta. Ofrece menor latencia, actualizaciones automáticas y sin servidor propio. La opción ideal para nuevas implementaciones con IA.' : '<strong>WhatsApp Cloud API</strong> is the modern version hosted on Meta cloud. Offers lower latency, automatic updates and no own server. The ideal option for new AI implementations.'}
+                  <strong className="text-gray-900">WhatsApp Cloud API</strong> {language === 'es' ? 'es la versión moderna alojada en la nube de Meta. Ofrece menor latencia, actualizaciones automáticas y sin servidor propio. La opción ideal para nuevas implementaciones con IA.' : 'is the modern version hosted on Meta cloud. Offers lower latency, automatic updates and no own server. The ideal option for new AI implementations.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -286,7 +286,7 @@ export default function BlogArticle4() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Cliente escribe "Tengo alergia a mariscos, ¿qué recomiendas?". La IA analiza menú, identifica platos sin mariscos, considera historial de compras y recomienda 3 opciones con precios. <strong>Resultado:</strong> +35% ventas nocturnas, +40% satisfacción.' : 'Customer writes "I\'m allergic to shellfish, what do you recommend?". AI analyzes menu, identifies shellfish-free dishes, considers purchase history and recommends 3 options with prices. <strong>Result:</strong> +35% night sales, +40% satisfaction.'}
+                  {language === 'es' ? 'Cliente escribe "Tengo alergia a mariscos, ¿qué recomiendas?". La IA analiza menú, identifica platos sin mariscos, considera historial de compras y recomienda 3 opciones con precios.' : 'Customer writes "I\'m allergic to shellfish, what do you recommend?". AI analyzes menu, identifies shellfish-free dishes, considers purchase history and recommends 3 options with prices.'} <strong className="text-gray-900">{language === 'es' ? 'Resultado:' : 'Result:'}</strong> {language === 'es' ? '+35% ventas nocturnas, +40% satisfacción.' : '+35% night sales, +40% satisfaction.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -294,7 +294,7 @@ export default function BlogArticle4() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Huésped pregunta "¿Qué hay para hacer cerca?". La IA accede información del hotel, considera perfil (aventurero, relajado, cultural) y proporciona recomendaciones personalizadas con horarios y precios. <strong>Resultado:</strong> +50% upselling, +30% reviews positivas.' : 'Guest asks "What is there to do near?". AI accesses hotel information, considers profile (adventurous, relaxed, cultural) and provides personalized recommendations with schedules and prices. <strong>Result:</strong> +50% upselling, +30% positive reviews.'}
+                  {language === 'es' ? 'Huésped pregunta "¿Qué hay para hacer cerca?". La IA accede información del hotel, considera perfil (aventurero, relajado, cultural) y proporciona recomendaciones personalizadas con horarios y precios.' : 'Guest asks "What is there to do near?". AI accesses hotel information, considers profile (adventurous, relaxed, cultural) and provides personalized recommendations with schedules and prices.'} <strong className="text-gray-900">{language === 'es' ? 'Resultado:' : 'Result:'}</strong> {language === 'es' ? '+50% upselling, +30% reviews positivas.' : '+50% upselling, +30% positive reviews.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -302,7 +302,7 @@ export default function BlogArticle4() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Deudor recibe recordatorio. Si no responde en 24h, la IA analiza historial de pagos, identifica mejor momento para reenviar y personaliza mensaje según patrón. <strong>Resultado:</strong> +60% recuperación, -40% costos de cobranza.' : 'Debtor receives reminder. If no response in 24h, AI analyzes payment history, identifies best time to resend and personalizes message according to pattern. <strong>Result:</strong> +60% recovery, -40% collection costs.'}
+                  {language === 'es' ? 'Deudor recibe recordatorio. Si no responde en 24h, la IA analiza historial de pagos, identifica mejor momento para reenviar y personaliza mensaje según patrón.' : 'Debtor receives reminder. If no response in 24h, AI analyzes payment history, identifies best time to resend and personalizes message according to pattern.'} <strong className="text-gray-900">{language === 'es' ? 'Resultado:' : 'Result:'}</strong> {language === 'es' ? '+60% recuperación, -40% costos de cobranza.' : '+60% recovery, -40% collection costs.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -310,10 +310,10 @@ export default function BlogArticle4() {
                 </h2>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>{language === 'es' ? '<strong>Mito:</strong> "La IA reemplaza a humanos". <strong>Realidad:</strong> La IA potencia a humanos, librándolos de tareas repetitivas.' : '<strong>Myth:</strong> "AI replaces humans". <strong>Reality:</strong> AI empowers humans, freeing them from repetitive tasks.'}</li>
-                  <li>{language === 'es' ? '<strong>Mito:</strong> "Es muy caro implementar". <strong>Realidad:</strong> ROI en 3-6 meses con reducción de costos 30-50%.' : '<strong>Myth:</strong> "It\'s very expensive to implement". <strong>Reality:</strong> ROI in 3-6 months with 30-50% cost reduction.'}</li>
-                  <li>{language === 'es' ? '<strong>Mito:</strong> "Los clientes odian hablar con robots". <strong>Realidad:</strong> Respuestas rápidas son preferidas sobre esperas largas.' : '<strong>Myth:</strong> "Customers hate talking to robots". <strong>Reality:</strong> Fast responses are preferred over long waits.'}</li>
-                  <li>{language === 'es' ? '<strong>Mito:</strong> "Es difícil de implementar". <strong>Realidad:</strong> Con proveedor correcto, implementación en 3-7 días.' : '<strong>Myth:</strong> "It\'s difficult to implement". <strong>Reality:</strong> With correct provider, implementation in 3-7 days.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Mito:' : 'Myth:'}</strong> {language === 'es' ? '"La IA reemplaza a humanos".' : '"AI replaces humans".'} <strong className="text-gray-900">{language === 'es' ? 'Realidad:' : 'Reality:'}</strong> {language === 'es' ? 'La IA potencia a humanos, librándolos de tareas repetitivas.' : 'AI empowers humans, freeing them from repetitive tasks.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Mito:' : 'Myth:'}</strong> {language === 'es' ? '"Es muy caro implementar".' : '"It\'s very expensive to implement".'} <strong className="text-gray-900">{language === 'es' ? 'Realidad:' : 'Reality:'}</strong> {language === 'es' ? 'ROI en 3-6 meses con reducción de costos 30-50%.' : 'ROI in 3-6 months with 30-50% cost reduction.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Mito:' : 'Myth:'}</strong> {language === 'es' ? '"Los clientes odian hablar con robots".' : '"Customers hate talking to robots".'} <strong className="text-gray-900">{language === 'es' ? 'Realidad:' : 'Reality:'}</strong> {language === 'es' ? 'Respuestas rápidas son preferidas sobre esperas largas.' : 'Fast responses are preferred over long waits.'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Mito:' : 'Myth:'}</strong> {language === 'es' ? '"Es difícil de implementar".' : '"It\'s difficult to implement".'} <strong className="text-gray-900">{language === 'es' ? 'Realidad:' : 'Reality:'}</strong> {language === 'es' ? 'Con proveedor correcto, implementación en 3-7 días.' : 'With correct provider, implementation in 3-7 days.'}</li>
                 </ul>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -321,15 +321,15 @@ export default function BlogArticle4() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Empresas que implementan <strong>WhatsApp Business API + IA</strong> en Colombia obtienen resultados medibles:' : 'Companies that implement <strong>WhatsApp Business API + AI</strong> in Colombia get measurable results:'}
+                  {language === 'es' ? 'Empresas que implementan' : 'Companies that implement'} <strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business API + IA' : 'WhatsApp Business API + AI'}</strong> {language === 'es' ? 'en Colombia obtienen resultados medibles:' : 'in Colombia get measurable results:'}
                 </p>
                 
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  <li>{language === 'es' ? '<strong>Reducción de costos:</strong> 30-50% en atención al cliente' : '<strong>Cost reduction:</strong> 30-50% in customer service'}</li>
-                  <li>{language === 'es' ? '<strong>Aumento de conversión:</strong> 20-40% más ventas' : '<strong>Conversion increase:</strong> 20-40% more sales'}</li>
-                  <li>{language === 'es' ? '<strong>Mejora en satisfacción:</strong> Puntuaciones NPS +25 puntos' : '<strong>Satisfaction improvement:</strong> NPS scores +25 points'}</li>
-                  <li>{language === 'es' ? '<strong>Recuperación de inversión:</strong> 3-6 meses' : '<strong>Investment recovery:</strong> 3-6 months'}</li>
-                  <li>{language === 'es' ? '<strong>Escalabilidad:</strong> +300% capacidad sin personal adicional' : '<strong>Scalability:</strong> +300% capacity without additional staff'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Reducción de costos:' : 'Cost reduction:'}</strong> {language === 'es' ? '30-50% en atención al cliente' : '30-50% in customer service'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Aumento de conversión:' : 'Conversion increase:'}</strong> {language === 'es' ? '20-40% más ventas' : '20-40% more sales'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Mejora en satisfacción:' : 'Satisfaction improvement:'}</strong> {language === 'es' ? 'Puntuaciones NPS +25 puntos' : 'NPS scores +25 points'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Recuperación de inversión:' : 'Investment recovery:'}</strong> {language === 'es' ? '3-6 meses' : '3-6 months'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'Escalabilidad:' : 'Scalability:'}</strong> {language === 'es' ? '+300% capacidad sin personal adicional' : '+300% capacity without additional staff'}</li>
                 </ul>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -364,6 +364,10 @@ export default function BlogArticle4() {
                   {language === 'es' ? 'El costo varía según proveedor y volumen. Incluye: tarifa de Meta por conversación ($0.05-$0.10 USD), tarifa del BSP proveedor y costos de integración. En Colombia, el costo promedio mensual es $50-$500 USD. El ROI típico es 3-6 meses.' : 'Cost varies by provider and volume. Includes: Meta fee per conversation ($0.05-$0.10 USD), BSP provider fee and integration costs. In Colombia, average monthly cost is $50-$500 USD. Typical ROI is 3-6 months.'}
                 </p>
 
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'Para ver nuestros planes y precios detallados, visita nuestra página de' : 'To see our detailed plans and pricing, visit our'} <a href="/planes" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'planes' : 'plans'}</a>.
+                </p>
+
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Es difícil integrar IA con WhatsApp Business API?' : 'Is it difficult to integrate AI with WhatsApp Business API?'}
                 </h3>
@@ -376,7 +380,7 @@ export default function BlogArticle4() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '<strong>WhatsApp Business API + IA</strong> no es una opción futura, es una necesidad presente. Los negocios que adopten esta combinación ahora tendrán ventaja competitiva significativa. Empresas en Colombia ya están aumentando ventas 40% y reduciendo costos 50%.' : '<strong>WhatsApp Business API + AI</strong> is not a future option, it\'s a present necessity. Businesses that adopt this combination now will have significant competitive advantage. Companies in Colombia are already increasing sales 40% and reducing costs 50%.'}
+                  <strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business API + IA' : 'WhatsApp Business API + AI'}</strong> {language === 'es' ? 'no es una opción futura, es una necesidad presente. Los negocios que adopten esta combinación ahora tendrán ventaja competitiva significativa. Empresas en Colombia ya están aumentando ventas 40% y reduciendo costos 50%.' : 'is not a future option, it\'s a present necessity. Businesses that adopt this combination now will have significant competitive advantage. Companies in Colombia are already increasing sales 40% and reducing costs 50%.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -388,7 +392,7 @@ export default function BlogArticle4() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '¿Listo para transformar tu negocio? Contáctame hoy para una consulta personalizada sobre cómo implementar <strong>WhatsApp Business API + IA</strong> en tu empresa.' : 'Ready to transform your business? Contact me today for a personalized consultation on how to implement <strong>WhatsApp Business API + AI</strong> in your company.'}
+                  {language === 'es' ? '¿Listo para transformar tu negocio? Contáctame hoy para una consulta personalizada sobre cómo implementar' : 'Ready to transform your business? Contact me today for a personalized consultation on how to implement'} <strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business API + IA' : 'WhatsApp Business API + AI'}</strong> {language === 'es' ? 'en tu empresa.' : 'in your company.'}
                 </p>
               </article>
 
