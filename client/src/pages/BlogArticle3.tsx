@@ -148,7 +148,7 @@ export default function BlogArticle3() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Para más información sobre <a href="/blog/whatsapp-business-api-colombia" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business API en Colombia</a>, consulta nuestro artículo de casos de uso reales.' : 'For more information about <a href="/blog/whatsapp-business-api-colombia" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business API in Colombia</a>, check our article on real use cases.'}
+                  {language === 'es' ? 'Para más información sobre' : 'For more information about'} <a href="/blog/casos-uso-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'WhatsApp Business API en Colombia' : 'WhatsApp Business API in Colombia'}</a>, {language === 'es' ? 'consulta nuestro artículo de casos de uso reales.' : 'check our article on real use cases.'}
                 </p>
 
                 <div className="bg-green-50 p-4 rounded-lg mb-6">
@@ -508,7 +508,7 @@ export default function BlogArticle3() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Para entender mejor las diferencias entre la app y la API, consulta nuestro artículo sobre <a href="/blog/diferencia-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business vs API</a>.' : 'To better understand the differences between the app and the API, check our article on <a href="/blog/diferencia-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business vs API</a>.'}
+                  {language === 'es' ? 'Para entender mejor las diferencias entre la app y la API, consulta nuestro artículo sobre' : 'To better understand the differences between the app and the API, check our article on'} <a href="/blog/diferencia-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'WhatsApp Business vs API' : 'WhatsApp Business vs API'}</a>.
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
