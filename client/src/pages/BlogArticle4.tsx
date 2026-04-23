@@ -342,7 +342,7 @@ export default function BlogArticle4() {
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Para el paso a paso completo de implementación, consulta nuestra guía detallada sobre' : 'For the complete implementation step-by-step, check our detailed guide on'} <a href="/blog/primeros-pasos-migrar-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'primeros pasos para migrar WhatsApp Business API' : 'first steps to migrate WhatsApp Business API'}</a>.
+                  {language === 'es' ? 'Para el paso a paso completo de implementación, consulta nuestra guía detallada sobre' : 'For the complete implementation step-by-step, check our detailed guide on'} <a href="/blog/primeros-pasos-migrar-whatsapp-api" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'primeros pasos para migrar WhatsApp Business API' : 'first steps to migrate WhatsApp Business API'}</a>.
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
