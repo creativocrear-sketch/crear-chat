@@ -305,6 +305,10 @@ export default function BlogArticle4() {
                   {language === 'es' ? 'Deudor recibe recordatorio. Si no responde en 24h, la IA analiza historial de pagos, identifica mejor momento para reenviar y personaliza mensaje según patrón.' : 'Debtor receives reminder. If no response in 24h, AI analyzes payment history, identifies best time to resend and personalizes message according to pattern.'} <strong className="text-gray-900">{language === 'es' ? 'Resultado:' : 'Result:'}</strong> {language === 'es' ? '+60% recuperación, -40% costos de cobranza.' : '+60% recovery, -40% collection costs.'}
                 </p>
 
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'Para más casos de uso reales, consulta nuestro artículo sobre' : 'For more real use cases, check our article on'} <a href="/blog/casos-uso-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'WhatsApp Business API en Colombia' : 'WhatsApp Business API in Colombia'}</a>.
+                </p>
+
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
                   {language === 'es' ? 'Mitos comunes sobre WhatsApp Business API + IA' : 'Common myths about WhatsApp Business API + AI'}
                 </h2>
