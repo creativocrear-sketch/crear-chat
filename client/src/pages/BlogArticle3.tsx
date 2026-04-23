@@ -422,9 +422,12 @@ export default function BlogArticle3() {
                   {language === 'es' ? 'Tiempo real de implementación' : 'Real implementation time'}
                 </h2>
                 
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Básico: 3–5 días. Medio: 7–10 días. Complejo: hasta 14 días. Factores: velocidad de Meta, calidad de documentos, integración técnica.' : 'Basic: 3–5 days. Medium: 7–10 days. Complex: up to 14 days. Factors: Meta speed, document quality, technical integration.'}
-                </p>
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  <li>{language === 'es' ? 'Básico: 3–5 días' : 'Basic: 3–5 days'}</li>
+                  <li>{language === 'es' ? 'Medio: 7–10 días' : 'Medium: 7–10 days'}</li>
+                  <li>{language === 'es' ? 'Complejo: hasta 14 días' : 'Complex: up to 14 days'}</li>
+                  <li>{language === 'es' ? 'Factores: velocidad de Meta, calidad de documentos, integración técnica' : 'Factors: Meta speed, document quality, technical integration'}</li>
+                </ul>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
                   {language === 'es' ? 'Beneficios después de migrar' : 'Benefits after migrating'}
