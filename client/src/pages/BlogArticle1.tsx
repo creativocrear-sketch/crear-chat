@@ -205,44 +205,21 @@ export default function BlogArticle1() {
               <article className="prose prose-lg max-w-none">
                 <div className="bg-blue-50 p-6 rounded-lg mb-8">
                   <h2 className="text-xl font-bold text-gray-900 mb-4">
-                    {language === 'es' ? 'Resumen rápido' : 'Quick summary'}
+                    {language === 'es' ? 'Resumen rápido (respuesta directa)' : 'Quick summary (direct answer)'}
                   </h2>
                   <p className="text-gray-700 leading-relaxed">
                     {language === 'es' 
-                      ? 'WhatsApp Business es una app gratuita para pequeños negocios con 1 dispositivo y automatización básica. WhatsApp Business API es una interfaz programable que permite automatización avanzada, integración con CRM, múltiples dispositivos y escalabilidad para miles de conversaciones simultáneas.' 
-                      : 'WhatsApp Business is a free app for small businesses with 1 device and basic automation. WhatsApp Business API is a programmable interface that allows advanced automation, CRM integration, multiple devices, and scalability for thousands of simultaneous conversations.'}
+                      ? 'WhatsApp Business es una app gratuita para pequeños negocios con gestión manual de chats. WhatsApp Business API es una solución para empresas que necesitan automatización, CRM y escalabilidad.' 
+                      : 'WhatsApp Business is a free app for small businesses with manual chat management. WhatsApp Business API is a solution for companies that need automation, CRM, and scalability.'}
                   </p>
-                </div>
-
-                <div className="bg-purple-50 p-6 rounded-lg mb-8">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">
-                    {language === 'es' ? 'Definiciones rápidas' : 'Quick definitions'}
-                  </h2>
-                  <div className="space-y-3">
+                  <div className="mt-4 space-y-2">
                     <p className="text-gray-700 leading-relaxed">
-                      <strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business:' : 'WhatsApp Business:'}</strong> {language === 'es' ? 'app gratuita para pequeños negocios con automatización básica.' : 'free app for small businesses with basic automation.'}
+                      <span className="font-bold text-gray-900">👉</span> {language === 'es' ? 'Si vendes de forma manual: usa WhatsApp Business' : 'If you sell manually: use WhatsApp Business'}
                     </p>
                     <p className="text-gray-700 leading-relaxed">
-                      <strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business API:' : 'WhatsApp Business API:'}</strong> {language === 'es' ? 'sistema programable para automatizar y escalar comunicación empresarial.' : 'programmable system to automate and scale enterprise communication.'}
-                    </p>
-                    <p className="text-gray-700 leading-relaxed">
-                      <strong className="text-gray-900">{language === 'es' ? 'CRM:' : 'CRM:'}</strong> {language === 'es' ? 'sistema de gestión de relaciones con clientes.' : 'customer relationship management system.'}
-                    </p>
-                    <p className="text-gray-700 leading-relaxed">
-                      <strong className="text-gray-900">{language === 'es' ? 'Meta:' : 'Meta:'}</strong> {language === 'es' ? 'empresa propietaria de WhatsApp.' : 'company that owns WhatsApp.'}
+                      <span className="font-bold text-gray-900">👉</span> {language === 'es' ? 'Si necesitas automatizar y escalar: usa WhatsApp API' : 'If you need automation and scaling: use WhatsApp API'}
                     </p>
                   </div>
-                </div>
-
-                <div className="bg-orange-50 p-6 rounded-lg mb-8">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">
-                    {language === 'es' ? 'Respuesta directa' : 'Direct answer'}
-                  </h2>
-                  <p className="text-gray-700 leading-relaxed font-semibold">
-                    {language === 'es' 
-                      ? 'WhatsApp Business es para pequeños negocios. WhatsApp API es para empresas que necesitan automatización y CRM.' 
-                      : 'WhatsApp Business is for small businesses. WhatsApp API is for companies that need automation and CRM.'}
-                  </p>
                 </div>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
@@ -250,392 +227,243 @@ export default function BlogArticle1() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'La diferencia entre WhatsApp Business y WhatsApp Business API es que la versión Business es una app gratuita para pequeños negocios, mientras que la API permite automatización avanzada, integración con CRM y gestión de múltiples conversaciones.' : 'The difference between WhatsApp Business and WhatsApp Business API is that the Business version is a free app for small businesses, while the API allows advanced automation, CRM integration, and management of multiple conversations.'}
+                  {language === 'es' ? 'La diferencia principal es el nivel de automatización y escalabilidad:' : 'The main difference is the level of automation and scalability:'}
                 </p>
 
-                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Diferencia rápida entre WhatsApp Business y WhatsApp Business API' : 'Quick difference between WhatsApp Business and WhatsApp Business API'}
-                </h3>
-                
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  {language === 'es' ? [
-                    'WhatsApp Business: App gratuita, 1 dispositivo, automatización básica',
-                    'WhatsApp Business API: API programable, múltiples dispositivos, automatización avanzada e integración con sistemas empresariales'
-                  ].map((item, index) => (
-                    <li key={index}>{item}</li>
-                  )) : [
-                    'WhatsApp Business: Free app, 1 device, basic automation',
-                    'WhatsApp Business API: Programmable API, multiple devices, advanced automation and integration with business systems'
-                  ].map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
+                  <li><strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business:' : 'WhatsApp Business:'}</strong> {language === 'es' ? 'uso manual desde una app móvil' : 'manual use from a mobile app'}</li>
+                  <li><strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business API:' : 'WhatsApp Business API:'}</strong> {language === 'es' ? 'integración con sistemas, automatización y múltiples agentes' : 'system integration, automation, and multiple agents'}</li>
                 </ul>
 
-                <div className="bg-gray-100 p-6 rounded-lg mb-8">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">
-                    {language === 'es' ? 'Conexiones clave' : 'Key connections'}
-                  </h2>
-                  <div className="grid md:grid-cols-2 gap-4 text-gray-700">
-                    <div className="flex items-center gap-2">
-                      <span className="font-bold text-gray-900">WhatsApp</span>
-                      <span className="text-gray-400">→</span>
-                      <span>Meta</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <span className="font-bold text-gray-900">API</span>
-                      <span className="text-gray-400">→</span>
-                      <span>{language === 'es' ? 'Integración empresarial' : 'Enterprise integration'}</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <span className="font-bold text-gray-900">CRM</span>
-                      <span className="text-gray-400">→</span>
-                      <span>{language === 'es' ? 'Gestión de clientes' : 'Customer management'}</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <span className="font-bold text-gray-900">IA</span>
-                      <span className="text-gray-400">→</span>
-                      <span>{language === 'es' ? 'Automatización conversacional' : 'Conversational automation'}</span>
-                    </div>
-                  </div>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
+                  {language === 'es' ? 'Definiciones claras' : 'Clear definitions'}
+                </h2>
+
+                <div className="bg-green-50 p-6 rounded-lg mb-6">
+                  <h3 className="text-lg font-bold text-gray-900 mb-3">
+                    {language === 'es' ? 'WhatsApp Business' : 'WhatsApp Business'}
+                  </h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    {language === 'es' 
+                      ? 'Es una aplicación gratuita diseñada para pequeños negocios que gestionan clientes desde un solo teléfono.' 
+                      : 'It is a free application designed for small businesses that manage customers from a single phone.'}
+                  </p>
+                  <h4 className="text-md font-semibold text-gray-900 mb-2">
+                    {language === 'es' ? 'Características:' : 'Features:'}
+                  </h4>
+                  <ul className="list-disc pl-6 space-y-1 text-gray-700">
+                    <li>{language === 'es' ? '1 dispositivo' : '1 device'}</li>
+                    <li>{language === 'es' ? 'Mensajes automáticos básicos' : 'Basic automatic messages'}</li>
+                    <li>{language === 'es' ? 'Catálogo de productos' : 'Product catalog'}</li>
+                    <li>{language === 'es' ? 'Etiquetas para organizar chats' : 'Labels to organize chats'}</li>
+                    <li>{language === 'es' ? 'Sin integración con CRM' : 'No CRM integration'}</li>
+                  </ul>
+                  <p className="text-gray-700 leading-relaxed mt-3">
+                    <span className="font-bold text-gray-900">👉</span> {language === 'es' ? 'Ideal para negocios pequeños o emprendimientos' : 'Ideal for small businesses or startups'}
+                  </p>
                 </div>
 
-                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '¿Qué es WhatsApp Business y para quién es ideal?' : 'What is WhatsApp Business and who is it ideal for?'}
-                </h3>
-                
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp Business es una aplicación gratuita que permite a pequeños negocios gestionar su atención al cliente directamente desde un celular. Es ideal para emprendedores y negocios locales que manejan un volumen bajo de conversaciones.' : 'WhatsApp Business is a free app that allows small businesses to manage customer service directly from a cell phone. It is ideal for entrepreneurs and local businesses that handle a low volume of conversations.'}
-                </p>
+                <div className="bg-purple-50 p-6 rounded-lg mb-6">
+                  <h3 className="text-lg font-bold text-gray-900 mb-3">
+                    {language === 'es' ? 'WhatsApp Business API' : 'WhatsApp Business API'}
+                  </h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    {language === 'es' 
+                      ? 'Es una interfaz que permite conectar WhatsApp con sistemas empresariales como CRM, IA y automatizaciones.' 
+                      : 'It is an interface that allows connecting WhatsApp with business systems like CRM, AI, and automations.'}
+                  </p>
+                  <h4 className="text-md font-semibold text-gray-900 mb-2">
+                    {language === 'es' ? 'Características:' : 'Features:'}
+                  </h4>
+                  <ul className="list-disc pl-6 space-y-1 text-gray-700">
+                    <li>{language === 'es' ? 'Múltiples agentes simultáneos' : 'Multiple simultaneous agents'}</li>
+                    <li>{language === 'es' ? 'Automatización avanzada de mensajes' : 'Advanced message automation'}</li>
+                    <li>{language === 'es' ? 'Integración con CRM y ERP' : 'CRM and ERP integration'}</li>
+                    <li>{language === 'es' ? 'Uso de IA y chatbots' : 'AI and chatbot use'}</li>
+                    <li>{language === 'es' ? 'Escalabilidad alta' : 'High scalability'}</li>
+                  </ul>
+                  <p className="text-gray-700 leading-relaxed mt-3">
+                    <span className="font-bold text-gray-900">👉</span> {language === 'es' ? 'Ideal para empresas en crecimiento o equipos de ventas' : 'Ideal for growing companies or sales teams'}
+                  </p>
+                </div>
 
-                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Características principales de WhatsApp Business:' : 'Main features of WhatsApp Business:'}
-                </h4>
-                
-                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  {language === 'es' ? [
-                    'Perfil de negocio con información empresarial',
-                    'Etiquetas para organizar conversaciones',
-                    'Mensajes automáticos de bienvenida y ausencia',
-                    'Estadísticas básicas de mensajes',
-                    'Disponible solo en dispositivos móviles',
-                    'Gratuito',
-                    'Limitado a un solo dispositivo por número'
-                  ].map((feature, index) => (
-                    <li key={index} dangerouslySetInnerHTML={{ __html: feature }} />
-                  )) : [
-                    'Business profile with business information',
-                    'Labels to organize conversations',
-                    'Automatic welcome and away messages',
-                    'Basic message statistics',
-                    'Available only on mobile devices',
-                    'Free',
-                    'Limited to one device per number'
-                  ].map((feature, index) => (
-                    <li key={index}>{feature}</li>
-                  ))}
-                </ul>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
+                  {language === 'es' ? 'Diferencias clave (tabla clara)' : 'Key differences (clear table)'}
+                </h2>
 
-                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '¿Qué es WhatsApp Business API y cómo funciona?' : 'What is WhatsApp Business API and how does it work?'}
-                </h3>
-                
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp Business API es una interfaz programable que permite integrar WhatsApp con sistemas empresariales como CRM, ERP y plataformas de automatización. Permite automatización de mensajes, gestión de múltiples agentes y escalabilidad para miles de conversaciones simultáneas.' : 'WhatsApp Business API is a programmable interface that allows integrating WhatsApp with business systems like CRM, ERP, and automation platforms. It enables message automation, multiple agent management, and scalability for thousands of simultaneous conversations.'}
-                </p>
-
-                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Características principales de WhatsApp Business API:' : 'Main features of WhatsApp Business API:'}
-                </h4>
-                
-                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  {language === 'es' ? [
-                    'Integración con sistemas empresariales (CRM, ERP, etc.)',
-                    'Automatización de mensajes y flujos de conversación',
-                    'Gestión de múltiples agentes desde una plataforma centralizada',
-                    'Plantillas de mensajes preaprobadas',
-                    'Webhooks para integración con aplicaciones externas',
-                    'Acceso a través de API REST',
-                    'Soporte para números de negocio dedicados',
-                    'Análisis avanzados y reportes detallados',
-                    'Escalabilidad para miles de conversaciones simultáneas'
-                  ].map((feature, index) => (
-                    <li key={index}>{feature}</li>
-                  )) : [
-                    'Integration with business systems (CRM, ERP, etc.)',
-                    'Message automation and conversation flows',
-                    'Multiple agent management from centralized platform',
-                    'Pre-approved message templates',
-                    'Webhooks for integration with external applications',
-                    'Access through REST API',
-                    'Support for dedicated business numbers',
-                    'Advanced analytics and detailed reports',
-                    'Scalability for thousands of simultaneous conversations'
-                  ].map((feature, index) => (
-                    <li key={index}>{feature}</li>
-                  ))}
-                </ul>
-
-                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '¿Cuándo deberías migrar de WhatsApp Business a WhatsApp Business API?' : 'When should you migrate from WhatsApp Business to WhatsApp Business API?'}
-                </h3>
-
-                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  {language === 'es' ? [
-                    'Alto volumen de mensajes (más de 100 por día)',
-                    'Necesidad de automatización de WhatsApp',
-                    'Integración con CRM y otros sistemas empresariales',
-                    'Crecimiento del equipo de atención al cliente',
-                    'Necesidad de ventas por WhatsApp automatizadas'
-                  ].map((item, index) => (
-                    <li key={index}>{item}</li>
-                  )) : [
-                    'High message volume (more than 100 per day)',
-                    'Need for WhatsApp automation',
-                    'Integration with CRM and other business systems',
-                    'Customer service team growth',
-                    'Need for automated WhatsApp sales'
-                  ].map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </ul>
-
-                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Comparación detallada: WhatsApp Business vs WhatsApp Business API' : 'Detailed comparison: WhatsApp Business vs WhatsApp Business API'}
-                </h3>
-                
                 <div className="overflow-x-auto mb-8">
                   <table className="w-full border-collapse border border-gray-300">
                     <thead>
                       <tr className="bg-gray-50">
                         <th className="border border-gray-300 px-4 py-2 text-left font-semibold">{language === 'es' ? 'Característica' : 'Feature'}</th>
                         <th className="border border-gray-300 px-4 py-2 text-left font-semibold">{language === 'es' ? 'WhatsApp Business' : 'WhatsApp Business'}</th>
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">{language === 'es' ? 'WhatsApp Business API' : 'WhatsApp Business API'}</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">{language === 'es' ? 'WhatsApp API' : 'WhatsApp API'}</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Costo' : 'Cost'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Gratis' : 'Free'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Pago por conversación' : 'Pay per conversation'}</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Uso' : 'Usage'}</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Manual' : 'Manual'}</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Automatizado' : 'Automated'}</td>
                       </tr>
                       <tr className="bg-gray-50">
                         <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Dispositivos' : 'Devices'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? '1 dispositivo' : '1 device'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Múltiples dispositivos' : 'Multiple devices'}</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? '1' : '1'}</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Múltiples' : 'Multiple'}</td>
                       </tr>
                       <tr>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Automatización' : 'Automation'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Básica' : 'Basic'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Avanzada con IA' : 'Advanced with AI'}</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'CRM' : 'CRM'}</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'No' : 'No'}</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Sí' : 'Yes'}</td>
                       </tr>
                       <tr className="bg-gray-50">
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Integración CRM' : 'CRM Integration'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'No disponible' : 'Not available'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Sí, completa' : 'Yes, full'}</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Automatización' : 'Automation'}</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Básica' : 'Basic'}</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Avanzada' : 'Advanced'}</td>
                       </tr>
                       <tr>
                         <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Escalabilidad' : 'Scalability'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Limitada' : 'Limited'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Ilimitada' : 'Unlimited'}</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Baja' : 'Low'}</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Alta' : 'High'}</td>
                       </tr>
                       <tr className="bg-gray-50">
                         <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Ideal para' : 'Ideal for'}</td>
                         <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Pequeños negocios' : 'Small businesses'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Empresas en crecimiento' : 'Growing companies'}</td>
-                      </tr>
-                      <tr>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Nivel de automatización' : 'Automation level'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Bajo' : 'Low'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Alto' : 'High'}</td>
-                      </tr>
-                      <tr className="bg-gray-50">
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Soporte multi-agente' : 'Multi-agent support'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'No' : 'No'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Sí' : 'Yes'}</td>
-                      </tr>
-                      <tr>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Plantillas de mensajes' : 'Message templates'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'No' : 'No'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Sí, preaprobadas' : 'Yes, pre-approved'}</td>
-                      </tr>
-                      <tr className="bg-gray-50">
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Análisis y reportes' : 'Analytics and reports'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Básicos' : 'Basic'}</td>
-                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Avanzados' : 'Advanced'}</td>
+                        <td className="border border-gray-300 px-4 py-2">{language === 'es' ? 'Empresas' : 'Companies'}</td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
 
-                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '¿Cuál deberías elegir según tu negocio?' : 'Which one should you choose according to your business?'}
-                </h3>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
+                  {language === 'es' ? '¿Cuándo usar WhatsApp Business?' : 'When to use WhatsApp Business?'}
+                </h2>
 
-                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Pequeños negocios (menos de 5 empleados)' : 'Small businesses (less than 5 employees)'}
-                </h4>
-                
+                <p className="text-gray-600 mb-4 leading-relaxed">
+                  {language === 'es' ? 'Usa WhatsApp Business si:' : 'Use WhatsApp Business if:'}
+                </p>
+
                 <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  {language === 'es' ? [
-                    'Volumen de mensajes bajo (menos de 100 por día)',
-                    'Presupuesto limitado',
-                    'Conversaciones principalmente manuales',
-                    'No necesitas integración con CRM'
-                  ].map((item, index) => (
-                    <li key={index}>{item}</li>
-                  )) : [
-                    'Low message volume (less than 100 per day)',
-                    'Limited budget',
-                    'Mainly manual conversations',
-                    'No CRM integration needed'
-                  ].map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
+                  <li>{language === 'es' ? 'Manejas menos de 100 chats diarios' : 'You handle less than 100 daily chats'}</li>
+                  <li>{language === 'es' ? 'Eres un emprendimiento o negocio local' : 'You are a startup or local business'}</li>
+                  <li>{language === 'es' ? 'Respondes mensajes manualmente' : 'You respond to messages manually'}</li>
+                  <li>{language === 'es' ? 'No necesitas integración con sistemas' : 'You do not need system integration'}</li>
                 </ul>
 
-                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Empresas en crecimiento (5-50 empleados)' : 'Growing companies (5-50 employees)'}
-                </h4>
-                
-                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  {language === 'es' ? [
-                    'Volumen de mensajes medio (100-1000 por día)',
-                    'Necesitas automatización de procesos',
-                    'Requieres integración básica con CRM',
-                    'Quieres mejorar la atención al cliente'
-                  ].map((item, index) => (
-                    <li key={index}>{item}</li>
-                  )) : [
-                    'Medium message volume (100-1000 per day)',
-                    'Need process automation',
-                    'Require basic CRM integration',
-                    'Want to improve customer service'
-                  ].map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </ul>
-
-                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                  {language === 'es' ? 'Empresas con alto volumen de mensajes (más de 50 empleados)' : 'Companies with high message volume (more than 50 employees)'}
-                </h4>
-                
-                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                  {language === 'es' ? [
-                    'Volumen de mensajes alto (más de 1000 por día)',
-                    'Necesitas automatización avanzada con IA',
-                    'Requieres integración completa con CRM y ERP',
-                    'Manejas múltiples agentes y departamentos',
-                    'Necesitas ventas por WhatsApp automatizadas'
-                  ].map((item, index) => (
-                    <li key={index}>{item}</li>
-                  )) : [
-                    'High message volume (more than 1000 per day)',
-                    'Need advanced automation with AI',
-                    'Require full integration with CRM and ERP',
-                    'Handle multiple agents and departments',
-                    'Need automated WhatsApp sales'
-                  ].map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </ul>
-
-                <div className="bg-indigo-50 p-6 rounded-lg mb-8">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">
-                    {language === 'es' ? '¿Cuál elegir?' : 'Which one to choose?'}
-                  </h2>
-                  <div className="space-y-3 text-gray-700">
-                    <div className="flex items-start gap-2">
-                      <span className="font-bold text-gray-900">→</span>
-                      <p>{language === 'es' ? 'Si vendes solo por chat: WhatsApp Business' : 'If you sell only via chat: WhatsApp Business'}</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="font-bold text-gray-900">→</span>
-                      <p>{language === 'es' ? 'Si tienes equipo o ventas: WhatsApp API' : 'If you have a team or sales: WhatsApp API'}</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="font-bold text-gray-900">→</span>
-                      <p>{language === 'es' ? 'Si necesitas CRM: WhatsApp API' : 'If you need CRM: WhatsApp API'}</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="font-bold text-gray-900">→</span>
-                      <p>{language === 'es' ? 'Si tienes alto volumen: WhatsApp API' : 'If you have high volume: WhatsApp API'}</p>
-                    </div>
-                  </div>
-                </div>
-
-                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? '¿Por qué elegir WhatsApp Business API en Colombia y LATAM?' : 'Why choose WhatsApp Business API in Colombia and LATAM?'}
-                </h3>
-                
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'En Colombia y América Latina, WhatsApp es el canal de comunicación más usado. Implementar WhatsApp Business API permite automatizar la atención al cliente, integrar con CRM existentes y escalar ventas por WhatsApp, convirtiéndose en una ventaja competitiva para empresas que buscan crecer en la región.' : 'In Colombia and Latin America, WhatsApp is the most used communication channel. Implementing WhatsApp Business API allows automating customer service, integrating with existing CRM, and scaling WhatsApp sales, becoming a competitive advantage for companies looking to grow in the region.'}
+                  <span className="font-bold text-gray-900">👉</span> {language === 'es' ? 'Es suficiente para ventas simples o atención básica' : 'It is sufficient for simple sales or basic customer service'}
+                </p>
+
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
+                  {language === 'es' ? '¿Cuándo usar WhatsApp Business API?' : 'When to use WhatsApp Business API?'}
+                </h2>
+
+                <p className="text-gray-600 mb-4 leading-relaxed">
+                  {language === 'es' ? 'Usa WhatsApp API si:' : 'Use WhatsApp API if:'}
+                </p>
+
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  <li>{language === 'es' ? 'Tienes más de 100 conversaciones diarias' : 'You have more than 100 daily conversations'}</li>
+                  <li>{language === 'es' ? 'Tienes equipo de ventas o atención' : 'You have a sales or customer service team'}</li>
+                  <li>{language === 'es' ? 'Necesitas automatizar respuestas' : 'You need to automate responses'}</li>
+                  <li>{language === 'es' ? 'Quieres integrar CRM o IA' : 'You want to integrate CRM or AI'}</li>
+                  <li>{language === 'es' ? 'Buscas escalar ventas' : 'You are looking to scale sales'}</li>
+                </ul>
+
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  <span className="font-bold text-gray-900">👉</span> {language === 'es' ? 'Es la opción para empresas en crecimiento' : 'It is the option for growing companies'}
                 </p>
 
                 <div className="bg-yellow-50 p-6 rounded-lg mb-8">
                   <h2 className="text-xl font-bold text-gray-900 mb-4">
-                    {language === 'es' ? 'En resumen' : 'In summary'}
+                    {language === 'es' ? 'Diferencia clave explicada fácil' : 'Key difference explained simply'}
                   </h2>
-                  <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                    <li><strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business:' : 'WhatsApp Business:'}</strong> {language === 'es' ? 'App básica, gratuita, 1 dispositivo, automatización básica' : 'Basic app, free, 1 device, basic automation'}</li>
-                    <li><strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business API:' : 'WhatsApp Business API:'}</strong> {language === 'es' ? 'Automatización avanzada, múltiples dispositivos, integración CRM, escalabilidad ilimitada' : 'Advanced automation, multiple devices, CRM integration, unlimited scalability'}</li>
-                    <li><strong className="text-gray-900">{language === 'es' ? 'Ideal para pequeños negocios:' : 'Ideal for small businesses:'}</strong> {language === 'es' ? 'WhatsApp Business (menos de 100 mensajes/día)' : 'WhatsApp Business (less than 100 messages/day)'}</li>
-                    <li><strong className="text-gray-900">{language === 'es' ? 'Ideal para empresas en crecimiento:' : 'Ideal for growing companies:'}</strong> {language === 'es' ? 'WhatsApp Business API (más de 100 mensajes/día)' : 'WhatsApp Business API (more than 100 messages/day)'}</li>
-                    <li><strong className="text-gray-900">{language === 'es' ? 'Beneficio clave de API:' : 'Key benefit of API:'}</strong> {language === 'es' ? 'Integración con CRM y automatización de ventas por WhatsApp' : 'CRM integration and WhatsApp sales automation'}</li>
-                  </ul>
-                </div>
-
-                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Conclusión: ¿Cuál es la mejor opción para tu negocio?' : 'Conclusion: Which is the best option for your business?'}
-                </h3>
-                
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp Business es ideal para pequeños negocios que recién comienzan y manejan bajo volumen de conversaciones. WhatsApp Business API es la solución perfecta para empresas que necesitan automatización de WhatsApp, integración con CRM, atención al cliente escalable y ventas por WhatsApp automatizadas.' : 'WhatsApp Business is ideal for small businesses just starting and handling low conversation volume. WhatsApp Business API is the perfect solution for companies that need WhatsApp automation, CRM integration, scalable customer service, and automated WhatsApp sales.'}
-                </p>
-
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'La inversión en WhatsApp Business API se justifica rápidamente a través de la reducción de costos operativos, mejora en la satisfacción del cliente y aumento en la conversión de ventas. Si tu empresa está en crecimiento y necesita escalar su comunicación con clientes, WhatsApp Business API es la mejor opción.' : 'The investment in WhatsApp Business API is quickly justified through reduction in operational costs, improvement in customer satisfaction, and increase in sales conversion. If your company is growing and needs to scale customer communication, WhatsApp Business API is the best option.'}
-                </p>
-
-                <div className="bg-gray-50 p-6 rounded-lg mb-8">
-                  <h3 className="text-lg font-bold text-gray-900 mb-4">
-                    {language === 'es' ? 'Sobre el autor' : 'About the author'}
-                  </h3>
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-[#1B4F72] rounded-full flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
-                      AM
-                    </div>
-                    <div>
-                      <p className="font-semibold text-gray-900 mb-1">Alex Murillo</p>
-                      <p className="text-sm text-gray-600 mb-2">
-                        {language === 'es' ? 'Especialista en Automatización WhatsApp LATAM' : 'WhatsApp Automation Specialist LATAM'}
-                      </p>
-                      <p className="text-sm text-gray-700 leading-relaxed">
-                        {language === 'es' 
-                          ? 'Alex Murillo es especialista en automatización de WhatsApp Business API con más de 5 años de experiencia implementando soluciones para empresas en Colombia y América Latina. Ha ayudado a más de 50 empresas a integrar WhatsApp con CRM y automatizar su atención al cliente.' 
-                          : 'Alex Murillo is a WhatsApp Business API automation specialist with over 5 years of experience implementing solutions for companies in Colombia and Latin America. He has helped over 50 companies integrate WhatsApp with CRM and automate their customer service.'}
-                      </p>
-                    </div>
+                  <div className="space-y-2 text-gray-700">
+                    <p><strong className="text-gray-900">Business =</strong> {language === 'es' ? 'tú respondes manualmente' : 'you respond manually'}</p>
+                    <p><strong className="text-gray-900">API =</strong> {language === 'es' ? 'el sistema responde, organiza y automatiza' : 'the system responds, organizes, and automates'}</p>
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-12 text-center mt-8">
-                  <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-4">
-                    {language === 'es' ? 'Implementa automatización de WhatsApp, integra con CRM y escala tus ventas' : 'Implement WhatsApp automation, integrate with CRM, and scale your sales'}
-                  </h2>
-                  <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                    {language === 'es' ? 'Automatiza tu atención al cliente, integra con CRM y escala tus ventas por WhatsApp. Contáctanos para una consulta personalizada.' : 'Automate your customer service, integrate with CRM, and scale your WhatsApp sales. Contact us for a personalized consultation.'}
-                  </p>
-                  
-                  <a
-                    href="https://wa.me/+573105317126"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
-                  >
-                    {language === 'es' ? 'Implementar WhatsApp Business API ahora' : 'Implement WhatsApp Business API now'}
-                  </a>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
+                  {language === 'es' ? 'Casos de uso reales' : 'Real use cases'}
+                </h2>
+
+                <div className="bg-blue-50 p-6 rounded-lg mb-6">
+                  <h3 className="text-lg font-bold text-gray-900 mb-3">
+                    {language === 'es' ? 'WhatsApp Business' : 'WhatsApp Business'}
+                  </h3>
+                  <ul className="list-disc pl-6 space-y-1 text-gray-700">
+                    <li>{language === 'es' ? 'Tiendas pequeñas' : 'Small stores'}</li>
+                    <li>{language === 'es' ? 'Freelancers' : 'Freelancers'}</li>
+                    <li>{language === 'es' ? 'Negocios locales' : 'Local businesses'}</li>
+                    <li>{language === 'es' ? 'Emprendimientos' : 'Startups'}</li>
+                  </ul>
                 </div>
-              </article>
+
+                <div className="bg-purple-50 p-6 rounded-lg mb-6">
+                  <h3 className="text-lg font-bold text-gray-900 mb-3">
+                    {language === 'es' ? 'WhatsApp API' : 'WhatsApp API'}
+                  </h3>
+                  <ul className="list-disc pl-6 space-y-1 text-gray-700">
+                    <li>{language === 'es' ? 'Clínicas' : 'Clinics'}</li>
+                    <li>{language === 'es' ? 'Restaurantes grandes' : 'Large restaurants'}</li>
+                    <li>{language === 'es' ? 'Inmobiliarias' : 'Real estate agencies'}</li>
+                    <li>{language === 'es' ? 'Call centers' : 'Call centers'}</li>
+                    <li>{language === 'es' ? 'Empresas de alto volumen' : 'High volume companies'}</li>
+                  </ul>
+                </div>
+
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
+                  {language === 'es' ? 'Beneficios de WhatsApp Business API' : 'Benefits of WhatsApp Business API'}
+                </h2>
+
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  <li>{language === 'es' ? 'Automatización de atención al cliente' : 'Customer service automation'}</li>
+                  <li>{language === 'es' ? 'Respuesta inmediata 24/7' : 'Immediate 24/7 response'}</li>
+                  <li>{language === 'es' ? 'Integración con CRM' : 'CRM integration'}</li>
+                  <li>{language === 'es' ? 'Seguimiento de clientes' : 'Customer tracking'}</li>
+                  <li>{language === 'es' ? 'Aumento de ventas' : 'Increased sales'}</li>
+                  <li>{language === 'es' ? 'Reducción de carga operativa' : 'Reduced operational load'}</li>
+                </ul>
+
+                <div className="bg-red-50 p-6 rounded-lg mb-8">
+                  <h2 className="text-xl font-bold text-gray-900 mb-4">
+                    {language === 'es' ? 'Error común' : 'Common mistake'}
+                  </h2>
+                  <p className="text-gray-700 leading-relaxed mb-3">
+                    <span className="font-bold text-gray-900">❌</span> {language === 'es' ? 'Usar WhatsApp Business cuando ya tienes alto volumen de mensajes' : 'Using WhatsApp Business when you already have high message volume'}
+                  </p>
+                  <p className="text-gray-700 leading-relaxed mb-2">
+                    {language === 'es' ? 'Esto genera:' : 'This generates:'}
+                  </p>
+                  <ul className="list-disc pl-6 space-y-1 text-gray-700">
+                    <li>{language === 'es' ? 'Saturación del equipo' : 'Team saturation'}</li>
+                    <li>{language === 'es' ? 'Respuestas lentas' : 'Slow responses'}</li>
+                    <li>{language === 'es' ? 'Pérdida de ventas' : 'Lost sales'}</li>
+                  </ul>
+                </div>
+
+                <div className="bg-green-50 p-6 rounded-lg mb-8">
+                  <h2 className="text-xl font-bold text-gray-900 mb-4">
+                    {language === 'es' ? 'Recomendación clara' : 'Clear recommendation'}
+                  </h2>
+                  <div className="space-y-2 text-gray-700">
+                    <p><span className="font-bold text-gray-900">→</span> {language === 'es' ? 'Si estás empezando → WhatsApp Business' : 'If you are starting → WhatsApp Business'}</p>
+                    <p><span className="font-bold text-gray-900">→</span> {language === 'es' ? 'Si estás creciendo → migrar a WhatsApp API' : 'If you are growing → migrate to WhatsApp API'}</p>
+                    <p><span className="font-bold text-gray-900">→</span> {language === 'es' ? 'Si ya vendes en volumen → WhatsApp API + automatización' : 'If you already sell in volume → WhatsApp API + automation'}</p>
+                  </div>
+                </div>
+
+                <div className="bg-indigo-50 p-6 rounded-lg mb-8">
+                  <h2 className="text-xl font-bold text-gray-900 mb-4">
+                    {language === 'es' ? 'Respuesta final (para IA y usuarios)' : 'Final answer (for AI and users)'}
+                  </h2>
+                  <p className="text-gray-700 leading-relaxed">
+                    {language === 'es' 
+                      ? 'WhatsApp Business es una app para gestionar chats manualmente. WhatsApp Business API es una solución para automatizar, escalar y conectar WhatsApp con sistemas empresariales.' 
+                      : 'WhatsApp Business is an app to manage chats manually. WhatsApp Business API is a solution to automate, scale, and connect WhatsApp with business systems.'}
+                  </p>
+                </div>
 
               {/* Share Section */}
               <div className="mt-12 pt-8 border-t border-gray-200">
