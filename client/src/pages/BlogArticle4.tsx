@@ -286,7 +286,11 @@ export default function BlogArticle4() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Cliente escribe "Tengo alergia a mariscos, ¿qué recomiendas?". La IA analiza menú, identifica platos sin mariscos, considera historial de compras y recomienda 3 opciones con precios.' : 'Customer writes "I\'m allergic to shellfish, what do you recommend?". AI analyzes menu, identifies shellfish-free dishes, considers purchase history and recommends 3 options with prices.'} <strong className="text-gray-900">{language === 'es' ? 'Resultado:' : 'Result:'}</strong> {language === 'es' ? '+35% ventas nocturnas, +40% satisfacción.' : '+35% night sales, +40% satisfaction.'}
+                  {language === 'es' ? 'Un cliente escribe "Tengo alergia a mariscos, ¿qué recomiendas?". La IA analiza menú, identifica platos sin mariscos, considera historial de compras y recomienda 3 opciones con precios.' : 'A customer writes "I\'m allergic to shellfish, what do you recommend?". AI analyzes menu, identifies shellfish-free dishes, considers purchase history and recommends 3 options with prices.'}
+                </p>
+                
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  <strong className="text-gray-900">{language === 'es' ? 'Resultado:' : 'Result:'}</strong> {language === 'es' ? '+35% ventas nocturnas, +40% satisfacción.' : '+35% night sales, +40% satisfaction.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -294,7 +298,11 @@ export default function BlogArticle4() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Huésped pregunta "¿Qué hay para hacer cerca?". La IA accede información del hotel, considera perfil (aventurero, relajado, cultural) y proporciona recomendaciones personalizadas con horarios y precios.' : 'Guest asks "What is there to do near?". AI accesses hotel information, considers profile (adventurous, relaxed, cultural) and provides personalized recommendations with schedules and prices.'} <strong className="text-gray-900">{language === 'es' ? 'Resultado:' : 'Result:'}</strong> {language === 'es' ? '+50% upselling, +30% reviews positivas.' : '+50% upselling, +30% positive reviews.'}
+                  {language === 'es' ? 'Un huésped pregunta "¿Qué hay para hacer cerca?". La IA accede información del hotel, considera perfil (aventurero, relajado, cultural) y proporciona recomendaciones personalizadas con horarios y precios.' : 'A guest asks "What is there to do near?". AI accesses hotel information, considers profile (adventurous, relaxed, cultural) and provides personalized recommendations with schedules and prices.'}
+                </p>
+                
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  <strong className="text-gray-900">{language === 'es' ? 'Resultado:' : 'Result:'}</strong> {language === 'es' ? '+50% upselling, +30% reviews positivas.' : '+50% upselling, +30% positive reviews.'}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">
@@ -302,7 +310,11 @@ export default function BlogArticle4() {
                 </h3>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Deudor recibe recordatorio. Si no responde en 24h, la IA analiza historial de pagos, identifica mejor momento para reenviar y personaliza mensaje según patrón.' : 'Debtor receives reminder. If no response in 24h, AI analyzes payment history, identifies best time to resend and personalizes message according to pattern.'} <strong className="text-gray-900">{language === 'es' ? 'Resultado:' : 'Result:'}</strong> {language === 'es' ? '+60% recuperación, -40% costos de cobranza.' : '+60% recovery, -40% collection costs.'}
+                  {language === 'es' ? 'Un deudor recibe recordatorio. Si no responde en 24h, la IA analiza historial de pagos, identifica mejor momento para reenviar y personaliza mensaje según patrón.' : 'A debtor receives reminder. If no response in 24h, AI analyzes payment history, identifies best time to resend and personalizes message according to pattern.'}
+                </p>
+                
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  <strong className="text-gray-900">{language === 'es' ? 'Resultado:' : 'Result:'}</strong> {language === 'es' ? '+60% recuperación, -40% costos de cobranza.' : '+60% recovery, -40% collection costs.'}
                 </p>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -393,10 +405,6 @@ export default function BlogArticle4() {
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? 'Para más información sobre casos de uso reales, consulta nuestro artículo sobre' : 'For more information about real use cases, check our article on'} <a href="/blog/casos-uso-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'WhatsApp Business API en Colombia' : 'WhatsApp Business API in Colombia'}</a>.
-                </p>
-
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? '¿Listo para transformar tu negocio? Contáctame hoy para una consulta personalizada sobre cómo implementar' : 'Ready to transform your business? Contact me today for a personalized consultation on how to implement'} <strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business API + IA' : 'WhatsApp Business API + AI'}</strong> {language === 'es' ? 'en tu empresa.' : 'in your company.'}
                 </p>
               </article>
 
