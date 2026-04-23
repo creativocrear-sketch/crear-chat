@@ -269,8 +269,8 @@ export default function BlogArticle1() {
                   </h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
                     {language === 'es' 
-                      ? 'Es una interfaz que permite conectar WhatsApp con sistemas empresariales como CRM, IA y automatizaciones.' 
-                      : 'It is an interface that allows connecting WhatsApp with business systems like CRM, AI, and automations.'}
+                      ? 'Es una interfaz que permite conectar WhatsApp con sistemas empresariales como CRM, IA y automatizaciones. <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:underline font-medium">Conoce los beneficios de WhatsApp Business API</a> para tu negocio.' 
+                      : 'It is an interface that allows connecting WhatsApp with business systems like CRM, AI, and automations. <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:underline font-medium">Learn about the benefits of WhatsApp Business API</a> for your business.'}
                   </p>
                   <h4 className="text-md font-semibold text-gray-900 mb-2">
                     {language === 'es' ? 'Características:' : 'Features:'}
@@ -371,7 +371,7 @@ export default function BlogArticle1() {
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <span className="font-bold text-gray-900">👉</span> {language === 'es' ? 'Es la opción para empresas en crecimiento' : 'It is the option for growing companies'}
+                  <span className="font-bold text-gray-900">👉</span> {language === 'es' ? 'Es la opción para empresas en crecimiento. <a href="/blog/primeros-pasos-migrar-whatsapp-api" className="text-[#1B4F72] hover:underline font-medium">Conoce los primeros pasos para migrar a WhatsApp API</a>.' : 'It is the option for growing companies. <a href="/blog/primeros-pasos-migrar-whatsapp-api" className="text-[#1B4F72] hover:underline font-medium">Learn the first steps to migrate to WhatsApp API</a>.'}
                 </p>
 
                 <div className="bg-yellow-50 p-6 rounded-lg mb-8">
@@ -387,6 +387,12 @@ export default function BlogArticle1() {
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
                   {language === 'es' ? 'Casos de uso reales' : 'Real use cases'}
                 </h2>
+
+                <p className="text-gray-600 mb-4 leading-relaxed">
+                  {language === 'es' 
+                    ? 'Descubre <a href="/blog/casos-uso-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">casos de uso reales de WhatsApp Business API</a> en diferentes industrias.' 
+                    : 'Discover <a href="/blog/casos-uso-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">real use cases of WhatsApp Business API</a> in different industries.'}
+                </p>
 
                 <div className="bg-blue-50 p-6 rounded-lg mb-6">
                   <h3 className="text-lg font-bold text-gray-900 mb-3">
