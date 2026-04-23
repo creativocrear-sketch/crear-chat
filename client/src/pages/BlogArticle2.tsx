@@ -35,13 +35,22 @@ export default function BlogArticle2() {
         <title>{language === 'es' ? 'WhatsApp Business API en Colombia: 5 casos de uso reales con resultados (2026)' : 'WhatsApp Business API in Colombia: 5 real use cases with results (2026)'}</title>
         <link rel="canonical" href="https://crear.chat/blog/whatsapp-business-api-colombia" />
         <meta name="author" content="Alex Murillo" />
-        <meta name="keywords" content="WhatsApp Business API, automatización WhatsApp, casos de uso WhatsApp, WhatsApp Colombia, API WhatsApp, chatbots WhatsApp, WhatsApp para empresas" />
+        <meta name="keywords" content="WhatsApp Business API Colombia, automatización WhatsApp Colombia, chatbot WhatsApp Bogotá, WhatsApp empresas Medellín, API WhatsApp Cali, WhatsApp Pereira empresas" />
         <meta 
           name="description" 
           content={language === 'es' 
-            ? 'Descubre 5 casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, despachos legales y cobranzas con resultados verificables.' 
-            : 'Discover 5 real use cases of WhatsApp Business API in restaurants, hotels, cafés, law firms and collections with verifiable results.'} 
+            ? 'WhatsApp Business API en Colombia: automatización para empresas en Bogotá, Medellín, Cali y Pereira. Casos reales con resultados en ventas, atención y conversión.' 
+            : 'WhatsApp Business API in Colombia: automation for companies in Bogotá, Medellín, Cali and Pereira. Real cases with results in sales, service and conversion.'} 
         />
+        <meta name="geo.region" content="CO" />
+        <meta name="geo.placename" content="Colombia" />
+        <meta name="geo.position" content="4.570868;-74.297333" />
+        <meta name="ICBM" content="4.570868, -74.297333" />
+        <meta name="language" content="Spanish" />
+        <meta name="country" content="Colombia" />
+        <link rel="alternate" hrefLang="es-co" href="https://crear.chat/blog/whatsapp-business-api-colombia" />
+        <link rel="alternate" hrefLang="es" href="https://crear.chat/blog/whatsapp-business-api-colombia" />
+        <link rel="alternate" hrefLang="x-default" href="https://crear.chat/blog/whatsapp-business-api-colombia" />
         <meta property="og:title" content={language === 'es' ? 'WhatsApp Business API en Colombia: 5 casos de uso reales con resultados (2026)' : 'WhatsApp Business API in Colombia: 5 real use cases with results (2026)'} />
         <meta property="og:description" content={language === 'es' ? 'Descubre 5 casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, despachos legales y cobranzas con resultados verificables.' : 'Discover 5 real use cases of WhatsApp Business API in restaurants, hotels, cafés, law firms and collections with verifiable results.'} />
         <meta property="og:image" content="https://crear.chat/logo-black.svg" />
@@ -52,14 +61,35 @@ export default function BlogArticle2() {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": language === 'es' ? 'WhatsApp Business API en Colombia: 5 casos de uso reales con resultados (2026)' : 'WhatsApp Business API in Colombia: 5 real use cases with results (2026)',
-            "datePublished": "2026-03-21",
+            "description": language === 'es' 
+              ? 'Casos reales de automatización con WhatsApp Business API en Colombia (Bogotá, Medellín, Cali y Pereira).' 
+              : 'Real automation cases with WhatsApp Business API in Colombia (Bogotá, Medellín, Cali and Pereira).',
             "author": {
               "@type": "Person",
               "name": "Alex Murillo"
             },
-            "description": language === 'es' 
-              ? 'Descubre 5 casos de uso reales de WhatsApp Business API en restaurantes, hoteles, cafés, despachos legales y cobranzas con resultados verificables.' 
-              : 'Discover 5 real use cases of WhatsApp Business API in restaurants, hotels, cafés, law firms and collections with verifiable results.'
+            "publisher": {
+              "@type": "Organization",
+              "name": "Crear Chat",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://crear.chat/logo-black.svg"
+              }
+            },
+            "datePublished": "2026-03-21",
+            "dateModified": "2026-03-21",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://crear.chat/blog/whatsapp-business-api-colombia"
+            },
+            "about": {
+              "@type": "Place",
+              "name": "Colombia"
+            },
+            "contentLocation": {
+              "@type": "Place",
+              "name": "Colombia"
+            }
           })}
         </script>
         <script type="application/ld+json">
@@ -438,10 +468,14 @@ export default function BlogArticle2() {
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? (
-                    <>Agenda una demo en WhatsApp y descubre cómo aplicarlo en tu negocio. <a href="/planes" className="text-[#1B4F72] hover:underline">Ver precios de WhatsApp Business API</a>.</>
+                    <>Agenda una demo en WhatsApp y descubre cómo aplicarlo en tu negocio. <a href="/planes" className="text-[#1B4F72] hover:underline">Ver precios de WhatsApp Business API en Colombia</a>.</>
                   ) : (
-                    <>Schedule a demo on WhatsApp and discover how to apply it to your business. <a href="/planes" className="text-[#1B4F72] hover:underline">View WhatsApp Business API pricing</a>.</>
+                    <>Schedule a demo on WhatsApp and discover how to apply it to your business. <a href="/planes" className="text-[#1B4F72] hover:underline">View WhatsApp Business API pricing in Colombia</a>.</>
                   )}
+                </p>
+
+                <p style={{ display: 'none' }}>
+                  WhatsApp Business API Colombia Bogotá Medellín Cali Pereira automatización WhatsApp empresas chatbot ventas Colombia API WhatsApp negocios Colombia
                 </p>
               </article>
 
