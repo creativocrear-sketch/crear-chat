@@ -32,7 +32,7 @@ export default function BlogArticle2() {
     <>
       <Helmet>
         <meta charSet="UTF-8" />
-        <title>{language === 'es' ? 'Cómo empresas en Colombia están aumentando ventas hasta 25% con WhatsApp Business API + IA' : 'How companies in Colombia are increasing sales up to 25% with WhatsApp Business API + AI'}</title>
+        <title>{language === 'es' ? 'WhatsApp Business API + IA en Colombia | Resultados reales 2026' : 'WhatsApp Business API + AI in Colombia | Real results 2026'}</title>
         <link rel="canonical" href="https://crear.chat/blog/casos-uso-whatsapp-business-api" />
         <meta name="author" content="Alex Murillo" />
         <meta name="keywords" content="WhatsApp API Colombia IA, automatización WhatsApp Colombia, chatbot IA WhatsApp Colombia, ventas por WhatsApp empresas Colombia, inteligencia artificial WhatsApp Business" />
@@ -48,6 +48,7 @@ export default function BlogArticle2() {
         <meta name="ICBM" content="4.8133, -75.6961" />
         <meta name="language" content="Spanish" />
         <meta name="country" content="Colombia" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="ai-summary" content={language === 'es' 
           ? 'Guía práctica sobre cómo empresas en Colombia usan WhatsApp Business API con inteligencia artificial para automatizar ventas, soporte y cobranzas con resultados medibles.' 
           : 'Practical guide on how companies in Colombia use WhatsApp Business API with artificial intelligence to automate sales, support and collections with measurable results.'} />
@@ -72,7 +73,9 @@ export default function BlogArticle2() {
               : 'Real automation cases with WhatsApp Business API in Colombia (Bogotá, Medellín, Cali and Pereira).',
             "author": {
               "@type": "Person",
-              "name": "Alex Murillo"
+              "name": "Alex Murillo",
+              "url": "https://co.linkedin.com/in/alexandermurillo",
+              "sameAs": ["https://co.linkedin.com/in/alexandermurillo"]
             },
             "publisher": {
               "@type": "Organization",
@@ -184,6 +187,52 @@ export default function BlogArticle2() {
             "audience": {
               "@type": "Audience",
               "audienceType": language === 'es' ? 'Empresas en Colombia' : 'Companies in Colombia'
+            }
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            "name": language === 'es' ? 'Cómo implementar WhatsApp Business API con IA en Colombia' : 'How to implement WhatsApp Business API with AI in Colombia',
+            "description": language === 'es' ? 'Pasos para automatizar ventas y atención al cliente con WhatsApp API en empresas colombianas' : 'Steps to automate sales and customer service with WhatsApp API in Colombian companies',
+            "step": [
+              {
+                "@type": "HowToStep",
+                "position": "1",
+                "name": language === 'es' ? 'Elige tu caso de uso' : 'Choose your use case',
+                "text": language === 'es' ? 'Define si necesitas automatizar reservas, programas de fidelización, atención al cliente, comunicación legal o cobranzas. Cada industria tiene flujos distintos.' : 'Define if you need to automate reservations, loyalty programs, customer service, legal communication or collections. Each industry has different flows.'
+              },
+              {
+                "@type": "HowToStep",
+                "position": "2",
+                "name": language === 'es' ? 'Solicita acceso a WhatsApp Business API' : 'Request access to WhatsApp Business API',
+                "text": language === 'es' ? 'Contacta a Meta directamente o a través de un proveedor BSP (Business Solution Provider) certificado. El proceso de verificación toma entre 3 y 7 días hábiles.' : 'Contact Meta directly or through a certified BSP (Business Solution Provider). The verification process takes between 3 and 7 business days.'
+              },
+              {
+                "@type": "HowToStep",
+                "position": "3",
+                "name": language === 'es' ? 'Integra con tu CRM, POS o PMS' : 'Integrate with your CRM, POS or PMS',
+                "text": language === 'es' ? 'Conecta la API con tus sistemas existentes para sincronizar datos de clientes, pedidos o reservas en tiempo real. Esto habilita la automatización real del flujo.' : 'Connect the API with your existing systems to sync customer, order or reservation data in real time. This enables real flow automation.'
+              },
+              {
+                "@type": "HowToStep",
+                "position": "4",
+                "name": language === 'es' ? 'Configura la IA conversacional' : 'Configure conversational AI',
+                "text": language === 'es' ? 'Diseña los flujos de respuesta automática, mensajes de bienvenida, recordatorios y escalado a agente humano. La IA puede resolver hasta el 80% de las interacciones sin intervención.' : 'Design automatic response flows, welcome messages, reminders and escalation to human agent. AI can resolve up to 80% of interactions without intervention.'
+              },
+              {
+                "@type": "HowToStep",
+                "position": "5",
+                "name": language === 'es' ? 'Mide y optimiza' : 'Measure and optimize',
+                "text": language === 'es' ? 'Monitorea tasa de respuesta, conversiones y satisfacción del cliente. Empresas en Colombia reportan ROI promedio de 300% en el primer año de implementación.' : 'Monitor response rate, conversions and customer satisfaction. Companies in Colombia report average 300% ROI in the first year of implementation.'
+              }
+            ],
+            "totalTime": "P7D",
+            "estimatedCost": {
+              "@type": "MonetaryAmount",
+              "currency": "COP",
+              "value": language === 'es' ? 'Desde planes básicos hasta enterprise' : 'From basic plans to enterprise'
             }
           })}
         </script>
