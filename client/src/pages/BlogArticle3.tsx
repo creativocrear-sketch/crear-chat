@@ -144,7 +144,11 @@ export default function BlogArticle3() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Cada día más empresas en Colombia pierden clientes por una mala gestión de WhatsApp: respuestas tardías, mensajes no atendidos y falta de automatización. Esta guía explica cómo migrar WhatsApp Business API paso a paso en Colombia, evitando errores comunes que bloquean cuentas, retrasan aprobaciones o generan pérdida de historial. Aquí aprenderás cómo hacerlo en menos de 10 días, con configuración correcta, aprobación de Meta sin rechazos y estructura lista para escalar ventas. Para más información sobre <a href="/blog/whatsapp-business-api-colombia" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business API en Colombia</a>, consulta nuestro artículo de casos de uso reales.' : 'Every day more companies in Colombia lose customers due to poor WhatsApp management: slow responses, unanswered messages and lack of automation. This guide explains how to migrate WhatsApp Business API step by step in Colombia, avoiding common errors that block accounts, delay approvals or cause history loss. Here you will learn how to do it in less than 10 days, with correct configuration, Meta approval without rejections and structure ready to scale sales. For more information about <a href="/blog/whatsapp-business-api-colombia" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business API in Colombia</a>, check our article on real use cases.'}
+                  {language === 'es' ? 'Cada día más empresas en Colombia pierden clientes por una mala gestión de WhatsApp: respuestas tardías, mensajes no atendidos y falta de automatización. Esta guía explica cómo migrar WhatsApp Business API paso a paso en Colombia, evitando errores comunes que bloquean cuentas, retrasan aprobaciones o generan pérdida de historial. Aquí aprenderás cómo hacerlo en menos de 10 días, con configuración correcta, aprobación de Meta sin rechazos y estructura lista para escalar ventas.' : 'Every day more companies in Colombia lose customers due to poor WhatsApp management: slow responses, unanswered messages and lack of automation. This guide explains how to migrate WhatsApp Business API step by step in Colombia, avoiding common errors that block accounts, delay approvals or cause history loss. Here you will learn how to do it in less than 10 days, with correct configuration, Meta approval without rejections and structure ready to scale sales.'}
+                </p>
+
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'Para más información sobre <a href="/blog/whatsapp-business-api-colombia" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business API en Colombia</a>, consulta nuestro artículo de casos de uso reales.' : 'For more information about <a href="/blog/whatsapp-business-api-colombia" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business API in Colombia</a>, check our article on real use cases.'}
                 </p>
 
                 <div className="bg-green-50 p-4 rounded-lg mb-6">
@@ -351,7 +355,17 @@ export default function BlogArticle3() {
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp Business API no es gratis. El costo se divide en: (1) Tarifa de Meta por conversación iniciada (aprox $0.05-$0.10 USD dependiendo del país), (2) Tarifa del BSP proveedor (varía por proveedor y volumen), (3) Costos de integración técnica si requieres desarrollo personalizado. En Colombia, el costo total promedio mensual varía entre $50-$500 USD dependiendo del volumen de mensajes y proveedor elegido.' : 'WhatsApp Business API is not free. The cost is divided into: (1) Meta fee per conversation initiated (approx $0.05-$0.10 USD depending on country), (2) BSP provider fee (varies by provider and volume), (3) Technical integration costs if you require custom development. In Colombia, the average total monthly cost varies between $50-$500 USD depending on message volume and chosen provider.'}
+                  {language === 'es' ? 'WhatsApp Business API no es gratis. El costo se divide en:' : 'WhatsApp Business API is not free. The cost is divided into:'}
+                </p>
+                
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  <li>{language === 'es' ? 'Tarifa de Meta por conversación iniciada (aprox $0.05-$0.10 USD dependiendo del país)' : 'Meta fee per conversation initiated (approx $0.05-$0.10 USD depending on country)'}</li>
+                  <li>{language === 'es' ? 'Tarifa del BSP proveedor (varía por proveedor y volumen)' : 'BSP provider fee (varies by provider and volume)'}</li>
+                  <li>{language === 'es' ? 'Costos de integración técnica si requieres desarrollo personalizado' : 'Technical integration costs if you require custom development'}</li>
+                </ul>
+
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'En Colombia, el costo total promedio mensual varía entre $50-$500 USD dependiendo del volumen de mensajes y proveedor elegido.' : 'In Colombia, the average total monthly cost varies between $50-$500 USD depending on message volume and chosen provider.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
@@ -430,9 +444,16 @@ export default function BlogArticle3() {
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Cuáles son los primeros pasos para migrar WhatsApp Business API en Colombia?' : 'What are the first steps to migrate WhatsApp Business API in Colombia?'}
                 </h3>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Los primeros pasos son: (1) Auditar tu comunicación actual, (2) Seleccionar un BSP proveedor, (3) Configurar un número dedicado, (4) Verificar tu negocio en Meta Business Manager, (5) Configurar la cuenta WABA con webhooks, (6) Integrar con tu CRM, (7) Crear plantillas aprobadas y (8) Realizar pruebas antes del lanzamiento.' : 'The first steps are: (1) Audit your current communication, (2) Select a BSP provider, (3) Configure a dedicated number, (4) Verify your business in Meta Business Manager, (5) Configure WABA account with webhooks, (6) Integrate with your CRM, (7) Create approved templates and (8) Perform tests before launch.'}
-                </p>
+                <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                  <li>{language === 'es' ? 'Auditar tu comunicación actual' : 'Audit your current communication'}</li>
+                  <li>{language === 'es' ? 'Seleccionar un BSP proveedor' : 'Select a BSP provider'}</li>
+                  <li>{language === 'es' ? 'Configurar un número dedicado' : 'Configure a dedicated number'}</li>
+                  <li>{language === 'es' ? 'Verificar tu negocio en Meta Business Manager' : 'Verify your business in Meta Business Manager'}</li>
+                  <li>{language === 'es' ? 'Configurar la cuenta WABA con webhooks' : 'Configure WABA account with webhooks'}</li>
+                  <li>{language === 'es' ? 'Integrar con tu CRM' : 'Integrate with your CRM'}</li>
+                  <li>{language === 'es' ? 'Crear plantillas aprobadas' : 'Create approved templates'}</li>
+                  <li>{language === 'es' ? 'Realizar pruebas antes del lanzamiento' : 'Perform tests before launch'}</li>
+                </ul>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
                   {language === 'es' ? '¿Se pierden los chats al migrar WhatsApp API?' : 'Do chats get lost when migrating WhatsApp API?'}
@@ -480,7 +501,11 @@ export default function BlogArticle3() {
                   {language === 'es' ? '¿Qué es WhatsApp Cloud API?' : 'What is WhatsApp Cloud API?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp Cloud API es la versión moderna de WhatsApp Business API alojada en la nube de Meta. Ofrece las mismas funcionalidades que la API tradicional pero con menor latencia, actualizaciones automáticas y sin necesidad de servidor propio. Es la opción recomendada para nuevas implementaciones. Para entender mejor las diferencias entre la app y la API, consulta nuestro artículo sobre <a href="/blog/diferencia-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business vs API</a>.' : 'WhatsApp Cloud API is the modern version of WhatsApp Business API hosted on Meta cloud. It offers the same functionalities as traditional API but with lower latency, automatic updates and no need for own server. It is the recommended option for new implementations. To better understand the differences between the app and the API, check our article on <a href="/blog/diferencia-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business vs API</a>.'}
+                  {language === 'es' ? 'WhatsApp Cloud API es la versión moderna de WhatsApp Business API alojada en la nube de Meta. Ofrece las mismas funcionalidades que la API tradicional pero con menor latencia, actualizaciones automáticas y sin necesidad de servidor propio. Es la opción recomendada para nuevas implementaciones.' : 'WhatsApp Cloud API is the modern version of WhatsApp Business API hosted on Meta cloud. It offers the same functionalities as traditional API but with lower latency, automatic updates and no need for own server. It is the recommended option for new implementations.'}
+                </p>
+
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {language === 'es' ? 'Para entender mejor las diferencias entre la app y la API, consulta nuestro artículo sobre <a href="/blog/diferencia-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business vs API</a>.' : 'To better understand the differences between the app and the API, check our article on <a href="/blog/diferencia-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business vs API</a>.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
