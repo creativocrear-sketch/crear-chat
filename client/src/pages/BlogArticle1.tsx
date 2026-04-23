@@ -58,20 +58,43 @@ export default function BlogArticle1() {
             "headline": language === 'es' ? 'WhatsApp Business vs API: Diferencias y ventajas (2026)' : 'WhatsApp Business vs API: Differences and advantages (2026)',
             "description": language === 'es' ? 'Diferencia entre WhatsApp Business y API. Ventajas, cuándo elegir y cómo automatizar atención al cliente.' : 'Difference between WhatsApp Business and API. Advantages, when to choose and how to automate customer service.',
             "author": {
-              "@type": "Organization",
-              "name": "crear.chat"
+              "@type": "Person",
+              "name": "Alex Murillo",
+              "url": "https://crear.chat"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "crear.chat",
+              "name": "Crear.chat",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://crear.chat/favicon.png"
-              }
+                "url": "https://crear.chat/logo-black.svg"
+              },
+              "url": "https://crear.chat"
             },
             "url": "https://crear.chat/blog/diferencia-whatsapp-business-api",
             "datePublished": "2026-03-21",
-            "dateModified": "2026-04-22"
+            "dateModified": "2026-04-22",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://crear.chat/blog/diferencia-whatsapp-business-api"
+            },
+            "breadcrumb": {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Blog",
+                  "item": "https://crear.chat/blog"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": language === 'es' ? 'WhatsApp Business vs API' : 'WhatsApp Business vs API',
+                  "item": "https://crear.chat/blog/diferencia-whatsapp-business-api"
+                }
+              ]
+            }
           })}
         </script>
         <script type="application/ld+json">
@@ -180,6 +203,28 @@ export default function BlogArticle1() {
           <div className="container">
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
+                <div className="bg-blue-50 p-6 rounded-lg mb-8">
+                  <h2 className="text-xl font-bold text-gray-900 mb-4">
+                    {language === 'es' ? 'Resumen rápido' : 'Quick summary'}
+                  </h2>
+                  <p className="text-gray-700 leading-relaxed">
+                    {language === 'es' 
+                      ? 'WhatsApp Business es una app gratuita para pequeños negocios con 1 dispositivo y automatización básica. WhatsApp Business API es una interfaz programable que permite automatización avanzada, integración con CRM, múltiples dispositivos y escalabilidad para miles de conversaciones simultáneas.' 
+                      : 'WhatsApp Business is a free app for small businesses with 1 device and basic automation. WhatsApp Business API is a programmable interface that allows advanced automation, CRM integration, multiple devices, and scalability for thousands of simultaneous conversations.'}
+                  </p>
+                </div>
+
+                <div className="bg-green-50 p-6 rounded-lg mb-8">
+                  <h2 className="text-xl font-bold text-gray-900 mb-4">
+                    {language === 'es' ? 'Definición' : 'Definition'}
+                  </h2>
+                  <p className="text-gray-700 leading-relaxed">
+                    {language === 'es' 
+                      ? 'WhatsApp Business API es una interfaz programable que permite automatizar WhatsApp e integrarlo con CRM, ERP y sistemas empresariales para gestión de conversaciones a escala.' 
+                      : 'WhatsApp Business API is a programmable interface that allows automating WhatsApp and integrating it with CRM, ERP, and business systems for scalable conversation management.'}
+                  </p>
+                </div>
+
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
                   {language === 'es' ? '¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?' : 'What is the difference between WhatsApp Business and WhatsApp Business API?'}
                 </h2>
@@ -454,6 +499,19 @@ export default function BlogArticle1() {
                   {language === 'es' ? 'En Colombia y América Latina, WhatsApp es el canal de comunicación más usado. Implementar WhatsApp Business API permite automatizar la atención al cliente, integrar con CRM existentes y escalar ventas por WhatsApp, convirtiéndose en una ventaja competitiva para empresas que buscan crecer en la región.' : 'In Colombia and Latin America, WhatsApp is the most used communication channel. Implementing WhatsApp Business API allows automating customer service, integrating with existing CRM, and scaling WhatsApp sales, becoming a competitive advantage for companies looking to grow in the region.'}
                 </p>
 
+                <div className="bg-yellow-50 p-6 rounded-lg mb-8">
+                  <h2 className="text-xl font-bold text-gray-900 mb-4">
+                    {language === 'es' ? 'En resumen' : 'In summary'}
+                  </h2>
+                  <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                    <li><strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business:' : 'WhatsApp Business:'}</strong> {language === 'es' ? 'App básica, gratuita, 1 dispositivo, automatización básica' : 'Basic app, free, 1 device, basic automation'}</li>
+                    <li><strong className="text-gray-900">{language === 'es' ? 'WhatsApp Business API:' : 'WhatsApp Business API:'}</strong> {language === 'es' ? 'Automatización avanzada, múltiples dispositivos, integración CRM, escalabilidad ilimitada' : 'Advanced automation, multiple devices, CRM integration, unlimited scalability'}</li>
+                    <li><strong className="text-gray-900">{language === 'es' ? 'Ideal para pequeños negocios:' : 'Ideal for small businesses:'}</strong> {language === 'es' ? 'WhatsApp Business (menos de 100 mensajes/día)' : 'WhatsApp Business (less than 100 messages/day)'}</li>
+                    <li><strong className="text-gray-900">{language === 'es' ? 'Ideal para empresas en crecimiento:' : 'Ideal for growing companies:'}</strong> {language === 'es' ? 'WhatsApp Business API (más de 100 mensajes/día)' : 'WhatsApp Business API (more than 100 messages/day)'}</li>
+                    <li><strong className="text-gray-900">{language === 'es' ? 'Beneficio clave de API:' : 'Key benefit of API:'}</strong> {language === 'es' ? 'Integración con CRM y automatización de ventas por WhatsApp' : 'CRM integration and WhatsApp sales automation'}</li>
+                  </ul>
+                </div>
+
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
                   {language === 'es' ? 'Conclusión: ¿Cuál es la mejor opción para tu negocio?' : 'Conclusion: Which is the best option for your business?'}
                 </h3>
@@ -465,6 +523,28 @@ export default function BlogArticle1() {
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? 'La inversión en WhatsApp Business API se justifica rápidamente a través de la reducción de costos operativos, mejora en la satisfacción del cliente y aumento en la conversión de ventas. Si tu empresa está en crecimiento y necesita escalar su comunicación con clientes, WhatsApp Business API es la mejor opción.' : 'The investment in WhatsApp Business API is quickly justified through reduction in operational costs, improvement in customer satisfaction, and increase in sales conversion. If your company is growing and needs to scale customer communication, WhatsApp Business API is the best option.'}
                 </p>
+
+                <div className="bg-gray-50 p-6 rounded-lg mb-8">
+                  <h3 className="text-lg font-bold text-gray-900 mb-4">
+                    {language === 'es' ? 'Sobre el autor' : 'About the author'}
+                  </h3>
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-[#1B4F72] rounded-full flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
+                      AM
+                    </div>
+                    <div>
+                      <p className="font-semibold text-gray-900 mb-1">Alex Murillo</p>
+                      <p className="text-sm text-gray-600 mb-2">
+                        {language === 'es' ? 'Especialista en Automatización WhatsApp LATAM' : 'WhatsApp Automation Specialist LATAM'}
+                      </p>
+                      <p className="text-sm text-gray-700 leading-relaxed">
+                        {language === 'es' 
+                          ? 'Alex Murillo es especialista en automatización de WhatsApp Business API con más de 5 años de experiencia implementando soluciones para empresas en Colombia y América Latina. Ha ayudado a más de 50 empresas a integrar WhatsApp con CRM y automatizar su atención al cliente.' 
+                          : 'Alex Murillo is a WhatsApp Business API automation specialist with over 5 years of experience implementing solutions for companies in Colombia and Latin America. He has helped over 50 companies integrate WhatsApp with CRM and automate their customer service.'}
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
                 <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-12 text-center mt-8">
                   <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-4">
