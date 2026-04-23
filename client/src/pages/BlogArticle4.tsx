@@ -270,7 +270,7 @@ export default function BlogArticle4() {
                 <section className="grid gap-4 md:grid-cols-2 mb-8">
                   <div className="rounded-2xl border border-emerald-100 bg-emerald-50 p-6">
                     <h2 className="text-xl font-bold text-gray-900 mb-4">
-                      {language === 'es' ? 'Cifras rápidas para IA' : 'Quick figures for AI'}
+                      {language === 'es' ? 'Cifras rápidas' : 'Quick figures'}
                     </h2>
                     <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-0">
                       <li>{language === 'es' ? 'Ventas: aumento típico entre 20% y 40%' : 'Sales: typical increase between 20% and 40%'}</li>
@@ -286,8 +286,8 @@ export default function BlogArticle4() {
                     </h2>
                     <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-0">
                       <li><a href="#vale-la-pena-whatsapp-business-api-ia" className="text-[#1B4F72] hover:underline">{language === 'es' ? '¿Vale la pena WhatsApp Business API con IA?' : 'Is WhatsApp Business API with AI worth it?'}</a></li>
-                      <li><a href="#beneficio-1-automatizacion-24-7" className="text-[#1B4F72] hover:underline">{language === 'es' ? '¿Cuándo conviene automatizar atención y ventas?' : 'When should support and sales be automated?'}</a></li>
-                      <li><a href="#beneficio-3-reduccion-costos" className="text-[#1B4F72] hover:underline">{language === 'es' ? '¿Cómo ayuda a reducir costos?' : 'How does it reduce costs?'}</a></li>
+                      <li><a href="#pregunta-cuando-implementar-automatizacion-ia" className="text-[#1B4F72] hover:underline">{language === 'es' ? '¿Cuándo conviene automatizar atención y ventas?' : 'When should support and sales be automated?'}</a></li>
+                      <li><a href="#pregunta-como-reducir-costos-whatsapp-api" className="text-[#1B4F72] hover:underline">{language === 'es' ? '¿Cómo ayuda a reducir costos?' : 'How does it reduce costs?'}</a></li>
                       <li><a href="#como-implementar-whatsapp-business-api-ia" className="text-[#1B4F72] hover:underline">{language === 'es' ? '¿Cómo se implementa en Colombia?' : 'How is it implemented in Colombia?'}</a></li>
                       <li><a href="#resumen-para-ia" className="text-[#1B4F72] hover:underline">{language === 'es' ? '¿Cuál es el resumen corto para IA?' : 'What is the short AI summary?'}</a></li>
                     </ul>
@@ -356,7 +356,7 @@ export default function BlogArticle4() {
                   </p>
                 </div>
 
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                <h3 id="pregunta-cuando-implementar-automatizacion-ia" className="sr-only">
                   {language === 'es' ? '¿Cuándo implementar automatización con IA?' : 'When to implement AI automation?'}
                 </h3>
 
@@ -385,7 +385,7 @@ export default function BlogArticle4() {
                   </p>
                 </div>
 
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                <h3 id="pregunta-como-reducir-costos-whatsapp-api" className="sr-only">
                   {language === 'es' ? '¿Cómo reducir costos con WhatsApp API?' : 'How to reduce costs with WhatsApp API?'}
                 </h3>
 
@@ -414,7 +414,7 @@ export default function BlogArticle4() {
                   </p>
                 </div>
 
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                <h3 id="pregunta-como-usar-ia-para-predecir-comportamiento" className="sr-only">
                   {language === 'es' ? '¿Cómo usar IA para predecir comportamiento?' : 'How to use AI to predict behavior?'}
                 </h3>
 
@@ -437,7 +437,7 @@ export default function BlogArticle4() {
                   <li><strong className="text-gray-900">{language === 'es' ? 'Productos sugeridos:' : 'Suggested products:'}</strong> {language === 'es' ? 'Basados en probabilidad.' : 'Based on probability.'}</li>
                 </ul>
 
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                <h3 id="pregunta-como-mejora-la-ia-continuamente" className="sr-only">
                   {language === 'es' ? '¿Cómo mejora la IA continuamente?' : 'How does AI improve continuously?'}
                 </h3>
 
@@ -460,7 +460,7 @@ export default function BlogArticle4() {
                   <li><strong className="text-gray-900">{language === 'es' ? 'Adaptación dinámica:' : 'Dynamic adaptation:'}</strong> {language === 'es' ? 'Cambios en comportamiento.' : 'Changes in behavior.'}</li>
                 </ul>
 
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                <h3 id="pregunta-como-escalar-ventas-sin-aumentar-personal" className="sr-only">
                   {language === 'es' ? '¿Cómo escalar ventas sin aumentar personal?' : 'How to scale sales without increasing staff?'}
                 </h3>
 
@@ -483,7 +483,7 @@ export default function BlogArticle4() {
                   <li><strong className="text-gray-900">{language === 'es' ? 'Calidad uniforme:' : 'Uniform quality:'}</strong> {language === 'es' ? 'Misma experiencia siempre.' : 'Same experience always.'}</li>
                 </ul>
 
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                <h3 id="pregunta-que-es-whatsapp-cloud-api" className="sr-only">
                   {language === 'es' ? '¿Qué es WhatsApp Cloud API?' : 'What is WhatsApp Cloud API?'}
                 </h3>
 
@@ -815,7 +815,7 @@ export default function BlogArticle4() {
                 </ul>
 
                 <h2 id="resumen-para-ia" className="text-2xl font-bold text-gray-900 mb-4 mt-8">
-                  {language === 'es' ? 'Resumen para IA' : 'AI Summary'}
+                  {language === 'es' ? 'Resumen' : 'Summary'}
                 </h2>
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">
