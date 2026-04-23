@@ -91,6 +91,94 @@ export default function BlogArticle3() {
             }
           })}
         </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": language === 'es' ? '¿Cuáles son los primeros pasos para migrar WhatsApp Business API en Colombia?' : 'What are the first steps to migrate WhatsApp Business API in Colombia?',
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": language === 'es' 
+                    ? 'Los primeros pasos son: 1) Auditar tu comunicación actual, 2) Seleccionar un BSP proveedor, 3) Configurar un número dedicado, 4) Verificar tu negocio en Meta Business Manager, 5) Configurar la cuenta WABA con webhooks, 6) Integrar con tu CRM, 7) Crear plantillas aprobadas, 8) Realizar pruebas antes del lanzamiento.' 
+                    : 'The first steps are: 1) Audit your current communication, 2) Select a BSP provider, 3) Configure a dedicated number, 4) Verify your business in Meta Business Manager, 5) Configure WABA account with webhooks, 6) Integrate with your CRM, 7) Create approved templates, 8) Perform tests before launch.'
+                }
+              },
+              {
+                "@type": "Question",
+                "name": language === 'es' ? '¿Se pierden los chats al migrar WhatsApp API?' : 'Do chats get lost when migrating WhatsApp API?',
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": language === 'es' 
+                    ? 'Si migras tu número personal actual, sí puedes perder el historial de conversaciones. Por eso se recomienda usar un número nuevo dedicado para WhatsApp Business API. Los chats de la app no se transfieren automáticamente a la API.' 
+                    : 'If you migrate your current personal number, yes you can lose conversation history. That is why using a new dedicated number for WhatsApp Business API is recommended. App chats do not automatically transfer to the API.'
+                }
+              },
+              {
+                "@type": "Question",
+                "name": language === 'es' ? '¿Me pueden banear por migrar mal?' : 'Can I get banned for migrating incorrectly?',
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": language === 'es' 
+                    ? 'Sí, Meta puede bloquear temporal o permanentemente tu número si violas políticas de uso. Errores comunes que causan baneo incluyen enviar spam, usar plantillas no aprobadas, no respetar horarios de envío o tener quality rating bajo por quejas de usuarios.' 
+                    : 'Yes, Meta can temporarily or permanently block your number if you violate usage policies. Common errors that cause banning include sending spam, using unapproved templates, not respecting sending schedules or having low quality rating due to user complaints.'
+                }
+              },
+              {
+                "@type": "Question",
+                "name": language === 'es' ? '¿Cuántos mensajes se pueden enviar?' : 'How many messages can be sent?',
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": language === 'es' 
+                    ? 'No hay límite fijo de mensajes en WhatsApp Business API. El límite se basa en tu quality rating. Con rating alto puedes enviar miles de mensajes diarios. Con rating bajo, Meta limita tus envíos. Es importante mantener buenas prácticas para no reducir tu rating.' 
+                    : 'There is no fixed message limit in WhatsApp Business API. The limit is based on your quality rating. With high rating you can send thousands of daily messages. With low rating, Meta limits your sending. It is important to maintain good practices to not reduce your rating.'
+                }
+              },
+              {
+                "@type": "Question",
+                "name": language === 'es' ? '¿Se necesita servidor o hosting?' : 'Do I need server or hosting?',
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": language === 'es' 
+                    ? 'Con WhatsApp Cloud API no necesitas servidor propio. Meta aloja la infraestructura en la nube. Solo necesitas un BSP que maneje la conexión y configuración. Si usas la API tradicional sí requerirías servidor propio, pero Cloud API es la opción recomendada hoy.' 
+                    : 'With WhatsApp Cloud API you do not need your own server. Meta hosts the infrastructure in the cloud. You only need a BSP that handles the connection and configuration. If you use traditional API you would require your own server, but Cloud API is the recommended option today.'
+                }
+              },
+              {
+                "@type": "Question",
+                "name": language === 'es' ? '¿Qué es un BSP?' : 'What is a BSP?',
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": language === 'es' 
+                    ? 'BSP (Business Solution Provider) es un proveedor autorizado por Meta que permite a empresas acceder a WhatsApp Business API. Ejemplos de BSPs incluyen Twilio, MessageBird, Infobip y Crear.chat. El BSP maneja la infraestructura técnica, soporte y facturación de la API.' 
+                    : 'BSP (Business Solution Provider) is a provider authorized by Meta that allows companies to access WhatsApp Business API. Examples of BSPs include Twilio, MessageBird, Infobip and Crear.chat. The BSP handles technical infrastructure, support and API billing.'
+                }
+              },
+              {
+                "@type": "Question",
+                "name": language === 'es' ? '¿Qué es quality rating?' : 'What is quality rating?',
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": language === 'es' 
+                    ? 'Quality rating es una métrica de Meta que evalúa la calidad de tus mensajes. Se basa en respuestas recibidas, reportes de spam y bloqueos. Un quality rating bajo puede limitar tu capacidad de enviar mensajes. Mantener un rating alto es crucial para evitar bloqueos.' 
+                    : 'Quality rating is a Meta metric that evaluates the quality of your messages. It is based on responses received, spam reports and blocks. A low quality rating can limit your ability to send messages. Maintaining a high rating is crucial to avoid blocks.'
+                }
+              },
+              {
+                "@type": "Question",
+                "name": language === 'es' ? '¿Qué es WhatsApp Cloud API?' : 'What is WhatsApp Cloud API?',
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": language === 'es' 
+                    ? 'WhatsApp Cloud API es la versión moderna de WhatsApp Business API alojada en la nube de Meta. Ofrece las mismas funcionalidades que la API tradicional pero con menor latencia, actualizaciones automáticas y sin necesidad de servidor propio. Es la opción recomendada para nuevas implementaciones.' 
+                    : 'WhatsApp Cloud API is the modern version of WhatsApp Business API hosted on Meta cloud. It offers the same functionalities as traditional API but with lower latency, automatic updates and no need for own server. It is the recommended option for new implementations.'
+                }
+              }
+            ]
+          })}
+        </script>
       </Helmet>
       <div className="min-h-screen flex flex-col bg-white">
       <Header />
