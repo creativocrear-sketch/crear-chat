@@ -214,17 +214,6 @@ export default function BlogArticle1() {
                   </p>
                 </div>
 
-                <div className="bg-green-50 p-6 rounded-lg mb-8">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">
-                    {language === 'es' ? 'Definición' : 'Definition'}
-                  </h2>
-                  <p className="text-gray-700 leading-relaxed">
-                    {language === 'es' 
-                      ? 'WhatsApp Business API es una interfaz programable que permite automatizar WhatsApp e integrarlo con CRM, ERP y sistemas empresariales para gestión de conversaciones a escala.' 
-                      : 'WhatsApp Business API is a programmable interface that allows automating WhatsApp and integrating it with CRM, ERP, and business systems for scalable conversation management.'}
-                  </p>
-                </div>
-
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
                   {language === 'es' ? '¿Cuál es la diferencia entre WhatsApp Business y WhatsApp Business API?' : 'What is the difference between WhatsApp Business and WhatsApp Business API?'}
                 </h2>
@@ -599,31 +588,6 @@ export default function BlogArticle1() {
                     </a>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* CTA Section */}
-        <section className="py-16 bg-gradient-to-br from-blue-50 to-indigo-50">
-          <div className="container">
-            <div className="max-w-4xl mx-auto text-center">
-              <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-blue-100">
-                <h2 className="font-bold text-3xl md:text-4xl text-gray-900 mb-4">
-                  {language === 'es' ? '¿Listo para implementar WhatsApp Business API?' : 'Ready to implement WhatsApp Business API?'}
-                </h2>
-                <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                  {language === 'es' ? 'Contáctame para una consulta personalizada sobre cómo automatizar tu negocio con WhatsApp Business API.' : 'Contact me for a personalized consultation on how to automate your business with WhatsApp Business API.'}
-                </p>
-                
-                <a
-                  href="https://wa.me/+573105317126"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
-                >
-                  {language === 'es' ? 'Escríbeme por WhatsApp' : 'Write me on WhatsApp'}
-                </a>
               </div>
             </div>
           </div>
