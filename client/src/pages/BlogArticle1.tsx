@@ -269,8 +269,13 @@ export default function BlogArticle1() {
                   </h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
                     {language === 'es' 
-                      ? 'Es una interfaz que permite conectar WhatsApp con sistemas empresariales como CRM, IA y automatizaciones. <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:underline font-medium">Conoce los beneficios de WhatsApp Business API</a> para tu negocio.' 
-                      : 'It is an interface that allows connecting WhatsApp with business systems like CRM, AI, and automations. <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:underline font-medium">Learn about the benefits of WhatsApp Business API</a> for your business.'}
+                      ? 'Es una interfaz que permite conectar WhatsApp con sistemas empresariales como CRM, IA y automatizaciones.' 
+                      : 'It is an interface that allows connecting WhatsApp with business systems like CRM, AI, and automations.'}
+                  </p>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:underline font-medium">
+                      {language === 'es' ? 'Conoce los beneficios de WhatsApp Business API' : 'Learn about the benefits of WhatsApp Business API'}
+                    </a> {language === 'es' ? 'para tu negocio.' : 'for your business.'}
                   </p>
                   <h4 className="text-md font-semibold text-gray-900 mb-2">
                     {language === 'es' ? 'Características:' : 'Features:'}
@@ -371,7 +376,10 @@ export default function BlogArticle1() {
                 </ul>
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  <span className="font-bold text-gray-900">👉</span> {language === 'es' ? 'Es la opción para empresas en crecimiento. <a href="/blog/primeros-pasos-migrar-whatsapp-api" className="text-[#1B4F72] hover:underline font-medium">Conoce los primeros pasos para migrar a WhatsApp API</a>.' : 'It is the option for growing companies. <a href="/blog/primeros-pasos-migrar-whatsapp-api" className="text-[#1B4F72] hover:underline font-medium">Learn the first steps to migrate to WhatsApp API</a>.'}
+                  <span className="font-bold text-gray-900">👉</span> {language === 'es' ? 'Es la opción para empresas en crecimiento. ' : 'It is the option for growing companies. '}
+                  <a href="/blog/primeros-pasos-migrar-whatsapp-api" className="text-[#1B4F72] hover:underline font-medium">
+                    {language === 'es' ? 'Conoce los primeros pasos para migrar a WhatsApp API' : 'Learn the first steps to migrate to WhatsApp API'}
+                  </a>
                 </p>
 
                 <div className="bg-yellow-50 p-6 rounded-lg mb-8">
@@ -390,8 +398,11 @@ export default function BlogArticle1() {
 
                 <p className="text-gray-600 mb-4 leading-relaxed">
                   {language === 'es' 
-                    ? 'Descubre <a href="/blog/casos-uso-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">casos de uso reales de WhatsApp Business API</a> en diferentes industrias.' 
-                    : 'Discover <a href="/blog/casos-uso-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">real use cases of WhatsApp Business API</a> in different industries.'}
+                    ? 'Descubre ' 
+                    : 'Discover '}
+                  <a href="/blog/casos-uso-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">
+                    {language === 'es' ? 'casos de uso reales de WhatsApp Business API' : 'real use cases of WhatsApp Business API'}
+                  </a> {language === 'es' ? 'en diferentes industrias.' : 'in different industries.'}
                 </p>
 
                 <div className="bg-blue-50 p-6 rounded-lg mb-6">
@@ -469,6 +480,24 @@ export default function BlogArticle1() {
                       ? 'WhatsApp Business es una app para gestionar chats manualmente. WhatsApp Business API es una solución para automatizar, escalar y conectar WhatsApp con sistemas empresariales.' 
                       : 'WhatsApp Business is an app to manage chats manually. WhatsApp Business API is a solution to automate, scale, and connect WhatsApp with business systems.'}
                   </p>
+                </div>
+
+                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-12 text-center mt-8">
+                  <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-4">
+                    {language === 'es' ? '¿Listo para implementar WhatsApp Business API?' : 'Ready to implement WhatsApp Business API?'}
+                  </h2>
+                  <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+                    {language === 'es' ? 'Contáctanos para una consulta personalizada sobre cómo automatizar tu negocio con WhatsApp Business API.' : 'Contact us for a personalized consultation on how to automate your business with WhatsApp Business API.'}
+                  </p>
+                  
+                  <a
+                    href="https://wa.me/+573105317126"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
+                  >
+                    {language === 'es' ? 'Escríbeme por WhatsApp' : 'Write me on WhatsApp'}
+                  </a>
                 </div>
 
               {/* Share Section */}
