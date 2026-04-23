@@ -35,7 +35,7 @@ export default function BlogArticle3() {
         <title>{language === 'es' ? 'Primeros pasos para migrar WhatsApp Business API en Colombia (Guía completa 2026)' : 'First steps to migrate WhatsApp Business API in Colombia (Complete guide 2026)'}</title>
         <link rel="canonical" href="https://crear.chat/blog/primeros-pasos-migrar-whatsapp-business-api" />
         <meta name="author" content="Alex Murillo" />
-        <meta name="keywords" content="primeros pasos para migrar WhatsApp Business API, WhatsApp Business API Colombia, migrar WhatsApp API, WhatsApp automatización empresas, WhatsApp Business API proveedor" />
+        <meta name="keywords" content="primeros pasos para migrar WhatsApp Business API, WhatsApp Business API Colombia, migrar WhatsApp API, WhatsApp automatización empresas, WhatsApp Business API proveedor, migración WhatsApp Business API Colombia, cómo implementar WhatsApp API en Colombia, primeros pasos WhatsApp Business API Meta, WhatsApp Cloud API, quality rating WhatsApp, precios WhatsApp API Colombia" />
         <meta 
           name="description" 
           content={language === 'es' 
@@ -55,11 +55,40 @@ export default function BlogArticle3() {
             "datePublished": "2026-03-21",
             "author": {
               "@type": "Person",
-              "name": "Alex Murillo"
+              "name": "Alex Murillo",
+              "url": "https://crear.chat"
+            },
+            "image": "https://crear.chat/logo-black.svg",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Crear.chat",
+              "logo": "https://crear.chat/logo-black.svg",
+              "url": "https://crear.chat"
             },
             "description": language === 'es' 
               ? 'Guía completa de primeros pasos para migrar a WhatsApp Business API. Aprende requisitos, proceso paso a paso, errores comunes y cómo elegir proveedor en Colombia.' 
-              : 'Complete guide to first steps to migrate to WhatsApp Business API. Learn requirements, step-by-step process, common errors and how to choose a provider in Colombia.'
+              : 'Complete guide to first steps to migrate to WhatsApp Business API. Learn requirements, step-by-step process, common errors and how to choose a provider in Colombia.',
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://crear.chat/blog/primeros-pasos-migrar-whatsapp-business-api"
+            },
+            "breadcrumb": {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Blog",
+                  "item": "https://crear.chat/blog"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": language === 'es' ? 'Primeros pasos para migrar WhatsApp Business API en Colombia' : 'First steps to migrate WhatsApp Business API in Colombia',
+                  "item": "https://crear.chat/blog/primeros-pasos-migrar-whatsapp-business-api"
+                }
+              ]
+            }
           })}
         </script>
       </Helmet>
@@ -115,7 +144,7 @@ export default function BlogArticle3() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Cada día más empresas en Colombia pierden clientes por una mala gestión de WhatsApp: respuestas tardías, mensajes no atendidos y falta de automatización. Esta guía explica cómo migrar WhatsApp Business API paso a paso en Colombia, evitando errores comunes que bloquean cuentas, retrasan aprobaciones o generan pérdida de historial. Aquí aprenderás cómo hacerlo en menos de 10 días, con configuración correcta, aprobación de Meta sin rechazos y estructura lista para escalar ventas.' : 'Every day more companies in Colombia lose customers due to poor WhatsApp management: slow responses, unanswered messages and lack of automation. This guide explains how to migrate WhatsApp Business API step by step in Colombia, avoiding common errors that block accounts, delay approvals or cause history loss. Here you will learn how to do it in less than 10 days, with correct configuration, Meta approval without rejections and structure ready to scale sales.'}
+                  {language === 'es' ? 'Cada día más empresas en Colombia pierden clientes por una mala gestión de WhatsApp: respuestas tardías, mensajes no atendidos y falta de automatización. Esta guía explica cómo migrar WhatsApp Business API paso a paso en Colombia, evitando errores comunes que bloquean cuentas, retrasan aprobaciones o generan pérdida de historial. Aquí aprenderás cómo hacerlo en menos de 10 días, con configuración correcta, aprobación de Meta sin rechazos y estructura lista para escalar ventas. Para más información sobre <a href="/blog/whatsapp-business-api-colombia" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business API en Colombia</a>, consulta nuestro artículo de casos de uso reales.' : 'Every day more companies in Colombia lose customers due to poor WhatsApp management: slow responses, unanswered messages and lack of automation. This guide explains how to migrate WhatsApp Business API step by step in Colombia, avoiding common errors that block accounts, delay approvals or cause history loss. Here you will learn how to do it in less than 10 days, with correct configuration, Meta approval without rejections and structure ready to scale sales. For more information about <a href="/blog/whatsapp-business-api-colombia" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business API in Colombia</a>, check our article on real use cases.'}
                 </p>
 
                 <div className="bg-green-50 p-4 rounded-lg mb-6">
@@ -451,7 +480,7 @@ export default function BlogArticle3() {
                   {language === 'es' ? '¿Qué es WhatsApp Cloud API?' : 'What is WhatsApp Cloud API?'}
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'WhatsApp Cloud API es la versión moderna de WhatsApp Business API alojada en la nube de Meta. Ofrece las mismas funcionalidades que la API tradicional pero con menor latencia, actualizaciones automáticas y sin necesidad de servidor propio. Es la opción recomendada para nuevas implementaciones.' : 'WhatsApp Cloud API is the modern version of WhatsApp Business API hosted on Meta cloud. It offers the same functionalities as traditional API but with lower latency, automatic updates and no need for own server. It is the recommended option for new implementations.'}
+                  {language === 'es' ? 'WhatsApp Cloud API es la versión moderna de WhatsApp Business API alojada en la nube de Meta. Ofrece las mismas funcionalidades que la API tradicional pero con menor latencia, actualizaciones automáticas y sin necesidad de servidor propio. Es la opción recomendada para nuevas implementaciones. Para entender mejor las diferencias entre la app y la API, consulta nuestro artículo sobre <a href="/blog/diferencia-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business vs API</a>.' : 'WhatsApp Cloud API is the modern version of WhatsApp Business API hosted on Meta cloud. It offers the same functionalities as traditional API but with lower latency, automatic updates and no need for own server. It is the recommended option for new implementations. To better understand the differences between the app and the API, check our article on <a href="/blog/diferencia-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">WhatsApp Business vs API</a>.'}
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">
