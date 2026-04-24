@@ -444,6 +444,148 @@ export default function BlogArticlePoliticasWhatsApp() {
                       <li>{language === "es" ? "WhatsApp monitorea cambios sospechosos" : "WhatsApp monitors suspicious changes"}</li>
                     </ul>
                   </section>
+
+                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                      {language === "es" ? "6. Automatización y bots" : "6. Automation and bots"}
+                    </h2>
+                    <p className="text-gray-600 mb-4 leading-relaxed">
+                      <strong className="text-gray-900">{language === "es" ? "Respuesta corta:" : "Short answer:"}</strong>{" "}
+                      {language === "es"
+                        ? "Los bots deben identificarse claramente y no pueden engañar a los usuarios. La automatización debe ser transparente."
+                        : "Bots must be clearly identified and cannot deceive users. Automation must be transparent."}
+                    </p>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                      {language === "es" ? "Identificación de bots" : "Bot identification"}
+                    </h3>
+                    <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                      <li>{language === "es" ? "Los bots deben identificarse como tales" : "Bots must identify themselves as such"}</li>
+                      <li>{language === "es" ? "No pueden simular ser humanos" : "They cannot simulate being human"}</li>
+                      <li>{language === "es" ? "Deben permitir contacto humano fácilmente" : "They must allow easy human contact"}</li>
+                    </ul>
+                  </section>
+
+                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                      {language === "es" ? "7. Comercio y transacciones" : "7. Commerce and transactions"}
+                    </h2>
+                    <p className="text-gray-600 mb-4 leading-relaxed">
+                      <strong className="text-gray-900">{language === "es" ? "Respuesta corta:" : "Short answer:"}</strong>{" "}
+                      {language === "es"
+                        ? "Las transacciones deben cumplir con regulaciones locales. WhatsApp no procesa pagos, solo facilita comunicación."
+                        : "Transactions must comply with local regulations. WhatsApp does not process payments, only facilitates communication."}
+                    </p>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                      {language === "es" ? "Cumplimiento comercial" : "Commercial compliance"}
+                    </h3>
+                    <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                      <li>{language === "es" ? "Cumple con regulaciones de comercio electrónico" : "Comply with e-commerce regulations"}</li>
+                      <li>{language === "es" ? "Proporciona términos y condiciones claros" : "Provide clear terms and conditions"}</li>
+                      <li>{language === "es" ? "Protege datos financieros de clientes" : "Protect customer financial data"}</li>
+                    </ul>
+                  </section>
+
+                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                      {language === "es" ? "8. Seguridad" : "8. Security"}
+                    </h2>
+                    <p className="text-gray-600 mb-4 leading-relaxed">
+                      <strong className="text-gray-900">{language === "es" ? "Respuesta corta:" : "Short answer:"}</strong>{" "}
+                      {language === "es"
+                        ? "Debes proteger datos de usuarios y cumplir con estándares de seguridad. WhatsApp monitorea vulnerabilidades."
+                        : "You must protect user data and comply with security standards. WhatsApp monitors vulnerabilities."}
+                    </p>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                      {language === "es" ? "Protección de datos" : "Data protection"}
+                    </h3>
+                    <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                      <li>{language === "es" ? "Encriptación de datos en tránsito y reposo" : "Data encryption in transit and at rest"}</li>
+                      <li>{language === "es" ? "Control de acceso robusto" : "Robust access control"}</li>
+                      <li>{language === "es" ? "Monitoreo de seguridad continuo" : "Continuous security monitoring"}</li>
+                    </ul>
+                  </section>
+
+                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                      {language === "es" ? "9. Prohibiciones explícitas" : "9. Explicit prohibitions"}
+                    </h2>
+                    <p className="text-gray-600 mb-4 leading-relaxed">
+                      <strong className="text-gray-900">{language === "es" ? "Respuesta corta:" : "Short answer:"}</strong>{" "}
+                      {language === "es"
+                        ? "Está prohibido contenido ilegal, spam, engaño, violencia, contenido sexual no consensuado y actividades fraudulentas."
+                        : "Illegal content, spam, deception, violence, non-consensual sexual content and fraudulent activities are prohibited."}
+                    </p>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                      {language === "es" ? "Contenido prohibido" : "Prohibited content"}
+                    </h3>
+                    <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                      <li>{language === "es" ? "Contenido ilegal o violento" : "Illegal or violent content"}</li>
+                      <li>{language === "es" ? "Spam y mensajes no solicitados" : "Spam and unsolicited messages"}</li>
+                      <li>{language === "es" ? "Estafas y fraude" : "Scams and fraud"}</li>
+                    </ul>
+                  </section>
+
+                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                      {language === "es" ? "10. Monitoreo y cumplimiento" : "10. Monitoring and compliance"}
+                    </h2>
+                    <p className="text-gray-600 mb-4 leading-relaxed">
+                      <strong className="text-gray-900">{language === "es" ? "Respuesta corta:" : "Short answer:"}</strong>{" "}
+                      {language === "es"
+                        ? "WhatsApp monitorea activamente el cumplimiento. Debes cooperar con auditorías y proporcionar información cuando se solicite."
+                        : "WhatsApp actively monitors compliance. You must cooperate with audits and provide information when requested."}
+                    </p>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                      {language === "es" ? "Cooperación con WhatsApp" : "Cooperation with WhatsApp"}
+                    </h3>
+                    <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                      <li>{language === "es" ? "Responde a solicitudes de información" : "Respond to information requests"}</li>
+                      <li>{language === "es" ? "Permite auditorías cuando se requieran" : "Allow audits when required"}</li>
+                      <li>{language === "es" ? "Reporta incidentes de seguridad" : "Report security incidents"}</li>
+                    </ul>
+                  </section>
+
+                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                      {language === "es" ? "11. Regulaciones por país" : "11. Country-specific regulations"}
+                    </h2>
+                    <p className="text-gray-600 mb-4 leading-relaxed">
+                      <strong className="text-gray-900">{language === "es" ? "Respuesta corta:" : "Short answer:"}</strong>{" "}
+                      {language === "es"
+                        ? "Debes cumplir con regulaciones locales como GDPR en Europa, CCPA en California y leyes de datos en Colombia."
+                        : "You must comply with local regulations like GDPR in Europe, CCPA in California and data laws in Colombia."}
+                    </p>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                      {language === "es" ? "Regulaciones clave" : "Key regulations"}
+                    </h3>
+                    <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                      <li>{language === "es" ? "GDPR (Unión Europea)" : "GDPR (European Union)"}</li>
+                      <li>{language === "es" ? "CCPA (California, USA)" : "CCPA (California, USA)"}</li>
+                      <li>{language === "es" ? "Ley 1581 de 2012 (Colombia)" : "Law 1581 of 2012 (Colombia)"}</li>
+                    </ul>
+                  </section>
+
+                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                      {language === "es" ? "12. Mejores prácticas" : "12. Best practices"}
+                    </h2>
+                    <p className="text-gray-600 mb-4 leading-relaxed">
+                      <strong className="text-gray-900">{language === "es" ? "Respuesta corta:" : "Short answer:"}</strong>{" "}
+                      {language === "es"
+                        ? "Obtén consentimiento explícito, mantén baja tasa de rechazo, usa plantillas aprobadas, permite opt-out fácil y monitorea métricas."
+                        : "Get explicit consent, maintain low block rate, use approved templates, allow easy opt-out and monitor metrics."}
+                    </p>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                      {language === "es" ? "Prácticas recomendadas" : "Recommended practices"}
+                    </h3>
+                    <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
+                      <li>{language === "es" ? "Consentimiento explícito antes de enviar" : "Explicit consent before sending"}</li>
+                      <li>{language === "es" ? "Mantén tasa de rechazo <5%" : "Keep block rate <5%"}</li>
+                      <li>{language === "es" ? "Usa solo plantillas aprobadas" : "Use only approved templates"}</li>
+                      <li>{language === "es" ? "Permite opt-out fácil" : "Allow easy opt-out"}</li>
+                      <li>{language === "es" ? "Monitorea métricas continuamente" : "Monitor metrics continuously"}</li>
+                    </ul>
+                  </section>
                 </article>
               </div>
             </div>
