@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronLeft, Share2, Facebook, MessageCircle } from "lucide-react";
@@ -6,30 +7,222 @@ import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function BlogArticle11() {
   const { t, language } = useLanguage();
-  
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const handleShare = (platform: 'facebook' | 'whatsapp') => {
+  const pageTitle =
+    language === "es"
+      ? "Por qué WhatsApp restringe números | Guía Colombia 2026"
+      : "Why WhatsApp restricts numbers | Colombia guide 2026";
+
+  const pageDescription =
+    language === "es"
+      ? "Descubre las razones principales por las que WhatsApp restringe números: spam, alta tasa de rechazo, violación de políticas, contenido inapropiado y falta de consentimiento. Guía para evitar restricciones en Colombia."
+      : "Discover the main reasons why WhatsApp restricts numbers: spam, high block rate, policy violations, inappropriate content and lack of consent. Guide to avoid restrictions in Colombia.";
+
+  const shareText =
+    language === "es"
+      ? "Descubre por qué WhatsApp restringe números y cómo evitar que te restrinjan el tuyo."
+      : "Learn why WhatsApp restricts numbers and how to avoid getting your number restricted.";
+
+  const authorLabel =
+    language === "es"
+      ? "Alex Murillo - Especialista en Automatización con WhatsApp e IA"
+      : "Alex Murillo - WhatsApp and AI Automation Specialist";
+
+  const handleShare = (platform: "facebook" | "whatsapp") => {
     const url = window.location.href;
-    const title = t('articles.article11.title');
-    const text = t('articles.article11.shareText');
-    
-    let shareUrl = '';
-    
-    if (platform === 'facebook') {
-      shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(text)}`;
-    } else if (platform === 'whatsapp') {
-      shareUrl = `https://wa.me/?text=${encodeURIComponent(`${text} ${url}`)}`;
+
+    let shareUrl = "";
+
+    if (platform === "facebook") {
+      shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(shareText)}`;
+    } else if (platform === "whatsapp") {
+      shareUrl = `https://wa.me/?text=${encodeURIComponent(`${shareText} ${url}`)}`;
     }
-    
-    window.open(shareUrl, '_blank', 'width=600,height=400');
+
+    window.open(shareUrl, "_blank", "width=600,height=400");
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-white">
-      <Header />
+    <>
+      <Helmet>
+        <meta charSet="UTF-8" />
+        <title>{pageTitle}</title>
+        <link rel="canonical" href="https://crear.chat/blog/por-que-restringen-whatsapp" />
+        <meta
+          name="author"
+          content={
+            language === "es"
+              ? "Alex Murillo, Especialista en Automatización con WhatsApp e IA en Crear.chat"
+              : "Alex Murillo, WhatsApp and AI Automation Specialist at Crear.chat"
+          }
+        />
+        <meta name="keywords" content="WhatsApp restringe números, restricciones WhatsApp, spam WhatsApp, tasa de rechazo, violación políticas WhatsApp, contenido inapropiado, consentimiento WhatsApp, Colombia" />
+        <meta name="topic" content="WhatsApp Business API, Restricciones, Spam, Políticas, Consentimiento, Colombia" />
+        <meta
+          name="ai-summary"
+          content={
+            language === "es"
+              ? "WhatsApp restringe números principalmente por: spam y mensajes no solicitados, alta tasa de rechazo (>5%), violación de políticas de uso, contenido inapropiado o ilegal, y falta de consentimiento del usuario. Las restricciones van desde advertencias hasta suspensión permanente."
+              : "WhatsApp restricts numbers mainly for: spam and unsolicited messages, high block rate (>5%), policy violations, inappropriate or illegal content, and lack of user consent. Restrictions range from warnings to permanent suspension."
+          }
+        />
+        <meta name="ai-entities" content="WhatsApp Business API, restricciones, spam, tasa de rechazo, políticas de uso, consentimiento, suspensión, Colombia" />
+        <meta name="description" content={pageDescription} />
+        <meta property="og:title" content={pageTitle} />
+        <meta
+          property="og:description"
+          content={
+            language === "es"
+              ? "Respuesta corta: WhatsApp restringe números por spam, alta tasa de rechazo, violación de políticas y falta de consentimiento."
+              : "Short answer: WhatsApp restricts numbers for spam, high block rate, policy violations and lack of consent."
+          }
+        />
+        <meta property="og:image" content="https://crear.chat/logo-black.svg" />
+        <meta property="og:url" content="https://crear.chat/blog/por-que-restringen-whatsapp" />
+        <meta property="og:type" content="article" />
+        <meta property="article:published_time" content="2026-03-21" />
+        <meta property="article:author" content="Alex Murillo" />
+        <meta property="article:section" content={language === "es" ? "Regulaciones" : "Regulations"} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            headline: pageTitle,
+            datePublished: "2026-03-21",
+            dateModified: "2026-04-24",
+            author: {
+              "@type": "Person",
+              name: "Alex Murillo",
+              jobTitle: language === "es" ? "Especialista en Automatización con WhatsApp e IA" : "WhatsApp and AI Automation Specialist",
+              worksFor: {
+                "@type": "Organization",
+                name: "Crear.chat",
+              },
+              url: "https://co.linkedin.com/in/alexandermurillo",
+              sameAs: ["https://crear.chat", "https://co.linkedin.com/in/alexandermurillo"],
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "Crear.chat",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://crear.chat/logo-black.svg",
+              },
+              url: "https://crear.chat",
+            },
+            image: "https://crear.chat/logo-black.svg",
+            description: pageDescription,
+            keywords: "WhatsApp, restricciones, spam, tasa de rechazo, políticas, consentimiento, Colombia",
+            articleSection: language === "es" ? "Regulaciones" : "Regulations",
+            inLanguage: language === "es" ? "es" : "en",
+            wordCount: 2500,
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": "https://crear.chat/blog/por-que-restringen-whatsapp",
+            },
+            about: [
+              { "@type": "Thing", name: "WhatsApp Business API" },
+              { "@type": "Thing", name: language === "es" ? "Restricciones" : "Restrictions" },
+              { "@type": "Thing", name: language === "es" ? "Spam" : "Spam" },
+              { "@type": "Thing", name: language === "es" ? "Políticas de uso" : "Usage policies" },
+            ],
+            mentions: [
+              { "@type": "Thing", name: language === "es" ? "Tasa de rechazo" : "Block rate" },
+              { "@type": "Thing", name: language === "es" ? "Consentimiento" : "Consent" },
+              { "@type": "Thing", name: "Colombia" },
+            ],
+            breadcrumb: {
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Blog",
+                  item: "https://crear.chat/blog",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name:
+                    language === "es"
+                      ? "Por qué WhatsApp restringe números"
+                      : "Why WhatsApp restricts numbers",
+                  item: "https://crear.chat/blog/por-que-restringen-whatsapp",
+                },
+              ],
+            },
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "DefinedTerm",
+            name: language === "es" ? "Restricciones de WhatsApp" : "WhatsApp restrictions",
+            description:
+              language === "es"
+                ? "Limitaciones que WhatsApp impone a números que violan políticas de uso, envían spam o tienen alta tasa de rechazo."
+                : "Limitations that WhatsApp imposes on numbers that violate usage policies, send spam or have high block rate.",
+            url: "https://crear.chat/blog/por-que-restringen-whatsapp",
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name:
+                  language === "es"
+                    ? "¿Por qué WhatsApp restringe números?"
+                    : "Why does WhatsApp restrict numbers?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text:
+                    language === "es"
+                      ? "WhatsApp restringe números principalmente por: spam y mensajes no solicitados, alta tasa de rechazo (>5%), violación de políticas de uso, contenido inapropiado o ilegal, y falta de consentimiento del usuario."
+                      : "WhatsApp restricts numbers mainly for: spam and unsolicited messages, high block rate (>5%), policy violations, inappropriate or illegal content, and lack of user consent.",
+                },
+              },
+              {
+                "@type": "Question",
+                name:
+                  language === "es"
+                    ? "¿Qué es la tasa de rechazo?"
+                    : "What is the block rate?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text:
+                    language === "es"
+                      ? "La tasa de rechazo es el porcentaje de usuarios que bloquean o reportan tus mensajes como spam. WhatsApp recomienda mantenerla por debajo del 5%."
+                      : "The block rate is the percentage of users who block or report your messages as spam. WhatsApp recommends keeping it below 5%.",
+                },
+              },
+              {
+                "@type": "Question",
+                name:
+                  language === "es"
+                    ? "¿Cómo evitar que me restrinjan el número?"
+                    : "How to avoid number restrictions?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text:
+                    language === "es"
+                      ? "Para evitar restricciones: obtén consentimiento explícito, mantén baja tasa de rechazo, usa plantillas aprobadas, permite opt-out fácil y monitorea métricas continuamente."
+                      : "To avoid restrictions: get explicit consent, maintain low block rate, use approved templates, allow easy opt-out and monitor metrics continuously.",
+                },
+              },
+            ],
+          })}
+        </script>
+      </Helmet>
+      <div className="min-h-screen flex flex-col bg-white">
+        <Header />
       <main className="flex-1">
         {/* Article Header */}
         <section className="bg-gradient-to-br from-gray-50 to-blue-50 py-12">
@@ -50,20 +243,22 @@ export default function BlogArticle11() {
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                {t('articles.article11.title')}
+                {pageTitle}
               </h1>
-              
+
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" />
-                  <span>{language === 'es' ? '21 de Marzo de 2026' : 'March 21, 2026'}</span>
+                  <span>{language === "es" ? "21 de Marzo de 2026" : "March 21, 2026"}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4" />
-                  <span>5 {language === 'es' ? 'min de lectura' : 'min read'}</span>
+                  <span>5 {language === "es" ? "min de lectura" : "min read"}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span>{language === 'es' ? 'Redacción:' : 'By:'} Alex Murillo + {language === 'es' ? 'equipo de soporte' : 'support team'}</span>
+                  <span>
+                    {language === "es" ? "Autor:" : "Author:"} {authorLabel}
+                  </span>
                 </div>
               </div>
             </div>
@@ -76,11 +271,13 @@ export default function BlogArticle11() {
             <div className="max-w-4xl mx-auto">
               <article className="prose prose-lg max-w-none">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  {t('articles.article11.title')}
+                  {pageTitle}
                 </h2>
-                
+
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  {language === 'es' ? 'Entender por qué WhatsApp restringe números es crucial para evitar que te suceda. Aquí están las razones principales.' : 'Understanding why WhatsApp restricts numbers is crucial to avoid it happening to you. Here are the main reasons.'}
+                  {language === "es"
+                    ? "Entender por qué WhatsApp restringe números es crucial para evitar que te suceda. Aquí están las razones principales."
+                    : "Understanding why WhatsApp restricts numbers is crucial to avoid it happening to you. Here are the main reasons."}
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
@@ -755,5 +952,6 @@ export default function BlogArticle11() {
       </main>
       <Footer />
     </div>
+    </>
   );
 }
