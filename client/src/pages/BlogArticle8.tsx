@@ -915,12 +915,12 @@ export default function BlogArticleCobroPlataformas() {
                         {language === "es" ? "Siguiente artículo" : "Next article"}
                       </p>
                       <a
-                        href="/blog/beneficios-whatsapp-business-api-ia"
+                        href="/blog/como-seleccionar-proveedor-whatsapp"
                         className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                       >
                         {language === "es"
-                          ? "Beneficios de WhatsApp Business API con IA"
-                          : "Benefits of WhatsApp Business API with AI"}
+                          ? "¿Qué tener en cuenta para seleccionar un proveedor de WhatsApp?"
+                          : "What to consider when selecting a WhatsApp provider?"}
                       </a>
                     </div>
                   </div>
