@@ -508,7 +508,7 @@ export default function BlogArticlePoliticasWhatsApp() {
                   </section>
 
                   <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
-                    <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                    <h2 id="prohibiciones" className="text-2xl font-bold text-gray-900 mb-4">
                       {language === "es" ? "9. Prohibiciones explícitas" : "9. Explicit prohibitions"}
                     </h2>
                     <p className="text-gray-600 mb-4 leading-relaxed">
@@ -528,7 +528,7 @@ export default function BlogArticlePoliticasWhatsApp() {
                   </section>
 
                   <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
-                    <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                    <h2 id="consecuencias" className="text-2xl font-bold text-gray-900 mb-4">
                       {language === "es" ? "10. Monitoreo y cumplimiento" : "10. Monitoring and compliance"}
                     </h2>
                     <p className="text-gray-600 mb-4 leading-relaxed">
