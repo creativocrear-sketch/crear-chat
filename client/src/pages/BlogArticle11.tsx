@@ -280,7 +280,33 @@ export default function BlogArticle11() {
                     : "Understanding why WhatsApp restricts numbers is crucial to avoid it happening to you. Here are the main reasons."}
                 </p>
 
-                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
+                <section className="grid gap-4 md:grid-cols-2 mb-8">
+                  <div className="rounded-2xl border border-emerald-100 bg-emerald-50 p-6">
+                    <h2 className="text-xl font-bold text-gray-900 mb-4">
+                      {language === "es" ? "Cifras rápidas" : "Quick figures"}
+                    </h2>
+                    <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-0">
+                      <li>{language === "es" ? "Tasa de rechazo máxima recomendada: <5%" : "Maximum recommended block rate: <5%"}</li>
+                      <li>{language === "es" ? "5 razones principales de restricción" : "5 main reasons for restriction"}</li>
+                      <li>{language === "es" ? "4 niveles de consecuencias por incumplimiento" : "4 levels of consequences for non-compliance"}</li>
+                      <li>{language === "es" ? "Las restricciones pueden ser permanentes" : "Restrictions can be permanent"}</li>
+                    </ul>
+                  </div>
+
+                  <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+                    <h2 className="text-xl font-bold text-gray-900 mb-4">
+                      {language === "es" ? "Preguntas clave que responde este artículo" : "Key questions this article answers"}
+                    </h2>
+                    <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-0">
+                      <li><a href="#spam" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Qué es el spam?" : "What is spam?"}</a></li>
+                      <li><a href="#tasa-rechazo" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Qué es la tasa de rechazo?" : "What is the block rate?"}</a></li>
+                      <li><a href="#politicas" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Qué violaciones de políticas existen?" : "What policy violations exist?"}</a></li>
+                      <li><a href="#consecuencias" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Cuáles son las consecuencias?" : "What are the consequences?"}</a></li>
+                    </ul>
+                  </div>
+                </section>
+
+                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8" id="spam">
                   {language === 'es' ? '1. Spam y mensajes no solicitados' : '1. Spam and unsolicited messages'}
                 </h3>
 
@@ -326,7 +352,7 @@ export default function BlogArticle11() {
                   {language === 'es' ? '2. Tasa alta de rechazo' : '2. High block rate'}
                 </h3>
 
-                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6" id="tasa-rechazo">
                   {language === 'es' ? 'Qué es tasa de rechazo' : 'What is block rate'}
                 </h4>
                 
@@ -366,7 +392,7 @@ export default function BlogArticle11() {
                   <li>{language === 'es' ? 'Actualiza lista de contactos' : 'Update contact list'}</li>
                 </ul>
 
-                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8">
+                <h3 className="text-xl font-bold text-gray-900 mb-4 mt-8" id="politicas">
                   {language === 'es' ? '3. Violación de políticas de contenido' : '3. Content policy violations'}
                 </h3>
 
@@ -399,7 +425,7 @@ export default function BlogArticle11() {
                   <li>{language === 'es' ? 'Machine learning' : 'Machine learning'}</li>
                 </ul>
 
-                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
+                <h4 className="text-lg font-semibold text-gray-900 mb-3 mt-6" id="consecuencias">
                   {language === 'es' ? 'Consecuencias' : 'Consequences'}
                 </h4>
                 
