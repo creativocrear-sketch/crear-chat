@@ -592,6 +592,37 @@ export default function BlogArticlePoliticasWhatsApp() {
                 </article>
 
                 <div className="mt-12 pt-8 border-t border-gray-200">
+                  <div className="flex items-center justify-between">
+                    <div className="text-left">
+                      <p className="text-sm text-gray-500 mb-1">
+                        {language === "es" ? "Artículo anterior" : "Previous article"}
+                      </p>
+                      <a
+                        href="/blog/como-seleccionar-proveedor-whatsapp"
+                        className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
+                      >
+                        {language === "es"
+                          ? "Cómo seleccionar el proveedor de WhatsApp Business API"
+                          : "How to select WhatsApp Business API provider"}
+                      </a>
+                    </div>
+                    <div className="text-right">
+                      <p className="text-sm text-gray-500 mb-1">
+                        {language === "es" ? "Siguiente artículo" : "Next article"}
+                      </p>
+                      <a
+                        href="/blog/por-que-restringen-whatsapp"
+                        className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
+                      >
+                        {language === "es"
+                          ? "Por qué WhatsApp restringe números"
+                          : "Why WhatsApp restricts numbers"}
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mt-12 pt-8 border-t border-gray-200">
                   <h3 className="text-xl font-bold text-gray-900 mb-4">
                     {language === "es" ? "Compartir artículo" : "Share article"}
                   </h3>
