@@ -529,21 +529,22 @@ export default function BlogArticlePoliticasWhatsApp() {
 
                   <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
                     <h2 id="consecuencias" className="text-2xl font-bold text-gray-900 mb-4">
-                      {language === "es" ? "10. Monitoreo y cumplimiento" : "10. Monitoring and compliance"}
+                      {language === "es" ? "10. Consecuencias por incumplimiento" : "10. Consequences for non-compliance"}
                     </h2>
                     <p className="text-gray-600 mb-4 leading-relaxed">
                       <strong className="text-gray-900">{language === "es" ? "Respuesta corta:" : "Short answer:"}</strong>{" "}
                       {language === "es"
-                        ? "WhatsApp monitorea activamente el cumplimiento. Debes cooperar con auditorías y proporcionar información cuando se solicite."
-                        : "WhatsApp actively monitors compliance. You must cooperate with audits and provide information when requested."}
+                        ? "Las consecuencias van en escala: 1) Advertencia por primer incumplimiento con oportunidad de corregir, 2) Restricción temporal (24-72 horas) de envío de mensajes, 3) Suspensión temporal o permanente con incapacidad de enviar mensajes, 4) Terminación con cierre permanente de cuenta, pérdida del número y prohibición de crear nuevas cuentas."
+                        : "Consequences scale as: 1) Warning for first non-compliance with opportunity to correct, 2) Temporary restriction (24-72 hours) on message sending, 3) Temporary or permanent suspension with inability to send messages, 4) Termination with permanent account closure, number loss and prohibition from creating new accounts."}
                     </p>
                     <h3 className="text-lg font-semibold text-gray-900 mb-3 mt-6">
-                      {language === "es" ? "Cooperación con WhatsApp" : "Cooperation with WhatsApp"}
+                      {language === "es" ? "Niveles de consecuencias" : "Levels of consequences"}
                     </h3>
                     <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-6">
-                      <li>{language === "es" ? "Responde a solicitudes de información" : "Respond to information requests"}</li>
-                      <li>{language === "es" ? "Permite auditorías cuando se requieran" : "Allow audits when required"}</li>
-                      <li>{language === "es" ? "Reporta incidentes de seguridad" : "Report security incidents"}</li>
+                      <li>{language === "es" ? "Advertencia con oportunidad de corregir" : "Warning with opportunity to correct"}</li>
+                      <li>{language === "es" ? "Restricción temporal de envío (24-72 horas)" : "Temporary sending restriction (24-72 hours)"}</li>
+                      <li>{language === "es" ? "Suspensión temporal o permanente" : "Temporary or permanent suspension"}</li>
+                      <li>{language === "es" ? "Terminación con cierre permanente de cuenta" : "Termination with permanent account closure"}</li>
                     </ul>
                   </section>
 
