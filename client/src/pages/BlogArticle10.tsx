@@ -517,10 +517,10 @@ export default function BlogArticle10() {
                   <div className="text-left">
                     <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Artículo anterior' : 'Previous article'}</p>
                     <a
-                      href="/blog/como-seleccionar-proveedor-whatsapp"
+                      href="/blog/cobro-plataformas-whatsapp"
                       className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                     >
-                      {language === 'es' ? '¿Qué debo tener en cuenta para seleccionar un proveedor de WhatsApp y la plataforma?' : 'What should I consider when selecting a WhatsApp provider and platform?'}
+                      {language === 'es' ? '¿Cómo es el cobro que hacen las plataformas de chats de WhatsApp?' : 'How do WhatsApp chat platforms charge?'}
                     </a>
                   </div>
                   <div className="text-right">

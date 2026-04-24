@@ -814,8 +814,8 @@ export default function BlogArticleDiferenciasPlataformas() {
                         className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                       >
                         {language === "es"
-                          ? "Por qué necesitas una plataforma para WhatsApp Business API"
-                          : "Why you need a platform for WhatsApp Business API"}
+                          ? "¿Por qué necesito una plataforma para WhatsApp Business API?"
+                          : "Why do I need a platform for WhatsApp Business API?"}
                       </a>
                     </div>
                     <div className="text-right">
@@ -823,12 +823,12 @@ export default function BlogArticleDiferenciasPlataformas() {
                         {language === "es" ? "Siguiente artículo" : "Next article"}
                       </p>
                       <a
-                        href="/blog/beneficios-whatsapp-business-api-ia"
+                        href="/blog/cobro-plataformas-whatsapp"
                         className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                       >
                         {language === "es"
-                          ? "Beneficios de WhatsApp Business API con IA"
-                          : "Benefits of WhatsApp Business API with AI"}
+                          ? "¿Cómo es el cobro que hacen las plataformas de chats de WhatsApp?"
+                          : "How do WhatsApp chat platforms charge?"}
                       </a>
                     </div>
                   </div>
