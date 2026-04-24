@@ -623,7 +623,7 @@ export default function BlogArticlePoliticasWhatsApp() {
                   {language === "es" ? "Artículos relacionados" : "Related articles"}
                 </h2>
                 <div className="grid gap-6 md:grid-cols-3">
-                  <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
+                    <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                       <div className="p-6">
                         <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
                           {language === "es" ? "Regulaciones" : "Regulations"}
@@ -699,9 +699,10 @@ export default function BlogArticlePoliticasWhatsApp() {
               </div>
             </div>
           </section>
+
         </main>
-      <Footer />
-    </div>
+        <Footer />
+      </div>
     </>
   );
 }
