@@ -217,10 +217,11 @@ export default function BlogArticlePoliticasWhatsApp() {
         </script>
       </Helmet>
 
-      <Header />
-      <main className="flex-1">
-        {/* Article Header */}
-        <section className="bg-gradient-to-br from-gray-50 to-blue-50 py-12">
+      <div className="min-h-screen flex flex-col bg-white">
+        <Header />
+        <main className="flex-1">
+          {/* Hero */}
+          <section className="bg-gradient-to-br from-gray-50 to-blue-50 py-12">
           <div className="container">
             <div className="max-w-4xl mx-auto">
               <a
@@ -1117,8 +1118,9 @@ export default function BlogArticlePoliticasWhatsApp() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
+        </main>
+        <Footer />
+      </div>
     </>
   );
 }
