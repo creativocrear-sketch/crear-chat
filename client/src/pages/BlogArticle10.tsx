@@ -223,7 +223,9 @@ export default function BlogArticlePoliticasWhatsApp() {
                     </span>
                   </div>
               </div>
-          </section>
+            </div>
+          </div>
+        </section>
 
           <section className="py-16">
             <div className="container">
@@ -589,10 +591,10 @@ export default function BlogArticlePoliticasWhatsApp() {
                 </article>
               </div>
             </div>
-          </div>
         </section>
       </main>
       <Footer />
+    </div>
     </>
   );
 }
