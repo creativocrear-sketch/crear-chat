@@ -298,7 +298,7 @@ export default function BlogArticlePoliticasWhatsApp() {
                     </p>
                   </section>
 
-                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                  <section className="mb-8">
                     <h2 id="calidad-mensajes" className="text-2xl font-bold text-gray-900 mb-4">
                       {language === "es" ? "1. Calidad de mensajes" : "1. Message quality"}
                     </h2>
@@ -309,26 +309,23 @@ export default function BlogArticlePoliticasWhatsApp() {
                         : "WhatsApp monitors your message quality through block rate, content and frequency. Keeping a block rate under 5% is essential."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Tasa de rechazo:" : "Block rate:"}</strong>{" "}
                       {language === "es"
                         ? "WhatsApp monitorea si tus mensajes son bloqueados o reportados. Si tu tasa de rechazo es muy alta, tu cuenta puede ser suspendida. Mantén una tasa de rechazo inferior al 5%."
                         : "WhatsApp monitors if your messages are blocked or reported. If your block rate is very high, your account may be suspended. Keep a block rate under 5%."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Contenido apropiado:" : "Appropriate content:"}</strong>{" "}
                       {language === "es"
                         ? "No envíes spam. No envíes contenido ilegal. No envíes phishing o estafas. No envíes malware."
                         : "Do not send spam. Do not send illegal content. Do not send phishing or scams. Do not send malware."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Frecuencia:" : "Frequency:"}</strong>{" "}
                       {language === "es"
                         ? "No envíes demasiados mensajes a un mismo contacto. Respeta los horarios de los usuarios. No envíes mensajes no solicitados masivamente."
                         : "Do not send too many messages to the same contact. Respect users' hours. Do not send mass unsolicited messages."}
                     </p>
                   </section>
 
-                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                  <section className="mb-8">
                     <h2 id="consentimiento" className="text-2xl font-bold text-gray-900 mb-4">
                       {language === "es" ? "2. Consentimiento" : "2. Consent"}
                     </h2>
@@ -339,20 +336,18 @@ export default function BlogArticlePoliticasWhatsApp() {
                         : "You must obtain explicit consent before sending messages and allow users to easily unsubscribe."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Consentimiento previo:" : "Prior consent:"}</strong>{" "}
                       {language === "es"
                         ? "Debes tener consentimiento explícito antes de enviar mensajes. El usuario debe haber optado por recibir mensajes. Documentar el consentimiento es importante."
                         : "You must have explicit consent before sending messages. The user must have opted to receive messages. Documenting consent is important."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Opt-out:" : "Opt-out:"}</strong>{" "}
                       {language === "es"
                         ? "Debes permitir que los usuarios se den de baja. Respeta las solicitudes de 'STOP' o 'DEJAR DE ENVIAR'. Procesa opt-outs inmediatamente."
                         : "You must allow users to unsubscribe. Respect 'STOP' or 'DEJAR DE ENVIAR' requests. Process opt-outs immediately."}
                     </p>
                   </section>
 
-                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                  <section className="mb-8">
                     <h2 className="text-2xl font-bold text-gray-900 mb-4">
                       {language === "es" ? "3. Privacidad y datos" : "3. Privacy and data"}
                     </h2>
@@ -363,20 +358,18 @@ export default function BlogArticlePoliticasWhatsApp() {
                         : "You must comply with GDPR, CCPA and local regulations, protect personal information and be transparent about data use."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Protección de datos:" : "Data protection:"}</strong>{" "}
                       {language === "es"
                         ? "Cumple con GDPR, CCPA y regulaciones locales. Protege información personal de usuarios. No compartas datos con terceros sin consentimiento."
                         : "Comply with GDPR, CCPA and local regulations. Protect users' personal information. Do not share data with third parties without consent."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Transparencia:" : "Transparency:"}</strong>{" "}
                       {language === "es"
                         ? "Informa a usuarios cómo usarás sus datos. Sé claro sobre quién está enviando mensajes. Proporciona política de privacidad clara."
                         : "Inform users how you will use their data. Be clear about who is sending messages. Provide clear privacy policy."}
                     </p>
                   </section>
 
-                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                  <section className="mb-8">
                     <h2 id="plantillas" className="text-2xl font-bold text-gray-900 mb-4">
                       {language === "es" ? "4. Plantillas de mensajes" : "4. Message templates"}
                     </h2>
@@ -387,20 +380,18 @@ export default function BlogArticlePoliticasWhatsApp() {
                         : "All templates must be approved by WhatsApp before use. They cannot contain misleading content or spam."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Aprobación requerida:" : "Approval required:"}</strong>{" "}
                       {language === "es"
                         ? "Todas las plantillas deben ser aprobadas por WhatsApp. No puedes enviar mensajes que no sean de plantillas aprobadas. La aprobación puede tomar 24-48 horas."
                         : "All templates must be approved by WhatsApp. You cannot send messages that are not from approved templates. Approval may take 24-48 hours."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Contenido de plantillas:" : "Template content:"}</strong>{" "}
                       {language === "es"
                         ? "No pueden contener contenido engañoso. Deben ser claras y profesionales. No pueden contener spam o phishing."
                         : "They cannot contain misleading content. They must be clear and professional. They cannot contain spam or phishing."}
                     </p>
                   </section>
 
-                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                  <section className="mb-8">
                     <h2 className="text-2xl font-bold text-gray-900 mb-4">
                       {language === "es" ? "5. Números de teléfono" : "5. Phone numbers"}
                     </h2>
@@ -411,20 +402,18 @@ export default function BlogArticlePoliticasWhatsApp() {
                         : "Your number must be verified with business documentation. Frequent changes may result in restrictions."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Verificación:" : "Verification:"}</strong>{" "}
                       {language === "es"
                         ? "Tu número debe ser verificado. Debes proporcionar documentación de negocio. WhatsApp puede solicitar verificación adicional."
                         : "Your number must be verified. You must provide business documentation. WhatsApp may request additional verification."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Cambios de número:" : "Number changes:"}</strong>{" "}
                       {language === "es"
                         ? "Los cambios frecuentes pueden resultar en restricciones. Debes justificar cambios de número. WhatsApp monitorea cambios sospechosos."
                         : "Frequent changes may result in restrictions. You must justify number changes. WhatsApp monitors suspicious changes."}
                     </p>
                   </section>
 
-                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                  <section className="mb-8">
                     <h2 className="text-2xl font-bold text-gray-900 mb-4">
                       {language === "es" ? "6. Automatización y bots" : "6. Automation and bots"}
                     </h2>
@@ -435,14 +424,13 @@ export default function BlogArticlePoliticasWhatsApp() {
                         : "Bots must be clearly identified and cannot deceive users. Automation must be transparent."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Identificación de bots:" : "Bot identification:"}</strong>{" "}
                       {language === "es"
                         ? "Los bots deben identificarse como tales. No pueden simular ser humanos. Deben permitir contacto humano fácilmente."
                         : "Bots must identify themselves as such. They cannot simulate being human. They must allow easy human contact."}
                     </p>
                   </section>
 
-                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                  <section className="mb-8">
                     <h2 className="text-2xl font-bold text-gray-900 mb-4">
                       {language === "es" ? "7. Comercio y transacciones" : "7. Commerce and transactions"}
                     </h2>
@@ -453,14 +441,13 @@ export default function BlogArticlePoliticasWhatsApp() {
                         : "Transactions must comply with local regulations. WhatsApp does not process payments, only facilitates communication."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Cumplimiento comercial:" : "Commercial compliance:"}</strong>{" "}
                       {language === "es"
                         ? "Cumple con regulaciones de comercio electrónico. Proporciona términos y condiciones claros. Protege datos financieros de clientes."
                         : "Comply with e-commerce regulations. Provide clear terms and conditions. Protect customer financial data."}
                     </p>
                   </section>
 
-                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                  <section className="mb-8">
                     <h2 className="text-2xl font-bold text-gray-900 mb-4">
                       {language === "es" ? "8. Seguridad" : "8. Security"}
                     </h2>
@@ -471,14 +458,13 @@ export default function BlogArticlePoliticasWhatsApp() {
                         : "You must protect user data and comply with security standards. WhatsApp monitors vulnerabilities."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Protección de datos:" : "Data protection:"}</strong>{" "}
                       {language === "es"
                         ? "Encriptación de datos en tránsito y reposo. Control de acceso robusto. Monitoreo de seguridad continuo."
                         : "Data encryption in transit and at rest. Robust access control. Continuous security monitoring."}
                     </p>
                   </section>
 
-                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                  <section className="mb-8">
                     <h2 id="prohibiciones" className="text-2xl font-bold text-gray-900 mb-4">
                       {language === "es" ? "9. Prohibiciones explícitas" : "9. Explicit prohibitions"}
                     </h2>
@@ -489,14 +475,13 @@ export default function BlogArticlePoliticasWhatsApp() {
                         : "Illegal content, spam, deception, violence, non-consensual sexual content and fraudulent activities are prohibited."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Contenido prohibido:" : "Prohibited content:"}</strong>{" "}
                       {language === "es"
                         ? "Contenido ilegal o violento. Spam y mensajes no solicitados. Estafas y fraude."
                         : "Illegal or violent content. Spam and unsolicited messages. Scams and fraud."}
                     </p>
                   </section>
 
-                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                  <section className="mb-8">
                     <h2 id="consecuencias" className="text-2xl font-bold text-gray-900 mb-4">
                       {language === "es" ? "10. Consecuencias por incumplimiento" : "10. Consequences for non-compliance"}
                     </h2>
@@ -507,14 +492,13 @@ export default function BlogArticlePoliticasWhatsApp() {
                         : "Consequences scale as: 1) Warning for first non-compliance with opportunity to correct, 2) Temporary restriction (24-72 hours) on message sending, 3) Temporary or permanent suspension with inability to send messages, 4) Termination with permanent account closure, number loss and prohibition from creating new accounts."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Niveles de consecuencias:" : "Levels of consequences:"}</strong>{" "}
                       {language === "es"
                         ? "Advertencia con oportunidad de corregir. Restricción temporal de envío (24-72 horas). Suspensión temporal o permanente. Terminación con cierre permanente de cuenta."
                         : "Warning with opportunity to correct. Temporary sending restriction (24-72 hours). Temporary or permanent suspension. Termination with permanent account closure."}
                     </p>
                   </section>
 
-                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                  <section className="mb-8">
                     <h2 className="text-2xl font-bold text-gray-900 mb-4">
                       {language === "es" ? "11. Regulaciones por país" : "11. Country-specific regulations"}
                     </h2>
@@ -525,14 +509,13 @@ export default function BlogArticlePoliticasWhatsApp() {
                         : "You must comply with local regulations like GDPR in Europe, CCPA in California and data laws in Colombia."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Regulaciones clave:" : "Key regulations:"}</strong>{" "}
                       {language === "es"
                         ? "GDPR (Unión Europea). CCPA (California, USA). Ley 1581 de 2012 (Colombia)."
                         : "GDPR (European Union). CCPA (California, USA). Law 1581 of 2012 (Colombia)."}
                     </p>
                   </section>
 
-                  <section className="rounded-2xl border border-blue-100 bg-white p-6 mb-8">
+                  <section className="mb-8">
                     <h2 className="text-2xl font-bold text-gray-900 mb-4">
                       {language === "es" ? "12. Mejores prácticas" : "12. Best practices"}
                     </h2>
@@ -543,7 +526,6 @@ export default function BlogArticlePoliticasWhatsApp() {
                         : "Get explicit consent, maintain low block rate, use approved templates, allow easy opt-out and monitor metrics."}
                     </p>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong className="text-gray-900">{language === "es" ? "Prácticas recomendadas:" : "Recommended practices:"}</strong>{" "}
                       {language === "es"
                         ? "Consentimiento explícito antes de enviar. Mantén tasa de rechazo <5%. Usa solo plantillas aprobadas. Permite opt-out fácil. Monitorea métricas continuamente."
                         : "Explicit consent before sending. Keep block rate <5%. Use only approved templates. Allow easy opt-out. Monitor metrics continuously."}
