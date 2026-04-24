@@ -454,7 +454,7 @@ export default function BlogArticlePoliticasWhatsApp() {
                         className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                       >
                         {language === "es"
-                          ? "Cómo seleccionar el proveedor de WhatsApp Business API"
+                          ? "¿Cómo seleccionar el proveedor de WhatsApp Business API?"
                           : "How to select WhatsApp Business API provider"}
                       </a>
                     </div>
@@ -467,7 +467,7 @@ export default function BlogArticlePoliticasWhatsApp() {
                         className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
                       >
                         {language === "es"
-                          ? "Por qué WhatsApp restringe números"
+                          ? "¿Por qué WhatsApp restringe números?"
                           : "Why WhatsApp restricts numbers"}
                       </a>
                     </div>
