@@ -585,13 +585,45 @@ export default function BlogArticlePoliticasWhatsApp() {
                     </button>
                   </div>
                 </div>
+              </div>
+            </div>
+          </section>
 
-                <div className="mt-12 pt-8 border-t border-gray-200">
-                  <h3 className="text-xl font-bold text-gray-900 mb-6">
-                    {language === "es" ? "Artículos relacionados" : "Related articles"}
-                  </h3>
-                  <div className="grid gap-6 md:grid-cols-3">
-                    <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
+          <section className="py-16 bg-gradient-to-br from-blue-50 to-indigo-50">
+            <div className="container">
+              <div className="max-w-4xl mx-auto text-center">
+                <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-blue-100">
+                  <h2 className="font-bold text-3xl md:text-4xl text-gray-900 mb-4">
+                    {language === "es" ? "¿Necesitas ayuda con el cumplimiento de políticas de WhatsApp?" : "Need help with WhatsApp policy compliance?"}
+                  </h2>
+                  <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+                    {language === "es"
+                      ? "Escríbeme y revisamos tu caso para evitar restricciones y optimizar tu operación de WhatsApp Business API."
+                      : "Write to me and we will review your case to avoid restrictions and optimize your WhatsApp Business API operation."}
+                  </p>
+
+                  <a
+                    href="https://wa.me/+573105317126"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl"
+                  >
+                    <MessageCircle className="w-5 h-5" />
+                    {language === "es" ? "Contactar por WhatsApp" : "Contact via WhatsApp"}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="py-16">
+            <div className="container">
+              <div className="max-w-6xl mx-auto">
+                <h2 className="font-bold text-2xl md:text-3xl text-gray-900 mb-8">
+                  {language === "es" ? "Artículos relacionados" : "Related articles"}
+                </h2>
+                <div className="grid gap-6 md:grid-cols-3">
+                  <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                       <div className="p-6">
                         <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
                           {language === "es" ? "Regulaciones" : "Regulations"}
@@ -663,33 +695,6 @@ export default function BlogArticlePoliticasWhatsApp() {
                       </div>
                     </article>
                   </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section className="py-16 bg-gradient-to-br from-blue-50 to-indigo-50">
-            <div className="container">
-              <div className="max-w-4xl mx-auto text-center">
-                <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-blue-100">
-                  <h2 className="font-bold text-3xl md:text-4xl text-gray-900 mb-4">
-                    {language === "es" ? "¿Necesitas ayuda con el cumplimiento de políticas de WhatsApp?" : "Need help with WhatsApp policy compliance?"}
-                  </h2>
-                  <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                    {language === "es"
-                      ? "Escríbeme y revisamos tu caso para evitar restricciones y optimizar tu operación de WhatsApp Business API."
-                      : "Write to me and we will review your case to avoid restrictions and optimize your WhatsApp Business API operation."}
-                  </p>
-
-                  <a
-                    href="https://wa.me/+573105317126"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl"
-                  >
-                    <MessageCircle className="w-5 h-5" />
-                    {language === "es" ? "Contactar por WhatsApp" : "Contact via WhatsApp"}
-                  </a>
                 </div>
               </div>
             </div>
