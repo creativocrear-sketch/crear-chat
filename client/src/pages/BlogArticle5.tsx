@@ -395,15 +395,15 @@ export default function BlogArticle5() {
                     </h2>
                     <p className="text-gray-700 mb-0 leading-relaxed">
                       {language === "es" ? "Si estás evaluando integraciones, también te conviene revisar " : "If you are evaluating integrations, you should also review "}
-                      <a href="/consultoria-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/consultoria" className="text-[#1B4F72] hover:underline font-medium">
                         {language === "es" ? "consultoría de WhatsApp Business API" : "WhatsApp Business API consulting"}
                       </a>
                       ,{" "}
-                      <a href="/plataforma-integrada" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/plataforma" className="text-[#1B4F72] hover:underline font-medium">
                         {language === "es" ? "plataforma integrada" : "integrated platform"}
                       </a>
                       ,{" "}
-                      <a href="/automatizacion-ventas" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/modulos/crm" className="text-[#1B4F72] hover:underline font-medium">
                         {language === "es" ? "automatización de ventas" : "sales automation"}
                       </a>
                       {" "}{language === "es" ? "y nuestra guía sobre " : "and our guide about "}

@@ -26,14 +26,6 @@ import AlcaldiaArticle3 from "./pages/AlcaldiaArticle3";
 import AlcaldiaArticle4 from "./pages/AlcaldiaArticle4";
 import AlcaldiaArticle5 from "./pages/AlcaldiaArticle5";
 import Planes from "./pages/Planes";
-import ConsultoriaWhatsApp from "./pages/ConsultoriaWhatsApp";
-import EstrategiasMarketing from "./pages/EstrategiasMarketing";
-import TransformacionDigital from "./pages/TransformacionDigital";
-import AutomatizacionVentas from "./pages/AutomatizacionVentas";
-import PlataformaIntegrada from "./pages/PlataformaIntegrada";
-import GestionContactos from "./pages/GestionContactos";
-import DashboardWeb from "./pages/DashboardWeb";
-import ChatbotsConversacionales from "./pages/ChatbotsConversacionales";
 import PoliticaDePrivacidad from "./pages/PoliticaDePrivacidad";
 
 
@@ -53,18 +45,7 @@ function Router() {
       <Route path={"/blog/como-seleccionar-proveedor-whatsapp"} component={BlogArticle9} />
       <Route path={"/blog/politicas-whatsapp-business-api"} component={BlogArticle10} />
       <Route path={"/blog/por-que-restringen-whatsapp"} component={BlogArticle11} />
-      {/* Rutas antiguas para compatibilidad - redirección */}
-      <Route path={"/blog/articulo-1"} component={BlogArticle1} />
-      <Route path={"/blog/articulo-2"} component={BlogArticle2} />
-      <Route path={"/blog/articulo-3"} component={BlogArticle3} />
-      <Route path={"/blog/articulo-4"} component={BlogArticle4} />
-      <Route path={"/blog/articulo-5"} component={BlogArticle5} />
-      <Route path={"/blog/articulo-6"} component={BlogArticle6} />
-      <Route path={"/blog/articulo-7"} component={BlogArticle7} />
-      <Route path={"/blog/articulo-8"} component={BlogArticle8} />
-      <Route path={"/blog/articulo-9"} component={BlogArticle9} />
-      <Route path={"/blog/articulo-10"} component={BlogArticle10} />
-      <Route path={"/blog/articulo-11"} component={BlogArticle11} />
+      {/* Las URL antiguas (/blog/articulo-N, páginas de servicios) se redirigen con 301 en vercel.json */}
       <Route path={"/alcaldias"} component={Alcaldias} />
       <Route path={"/alcaldias/guia-turistica-whatsapp"} component={AlcaldiaArticle1} />
       <Route path={"/alcaldias/consulta-deudas-whatsapp"} component={AlcaldiaArticle2} />
@@ -72,14 +53,6 @@ function Router() {
       <Route path={"/alcaldias/consulta-sisben-subsidios"} component={AlcaldiaArticle4} />
       <Route path={"/alcaldias/consulta-turnos-agentes-transito"} component={AlcaldiaArticle5} />
       <Route path={"/planes"} component={Planes} />
-      <Route path={"/consultoria-whatsapp"} component={ConsultoriaWhatsApp} />
-      <Route path={"/estrategias-marketing"} component={EstrategiasMarketing} />
-      <Route path={"/transformacion-digital"} component={TransformacionDigital} />
-      <Route path={"/automatizacion-ventas"} component={AutomatizacionVentas} />
-      <Route path={"/plataforma-integrada"} component={PlataformaIntegrada} />
-      <Route path={"/gestion-contactos"} component={GestionContactos} />
-      <Route path={"/dashboard-web"} component={DashboardWeb} />
-      <Route path={"/chatbots-conversacionales"} component={ChatbotsConversacionales} />
       <Route path={"/Politica-De-Privacidad"} component={PoliticaDePrivacidad} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}

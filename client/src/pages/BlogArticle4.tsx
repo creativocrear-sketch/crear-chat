@@ -312,11 +312,11 @@ export default function BlogArticle4() {
                   </h2>
                   <p className="text-gray-700 mb-0 leading-relaxed">
                     {language === 'es' ? 'Si estás evaluando esta solución, también te conviene revisar ' : 'If you are evaluating this solution, you should also review '}
-                    <a href="/chatbots-conversacionales" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'chatbots conversacionales' : 'conversational chatbots'}</a>,
+                    <a href="/modulos/automatizacion-chatbot" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'chatbots conversacionales' : 'conversational chatbots'}</a>,
                     {' '}
-                    <a href="/automatizacion-ventas" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'automatización de ventas' : 'sales automation'}</a>,
+                    <a href="/modulos/crm" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'automatización de ventas' : 'sales automation'}</a>,
                     {' '}
-                    <a href="/consultoria-whatsapp" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'consultoría especializada en WhatsApp Business API' : 'specialized WhatsApp Business API consulting'}</a>
+                    <a href="/consultoria" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'consultoría especializada en WhatsApp Business API' : 'specialized WhatsApp Business API consulting'}</a>
                     {' '}
                     {language === 'es' ? 'y nuestra guía para ' : 'and our guide to '}
                     <a href="/blog/primeros-pasos-migrar-whatsapp-api" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'migrar WhatsApp Business API' : 'migrate WhatsApp Business API'}</a>.
@@ -577,7 +577,7 @@ export default function BlogArticle4() {
 
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {language === 'es' ? 'Si además quieres conectar agentes, CRM y automatización comercial, revisa nuestra página sobre ' : 'If you also want to connect agents, CRM and commercial automation, review our page about '}
-                  <a href="/consultoria-whatsapp" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'consultoría de WhatsApp Business API' : 'WhatsApp Business API consulting'}</a>.
+                  <a href="/consultoria" className="text-[#1B4F72] hover:underline font-medium">{language === 'es' ? 'consultoría de WhatsApp Business API' : 'WhatsApp Business API consulting'}</a>.
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">

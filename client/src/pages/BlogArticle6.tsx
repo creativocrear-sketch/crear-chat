@@ -399,11 +399,11 @@ export default function BlogArticle6() {
                         {language === "es" ? "las diferencias entre plataformas" : "the differences between platforms"}
                       </a>
                       ,{" "}
-                      <a href="/plataforma-integrada" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/plataforma" className="text-[#1B4F72] hover:underline font-medium">
                         {language === "es" ? "plataforma integrada" : "integrated platform"}
                       </a>
                       {" "}{language === "es" ? "y " : "and "}
-                      <a href="/consultoria-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/consultoria" className="text-[#1B4F72] hover:underline font-medium">
                         {language === "es" ? "consultoría especializada en WhatsApp Business API" : "specialized WhatsApp Business API consulting"}
                       </a>.
                     </p>

@@ -292,7 +292,7 @@ export default function BlogArticlePoliticasWhatsApp() {
                         {language === "es" ? "cómo seleccionar un proveedor" : "how to select a provider"}
                       </a>
                       {" "}{language === "es" ? "y " : "and "}
-                      <a href="/consultoria-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/consultoria" className="text-[#1B4F72] hover:underline font-medium">
                         {language === "es" ? "consultoría especializada en WhatsApp Business API" : "specialized WhatsApp Business API consulting"}
                       </a>.
                     </p>
@@ -697,7 +697,6 @@ export default function BlogArticlePoliticasWhatsApp() {
                   </div>
                 </div>
               </div>
-            </div>
           </section>
 
         </main>

@@ -1,4 +1,4 @@
-﻿import React, { createContext, useState, useContext, ReactNode } from 'react';
+import React, { createContext, useContext, ReactNode } from 'react';
 
 // Traducciones
 const translations = {
@@ -797,26 +797,10 @@ interface LanguageProviderProps {
 }
 
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
-  // Obtener idioma guardado en localStorage o usar español como defecto
-  const getSavedLanguage = (): Language => {
-    if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('language');
-      if (saved === 'es' || saved === 'en') {
-        return saved;
-      }
-    }
-    return 'es';
-  };
-
-  const [language, setLanguage] = useState<Language>(getSavedLanguage);
-
-  // Función para cambiar idioma y guardarlo en localStorage
-  const changeLanguage = (lang: Language) => {
-    setLanguage(lang);
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('language', lang);
-    }
-  };
+  // El sitio se publica solo en español. Las traducciones al inglés que aún existen
+  // en las páginas antiguas no se muestran y se eliminarán al rediseñarlas.
+  const language: Language = 'es';
+  const changeLanguage = (_lang: Language) => {};
 
   const t = (key: string): string => {
     const keys = key.split('.');
