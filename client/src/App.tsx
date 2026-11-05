@@ -28,6 +28,7 @@ import AlcaldiaArticle5 from "./pages/AlcaldiaArticle5";
 import Planes from "./pages/Planes";
 import Plataforma from "./pages/Plataforma";
 import Modulos from "./pages/Modulos";
+import Consultoria from "./pages/Consultoria";
 import ModuloDetalle, { Integraciones } from "./pages/ModuloDetalle";
 import PoliticaDePrivacidad from "./pages/PoliticaDePrivacidad";
 
@@ -60,6 +61,7 @@ function Router() {
       <Route path={"/modulos"} component={Modulos} />
       <Route path={"/modulos/:slug"} component={ModuloDetalle} />
       <Route path={"/integraciones"} component={Integraciones} />
+      <Route path={"/consultoria"} component={Consultoria} />
       <Route path={"/Politica-De-Privacidad"} component={PoliticaDePrivacidad} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
