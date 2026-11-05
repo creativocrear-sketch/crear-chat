@@ -92,7 +92,7 @@ export default function BlogArticleSeleccionarProveedor() {
               : "10 key criteria to choose the right WhatsApp Business API provider: budget, security, support, scalability and more. Includes decision matrix to compare options."
           }
         />
-        <meta property="og:image" content="https://crear.chat/logo-black.svg" />
+        <meta property="og:image" content="https://crear.chat/og-crear-chat.png" />
         <meta property="og:url" content="https://crear.chat/blog/como-seleccionar-proveedor-whatsapp" />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content="2026-03-21" />
@@ -128,10 +128,10 @@ export default function BlogArticleSeleccionarProveedor() {
             publisher: {
               "@type": "Organization",
               name: "Crear.chat",
-              logo: { "@type": "ImageObject", url: "https://crear.chat/logo-black.svg" },
+              logo: { "@type": "ImageObject", url: "https://crear.chat/logo-crear-chat.png" },
               url: "https://crear.chat",
             },
-            image: "https://crear.chat/logo-black.svg",
+            image: "https://crear.chat/og-crear-chat.png",
             description: pageDescription,
             keywords:
               "proveedor WhatsApp Business API, seleccionar plataforma WhatsApp, criterios BSP WhatsApp, seguridad, escalabilidad, soporte, Colombia",

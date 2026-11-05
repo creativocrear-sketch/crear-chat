@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Header from "@/components/Header";
+import Seo from "@/components/site/Seo";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronLeft, ChevronRight, MessageCircle, Facebook } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -14,6 +15,11 @@ export default function AlcaldiaArticle5() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <Header />
+        <Seo
+          title="Consulta de turnos de agentes de tránsito por WhatsApp | crear.chat"
+          description="Organiza y comunica los turnos de los agentes de tránsito por WhatsApp con una solución de crear.chat para alcaldías."
+          path="/alcaldias/consulta-turnos-agentes-transito"
+        />
       <main className="flex-1">
         <section className="bg-gradient-to-br from-gray-50 to-blue-50 py-12">
           <div className="container">

@@ -82,7 +82,7 @@ export default function BlogArticle5() {
               : "Short answer: WhatsApp Business API integrates with CRM, e-commerce, payments, bookings, analytics and support. This guide helps you prioritize the right architecture for your business."
           }
         />
-        <meta property="og:image" content="https://crear.chat/logo-black.svg" />
+        <meta property="og:image" content="https://crear.chat/og-crear-chat.png" />
         <meta property="og:url" content="https://crear.chat/blog/plataformas-integracion-whatsapp-api" />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content="2026-03-21" />
@@ -112,11 +112,11 @@ export default function BlogArticle5() {
               name: "Crear.chat",
               logo: {
                 "@type": "ImageObject",
-                url: "https://crear.chat/logo-black.svg",
+                url: "https://crear.chat/logo-crear-chat.png",
               },
               url: "https://crear.chat",
             },
-            image: "https://crear.chat/logo-black.svg",
+            image: "https://crear.chat/og-crear-chat.png",
             description: pageDescription,
             keywords: "WhatsApp Business API, integraciones, CRM, e-commerce, pagos, automatización, Colombia",
             articleSection: language === "es" ? "Integraciones y automatización" : "Integrations and automation",

@@ -1,5 +1,6 @@
 ﻿import { useEffect } from "react";
 import Header from "@/components/Header";
+import Seo from "@/components/site/Seo";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronRight } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -65,6 +66,11 @@ function Alcaldias() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <Header />
+        <Seo
+          title="Soluciones de WhatsApp para alcaldías en Colombia | crear.chat"
+          description="Soluciones con WhatsApp Business API para alcaldías: guía turística, consulta de deudas, plataforma educativa, consulta de SISBÉN y subsidios, y turnos de agentes de tránsito."
+          path="/alcaldias"
+        />
       <main className="flex-1">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-gray-50 to-blue-50 py-16 md:py-24">

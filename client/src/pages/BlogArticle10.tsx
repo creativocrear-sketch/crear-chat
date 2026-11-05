@@ -58,7 +58,7 @@ export default function BlogArticlePoliticasWhatsApp() {
         <meta name="description" content={pageDescription} />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={language === "es" ? "Las 12 políticas clave de WhatsApp Business API que debes conocer para evitar restricciones y suspensiones. Guía completa con mejores prácticas." : "The 12 key WhatsApp Business API policies you must know to avoid restrictions and suspensions. Complete guide with best practices."} />
-        <meta property="og:image" content="https://crear.chat/logo-black.svg" />
+        <meta property="og:image" content="https://crear.chat/og-crear-chat.png" />
         <meta property="og:url" content="https://crear.chat/blog/politicas-whatsapp-business-api" />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content="2026-03-21" />
@@ -85,10 +85,10 @@ export default function BlogArticlePoliticasWhatsApp() {
             publisher: {
               "@type": "Organization",
               name: "Crear.chat",
-              logo: { "@type": "ImageObject", url: "https://crear.chat/logo-black.svg" },
+              logo: { "@type": "ImageObject", url: "https://crear.chat/logo-crear-chat.png" },
               url: "https://crear.chat",
             },
-            image: "https://crear.chat/logo-black.svg",
+            image: "https://crear.chat/og-crear-chat.png",
             description: pageDescription,
             keywords: "políticas WhatsApp Business API, restricciones WhatsApp, cumplimiento, spam, consentimiento, privacidad, Colombia",
             articleSection: language === "es" ? "Regulaciones" : "Regulations",

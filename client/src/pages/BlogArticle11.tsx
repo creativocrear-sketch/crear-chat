@@ -82,7 +82,7 @@ export default function BlogArticle11() {
               : "Short answer: WhatsApp restricts numbers for spam, high block rate, policy violations and lack of consent."
           }
         />
-        <meta property="og:image" content="https://crear.chat/logo-black.svg" />
+        <meta property="og:image" content="https://crear.chat/og-crear-chat.png" />
         <meta property="og:url" content="https://crear.chat/blog/por-que-restringen-whatsapp" />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content="2026-03-21" />
@@ -112,11 +112,11 @@ export default function BlogArticle11() {
               name: "Crear.chat",
               logo: {
                 "@type": "ImageObject",
-                url: "https://crear.chat/logo-black.svg",
+                url: "https://crear.chat/logo-crear-chat.png",
               },
               url: "https://crear.chat",
             },
-            image: "https://crear.chat/logo-black.svg",
+            image: "https://crear.chat/og-crear-chat.png",
             description: pageDescription,
             keywords: "WhatsApp, restricciones, spam, tasa de rechazo, políticas, consentimiento, Colombia",
             articleSection: language === "es" ? "Regulaciones" : "Regulations",

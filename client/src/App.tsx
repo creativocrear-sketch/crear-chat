@@ -1,7 +1,7 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
+import { Route, Router as WouterRouter, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { LanguageProvider } from "@/contexts/LanguageContext";
@@ -33,7 +33,7 @@ import ModuloDetalle, { Integraciones } from "./pages/ModuloDetalle";
 import PoliticaDePrivacidad from "./pages/PoliticaDePrivacidad";
 
 
-function Router() {
+function Routes() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
@@ -70,23 +70,22 @@ function Router() {
   );
 }
 
-// NOTE: About Theme
-// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
-// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
+type AppProps = {
+  /** Ruta a renderizar cuando la página se genera en el servidor (pre-renderizado). */
+  ssrPath?: string;
+};
 
-function App() {
+function App({ ssrPath }: AppProps) {
   return (
     <ErrorBoundary>
       <HelmetProvider>
         <LanguageProvider>
-          <ThemeProvider
-            defaultTheme="light"
-            // switchable
-          >
+          <ThemeProvider defaultTheme="light">
             <TooltipProvider>
               <Toaster />
-              <Router />
+              <WouterRouter ssrPath={ssrPath}>
+                <Routes />
+              </WouterRouter>
             </TooltipProvider>
           </ThemeProvider>
         </LanguageProvider>

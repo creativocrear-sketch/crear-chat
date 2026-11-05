@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useLocation } from "wouter";
 import Header from "@/components/Header";
+import Seo from "@/components/site/Seo";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronLeft, ChevronRight, Share2, MessageCircle, Facebook } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -29,6 +30,11 @@ function AlcaldiaArticle2() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <Header />
+        <Seo
+          title="Consulta de deudas e impuestos por WhatsApp | crear.chat"
+          description="Permite que los ciudadanos consulten sus deudas con la alcaldía por WhatsApp en segundos, con una solución de crear.chat y Crear Comunicaciones."
+          path="/alcaldias/consulta-deudas-whatsapp"
+        />
       
       <main className="flex-1">
         {/* Article Header */}

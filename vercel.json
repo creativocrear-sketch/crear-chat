@@ -3,6 +3,7 @@
   "outputDirectory": "dist/public",
   "installCommand": "npm install",
   "framework": "vite",
+  "cleanUrls": true,
   "redirects": [
     {
       "source": "/consultoria-whatsapp",
@@ -103,12 +104,6 @@
       "source": "/blog/articulo-11",
       "destination": "/blog/por-que-restringen-whatsapp",
       "permanent": true
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
     }
   ]
 }

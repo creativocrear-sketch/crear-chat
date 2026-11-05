@@ -92,7 +92,7 @@ export default function BlogArticleCobroPlataformas() {
               : "5 WhatsApp platform billing models: fixed subscription, pay-per-message, per-agent, hybrid and freemium. Real cost examples for your business."
           }
         />
-        <meta property="og:image" content="https://crear.chat/logo-black.svg" />
+        <meta property="og:image" content="https://crear.chat/og-crear-chat.png" />
         <meta property="og:url" content="https://crear.chat/blog/cobro-plataformas-whatsapp" />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content="2026-03-21" />
@@ -128,10 +128,10 @@ export default function BlogArticleCobroPlataformas() {
             publisher: {
               "@type": "Organization",
               name: "Crear.chat",
-              logo: { "@type": "ImageObject", url: "https://crear.chat/logo-black.svg" },
+              logo: { "@type": "ImageObject", url: "https://crear.chat/logo-crear-chat.png" },
               url: "https://crear.chat",
             },
-            image: "https://crear.chat/logo-black.svg",
+            image: "https://crear.chat/og-crear-chat.png",
             description: pageDescription,
             keywords:
               "precio plataforma WhatsApp, modelos de cobro WhatsApp Business API, Wati, Intercom, Zendesk, Twilio, suscripción mensual, pago por mensajes, Colombia",

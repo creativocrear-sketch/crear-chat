@@ -48,7 +48,7 @@ export default function BlogArticle4() {
         />
         <meta property="og:title" content={language === 'es' ? 'WhatsApp Business API + IA en Colombia | Beneficios, ROI y automatización 24/7' : 'WhatsApp Business API + AI in Colombia | Benefits, ROI and 24/7 automation'} />
         <meta property="og:description" content={language === 'es' ? 'Respuesta corta: WhatsApp Business API con IA automatiza atención, ventas y seguimiento por WhatsApp. Revisa beneficios reales, cifras de ROI y cómo implementarlo en Colombia.' : 'Short answer: WhatsApp Business API with AI automates support, sales and follow-up in WhatsApp. Review real benefits, ROI figures and how to implement it in Colombia.'} />
-        <meta property="og:image" content="https://crear.chat/logo-black.svg" />
+        <meta property="og:image" content="https://crear.chat/og-crear-chat.png" />
         <meta property="og:url" content="https://crear.chat/blog/beneficios-whatsapp-business-api-ia" />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content="2026-03-21" />
@@ -75,13 +75,13 @@ export default function BlogArticle4() {
                 "https://co.linkedin.com/in/alexandermurillo"
               ]
             },
-            "image": "https://crear.chat/logo-black.svg",
+            "image": "https://crear.chat/og-crear-chat.png",
             "publisher": {
               "@type": "Organization",
               "name": "Crear.chat",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://crear.chat/logo-black.svg"
+                "url": "https://crear.chat/logo-crear-chat.png"
               },
               "url": "https://crear.chat"
             },

@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Header from "@/components/Header";
+import Seo from "@/components/site/Seo";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronLeft, ChevronRight, MessageCircle, Facebook } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -14,6 +15,11 @@ export default function AlcaldiaArticle1() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <Header />
+        <Seo
+          title="Guía turística por WhatsApp para alcaldías | crear.chat"
+          description="Convierte WhatsApp en la guía turística de tu municipio, disponible 24/7 para visitantes y residentes, con la plataforma crear.chat."
+          path="/alcaldias/guia-turistica-whatsapp"
+        />
       <main className="flex-1">
         <section className="bg-gradient-to-br from-gray-50 to-blue-50 py-12">
           <div className="container">

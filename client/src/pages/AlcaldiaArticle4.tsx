@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useLocation } from "wouter";
 import Header from "@/components/Header";
+import Seo from "@/components/site/Seo";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronLeft, Share2, MessageCircle, Facebook } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -29,6 +30,11 @@ function AlcaldiaArticle4() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <Header />
+        <Seo
+          title="Consulta de SISBÉN y subsidios por WhatsApp | crear.chat"
+          description="Facilita a los ciudadanos la consulta de SISBÉN y subsidios por WhatsApp y moderniza la atención de la alcaldía con crear.chat."
+          path="/alcaldias/consulta-sisben-subsidios"
+        />
       
       <main className="flex-1">
         {/* Article Header */}

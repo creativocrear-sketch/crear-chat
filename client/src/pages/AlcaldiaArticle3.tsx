@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useLocation } from "wouter";
 import Header from "@/components/Header";
+import Seo from "@/components/site/Seo";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronLeft, ChevronRight, Share2, MessageCircle, Facebook } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -29,6 +30,11 @@ function AlcaldiaArticle3() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <Header />
+        <Seo
+          title="Plataforma educativa por WhatsApp para municipios | crear.chat"
+          description="Convierte WhatsApp en una plataforma educativa interactiva: motiva, evalúa y premia a estudiantes con preguntas de selección múltiple."
+          path="/alcaldias/plataforma-educativa-whatsapp"
+        />
       
       <main className="flex-1">
         {/* Article Header */}

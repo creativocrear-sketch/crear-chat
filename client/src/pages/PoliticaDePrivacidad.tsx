@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Header from "@/components/Header";
+import Seo from "@/components/site/Seo";
 import Footer from "@/components/Footer";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -13,6 +14,11 @@ export default function PoliticaDePrivacidad() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <Header />
+        <Seo
+          title="Política de privacidad | crear.chat"
+          description="Política de privacidad y tratamiento de datos personales de crear.chat, plataforma de Crear Comunicaciones."
+          path="/Politica-De-Privacidad"
+        />
       <main className="flex-1">
         <section className="bg-gradient-to-br from-gray-50 to-blue-50 py-16">
           <div className="container">

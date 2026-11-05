@@ -82,7 +82,7 @@ export default function BlogArticle1() {
               : "Short answer: WhatsApp Business works for manual support. WhatsApp Business API works for automation, system integration and scaling sales or support."
           }
         />
-        <meta property="og:image" content="https://crear.chat/logo-black.svg" />
+        <meta property="og:image" content="https://crear.chat/og-crear-chat.png" />
         <meta property="og:url" content="https://crear.chat/blog/diferencia-whatsapp-business-api" />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content="2026-03-21" />
@@ -112,11 +112,11 @@ export default function BlogArticle1() {
               name: "Crear.chat",
               logo: {
                 "@type": "ImageObject",
-                url: "https://crear.chat/logo-black.svg",
+                url: "https://crear.chat/logo-crear-chat.png",
               },
               url: "https://crear.chat",
             },
-            image: "https://crear.chat/logo-black.svg",
+            image: "https://crear.chat/og-crear-chat.png",
             description: pageDescription,
             keywords: "WhatsApp Business, WhatsApp Business API, automatización, CRM, Colombia",
             articleSection: language === "es" ? "Conceptos básicos" : "Basic concepts",
