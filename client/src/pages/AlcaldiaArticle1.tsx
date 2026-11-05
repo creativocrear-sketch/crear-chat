@@ -471,7 +471,7 @@ export default function AlcaldiaArticle1() {
                   <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto">
                     {language === 'es' ? 'Implementa WhatsApp Business API y comienza a automatizar la atención al cliente' : 'Implement WhatsApp Business API and start automating customer service'}
                   </p>
-                  <a href="https://wa.me/+573105317126" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-4 bg-brand-600 hover:bg-brand-800 text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg">
+                  <a href="https://wa.me/573229540294" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-4 bg-brand-600 hover:bg-brand-800 text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg">
                     <MessageCircle className="w-5 h-5 mr-2" />
                     {language === 'es' ? 'Escríbenos por WhatsApp' : 'Write to us on WhatsApp'}
                   </a>

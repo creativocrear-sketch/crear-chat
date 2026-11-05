@@ -65,7 +65,7 @@ export default function Contacto() {
       ...(value("mensaje") ? ["", value("mensaje")] : []),
     ].join("\n");
 
-    window.open(whatsappUrl(message, CONTACT.crearChatWhatsappNumber), "_blank", "noopener,noreferrer");
+    window.open(whatsappUrl(message), "_blank", "noopener,noreferrer");
   }
 
   return (
@@ -95,7 +95,7 @@ export default function Contacto() {
               contactPoint: {
                 "@type": "ContactPoint",
                 contactType: "sales",
-                telephone: CONTACT.crearChatPhoneDisplay,
+                telephone: CONTACT.phoneDisplay,
                 availableLanguage: "Spanish",
                 areaServed: "CO",
               },
@@ -198,7 +198,7 @@ export default function Contacto() {
               Enviar por WhatsApp
             </button>
             <p className="mt-4 text-sm text-ink-muted">
-              Al enviar se abre WhatsApp con tu mensaje para que lo envíes al {CONTACT.crearChatPhoneDisplay}. Este sitio
+              Al enviar se abre WhatsApp con tu mensaje para que lo envíes al {CONTACT.phoneDisplay}. Este sitio
               no guarda la información del formulario. Consulta nuestra{" "}
               <a href="/Politica-De-Privacidad" className="font-medium text-brand-600 hover:underline">
                 política de privacidad
@@ -210,7 +210,7 @@ export default function Contacto() {
           {/* Datos de contacto */}
           <aside className="space-y-4">
             <a
-              href={whatsappUrl("Hola, quiero información sobre crear.chat", CONTACT.crearChatWhatsappNumber)}
+              href={whatsappUrl("Hola, quiero información sobre crear.chat")}
               target="_blank"
               rel="noopener noreferrer"
               className="flex gap-4 rounded-2xl border border-slate-200 p-5 hover:border-cta-600"
@@ -220,7 +220,7 @@ export default function Contacto() {
               </span>
               <span>
                 <span className="block font-semibold text-ink">WhatsApp de crear.chat</span>
-                <span className="block text-ink-muted">{CONTACT.crearChatPhoneDisplay}</span>
+                <span className="block text-ink-muted">{CONTACT.phoneDisplay}</span>
                 <span className="block text-sm text-ink-muted">{CONTACT.hours}</span>
               </span>
             </a>

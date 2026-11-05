@@ -204,8 +204,8 @@ export default function PoliticaDePrivacidad() {
                 </h2>
                 <p className="text-gray-600 leading-relaxed mb-6">
                   {language === 'es'
-                    ? 'Si tiene preguntas o inquietudes sobre esta Política de Privacidad, puede contactarnos a través de contacto@crearcomunicaciones.net o WhatsApp +57 310 5317126.'
-                    : 'If you have questions or concerns about this Privacy Policy, you can contact us at contacto@crearcomunicaciones.net or WhatsApp +57 310 5317126.'}
+                    ? 'Si tiene preguntas o inquietudes sobre esta Política de Privacidad, puede contactarnos a través de contacto@crearcomunicaciones.net o WhatsApp +57 322 954 0294.'
+                    : 'If you have questions or concerns about this Privacy Policy, you can contact us at contacto@crearcomunicaciones.net or WhatsApp +57 322 954 0294.'}
                 </p>
               </article>
             </div>

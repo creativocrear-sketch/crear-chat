@@ -17,11 +17,9 @@ export const COMPANY = {
 };
 
 export const CONTACT = {
-  whatsappNumber: "573105317126",
-  phoneDisplay: "+57 310 531 7126",
-  /** Número de WhatsApp de crear.chat; recibe las solicitudes del formulario de contacto. */
-  crearChatWhatsappNumber: "573229540294",
-  crearChatPhoneDisplay: "+57 322 954 0294",
+  /** WhatsApp de crear.chat: botones, formulario de contacto y enlaces de todo el sitio. */
+  whatsappNumber: "573229540294",
+  phoneDisplay: "+57 322 954 0294",
   email: "contacto@crearcomunicaciones.net",
   address: "Cra. 4 #9-73, oficina 306",
   city: "Cartago, Valle del Cauca",
@@ -30,8 +28,8 @@ export const CONTACT = {
   instagram: "https://instagram.com/crear.chat",
 };
 
-export function whatsappUrl(message?: string, number: string = CONTACT.whatsappNumber) {
-  const base = `https://wa.me/${number}`;
+export function whatsappUrl(message?: string) {
+  const base = `https://wa.me/${CONTACT.whatsappNumber}`;
   return message ? `${base}?text=${encodeURIComponent(message)}` : base;
 }
 

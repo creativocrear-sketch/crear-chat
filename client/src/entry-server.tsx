@@ -67,7 +67,7 @@ export function llmsTxt() {
 
 - Empresa: ${COMPANY.legalName} (${CONTACT.city}, Colombia), desde ${COMPANY.foundingYear}.
 - Canales: WhatsApp Business API, Instagram y Facebook Messenger.
-- Contacto: WhatsApp ${CONTACT.crearChatPhoneDisplay}, ${CONTACT.email}, [formulario de contacto](${SITE_URL}/contacto).
+- Contacto: WhatsApp ${CONTACT.phoneDisplay}, ${CONTACT.email}, [formulario de contacto](${SITE_URL}/contacto).
 
 ## Plataforma
 

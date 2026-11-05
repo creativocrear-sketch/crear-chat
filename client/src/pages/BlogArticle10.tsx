@@ -604,7 +604,7 @@ export default function BlogArticlePoliticasWhatsApp() {
                   </p>
 
                   <a
-                    href="https://wa.me/+573105317126"
+                    href="https://wa.me/573229540294"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-800 text-white font-semibold rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl"
