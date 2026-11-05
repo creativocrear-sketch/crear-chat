@@ -4,6 +4,18 @@ import ButtonLink from "./ButtonLink";
 import { CTA } from "@/lib/site";
 
 const LINKS: Record<string, { label: string; href: string }[]> = {
+  "que-es-crm-whatsapp": [
+    { label: "CRM y gestión de clientes en crear.chat", href: "/modulos/crm" },
+    { label: "Planes y precios", href: "/planes" },
+  ],
+  "automatizar-atencion-whatsapp": [
+    { label: "Automatización y chatbots", href: "/modulos/automatizacion-chatbot" },
+    { label: "Consultoría: diseño de flujos automatizados", href: "/consultoria" },
+  ],
+  "chatbot-o-agente-ia-whatsapp": [
+    { label: "Inteligencia artificial en crear.chat", href: "/modulos/inteligencia-artificial" },
+    { label: "Flujos de chatbot", href: "/modulos/automatizacion-chatbot" },
+  ],
   "diferencia-whatsapp-business-api": [
     { label: "WhatsApp Business API en crear.chat", href: "/modulos/whatsapp-business-api" },
     { label: "Planes y precios", href: "/planes" },

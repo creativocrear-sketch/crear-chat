@@ -81,7 +81,7 @@ export default function Blog() {
               description: post.excerpt,
               url: `${SITE_URL}/blog/${post.slug}`,
               datePublished: post.date,
-              author: { "@type": "Person", name: BLOG_AUTHOR },
+              author: { "@type": post.author === BLOG_AUTHOR ? "Person" : "Organization", name: post.author },
               articleSection: post.category,
             })),
           },

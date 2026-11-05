@@ -1,4 +1,4 @@
-import { CalendarDays, History, Link2, ListChecks, Shuffle, Tag, Users } from "lucide-react";
+import { CalendarDays, History, ListChecks, Shuffle, Tag, Users } from "lucide-react";
 import type { ModulePageData } from "./types";
 
 export const crm: ModulePageData = {
@@ -28,7 +28,7 @@ export const crm: ModulePageData = {
     pains: [
       "No se sabe en qué va cada cliente",
       "Datos de clientes en archivos que nadie actualiza",
-      "Clientes que escriben por varios canales y aparecen duplicados",
+      "Conversaciones abiertas que nadie cierra ni retoma",
       "Seguimientos que dependen de la memoria del vendedor",
       "Citas anotadas en papel o en chats",
     ],
@@ -49,11 +49,6 @@ export const crm: ModulePageData = {
       title: "Contactos con historial",
       description: "Cada contacto conserva su historial de conversaciones para que cualquier asesor retome donde quedó.",
       badge: "Todos los planes",
-    },
-    {
-      icon: Link2,
-      title: "Clientes unificados entre canales",
-      description: "Cuando un mismo cliente te escribe por distintos canales, puedes unificarlo en un solo contacto.",
     },
     {
       icon: ListChecks,
@@ -88,7 +83,7 @@ export const crm: ModulePageData = {
     "Toda la información de tus clientes en un solo lugar",
     "Cualquier asesor retoma una conversación sin preguntar de nuevo",
     "Seguimiento comercial ordenado con etiquetas y listas",
-    "Menos contactos duplicados cuando un cliente usa varios canales",
+    "Conversaciones con estado claro: sabes qué está abierto y qué ya se resolvió",
     "Citas registradas y con estado, sin depender del papel",
     "Una base de clientes que crece con cada conversación",
   ],
@@ -135,10 +130,6 @@ export const crm: ModulePageData = {
     {
       question: "¿Cuántos contactos puedo tener?",
       answer: "Depende del plan: 500 en Inicio, 1.500 en Crecimiento, 2.500 en PRO y 5.000 en Elite.",
-    },
-    {
-      question: "¿Qué pasa si un cliente me escribe por WhatsApp y por Instagram?",
-      answer: "crear.chat permite unificar al mismo cliente cuando te escribe por distintos canales, para que su información no quede duplicada.",
     },
     {
       question: "¿Puedo clasificar a mis clientes?",

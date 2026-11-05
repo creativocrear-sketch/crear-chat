@@ -32,6 +32,7 @@ const AlcaldiaArticle3 = lazy(() => import("./pages/AlcaldiaArticle3"));
 const AlcaldiaArticle4 = lazy(() => import("./pages/AlcaldiaArticle4"));
 const AlcaldiaArticle5 = lazy(() => import("./pages/AlcaldiaArticle5"));
 const PoliticaDePrivacidad = lazy(() => import("./pages/PoliticaDePrivacidad"));
+const BlogPost = lazy(() => import("./pages/BlogPost"));
 
 
 function Routes() {
@@ -50,6 +51,7 @@ function Routes() {
       <Route path={"/blog/como-seleccionar-proveedor-whatsapp"} component={BlogArticle9} />
       <Route path={"/blog/politicas-whatsapp-business-api"} component={BlogArticle10} />
       <Route path={"/blog/por-que-restringen-whatsapp"} component={BlogArticle11} />
+      <Route path={"/blog/:slug"} component={BlogPost} />
       {/* Las URL antiguas (/blog/articulo-N, páginas de servicios) se redirigen con 301 en vercel.json */}
       <Route path={"/alcaldias"} component={Alcaldias} />
       <Route path={"/alcaldias/guia-turistica-whatsapp"} component={AlcaldiaArticle1} />
