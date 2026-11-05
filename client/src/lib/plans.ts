@@ -23,7 +23,7 @@ export const PLANS: Plan[] = [
     price: 156000,
     contacts: 500,
     humanAgents: 2,
-    channels: "1 canal a elegir entre 3",
+    channels: "1 canal a elegir",
     chatbotFlows: "3 flujos de chatbot",
     aiResponses: "500 respuestas IA al mes",
   },
@@ -63,7 +63,7 @@ export const PLANS: Plan[] = [
 export const CHANNELS = ["WhatsApp Business API", "Instagram", "Facebook Messenger"];
 
 export const PLANS_NOTE =
-  "Todos los planes incluyen WhatsApp Business API. Precios en pesos colombianos, no incluyen IVA. Facturación mensual.";
+  "En el plan Inicio eliges un canal: WhatsApp Business API, Instagram o Facebook Messenger; los demás planes incluyen los tres. Precios en pesos colombianos, no incluyen IVA. Facturación mensual.";
 
 export function formatCop(value: number) {
   return `$${value.toLocaleString("es-CO")}`;
@@ -88,7 +88,7 @@ export const PLAN_MATRIX: MatrixGroup[] = [
       { label: "Contactos", values: ["500", "1.500", "2.500", "5.000"] },
       {
         label: "Canales (WhatsApp, Instagram, Messenger)",
-        values: ["Elige 1 de 3", "3 canales", "3 canales", "3 canales"],
+        values: ["1 a elegir", "Los 3", "Los 3", "Los 3"],
       },
     ],
   },

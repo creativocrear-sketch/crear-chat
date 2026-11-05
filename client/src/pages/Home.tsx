@@ -302,7 +302,7 @@ export default function Home() {
         <SectionHeader
           eyebrow="Planes de crear.chat"
           title="Planes mensuales para cada etapa de tu empresa"
-          intro="Todos los planes incluyen WhatsApp Business API, módulo de contactos, agentes y asistente de IA, y respuestas rápidas."
+          intro="Todos los planes incluyen módulo de contactos, agentes y asistente de IA, flujos de chatbot y respuestas rápidas. Puedes atender por WhatsApp Business API, Instagram o Facebook Messenger."
         />
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {PLANS.map((plan) => (

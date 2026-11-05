@@ -35,7 +35,12 @@ const FAQS: FaqItem[] = [
   {
     question: "¿Qué incluyen todos los planes?",
     answer:
-      "Todos los planes incluyen WhatsApp Business API, módulo de contactos, agentes de IA, asistente de IA, hosting, respuestas rápidas, flujos de chatbot y asistencia por IA. Lo que cambia entre planes es la capacidad (contactos, agentes, canales) y funciones como catálogo, plantillas, difusiones, etiquetas, reportes e integraciones.",
+      "Todos los planes incluyen módulo de contactos, agentes de IA, asistente de IA, hosting, respuestas rápidas, flujos de chatbot y asistencia por IA. Lo que cambia entre planes es la capacidad (contactos, agentes, canales) y funciones como catálogo, plantillas, difusiones, etiquetas, reportes e integraciones.",
+  },
+  {
+    question: "¿Qué canales puedo usar en cada plan?",
+    answer:
+      "crear.chat trabaja con WhatsApp Business API, Instagram y Facebook Messenger. En el plan Inicio eliges uno de los tres canales; los planes Crecimiento, PRO y Elite incluyen los tres.",
   },
   {
     question: "¿Qué diferencia hay entre los agentes de IA y los agentes humanos?",

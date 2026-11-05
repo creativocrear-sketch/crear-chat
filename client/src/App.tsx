@@ -26,6 +26,8 @@ import AlcaldiaArticle3 from "./pages/AlcaldiaArticle3";
 import AlcaldiaArticle4 from "./pages/AlcaldiaArticle4";
 import AlcaldiaArticle5 from "./pages/AlcaldiaArticle5";
 import Planes from "./pages/Planes";
+import Plataforma from "./pages/Plataforma";
+import Modulos from "./pages/Modulos";
 import PoliticaDePrivacidad from "./pages/PoliticaDePrivacidad";
 
 
@@ -53,6 +55,8 @@ function Router() {
       <Route path={"/alcaldias/consulta-sisben-subsidios"} component={AlcaldiaArticle4} />
       <Route path={"/alcaldias/consulta-turnos-agentes-transito"} component={AlcaldiaArticle5} />
       <Route path={"/planes"} component={Planes} />
+      <Route path={"/plataforma"} component={Plataforma} />
+      <Route path={"/modulos"} component={Modulos} />
       <Route path={"/Politica-De-Privacidad"} component={PoliticaDePrivacidad} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
