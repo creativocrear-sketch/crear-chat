@@ -16,6 +16,7 @@ import {
   Workflow,
   Zap,
   Boxes,
+  CalendarDays,
   Webhook,
   type LucideIcon,
 } from "lucide-react";
@@ -93,6 +94,7 @@ export const MODULE_GROUPS: ModuleGroup[] = [
         benefit: "Ningún cliente se queda sin respuesta ni es atendido dos veces.",
         href: "/modulos/whatsapp-business-api",
         icon: Shuffle,
+        availability: "Todos los planes",
       },
       {
         name: "Respuestas rápidas",
@@ -139,6 +141,15 @@ export const MODULE_GROUPS: ModuleGroup[] = [
         href: "/modulos/crm",
         icon: Tag,
         availability: "Desde Crecimiento",
+      },
+      {
+        name: "Agenda y citas",
+        title: "Citas agendadas desde WhatsApp",
+        description:
+          "Publica tus horarios disponibles y gestiona las citas de tus clientes. El Agente de IA puede consultar tu disponibilidad y registrar citas mientras conversa por WhatsApp.",
+        benefit: "Tus clientes agendan sin esperar a que alguien les conteste.",
+        href: "/modulos/crm",
+        icon: CalendarDays,
       },
     ],
   },
