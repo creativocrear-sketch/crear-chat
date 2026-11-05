@@ -29,6 +29,7 @@ import Planes from "./pages/Planes";
 import Plataforma from "./pages/Plataforma";
 import Modulos from "./pages/Modulos";
 import Consultoria from "./pages/Consultoria";
+import Contacto from "./pages/Contacto";
 import ModuloDetalle, { Integraciones } from "./pages/ModuloDetalle";
 import PoliticaDePrivacidad from "./pages/PoliticaDePrivacidad";
 
@@ -62,6 +63,7 @@ function Routes() {
       <Route path={"/modulos/:slug"} component={ModuloDetalle} />
       <Route path={"/integraciones"} component={Integraciones} />
       <Route path={"/consultoria"} component={Consultoria} />
+      <Route path={"/contacto"} component={Contacto} />
       <Route path={"/Politica-De-Privacidad"} component={PoliticaDePrivacidad} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}

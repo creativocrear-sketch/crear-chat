@@ -32,6 +32,7 @@ export const PAGES: SitemapEntry[] = [
   { path: INTEGRATIONS_PAGE.path, priority: 0.8, changefreq: "monthly" },
   { path: "/consultoria", priority: 0.9, changefreq: "monthly" },
   { path: "/planes", priority: 0.9, changefreq: "monthly" },
+  { path: "/contacto", priority: 0.7, changefreq: "yearly" },
   { path: "/blog", priority: 0.8, changefreq: "weekly" },
   ...BLOG_POSTS.map((post) => ({ path: `/blog/${post.slug}`, priority: 0.7, changefreq: "monthly", lastmod: post.date })),
   { path: "/alcaldias", priority: 0.7, changefreq: "monthly" },
@@ -66,7 +67,7 @@ export function llmsTxt() {
 
 - Empresa: ${COMPANY.legalName} (${CONTACT.city}, Colombia), desde ${COMPANY.foundingYear}.
 - Canales: WhatsApp Business API, Instagram y Facebook Messenger.
-- Contacto: WhatsApp ${CONTACT.phoneDisplay}, ${CONTACT.email}.
+- Contacto: WhatsApp ${CONTACT.crearChatPhoneDisplay}, ${CONTACT.email}, [formulario de contacto](${SITE_URL}/contacto).
 
 ## Plataforma
 
