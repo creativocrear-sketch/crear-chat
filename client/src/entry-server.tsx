@@ -2,15 +2,19 @@
  * Entrada de servidor usada solo al compilar (scripts/prerender.mjs):
  * genera el HTML de cada página, el sitemap y llms.txt a partir de los datos del sitio.
  */
-import { renderToString } from "react-dom/server";
+import { prerenderToNodeStream } from "react-dom/static";
 import App from "./App";
 import { COMPANY, CONTACT, SITE_URL } from "./lib/site";
 import { PLANS, CUSTOM_PLAN, formatCop } from "./lib/plans";
 import { MODULE_PAGES, INTEGRATIONS_PAGE } from "./content/modulos";
 import { BLOG_POSTS } from "./lib/blog";
 
-export function render(url: string) {
-  return renderToString(<App ssrPath={url} />);
+/** Genera el HTML de una ruta. Espera a que carguen las páginas diferidas (lazy) antes de devolverlo. */
+export async function render(url: string) {
+  const { prelude } = await prerenderToNodeStream(<App ssrPath={url} />);
+  let html = "";
+  for await (const chunk of prelude) html += chunk;
+  return html;
 }
 
 const ALCALDIAS_PAGES = [

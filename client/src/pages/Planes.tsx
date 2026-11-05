@@ -188,7 +188,7 @@ export default function Planes() {
           title="Funcionalidades incluidas en cada plan"
           intro="Esta es la misma matriz de funcionalidades que ves dentro de la plataforma."
         />
-        <div className="overflow-x-auto rounded-2xl border border-slate-200">
+        <div className="relative overflow-x-auto rounded-2xl border border-slate-200">
           <table className="w-full min-w-[720px] border-collapse text-sm">
             <caption className="sr-only">Comparación de funcionalidades por plan de crear.chat</caption>
             <thead>

@@ -715,9 +715,9 @@ export default function BlogArticleCobroPlataformas() {
                   <section className="space-y-6 mb-8">
                     {/* Pequeño */}
                     <div className="rounded-2xl border border-blue-100 bg-white p-6">
-                      <h4 className="font-bold text-gray-900 mb-4">
+                      <h3 className="font-bold text-gray-900 mb-4">
                         {language === "es" ? "Pequeño negocio (100 conversaciones/mes)" : "Small business (100 conversations/month)"}
-                      </h4>
+                      </h3>
                       <div className="grid md:grid-cols-2 gap-4">
                         <div className="bg-gray-50 rounded-lg p-4">
                           <p className="font-semibold text-gray-800 mb-2">Crear.chat</p>
@@ -740,9 +740,9 @@ export default function BlogArticleCobroPlataformas() {
 
                     {/* Mediano */}
                     <div className="rounded-2xl border border-blue-100 bg-white p-6">
-                      <h4 className="font-bold text-gray-900 mb-4">
+                      <h3 className="font-bold text-gray-900 mb-4">
                         {language === "es" ? "Negocio mediano (10.000 conversaciones/mes)" : "Mid-sized business (10,000 conversations/month)"}
-                      </h4>
+                      </h3>
                       <div className="grid md:grid-cols-2 gap-4">
                         <div className="bg-gray-50 rounded-lg p-4">
                           <p className="font-semibold text-gray-800 mb-2">Crear.chat</p>
@@ -765,9 +765,9 @@ export default function BlogArticleCobroPlataformas() {
 
                     {/* Grande */}
                     <div className="rounded-2xl border border-blue-100 bg-white p-6">
-                      <h4 className="font-bold text-gray-900 mb-4">
+                      <h3 className="font-bold text-gray-900 mb-4">
                         {language === "es" ? "Negocio grande (100.000 conversaciones/mes)" : "Large business (100,000 conversations/month)"}
-                      </h4>
+                      </h3>
                       <div className="grid md:grid-cols-2 gap-4">
                         <div className="bg-gray-50 rounded-lg p-4">
                           <p className="font-semibold text-gray-800 mb-2">Twilio</p>
@@ -873,9 +873,9 @@ export default function BlogArticleCobroPlataformas() {
 
                 {/* Compartir */}
                 <div className="mt-12 pt-8 border-t border-gray-200">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-4">
                     {language === "es" ? "Compartir:" : "Share:"}
-                  </h4>
+                  </h3>
                   <div className="flex gap-4">
                     <button
                       onClick={() => handleShare("facebook")}
@@ -886,7 +886,7 @@ export default function BlogArticleCobroPlataformas() {
                     </button>
                     <button
                       onClick={() => handleShare("whatsapp")}
-                      className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
+                      className="flex items-center gap-2 px-4 py-2 bg-cta-600 hover:bg-cta-700 text-white rounded-lg transition-colors"
                     >
                       <MessageCircle className="w-4 h-4" />
                       WhatsApp

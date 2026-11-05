@@ -1,37 +1,37 @@
-import { Toaster } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import { lazy, Suspense } from "react";
 import NotFound from "@/pages/NotFound";
 import { Route, Router as WouterRouter, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import { LanguageProvider } from "@/contexts/LanguageContext";
 import { HelmetProvider } from "react-helmet-async";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
-import BlogArticle1 from "./pages/BlogArticle1";
-import BlogArticle2 from "./pages/BlogArticle2";
-import BlogArticle3 from "./pages/BlogArticle3";
-import BlogArticle4 from "./pages/BlogArticle4";
-import BlogArticle5 from "./pages/BlogArticle5";
-import BlogArticle6 from "./pages/BlogArticle6";
-import BlogArticle7 from "./pages/BlogArticle7";
-import BlogArticle8 from "./pages/BlogArticle8";
-import BlogArticle9 from "./pages/BlogArticle9";
-import BlogArticle10 from "./pages/BlogArticle10";
-import BlogArticle11 from "./pages/BlogArticle11";
-import Alcaldias from "./pages/Alcaldias";
-import AlcaldiaArticle1 from "./pages/AlcaldiaArticle1";
-import AlcaldiaArticle2 from "./pages/AlcaldiaArticle2";
-import AlcaldiaArticle3 from "./pages/AlcaldiaArticle3";
-import AlcaldiaArticle4 from "./pages/AlcaldiaArticle4";
-import AlcaldiaArticle5 from "./pages/AlcaldiaArticle5";
 import Planes from "./pages/Planes";
 import Plataforma from "./pages/Plataforma";
 import Modulos from "./pages/Modulos";
 import Consultoria from "./pages/Consultoria";
 import Contacto from "./pages/Contacto";
 import ModuloDetalle, { Integraciones } from "./pages/ModuloDetalle";
-import PoliticaDePrivacidad from "./pages/PoliticaDePrivacidad";
+
+// Páginas extensas y menos visitadas: se descargan solo cuando se abren.
+const BlogArticle1 = lazy(() => import("./pages/BlogArticle1"));
+const BlogArticle2 = lazy(() => import("./pages/BlogArticle2"));
+const BlogArticle3 = lazy(() => import("./pages/BlogArticle3"));
+const BlogArticle4 = lazy(() => import("./pages/BlogArticle4"));
+const BlogArticle5 = lazy(() => import("./pages/BlogArticle5"));
+const BlogArticle6 = lazy(() => import("./pages/BlogArticle6"));
+const BlogArticle7 = lazy(() => import("./pages/BlogArticle7"));
+const BlogArticle8 = lazy(() => import("./pages/BlogArticle8"));
+const BlogArticle9 = lazy(() => import("./pages/BlogArticle9"));
+const BlogArticle10 = lazy(() => import("./pages/BlogArticle10"));
+const BlogArticle11 = lazy(() => import("./pages/BlogArticle11"));
+const Alcaldias = lazy(() => import("./pages/Alcaldias"));
+const AlcaldiaArticle1 = lazy(() => import("./pages/AlcaldiaArticle1"));
+const AlcaldiaArticle2 = lazy(() => import("./pages/AlcaldiaArticle2"));
+const AlcaldiaArticle3 = lazy(() => import("./pages/AlcaldiaArticle3"));
+const AlcaldiaArticle4 = lazy(() => import("./pages/AlcaldiaArticle4"));
+const AlcaldiaArticle5 = lazy(() => import("./pages/AlcaldiaArticle5"));
+const PoliticaDePrivacidad = lazy(() => import("./pages/PoliticaDePrivacidad"));
 
 
 function Routes() {
@@ -81,16 +81,13 @@ function App({ ssrPath }: AppProps) {
   return (
     <ErrorBoundary>
       <HelmetProvider>
-        <LanguageProvider>
-          <ThemeProvider defaultTheme="light">
-            <TooltipProvider>
-              <Toaster />
-              <WouterRouter ssrPath={ssrPath}>
-                <Routes />
-              </WouterRouter>
-            </TooltipProvider>
-          </ThemeProvider>
-        </LanguageProvider>
+        <ThemeProvider defaultTheme="light">
+          <WouterRouter ssrPath={ssrPath}>
+            <Suspense fallback={null}>
+              <Routes />
+            </Suspense>
+          </WouterRouter>
+        </ThemeProvider>
       </HelmetProvider>
     </ErrorBoundary>
   );

@@ -40,11 +40,11 @@ function PostCard({ post }: { post: BlogPost }) {
   return (
     <article className="group relative flex h-full flex-col rounded-2xl border border-slate-200 bg-white p-6 transition-all hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-lg hover:shadow-brand-900/5">
       <p className="text-xs font-semibold uppercase tracking-wide text-cta-700">{post.category}</p>
-      <h3 className="mt-3 font-display text-lg leading-snug text-ink">
+      <h2 className="mt-3 font-display text-lg leading-snug text-ink">
         <Link href={`/blog/${post.slug}`} className="after:absolute after:inset-0 after:rounded-2xl">
           {post.title}
         </Link>
-      </h3>
+      </h2>
       <p className="mt-3 flex-1 leading-relaxed text-ink-muted">{post.excerpt}</p>
       <div className="mt-5 flex items-center justify-between gap-3">
         <PostMeta post={post} />

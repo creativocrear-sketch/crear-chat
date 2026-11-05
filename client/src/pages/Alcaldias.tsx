@@ -121,9 +121,9 @@ function Alcaldias() {
                       </div>
 
                       {/* Title */}
-                      <h3 className="font-bold text-lg md:text-xl text-gray-900 mb-3 line-clamp-2 group-hover:text-brand-600 transition-colors">
+                      <h2 className="font-bold text-lg md:text-xl text-gray-900 mb-3 line-clamp-2 group-hover:text-brand-600 transition-colors">
                         {article.title.charAt(0).toUpperCase() + article.title.slice(1)}
-                      </h3>
+                      </h2>
 
                       {/* Excerpt */}
                       <p className="text-gray-600 text-sm mb-6 line-clamp-3 leading-relaxed">

@@ -244,7 +244,9 @@ export default function BlogArticle11() {
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                {pageTitle}
+                {language === "es"
+                  ? "¿Por qué me pueden restringir el número de WhatsApp?"
+                  : "Why can my WhatsApp number be restricted?"}
               </h1>
 
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
@@ -849,7 +851,7 @@ export default function BlogArticle11() {
                   </button>
                   <button
                     onClick={() => handleShare('whatsapp')}
-                    className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
+                    className="flex items-center gap-2 px-4 py-2 bg-cta-600 hover:bg-cta-700 text-white rounded-lg transition-colors"
                   >
                     <MessageCircle className="w-4 h-4" />
                     {language === 'es' ? 'WhatsApp' : 'WhatsApp'}
@@ -871,7 +873,7 @@ export default function BlogArticle11() {
                   </div>
                   <div className="text-right">
                     <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Siguiente artículo' : 'Next article'}</p>
-                    <span className="text-gray-400 font-medium">
+                    <span className="text-gray-500 font-medium">
                       {language === 'es' ? 'Este es el último artículo de la serie' : 'This is the last article in the series'}
                     </span>
                   </div>

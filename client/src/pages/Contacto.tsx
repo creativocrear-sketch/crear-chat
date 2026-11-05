@@ -208,7 +208,7 @@ export default function Contacto() {
           </form>
 
           {/* Datos de contacto */}
-          <aside className="space-y-4">
+          <div className="space-y-4">
             <a
               href={whatsappUrl("Hola, quiero información sobre crear.chat")}
               target="_blank"
@@ -264,7 +264,7 @@ export default function Contacto() {
                 <Instagram className="h-4 w-4" aria-hidden="true" /> Instagram
               </a>
             </div>
-          </aside>
+          </div>
         </div>
       </Section>
 

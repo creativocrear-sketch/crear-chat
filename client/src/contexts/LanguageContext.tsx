@@ -1,4 +1,3 @@
-import React, { createContext, useContext, ReactNode } from 'react';
 
 // Traducciones
 const translations = {
@@ -774,49 +773,17 @@ const translations = {
 };
 
 type Language = 'es' | 'en';
-type TranslationKey = keyof typeof translations.es;
 
-interface LanguageContextType {
-  language: Language;
-  setLanguage: (lang: Language) => void;
-  t: (key: string) => string;
-}
-
-const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
-
-export const useLanguage = () => {
-  const context = useContext(LanguageContext);
-  if (!context) {
-    throw new Error('useLanguage must be used within a LanguageProvider');
+const t = (key: string): string => {
+  let value: any = translations.es;
+  for (const k of key.split('.')) {
+    value = value?.[k];
   }
-  return context;
+  return value || key;
 };
 
-interface LanguageProviderProps {
-  children: ReactNode;
-}
-
-export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
-  // El sitio se publica solo en español. Las traducciones al inglés que aún existen
-  // en las páginas antiguas no se muestran y se eliminarán al rediseñarlas.
-  const language: Language = 'es';
-  const changeLanguage = (_lang: Language) => {};
-
-  const t = (key: string): string => {
-    const keys = key.split('.');
-    let value: any = translations[language];
-    
-    for (const k of keys) {
-      value = value?.[k];
-    }
-    
-    return value || key;
-  };
-
-  return (
-    <LanguageContext.Provider value={{ language, setLanguage: changeLanguage, t }}>
-      {children}
-    </LanguageContext.Provider>
-  );
-};
-
+/**
+ * El sitio se publica solo en español. Las páginas antiguas (blog, alcaldías) aún usan este hook
+ * y sus textos en inglés no se muestran; se eliminarán al rediseñarlas.
+ */
+export const useLanguage = () => ({ language: 'es' as Language, setLanguage: (_lang: Language) => {}, t });

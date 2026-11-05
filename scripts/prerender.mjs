@@ -28,8 +28,8 @@ function splitHead(html) {
   return { head, body: rest };
 }
 
-function writePage(urlPath, fileName) {
-  const { head, body } = splitHead(render(urlPath));
+async function writePage(urlPath, fileName) {
+  const { head, body } = splitHead(await render(urlPath));
   const html = template.replace("<!--app-head-->", head).replace("<!--app-html-->", body);
   const file = path.join(publicDir, fileName);
   fs.mkdirSync(path.dirname(file), { recursive: true });
@@ -38,9 +38,9 @@ function writePage(urlPath, fileName) {
 
 for (const page of PAGES) {
   // "/" -> index.html; "/planes" -> planes.html. Con "cleanUrls" en vercel.json, Vercel sirve planes.html en /planes.
-  writePage(page.path, page.path === "/" ? "index.html" : `${page.path.slice(1)}.html`);
+  await writePage(page.path, page.path === "/" ? "index.html" : `${page.path.slice(1)}.html`);
 }
-writePage("/404", "404.html");
+await writePage("/404", "404.html");
 
 const buildDate = new Date().toISOString().slice(0, 10);
 fs.writeFileSync(path.join(publicDir, "sitemap.xml"), sitemapXml(buildDate));

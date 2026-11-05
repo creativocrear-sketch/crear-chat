@@ -436,27 +436,27 @@ export default function BlogArticle1() {
                         <tr>
                           <td className="px-6 py-4 text-sm text-gray-900">{language === "es" ? "Uso" : "Usage"}</td>
                           <td className="px-6 py-4 text-sm text-gray-600">{language === "es" ? "Manual desde app" : "Manual from app"}</td>
-                          <td className="px-6 py-4 text-sm text-green-600 font-semibold">{language === "es" ? "Automatizado e integrado" : "Automated and integrated"}</td>
+                          <td className="px-6 py-4 text-sm text-green-700 font-semibold">{language === "es" ? "Automatizado e integrado" : "Automated and integrated"}</td>
                         </tr>
                         <tr>
                           <td className="px-6 py-4 text-sm text-gray-900">{language === "es" ? "Agentes" : "Agents"}</td>
                           <td className="px-6 py-4 text-sm text-gray-600">1</td>
-                          <td className="px-6 py-4 text-sm text-green-600 font-semibold">{language === "es" ? "Múltiples" : "Multiple"}</td>
+                          <td className="px-6 py-4 text-sm text-green-700 font-semibold">{language === "es" ? "Múltiples" : "Multiple"}</td>
                         </tr>
                         <tr>
                           <td className="px-6 py-4 text-sm text-gray-900">CRM</td>
                           <td className="px-6 py-4 text-sm text-gray-600">{language === "es" ? "No" : "No"}</td>
-                          <td className="px-6 py-4 text-sm text-green-600 font-semibold">{language === "es" ? "Sí" : "Yes"}</td>
+                          <td className="px-6 py-4 text-sm text-green-700 font-semibold">{language === "es" ? "Sí" : "Yes"}</td>
                         </tr>
                         <tr>
                           <td className="px-6 py-4 text-sm text-gray-900">{language === "es" ? "Automatización" : "Automation"}</td>
                           <td className="px-6 py-4 text-sm text-gray-600">{language === "es" ? "Básica" : "Basic"}</td>
-                          <td className="px-6 py-4 text-sm text-green-600 font-semibold">{language === "es" ? "Avanzada" : "Advanced"}</td>
+                          <td className="px-6 py-4 text-sm text-green-700 font-semibold">{language === "es" ? "Avanzada" : "Advanced"}</td>
                         </tr>
                         <tr>
                           <td className="px-6 py-4 text-sm text-gray-900">{language === "es" ? "Escalabilidad" : "Scalability"}</td>
                           <td className="px-6 py-4 text-sm text-gray-600">{language === "es" ? "Baja" : "Low"}</td>
-                          <td className="px-6 py-4 text-sm text-green-600 font-semibold">{language === "es" ? "Alta" : "High"}</td>
+                          <td className="px-6 py-4 text-sm text-green-700 font-semibold">{language === "es" ? "Alta" : "High"}</td>
                         </tr>
                       </tbody>
                     </table>
@@ -608,7 +608,7 @@ export default function BlogArticle1() {
                     </button>
                     <button
                       onClick={() => handleShare("whatsapp")}
-                      className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
+                      className="flex items-center gap-2 px-4 py-2 bg-cta-600 hover:bg-cta-700 text-white rounded-lg transition-colors"
                     >
                       <MessageCircle className="w-4 h-4" />
                       WhatsApp

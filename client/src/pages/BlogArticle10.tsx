@@ -579,7 +579,7 @@ export default function BlogArticlePoliticasWhatsApp() {
                     </button>
                     <button
                       onClick={() => handleShare("whatsapp")}
-                      className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+                      className="flex items-center gap-2 px-4 py-2 bg-cta-600 text-white rounded-lg hover:bg-cta-700 transition-colors"
                     >
                       <MessageCircle className="w-4 h-4" />
                       {language === "es" ? "WhatsApp" : "WhatsApp"}

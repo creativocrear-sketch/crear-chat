@@ -396,7 +396,7 @@ function AlcaldiaArticle4() {
                     </button>
                     <button
                       onClick={() => handleShare('whatsapp')}
-                      className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+                      className="flex items-center gap-2 px-4 py-2 bg-cta-600 text-white rounded-lg hover:bg-cta-700 transition-colors"
                     >
                       <MessageCircle className="w-4 h-4" />
                       {language === 'es' ? 'WhatsApp' : 'WhatsApp'}
@@ -430,7 +430,7 @@ function AlcaldiaArticle4() {
                   <p className="text-sm text-gray-500 mb-1">
                     {language === 'es' ? 'Próximo artículo' : 'Next article'}
                   </p>
-                  <p className="text-gray-400 text-sm">
+                  <p className="text-gray-500 text-sm">
                     {language === 'es' ? 'Próximamente más artículos' : 'More articles coming soon'}
                   </p>
                 </div>

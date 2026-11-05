@@ -14,8 +14,8 @@ const variants: Record<Variant, string> = {
 };
 
 const sizes: Record<Size, string> = {
-  md: "h-11 px-5 text-[15px]",
-  lg: "h-12 px-6 text-base",
+  md: "min-h-11 px-5 py-2.5 text-[15px]",
+  lg: "min-h-12 px-6 py-3 text-base",
 };
 
 type Props = {
@@ -30,7 +30,7 @@ type Props = {
 /** Botón con forma de enlace. Los enlaces externos (WhatsApp, redes) abren en otra pestaña. */
 export default function ButtonLink({ href, children, variant = "primary", size = "md", className, onClick }: Props) {
   const classes = cn(
-    "inline-flex items-center justify-center gap-2 rounded-xl font-semibold transition-colors duration-200 whitespace-nowrap",
+    "inline-flex items-center justify-center gap-2 rounded-xl text-center font-semibold leading-tight transition-colors duration-200",
     variants[variant],
     sizes[size],
     className,

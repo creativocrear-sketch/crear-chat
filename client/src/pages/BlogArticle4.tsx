@@ -525,32 +525,32 @@ export default function BlogArticle4() {
                       <tr>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'Conversaciones simultáneas' : 'Simultaneous conversations'}</td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? '1 dispositivo' : '1 device'}</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">{language === 'es' ? 'Ilimitadas' : 'Unlimited'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">{language === 'es' ? 'Ilimitadas' : 'Unlimited'}</td>
                       </tr>
                       <tr>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'Automatización' : 'Automation'}</td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? 'Respuestas rápidas manuales' : 'Manual quick replies'}</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">{language === 'es' ? 'IA 24/7 automática' : 'Automatic AI 24/7'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">{language === 'es' ? 'IA 24/7 automática' : 'Automatic AI 24/7'}</td>
                       </tr>
                       <tr>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'Integración CRM' : 'CRM Integration'}</td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? 'No disponible' : 'Not available'}</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">{language === 'es' ? 'Total' : 'Full'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">{language === 'es' ? 'Total' : 'Full'}</td>
                       </tr>
                       <tr>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'Personalización' : 'Personalization'}</td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? 'Básica' : 'Basic'}</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">{language === 'es' ? 'Avanzada con IA' : 'Advanced with AI'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">{language === 'es' ? 'Avanzada con IA' : 'Advanced with AI'}</td>
                       </tr>
                       <tr>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'Escalabilidad' : 'Scalability'}</td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? 'Limitada por personal' : 'Limited by staff'}</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">{language === 'es' ? 'Ilimitada' : 'Unlimited'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">{language === 'es' ? 'Ilimitada' : 'Unlimited'}</td>
                       </tr>
                       <tr>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'Disponibilidad' : 'Availability'}</td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? 'Horario laboral' : 'Business hours'}</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">{language === 'es' ? '24/7' : '24/7'}</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">{language === 'es' ? '24/7' : '24/7'}</td>
                       </tr>
                     </tbody>
                   </table>
@@ -655,32 +655,32 @@ export default function BlogArticle4() {
                       <tr>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'Restaurantes' : 'Restaurants'}</td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? 'Pedidos automáticos' : 'Automatic orders'}</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">+35%</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">-25%</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">+35%</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">-25%</td>
                       </tr>
                       <tr>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'Hoteles' : 'Hotels'}</td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? 'Reservas y concierge' : 'Bookings and concierge'}</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">+50%</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">-30%</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">+50%</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">-30%</td>
                       </tr>
                       <tr>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'Cobranzas' : 'Collections'}</td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? 'Recordatorios inteligentes' : 'Smart reminders'}</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">+60%</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">-40%</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">+60%</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">-40%</td>
                       </tr>
                       <tr>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'E-commerce' : 'E-commerce'}</td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? 'Soporte y ventas' : 'Support and sales'}</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">+45%</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">-35%</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">+45%</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">-35%</td>
                       </tr>
                       <tr>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{language === 'es' ? 'Salud' : 'Healthcare'}</td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">{language === 'es' ? 'Citas y triaje' : 'Appointments and triage'}</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">+30%</td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-600 font-semibold">-40%</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">+30%</td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-green-700 font-semibold">-40%</td>
                       </tr>
                     </tbody>
                   </table>
@@ -853,7 +853,7 @@ export default function BlogArticle4() {
                   </button>
                   <button
                     onClick={() => handleShare('whatsapp')}
-                    className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
+                    className="flex items-center gap-2 px-4 py-2 bg-cta-600 hover:bg-cta-700 text-white rounded-lg transition-colors"
                   >
                     <MessageCircle className="w-4 h-4" />
                     {language === 'es' ? 'WhatsApp' : 'WhatsApp'}
