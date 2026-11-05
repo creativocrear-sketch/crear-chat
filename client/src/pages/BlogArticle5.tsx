@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ArticleRelated from "@/components/site/ArticleRelated";
 import { Calendar, Clock, ChevronLeft, Facebook, MessageCircle } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -263,14 +264,14 @@ export default function BlogArticle5() {
               <div className="max-w-4xl mx-auto">
                 <a
                   href="/blog"
-                  className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium mb-8 transition-colors"
+                  className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-800 font-medium mb-8 transition-colors"
                 >
                   <ChevronLeft className="w-4 h-4" />
                   {language === "es" ? "Volver al blog" : "Back to blog"}
                 </a>
 
                 <div className="mb-6">
-                  <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                  <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                     {language === "es" ? "Integraciones" : "Integrations"}
                   </span>
                 </div>
@@ -361,11 +362,11 @@ export default function BlogArticle5() {
                           : "Key questions this article answers"}
                       </h2>
                       <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-0">
-                        <li><a href="#que-plataformas-se-pueden-integrar" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Qué plataformas se pueden integrar con WhatsApp Business API?" : "Which platforms can integrate with WhatsApp Business API?"}</a></li>
-                        <li><a href="#que-integracion-implementar-primero" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Cuál integración conviene implementar primero?" : "Which integration should be implemented first?"}</a></li>
-                        <li><a href="#crm-y-ecommerce" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Se puede conectar con CRM y e-commerce al mismo tiempo?" : "Can it connect to CRM and e-commerce at the same time?"}</a></li>
-                        <li><a href="#integraciones-personalizadas" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Qué pasa si mi sistema no aparece en la lista?" : "What if my system is not on the list?"}</a></li>
-                        <li><a href="#resumen" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Cuál es el resumen corto?" : "What is the short summary?"}</a></li>
+                        <li><a href="#que-plataformas-se-pueden-integrar" className="text-brand-600 hover:underline">{language === "es" ? "¿Qué plataformas se pueden integrar con WhatsApp Business API?" : "Which platforms can integrate with WhatsApp Business API?"}</a></li>
+                        <li><a href="#que-integracion-implementar-primero" className="text-brand-600 hover:underline">{language === "es" ? "¿Cuál integración conviene implementar primero?" : "Which integration should be implemented first?"}</a></li>
+                        <li><a href="#crm-y-ecommerce" className="text-brand-600 hover:underline">{language === "es" ? "¿Se puede conectar con CRM y e-commerce al mismo tiempo?" : "Can it connect to CRM and e-commerce at the same time?"}</a></li>
+                        <li><a href="#integraciones-personalizadas" className="text-brand-600 hover:underline">{language === "es" ? "¿Qué pasa si mi sistema no aparece en la lista?" : "What if my system is not on the list?"}</a></li>
+                        <li><a href="#resumen" className="text-brand-600 hover:underline">{language === "es" ? "¿Cuál es el resumen corto?" : "What is the short summary?"}</a></li>
                       </ul>
                     </div>
                   </section>
@@ -395,19 +396,19 @@ export default function BlogArticle5() {
                     </h2>
                     <p className="text-gray-700 mb-0 leading-relaxed">
                       {language === "es" ? "Si estás evaluando integraciones, también te conviene revisar " : "If you are evaluating integrations, you should also review "}
-                      <a href="/consultoria" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/consultoria" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "consultoría de WhatsApp Business API" : "WhatsApp Business API consulting"}
                       </a>
                       ,{" "}
-                      <a href="/plataforma" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/plataforma" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "plataforma integrada" : "integrated platform"}
                       </a>
                       ,{" "}
-                      <a href="/modulos/crm" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/modulos/crm" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "automatización de ventas" : "sales automation"}
                       </a>
                       {" "}{language === "es" ? "y nuestra guía sobre " : "and our guide about "}
-                      <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "beneficios de WhatsApp Business API + IA" : "WhatsApp Business API + AI benefits"}
                       </a>.
                     </p>
@@ -727,11 +728,11 @@ export default function BlogArticle5() {
 
                   <p className="text-gray-600 mb-6 leading-relaxed">
                     {language === "es" ? "Si quieres profundizar, también puedes revisar " : "If you want to go deeper, you can also review "}
-                    <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                    <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-brand-600 hover:underline font-medium">
                       {language === "es" ? "por qué necesitas una plataforma para administrar WhatsApp" : "why you need a platform to manage WhatsApp"}
                     </a>
                     {" "}{language === "es" ? "y " : "and "}
-                    <a href="/blog/diferencias-plataformas-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                    <a href="/blog/diferencias-plataformas-whatsapp" className="text-brand-600 hover:underline font-medium">
                       {language === "es" ? "las diferencias entre plataformas" : "the differences between platforms"}
                     </a>.
                   </p>
@@ -767,7 +768,7 @@ export default function BlogArticle5() {
                       </p>
                       <a
                         href="/blog/beneficios-whatsapp-business-api-ia"
-                        className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
+                        className="text-brand-600 hover:text-brand-800 font-semibold transition-colors"
                       >
                         {language === "es"
                           ? "¿Qué beneficios tengo usando WhatsApp Business API + IA?"
@@ -780,7 +781,7 @@ export default function BlogArticle5() {
                       </p>
                       <a
                         href="/blog/por-que-necesito-plataforma-whatsapp"
-                        className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
+                        className="text-brand-600 hover:text-brand-800 font-semibold transition-colors"
                       >
                         {language === "es"
                           ? "¿Por qué necesito una plataforma para administrar los chats de WhatsApp?"
@@ -810,7 +811,7 @@ export default function BlogArticle5() {
                     href="https://wa.me/+573105317126"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
+                    className="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-800 text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
                   >
                     <MessageCircle className="w-5 h-5" />
                     {language === "es" ? "Escríbeme por WhatsApp" : "Write me on WhatsApp"}
@@ -830,7 +831,7 @@ export default function BlogArticle5() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Beneficios" : "Benefits"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -845,7 +846,7 @@ export default function BlogArticle5() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>6 min</span>
-                        <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -854,7 +855,7 @@ export default function BlogArticle5() {
 
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Plataforma" : "Platform"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -869,7 +870,7 @@ export default function BlogArticle5() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>7 min</span>
-                        <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -878,7 +879,7 @@ export default function BlogArticle5() {
 
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Implementación" : "Implementation"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -893,7 +894,7 @@ export default function BlogArticle5() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>7 min</span>
-                        <a href="/blog/primeros-pasos-migrar-whatsapp-api" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/primeros-pasos-migrar-whatsapp-api" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -903,6 +904,7 @@ export default function BlogArticle5() {
               </div>
             </div>
           </section>
+          <ArticleRelated slug="plataformas-integracion-whatsapp-api" />
         </main>
         <Footer />
       </div>

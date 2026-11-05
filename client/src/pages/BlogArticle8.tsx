@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ArticleRelated from "@/components/site/ArticleRelated";
 import { Calendar, Clock, ChevronLeft, Facebook, MessageCircle } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -73,8 +74,8 @@ export default function BlogArticleCobroPlataformas() {
           name="ai-summary"
           content={
             language === "es"
-              ? "Las plataformas de WhatsApp Business API tienen 5 modelos de cobro principales: suscripción mensual fija (Crear.chat $99–$499/mes, Wati $25–$299/mes), pago por mensajes (Twilio $0.0075/mensaje), suscripción más pago por uso, pago por agentes (Zendesk $49–$149/agente/mes) y freemium. Los costos también incluyen mensajes de WhatsApp, integraciones, automatización y soporte. Un pequeño negocio paga ~$100/mes, uno mediano ~$375–$941/mes y uno grande ~$1.250–$1.990/mes."
-              : "WhatsApp Business API platforms have 5 main billing models: fixed monthly subscription (Crear.chat $99–$499/month, Wati $25–$299/month), pay-per-message (Twilio $0.0075/message), subscription plus usage, per-agent pricing (Zendesk $49–$149/agent/month) and freemium. Costs also include WhatsApp messages, integrations, automation and support. A small business pays ~$100/month, a mid-sized one ~$375–$941/month and a large one ~$1,250–$1,990/month."
+              ? "Las plataformas de WhatsApp Business API tienen 5 modelos de cobro principales: suscripción mensual fija (Crear.chat desde $156.000 hasta $600.000 COP/mes más IVA, Wati $25–$299 USD/mes), pago por mensajes (Twilio $0.0075/mensaje), suscripción más pago por uso, pago por agentes (Zendesk $49–$149/agente/mes) y freemium. Los costos también incluyen mensajes de WhatsApp, integraciones, automatización y soporte. En Crear.chat los planes van de $156.000 a $600.000 COP/mes más IVA; en plataformas internacionales cotizadas en dólares, un negocio mediano puede pagar alrededor de $941 USD/mes y uno grande entre $1.250 y $1.990 USD/mes."
+              : "WhatsApp Business API platforms have 5 main billing models: fixed monthly subscription (Crear.chat from COP 156,000 to COP 600,000/month plus VAT, Wati $25–$299 USD/month), pay-per-message (Twilio $0.0075/message), subscription plus usage, per-agent pricing (Zendesk $49–$149/agent/month) and freemium. Costs also include WhatsApp messages, integrations, automation and support. In Crear.chat plans range from COP 156,000 to COP 600,000/month plus VAT; on international platforms priced in dollars, a mid-sized business may pay around $941 USD/month and a large one between $1,250 and $1,990 USD/month."
           }
         />
         <meta
@@ -186,8 +187,8 @@ export default function BlogArticleCobroPlataformas() {
                 acceptedAnswer: {
                   "@type": "Answer",
                   text: language === "es"
-                    ? "Los precios varían según el modelo: suscripción fija desde $25/mes (Wati) hasta $999/mes (Intercom), pago por mensaje desde $0.0075 por mensaje (Twilio), o pago por agente desde $49/agente/mes (Zendesk). Un pequeño negocio con 100 conversaciones/mes puede pagar ~$100/mes con Crear.chat."
-                    : "Prices vary by model: fixed subscription from $25/month (Wati) to $999/month (Intercom), pay-per-message from $0.0075 per message (Twilio), or per-agent from $49/agent/month (Zendesk). A small business with 100 conversations/month can pay ~$100/month with Crear.chat.",
+                    ? "Los precios varían según el modelo: suscripción fija desde $25/mes (Wati) hasta $999/mes (Intercom), pago por mensaje desde $0.0075 por mensaje (Twilio), o pago por agente desde $49/agente/mes (Zendesk). En Crear.chat, los planes mensuales van desde $156.000 COP más IVA."
+                    : "Prices vary by model: fixed subscription from $25/month (Wati) to $999/month (Intercom), pay-per-message from $0.0075 per message (Twilio), or per-agent from $49/agent/month (Zendesk). In Crear.chat, monthly plans start at COP 156,000 plus VAT.",
                 },
               },
               {
@@ -246,8 +247,8 @@ export default function BlogArticleCobroPlataformas() {
                 acceptedAnswer: {
                   "@type": "Answer",
                   text: language === "es"
-                    ? "Para un pequeño negocio con 100 conversaciones/mes, el costo total con Crear.chat es ~$100/mes (suscripción $99 más mensajes ~$0.75). Con Twilio sería ~$1/mes solo en mensajes, pero sin interfaz de usuario ni funcionalidades listas para operar el negocio."
-                    : "For a small business with 100 conversations/month, the total cost with Crear.chat is ~$100/month (subscription $99 plus messages ~$0.75). With Twilio it would be ~$1/month in messages only, but without a user interface or business-ready features.",
+                    ? "Para un pequeño negocio, el plan Inicio de Crear.chat cuesta $156.000 COP al mes más IVA e incluye la plataforma, 2 agentes humanos, agentes de IA y flujos de chatbot. Con Twilio sería ~$1/mes solo en mensajes, pero sin interfaz de usuario ni funcionalidades listas para operar el negocio."
+                    : "For a small business, the Crear.chat Inicio plan costs COP 156,000 per month plus VAT and includes the platform, 2 human agents, AI agents and chatbot flows. With Twilio it would be ~$1/month in messages only, but without a user interface or business-ready features.",
                 },
               },
               {
@@ -283,8 +284,8 @@ export default function BlogArticleCobroPlataformas() {
                 position: 1,
                 name: language === "es" ? "Suscripción mensual fija" : "Fixed monthly subscription",
                 description: language === "es"
-                  ? "Pago fijo mensual independiente del uso. Ejemplos: Crear.chat $99–$499/mes, Wati $25–$299/mes, Intercom $99–$999/mes."
-                  : "Fixed monthly payment regardless of usage. Examples: Crear.chat $99–$499/month, Wati $25–$299/month, Intercom $99–$999/month.",
+                  ? "Pago fijo mensual independiente del uso. Ejemplos: Crear.chat $156.000–$600.000 COP/mes más IVA, Wati $25–$299 USD/mes, Intercom $99–$999 USD/mes."
+                  : "Fixed monthly payment regardless of usage. Examples: Crear.chat COP 156,000–600,000/month plus VAT, Wati $25–$299 USD/month, Intercom $99–$999 USD/month.",
               },
               {
                 "@type": "ListItem",
@@ -299,8 +300,8 @@ export default function BlogArticleCobroPlataformas() {
                 position: 3,
                 name: language === "es" ? "Suscripción + pago por uso" : "Subscription + pay per use",
                 description: language === "es"
-                  ? "Suscripción base más costo adicional por mensajes o características premium. Usado por Intercom, Zendesk y algunos planes de Crear.chat."
-                  : "Base subscription plus additional cost for messages or premium features. Used by Intercom, Zendesk and some Crear.chat plans.",
+                  ? "Suscripción base más costo adicional por mensajes o características premium. Usado por Intercom y Zendesk."
+                  : "Base subscription plus additional cost for messages or premium features. Used by Intercom and Zendesk.",
               },
               {
                 "@type": "ListItem",
@@ -348,14 +349,14 @@ export default function BlogArticleCobroPlataformas() {
               <div className="max-w-4xl mx-auto">
                 <a
                   href="/blog"
-                  className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium mb-8 transition-colors"
+                  className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-800 font-medium mb-8 transition-colors"
                 >
                   <ChevronLeft className="w-4 h-4" />
                   {language === "es" ? "Volver al blog" : "Back to blog"}
                 </a>
 
                 <div className="mb-6">
-                  <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                  <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                     {language === "es" ? "Precios" : "Pricing"}
                   </span>
                 </div>
@@ -425,7 +426,7 @@ export default function BlogArticleCobroPlataformas() {
                         <li>{language === "es" ? "Suscripciones desde $25/mes hasta $999/mes" : "Subscriptions from $25/month to $999/month"}</li>
                         <li>{language === "es" ? "Pago por mensaje: desde $0.0075 por mensaje (Twilio)" : "Pay-per-message: from $0.0075 per message (Twilio)"}</li>
                         <li>{language === "es" ? "Pago por agente: desde $49/agente/mes (Zendesk)" : "Per-agent: from $49/agent/month (Zendesk)"}</li>
-                        <li>{language === "es" ? "Pequeño negocio: ~$100/mes total estimado" : "Small business: ~$100/month total estimate"}</li>
+                        <li>{language === "es" ? "Crear.chat: planes desde $156.000 COP/mes más IVA" : "Crear.chat: plans from COP 156,000/month plus VAT"}</li>
                       </ul>
                     </div>
 
@@ -434,13 +435,13 @@ export default function BlogArticleCobroPlataformas() {
                         {language === "es" ? "Modelos que cubre este artículo" : "Models covered in this article"}
                       </h2>
                       <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-0">
-                        <li><a href="#suscripcion-fija" className="text-[#1B4F72] hover:underline">{language === "es" ? "Suscripción mensual fija" : "Fixed monthly subscription"}</a></li>
-                        <li><a href="#pago-por-mensajes" className="text-[#1B4F72] hover:underline">{language === "es" ? "Pago por mensajes" : "Pay per message"}</a></li>
-                        <li><a href="#modelo-mixto" className="text-[#1B4F72] hover:underline">{language === "es" ? "Suscripción + pago por uso" : "Subscription + pay per use"}</a></li>
-                        <li><a href="#pago-por-agentes" className="text-[#1B4F72] hover:underline">{language === "es" ? "Pago por agentes" : "Per-agent pricing"}</a></li>
-                        <li><a href="#freemium" className="text-[#1B4F72] hover:underline">Freemium</a></li>
-                        <li><a href="#componentes-adicionales" className="text-[#1B4F72] hover:underline">{language === "es" ? "Componentes adicionales de precio" : "Additional price components"}</a></li>
-                        <li><a href="#ejemplos-reales" className="text-[#1B4F72] hover:underline">{language === "es" ? "Ejemplos de costos reales" : "Real cost examples"}</a></li>
+                        <li><a href="#suscripcion-fija" className="text-brand-600 hover:underline">{language === "es" ? "Suscripción mensual fija" : "Fixed monthly subscription"}</a></li>
+                        <li><a href="#pago-por-mensajes" className="text-brand-600 hover:underline">{language === "es" ? "Pago por mensajes" : "Pay per message"}</a></li>
+                        <li><a href="#modelo-mixto" className="text-brand-600 hover:underline">{language === "es" ? "Suscripción + pago por uso" : "Subscription + pay per use"}</a></li>
+                        <li><a href="#pago-por-agentes" className="text-brand-600 hover:underline">{language === "es" ? "Pago por agentes" : "Per-agent pricing"}</a></li>
+                        <li><a href="#freemium" className="text-brand-600 hover:underline">Freemium</a></li>
+                        <li><a href="#componentes-adicionales" className="text-brand-600 hover:underline">{language === "es" ? "Componentes adicionales de precio" : "Additional price components"}</a></li>
+                        <li><a href="#ejemplos-reales" className="text-brand-600 hover:underline">{language === "es" ? "Ejemplos de costos reales" : "Real cost examples"}</a></li>
                       </ul>
                     </div>
                   </section>
@@ -454,15 +455,15 @@ export default function BlogArticleCobroPlataformas() {
                       {language === "es"
                         ? "Si estás comparando opciones, también te conviene revisar "
                         : "If you are comparing options, you should also review "}
-                      <a href="/blog/diferencias-plataformas-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/blog/diferencias-plataformas-whatsapp" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "las diferencias entre plataformas de WhatsApp" : "the differences between WhatsApp platforms"}
                       </a>
                       {", "}
-                      <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "por qué necesitas una plataforma para WhatsApp Business API" : "why you need a platform for WhatsApp Business API"}
                       </a>
                       {language === "es" ? " y " : " and "}
-                      <a href="/blog/plataformas-integracion-whatsapp-api" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/blog/plataformas-integracion-whatsapp-api" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "qué plataformas se integran con WhatsApp Business API" : "which platforms integrate with WhatsApp Business API"}
                       </a>.
                     </p>
@@ -488,7 +489,7 @@ export default function BlogArticleCobroPlataformas() {
                   <div className="rounded-2xl border border-blue-100 bg-white p-6 mb-4">
                     <h4 className="font-bold text-gray-900 mb-3">{language === "es" ? "Ejemplos de precios" : "Price examples"}</h4>
                     <ul className="list-disc pl-6 space-y-1 text-gray-600 mb-4">
-                      <li>Crear.chat: $99–$499/mes</li>
+                      <li>Crear.chat: $156.000–$600.000 COP/mes más IVA</li>
                       <li>Wati: $25–$299/mes</li>
                       <li>Intercom: $99–$999/mes</li>
                     </ul>
@@ -568,7 +569,6 @@ export default function BlogArticleCobroPlataformas() {
                     <ul className="list-disc pl-6 space-y-1 text-gray-600 mb-4">
                       <li>{language === "es" ? "Algunos planes de Intercom" : "Some Intercom plans"}</li>
                       <li>{language === "es" ? "Algunos planes de Zendesk" : "Some Zendesk plans"}</li>
-                      <li>{language === "es" ? "Algunos planes de Crear.chat" : "Some Crear.chat plans"}</li>
                     </ul>
                     <div className="grid grid-cols-2 gap-4">
                       <div>
@@ -708,8 +708,8 @@ export default function BlogArticleCobroPlataformas() {
                   <p className="text-gray-600 mb-6 leading-relaxed">
                     <strong className="text-gray-900">{language === "es" ? "Respuesta directa:" : "Direct answer:"}</strong>{" "}
                     {language === "es"
-                      ? "Un pequeño negocio paga ~$100/mes, uno mediano entre $375 y $941/mes, y uno grande entre $1.250 y $1.990/mes, dependiendo de la plataforma elegida."
-                      : "A small business pays ~$100/month, a mid-sized one between $375 and $941/month, and a large one between $1,250 and $1,990/month, depending on the chosen platform."}
+                      ? "En Crear.chat, un pequeño negocio puede empezar con el plan Inicio por $156.000 COP/mes más IVA. En plataformas internacionales cotizadas en dólares, un negocio mediano puede pagar alrededor de $941 USD/mes y uno grande entre $1.250 y $1.990 USD/mes."
+                      : "In Crear.chat, a small business can start with the Inicio plan for COP 156,000/month plus VAT. On international platforms priced in dollars, a mid-sized business may pay around $941 USD/month and a large one between $1,250 and $1,990 USD/month."}
                   </p>
 
                   <section className="space-y-6 mb-8">
@@ -722,9 +722,9 @@ export default function BlogArticleCobroPlataformas() {
                         <div className="bg-gray-50 rounded-lg p-4">
                           <p className="font-semibold text-gray-800 mb-2">Crear.chat</p>
                           <ul className="text-sm text-gray-600 space-y-1">
-                            <li>{language === "es" ? "Suscripción: $99/mes" : "Subscription: $99/month"}</li>
-                            <li>{language === "es" ? "Mensajes WhatsApp: ~$0.75/mes" : "WhatsApp messages: ~$0.75/month"}</li>
-                            <li className="font-semibold text-[#1B4F72]">{language === "es" ? "Total: ~$100/mes" : "Total: ~$100/month"}</li>
+                            <li>{language === "es" ? "Plan Inicio: $156.000 COP/mes más IVA" : "Inicio plan: COP 156,000/month plus VAT"}</li>
+                            <li>{language === "es" ? "Incluye 500 contactos y 2 agentes humanos" : "Includes 500 contacts and 2 human agents"}</li>
+                            <li className="font-semibold text-brand-600">{language === "es" ? "Total: desde $156.000 COP/mes más IVA" : "Total: from COP 156,000/month plus VAT"}</li>
                           </ul>
                         </div>
                         <div className="bg-gray-50 rounded-lg p-4">
@@ -732,7 +732,7 @@ export default function BlogArticleCobroPlataformas() {
                           <ul className="text-sm text-gray-600 space-y-1">
                             <li>{language === "es" ? "Suscripción: $0" : "Subscription: $0"}</li>
                             <li>{language === "es" ? "Mensajes: 100 × $0.0075 = $0.75/mes" : "Messages: 100 × $0.0075 = $0.75/month"}</li>
-                            <li className="font-semibold text-[#1B4F72]">{language === "es" ? "Total: ~$1/mes (sin interfaz de usuario)" : "Total: ~$1/month (no user interface)"}</li>
+                            <li className="font-semibold text-brand-600">{language === "es" ? "Total: ~$1/mes (sin interfaz de usuario)" : "Total: ~$1/month (no user interface)"}</li>
                           </ul>
                         </div>
                       </div>
@@ -747,9 +747,9 @@ export default function BlogArticleCobroPlataformas() {
                         <div className="bg-gray-50 rounded-lg p-4">
                           <p className="font-semibold text-gray-800 mb-2">Crear.chat</p>
                           <ul className="text-sm text-gray-600 space-y-1">
-                            <li>{language === "es" ? "Suscripción: $299/mes" : "Subscription: $299/month"}</li>
-                            <li>{language === "es" ? "Mensajes WhatsApp: ~$75/mes" : "WhatsApp messages: ~$75/month"}</li>
-                            <li className="font-semibold text-[#1B4F72]">{language === "es" ? "Total: ~$375/mes" : "Total: ~$375/month"}</li>
+                            <li>{language === "es" ? "Plan PRO: $316.000 COP/mes más IVA" : "PRO plan: COP 316,000/month plus VAT"}</li>
+                            <li>{language === "es" ? "Incluye 2.500 contactos, 7 agentes e integraciones" : "Includes 2,500 contacts, 7 agents and integrations"}</li>
+                            <li className="font-semibold text-brand-600">{language === "es" ? "Total: $316.000 COP/mes más IVA (o Elite, $600.000)" : "Total: COP 316,000/month plus VAT (or Elite, COP 600,000)"}</li>
                           </ul>
                         </div>
                         <div className="bg-gray-50 rounded-lg p-4">
@@ -757,7 +757,7 @@ export default function BlogArticleCobroPlataformas() {
                           <ul className="text-sm text-gray-600 space-y-1">
                             <li>{language === "es" ? "Suscripción: $500/mes" : "Subscription: $500/month"}</li>
                             <li>{language === "es" ? "Agentes (3): $147 × 3 = $441/mes" : "Agents (3): $147 × 3 = $441/month"}</li>
-                            <li className="font-semibold text-[#1B4F72]">{language === "es" ? "Total: ~$941/mes" : "Total: ~$941/month"}</li>
+                            <li className="font-semibold text-brand-600">{language === "es" ? "Total: ~$941/mes" : "Total: ~$941/month"}</li>
                           </ul>
                         </div>
                       </div>
@@ -775,7 +775,7 @@ export default function BlogArticleCobroPlataformas() {
                             <li>{language === "es" ? "Suscripción: $0" : "Subscription: $0"}</li>
                             <li>{language === "es" ? "Mensajes: 100.000 × $0.0075 = $750/mes" : "Messages: 100,000 × $0.0075 = $750/month"}</li>
                             <li>{language === "es" ? "Soporte: $500/mes" : "Support: $500/month"}</li>
-                            <li className="font-semibold text-[#1B4F72]">{language === "es" ? "Total: ~$1.250/mes" : "Total: ~$1,250/month"}</li>
+                            <li className="font-semibold text-brand-600">{language === "es" ? "Total: ~$1.250/mes" : "Total: ~$1,250/month"}</li>
                           </ul>
                         </div>
                         <div className="bg-gray-50 rounded-lg p-4">
@@ -783,7 +783,7 @@ export default function BlogArticleCobroPlataformas() {
                           <ul className="text-sm text-gray-600 space-y-1">
                             <li>{language === "es" ? "Suscripción: $1.000/mes" : "Subscription: $1,000/month"}</li>
                             <li>{language === "es" ? "Agentes (10): $99 × 10 = $990/mes" : "Agents (10): $99 × 10 = $990/month"}</li>
-                            <li className="font-semibold text-[#1B4F72]">{language === "es" ? "Total: ~$1.990/mes" : "Total: ~$1,990/month"}</li>
+                            <li className="font-semibold text-brand-600">{language === "es" ? "Total: ~$1.990/mes" : "Total: ~$1,990/month"}</li>
                           </ul>
                         </div>
                       </div>
@@ -847,22 +847,22 @@ export default function BlogArticleCobroPlataformas() {
                     </h2>
                     <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-0">
                       <li>
-                        <a href="/blog/diferencias-plataformas-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                        <a href="/blog/diferencias-plataformas-whatsapp" className="text-brand-600 hover:underline font-medium">
                           {language === "es" ? "Diferencias entre plataformas de WhatsApp" : "Differences between WhatsApp platforms"}
                         </a>
                       </li>
                       <li>
-                        <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                        <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-brand-600 hover:underline font-medium">
                           {language === "es" ? "Por qué necesitas una plataforma para WhatsApp Business API" : "Why you need a platform for WhatsApp Business API"}
                         </a>
                       </li>
                       <li>
-                        <a href="/blog/plataformas-integracion-whatsapp-api" className="text-[#1B4F72] hover:underline font-medium">
+                        <a href="/blog/plataformas-integracion-whatsapp-api" className="text-brand-600 hover:underline font-medium">
                           {language === "es" ? "¿Con qué plataformas puedo integrar WhatsApp Business API?" : "What platforms can I integrate WhatsApp Business API with?"}
                         </a>
                       </li>
                       <li>
-                        <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:underline font-medium">
+                        <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-brand-600 hover:underline font-medium">
                           {language === "es" ? "Beneficios de WhatsApp Business API con IA" : "Benefits of WhatsApp Business API with AI"}
                         </a>
                       </li>
@@ -903,7 +903,7 @@ export default function BlogArticleCobroPlataformas() {
                       </p>
                       <a
                         href="/blog/diferencias-plataformas-whatsapp"
-                        className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
+                        className="text-brand-600 hover:text-brand-800 font-semibold transition-colors"
                       >
                         {language === "es"
                           ? "Diferencias entre plataformas de WhatsApp"
@@ -916,7 +916,7 @@ export default function BlogArticleCobroPlataformas() {
                       </p>
                       <a
                         href="/blog/como-seleccionar-proveedor-whatsapp"
-                        className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
+                        className="text-brand-600 hover:text-brand-800 font-semibold transition-colors"
                       >
                         {language === "es"
                           ? "¿Qué tener en cuenta para seleccionar un proveedor de WhatsApp?"
@@ -949,7 +949,7 @@ export default function BlogArticleCobroPlataformas() {
                     href="https://wa.me/+573105317126"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
+                    className="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-800 text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
                   >
                     <MessageCircle className="w-5 h-5" />
                     {language === "es" ? "Escríbeme por WhatsApp" : "Write me on WhatsApp"}
@@ -969,7 +969,7 @@ export default function BlogArticleCobroPlataformas() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Comparativa" : "Comparison"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -984,7 +984,7 @@ export default function BlogArticleCobroPlataformas() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>7 min</span>
-                        <a href="/blog/diferencias-plataformas-whatsapp" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/diferencias-plataformas-whatsapp" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -993,7 +993,7 @@ export default function BlogArticleCobroPlataformas() {
 
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Plataformas" : "Platforms"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -1008,7 +1008,7 @@ export default function BlogArticleCobroPlataformas() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>7 min</span>
-                        <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -1017,7 +1017,7 @@ export default function BlogArticleCobroPlataformas() {
 
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Beneficios" : "Benefits"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -1032,7 +1032,7 @@ export default function BlogArticleCobroPlataformas() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>6 min</span>
-                        <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -1043,6 +1043,7 @@ export default function BlogArticleCobroPlataformas() {
             </div>
           </section>
 
+          <ArticleRelated slug="cobro-plataformas-whatsapp" />
         </main>
         <Footer />
       </div>

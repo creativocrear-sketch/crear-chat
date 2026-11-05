@@ -18,13 +18,13 @@ export default function AlcaldiaArticle5() {
         <section className="bg-gradient-to-br from-gray-50 to-blue-50 py-12">
           <div className="container">
             <div className="max-w-4xl mx-auto">
-              <a href="/alcaldias" className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium mb-8 transition-colors">
+              <a href="/alcaldias" className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-800 font-medium mb-8 transition-colors">
                 <ChevronLeft className="w-4 h-4" />
                 {language === 'es' ? 'Volver a Alcaldías' : 'Back to Municipalities'}
               </a>
               
               <div className="mb-6">
-                <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                   {language === 'es' ? 'Gestión operativa' : 'Operational management'}
                 </span>
               </div>
@@ -343,7 +343,7 @@ export default function AlcaldiaArticle5() {
                   <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto">
                     {language === 'es' ? 'Implementa WhatsApp Business API y comienza a automatizar la gestión de turnos' : 'Implement WhatsApp Business API and start automating shift management'}
                   </p>
-                  <a href="https://wa.me/+573105317126" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg">
+                  <a href="https://wa.me/+573105317126" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-4 bg-brand-600 hover:bg-brand-800 text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg">
                     <MessageCircle className="w-5 h-5 mr-2" />
                     {language === 'es' ? 'Escríbenos por WhatsApp' : 'Write to us on WhatsApp'}
                   </a>

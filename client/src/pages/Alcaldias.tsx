@@ -83,13 +83,13 @@ function Alcaldias() {
               {/* Blog Stats */}
               <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
-                  <span className="font-semibold text-[#1B4F72]">{language === 'es' ? 'Artículos especializados' : 'Specialized articles'}</span>
+                  <span className="font-semibold text-brand-600">{language === 'es' ? 'Artículos especializados' : 'Specialized articles'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="font-semibold text-[#1B4F72]">{language === 'es' ? 'Atención 24/7' : '24/7 Service'}</span>
+                  <span className="font-semibold text-brand-600">{language === 'es' ? 'Atención 24/7' : '24/7 Service'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="font-semibold text-[#1B4F72]">{language === 'es' ? 'Redacción: Alex Murillo + equipo de soporte' : 'By: Alex Murillo + support team'}</span>
+                  <span className="font-semibold text-brand-600">{language === 'es' ? 'Redacción: Alex Murillo + equipo de soporte' : 'By: Alex Murillo + support team'}</span>
                 </div>
               </div>
             </div>
@@ -109,13 +109,13 @@ function Alcaldias() {
                     <div className="p-6 md:p-8">
                       {/* Category */}
                       <div className="mb-4">
-                        <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full">
+                        <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full">
                           {article.category.charAt(0).toUpperCase() + article.category.slice(1)}
                         </span>
                       </div>
 
                       {/* Title */}
-                      <h3 className="font-bold text-lg md:text-xl text-gray-900 mb-3 line-clamp-2 group-hover:text-[#1B4F72] transition-colors">
+                      <h3 className="font-bold text-lg md:text-xl text-gray-900 mb-3 line-clamp-2 group-hover:text-brand-600 transition-colors">
                         {article.title.charAt(0).toUpperCase() + article.title.slice(1)}
                       </h3>
 
@@ -139,7 +139,7 @@ function Alcaldias() {
                       {/* Read More Link */}
                       <a
                         href={article.path}
-                        className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium text-sm transition-colors group"
+                        className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-800 font-medium text-sm transition-colors group"
                       >
                         {language === 'es' ? 'Leer más' : 'Read more'}
                         <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
@@ -168,7 +168,7 @@ function Alcaldias() {
                   href="https://wa.me/+573105317126"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-brand-600 hover:bg-brand-800 text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
                 >
                   {language === 'es' ? 'Escríbenos por WhatsApp' : 'Write to us on WhatsApp'}
                 </a>

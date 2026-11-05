@@ -55,13 +55,13 @@ export default function ConsultoriaWhatsApp() {
       <header className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
         <div className="container flex items-center justify-between py-4">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-[#1B4F72] flex items-center justify-center">
+            <div className="w-10 h-10 rounded-lg bg-brand-600 flex items-center justify-center">
               <span className="text-white font-bold text-lg">CC</span>
             </div>
             <span className="font-bold text-gray-900">crear.chat</span>
           </div>
           <Button 
-            className="bg-[#1B4F72] hover:bg-[#0F2F45] text-white rounded-lg"
+            className="bg-brand-600 hover:bg-brand-800 text-white rounded-lg"
             onClick={() => window.location.href = '/'}
           >
             Volver al Inicio
@@ -74,11 +74,11 @@ export default function ConsultoriaWhatsApp() {
         <div className="container max-w-4xl">
           <div className="space-y-6">
             <div className="inline-block px-4 py-2 bg-blue-100 rounded-full">
-              <span className="text-[#1B4F72] font-semibold text-sm">Servicio Especializado</span>
+              <span className="text-brand-600 font-semibold text-sm">Servicio Especializado</span>
             </div>
             
             <h1 className="font-bold text-5xl md:text-6xl text-gray-900 leading-tight">
-              Consultoría especializada en <span className="text-[#1B4F72]">WhatsApp Business API</span>
+              Consultoría especializada en <span className="text-brand-600">WhatsApp Business API</span>
             </h1>
             
             <p className="text-xl text-gray-600 leading-relaxed max-w-3xl">
@@ -90,7 +90,7 @@ export default function ConsultoriaWhatsApp() {
                 href="https://wa.me/+573105317126"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[#1B4F72] hover:bg-[#0F2F45] text-white rounded-lg px-8 py-6 text-lg"
+                className="inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-800 text-white rounded-lg px-8 py-6 text-lg"
               >
                 Escribenos <ArrowRight className="w-5 h-5" />
               </a>
@@ -119,7 +119,7 @@ export default function ConsultoriaWhatsApp() {
                   "Diseñamos flujos para ventas, soporte y seguimiento"
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3">
-                    <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
+                    <CheckCircle2 className="w-6 h-6 text-brand-600 flex-shrink-0 mt-1" />
                     <span className="text-gray-700">{item}</span>
                   </li>
                 ))}
@@ -128,7 +128,7 @@ export default function ConsultoriaWhatsApp() {
 
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 h-96 flex items-center justify-center">
               <div className="text-center">
-                <div className="text-6xl font-bold text-[#1B4F72] mb-2">+500</div>
+                <div className="text-6xl font-bold text-brand-600 mb-2">+500</div>
                 <p className="text-gray-600">Empresas automatizadas con éxito</p>
               </div>
             </div>
@@ -156,7 +156,7 @@ export default function ConsultoriaWhatsApp() {
                 >
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
-                      <Icon className="w-6 h-6 text-[#1B4F72]" />
+                      <Icon className="w-6 h-6 text-brand-600" />
                     </div>
                     <div>
                       <h3 className="font-bold text-xl text-gray-900 mb-2">{beneficio.titulo}</h3>
@@ -182,9 +182,9 @@ export default function ConsultoriaWhatsApp() {
             {servicios.map((servicio, idx) => (
               <div 
                 key={idx}
-                className="flex items-start gap-4 p-6 rounded-lg bg-gray-50 border border-gray-200 hover:border-[#1B4F72] transition-colors"
+                className="flex items-start gap-4 p-6 rounded-lg bg-gray-50 border border-gray-200 hover:border-brand-600 transition-colors"
               >
-                <div className="w-6 h-6 rounded-full bg-[#1B4F72] flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-6 h-6 rounded-full bg-brand-600 flex items-center justify-center flex-shrink-0 mt-1">
                   <span className="text-white text-sm font-bold">✓</span>
                 </div>
                 <span className="text-gray-700 text-lg">{servicio}</span>
@@ -224,7 +224,7 @@ export default function ConsultoriaWhatsApp() {
             ].map((paso, idx) => (
               <div key={idx} className="flex gap-8 items-start">
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 rounded-full bg-[#1B4F72] flex items-center justify-center">
+                  <div className="w-16 h-16 rounded-full bg-brand-600 flex items-center justify-center">
                     <span className="text-white font-bold text-2xl">{paso.numero}</span>
                   </div>
                 </div>
@@ -253,7 +253,7 @@ export default function ConsultoriaWhatsApp() {
               href="https://wa.me/+573105317126"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-[#1B4F72] hover:bg-[#0F2F45] text-white rounded-lg px-8 py-6 text-lg"
+              className="inline-flex items-center justify-center gap-2 bg-brand-600 hover:bg-brand-800 text-white rounded-lg px-8 py-6 text-lg"
             >
               Escribenos <ArrowRight className="w-5 h-5" />
             </a>

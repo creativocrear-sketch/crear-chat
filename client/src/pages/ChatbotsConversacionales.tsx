@@ -127,11 +127,11 @@ export default function ChatbotsConversacionales() {
       <section className="py-16 md:py-24 bg-gradient-to-br from-blue-50 to-white">
         <div className="container">
           <div className="max-w-3xl">
-            <div className="inline-block px-4 py-2 rounded-full bg-blue-100 text-[#1B4F72] text-sm font-semibold mb-6 animate-fade-in-up">
+            <div className="inline-block px-4 py-2 rounded-full bg-blue-100 text-brand-600 text-sm font-semibold mb-6 animate-fade-in-up">
               Servicio Especializado
             </div>
             <h1 className="font-bold text-5xl md:text-6xl text-gray-900 mb-6 animate-fade-in-up leading-tight">
-              Diseño y desarrollo de <span className="text-[#1B4F72]">chatbots conversacionales</span>
+              Diseño y desarrollo de <span className="text-brand-600">chatbots conversacionales</span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed animate-fade-in-up max-w-2xl">
               Creamos chatbots conversacionales que automatizan la interacción con clientes, gestionan consultas y optimizan procesos de atención y ventas.
@@ -141,7 +141,7 @@ export default function ChatbotsConversacionales() {
                 href="https://wa.me/+573105317126"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-[#1B4F72] hover:bg-[#0f2f47] text-white px-8 h-12 rounded-lg"
+                className="inline-flex items-center justify-center bg-brand-600 hover:bg-brand-800 text-white px-8 h-12 rounded-lg"
               >
                 Escribenos
               </a>
@@ -163,21 +163,21 @@ export default function ChatbotsConversacionales() {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
+                  <CheckCircle2 className="w-6 h-6 text-brand-600 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">Respuestas instantáneas</h3>
                     <p className="text-gray-600">Atención inmediata sin esperas</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
+                  <CheckCircle2 className="w-6 h-6 text-brand-600 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">Automatización completa</h3>
                     <p className="text-gray-600">Procesos sin intervención manual</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <CheckCircle2 className="w-6 h-6 text-[#1B4F72] flex-shrink-0 mt-1" />
+                  <CheckCircle2 className="w-6 h-6 text-brand-600 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">Escalabilidad infinita</h3>
                     <p className="text-gray-600">Atiende miles de usuarios simultáneamente</p>
@@ -187,7 +187,7 @@ export default function ChatbotsConversacionales() {
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-12 flex items-center justify-center min-h-96">
               <div className="text-center">
-                <div className="text-6xl font-bold text-[#1B4F72] mb-2">+80%</div>
+                <div className="text-6xl font-bold text-brand-600 mb-2">+80%</div>
                 <p className="text-gray-600 text-lg">Reducción de tiempo de respuesta</p>
               </div>
             </div>
@@ -217,7 +217,7 @@ export default function ChatbotsConversacionales() {
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="w-14 h-14 rounded-lg bg-blue-50 flex items-center justify-center mb-6">
-                    <Icon className="w-7 h-7 text-[#1B4F72]" />
+                    <Icon className="w-7 h-7 text-brand-600" />
                   </div>
                   <h3 className="font-bold text-xl text-gray-900 mb-3">
                     {benefit.title}
@@ -250,11 +250,11 @@ export default function ChatbotsConversacionales() {
               return (
                 <div
                   key={index}
-                  className="p-6 rounded-xl border border-gray-200 hover:border-[#1B4F72] hover:shadow-lg transition-all duration-300"
+                  className="p-6 rounded-xl border border-gray-200 hover:border-brand-600 hover:shadow-lg transition-all duration-300"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="w-12 h-12 rounded-lg bg-blue-50 flex items-center justify-center mb-4">
-                    <Icon className="w-6 h-6 text-[#1B4F72]" />
+                    <Icon className="w-6 h-6 text-brand-600" />
                   </div>
                   <h3 className="font-bold text-lg text-gray-900 mb-2">
                     {service.title}
@@ -280,7 +280,7 @@ export default function ChatbotsConversacionales() {
             {process.map((step, index) => (
               <div key={index} className="flex gap-8 items-start">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-16 w-16 rounded-full bg-[#1B4F72] text-white font-bold text-lg">
+                  <div className="flex items-center justify-center h-16 w-16 rounded-full bg-brand-600 text-white font-bold text-lg">
                     {step.number}
                   </div>
                 </div>
@@ -312,7 +312,7 @@ export default function ChatbotsConversacionales() {
               href="https://wa.me/+573105317126"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center bg-[#1B4F72] hover:bg-[#0f2f47] text-white px-8 h-12 rounded-lg"
+              className="inline-flex items-center justify-center bg-brand-600 hover:bg-brand-800 text-white px-8 h-12 rounded-lg"
             >
               Escribenos
             </a>
