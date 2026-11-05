@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useLocation } from "wouter";
 import Header from "@/components/Header";
+import Seo from "@/components/site/Seo";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronLeft, ChevronRight, Share2, MessageCircle, Facebook } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -29,6 +30,11 @@ function AlcaldiaArticle3() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <Header />
+        <Seo
+          title="Plataforma educativa por WhatsApp para municipios | crear.chat"
+          description="Convierte WhatsApp en una plataforma educativa interactiva: motiva, evalúa y premia a estudiantes con preguntas de selección múltiple."
+          path="/alcaldias/plataforma-educativa-whatsapp"
+        />
       
       <main className="flex-1">
         {/* Article Header */}
@@ -37,14 +43,14 @@ function AlcaldiaArticle3() {
             <div className="max-w-4xl mx-auto">
               <a
                 href="/alcaldias"
-                className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium mb-8 transition-colors"
+                className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-800 font-medium mb-8 transition-colors"
               >
                 <ChevronLeft className="w-4 h-4" />
                 {language === 'es' ? 'Volver a Alcaldías' : 'Back to Municipalities'}
               </a>
               
               <div className="mb-6">
-                <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                   {language === 'es' ? 'Educación interactiva' : 'Interactive education'}
                 </span>
               </div>
@@ -552,10 +558,10 @@ function AlcaldiaArticle3() {
                   </p>
                   
                   <a
-                    href="https://wa.me/+573105317126"
+                    href="https://wa.me/573229540294"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
+                    className="inline-flex items-center justify-center px-8 py-4 bg-brand-600 hover:bg-brand-800 text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
                   >
                     <MessageCircle className="w-5 h-5 mr-2" />
                     {language === 'es' ? 'Escríbenos por WhatsApp' : 'Write to us on WhatsApp'}
@@ -579,7 +585,7 @@ function AlcaldiaArticle3() {
                     </button>
                     <button
                       onClick={() => handleShare('whatsapp')}
-                      className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+                      className="flex items-center gap-2 px-4 py-2 bg-cta-600 text-white rounded-lg hover:bg-cta-700 transition-colors"
                     >
                       <MessageCircle className="w-4 h-4" />
                       {language === 'es' ? 'WhatsApp' : 'WhatsApp'}

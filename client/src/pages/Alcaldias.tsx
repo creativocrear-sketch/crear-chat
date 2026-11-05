@@ -1,5 +1,6 @@
 ﻿import { useEffect } from "react";
 import Header from "@/components/Header";
+import Seo from "@/components/site/Seo";
 import Footer from "@/components/Footer";
 import { Calendar, Clock, ChevronRight } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -65,6 +66,11 @@ function Alcaldias() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <Header />
+        <Seo
+          title="Soluciones de WhatsApp para alcaldías en Colombia | crear.chat"
+          description="Soluciones con WhatsApp Business API para alcaldías: guía turística, consulta de deudas, plataforma educativa, consulta de SISBÉN y subsidios, y turnos de agentes de tránsito."
+          path="/alcaldias"
+        />
       <main className="flex-1">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-gray-50 to-blue-50 py-16 md:py-24">
@@ -83,13 +89,13 @@ function Alcaldias() {
               {/* Blog Stats */}
               <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
-                  <span className="font-semibold text-[#1B4F72]">{language === 'es' ? 'Artículos especializados' : 'Specialized articles'}</span>
+                  <span className="font-semibold text-brand-600">{language === 'es' ? 'Artículos especializados' : 'Specialized articles'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="font-semibold text-[#1B4F72]">{language === 'es' ? 'Atención 24/7' : '24/7 Service'}</span>
+                  <span className="font-semibold text-brand-600">{language === 'es' ? 'Atención 24/7' : '24/7 Service'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="font-semibold text-[#1B4F72]">{language === 'es' ? 'Redacción: Alex Murillo + equipo de soporte' : 'By: Alex Murillo + support team'}</span>
+                  <span className="font-semibold text-brand-600">{language === 'es' ? 'Redacción: Alex Murillo + equipo de soporte' : 'By: Alex Murillo + support team'}</span>
                 </div>
               </div>
             </div>
@@ -109,15 +115,15 @@ function Alcaldias() {
                     <div className="p-6 md:p-8">
                       {/* Category */}
                       <div className="mb-4">
-                        <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full">
+                        <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full">
                           {article.category.charAt(0).toUpperCase() + article.category.slice(1)}
                         </span>
                       </div>
 
                       {/* Title */}
-                      <h3 className="font-bold text-lg md:text-xl text-gray-900 mb-3 line-clamp-2 group-hover:text-[#1B4F72] transition-colors">
+                      <h2 className="font-bold text-lg md:text-xl text-gray-900 mb-3 line-clamp-2 group-hover:text-brand-600 transition-colors">
                         {article.title.charAt(0).toUpperCase() + article.title.slice(1)}
-                      </h3>
+                      </h2>
 
                       {/* Excerpt */}
                       <p className="text-gray-600 text-sm mb-6 line-clamp-3 leading-relaxed">
@@ -139,7 +145,7 @@ function Alcaldias() {
                       {/* Read More Link */}
                       <a
                         href={article.path}
-                        className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium text-sm transition-colors group"
+                        className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-800 font-medium text-sm transition-colors group"
                       >
                         {language === 'es' ? 'Leer más' : 'Read more'}
                         <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
@@ -165,10 +171,10 @@ function Alcaldias() {
                 </p>
                 
                 <a
-                  href="https://wa.me/+573105317126"
+                  href="https://wa.me/573229540294"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-brand-600 hover:bg-brand-800 text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
                 >
                   {language === 'es' ? 'Escríbenos por WhatsApp' : 'Write to us on WhatsApp'}
                 </a>

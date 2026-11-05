@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ArticleRelated from "@/components/site/ArticleRelated";
 import { Calendar, Clock, ChevronLeft, Facebook, MessageCircle } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -91,7 +92,7 @@ export default function BlogArticleSeleccionarProveedor() {
               : "10 key criteria to choose the right WhatsApp Business API provider: budget, security, support, scalability and more. Includes decision matrix to compare options."
           }
         />
-        <meta property="og:image" content="https://crear.chat/logo-black.svg" />
+        <meta property="og:image" content="https://crear.chat/og-crear-chat.png" />
         <meta property="og:url" content="https://crear.chat/blog/como-seleccionar-proveedor-whatsapp" />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content="2026-03-21" />
@@ -127,10 +128,10 @@ export default function BlogArticleSeleccionarProveedor() {
             publisher: {
               "@type": "Organization",
               name: "Crear.chat",
-              logo: { "@type": "ImageObject", url: "https://crear.chat/logo-black.svg" },
+              logo: { "@type": "ImageObject", url: "https://crear.chat/logo-crear-chat.png" },
               url: "https://crear.chat",
             },
-            image: "https://crear.chat/logo-black.svg",
+            image: "https://crear.chat/og-crear-chat.png",
             description: pageDescription,
             keywords:
               "proveedor WhatsApp Business API, seleccionar plataforma WhatsApp, criterios BSP WhatsApp, seguridad, escalabilidad, soporte, Colombia",
@@ -337,14 +338,14 @@ export default function BlogArticleSeleccionarProveedor() {
               <div className="max-w-4xl mx-auto">
                 <a
                   href="/blog"
-                  className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium mb-8 transition-colors"
+                  className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-800 font-medium mb-8 transition-colors"
                 >
                   <ChevronLeft className="w-4 h-4" />
                   {language === "es" ? "Volver al blog" : "Back to blog"}
                 </a>
 
                 <div className="mb-6">
-                  <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                  <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                     {language === "es" ? "Guía de selección" : "Selection guide"}
                   </span>
                 </div>
@@ -423,16 +424,16 @@ export default function BlogArticleSeleccionarProveedor() {
                         {language === "es" ? "Criterios que cubre este artículo" : "Criteria covered in this article"}
                       </h2>
                       <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-0">
-                        <li><a href="#necesidades-empresariales" className="text-[#1B4F72] hover:underline">{language === "es" ? "Necesidades empresariales" : "Business needs"}</a></li>
-                        <li><a href="#capacidades-tecnicas" className="text-[#1B4F72] hover:underline">{language === "es" ? "Capacidades técnicas" : "Technical capabilities"}</a></li>
-                        <li><a href="#presupuesto" className="text-[#1B4F72] hover:underline">{language === "es" ? "Presupuesto y ROI" : "Budget and ROI"}</a></li>
-                        <li><a href="#reputacion" className="text-[#1B4F72] hover:underline">{language === "es" ? "Reputación y confiabilidad" : "Reputation and reliability"}</a></li>
-                        <li><a href="#soporte" className="text-[#1B4F72] hover:underline">{language === "es" ? "Soporte y servicio" : "Support and service"}</a></li>
-                        <li><a href="#escalabilidad" className="text-[#1B4F72] hover:underline">{language === "es" ? "Escalabilidad" : "Scalability"}</a></li>
-                        <li><a href="#caracteristicas" className="text-[#1B4F72] hover:underline">{language === "es" ? "Características específicas" : "Specific features"}</a></li>
-                        <li><a href="#experiencia-usuario" className="text-[#1B4F72] hover:underline">{language === "es" ? "Experiencia de usuario" : "User experience"}</a></li>
-                        <li><a href="#terminos" className="text-[#1B4F72] hover:underline">{language === "es" ? "Términos y condiciones" : "Terms and conditions"}</a></li>
-                        <li><a href="#pruebas" className="text-[#1B4F72] hover:underline">{language === "es" ? "Pruebas antes de comprometerse" : "Testing before committing"}</a></li>
+                        <li><a href="#necesidades-empresariales" className="text-brand-600 hover:underline">{language === "es" ? "Necesidades empresariales" : "Business needs"}</a></li>
+                        <li><a href="#capacidades-tecnicas" className="text-brand-600 hover:underline">{language === "es" ? "Capacidades técnicas" : "Technical capabilities"}</a></li>
+                        <li><a href="#presupuesto" className="text-brand-600 hover:underline">{language === "es" ? "Presupuesto y ROI" : "Budget and ROI"}</a></li>
+                        <li><a href="#reputacion" className="text-brand-600 hover:underline">{language === "es" ? "Reputación y confiabilidad" : "Reputation and reliability"}</a></li>
+                        <li><a href="#soporte" className="text-brand-600 hover:underline">{language === "es" ? "Soporte y servicio" : "Support and service"}</a></li>
+                        <li><a href="#escalabilidad" className="text-brand-600 hover:underline">{language === "es" ? "Escalabilidad" : "Scalability"}</a></li>
+                        <li><a href="#caracteristicas" className="text-brand-600 hover:underline">{language === "es" ? "Características específicas" : "Specific features"}</a></li>
+                        <li><a href="#experiencia-usuario" className="text-brand-600 hover:underline">{language === "es" ? "Experiencia de usuario" : "User experience"}</a></li>
+                        <li><a href="#terminos" className="text-brand-600 hover:underline">{language === "es" ? "Términos y condiciones" : "Terms and conditions"}</a></li>
+                        <li><a href="#pruebas" className="text-brand-600 hover:underline">{language === "es" ? "Pruebas antes de comprometerse" : "Testing before committing"}</a></li>
                       </ul>
                     </div>
                   </section>
@@ -446,15 +447,15 @@ export default function BlogArticleSeleccionarProveedor() {
                       {language === "es"
                         ? "Antes de elegir un proveedor, también te conviene revisar "
                         : "Before choosing a provider, you should also review "}
-                      <a href="/blog/diferencias-plataformas-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/blog/diferencias-plataformas-whatsapp" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "las diferencias entre plataformas de WhatsApp" : "the differences between WhatsApp platforms"}
                       </a>
                       {", "}
-                      <a href="/blog/cobro-plataformas-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/blog/cobro-plataformas-whatsapp" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "cómo cobran las plataformas de WhatsApp" : "how WhatsApp platforms charge"}
                       </a>
                       {language === "es" ? " y " : " and "}
-                      <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "por qué necesitas una plataforma para WhatsApp Business API" : "why you need a platform for WhatsApp Business API"}
                       </a>.
                     </p>
@@ -521,7 +522,7 @@ export default function BlogArticleSeleccionarProveedor() {
                         <ul className="list-disc pl-4 space-y-1 text-sm text-gray-600 mb-3">
                           {block.items.map((item, j) => <li key={j}>{item}</li>)}
                         </ul>
-                        <p className="text-xs text-[#1B4F72] font-semibold">
+                        <p className="text-xs text-brand-600 font-semibold">
                           {language === "es" ? "Impacto: " : "Impact: "}{block.impact}
                         </p>
                       </div>
@@ -707,7 +708,7 @@ export default function BlogArticleSeleccionarProveedor() {
                   <div className="overflow-x-auto mb-8">
                     <table className="w-full border-collapse border border-gray-200 text-sm">
                       <thead>
-                        <tr className="bg-[#1B4F72] text-white">
+                        <tr className="bg-brand-600 text-white">
                           <th className="border border-gray-300 p-3 text-left">{language === "es" ? "Criterio" : "Criterion"}</th>
                           <th className="border border-gray-300 p-3 text-center">{language === "es" ? "Peso" : "Weight"}</th>
                           <th className="border border-gray-300 p-3 text-center">{language === "es" ? "Proveedor A" : "Provider A"}</th>
@@ -731,7 +732,7 @@ export default function BlogArticleSeleccionarProveedor() {
                             <td className="border border-gray-200 p-3 text-center text-gray-700">{row.c}</td>
                           </tr>
                         ))}
-                        <tr className="bg-[#1B4F72] text-white font-bold">
+                        <tr className="bg-brand-600 text-white font-bold">
                           <td className="border border-gray-300 p-3">TOTAL</td>
                           <td className="border border-gray-300 p-3 text-center">100%</td>
                           <td className="border border-gray-300 p-3 text-center">7.7/10</td>
@@ -777,22 +778,22 @@ export default function BlogArticleSeleccionarProveedor() {
                     </h2>
                     <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-0">
                       <li>
-                        <a href="/blog/diferencias-plataformas-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                        <a href="/blog/diferencias-plataformas-whatsapp" className="text-brand-600 hover:underline font-medium">
                           {language === "es" ? "Diferencias entre plataformas de WhatsApp" : "Differences between WhatsApp platforms"}
                         </a>
                       </li>
                       <li>
-                        <a href="/blog/cobro-plataformas-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                        <a href="/blog/cobro-plataformas-whatsapp" className="text-brand-600 hover:underline font-medium">
                           {language === "es" ? "¿Cómo cobran las plataformas de WhatsApp?" : "How do WhatsApp platforms charge?"}
                         </a>
                       </li>
                       <li>
-                        <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                        <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-brand-600 hover:underline font-medium">
                           {language === "es" ? "Por qué necesitas una plataforma para WhatsApp Business API" : "Why you need a platform for WhatsApp Business API"}
                         </a>
                       </li>
                       <li>
-                        <a href="/blog/plataformas-integracion-whatsapp-api" className="text-[#1B4F72] hover:underline font-medium">
+                        <a href="/blog/plataformas-integracion-whatsapp-api" className="text-brand-600 hover:underline font-medium">
                           {language === "es" ? "¿Con qué plataformas puedo integrar WhatsApp Business API?" : "What platforms can I integrate WhatsApp Business API with?"}
                         </a>
                       </li>
@@ -816,7 +817,7 @@ export default function BlogArticleSeleccionarProveedor() {
                     </button>
                     <button
                       onClick={() => handleShare("whatsapp")}
-                      className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
+                      className="flex items-center gap-2 px-4 py-2 bg-cta-600 hover:bg-cta-700 text-white rounded-lg transition-colors"
                     >
                       <MessageCircle className="w-4 h-4" />
                       WhatsApp
@@ -833,7 +834,7 @@ export default function BlogArticleSeleccionarProveedor() {
                       </p>
                       <a
                         href="/blog/cobro-plataformas-whatsapp"
-                        className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
+                        className="text-brand-600 hover:text-brand-800 font-semibold transition-colors"
                       >
                         {language === "es"
                           ? "¿Cómo es el cobro que hacen las plataformas de chats de WhatsApp?"
@@ -846,7 +847,7 @@ export default function BlogArticleSeleccionarProveedor() {
                       </p>
                       <a
                         href="/blog/politicas-whatsapp-business-api"
-                        className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
+                        className="text-brand-600 hover:text-brand-800 font-semibold transition-colors"
                       >
                         {language === "es"
                           ? "¿Cuáles son las principales políticas de WhatsApp Business API?"
@@ -876,10 +877,10 @@ export default function BlogArticleSeleccionarProveedor() {
                       : "Write to me and we will review together which provider and platform best fits your volume, team, budget and integrations."}
                   </p>
                   <a
-                    href="https://wa.me/+573105317126"
+                    href="https://wa.me/573229540294"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
+                    className="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-800 text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
                   >
                     <MessageCircle className="w-5 h-5" />
                     {language === "es" ? "Escríbeme por WhatsApp" : "Write me on WhatsApp"}
@@ -899,7 +900,7 @@ export default function BlogArticleSeleccionarProveedor() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Comparativa" : "Comparison"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -914,7 +915,7 @@ export default function BlogArticleSeleccionarProveedor() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>7 min</span>
-                        <a href="/blog/diferencias-plataformas-whatsapp" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/diferencias-plataformas-whatsapp" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -923,7 +924,7 @@ export default function BlogArticleSeleccionarProveedor() {
 
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Precios" : "Pricing"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -938,7 +939,7 @@ export default function BlogArticleSeleccionarProveedor() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>6 min</span>
-                        <a href="/blog/cobro-plataformas-whatsapp" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/cobro-plataformas-whatsapp" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -947,7 +948,7 @@ export default function BlogArticleSeleccionarProveedor() {
 
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Plataformas" : "Platforms"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -962,7 +963,7 @@ export default function BlogArticleSeleccionarProveedor() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>7 min</span>
-                        <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -973,6 +974,7 @@ export default function BlogArticleSeleccionarProveedor() {
             </div>
           </section>
 
+          <ArticleRelated slug="como-seleccionar-proveedor-whatsapp" />
         </main>
         <Footer />
       </div>

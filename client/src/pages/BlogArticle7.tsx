@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ArticleRelated from "@/components/site/ArticleRelated";
 import { Calendar, Clock, ChevronLeft, Facebook, MessageCircle } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -91,7 +92,7 @@ export default function BlogArticleDiferenciasPlataformas() {
               : "Not all WhatsApp platforms are the same. Compare Wati, Intercom, Zendesk and Twilio on ease of use, price, automation and scalability to choose the best fit for your business."
           }
         />
-        <meta property="og:image" content="https://crear.chat/logo-black.svg" />
+        <meta property="og:image" content="https://crear.chat/og-crear-chat.png" />
         <meta property="og:url" content="https://crear.chat/blog/diferencias-plataformas-whatsapp" />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content="2026-03-21" />
@@ -142,11 +143,11 @@ export default function BlogArticleDiferenciasPlataformas() {
               name: "Crear.chat",
               logo: {
                 "@type": "ImageObject",
-                url: "https://crear.chat/logo-black.svg",
+                url: "https://crear.chat/logo-crear-chat.png",
               },
               url: "https://crear.chat",
             },
-            image: "https://crear.chat/logo-black.svg",
+            image: "https://crear.chat/og-crear-chat.png",
             description: pageDescription,
             keywords:
               "Wati, Intercom, Zendesk, Twilio, plataformas WhatsApp, comparativa, automatización, multiagente, omnicanal, Colombia",
@@ -354,14 +355,14 @@ export default function BlogArticleDiferenciasPlataformas() {
               <div className="max-w-4xl mx-auto">
                 <a
                   href="/blog"
-                  className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium mb-8 transition-colors"
+                  className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-800 font-medium mb-8 transition-colors"
                 >
                   <ChevronLeft className="w-4 h-4" />
                   {language === "es" ? "Volver al blog" : "Back to blog"}
                 </a>
 
                 <div className="mb-6">
-                  <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                  <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                     {language === "es" ? "Comparativa" : "Comparison"}
                   </span>
                 </div>
@@ -439,14 +440,14 @@ export default function BlogArticleDiferenciasPlataformas() {
                         {language === "es" ? "Criterios que cubre este artículo" : "Criteria covered in this article"}
                       </h2>
                       <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-0">
-                        <li><a href="#enfoque-principal" className="text-[#1B4F72] hover:underline">{language === "es" ? "Enfoque principal" : "Main focus"}</a></li>
-                        <li><a href="#facilidad-de-uso" className="text-[#1B4F72] hover:underline">{language === "es" ? "Facilidad de uso" : "Ease of use"}</a></li>
-                        <li><a href="#automatizacion" className="text-[#1B4F72] hover:underline">{language === "es" ? "Automatización" : "Automation"}</a></li>
-                        <li><a href="#integraciones" className="text-[#1B4F72] hover:underline">{language === "es" ? "Integraciones" : "Integrations"}</a></li>
-                        <li><a href="#precio" className="text-[#1B4F72] hover:underline">{language === "es" ? "Precio" : "Price"}</a></li>
-                        <li><a href="#escalabilidad" className="text-[#1B4F72] hover:underline">{language === "es" ? "Escalabilidad" : "Scalability"}</a></li>
-                        <li><a href="#soporte" className="text-[#1B4F72] hover:underline">{language === "es" ? "Soporte" : "Support"}</a></li>
-                        <li><a href="#caracteristicas-avanzadas" className="text-[#1B4F72] hover:underline">{language === "es" ? "Características avanzadas" : "Advanced features"}</a></li>
+                        <li><a href="#enfoque-principal" className="text-brand-600 hover:underline">{language === "es" ? "Enfoque principal" : "Main focus"}</a></li>
+                        <li><a href="#facilidad-de-uso" className="text-brand-600 hover:underline">{language === "es" ? "Facilidad de uso" : "Ease of use"}</a></li>
+                        <li><a href="#automatizacion" className="text-brand-600 hover:underline">{language === "es" ? "Automatización" : "Automation"}</a></li>
+                        <li><a href="#integraciones" className="text-brand-600 hover:underline">{language === "es" ? "Integraciones" : "Integrations"}</a></li>
+                        <li><a href="#precio" className="text-brand-600 hover:underline">{language === "es" ? "Precio" : "Price"}</a></li>
+                        <li><a href="#escalabilidad" className="text-brand-600 hover:underline">{language === "es" ? "Escalabilidad" : "Scalability"}</a></li>
+                        <li><a href="#soporte" className="text-brand-600 hover:underline">{language === "es" ? "Soporte" : "Support"}</a></li>
+                        <li><a href="#caracteristicas-avanzadas" className="text-brand-600 hover:underline">{language === "es" ? "Características avanzadas" : "Advanced features"}</a></li>
                       </ul>
                     </div>
                   </section>
@@ -460,15 +461,15 @@ export default function BlogArticleDiferenciasPlataformas() {
                       {language === "es"
                         ? "Si estás evaluando plataformas, también te conviene revisar "
                         : "If you are evaluating platforms, you should also review "}
-                      <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "por qué necesitas una plataforma para WhatsApp Business API" : "why you need a platform for WhatsApp Business API"}
                       </a>
                       {", "}
-                      <a href="/blog/plataformas-integracion-whatsapp-api" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/blog/plataformas-integracion-whatsapp-api" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "qué plataformas se integran con WhatsApp Business API" : "which platforms integrate with WhatsApp Business API"}
                       </a>
                       {language === "es" ? " y " : " and "}
-                      <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "los beneficios de WhatsApp Business API con IA" : "the benefits of WhatsApp Business API with AI"}
                       </a>.
                     </p>
@@ -664,7 +665,7 @@ export default function BlogArticleDiferenciasPlataformas() {
                   <div className="overflow-x-auto mb-8">
                     <table className="w-full border-collapse border border-gray-200 text-sm">
                       <thead>
-                        <tr className="bg-[#1B4F72] text-white">
+                        <tr className="bg-brand-600 text-white">
                           <th className="border border-gray-300 p-3 text-left">{language === "es" ? "Característica" : "Feature"}</th>
                           <th className="border border-gray-300 p-3 text-center">Wati</th>
                           <th className="border border-gray-300 p-3 text-center">Intercom</th>
@@ -760,17 +761,17 @@ export default function BlogArticleDiferenciasPlataformas() {
                     </h2>
                     <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-0">
                       <li>
-                        <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                        <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-brand-600 hover:underline font-medium">
                           {language === "es" ? "Por qué necesitas una plataforma para WhatsApp Business API" : "Why you need a platform for WhatsApp Business API"}
                         </a>
                       </li>
                       <li>
-                        <a href="/blog/plataformas-integracion-whatsapp-api" className="text-[#1B4F72] hover:underline font-medium">
+                        <a href="/blog/plataformas-integracion-whatsapp-api" className="text-brand-600 hover:underline font-medium">
                           {language === "es" ? "¿Con qué plataformas puedo integrar WhatsApp Business API?" : "What platforms can I integrate WhatsApp Business API with?"}
                         </a>
                       </li>
                       <li>
-                        <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:underline font-medium">
+                        <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-brand-600 hover:underline font-medium">
                           {language === "es" ? "Beneficios de WhatsApp Business API con IA" : "Benefits of WhatsApp Business API with AI"}
                         </a>
                       </li>
@@ -794,7 +795,7 @@ export default function BlogArticleDiferenciasPlataformas() {
                     </button>
                     <button
                       onClick={() => handleShare("whatsapp")}
-                      className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
+                      className="flex items-center gap-2 px-4 py-2 bg-cta-600 hover:bg-cta-700 text-white rounded-lg transition-colors"
                     >
                       <MessageCircle className="w-4 h-4" />
                       WhatsApp
@@ -811,7 +812,7 @@ export default function BlogArticleDiferenciasPlataformas() {
                       </p>
                       <a
                         href="/blog/por-que-necesito-plataforma-whatsapp"
-                        className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
+                        className="text-brand-600 hover:text-brand-800 font-semibold transition-colors"
                       >
                         {language === "es"
                           ? "¿Por qué necesito una plataforma para WhatsApp Business API?"
@@ -824,7 +825,7 @@ export default function BlogArticleDiferenciasPlataformas() {
                       </p>
                       <a
                         href="/blog/cobro-plataformas-whatsapp"
-                        className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
+                        className="text-brand-600 hover:text-brand-800 font-semibold transition-colors"
                       >
                         {language === "es"
                           ? "¿Cómo es el cobro que hacen las plataformas de chats de WhatsApp?"
@@ -854,10 +855,10 @@ export default function BlogArticleDiferenciasPlataformas() {
                       : "Write to me and we will review which platform fits your volume, team, automation and integrations."}
                   </p>
                   <a
-                    href="https://wa.me/+573105317126"
+                    href="https://wa.me/573229540294"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
+                    className="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-800 text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
                   >
                     <MessageCircle className="w-5 h-5" />
                     {language === "es" ? "Escríbeme por WhatsApp" : "Write me on WhatsApp"}
@@ -877,7 +878,7 @@ export default function BlogArticleDiferenciasPlataformas() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Plataformas" : "Platforms"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -892,7 +893,7 @@ export default function BlogArticleDiferenciasPlataformas() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>7 min</span>
-                        <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/por-que-necesito-plataforma-whatsapp" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -901,7 +902,7 @@ export default function BlogArticleDiferenciasPlataformas() {
 
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Integraciones" : "Integrations"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -916,7 +917,7 @@ export default function BlogArticleDiferenciasPlataformas() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>7 min</span>
-                        <a href="/blog/plataformas-integracion-whatsapp-api" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/plataformas-integracion-whatsapp-api" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -925,7 +926,7 @@ export default function BlogArticleDiferenciasPlataformas() {
 
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Beneficios" : "Benefits"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -940,7 +941,7 @@ export default function BlogArticleDiferenciasPlataformas() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>6 min</span>
-                        <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -951,6 +952,7 @@ export default function BlogArticleDiferenciasPlataformas() {
             </div>
           </section>
 
+          <ArticleRelated slug="diferencias-plataformas-whatsapp" />
         </main>
         <Footer />
       </div>

@@ -1,4 +1,3 @@
-﻿import React, { createContext, useState, useContext, ReactNode } from 'react';
 
 // Traducciones
 const translations = {
@@ -774,65 +773,17 @@ const translations = {
 };
 
 type Language = 'es' | 'en';
-type TranslationKey = keyof typeof translations.es;
 
-interface LanguageContextType {
-  language: Language;
-  setLanguage: (lang: Language) => void;
-  t: (key: string) => string;
-}
-
-const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
-
-export const useLanguage = () => {
-  const context = useContext(LanguageContext);
-  if (!context) {
-    throw new Error('useLanguage must be used within a LanguageProvider');
+const t = (key: string): string => {
+  let value: any = translations.es;
+  for (const k of key.split('.')) {
+    value = value?.[k];
   }
-  return context;
+  return value || key;
 };
 
-interface LanguageProviderProps {
-  children: ReactNode;
-}
-
-export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
-  // Obtener idioma guardado en localStorage o usar español como defecto
-  const getSavedLanguage = (): Language => {
-    if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('language');
-      if (saved === 'es' || saved === 'en') {
-        return saved;
-      }
-    }
-    return 'es';
-  };
-
-  const [language, setLanguage] = useState<Language>(getSavedLanguage);
-
-  // Función para cambiar idioma y guardarlo en localStorage
-  const changeLanguage = (lang: Language) => {
-    setLanguage(lang);
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('language', lang);
-    }
-  };
-
-  const t = (key: string): string => {
-    const keys = key.split('.');
-    let value: any = translations[language];
-    
-    for (const k of keys) {
-      value = value?.[k];
-    }
-    
-    return value || key;
-  };
-
-  return (
-    <LanguageContext.Provider value={{ language, setLanguage: changeLanguage, t }}>
-      {children}
-    </LanguageContext.Provider>
-  );
-};
-
+/**
+ * El sitio se publica solo en español. Las páginas antiguas (blog, alcaldías) aún usan este hook
+ * y sus textos en inglés no se muestran; se eliminarán al rediseñarlas.
+ */
+export const useLanguage = () => ({ language: 'es' as Language, setLanguage: (_lang: Language) => {}, t });

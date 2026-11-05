@@ -3,10 +3,107 @@
   "outputDirectory": "dist/public",
   "installCommand": "npm install",
   "framework": "vite",
-  "rewrites": [
+  "cleanUrls": true,
+  "redirects": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/consultoria-whatsapp",
+      "destination": "/consultoria",
+      "permanent": true
+    },
+    {
+      "source": "/estrategias-marketing",
+      "destination": "/consultoria",
+      "permanent": true
+    },
+    {
+      "source": "/transformacion-digital",
+      "destination": "/modulos/automatizacion-chatbot",
+      "permanent": true
+    },
+    {
+      "source": "/automatizacion-ventas",
+      "destination": "/modulos/crm",
+      "permanent": true
+    },
+    {
+      "source": "/plataforma-integrada",
+      "destination": "/plataforma",
+      "permanent": true
+    },
+    {
+      "source": "/gestion-contactos",
+      "destination": "/modulos/crm",
+      "permanent": true
+    },
+    {
+      "source": "/dashboard-web",
+      "destination": "/modulos/reportes-analitica",
+      "permanent": true
+    },
+    {
+      "source": "/chatbots-conversacionales",
+      "destination": "/modulos/automatizacion-chatbot",
+      "permanent": true
+    },
+    {
+      "source": "/conversaciones-ia",
+      "destination": "/modulos/inteligencia-artificial",
+      "permanent": true
+    },
+    {
+      "source": "/blog/articulo-1",
+      "destination": "/blog/diferencia-whatsapp-business-api",
+      "permanent": true
+    },
+    {
+      "source": "/blog/articulo-2",
+      "destination": "/blog/casos-uso-whatsapp-business-api",
+      "permanent": true
+    },
+    {
+      "source": "/blog/articulo-3",
+      "destination": "/blog/primeros-pasos-migrar-whatsapp-api",
+      "permanent": true
+    },
+    {
+      "source": "/blog/articulo-4",
+      "destination": "/blog/beneficios-whatsapp-business-api-ia",
+      "permanent": true
+    },
+    {
+      "source": "/blog/articulo-5",
+      "destination": "/blog/plataformas-integracion-whatsapp-api",
+      "permanent": true
+    },
+    {
+      "source": "/blog/articulo-6",
+      "destination": "/blog/por-que-necesito-plataforma-whatsapp",
+      "permanent": true
+    },
+    {
+      "source": "/blog/articulo-7",
+      "destination": "/blog/diferencias-plataformas-whatsapp",
+      "permanent": true
+    },
+    {
+      "source": "/blog/articulo-8",
+      "destination": "/blog/cobro-plataformas-whatsapp",
+      "permanent": true
+    },
+    {
+      "source": "/blog/articulo-9",
+      "destination": "/blog/como-seleccionar-proveedor-whatsapp",
+      "permanent": true
+    },
+    {
+      "source": "/blog/articulo-10",
+      "destination": "/blog/politicas-whatsapp-business-api",
+      "permanent": true
+    },
+    {
+      "source": "/blog/articulo-11",
+      "destination": "/blog/por-que-restringen-whatsapp",
+      "permanent": true
     }
   ]
 }

@@ -3,6 +3,31 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Sistema visual crear.chat / Crear Comunicaciones */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", "Inter", ui-sans-serif, sans-serif;
+
+  /* Azul principal */
+  --color-brand-50: #eef4ff;
+  --color-brand-100: #dbe7ff;
+  --color-brand-200: #bcd2fd;
+  --color-brand-500: #2f6fe0;
+  --color-brand-600: #1553b6;
+  --color-brand-700: #0f4396;
+  --color-brand-800: #0d3474;
+  --color-brand-900: #0b2545;
+
+  /* Verde para llamados a la acción */
+  --color-cta-50: #ecfbf2;
+  --color-cta-600: #14854f;
+  --color-cta-700: #0f6e40;
+
+  /* Texto */
+  --color-ink: #0f1b2d;
+  --color-ink-muted: #4a5a73;
+}
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -43,10 +68,10 @@
 }
 
 :root {
-  /* Petrol Blue Theme for crear.chat */
-  --primary: #1B4F72;
+  /* Tema azul crear.chat */
+  --primary: #1553b6;
   --primary-foreground: #ffffff;
-  --sidebar-primary: #1B4F72;
+  --sidebar-primary: #1553b6;
   --sidebar-primary-foreground: #ffffff;
   --chart-1: #5BA3C7;
   --chart-2: #2E7A99;
@@ -64,19 +89,19 @@
   --secondary-foreground: oklch(0.3 0.01 65);
   --muted: oklch(0.94 0.002 286);
   --muted-foreground: oklch(0.55 0.015 286);
-  --accent: #1B4F72;
+  --accent: #1553b6;
   --accent-foreground: #ffffff;
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.985 0 0);
   --border: oklch(0.92 0.004 286.32);
   --input: oklch(0.92 0.004 286.32);
-  --ring: #1B4F72;
+  --ring: #1553b6;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.15 0.01 65);
-  --sidebar-accent: #1B4F72;
+  --sidebar-accent: #1553b6;
   --sidebar-accent-foreground: #ffffff;
   --sidebar-border: oklch(0.92 0.004 286.32);
-  --sidebar-ring: #1B4F72;
+  --sidebar-ring: #1553b6;
 }
 
 .dark {
@@ -137,7 +162,6 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap');
 
 @layer components {
   /**
@@ -173,8 +197,12 @@
     font-weight: 700;
   }
 
-  body, p, span, a, button {
+  /* Inter se hereda desde body; así los enlaces dentro de títulos conservan Poppins */
+  body {
     font-family: 'Inter', sans-serif;
+  }
+  button, input, select, textarea {
+    font-family: inherit;
   }
 
   /* Smooth fade-in animation */
@@ -216,5 +244,60 @@
       padding-right: 2rem;
       max-width: 1280px; /* Standard content width */
     }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-brand-500);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-brand-600);
+  }
+
+  .prose-site p + p {
+    margin-top: 1rem;
+  }
+
+  /* Preguntas frecuentes con <details>: el contenido queda en el HTML para buscadores */
+  .faq-item summary {
+    list-style: none;
+  }
+  .faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq-item[open] .faq-icon {
+    transform: rotate(45deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-fade-in-up,
+  .hover-elevate,
+  .hover-elevate:hover {
+    animation: none;
+    transition: none;
+    transform: none;
   }
 }

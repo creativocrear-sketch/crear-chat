@@ -7,7 +7,7 @@ import { defineConfig, type Plugin, type ViteDevServer } from "vite";
 
 const plugins = [react(), tailwindcss()];
 
-export default defineConfig({
+export default defineConfig(({ isSsrBuild }) => ({
   plugins,
   resolve: {
     alias: {
@@ -18,10 +18,17 @@ export default defineConfig({
   },
   envDir: path.resolve(import.meta.dirname),
   root: path.resolve(import.meta.dirname, "client"),
-  build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
-    emptyOutDir: true,
-  },
+  build: isSsrBuild
+    ? {
+        // Compilación de servidor usada solo para pre-renderizar las páginas (scripts/prerender.mjs).
+        outDir: path.resolve(import.meta.dirname, "dist/server"),
+        emptyOutDir: true,
+        copyPublicDir: false,
+      }
+    : {
+        outDir: path.resolve(import.meta.dirname, "dist/public"),
+        emptyOutDir: true,
+      },
   server: {
     port: 3000,
     strictPort: false, // Will find next available port if 3000 is busy
@@ -40,4 +47,4 @@ export default defineConfig({
       deny: ["**/.*"],
     },
   },
-});
+}));

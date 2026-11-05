@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ArticleRelated from "@/components/site/ArticleRelated";
 import { Calendar, Clock, ChevronLeft, Facebook, MessageCircle } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -81,7 +82,7 @@ export default function BlogArticle6() {
               : "Short answer: you need a platform because WhatsApp Business API does not include a ready-made interface, agent inbox, automation or security."
           }
         />
-        <meta property="og:image" content="https://crear.chat/logo-black.svg" />
+        <meta property="og:image" content="https://crear.chat/og-crear-chat.png" />
         <meta property="og:url" content="https://crear.chat/blog/por-que-necesito-plataforma-whatsapp" />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content="2026-03-21" />
@@ -111,11 +112,11 @@ export default function BlogArticle6() {
               name: "Crear.chat",
               logo: {
                 "@type": "ImageObject",
-                url: "https://crear.chat/logo-black.svg",
+                url: "https://crear.chat/logo-crear-chat.png",
               },
               url: "https://crear.chat",
             },
-            image: "https://crear.chat/logo-black.svg",
+            image: "https://crear.chat/og-crear-chat.png",
             description: pageDescription,
             keywords: "WhatsApp Business API, plataforma, multiagente, automatización, seguridad, escalabilidad, Colombia",
             articleSection: language === "es" ? "Plataformas y operación" : "Platforms and operations",
@@ -259,14 +260,14 @@ export default function BlogArticle6() {
               <div className="max-w-4xl mx-auto">
                 <a
                   href="/blog"
-                  className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium mb-8 transition-colors"
+                  className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-800 font-medium mb-8 transition-colors"
                 >
                   <ChevronLeft className="w-4 h-4" />
                   {language === "es" ? "Volver al blog" : "Back to blog"}
                 </a>
 
                 <div className="mb-6">
-                  <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                  <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                     {language === "es" ? "Plataformas" : "Platforms"}
                   </span>
                 </div>
@@ -357,11 +358,11 @@ export default function BlogArticle6() {
                           : "Key questions this article answers"}
                       </h2>
                       <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-0">
-                        <li><a href="#por-que-necesitas-plataforma" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Por qué necesitas una plataforma si ya tienes la API?" : "Why do you need a platform if you already have the API?"}</a></li>
-                        <li><a href="#que-aporta-una-plataforma" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Qué funciones aporta una plataforma?" : "What functions does a platform provide?"}</a></li>
-                        <li><a href="#se-puede-usar-sin-plataforma" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Se puede usar la API sin plataforma?" : "Can the API be used without a platform?"}</a></li>
-                        <li><a href="#comparacion-costos" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Qué sale más caro: construir o contratar?" : "What is more expensive: build or buy?"}</a></li>
-                        <li><a href="#resumen" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Cuál es el resumen corto?" : "What is the short summary?"}</a></li>
+                        <li><a href="#por-que-necesitas-plataforma" className="text-brand-600 hover:underline">{language === "es" ? "¿Por qué necesitas una plataforma si ya tienes la API?" : "Why do you need a platform if you already have the API?"}</a></li>
+                        <li><a href="#que-aporta-una-plataforma" className="text-brand-600 hover:underline">{language === "es" ? "¿Qué funciones aporta una plataforma?" : "What functions does a platform provide?"}</a></li>
+                        <li><a href="#se-puede-usar-sin-plataforma" className="text-brand-600 hover:underline">{language === "es" ? "¿Se puede usar la API sin plataforma?" : "Can the API be used without a platform?"}</a></li>
+                        <li><a href="#comparacion-costos" className="text-brand-600 hover:underline">{language === "es" ? "¿Qué sale más caro: construir o contratar?" : "What is more expensive: build or buy?"}</a></li>
+                        <li><a href="#resumen" className="text-brand-600 hover:underline">{language === "es" ? "¿Cuál es el resumen corto?" : "What is the short summary?"}</a></li>
                       </ul>
                     </div>
                   </section>
@@ -391,19 +392,19 @@ export default function BlogArticle6() {
                     </h2>
                     <p className="text-gray-700 mb-0 leading-relaxed">
                       {language === "es" ? "Si estás evaluando plataformas, también te conviene revisar " : "If you are evaluating platforms, you should also review "}
-                      <a href="/blog/plataformas-integracion-whatsapp-api" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/blog/plataformas-integracion-whatsapp-api" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "qué plataformas se integran con WhatsApp Business API" : "which platforms integrate with WhatsApp Business API"}
                       </a>
                       ,{" "}
-                      <a href="/blog/diferencias-plataformas-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/blog/diferencias-plataformas-whatsapp" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "las diferencias entre plataformas" : "the differences between platforms"}
                       </a>
                       ,{" "}
-                      <a href="/plataforma-integrada" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/plataforma" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "plataforma integrada" : "integrated platform"}
                       </a>
                       {" "}{language === "es" ? "y " : "and "}
-                      <a href="/consultoria-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/consultoria" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "consultoría especializada en WhatsApp Business API" : "specialized WhatsApp Business API consulting"}
                       </a>.
                     </p>
@@ -670,11 +671,11 @@ export default function BlogArticle6() {
 
                   <p className="text-gray-600 mb-6 leading-relaxed">
                     {language === "es" ? "Si quieres profundizar, revisa también " : "If you want to go deeper, also review "}
-                    <a href="/blog/plataformas-integracion-whatsapp-api" className="text-[#1B4F72] hover:underline font-medium">
+                    <a href="/blog/plataformas-integracion-whatsapp-api" className="text-brand-600 hover:underline font-medium">
                       {language === "es" ? "qué plataformas se integran con WhatsApp Business API" : "which platforms integrate with WhatsApp Business API"}
                     </a>
                     {" "}{language === "es" ? "y " : "and "}
-                    <a href="/blog/diferencias-plataformas-whatsapp" className="text-[#1B4F72] hover:underline font-medium">
+                    <a href="/blog/diferencias-plataformas-whatsapp" className="text-brand-600 hover:underline font-medium">
                       {language === "es" ? "en qué se diferencian las plataformas de WhatsApp" : "how WhatsApp platforms differ"}
                     </a>.
                   </p>
@@ -694,7 +695,7 @@ export default function BlogArticle6() {
                     </button>
                     <button
                       onClick={() => handleShare("whatsapp")}
-                      className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
+                      className="flex items-center gap-2 px-4 py-2 bg-cta-600 hover:bg-cta-700 text-white rounded-lg transition-colors"
                     >
                       <MessageCircle className="w-4 h-4" />
                       WhatsApp
@@ -710,7 +711,7 @@ export default function BlogArticle6() {
                       </p>
                       <a
                         href="/blog/plataformas-integracion-whatsapp-api"
-                        className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
+                        className="text-brand-600 hover:text-brand-800 font-semibold transition-colors"
                       >
                         {language === "es"
                           ? "¿Con qué plataformas puedo integrar WhatsApp Business API?"
@@ -723,7 +724,7 @@ export default function BlogArticle6() {
                       </p>
                       <a
                         href="/blog/diferencias-plataformas-whatsapp"
-                        className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
+                        className="text-brand-600 hover:text-brand-800 font-semibold transition-colors"
                       >
                         {language === "es"
                           ? "¿En qué se diferencian las plataformas que administran chats de WhatsApp?"
@@ -750,10 +751,10 @@ export default function BlogArticle6() {
                   </p>
 
                   <a
-                    href="https://wa.me/+573105317126"
+                    href="https://wa.me/573229540294"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
+                    className="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-800 text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
                   >
                     <MessageCircle className="w-5 h-5" />
                     {language === "es" ? "Escríbeme por WhatsApp" : "Write me on WhatsApp"}
@@ -773,7 +774,7 @@ export default function BlogArticle6() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Integraciones" : "Integrations"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -788,7 +789,7 @@ export default function BlogArticle6() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>7 min</span>
-                        <a href="/blog/plataformas-integracion-whatsapp-api" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/plataformas-integracion-whatsapp-api" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -797,7 +798,7 @@ export default function BlogArticle6() {
 
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Comparativa" : "Comparison"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -812,7 +813,7 @@ export default function BlogArticle6() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>7 min</span>
-                        <a href="/blog/diferencias-plataformas-whatsapp" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/diferencias-plataformas-whatsapp" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -821,7 +822,7 @@ export default function BlogArticle6() {
 
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Beneficios" : "Benefits"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -836,7 +837,7 @@ export default function BlogArticle6() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>6 min</span>
-                        <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -846,6 +847,7 @@ export default function BlogArticle6() {
               </div>
             </div>
           </section>
+          <ArticleRelated slug="por-que-necesito-plataforma-whatsapp" />
         </main>
         <Footer />
       </div>

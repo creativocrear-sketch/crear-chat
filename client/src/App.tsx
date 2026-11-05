@@ -1,43 +1,41 @@
-import { Toaster } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import { lazy, Suspense } from "react";
 import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
+import { Route, Router as WouterRouter, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import { LanguageProvider } from "@/contexts/LanguageContext";
 import { HelmetProvider } from "react-helmet-async";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
-import BlogArticle1 from "./pages/BlogArticle1";
-import BlogArticle2 from "./pages/BlogArticle2";
-import BlogArticle3 from "./pages/BlogArticle3";
-import BlogArticle4 from "./pages/BlogArticle4";
-import BlogArticle5 from "./pages/BlogArticle5";
-import BlogArticle6 from "./pages/BlogArticle6";
-import BlogArticle7 from "./pages/BlogArticle7";
-import BlogArticle8 from "./pages/BlogArticle8";
-import BlogArticle9 from "./pages/BlogArticle9";
-import BlogArticle10 from "./pages/BlogArticle10";
-import BlogArticle11 from "./pages/BlogArticle11";
-import Alcaldias from "./pages/Alcaldias";
-import AlcaldiaArticle1 from "./pages/AlcaldiaArticle1";
-import AlcaldiaArticle2 from "./pages/AlcaldiaArticle2";
-import AlcaldiaArticle3 from "./pages/AlcaldiaArticle3";
-import AlcaldiaArticle4 from "./pages/AlcaldiaArticle4";
-import AlcaldiaArticle5 from "./pages/AlcaldiaArticle5";
 import Planes from "./pages/Planes";
-import ConsultoriaWhatsApp from "./pages/ConsultoriaWhatsApp";
-import EstrategiasMarketing from "./pages/EstrategiasMarketing";
-import TransformacionDigital from "./pages/TransformacionDigital";
-import AutomatizacionVentas from "./pages/AutomatizacionVentas";
-import PlataformaIntegrada from "./pages/PlataformaIntegrada";
-import GestionContactos from "./pages/GestionContactos";
-import DashboardWeb from "./pages/DashboardWeb";
-import ChatbotsConversacionales from "./pages/ChatbotsConversacionales";
-import PoliticaDePrivacidad from "./pages/PoliticaDePrivacidad";
+import Plataforma from "./pages/Plataforma";
+import Modulos from "./pages/Modulos";
+import Consultoria from "./pages/Consultoria";
+import Contacto from "./pages/Contacto";
+import ModuloDetalle, { Integraciones } from "./pages/ModuloDetalle";
+
+// Páginas extensas y menos visitadas: se descargan solo cuando se abren.
+const BlogArticle1 = lazy(() => import("./pages/BlogArticle1"));
+const BlogArticle2 = lazy(() => import("./pages/BlogArticle2"));
+const BlogArticle3 = lazy(() => import("./pages/BlogArticle3"));
+const BlogArticle4 = lazy(() => import("./pages/BlogArticle4"));
+const BlogArticle5 = lazy(() => import("./pages/BlogArticle5"));
+const BlogArticle6 = lazy(() => import("./pages/BlogArticle6"));
+const BlogArticle7 = lazy(() => import("./pages/BlogArticle7"));
+const BlogArticle8 = lazy(() => import("./pages/BlogArticle8"));
+const BlogArticle9 = lazy(() => import("./pages/BlogArticle9"));
+const BlogArticle10 = lazy(() => import("./pages/BlogArticle10"));
+const BlogArticle11 = lazy(() => import("./pages/BlogArticle11"));
+const Alcaldias = lazy(() => import("./pages/Alcaldias"));
+const AlcaldiaArticle1 = lazy(() => import("./pages/AlcaldiaArticle1"));
+const AlcaldiaArticle2 = lazy(() => import("./pages/AlcaldiaArticle2"));
+const AlcaldiaArticle3 = lazy(() => import("./pages/AlcaldiaArticle3"));
+const AlcaldiaArticle4 = lazy(() => import("./pages/AlcaldiaArticle4"));
+const AlcaldiaArticle5 = lazy(() => import("./pages/AlcaldiaArticle5"));
+const PoliticaDePrivacidad = lazy(() => import("./pages/PoliticaDePrivacidad"));
+const BlogPost = lazy(() => import("./pages/BlogPost"));
 
 
-function Router() {
+function Routes() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
@@ -53,18 +51,8 @@ function Router() {
       <Route path={"/blog/como-seleccionar-proveedor-whatsapp"} component={BlogArticle9} />
       <Route path={"/blog/politicas-whatsapp-business-api"} component={BlogArticle10} />
       <Route path={"/blog/por-que-restringen-whatsapp"} component={BlogArticle11} />
-      {/* Rutas antiguas para compatibilidad - redirección */}
-      <Route path={"/blog/articulo-1"} component={BlogArticle1} />
-      <Route path={"/blog/articulo-2"} component={BlogArticle2} />
-      <Route path={"/blog/articulo-3"} component={BlogArticle3} />
-      <Route path={"/blog/articulo-4"} component={BlogArticle4} />
-      <Route path={"/blog/articulo-5"} component={BlogArticle5} />
-      <Route path={"/blog/articulo-6"} component={BlogArticle6} />
-      <Route path={"/blog/articulo-7"} component={BlogArticle7} />
-      <Route path={"/blog/articulo-8"} component={BlogArticle8} />
-      <Route path={"/blog/articulo-9"} component={BlogArticle9} />
-      <Route path={"/blog/articulo-10"} component={BlogArticle10} />
-      <Route path={"/blog/articulo-11"} component={BlogArticle11} />
+      <Route path={"/blog/:slug"} component={BlogPost} />
+      {/* Las URL antiguas (/blog/articulo-N, páginas de servicios) se redirigen con 301 en vercel.json */}
       <Route path={"/alcaldias"} component={Alcaldias} />
       <Route path={"/alcaldias/guia-turistica-whatsapp"} component={AlcaldiaArticle1} />
       <Route path={"/alcaldias/consulta-deudas-whatsapp"} component={AlcaldiaArticle2} />
@@ -72,14 +60,12 @@ function Router() {
       <Route path={"/alcaldias/consulta-sisben-subsidios"} component={AlcaldiaArticle4} />
       <Route path={"/alcaldias/consulta-turnos-agentes-transito"} component={AlcaldiaArticle5} />
       <Route path={"/planes"} component={Planes} />
-      <Route path={"/consultoria-whatsapp"} component={ConsultoriaWhatsApp} />
-      <Route path={"/estrategias-marketing"} component={EstrategiasMarketing} />
-      <Route path={"/transformacion-digital"} component={TransformacionDigital} />
-      <Route path={"/automatizacion-ventas"} component={AutomatizacionVentas} />
-      <Route path={"/plataforma-integrada"} component={PlataformaIntegrada} />
-      <Route path={"/gestion-contactos"} component={GestionContactos} />
-      <Route path={"/dashboard-web"} component={DashboardWeb} />
-      <Route path={"/chatbots-conversacionales"} component={ChatbotsConversacionales} />
+      <Route path={"/plataforma"} component={Plataforma} />
+      <Route path={"/modulos"} component={Modulos} />
+      <Route path={"/modulos/:slug"} component={ModuloDetalle} />
+      <Route path={"/integraciones"} component={Integraciones} />
+      <Route path={"/consultoria"} component={Consultoria} />
+      <Route path={"/contacto"} component={Contacto} />
       <Route path={"/Politica-De-Privacidad"} component={PoliticaDePrivacidad} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
@@ -88,26 +74,22 @@ function Router() {
   );
 }
 
-// NOTE: About Theme
-// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
-// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
+type AppProps = {
+  /** Ruta a renderizar cuando la página se genera en el servidor (pre-renderizado). */
+  ssrPath?: string;
+};
 
-function App() {
+function App({ ssrPath }: AppProps) {
   return (
     <ErrorBoundary>
       <HelmetProvider>
-        <LanguageProvider>
-          <ThemeProvider
-            defaultTheme="light"
-            // switchable
-          >
-            <TooltipProvider>
-              <Toaster />
-              <Router />
-            </TooltipProvider>
-          </ThemeProvider>
-        </LanguageProvider>
+        <ThemeProvider defaultTheme="light">
+          <WouterRouter ssrPath={ssrPath}>
+            <Suspense fallback={null}>
+              <Routes />
+            </Suspense>
+          </WouterRouter>
+        </ThemeProvider>
       </HelmetProvider>
     </ErrorBoundary>
   );

@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ArticleRelated from "@/components/site/ArticleRelated";
 import { Calendar, Clock, ChevronLeft, Facebook, MessageCircle } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -81,7 +82,7 @@ export default function BlogArticle3() {
               : "Short answer: migrating to WhatsApp Business API means structuring process, number, Meta verification, provider, integrations and tests before launch."
           }
         />
-        <meta property="og:image" content="https://crear.chat/logo-black.svg" />
+        <meta property="og:image" content="https://crear.chat/og-crear-chat.png" />
         <meta property="og:url" content="https://crear.chat/blog/primeros-pasos-migrar-whatsapp-api" />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content="2026-03-21" />
@@ -111,11 +112,11 @@ export default function BlogArticle3() {
               name: "Crear.chat",
               logo: {
                 "@type": "ImageObject",
-                url: "https://crear.chat/logo-black.svg",
+                url: "https://crear.chat/logo-crear-chat.png",
               },
               url: "https://crear.chat",
             },
-            image: "https://crear.chat/logo-black.svg",
+            image: "https://crear.chat/og-crear-chat.png",
             description: pageDescription,
             keywords: "WhatsApp Business API, migración, Cloud API, BSP, Meta, CRM, Colombia",
             articleSection: language === "es" ? "Implementación" : "Implementation",
@@ -259,14 +260,14 @@ export default function BlogArticle3() {
               <div className="max-w-4xl mx-auto">
                 <a
                   href="/blog"
-                  className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium mb-8 transition-colors"
+                  className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-800 font-medium mb-8 transition-colors"
                 >
                   <ChevronLeft className="w-4 h-4" />
                   {language === "es" ? "Volver al blog" : "Back to blog"}
                 </a>
 
                 <div className="mb-6">
-                  <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                  <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                     {language === "es" ? "Implementación" : "Implementation"}
                   </span>
                 </div>
@@ -357,11 +358,11 @@ export default function BlogArticle3() {
                           : "Key questions this article answers"}
                       </h2>
                       <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-0">
-                        <li><a href="#auditar-operacion-actual" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Por dónde empezar realmente?" : "Where should you really start?"}</a></li>
-                        <li><a href="#numero-y-estructura-de-canal" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Necesito un número nuevo?" : "Do I need a new number?"}</a></li>
-                        <li><a href="#verificacion-meta-y-bsp" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Qué papel tienen Meta y el BSP?" : "What role do Meta and the BSP play?"}</a></li>
-                        <li><a href="#crm-plantillas-y-pruebas" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Qué debo conectar antes de salir en vivo?" : "What should be connected before going live?"}</a></li>
-                        <li><a href="#errores-comunes-al-migrar" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Qué errores conviene evitar?" : "Which mistakes should be avoided?"}</a></li>
+                        <li><a href="#auditar-operacion-actual" className="text-brand-600 hover:underline">{language === "es" ? "¿Por dónde empezar realmente?" : "Where should you really start?"}</a></li>
+                        <li><a href="#numero-y-estructura-de-canal" className="text-brand-600 hover:underline">{language === "es" ? "¿Necesito un número nuevo?" : "Do I need a new number?"}</a></li>
+                        <li><a href="#verificacion-meta-y-bsp" className="text-brand-600 hover:underline">{language === "es" ? "¿Qué papel tienen Meta y el BSP?" : "What role do Meta and the BSP play?"}</a></li>
+                        <li><a href="#crm-plantillas-y-pruebas" className="text-brand-600 hover:underline">{language === "es" ? "¿Qué debo conectar antes de salir en vivo?" : "What should be connected before going live?"}</a></li>
+                        <li><a href="#errores-comunes-al-migrar" className="text-brand-600 hover:underline">{language === "es" ? "¿Qué errores conviene evitar?" : "Which mistakes should be avoided?"}</a></li>
                       </ul>
                     </div>
                   </section>
@@ -372,15 +373,15 @@ export default function BlogArticle3() {
                     </h2>
                     <p className="text-gray-700 mb-0 leading-relaxed">
                       {language === "es" ? "Antes de migrar, también conviene revisar " : "Before migrating, it also helps to review "}
-                      <a href="/blog/diferencia-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/blog/diferencia-whatsapp-business-api" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "la diferencia entre WhatsApp Business y API" : "the difference between WhatsApp Business and API"}
                       </a>
                       ,{" "}
-                      <a href="/blog/casos-uso-whatsapp-business-api" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/blog/casos-uso-whatsapp-business-api" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "los casos de uso más comunes" : "the most common use cases"}
                       </a>
                       {" "}{language === "es" ? "y " : "and "}
-                      <a href="/blog/plataformas-integracion-whatsapp-api" className="text-[#1B4F72] hover:underline font-medium">
+                      <a href="/blog/plataformas-integracion-whatsapp-api" className="text-brand-600 hover:underline font-medium">
                         {language === "es" ? "las integraciones que más valor aportan" : "the integrations that add the most value"}
                       </a>
                       .
@@ -579,7 +580,7 @@ export default function BlogArticle3() {
                     </button>
                     <button
                       onClick={() => handleShare("whatsapp")}
-                      className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
+                      className="flex items-center gap-2 px-4 py-2 bg-cta-600 hover:bg-cta-700 text-white rounded-lg transition-colors"
                     >
                       <MessageCircle className="w-4 h-4" />
                       WhatsApp
@@ -595,7 +596,7 @@ export default function BlogArticle3() {
                       </p>
                       <a
                         href="/blog/casos-uso-whatsapp-business-api"
-                        className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
+                        className="text-brand-600 hover:text-brand-800 font-semibold transition-colors"
                       >
                         {language === "es"
                           ? "¿Para qué me sirve WhatsApp Business API para mi negocio?"
@@ -608,7 +609,7 @@ export default function BlogArticle3() {
                       </p>
                       <a
                         href="/blog/beneficios-whatsapp-business-api-ia"
-                        className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
+                        className="text-brand-600 hover:text-brand-800 font-semibold transition-colors"
                       >
                         {language === "es"
                           ? "¿Qué beneficios tengo usando WhatsApp Business API + IA?"
@@ -635,10 +636,10 @@ export default function BlogArticle3() {
                   </p>
 
                   <a
-                    href="https://wa.me/+573105317126"
+                    href="https://wa.me/573229540294"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
+                    className="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-800 text-white font-semibold rounded-xl transition-all transform hover:scale-105 shadow-lg"
                   >
                     <MessageCircle className="w-5 h-5" />
                     {language === "es" ? "Escríbeme por WhatsApp" : "Write me on WhatsApp"}
@@ -658,7 +659,7 @@ export default function BlogArticle3() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Conceptos básicos" : "Basic concepts"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -673,7 +674,7 @@ export default function BlogArticle3() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>7 min</span>
-                        <a href="/blog/diferencia-whatsapp-business-api" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/diferencia-whatsapp-business-api" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -682,7 +683,7 @@ export default function BlogArticle3() {
 
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Casos de uso" : "Use cases"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -697,7 +698,7 @@ export default function BlogArticle3() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>7 min</span>
-                        <a href="/blog/casos-uso-whatsapp-business-api" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/casos-uso-whatsapp-business-api" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -706,7 +707,7 @@ export default function BlogArticle3() {
 
                   <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                     <div className="p-6">
-                      <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                      <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                         {language === "es" ? "Tendencias" : "Trends"}
                       </span>
                       <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -721,7 +722,7 @@ export default function BlogArticle3() {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>6 min</span>
-                        <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                        <a href="/blog/beneficios-whatsapp-business-api-ia" className="text-brand-600 hover:text-brand-800 font-medium">
                           {language === "es" ? "Leer más" : "Read more"}
                         </a>
                       </div>
@@ -731,6 +732,7 @@ export default function BlogArticle3() {
               </div>
             </div>
           </section>
+          <ArticleRelated slug="primeros-pasos-migrar-whatsapp-api" />
         </main>
         <Footer />
       </div>

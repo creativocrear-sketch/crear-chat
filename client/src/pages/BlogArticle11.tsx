@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ArticleRelated from "@/components/site/ArticleRelated";
 import { Calendar, Clock, ChevronLeft, Share2, Facebook, MessageCircle } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -81,7 +82,7 @@ export default function BlogArticle11() {
               : "Short answer: WhatsApp restricts numbers for spam, high block rate, policy violations and lack of consent."
           }
         />
-        <meta property="og:image" content="https://crear.chat/logo-black.svg" />
+        <meta property="og:image" content="https://crear.chat/og-crear-chat.png" />
         <meta property="og:url" content="https://crear.chat/blog/por-que-restringen-whatsapp" />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content="2026-03-21" />
@@ -111,11 +112,11 @@ export default function BlogArticle11() {
               name: "Crear.chat",
               logo: {
                 "@type": "ImageObject",
-                url: "https://crear.chat/logo-black.svg",
+                url: "https://crear.chat/logo-crear-chat.png",
               },
               url: "https://crear.chat",
             },
-            image: "https://crear.chat/logo-black.svg",
+            image: "https://crear.chat/og-crear-chat.png",
             description: pageDescription,
             keywords: "WhatsApp, restricciones, spam, tasa de rechazo, políticas, consentimiento, Colombia",
             articleSection: language === "es" ? "Regulaciones" : "Regulations",
@@ -230,20 +231,22 @@ export default function BlogArticle11() {
             <div className="max-w-4xl mx-auto">
               <a
                 href="/blog"
-                className="inline-flex items-center gap-2 text-[#1B4F72] hover:text-[#0F2F45] font-medium mb-8 transition-colors"
+                className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-800 font-medium mb-8 transition-colors"
               >
                 <ChevronLeft className="w-4 h-4" />
                 {language === 'es' ? 'Volver al blog' : 'Back to blog'}
               </a>
               
               <div className="mb-6">
-                <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                   {language === 'es' ? 'Regulaciones' : 'Regulations'}
                 </span>
               </div>
               
               <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
-                {pageTitle}
+                {language === "es"
+                  ? "¿Por qué me pueden restringir el número de WhatsApp?"
+                  : "Why can my WhatsApp number be restricted?"}
               </h1>
 
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
@@ -298,10 +301,10 @@ export default function BlogArticle11() {
                       {language === "es" ? "Preguntas clave que responde este artículo" : "Key questions this article answers"}
                     </h2>
                     <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-0">
-                      <li><a href="#spam" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Qué es el spam?" : "What is spam?"}</a></li>
-                      <li><a href="#tasa-rechazo" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Qué es la tasa de rechazo?" : "What is the block rate?"}</a></li>
-                      <li><a href="#politicas" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Qué violaciones de políticas existen?" : "What policy violations exist?"}</a></li>
-                      <li><a href="#consecuencias" className="text-[#1B4F72] hover:underline">{language === "es" ? "¿Cuáles son las consecuencias?" : "What are the consequences?"}</a></li>
+                      <li><a href="#spam" className="text-brand-600 hover:underline">{language === "es" ? "¿Qué es el spam?" : "What is spam?"}</a></li>
+                      <li><a href="#tasa-rechazo" className="text-brand-600 hover:underline">{language === "es" ? "¿Qué es la tasa de rechazo?" : "What is the block rate?"}</a></li>
+                      <li><a href="#politicas" className="text-brand-600 hover:underline">{language === "es" ? "¿Qué violaciones de políticas existen?" : "What policy violations exist?"}</a></li>
+                      <li><a href="#consecuencias" className="text-brand-600 hover:underline">{language === "es" ? "¿Cuáles son las consecuencias?" : "What are the consequences?"}</a></li>
                     </ul>
                   </div>
                 </section>
@@ -848,7 +851,7 @@ export default function BlogArticle11() {
                   </button>
                   <button
                     onClick={() => handleShare('whatsapp')}
-                    className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
+                    className="flex items-center gap-2 px-4 py-2 bg-cta-600 hover:bg-cta-700 text-white rounded-lg transition-colors"
                   >
                     <MessageCircle className="w-4 h-4" />
                     {language === 'es' ? 'WhatsApp' : 'WhatsApp'}
@@ -863,14 +866,14 @@ export default function BlogArticle11() {
                     <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Artículo anterior' : 'Previous article'}</p>
                     <a
                       href="/blog/politicas-whatsapp-business-api"
-                      className="text-[#1B4F72] hover:text-[#0F2F45] font-semibold transition-colors"
+                      className="text-brand-600 hover:text-brand-800 font-semibold transition-colors"
                     >
                       {language === 'es' ? '¿Cuáles son las principales políticas de WhatsApp Business API?' : 'What are the main WhatsApp Business API policies?'}
                     </a>
                   </div>
                   <div className="text-right">
                     <p className="text-sm text-gray-500 mb-1">{language === 'es' ? 'Siguiente artículo' : 'Next article'}</p>
-                    <span className="text-gray-400 font-medium">
+                    <span className="text-gray-500 font-medium">
                       {language === 'es' ? 'Este es el último artículo de la serie' : 'This is the last article in the series'}
                     </span>
                   </div>
@@ -893,10 +896,10 @@ export default function BlogArticle11() {
                 </p>
                 
                 <a
-                  href="https://wa.me/+573105317126"
+                  href="https://wa.me/573229540294"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-[#1B4F72] hover:bg-[#0F2F45] text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-brand-600 hover:bg-brand-800 text-white font-semibold transition-all duration-300 shadow-md hover:shadow-lg rounded-lg text-lg"
                 >
                   {language === 'es' ? 'Escríbeme por WhatsApp' : 'Write me on WhatsApp'}
                 </a>
@@ -914,7 +917,7 @@ export default function BlogArticle11() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
-                    <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                    <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                       {language === 'es' ? 'Conceptos Básicos' : 'Basic Concepts'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -925,7 +928,7 @@ export default function BlogArticle11() {
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>5 min</span>
-                      <a href="/blog/diferencia-whatsapp-business-api" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                      <a href="/blog/diferencia-whatsapp-business-api" className="text-brand-600 hover:text-brand-800 font-medium">
                         {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
@@ -934,7 +937,7 @@ export default function BlogArticle11() {
 
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
-                    <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                    <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                       {language === 'es' ? 'Casos de Uso' : 'Use Cases'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -945,7 +948,7 @@ export default function BlogArticle11() {
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>8 min</span>
-                      <a href="/blog/casos-uso-whatsapp-business-api" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                      <a href="/blog/casos-uso-whatsapp-business-api" className="text-brand-600 hover:text-brand-800 font-medium">
                         {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
@@ -954,7 +957,7 @@ export default function BlogArticle11() {
 
                 <article className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
                   <div className="p-6">
-                    <span className="inline-block px-3 py-1 bg-blue-50 text-[#1B4F72] text-xs font-semibold rounded-full mb-4">
+                    <span className="inline-block px-3 py-1 bg-blue-50 text-brand-600 text-xs font-semibold rounded-full mb-4">
                       {language === 'es' ? 'Implementación' : 'Implementation'}
                     </span>
                     <h3 className="font-bold text-lg text-gray-900 mb-3">
@@ -965,7 +968,7 @@ export default function BlogArticle11() {
                     </p>
                     <div className="flex items-center justify-between text-xs text-gray-500">
                       <span>7 min</span>
-                      <a href="/blog/primeros-pasos-migrar-whatsapp-api" className="text-[#1B4F72] hover:text-[#0F2F45] font-medium">
+                      <a href="/blog/primeros-pasos-migrar-whatsapp-api" className="text-brand-600 hover:text-brand-800 font-medium">
                         {language === 'es' ? 'Leer más' : 'Read more'}
                       </a>
                     </div>
@@ -975,6 +978,7 @@ export default function BlogArticle11() {
             </div>
           </div>
         </section>
+        <ArticleRelated slug="por-que-restringen-whatsapp" />
       </main>
       <Footer />
     </div>
