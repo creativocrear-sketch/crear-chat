@@ -10,9 +10,10 @@ export const COMPANY = {
   legalName: "Crear Comunicaciones",
   foundingYear: 1993,
   country: "Colombia",
-  // Logo temporal: sigue alojado en el CDN anterior hasta recibir el archivo definitivo.
-  logoUrl:
-    "https://d2xsxph8kpxj0f.cloudfront.net/310519663365918901/dSwJK3W4FW3am7RcRumTG2/Diseñosintítulo(19)_2a52744b.png",
+  logoUrl: "/logo-crear-chat-96.webp",
+  logoUrl2x: "/logo-crear-chat-192.webp",
+  /** Versión grande para datos estructurados y redes sociales. */
+  logoLarge: "/logo-crear-chat.png",
 };
 
 export const CONTACT = {
@@ -21,7 +22,7 @@ export const CONTACT = {
   email: "contacto@crearcomunicaciones.net",
   address: "Cra. 4 #9-73, oficina 306",
   city: "Cartago, Valle del Cauca",
-  hours: "Lunes a viernes, 9:00 a. m. a 6:00 p. m.",
+  hours: "Lunes a viernes, 9 a. m. a 6 p. m.",
   facebook: "https://facebook.com/crearcomunicaciones",
   instagram: "https://instagram.com/crear.chat",
 };

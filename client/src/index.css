@@ -197,8 +197,12 @@
     font-weight: 700;
   }
 
-  body, p, span, a, button {
+  /* Inter se hereda desde body; así los enlaces dentro de títulos conservan Poppins */
+  body {
     font-family: 'Inter', sans-serif;
+  }
+  button, input, select, textarea {
+    font-family: inherit;
   }
 
   /* Smooth fade-in animation */

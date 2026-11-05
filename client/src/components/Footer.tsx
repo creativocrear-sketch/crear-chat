@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { Facebook, Instagram, Mail, MapPin, MessageCircle } from "lucide-react";
 import { COMPANY, CONTACT, CTA, MODULE_LINKS, whatsappUrl } from "@/lib/site";
 import ButtonLink from "@/components/site/ButtonLink";
+import Logo from "@/components/site/Logo";
 
 const COMPANY_LINKS = [
   { label: "Consultoría y soluciones", href: "/consultoria" },
@@ -20,7 +21,7 @@ export default function Footer() {
     <footer className="bg-brand-900 text-brand-100">
       <div className="container grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
         <div>
-          <img src={COMPANY.logoUrl} alt="crear.chat" className="h-14 w-auto" width={140} height={56} loading="lazy" />
+          <Logo onDark />
           <p className="mt-4 max-w-sm leading-relaxed">
             <strong className="text-white">crear.chat</strong> es la plataforma de WhatsApp Business API, CRM e inteligencia
             artificial de <strong className="text-white">{COMPANY.legalName}</strong>, empresa colombiana con trayectoria

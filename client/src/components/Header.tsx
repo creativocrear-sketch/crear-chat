@@ -2,8 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "wouter";
 import { ChevronDown, Menu, X, LayoutGrid, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { COMPANY, CTA, MAIN_NAV, MODULE_LINKS } from "@/lib/site";
+import { CTA, MAIN_NAV, MODULE_LINKS } from "@/lib/site";
 import ButtonLink from "@/components/site/ButtonLink";
+import Logo from "@/components/site/Logo";
 
 const PLATFORM_OVERVIEW = [
   { label: "Qué es crear.chat", href: "/plataforma", description: "La plataforma en un vistazo", icon: Sparkles },
@@ -45,7 +46,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
       <div className="container flex h-[72px] items-center justify-between gap-6">
         <Link href="/" className="flex flex-shrink-0 items-center" aria-label="crear.chat, ir al inicio">
-          <img src={COMPANY.logoUrl} alt="crear.chat" className="h-12 w-auto" width={120} height={48} />
+          <Logo />
         </Link>
 
         {/* Navegación de escritorio */}
