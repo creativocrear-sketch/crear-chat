@@ -122,7 +122,7 @@ export default function Footer() {
           <p>
             © {year} {COMPANY.legalName}. Todos los derechos reservados.
           </p>
-          <p>crear.chat · WhatsApp Business API, CRM e inteligencia artificial para empresas en Colombia</p>
+          <p>crear.chat · WhatsApp Business API, CRM e inteligencia artificial para empresas y profesionales</p>
         </div>
       </div>
     </footer>
