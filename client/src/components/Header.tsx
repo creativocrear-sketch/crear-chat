@@ -43,7 +43,7 @@ export default function Header() {
   const platformActive = ["/plataforma", "/modulos", "/integraciones"].some(isActive);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
+    <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95">
       <div className="container flex h-[72px] items-center justify-between gap-6">
         <Link href="/" className="flex flex-shrink-0 items-center">
           <Logo />
