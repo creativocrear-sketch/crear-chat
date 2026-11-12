@@ -8,7 +8,10 @@ import { Bot, Instagram, MessageCircle, Package, Sparkles, Tag } from "lucide-re
 export default function HeroMockup() {
   return (
     <div aria-hidden="true" className="relative mx-auto w-full max-w-md select-none">
-      <div className="absolute -inset-6 rounded-[2rem] bg-gradient-to-br from-brand-200/60 via-brand-50 to-cta-50 blur-2xl" />
+      <div
+        className="absolute -inset-12 rounded-full"
+        style={{ background: "radial-gradient(closest-side, rgb(188 210 253 / 0.7), transparent)" }}
+      />
 
       <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-2xl shadow-brand-900/15">
         <div className="flex items-center justify-between border-b border-slate-100 px-5 py-4">

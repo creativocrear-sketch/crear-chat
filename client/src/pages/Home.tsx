@@ -168,7 +168,8 @@ export default function Home() {
       <section className="relative overflow-hidden bg-gradient-to-b from-brand-50 via-white to-white">
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute -left-40 top-20 h-96 w-96 rounded-full bg-brand-100/50 blur-3xl"
+          className="pointer-events-none absolute -left-40 top-20 h-96 w-96 rounded-full"
+          style={{ background: "radial-gradient(closest-side, rgb(219 231 255 / 0.8), transparent)" }}
         />
         <div className="container relative grid items-center gap-12 py-14 md:py-20 lg:grid-cols-[1.1fr_1fr] lg:py-24">
           <div>

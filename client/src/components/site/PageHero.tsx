@@ -17,7 +17,8 @@ export default function PageHero({ eyebrow, title, intro, actions, aside, breadc
     <section className="relative overflow-hidden bg-gradient-to-b from-brand-50 to-white">
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute -right-32 -top-32 h-96 w-96 rounded-full bg-brand-100/60 blur-3xl"
+        className="pointer-events-none absolute -right-32 -top-32 h-96 w-96 rounded-full"
+        style={{ background: "radial-gradient(closest-side, rgb(219 231 255 / 0.9), transparent)" }}
       />
       <div className="container relative py-12 md:py-20">
         {breadcrumbs && <Breadcrumbs items={breadcrumbs} className="mb-6" />}
