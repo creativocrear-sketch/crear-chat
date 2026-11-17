@@ -1,4 +1,5 @@
 import { createRoot, hydrateRoot } from "react-dom/client";
+import { inject } from "@vercel/analytics";
 import App from "./App";
 import "./index.css";
 
@@ -10,3 +11,6 @@ if (container.hasChildNodes()) {
 } else {
   createRoot(container).render(<App />);
 }
+
+// Vercel Web Analytics: visitas y fuentes de tráfico (por ejemplo, chatgpt.com). No usa cookies.
+inject();
