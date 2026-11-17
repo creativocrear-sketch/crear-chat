@@ -11,6 +11,8 @@ import Plataforma from "./pages/Plataforma";
 import Modulos from "./pages/Modulos";
 import Consultoria from "./pages/Consultoria";
 import Contacto from "./pages/Contacto";
+import Sectores from "./pages/Sectores";
+import SectorDetalle from "./pages/SectorDetalle";
 import ModuloDetalle, { Integraciones } from "./pages/ModuloDetalle";
 
 // Páginas extensas y menos visitadas: se descargan solo cuando se abren.
@@ -66,6 +68,8 @@ function Routes() {
       <Route path={"/integraciones"} component={Integraciones} />
       <Route path={"/consultoria"} component={Consultoria} />
       <Route path={"/contacto"} component={Contacto} />
+      <Route path={"/sectores"} component={Sectores} />
+      <Route path={"/sectores/:slug"} component={SectorDetalle} />
       <Route path={"/Politica-De-Privacidad"} component={PoliticaDePrivacidad} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}

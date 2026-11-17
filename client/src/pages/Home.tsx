@@ -98,8 +98,9 @@ const TRUST_POINTS = [
   },
   {
     icon: Compass,
-    title: "Empresas e instituciones",
-    text: "Soluciones para comercios, servicios, organizaciones y entidades públicas como las alcaldías.",
+    title: "Experiencia en varios sectores",
+    text: "Hoy trabajamos con cámaras de comercio, hoteles, restaurantes, almacenes de bicicletas e IPS.",
+    href: "/sectores",
   },
 ];
 
@@ -354,7 +355,7 @@ export default function Home() {
         />
         <div className="grid gap-5 md:grid-cols-3">
           {TRUST_POINTS.map((item) => (
-            <FeatureCard key={item.title} icon={item.icon} title={item.title}>
+            <FeatureCard key={item.title} icon={item.icon} title={item.title} href={item.href} linkLabel="Ver sectores">
               {item.text}
             </FeatureCard>
           ))}
