@@ -108,11 +108,15 @@ export default function Planes() {
         jsonLd={[
           {
             "@context": "https://schema.org",
-            "@type": "Product",
+            // SoftwareApplication (no Product): Google trata Product con ofertas como ficha de comerciante
+            // de un artículo físico y exige envío, devoluciones e imagen, que no aplican a una suscripción.
+            "@type": "SoftwareApplication",
             name: "crear.chat",
             description:
               "Plataforma de WhatsApp Business API, CRM, inteligencia artificial y automatización para empresas.",
-            brand: { "@type": "Brand", name: "crear.chat" },
+            applicationCategory: "BusinessApplication",
+            operatingSystem: "Web",
+            url: `${SITE_URL}/planes`,
             offers,
           },
           faqJsonLd(FAQS),
