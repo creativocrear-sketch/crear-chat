@@ -1,0 +1,16 @@
+name: IndexNow
+
+# Cuando Vercel termina de publicar en producción, avisa a Bing (IndexNow) que las páginas cambiaron.
+on:
+  deployment_status:
+
+jobs:
+  notificar:
+    if: github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/indexnow.mjs
