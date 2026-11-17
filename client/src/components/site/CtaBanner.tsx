@@ -19,7 +19,8 @@ export default function CtaBanner({ title, text, primary = CTA.advisory, seconda
         <div className="relative overflow-hidden rounded-3xl bg-brand-900 px-6 py-12 text-center md:px-16 md:py-16">
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-brand-600/40 blur-3xl"
+            className="pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full"
+            style={{ background: "radial-gradient(closest-side, rgb(21 83 182 / 0.6), transparent)" }}
           />
           <div className="relative mx-auto max-w-2xl">
             <h2 className="font-display text-3xl leading-tight text-white md:text-4xl">{title}</h2>
