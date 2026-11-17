@@ -76,6 +76,7 @@ export const MODULE_LINKS: NavLink[] = [
 
 export const MAIN_NAV: NavLink[] = [
   { label: "Consultoría", href: "/consultoria" },
+  { label: "Sectores", href: "/sectores" },
   { label: "Planes", href: "/planes" },
   { label: "Blog", href: "/blog" },
   { label: "Contacto", href: "/contacto" },

@@ -8,6 +8,7 @@ import { COMPANY, CONTACT, SITE_URL } from "./lib/site";
 import { PLANS, CUSTOM_PLAN, formatCop } from "./lib/plans";
 import { MODULE_PAGES, INTEGRATIONS_PAGE } from "./content/modulos";
 import { BLOG_POSTS } from "./lib/blog";
+import { SECTORS } from "./content/sectores";
 
 /** Genera el HTML de una ruta. Espera a que carguen las páginas diferidas (lazy) antes de devolverlo. */
 export async function render(url: string) {
@@ -36,6 +37,8 @@ export const PAGES: SitemapEntry[] = [
   { path: INTEGRATIONS_PAGE.path, priority: 0.8, changefreq: "monthly" },
   { path: "/consultoria", priority: 0.9, changefreq: "monthly" },
   { path: "/planes", priority: 0.9, changefreq: "monthly" },
+  { path: "/sectores", priority: 0.8, changefreq: "monthly" },
+  ...SECTORS.map((sector) => ({ path: `/sectores/${sector.slug}`, priority: 0.8, changefreq: "monthly" })),
   { path: "/contacto", priority: 0.7, changefreq: "yearly" },
   { path: "/blog", priority: 0.8, changefreq: "weekly" },
   ...BLOG_POSTS.map((post) => ({ path: `/blog/${post.slug}`, priority: 0.7, changefreq: "monthly", lastmod: post.date })),
@@ -89,6 +92,12 @@ ${PLANS.map(
 ).join("\n")}
 - Plan a la medida ("Crea tu plan"): desde ${formatCop(CUSTOM_PLAN.basePrice)} COP/mes.
 - [Comparación completa de planes](${SITE_URL}/planes)
+
+## Sectores
+
+${COMPANY.legalName} trabaja actualmente con cámaras de comercio, hoteles, restaurantes, almacenes de bicicletas e IPS en Colombia.
+
+${SECTORS.map((sector) => `- [${sector.name}](${SITE_URL}/sectores/${sector.slug}): ${sector.summary}`).join("\n")}
 
 ## Consultoría
 

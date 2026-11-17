@@ -7,6 +7,7 @@ import Logo from "@/components/site/Logo";
 const COMPANY_LINKS = [
   { label: "Consultoría y soluciones", href: "/consultoria" },
   { label: "Planes y precios", href: "/planes" },
+  { label: "Sectores", href: "/sectores" },
   { label: "Soluciones para alcaldías", href: "/alcaldias" },
   { label: "Blog", href: "/blog" },
   { label: "Contacto", href: "/contacto" },
