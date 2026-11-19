@@ -1,11 +1,9 @@
 name: Respaldo en R2
 
-# Respalda crear.chat en Cloudflare R2 (bucket crearchat-web, carpeta backups/production/):
-# todos los días a las 02:00 UTC (9:00 p. m. en Colombia) y después de cada publicación en producción.
+# Respalda crear.chat en Cloudflare R2 (bucket crearchat-web, carpeta backups/production/)
+# después de cada publicación en producción; también se puede lanzar a mano desde Actions.
 # Conserva los últimos 30 respaldos. Ver scripts/respaldo-r2.sh.
 on:
-  schedule:
-    - cron: "0 2 * * *"
   deployment_status:
   workflow_dispatch:
 
